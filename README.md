@@ -33,6 +33,23 @@
 请使用 public-api-skill 调用 animals/adoptapet，使用配置文件中的认证和代理设置，先执行 dry-run，再请求 /v1/pets?limit=10。
 ```
 
+## 安装这个 Skill 的提示词
+
+将下面的提示词发送给负责安装 Skill 的 Agent：
+
+```text
+请安装通用 Skill public-api-skill，来源是 https://github.com/guchengod/public-apis-skill.git。
+
+要求：
+1. 检查当前环境支持的 Skill 安装目录，并将仓库安装为 public-api-skill。
+2. 如果同名 Skill 已存在，先比较版本并保留用户已有的认证、代理和本地配置，不要直接覆盖用户文件。
+3. 验证 SKILL.md、agents/openai.yaml、scripts/、references/catalog/ 和 references/apis/ 都存在。
+4. 运行目录覆盖校验和 Python 测试，确认安装后的 Skill 可以检索接口、读取接口定义并执行 dry-run。
+5. 返回安装路径、当前版本和验证结果。
+
+不要写入或提交任何 API Key、OAuth Token、代理密码等秘密，也不要在安装验证阶段发起真实 API 请求。
+```
+
 ## 三层目录
 
 | 层级 | 内容 |
