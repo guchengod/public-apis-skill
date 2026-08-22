@@ -4,6 +4,8 @@ Copy `assets/api-config.example.json` outside the skill and edit only the APIs y
 
 Prefer environment variables for secrets. Resolution order is: `auth.value` in the API override, the variable named by `auth.value_env`, then the deterministic variable shown by `api_client.py show`. File values are supported for controlled local environments but should never be committed.
 
+When a required API key is missing, follow [API key acquisition](key-acquisition.md). If the Agent has suitable mailbox capability and the user has authorized key acquisition, it may complete a free email-only registration and configure the resulting environment variable. Without mailbox capability, it must provide the official signup steps and ask the user to register.
+
 Each API override supports:
 
 ```json

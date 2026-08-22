@@ -1,6 +1,6 @@
 ---
 name: public-api-skill
-description: Find and call public APIs to retrieve current or real-time external data. Trigger for requests involving 公开接口、免费 API、实时数据、最新数据、公开数据源, API discovery, live weather or prices, authentication requirements, HTTPS/CORS metadata, or configured HTTP requests to listed services.
+description: Find and call public APIs to retrieve current or real-time external data. Trigger for requests involving 公开接口、免费 API、实时数据、最新数据、公开数据源、自动注册获取 API Key, API discovery, live weather or prices, authentication requirements, HTTPS/CORS metadata, or configured HTTP requests to listed services.
 ---
 
 # Public API Catalog
@@ -16,10 +16,14 @@ Use this skill as a three-layer interface:
 1. Search before choosing: `python3 scripts/api_client.py list --search "<need>"`.
 2. Inspect a candidate: `python3 scripts/api_client.py show <category/api-id>`.
 3. Follow its `documentation_url` to learn provider-specific paths and parameters. The upstream catalog does not publish endpoint specifications, so never treat a documentation URL as a base URL.
-4. For authenticated, proxied, or callable requests, read [configuration](references/configuration.md), create a local config, and put secrets in environment variables.
+4. For authenticated, proxied, or callable requests, read [configuration](references/configuration.md), create a local config, and put secrets in environment variables. If a required credential is missing, read [API key acquisition](references/key-acquisition.md) before asking the user to register.
 5. Preview authentication and URL assembly with `request ... --dry-run`, then remove `--dry-run` only when the target, method, and parameters are correct.
 
 Do not claim an API is currently available from catalog metadata alone. `https` and `cors` describe upstream catalog claims and may be `unknown`.
+
+## Missing API credentials
+
+Reuse a configured credential before acquiring another one. For `apiKey` or `X-Mashape-Key`, follow [API key acquisition](references/key-acquisition.md): when the user has authorized key acquisition and the current Agent has suitable mailbox capability, it may complete a verified free email-only signup and configure the key securely. Without mailbox capability, provide the official signup URL and ask the user to register. Treat OAuth as a separate consent flow.
 
 ## Commands
 
