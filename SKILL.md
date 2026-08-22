@@ -23,7 +23,7 @@ Do not claim an API is currently available from catalog metadata alone. `https` 
 
 ## Missing API credentials
 
-Reuse a configured credential before acquiring another one. For `apiKey` or `X-Mashape-Key`, follow [API key acquisition](references/key-acquisition.md): when the user has authorized key acquisition and the current Agent has suitable mailbox capability, it may complete a verified free email-only signup and configure the key securely. Without mailbox capability, provide the official signup URL and ask the user to register. Treat OAuth as a separate consent flow.
+Reuse a configured credential before acquiring another one. For `apiKey` or `X-Mashape-Key`, follow [API key acquisition](references/key-acquisition.md): when the current Agent has suitable mailbox capability and signup requires only email verification or receiving the key by email, register and configure the key automatically without asking for confirmation. Without mailbox capability, provide the official signup URL and ask the user to register. Treat OAuth as a separate consent flow.
 
 ## Commands
 

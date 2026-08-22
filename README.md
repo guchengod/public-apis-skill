@@ -12,7 +12,7 @@
 - 支持 `apiKey`、OAuth、`X-Mashape-Key` 和 User-Agent 认证策略
 - 支持全局代理、单接口代理覆盖、HTTP/HTTPS 分流和环境变量代理
 - API Key 和代理凭据支持环境变量，`--dry-run` 自动脱敏
-- 缺少 API Key 时，可在用户授权且 Agent 已配置邮件能力的情况下完成免费邮箱注册、验证和安全配置
+- 缺少 API Key 时，Agent 有邮件能力且仅需邮件验证或接收 Key 时，会直接自动注册、验证和安全配置
 - 使用语义指纹和目录摘要实现增量同步，避免上游 README 行号变化造成全量文件变更
 - GitHub Action 每日检查上游并自动创建或更新同步 Pull Request
 - 纯 Python 标准库运行，无需第三方运行时依赖
@@ -40,7 +40,7 @@
 ```
 
 ```text
-帮我获取实时空气质量数据。如果选定接口需要 API Key，我授权你在确认它是免费且仅需邮箱验证后，使用当前已连接的邮件能力注册、完成验证并安全配置密钥；如果没有邮件能力，请给我官方注册链接和配置步骤。
+帮我获取实时空气质量数据。如果选定接口需要 API Key，且当前已连接的邮件能力可以完成验证码、验证链接或接收 Key，请直接自动注册、完成验证并安全配置密钥，不用再次询问；如果没有邮件能力，请给我官方注册链接和配置步骤。
 ```
 
 ## 安装这个 Skill 的提示词
@@ -119,11 +119,11 @@ python3 scripts/api_client.py list --auth apiKey --json
 当选定接口需要 Key 且当前没有可用凭据时：
 
 1. Agent 先检查是否已有环境变量或 Secret Manager 凭据，并优先复用。
-2. 如果用户已授权获取 Key，且 Agent 具备可读取验证邮件的邮箱能力，可自动完成免费、纯邮箱注册和验证。
+2. 如果 Agent 具备邮件收发能力，且注册只需要邮箱验证码、验证链接或通过邮件接收 Key，会直接自动注册和验证，无需用户再次确认。
 3. Key 只写入环境变量或 Secret Manager；配置文件仅保存 `auth.value_env` 的变量名。
 4. 如果没有邮箱能力，Agent 会提供官方注册链接、Key 所在位置和配置步骤，请用户完成注册。
 
-涉及付款、自动续费试用、手机或身份验证、CAPTCHA、密码无安全存储位置等情况时必须交给用户处理。OAuth 不属于邮箱注册获取 API Key 的流程。完整规则见 [references/key-acquisition.md](references/key-acquisition.md)。
+涉及付款、自动续费试用、手机验证、身份验证、CAPTCHA 或密码无法安全保存时必须停止并交给用户处理。OAuth 不属于邮箱注册获取 API Key 的流程。完整规则见 [references/key-acquisition.md](references/key-acquisition.md)。
 
 ## 代理配置
 

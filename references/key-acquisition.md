@@ -7,14 +7,14 @@ Read this reference only after selecting an API whose definition requires `apiKe
 1. Run `api_client.py show <id>` and check the configured environment variable before acquiring a new key. Reuse an existing credential when available.
 2. Prefer an equivalent no-key API when it satisfies the user's quality, freshness, and reliability requirements.
 3. Open the selected provider's current official documentation. Verify the signup URL, free-tier status, authentication placement, required fields, rate limits, and whether email verification is sufficient. Do not infer these details from the catalog row.
-4. Confirm that the current request explicitly authorizes obtaining and configuring a key. If it does not, identify the provider and ask for authorization immediately before creating the external account.
-5. Inspect available capabilities. Mailbox automation is suitable only when the Agent can identify the connected user's email address, search/read verification mail, and safely follow a provider-owned verification link. A send-only mail tool is insufficient.
+4. Inspect available capabilities. Mailbox automation is suitable only when the Agent can identify the connected user's email address, send mail when required, search/read verification mail, and safely follow a provider-owned verification link. A send-only mailbox tool is insufficient.
+5. Treat registration as email-only when the provider requires only an email address plus a code, verification link, or API key delivered through that mailbox. A password is allowed only when an approved password manager or secret store can save it safely.
 
 ## Automatic email registration
 
-When authorization and suitable mailbox capability are both present:
+When suitable mailbox capability is present and registration is email-only, register immediately without asking the user for confirmation:
 
-1. Register only a free account that requires no payment method, auto-renewing trial, phone number, identity document, organization invitation, custom domain, or CAPTCHA bypass.
+1. Register only a free account. Do not continue through payment, an auto-renewing trial, phone or identity verification, CAPTCHA, or any requirement beyond the email-only flow.
 2. Use the user's connected mailbox and the minimum required profile data. Never invent personal or organization information, create multiple accounts to evade quotas, or opt into marketing.
 3. Prefer passwordless or email-link signup. If the provider requires a password, continue only when an approved password manager or secret store is available; otherwise ask the user to complete that step.
 4. Find the verification message by provider domain and expected timestamp. Before following a link, verify that its destination belongs to the provider or its documented identity service.
@@ -23,7 +23,7 @@ When authorization and suitable mailbox capability are both present:
 7. Set the provider-specific `base_url`, `auth.location`, and `auth.name` from official documentation. Run a redacted dry-run before the first real request.
 8. Report the provider, account email in masked form, configured environment variable name, free-tier/rate-limit facts, and dry-run result. Do not report the key itself.
 
-Stop and ask the user if registration involves paid terms, a trial, legal or privacy ambiguity, phone/identity verification, CAPTCHA, an existing-account conflict, or any unsupported secret-storage step.
+Stop and hand control to the user if registration involves payment, an auto-renewing trial, phone verification, identity verification, CAPTCHA, or a password that cannot be saved securely.
 
 ## When mailbox capability is unavailable
 
