@@ -1,7 +1,7 @@
 # Public API Skill
 
-一个基于 [public-apis/public-apis](https://github.com/public-apis/public-apis) 的 Codex Skill。
-它把上游 API 目录转换为可检索、可配置认证、支持代理访问，并能通过 GitHub Actions 自动增量同步的 Python Skill。
+一个基于 [public-apis/public-apis](https://github.com/public-apis/public-apis) 的通用 API Skill。
+它把上游 API 目录转换为可检索、可配置认证、支持代理访问，并能通过 GitHub Actions 自动增量同步的 Python 工具集。
 
 当前生成快照包含 **1,695 个接口**和 **51 个分类**。
 
@@ -14,6 +14,24 @@
 - 使用语义指纹和目录摘要实现增量同步，避免上游 README 行号变化造成全量文件变更
 - GitHub Action 每日检查上游并自动创建或更新同步 Pull Request
 - 纯 Python 标准库运行，无需第三方运行时依赖
+
+## 使用这个 Skill 的提示词
+
+将下面的提示词发送给支持 Skill 调用的智能助手即可开始使用：
+
+```text
+请使用 public-api-skill，先根据我的需求检索合适的公开 API，展示接口所属分类、文档地址、认证方式、HTTPS/CORS 信息；如果需要实际调用，请先检查并使用我提供的 base_url、API Key 和代理配置，在发起请求前先给出 dry-run 预览。
+```
+
+按场景也可以这样提问：
+
+```text
+请使用 public-api-skill，在天气分类中查找无需 API Key 的接口，并给出最适合查询当前天气的选项。
+```
+
+```text
+请使用 public-api-skill 调用 animals/adoptapet，使用配置文件中的认证和代理设置，先执行 dry-run，再请求 /v1/pets?limit=10。
+```
 
 ## 三层目录
 
