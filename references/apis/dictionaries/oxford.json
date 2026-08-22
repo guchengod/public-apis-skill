@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/oxford",
+  "name": "Oxford",
+  "category": "Dictionaries",
+  "description": "Dictionary Data",
+  "documentation_url": "https://developer.oxforddictionaries.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__OXFORD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9c8f934a22f2fba7c6af1d1a2726725319fda62b0c350aa628731c07cf9ca753"
+  }
+}

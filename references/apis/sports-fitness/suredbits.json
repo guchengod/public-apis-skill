@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/suredbits",
+  "name": "SuredBits",
+  "category": "Sports & Fitness",
+  "description": "Query sports data, including teams, players, games, scores and statistics",
+  "documentation_url": "https://suredbits.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cef86b5b9bfc4c9bf3f44a735299b51c7ede4638372b96f474eb1161796d93a0"
+  }
+}

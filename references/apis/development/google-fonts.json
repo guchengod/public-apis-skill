@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/google-fonts",
+  "name": "Google Fonts",
+  "category": "Development",
+  "description": "Metadata for all families served by Google Fonts",
+  "documentation_url": "https://developers.google.com/fonts/docs/developer_api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_FONTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8446f242425485c1a6f0972febaecb77b3decd56f66f27289c1d5a20034063f8"
+  }
+}

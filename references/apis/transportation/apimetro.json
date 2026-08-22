@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/apimetro",
+  "name": "Apimetro",
+  "category": "Transportation",
+  "description": "Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.)",
+  "documentation_url": "https://apimetro.dev/swagger/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5692341cccd4b841461227caeb0e1ecc9605b967b8c3c087401b9bbce6f35404"
+  }
+}

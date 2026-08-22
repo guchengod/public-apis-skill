@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/deezer",
+  "name": "Deezer",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://developers.deezer.com/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__DEEZER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13cc2a033cd8795adfc3c10a31015c484beffd96c091c230200e92f382a77bec"
+  }
+}

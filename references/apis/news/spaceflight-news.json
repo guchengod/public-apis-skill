@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/spaceflight-news",
+  "name": "Spaceflight News",
+  "category": "News",
+  "description": "Spaceflight related news 🚀",
+  "documentation_url": "https://spaceflightnewsapi.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "82410efcd0b45cf421b03c5d980e390370b88a646753ed4c0d48c7b07010d3bb"
+  }
+}

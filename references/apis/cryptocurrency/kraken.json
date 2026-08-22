@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/kraken",
+  "name": "Kraken",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Exchange",
+  "documentation_url": "https://docs.kraken.com/rest/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__KRAKEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7bf7d3317cb07e314296b8b8203ee474e1cc3584e6bc5e2031267f2149b67442"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/changelogs-md",
+  "name": "Changelogs.md",
+  "category": "Development",
+  "description": "Structured changelog metadata from open source projects",
+  "documentation_url": "https://changelogs.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fb8b8cc9d394f500232d24c8b23f5f71dd30b4a339bc3c490cf689170dedc70"
+  }
+}

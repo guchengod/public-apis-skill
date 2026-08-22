@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/billplz",
+  "name": "Billplz",
+  "category": "Finance",
+  "description": "Payment platform",
+  "documentation_url": "https://www.billplz.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__BILLPLZ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56a4a1b443241f720a51c209a86c5eff00a8205b66a1856b8efde5b997474832"
+  }
+}

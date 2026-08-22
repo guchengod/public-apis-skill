@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/slack",
+  "name": "Slack",
+  "category": "Social",
+  "description": "Team Instant Messaging",
+  "documentation_url": "https://api.slack.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__SLACK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c4a9ecc43bd4ee6e260f158095514e3be7f20410528e9091f75ea22f96838d43"
+  }
+}

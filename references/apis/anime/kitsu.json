@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "anime/kitsu",
+  "name": "Kitsu",
+  "category": "Anime",
+  "description": "Anime discovery platform",
+  "documentation_url": "https://kitsu.docs.apiary.io/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ANIME__KITSU__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fa486ea1dda42d6d77f3880d02ba84cbcdb08a52f917feda19d4c8a5eff3b06"
+  }
+}

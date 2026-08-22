@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/threat-jammer",
+  "name": "Threat Jammer",
+  "category": "Security",
+  "description": "Risk scoring service from curated threat intelligence data",
+  "documentation_url": "https://threatjammer.com/docs/index",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__THREAT_JAMMER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88fdb8fc8001fb344d016795cd946d84dd7441da81caab367c3000f7898efe89"
+  }
+}

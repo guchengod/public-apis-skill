@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/statlyte",
+  "name": "Statlyte",
+  "category": "Machine Learning",
+  "description": "Live pricing, context windows and model ids for major LLM APIs",
+  "documentation_url": "https://statlyte.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f02ca6f2d55d626db5884b9a523812b378664bd459cc52878e561a6e23237f8e"
+  }
+}

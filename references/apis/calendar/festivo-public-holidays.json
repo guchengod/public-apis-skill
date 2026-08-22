@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "calendar/festivo-public-holidays",
+  "name": "Festivo Public Holidays",
+  "category": "Calendar",
+  "description": "Fastest and most advanced public holiday and observance service on the market",
+  "documentation_url": "https://docs.getfestivo.com/docs/products/public-holidays-api/intro",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CALENDAR__FESTIVO_PUBLIC_HOLIDAYS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3584b11e379fa998b2ac8ea876d8384a0672dafd55aaa27cb79dc00ebc4af94c"
+  }
+}

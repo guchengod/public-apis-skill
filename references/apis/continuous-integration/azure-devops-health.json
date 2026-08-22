@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/azure-devops-health",
+  "name": "Azure DevOps Health",
+  "category": "Continuous Integration",
+  "description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources",
+  "documentation_url": "https://docs.microsoft.com/en-us/rest/api/resourcehealth",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__AZURE_DEVOPS_HEALTH__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "790300c20f72f19499b4c81ffdee7fdaa1f008c7607eef3de48452b1e1b6542f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/city-bikes",
+  "name": "City Bikes",
+  "category": "Sports & Fitness",
+  "description": "City Bikes around the world",
+  "documentation_url": "https://api.citybik.es/v2/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e4add4492bd57ec679eed7d70beea8f3abafe6db8c542945d4465e673d001fd3"
+  }
+}

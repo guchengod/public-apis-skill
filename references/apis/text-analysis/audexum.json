@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/audexum",
+  "name": "Audexum",
+  "category": "Text Analysis",
+  "description": "Text-to-speech REST API with 43 voices and 33 languages",
+  "documentation_url": "https://audexum.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__AUDEXUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3192ad8e1285df67e9173b9195a37bab36d56b0c74b67abff2dff29c26605a55"
+  }
+}

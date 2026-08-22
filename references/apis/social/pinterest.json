@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/pinterest",
+  "name": "Pinterest",
+  "category": "Social",
+  "description": "The world's catalog of ideas",
+  "documentation_url": "https://developers.pinterest.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__PINTEREST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ad1bd337d600503d6bb27282b2eba114bcee8b5157ee63618407ad8064803b13"
+  }
+}

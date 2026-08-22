@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-code--b1bcbc91",
+  "name": "QR code",
+  "category": "Development",
+  "description": "Create an easy to read QR code and URL shortener",
+  "documentation_url": "https://www.qrtag.net/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b4a117957b91a2daa5b54700daa4855e943863cf34bab1972e8481f1435d2b2f"
+  }
+}

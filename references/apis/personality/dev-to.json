@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "personality/dev-to",
+  "name": "Dev.to",
+  "category": "Personality",
+  "description": "Access Forem articles, users and other resources via API",
+  "documentation_url": "https://developers.forem.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PERSONALITY__DEV_TO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6b6964880534e675aa64c5b14895ab43a3de2fdb861087a94ca5e1ec5e9c7347"
+  }
+}

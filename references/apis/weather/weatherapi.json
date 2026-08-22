@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/weatherapi",
+  "name": "WeatherAPI",
+  "category": "Weather",
+  "description": "Weather API with other stuff like Astronomy and Geolocation API",
+  "documentation_url": "https://www.weatherapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__WEATHERAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c1aea257969df007133c6c08cebeeda72505153c82f6f73c60cbe6975658325"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-grenoble-france",
+  "name": "Transport for Grenoble, France",
+  "category": "Transportation",
+  "description": "Grenoble public transport",
+  "documentation_url": "https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1fa0129db6b1893032ef02ed19ac700db7d83f8b891f8db38d4d3cd236e24a4"
+  }
+}

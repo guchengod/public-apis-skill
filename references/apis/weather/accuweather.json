@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/accuweather",
+  "name": "AccuWeather",
+  "category": "Weather",
+  "description": "Weather and forecast data",
+  "documentation_url": "https://developer.accuweather.com/apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__ACCUWEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f6092e8ef31d9555806c52d1cc88e2706941e63a01dfa10811e051b537f6fefe"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/non-working-days--76c97e98",
+  "name": "Non-Working Days",
+  "category": "Calendar",
+  "description": "Database of ICS files for non working days",
+  "documentation_url": "https://github.com/gadael/icsdb",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ab1a31bbcdf0f3ae37a09cf3be9a9383099ede47883b4af5cffda930cdd961cb"
+  }
+}

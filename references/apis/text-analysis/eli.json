@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/eli",
+  "name": "ELI",
+  "category": "Text Analysis",
+  "description": "Natural Language Processing Tools for Thai Language",
+  "documentation_url": "https://nlp.insightera.co.th/docs/v1.0",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__ELI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8b8348eba337ec6428dba384a1ac5494766f568a460758b599b8f08d759504f4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/lanyard",
+  "name": "Lanyard",
+  "category": "Social",
+  "description": "Retrieve your presence on Discord through an HTTP REST API or WebSocket",
+  "documentation_url": "https://github.com/Phineas/lanyard",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d89290b0667dd87938ff76ec602b6a280f3ae545dc1735bbe9d253b02b3d248"
+  }
+}

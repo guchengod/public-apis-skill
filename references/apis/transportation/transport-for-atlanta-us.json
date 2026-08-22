@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-atlanta-us",
+  "name": "Transport for Atlanta, US",
+  "category": "Transportation",
+  "description": "Marta",
+  "documentation_url": "http://www.itsmarta.com/app-developer-resources.aspx",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da715ed18b7237361b9f487609bd182d595afe84bd00105249fea147200c6ad3"
+  }
+}

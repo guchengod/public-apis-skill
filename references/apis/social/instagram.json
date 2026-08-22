@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/instagram",
+  "name": "Instagram",
+  "category": "Social",
+  "description": "Instagram Login, Share on Instagram, Social Plugins and more",
+  "documentation_url": "https://www.instagram.com/developer/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__INSTAGRAM__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40fe35eb0185f528daa38edb0fd86cb833dfb250c063ddda53a4e0b1e3809e8f"
+  }
+}

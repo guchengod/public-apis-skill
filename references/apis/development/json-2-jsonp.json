@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/json-2-jsonp",
+  "name": "JSON 2 JSONP",
+  "category": "Development",
+  "description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript",
+  "documentation_url": "https://json2jsonp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "522ec088e0dd7d4d5ff95f98d1a609828fa902fdf94ff04169c71b142506cc17"
+  }
+}

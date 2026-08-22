@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/trove",
+  "name": "Trove",
+  "category": "News",
+  "description": "Search through the National Library of Australia collection of 1000s of digitised newspapers",
+  "documentation_url": "https://trove.nla.gov.au/about/create-something/using-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__TROVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "406c23ae9eecf62e9482c7f9172521dac0851bbcc0ff7b48be30a29119cf8279"
+  }
+}

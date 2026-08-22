@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/dehash-lt",
+  "name": "Dehash.lt",
+  "category": "Security",
+  "description": "Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512",
+  "documentation_url": "https://github.com/Dehash-lt/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "de62876957b7af27f72172643ee1bae8cc3458e0267728292a5db0971bb401f6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/british-national-bibliography",
+  "name": "British National Bibliography",
+  "category": "Books",
+  "description": "Books",
+  "documentation_url": "http://bnb.data.bl.uk/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e0ac73c4a5f0b534d7cbb398ffa0e6b8ba4468e35e98ff663acfc6b806610700"
+  }
+}

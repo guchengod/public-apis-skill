@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/classify",
+  "name": "Classify",
+  "category": "Security",
+  "description": "Encrypting & decrypting text messages",
+  "documentation_url": "https://classify-web.herokuapp.com/#/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aeb1c0da7ec83e16172e473108fa1fa8a38d9e88cb22fa67106f6724983882d9"
+  }
+}

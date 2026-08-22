@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-finland",
+  "name": "Transport for Finland",
+  "category": "Transportation",
+  "description": "Finnish transport API",
+  "documentation_url": "https://digitransit.fi/en/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "125c523f9a757b32ecb8b3ad1c369bfc09ac997ac42cce63c8a5d400f963ed22"
+  }
+}

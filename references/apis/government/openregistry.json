@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "government/openregistry",
+  "name": "OpenRegistry",
+  "category": "Government",
+  "description": "Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more)",
+  "documentation_url": "https://openregistry.sophymarine.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPENREGISTRY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3186480aef21df2fc541ca787181210aca9caf19667088756c60a59d2414696d"
+  }
+}

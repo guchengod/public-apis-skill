@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "science-math/nasa-ads",
+  "name": "NASA ADS",
+  "category": "Science & Math",
+  "description": "NASA Astrophysics Data System",
+  "documentation_url": "https://ui.adsabs.harvard.edu/help/api/api-docs.html",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__NASA_ADS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "534173e92f160804b7fab633d4262c3b1bea92c1dcac0bcca0a5ec5e02fd59ff"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/jservice",
+  "name": "Jservice",
+  "category": "Games & Comics",
+  "description": "Jeopardy Question Database",
+  "documentation_url": "http://jservice.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9b958ae03e5fa4384782b8eebe47c2ebc921249f67e66782e3d26bc127f1da5"
+  }
+}

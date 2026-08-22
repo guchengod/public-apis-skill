@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/airtel-ip",
+  "name": "Airtel IP",
+  "category": "Geocoding",
+  "description": "IP Geolocation API. Collecting data from multiple sources",
+  "documentation_url": "https://sys.airtel.lv/ip2country/1.1.1.1/?full=true",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d01e194c92f3e8033b1ae94760318ea61ff8dc61915f90a39a70e97664d1bb6c"
+  }
+}

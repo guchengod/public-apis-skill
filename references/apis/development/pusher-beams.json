@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/pusher-beams",
+  "name": "Pusher Beams",
+  "category": "Development",
+  "description": "Push notifications for Android & iOS",
+  "documentation_url": "https://pusher.com/beams",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__PUSHER_BEAMS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "708e6f2716f3e8fa2c1e4097c07f38f41d24c24d5aaa5ca80db866f59126ab44"
+  }
+}

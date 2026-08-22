@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tcgdex",
+  "name": "TCGdex",
+  "category": "Games & Comics",
+  "description": "Multi languages Pokémon TCG Information",
+  "documentation_url": "https://www.tcgdex.net/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc0abcbb90065f8bcccb2634a3613db129652f76faa6242dc912156510affd67"
+  }
+}

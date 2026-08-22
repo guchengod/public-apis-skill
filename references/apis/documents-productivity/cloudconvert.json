@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/cloudconvert",
+  "name": "CloudConvert",
+  "category": "Documents & Productivity",
+  "description": "Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation",
+  "documentation_url": "https://cloudconvert.com/api/v2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CLOUDCONVERT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "431d78534aee78d20c8a5b45553bae5d5f5115158243f7af06cfb65c3033a7d4"
+  }
+}

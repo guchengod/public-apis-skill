@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/personality-fyi",
+  "name": "Personality.fyi",
+  "category": "Personality",
+  "description": "Free MBTI personality types and OEJTS test scoring",
+  "documentation_url": "https://personality.fyi/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecee7c849deb902ae20b2934fff3e97860e558cb665b0ac79dcd6eb77e965fec"
+  }
+}

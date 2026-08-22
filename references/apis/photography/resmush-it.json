@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/resmush-it",
+  "name": "ReSmush.it",
+  "category": "Photography",
+  "description": "Photo optimization",
+  "documentation_url": "https://resmush.it/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2b068ecb9d7949fcca0b692b89df4b0d6860956c64bd4a68b94fd802a8940eb1"
+  }
+}

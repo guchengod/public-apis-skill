@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geodb-cities",
+  "name": "GeoDB Cities",
+  "category": "Geocoding",
+  "description": "Get global city, region, and country data",
+  "documentation_url": "http://geodb-cities-api.wirefreethought.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__GEODB_CITIES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e0856742bb22fe40626d1c56b6296a2304adbd73b98f82934d8d38d181ba100c"
+  }
+}

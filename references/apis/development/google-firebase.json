@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/google-firebase",
+  "name": "Google Firebase",
+  "category": "Development",
+  "description": "Google's mobile application development platform that helps build, improve, and grow app",
+  "documentation_url": "https://firebase.google.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_FIREBASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0d709d805dd9108909ce73ac90989af45b8c76649aef8ccbfcbf20ae0e8064da"
+  }
+}

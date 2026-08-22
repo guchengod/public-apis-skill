@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/meteorologisk-institutt",
+  "name": "Meteorologisk Institutt",
+  "category": "Weather",
+  "description": "Weather and climate data",
+  "documentation_url": "https://api.met.no/weatherapi/documentation",
+  "auth": {
+    "type": "User-Agent",
+    "required": true,
+    "strategy": "header",
+    "header": "User-Agent",
+    "credential_env": "PUBLIC_API__WEATHER__METEOROLOGISK_INSTITUTT__USER_AGENT"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1791cb5421fdd7369860f943a081ea60ac2072b593b3180d966abc3635cae745"
+  }
+}

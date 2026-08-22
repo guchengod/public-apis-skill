@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/freehire",
+  "name": "freehire",
+  "category": "Jobs",
+  "description": "Open-source search engine aggregating tech jobs from company ATS boards",
+  "documentation_url": "https://freehire.dev/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba85af5e50c751699a83f3365ae55ab0d86a9015a7258e6ebe02b571dd0f16f5"
+  }
+}

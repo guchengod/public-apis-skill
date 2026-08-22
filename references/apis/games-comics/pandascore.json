@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/pandascore",
+  "name": "PandaScore",
+  "category": "Games & Comics",
+  "description": "E-sports games and results",
+  "documentation_url": "https://developers.pandascore.co/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__PANDASCORE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c8c1d46b75cf375b6425789059847e2ebb2862600877b1f3f469c1facecff7d"
+  }
+}

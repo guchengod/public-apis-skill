@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/icanhazepoch",
+  "name": "Icanhazepoch",
+  "category": "Development",
+  "description": "Get Epoch time",
+  "documentation_url": "https://icanhazepoch.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "08c0d1e487efcb4454ea8c01aca40502186945321a4237e2cfeebef167dde553"
+  }
+}

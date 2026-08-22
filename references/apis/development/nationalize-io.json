@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/nationalize-io",
+  "name": "Nationalize.io",
+  "category": "Development",
+  "description": "Estimate the nationality of a first name",
+  "documentation_url": "https://nationalize.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4af510c47a0921aa46849e35287bd9b9c957d3e57f38b3625af635e1a660cc57"
+  }
+}

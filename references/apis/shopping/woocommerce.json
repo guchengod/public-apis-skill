@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/woocommerce",
+  "name": "WooCommerce",
+  "category": "Shopping",
+  "description": "WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format",
+  "documentation_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__WOOCOMMERCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e82b17f7e028f3a0d04bcfa1ff983a1be484acbb388c4119ffe88910b3ba2c7"
+  }
+}

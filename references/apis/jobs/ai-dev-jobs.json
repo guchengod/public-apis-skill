@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/ai-dev-jobs",
+  "name": "AI Dev Jobs",
+  "category": "Jobs",
+  "description": "AI/ML engineering job aggregator with REST, RSS, and MCP endpoints",
+  "documentation_url": "https://aidevboard.com/openapi.yaml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ef6ec24cdcc682018e6a5a3aab1235a1f11a62948a2d5cf5f2c6e79fedd7252"
+  }
+}

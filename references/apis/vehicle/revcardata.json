@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/revcardata",
+  "name": "RevCarData",
+  "category": "Vehicle",
+  "description": "86,000+ global vehicle specifications and EV metrics",
+  "documentation_url": "https://revcardata.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__REVCARDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e0444118ba1f042e96e204c872862a89b053c955bd367ddaed89db786b69d383"
+  }
+}

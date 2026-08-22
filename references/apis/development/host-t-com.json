@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/host-t-com",
+  "name": "host-t.com",
+  "category": "Development",
+  "description": "Basic DNS query via HTTP GET request",
+  "documentation_url": "https://host-t.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "93632349a412df816a248699b34bcfc4dd3843db6ac1d7caf9937a38786000d3"
+  }
+}

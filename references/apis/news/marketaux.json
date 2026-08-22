@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/marketaux",
+  "name": "MarketAux",
+  "category": "News",
+  "description": "Live stock market news with tagged tickers + sentiment and stats JSON API",
+  "documentation_url": "https://www.marketaux.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__MARKETAUX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ac28b40ffb5a3e19c6978a3d83716e29df5f641ac78b167531df48ec2bd152a2"
+  }
+}

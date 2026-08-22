@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tebex",
+  "name": "Tebex",
+  "category": "Games & Comics",
+  "description": "Tebex API for information about game purchases",
+  "documentation_url": "https://docs.tebex.io/plugin/",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__TEBEX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ac317b6080f4c4501b924981ae15ddcf4b198fcf823cf48e8eb64a93409da765"
+  }
+}

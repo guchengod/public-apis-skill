@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/website-carbon",
+  "name": "Website Carbon",
+  "category": "Environment",
+  "description": "API to estimate the carbon footprint of loading web pages",
+  "documentation_url": "https://api.websitecarbon.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9df809a64a291fd72acc88e7d57cc688ebda67583e7c661142535ef0200fc1e9"
+  }
+}

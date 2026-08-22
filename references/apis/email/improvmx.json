@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/improvmx",
+  "name": "ImprovMX",
+  "category": "Email",
+  "description": "API for free email forwarding service",
+  "documentation_url": "https://improvmx.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__IMPROVMX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88c6a042fb4cbd8f1609bce206c9fe5afe41d93669a62b40b66fed2a6d53be48"
+  }
+}

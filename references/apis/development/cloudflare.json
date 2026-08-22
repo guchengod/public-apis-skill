@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/cloudflare",
+  "name": "Cloudflare",
+  "category": "Development",
+  "description": "Manage DNS, CDN, Workers and other services; documented with an official OpenAPI 3.0 spec",
+  "documentation_url": "https://developers.cloudflare.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__CLOUDFLARE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40163929615a5c8684944547db17864b3bbf2a29fe5939d9d09ad30a4dcf8282"
+  }
+}

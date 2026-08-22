@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/mod-io",
+  "name": "mod.io",
+  "category": "Games & Comics",
+  "description": "Cross Platform Mod API",
+  "documentation_url": "https://docs.mod.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__MOD_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b15be4c21bea665cb2c7ce922cab80e0ece1d9a7260b63c967322192b810075e"
+  }
+}

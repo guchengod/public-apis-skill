@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/usaspending-gov",
+  "name": "USAspending.gov",
+  "category": "Government",
+  "description": "US federal spending data",
+  "documentation_url": "https://api.usaspending.gov/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2314a9245719c86e298cd83da3cf41d9444b505bea8887b51312f18ffb8542be"
+  }
+}

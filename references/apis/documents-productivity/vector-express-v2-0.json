@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/vector-express-v2-0",
+  "name": "Vector Express v2.0",
+  "category": "Documents & Productivity",
+  "description": "Free vector file converting API",
+  "documentation_url": "https://vector.express",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1bf59df37e1c022c651869e65290af8e880332d75aa619ccb5f67eb81a30168a"
+  }
+}

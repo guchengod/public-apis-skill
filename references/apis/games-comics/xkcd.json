@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/xkcd",
+  "name": "xkcd",
+  "category": "Games & Comics",
+  "description": "Retrieve xkcd comics as JSON",
+  "documentation_url": "https://xkcd.com/json.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a7fdf640b42ab73dfbf5f0da3fb56bf53547095e41eec7bb373361bae31794ba"
+  }
+}

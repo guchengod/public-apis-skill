@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/brazil",
+  "name": "Brazil",
+  "category": "Government",
+  "description": "Community driven API for Brazil Public Data",
+  "documentation_url": "https://brasilapi.com.br/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3eda313a6ccb102c8c8ce1157c9528db2a84eb8ad4eb120660c2b7c169dc6e06"
+  }
+}

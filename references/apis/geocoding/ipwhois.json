@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipwhois",
+  "name": "ipwhois",
+  "category": "Geocoding",
+  "description": "IP geolocation with country, city, coordinates, ISP, timezone and flag data",
+  "documentation_url": "https://ipwhois.io/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d0c6aa094dc89674cc5c37f1ce953129180dd4d2579aa600da7100ca9f396fe1"
+  }
+}

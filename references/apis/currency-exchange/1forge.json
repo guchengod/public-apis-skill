@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/1forge",
+  "name": "1Forge",
+  "category": "Currency Exchange",
+  "description": "Forex currency market data",
+  "documentation_url": "https://1forge.com/forex-data-api/api-documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__1FORGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b1ed1241b574d78bff1b17b99a6aaeac8d26c84b67fbd38d6d0381a0e23403b9"
+  }
+}

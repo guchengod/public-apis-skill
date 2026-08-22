@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/rappi",
+  "name": "Rappi",
+  "category": "Shopping",
+  "description": "Manage orders from Rappi's app",
+  "documentation_url": "https://dev-portal.rappi.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__RAPPI__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "abc3d775d9bc7e06dd36400906a4951c17bb4d8a12299e1b57c43fad6ef736f2"
+  }
+}

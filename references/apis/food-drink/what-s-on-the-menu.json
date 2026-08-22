@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/what-s-on-the-menu",
+  "name": "What's on the menu?",
+  "category": "Food & Drink",
+  "description": "NYPL human-transcribed historical menu collection",
+  "documentation_url": "http://nypl.github.io/menus-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__WHAT_S_ON_THE_MENU__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c792b957b41468469d8425d8f28439836fed8c01b5184bd1a7f4890d9ec9df22"
+  }
+}

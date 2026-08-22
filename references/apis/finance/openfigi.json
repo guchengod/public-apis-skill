@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/openfigi",
+  "name": "OpenFIGI",
+  "category": "Finance",
+  "description": "Equity, index, futures, options symbology from Bloomberg LP",
+  "documentation_url": "https://www.openfigi.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__OPENFIGI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bc0d0fac2123513ef8b4c9778f994fb4606e9f12eb372927dd34a72837327a8e"
+  }
+}

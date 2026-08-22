@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/k-data-gate",
+  "name": "K-Data Gate",
+  "category": "Open Data",
+  "description": "Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather",
+  "documentation_url": "https://kdata-gate.vercel.app/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__K_DATA_GATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "78a0d562c12f012eeacdaf90a4834dc64d8103c0857b95877eac0e5708df55cb"
+  }
+}

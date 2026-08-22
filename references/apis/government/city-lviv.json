@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-lviv",
+  "name": "City, Lviv",
+  "category": "Government",
+  "description": "Lviv(UA) City Open Data",
+  "documentation_url": "https://opendata.city-adm.lviv.ua/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "55b8d8b8b10ae365df1ea9faaecf15499e1efff6e1bc1fba5dbb89c8ff5ab40d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/btcturk",
+  "name": "BtcTurk",
+  "category": "Cryptocurrency",
+  "description": "Real-time cryptocurrency data, graphs and API that allows buy&sell",
+  "documentation_url": "https://docs.btcturk.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BTCTURK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "82256757a06cab8932da31cc22931f53d7becab30ec748ec0912d6d9ccd8838c"
+  }
+}

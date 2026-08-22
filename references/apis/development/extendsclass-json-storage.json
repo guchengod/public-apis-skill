@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/extendsclass-json-storage",
+  "name": "ExtendsClass JSON Storage",
+  "category": "Development",
+  "description": "A simple JSON store API",
+  "documentation_url": "https://extendsclass.com/json-storage.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b9ca39aa8bedc27c4ef1e3a3eee9dacefea84c010d5665b48fe0f6e33494340"
+  }
+}

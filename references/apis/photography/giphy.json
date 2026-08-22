@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/giphy",
+  "name": "Giphy",
+  "category": "Photography",
+  "description": "Get all your gifs",
+  "documentation_url": "https://developers.giphy.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__GIPHY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56bcf75d3c237f6a60e9eaa13182fd1c0802bfee95dccd909d7af78f6dc30fa6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/corporate-buzz-words",
+  "name": "Corporate Buzz Words",
+  "category": "Entertainment",
+  "description": "REST API for Corporate Buzz Words",
+  "documentation_url": "https://github.com/sameerkumar18/corporate-bs-generator-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1998ea1fbab7058320589d28351178d1e7b91b0c9fb9b36c36956b69912f07f5"
+  }
+}

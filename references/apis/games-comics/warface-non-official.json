@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/warface-non-official",
+  "name": "Warface (non-official)",
+  "category": "Games & Comics",
+  "description": "Official API proxy with better data structure and more features",
+  "documentation_url": "https://api.wfstats.cf",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a167fe7ed9ede231651fa44bc4f698ae9efeb77c29fbca3a87fa94672f99ac9"
+  }
+}

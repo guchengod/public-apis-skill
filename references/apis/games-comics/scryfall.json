@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/scryfall",
+  "name": "Scryfall",
+  "category": "Games & Comics",
+  "description": "Magic: The Gathering database",
+  "documentation_url": "https://scryfall.com/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f5aa963f2638b0496578dd1ec8763f629250036d089fd8473845a348cec727db"
+  }
+}

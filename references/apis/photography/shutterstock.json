@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/shutterstock",
+  "name": "shutterstock",
+  "category": "Photography",
+  "description": "Stock Photos and Videos",
+  "documentation_url": "https://api-reference.shutterstock.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__SHUTTERSTOCK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e4da7315f7f4179d018fc9e9d59a97bf30173d8833fcd0eb8005c45a8238cb7"
+  }
+}

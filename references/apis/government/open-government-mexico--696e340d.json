@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-mexico--696e340d",
+  "name": "Open Government, Mexico",
+  "category": "Government",
+  "description": "Mexico Government Open Data",
+  "documentation_url": "https://datos.gob.mx/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9b14c884095e8c8e3b37684cbb022f35c5193e07d49109a19adc6eca4970e9bb"
+  }
+}

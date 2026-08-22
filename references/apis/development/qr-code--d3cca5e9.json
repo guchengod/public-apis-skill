@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-code--d3cca5e9",
+  "name": "QR code",
+  "category": "Development",
+  "description": "Generate and decode / read QR code graphics",
+  "documentation_url": "http://goqr.me/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fc1b2e1bc195d8cbded2e27d43a3a49a59f11000419bae59882c0c14963e778"
+  }
+}

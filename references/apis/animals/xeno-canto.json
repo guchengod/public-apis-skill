@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/xeno-canto",
+  "name": "xeno-canto",
+  "category": "Animals",
+  "description": "Bird recordings",
+  "documentation_url": "https://xeno-canto.org/explore/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bedd63ac3ca96a3b2035fac06c5e493b06a7f25ac9ae5eaa743653ac41b77cc4"
+  }
+}

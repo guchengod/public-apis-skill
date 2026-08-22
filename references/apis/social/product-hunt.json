@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/product-hunt",
+  "name": "Product Hunt",
+  "category": "Social",
+  "description": "The best new products in tech",
+  "documentation_url": "https://api.producthunt.com/v2/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__PRODUCT_HUNT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "277ce61d3d601c6ac6e97ad7aa581fbc08953c622202bb0e12834c8dc777abd2"
+  }
+}

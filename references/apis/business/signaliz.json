@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/signaliz",
+  "name": "Signaliz",
+  "category": "Business",
+  "description": "GTM enrichment, lead generation, email verification, and company signals",
+  "documentation_url": "https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__SIGNALIZ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9be0a6178365b8a4b7d5e880f64c1a22726585d8b561f985b90d491e972bfcb5"
+  }
+}

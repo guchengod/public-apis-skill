@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "books/google-books",
+  "name": "Google Books",
+  "category": "Books",
+  "description": "Books",
+  "documentation_url": "https://developers.google.com/books/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BOOKS__GOOGLE_BOOKS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "332fedc83a19f6810ea6d3a3c2df35d31f47b4e14bb2ea0d1c69d6ff44c493e5"
+  }
+}

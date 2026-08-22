@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-slovakia",
+  "name": "Open Government, Slovakia",
+  "category": "Government",
+  "description": "Slovakia Government Open Data",
+  "documentation_url": "https://data.gov.sk/en/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa745bb39dfa4c7111fef504c9d551c077815e094f75e008eadc0bc5632316e7"
+  }
+}

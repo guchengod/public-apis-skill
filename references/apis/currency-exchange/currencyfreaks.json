@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/currencyfreaks",
+  "name": "CurrencyFreaks",
+  "category": "Currency Exchange",
+  "description": "Provides current and historical currency exchange rates with free plan 1K requests/month",
+  "documentation_url": "https://currencyfreaks.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__CURRENCYFREAKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1af98e05c0853b7fed88d40ba5cacfdeec359d5ab46ba109a6cc6ec50d3347c9"
+  }
+}

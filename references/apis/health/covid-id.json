@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-id",
+  "name": "COVID-ID",
+  "category": "Health",
+  "description": "Indonesian government Covid data per province",
+  "documentation_url": "https://data.covid19.go.id/public/api/prov.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b8efaa89c0f8011b762f44f2a74015509a60c00d66adecf048a3de26262d4d2c"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/logs-to",
+  "name": "Logs.to",
+  "category": "Development",
+  "description": "Generate logs",
+  "documentation_url": "https://logs.to/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__LOGS_TO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d54c361a4d7a71134712cff8fbb5debb33f732beef88bae539d78547b26d14c9"
+  }
+}

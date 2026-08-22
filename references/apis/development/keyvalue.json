@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/keyvalue",
+  "name": "Keyvalue",
+  "category": "Development",
+  "description": "Simple key-value storage REST API for quick prototyping",
+  "documentation_url": "https://keyvalue.immanuel.co/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "50158856f1bcd3cb0cebbace21cd005dafb42e1e90dfb56d1e9102850428e54c"
+  }
+}

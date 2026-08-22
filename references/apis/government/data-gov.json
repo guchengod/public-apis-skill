@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/data-gov",
+  "name": "Data.gov",
+  "category": "Government",
+  "description": "US Government Data",
+  "documentation_url": "https://api.data.gov/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__DATA_GOV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "41255a29f455cb109b079f916f3e022fdfee7489a9cac517ebd705dd2d97e510"
+  }
+}

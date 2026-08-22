@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/git-io",
+  "name": "Git.io",
+  "category": "URL Shorteners",
+  "description": "Git.io URL shortener",
+  "documentation_url": "https://github.blog/2011-11-10-git-io-github-url-shortener/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fcfa52ad7031a85b3e1e778a2752c172fab35a752c7adda2764c2917d1484549"
+  }
+}

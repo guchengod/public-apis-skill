@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/careerjet",
+  "name": "Careerjet",
+  "category": "Jobs",
+  "description": "Job search engine",
+  "documentation_url": "https://www.careerjet.com/partners/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__CAREERJET__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "22c7c04099ed3c437251cec31e8f95ce67f903f8986b8c3c7e528046ccb4ced3"
+  }
+}

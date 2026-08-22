@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/brainshop-ai",
+  "name": "Brainshop.ai",
+  "category": "Development",
+  "description": "Make A Free A.I Brain",
+  "documentation_url": "https://brainshop.ai/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BRAINSHOP_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2d4878fa67ad0ba1b69e44a6976217a4cf24ae823df681c46ac0efc5848cd864"
+  }
+}

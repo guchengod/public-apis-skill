@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/openwhyd",
+  "name": "Openwhyd",
+  "category": "Music",
+  "description": "Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)",
+  "documentation_url": "https://openwhyd.github.io/openwhyd/API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0845077ab47cb7be30f7fa31290a5400111d5c74426fdcfee8707a7ea4e89716"
+  }
+}

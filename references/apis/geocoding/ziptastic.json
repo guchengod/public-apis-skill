@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ziptastic",
+  "name": "Ziptastic",
+  "category": "Geocoding",
+  "description": "Get the country, state, and city of any US zip-code",
+  "documentation_url": "https://ziptasticapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03deb41c03782c5bcedb1666961e14dbf97198a2464519bf62d5caddfa669c9b"
+  }
+}

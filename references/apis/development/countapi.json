@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/countapi",
+  "name": "CountAPI",
+  "category": "Development",
+  "description": "Free and simple counting service. You can use it to track page hits and specific events",
+  "documentation_url": "https://countapi.xyz",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b7aa0b98b195cd9c38e18e1710112438ae6cfd5ac0805099eef2d842f474146e"
+  }
+}

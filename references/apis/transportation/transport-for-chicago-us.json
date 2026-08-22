@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-chicago-us",
+  "name": "Transport for Chicago, US",
+  "category": "Transportation",
+  "description": "Chicago Transit Authority (CTA)",
+  "documentation_url": "http://www.transitchicago.com/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_CHICAGO_US__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "11216a59d770cf419df9b4b3c1a674dad002504630c86f21efdbb1a8f6682230"
+  }
+}

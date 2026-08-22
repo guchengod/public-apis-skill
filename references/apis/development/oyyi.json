@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/oyyi",
+  "name": "oyyi",
+  "category": "Development",
+  "description": "API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation",
+  "documentation_url": "https://oyyi.xyz/docs/1.0",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e9ce59abc2ee9a974ce28a918f044935fa4689591a0d7af71d0f80e41ff32ec"
+  }
+}

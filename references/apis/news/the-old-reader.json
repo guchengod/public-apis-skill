@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/the-old-reader",
+  "name": "The Old Reader",
+  "category": "News",
+  "description": "RSS reader",
+  "documentation_url": "https://github.com/theoldreader/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__THE_OLD_READER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "737ef0ae57889c6fb688957d1844c28780f93e8f7469b36c5b38f3acafd536cd"
+  }
+}

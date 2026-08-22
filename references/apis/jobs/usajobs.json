@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/usajobs",
+  "name": "USAJOBS",
+  "category": "Jobs",
+  "description": "US government job board",
+  "documentation_url": "https://developer.usajobs.gov/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__USAJOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1e3be4c8e0a578ad9e1a66153c50c9275970dc8224a61549e0b6adc72a8614b2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tenders-in-spain",
+  "name": "Tenders in Spain",
+  "category": "Business",
+  "description": "Get data for procurements in Spain in JSON format",
+  "documentation_url": "https://tenders.guru/es/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "46501e2d0fb42ad7ecac56b7d23579fd8ade9852c647fc52471fdced57ba3379"
+  }
+}

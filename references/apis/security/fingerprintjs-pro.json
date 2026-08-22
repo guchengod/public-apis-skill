@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/fingerprintjs-pro",
+  "name": "FingerprintJS Pro",
+  "category": "Security",
+  "description": "Fraud detection API offering highly accurate browser fingerprinting",
+  "documentation_url": "https://dev.fingerprintjs.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__FINGERPRINTJS_PRO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ea2418c14e56deb72b735b5a49d0f7999ece66ba807441d8ab4ae7874fe2b60a"
+  }
+}

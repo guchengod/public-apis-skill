@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/brazilian-vehicles-and-prices",
+  "name": "Brazilian Vehicles and Prices",
+  "category": "Vehicle",
+  "description": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe",
+  "documentation_url": "https://deividfortuna.github.io/fipe/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "269d4fc945d3a87947b4e1bdc14ded1c045a2a578d425aeaedb0721dbdc4848f"
+  }
+}

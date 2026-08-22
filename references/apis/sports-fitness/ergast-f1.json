@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/ergast-f1",
+  "name": "Ergast F1",
+  "category": "Sports & Fitness",
+  "description": "F1 data from the beginning of the world championships in 1950",
+  "documentation_url": "http://ergast.com/mrd/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8dbc82abeed2fd257653e98a823921f3fb92ca3ca7f321ca19419f6b92620cbb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/gurbaninow",
+  "name": "GurbaniNow",
+  "category": "Books",
+  "description": "Fast and Accurate Gurbani RESTful API",
+  "documentation_url": "https://github.com/GurbaniNow/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2fafbcdfb6bcf06cb4104dafd80f6c277c220f0faeb904dbdf6748e046f1c8f8"
+  }
+}

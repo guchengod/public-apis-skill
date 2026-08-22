@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/puyo-nexus",
+  "name": "Puyo Nexus",
+  "category": "Games & Comics",
+  "description": "Puyo Puyo information from Puyo Nexus Wiki",
+  "documentation_url": "https://github.com/deltadex7/puyodb-api-deno",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4332b9a8cee4910ae24fd4f83cdae067c7a2289cd289827a86fbe989cbf047ee"
+  }
+}

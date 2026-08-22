@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/deepai",
+  "name": "DeepAI",
+  "category": "Machine Learning",
+  "description": "Provides AI-powered APIs for text generation, image processing, and more",
+  "documentation_url": "https://deepai.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__DEEPAI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5eaaf1b6f7c7727a17303ad8be6afff7f8d726e8f58b9cf89a8f39c487528ef4"
+  }
+}

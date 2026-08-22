@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/actinia-grass-gis",
+  "name": "Actinia Grass GIS",
+  "category": "Geocoding",
+  "description": "Actinia is an open source REST API for geographical data that uses GRASS GIS",
+  "documentation_url": "https://actinia.mundialis.de/api_docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__ACTINIA_GRASS_GIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "813bc4b33ce05ba76a2f75eff37e3fbd59e0c50f6cbb14be39f70aa3864085e4"
+  }
+}

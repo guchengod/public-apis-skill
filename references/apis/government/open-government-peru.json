@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-peru",
+  "name": "Open Government, Peru",
+  "category": "Government",
+  "description": "Peru Government Open Data",
+  "documentation_url": "https://www.datosabiertos.gob.pe/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b3c43d57c00ad69281d4ee263c19d58ae0cc2b58ce48b74aa895966fcc7e7e18"
+  }
+}

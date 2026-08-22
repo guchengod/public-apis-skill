@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coingecko",
+  "name": "CoinGecko",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Price, Market, and Developer/Social Data",
+  "documentation_url": "http://www.coingecko.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "44fd522a7bd801cbdf2892e872d0472e970a30a41a360f2dc4f827154ee017c0"
+  }
+}

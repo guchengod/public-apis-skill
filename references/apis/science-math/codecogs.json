@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/codecogs",
+  "name": "CodeCogs",
+  "category": "Science & Math",
+  "description": "Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options",
+  "documentation_url": "https://editor.codecogs.com/docs/4-LaTeX_rendering.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8aba1d82e1533e599cb33ac638b74acbed9f788ad92c9229777b0741ff3cfe63"
+  }
+}

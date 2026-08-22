@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/placekeanu",
+  "name": "PlaceKeanu",
+  "category": "Photography",
+  "description": "Resizable Keanu Reeves placeholder images with grayscale and young Keanu options",
+  "documentation_url": "https://placekeanu.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "283ea094d97acae2925023917532a55707ede5b95cb7a09f548c42b48061853c"
+  }
+}

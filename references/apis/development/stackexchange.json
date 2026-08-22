@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/stackexchange",
+  "name": "StackExchange",
+  "category": "Development",
+  "description": "Q&A forum for developers",
+  "documentation_url": "https://api.stackexchange.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__STACKEXCHANGE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2dc432345905a9b0440af07670c378e93231d3d12f3e2ab958650959f68b3972"
+  }
+}

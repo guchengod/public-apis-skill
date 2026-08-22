@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/queimadas-inpe",
+  "name": "Queimadas INPE",
+  "category": "Geocoding",
+  "description": "Access to heat focus data (probable wildfire)",
+  "documentation_url": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c73ea8e67ca3040ede06b146837e329c574c9578bb4fb403901fe23793d88f0"
+  }
+}

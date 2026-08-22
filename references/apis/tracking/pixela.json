@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/pixela",
+  "name": "Pixela",
+  "category": "Tracking",
+  "description": "API for recording and tracking habits or effort, routines",
+  "documentation_url": "https://pixe.la",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__TRACKING__PIXELA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3452435a1270e1b07a825b84ff1cba5aab12029412bb89839508c4bfd22c4ac5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/simkl",
+  "name": "Simkl",
+  "category": "Video",
+  "description": "Movie, TV and Anime data",
+  "documentation_url": "https://simkl.docs.apiary.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__SIMKL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d5f9ebcb2f37a404558d2a690f71309fe6b3a79cef3a2c52ac081441d98e0f90"
+  }
+}

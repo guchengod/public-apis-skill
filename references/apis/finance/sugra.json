@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/sugra",
+  "name": "Sugra",
+  "category": "Finance",
+  "description": "One API for market data, economics, commodities, climate, and global news. LLM-ready JSON",
+  "documentation_url": "https://sugra.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__SUGRA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b2f5406e30fc9a8d7d8693ec2efe3c329298705c60aa7db6146a49fcd330465"
+  }
+}

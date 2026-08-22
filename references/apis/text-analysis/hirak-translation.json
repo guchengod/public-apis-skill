@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/hirak-translation",
+  "name": "Hirak Translation",
+  "category": "Text Analysis",
+  "description": "Translate between 21 of most used languages, accurate, unlimited requests",
+  "documentation_url": "https://translate.hirak.site/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__HIRAK_TRANSLATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "87fa6a195d498acaa9a0689ab1d9cfaa0cdef4115b146df4023326f15a9ffb64"
+  }
+}

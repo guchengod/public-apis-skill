@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/graphhopper",
+  "name": "GraphHopper",
+  "category": "Transportation",
+  "description": "A-to-B routing with turn-by-turn instructions",
+  "documentation_url": "https://docs.graphhopper.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__GRAPHHOPPER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0fc188ccdf5eedfaeafe77f533f087a8fb227b18d0c2fd7e43e85e5e5bd34a5e"
+  }
+}

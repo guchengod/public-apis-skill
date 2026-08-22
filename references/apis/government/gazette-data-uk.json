@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "government/gazette-data-uk",
+  "name": "Gazette Data, UK",
+  "category": "Government",
+  "description": "UK official public record API",
+  "documentation_url": "https://www.thegazette.co.uk/data",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GOVERNMENT__GAZETTE_DATA_UK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2d07769315069e55e10ab099abe79027ccd44eef54330ef084bc378095ec92ac"
+  }
+}

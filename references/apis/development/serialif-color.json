@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/serialif-color",
+  "name": "Serialif Color",
+  "category": "Development",
+  "description": "Color conversion, complementary, grayscale and contrasted text",
+  "documentation_url": "https://color.serialif.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a8a62b88a17b445ab08248c8c013d76b57d580a3f7d7bf3d263f4739768eea7f"
+  }
+}

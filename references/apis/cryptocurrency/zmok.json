@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/zmok",
+  "name": "ZMOK",
+  "category": "Cryptocurrency",
+  "description": "Ethereum JSON RPC API and Web3 provider",
+  "documentation_url": "https://zmok.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1af20b10fa737da30f4ae3e9d8cecd89b68e81bf982965d96b83509bc82945ec"
+  }
+}

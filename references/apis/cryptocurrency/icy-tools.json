@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/icy-tools",
+  "name": "icy.tools",
+  "category": "Cryptocurrency",
+  "description": "GraphQL based NFT API",
+  "documentation_url": "https://developers.icy.tools/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__ICY_TOOLS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3287d98dfb708eb8f2eb2bea64de84ad11f1c9edada7c5fce18db53a78ec427c"
+  }
+}

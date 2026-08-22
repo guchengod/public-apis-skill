@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/core",
+  "name": "CORE",
+  "category": "Science & Math",
+  "description": "Access the world's Open Access research papers",
+  "documentation_url": "https://core.ac.uk/services#api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__CORE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88538a75712b34a7b2d618633eac4b66c606d6422349df3e08ab69fd5becab11"
+  }
+}

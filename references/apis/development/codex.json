@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/codex",
+  "name": "Codex",
+  "category": "Development",
+  "description": "Online Compiler for Various Languages",
+  "documentation_url": "https://github.com/Jaagrav/CodeX",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "25e9041b63e0f869bdf02999d5e18307bb73246daabc19938f5de2a6f3e830bb"
+  }
+}

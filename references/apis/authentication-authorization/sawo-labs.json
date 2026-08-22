@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/sawo-labs",
+  "name": "SAWO Labs",
+  "category": "Authentication & Authorization",
+  "description": "Simplify login and improve user experience by integrating passwordless authentication in your app",
+  "documentation_url": "https://sawolabs.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__SAWO_LABS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b2b351f580abfc020da5ea8f629e2105b5d880022b9858ee366de0b43efa749d"
+  }
+}

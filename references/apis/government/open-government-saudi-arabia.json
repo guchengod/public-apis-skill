@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-saudi-arabia",
+  "name": "Open Government, Saudi Arabia",
+  "category": "Government",
+  "description": "Saudi Arabia Government Open Data",
+  "documentation_url": "https://data.gov.sa",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb58bdd213a1f3fd34a0568e658da4bddd7ff7a66ca08957f91b50a9a2a62207"
+  }
+}

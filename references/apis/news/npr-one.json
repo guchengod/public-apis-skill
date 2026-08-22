@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "news/npr-one",
+  "name": "NPR One",
+  "category": "News",
+  "description": "Personalized news listening experience from NPR",
+  "documentation_url": "http://dev.npr.org/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__NEWS__NPR_ONE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "341a4e0305c08b5f93271e11db24d14261c434554a822dd41afde2ec7259fd4a"
+  }
+}

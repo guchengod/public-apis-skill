@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "finance/tradier",
+  "name": "Tradier",
+  "category": "Finance",
+  "description": "US equity/option market data (delayed, intraday, historical)",
+  "documentation_url": "https://developer.tradier.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FINANCE__TRADIER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3d9c2526031ab0ed699e6e2c41beff27dc6c7518527d1c18db6e9ff5189fd239"
+  }
+}

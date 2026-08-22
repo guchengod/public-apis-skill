@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/call-of-duty-mobile",
+  "name": "Call of Duty Mobile",
+  "category": "Games & Comics",
+  "description": "Unofficial API for CODM player data and daily cache claiming",
+  "documentation_url": "https://callofdutymobile.vercel.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d8098fb6719cc0e0c0b2fa97e089ae14c1794b47c1424194f4daa6d0c6d9c7be"
+  }
+}

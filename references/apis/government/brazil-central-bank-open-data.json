@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/brazil-central-bank-open-data",
+  "name": "Brazil Central Bank Open Data",
+  "category": "Government",
+  "description": "Brazil Central Bank Open Data",
+  "documentation_url": "https://dadosabertos.bcb.gov.br/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f873d3d663c91c485457e11700161b04d4dae2a4441f2b5bc9b2ae5b0a98ba1"
+  }
+}

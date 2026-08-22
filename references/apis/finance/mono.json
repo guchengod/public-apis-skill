@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/mono",
+  "name": "Mono",
+  "category": "Finance",
+  "description": "Connect with users’ bank accounts and access transaction data in Africa",
+  "documentation_url": "https://mono.co/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__MONO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "91d4175936318d169c2b991f37aecbf14f2fe62d30c918ede8418e4b2d74d74d"
+  }
+}

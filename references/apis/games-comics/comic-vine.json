@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/comic-vine",
+  "name": "Comic Vine",
+  "category": "Games & Comics",
+  "description": "Comics",
+  "documentation_url": "https://comicvine.gamespot.com/api/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "30910448160d4b59c7aaeb963caf29dfcdfac8c000e41037efbe563847ac9885"
+  }
+}

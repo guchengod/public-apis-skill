@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/sakura-cardcaptor",
+  "name": "Sakura CardCaptor",
+  "category": "Games & Comics",
+  "description": "Sakura CardCaptor Cards Information",
+  "documentation_url": "https://github.com/JessVel/sakura-card-captor-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b42fad84b3e1e4a5f1c7d18d7bad9b56d9a9fe8db698afe10febd17f478aa747"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "business/square",
+  "name": "Square",
+  "category": "Business",
+  "description": "Easy way to take payments, manage refunds, and help customers checkout online",
+  "documentation_url": "https://developer.squareup.com/reference/square",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BUSINESS__SQUARE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1506c8670cc654db355e3a044ce5dbdc94dcc9e0c883295025c99981c2bcb9e9"
+  }
+}

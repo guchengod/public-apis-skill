@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/indian-mutual-fund",
+  "name": "Indian Mutual Fund",
+  "category": "Finance",
+  "description": "Get complete history of India Mutual Funds Data",
+  "documentation_url": "https://www.mfapi.in/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1968132fdf841b003706f382cd78d746ab47c6597297cbd5e83b1202b8626fa1"
+  }
+}

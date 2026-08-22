@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/blogger",
+  "name": "Blogger",
+  "category": "Social",
+  "description": "The Blogger APIs allows client applications to view and update Blogger content",
+  "documentation_url": "https://developers.google.com/blogger/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__BLOGGER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01de3caec3b5205fffe31d16d2f34b8a8d7eb5628ff6d7163c0f96159036224f"
+  }
+}

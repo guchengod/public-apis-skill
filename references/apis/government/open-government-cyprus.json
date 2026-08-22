@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-cyprus",
+  "name": "Open Government, Cyprus",
+  "category": "Government",
+  "description": "Cyprus Government Open Data",
+  "documentation_url": "https://data.gov.cy/?language=en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3ae992e58fe45f1a79383042c63f689ab51e05b6f5bfc7df97d43de9e2ade6de"
+  }
+}

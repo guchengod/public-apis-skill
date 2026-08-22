@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/thesportsdb",
+  "name": "TheSportsDB",
+  "category": "Sports & Fitness",
+  "description": "Crowd-Sourced Sports Data and Artwork",
+  "documentation_url": "https://www.thesportsdb.com/api.php",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__THESPORTSDB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b1fc546bae3d50d9fec0bf98ccb1f8f5c6969d39701daf84acf1c7e2607d2981"
+  }
+}

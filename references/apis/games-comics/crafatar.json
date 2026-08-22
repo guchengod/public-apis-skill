@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/crafatar",
+  "name": "Crafatar",
+  "category": "Games & Comics",
+  "description": "API for Minecraft skins and faces",
+  "documentation_url": "https://crafatar.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "711533a2b7cf85515f4cc37860a9ea85c43418ba4ebc61f0c6b265cb392c9c3b"
+  }
+}

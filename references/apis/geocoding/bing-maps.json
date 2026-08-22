@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/bing-maps",
+  "name": "Bing Maps",
+  "category": "Geocoding",
+  "description": "Create/customize digital maps based on Bing Maps data",
+  "documentation_url": "https://www.microsoft.com/maps/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__BING_MAPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "702e6274efd0b85cace9761685353b57053b603a3deec2a01acb390b72d874bf"
+  }
+}

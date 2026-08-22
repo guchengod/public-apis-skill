@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/ifttt",
+  "name": "IFTTT",
+  "category": "Development",
+  "description": "IFTTT Connect API",
+  "documentation_url": "https://platform.ifttt.com/docs/connect_api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5576ff608f9fdbf2ba76ad34fc67e3a3c5d080b7e359ea19f9d222aba591c252"
+  }
+}

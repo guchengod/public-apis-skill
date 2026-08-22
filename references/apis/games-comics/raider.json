@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/raider",
+  "name": "Raider",
+  "category": "Games & Comics",
+  "description": "Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft",
+  "documentation_url": "https://raider.io/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "659bbc5abe8ff2bdcc9abcd7a72947777f74eeec600a570d5cefda61b652077b"
+  }
+}

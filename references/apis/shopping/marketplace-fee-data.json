@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/marketplace-fee-data",
+  "name": "Marketplace Fee Data",
+  "category": "Shopping",
+  "description": "Seller fee schedules for 21 e-commerce marketplaces and payment processors as JSON",
+  "documentation_url": "https://www.sellerscalc.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "133b68b67428e911586b754998c0e9d603e1c855158bf4464f3817d0dee90a8f"
+  }
+}

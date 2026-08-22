@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/bank-of-russia",
+  "name": "Bank of Russia",
+  "category": "Currency Exchange",
+  "description": "Exchange rates and currency conversion",
+  "documentation_url": "https://www.cbr.ru/development/SXML/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "768d4887f5ae2c240f1c303347fa52827aa39b17d0819656775b16a89bfc150d"
+  }
+}

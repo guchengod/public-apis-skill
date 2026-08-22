@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/jamendo",
+  "name": "Jamendo",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://developer.jamendo.com/v3.0/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__JAMENDO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ed623d29ad5219e72f5d20defb48bf734b2ec91d4b13f6a7613dca30129c6907"
+  }
+}

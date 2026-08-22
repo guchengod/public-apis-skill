@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/dummyjson",
+  "name": "DummyJSON",
+  "category": "Test Data",
+  "description": "Fake REST API with products, users, posts, comments, todos and more",
+  "documentation_url": "https://dummyjson.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f34705f77d8d48099fe9ce0e79b7e4f0c5f1d520cecec0b1b8ff6691708832c8"
+  }
+}

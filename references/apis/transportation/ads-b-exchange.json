@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/ads-b-exchange",
+  "name": "ADS-B Exchange",
+  "category": "Transportation",
+  "description": "Access real-time and historical data of any and all airborne aircraft",
+  "documentation_url": "https://www.adsbexchange.com/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "523b8ae1320c6cce5e3da7ac0a96c7525ee7cba5fbfefcc15d4f0dd659b969a8"
+  }
+}

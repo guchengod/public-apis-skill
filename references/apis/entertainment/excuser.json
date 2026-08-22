@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/excuser",
+  "name": "Excuser",
+  "category": "Entertainment",
+  "description": "Get random excuses for various situations",
+  "documentation_url": "https://excuser.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0bdcd51361329201c36871f11d922efe4aaaa71a96bdecfadfbae2922af49261"
+  }
+}

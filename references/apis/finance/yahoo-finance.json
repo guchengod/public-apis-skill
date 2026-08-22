@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/yahoo-finance",
+  "name": "Yahoo Finance",
+  "category": "Finance",
+  "description": "Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange",
+  "documentation_url": "https://www.yahoofinanceapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__YAHOO_FINANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "54a449415ec6135023086f759e2e2b2796b6481ae793e9b102cd02d22a4e485e"
+  }
+}

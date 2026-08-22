@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/namomemes",
+  "name": "NaMoMemes",
+  "category": "Entertainment",
+  "description": "Memes on Narendra Modi",
+  "documentation_url": "https://github.com/theIYD/NaMoMemes",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba8cb9d4e5c251bc8059cbfd61592322b16758aef91752cc65c26d3f7e59e38d"
+  }
+}

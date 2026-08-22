@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/strava",
+  "name": "Strava",
+  "category": "Sports & Fitness",
+  "description": "Connect with athletes, activities and more",
+  "documentation_url": "https://strava.github.io/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__STRAVA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b74e087d4728ea348cab65a35b111cf917b86300344a45c2d0929a0c6ffab9d7"
+  }
+}

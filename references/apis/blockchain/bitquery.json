@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/bitquery",
+  "name": "Bitquery",
+  "category": "Blockchain",
+  "description": "Onchain GraphQL APIs & DEX APIs",
+  "documentation_url": "https://graphql.bitquery.io/ide",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__BITQUERY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ea60b190c01b25d1bd944a7d69a28152546e4de34424edd5d241a14bbeba039f"
+  }
+}

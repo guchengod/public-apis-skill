@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/18f",
+  "name": "18F",
+  "category": "Open Data",
+  "description": "Unofficial US Federal Government API Development",
+  "documentation_url": "http://18f.github.io/API-All-the-X/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5efff64f4c05826ca6d537c9c78f50e93b68f9ce554284ddab4dcdde4c950e43"
+  }
+}

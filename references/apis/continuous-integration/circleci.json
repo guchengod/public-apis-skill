@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/circleci",
+  "name": "CircleCI",
+  "category": "Continuous Integration",
+  "description": "Automate the software development process using continuous integration and continuous delivery",
+  "documentation_url": "https://circleci.com/docs/api/v1-reference/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__CIRCLECI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49197d4278f36cb68b20defd851488370b984f9a12372d1acf7849974e35913d"
+  }
+}

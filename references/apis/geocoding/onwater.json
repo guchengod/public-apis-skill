@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/onwater",
+  "name": "OnWater",
+  "category": "Geocoding",
+  "description": "Determine if a lat/lon is on water or land",
+  "documentation_url": "https://onwater.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fa7f09196e97feb94bb185c0841dbeda20e3b6fee792049d9b9d1ff637be84e"
+  }
+}

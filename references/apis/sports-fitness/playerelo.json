@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/playerelo",
+  "name": "PlayerElo",
+  "category": "Sports & Fitness",
+  "description": "Player-level Elo ratings, predictions and history for 176 football leagues",
+  "documentation_url": "https://playerelo.football/api-access",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PLAYERELO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5236ef08effd3a739767d3f42c4dc6bf11d1e276f0d0f5fbb5bb7bbe7cf54edb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/nobel-prize",
+  "name": "Nobel Prize",
+  "category": "Open Data",
+  "description": "Open data about nobel prizes and events",
+  "documentation_url": "https://www.nobelprize.org/about/developer-zone-2/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6be1339c991cf03351685327940409e576b97deb0857506b3c77daaf39258d89"
+  }
+}

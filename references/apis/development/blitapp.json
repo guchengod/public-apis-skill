@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/blitapp",
+  "name": "Blitapp",
+  "category": "Development",
+  "description": "Schedule screenshots of web pages and sync them to your cloud",
+  "documentation_url": "https://blitapp.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BLITAPP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a9d5170f8bc6d99288f881a7abdc9b21974b5e4cc1e4c4b0a1ab33146d8da8a9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/national-park-service-us",
+  "name": "National Park Service, US",
+  "category": "Government",
+  "description": "Data from the US National Park Service",
+  "documentation_url": "https://www.nps.gov/subjects/developer/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__NATIONAL_PARK_SERVICE_US__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "844807d3ff8c1725b5fefdd2c2f686fe55744485bc757bb66df4dfe665984e70"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/microenv",
+  "name": "MicroENV",
+  "category": "Development",
+  "description": "Fake Rest API for developers",
+  "documentation_url": "https://microenv.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98de568db81ed7b42ecbae1bd53ded56c974f6539ec1579872574d9d415a6694"
+  }
+}

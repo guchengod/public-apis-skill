@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/google-earth-engine",
+  "name": "Google Earth Engine",
+  "category": "Geocoding",
+  "description": "A cloud-based platform for planetary-scale environmental data analysis",
+  "documentation_url": "https://developers.google.com/earth-engine/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__GOOGLE_EARTH_ENGINE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5372ab4959458cc32ac1cdb466de6d64b319fd454776f06487351aafe43662de"
+  }
+}

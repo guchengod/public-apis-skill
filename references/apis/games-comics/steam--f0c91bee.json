@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/steam--f0c91bee",
+  "name": "Steam",
+  "category": "Games & Comics",
+  "description": "Internal Steam Web API documentation",
+  "documentation_url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d2f805d772d78a6194f1122d59644a127bf5d9148603e7b95bd5cace7509bde"
+  }
+}

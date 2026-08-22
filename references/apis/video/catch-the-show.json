@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/catch-the-show",
+  "name": "Catch The Show",
+  "category": "Video",
+  "description": "REST API for next-episode.net",
+  "documentation_url": "https://catchtheshow.herokuapp.com/api/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c38296a8abcd48cc9288c915c6cb9d8529f06640265695031bc06b2ff88fb49"
+  }
+}

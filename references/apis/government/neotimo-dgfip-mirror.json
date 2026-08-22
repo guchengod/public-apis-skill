@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/neotimo-dgfip-mirror",
+  "name": "Neotimo DGFiP Mirror",
+  "category": "Government",
+  "description": "French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET",
+  "documentation_url": "https://neotimo.com/annuaire-dgfip",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "124b6730bb665d57ded6572cea42cf0268055437f97321adbc153f2e089dfade"
+  }
+}

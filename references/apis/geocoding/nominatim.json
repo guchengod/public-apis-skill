@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/nominatim",
+  "name": "Nominatim",
+  "category": "Geocoding",
+  "description": "Provides worldwide forward / reverse geocoding",
+  "documentation_url": "https://nominatim.org/release-docs/latest/api/Overview/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f19d22a86ea5ee773053696bbcae968c87c691b8b8f6c205dbf99145fcf729c6"
+  }
+}

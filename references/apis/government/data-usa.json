@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/data-usa",
+  "name": "Data USA",
+  "category": "Government",
+  "description": "US Public Data",
+  "documentation_url": "https://datausa.io/about/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a93c8422f1abce623c8ecbf65fe6356c8817c639a7de5d85ed9c9ec5b7ff482"
+  }
+}

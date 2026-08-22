@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/cruisefeed",
+  "name": "CruiseFeed",
+  "category": "Transportation",
+  "description": "Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares",
+  "documentation_url": "https://cruisefeed.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__CRUISEFEED__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1fed9676f63c038dcb59a7c6c91f01382a74055f7638c6046d502bb65e25cb9e"
+  }
+}

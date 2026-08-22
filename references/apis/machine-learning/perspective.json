@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/perspective",
+  "name": "Perspective",
+  "category": "Machine Learning",
+  "description": "NLP API to return probability that if text is toxic, obscene, insulting or threatening",
+  "documentation_url": "https://perspectiveapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__PERSPECTIVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e9ed1d2eed50f48c1f5fdfa8c9d92e7bb1ee3d28c7ac51844542feffb9dc016"
+  }
+}

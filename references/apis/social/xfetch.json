@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/xfetch",
+  "name": "xfetch",
+  "category": "Social",
+  "description": "Read API for X/Twitter search, profiles, tweets, and social graph",
+  "documentation_url": "https://xfetch.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__XFETCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c59bd217b1f0abf5038cedee06d06941f29de68d4acd328ad6bda4b923bcc96c"
+  }
+}

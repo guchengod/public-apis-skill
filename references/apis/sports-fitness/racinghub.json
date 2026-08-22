@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/racinghub",
+  "name": "RacingHub",
+  "category": "Sports & Fitness",
+  "description": "Formula 1 historical data and statistics",
+  "documentation_url": "https://racinghub.net/api/v1/docs#/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "909f6dc5e81d84517399ea301c2ed38af62aaed7684696947c5e3f61a97c380c"
+  }
+}

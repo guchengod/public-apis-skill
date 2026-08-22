@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/file-io",
+  "name": "File.io",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Super simple file sharing, convenient, anonymous and secure",
+  "documentation_url": "https://www.file.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "006897357d8c6443ce83726576eae989e9d488ba98da4a2fc20ecf78fa52b6cf"
+  }
+}

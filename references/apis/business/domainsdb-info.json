@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/domainsdb-info",
+  "name": "Domainsdb.info",
+  "category": "Business",
+  "description": "Registered Domain Names Search",
+  "documentation_url": "https://domainsdb.info/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4dd84535541619bd018154f5800bdb5c7c5348eb9eaa6190ce6ec91d31b4537b"
+  }
+}

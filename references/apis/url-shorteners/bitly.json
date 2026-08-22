@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/bitly",
+  "name": "Bitly",
+  "category": "URL Shorteners",
+  "description": "URL shortener and link management",
+  "documentation_url": "http://dev.bitly.com/get_started.html",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__BITLY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "15490171239e18394e6075ba6237bdd6257a80d05beda82e57d52d7770e6ae70"
+  }
+}

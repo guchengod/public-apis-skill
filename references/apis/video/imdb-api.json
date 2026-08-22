@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/imdb-api",
+  "name": "IMDb-API",
+  "category": "Video",
+  "description": "API for receiving movie, serial and cast information",
+  "documentation_url": "https://imdb-api.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__IMDB_API__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa35dea2d99b6cd89262f21a4965271b6eadba015d3ba9611cc2ed6bb642ac49"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/the-graph",
+  "name": "The Graph",
+  "category": "Blockchain",
+  "description": "Indexing protocol for querying networks like Ethereum with GraphQL",
+  "documentation_url": "https://thegraph.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__THE_GRAPH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e3d4024d47775cf128bc196e2e6bbd6ce51e36214b3c236c2679a8265a50e8a1"
+  }
+}

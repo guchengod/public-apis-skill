@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/botd",
+  "name": "Botd",
+  "category": "Security",
+  "description": "Botd is a browser library for JavaScript bot detection",
+  "documentation_url": "https://github.com/fingerprintjs/botd",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__BOTD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "279b27879e9acaeb13d991cde6976f18dfd78f27102cb700790cdcd3c9858ab2"
+  }
+}

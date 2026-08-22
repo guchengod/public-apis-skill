@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/twitter",
+  "name": "Twitter",
+  "category": "Social",
+  "description": "Read and write Twitter data",
+  "documentation_url": "https://developer.twitter.com/en/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TWITTER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d027ff61ee947cc2ea3b98f623c9854ee75936d99ed06cf64ed757b0a515e7c9"
+  }
+}

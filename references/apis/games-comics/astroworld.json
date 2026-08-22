@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/astroworld",
+  "name": "Astroworld",
+  "category": "Games & Comics",
+  "description": "Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades",
+  "documentation_url": "https://api.astroworldmc.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "54b6586de8d5d86770b23f7668ec8de0c675da537b2e487a1e6785c33839571e"
+  }
+}

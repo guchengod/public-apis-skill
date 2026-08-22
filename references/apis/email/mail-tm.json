@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/mail-tm",
+  "name": "mail.tm",
+  "category": "Email",
+  "description": "Temporary Email Service",
+  "documentation_url": "https://docs.mail.tm",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2fb8739c96075fc92d51a81875384ae823d6a0f9f47ca406b56a889e463ca073"
+  }
+}

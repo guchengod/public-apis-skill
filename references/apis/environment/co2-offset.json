@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/co2-offset",
+  "name": "CO2 Offset",
+  "category": "Environment",
+  "description": "API calculates and validates the carbon footprint",
+  "documentation_url": "https://co2offset.io/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bf01c8e34d0d1de1f9806d2218f868c87e2448f4262f19102029b38fd13b4416"
+  }
+}

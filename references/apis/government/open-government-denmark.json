@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-denmark",
+  "name": "Open Government, Denmark",
+  "category": "Government",
+  "description": "Denmark Government Open Data",
+  "documentation_url": "https://www.opendata.dk/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c990d808a1dcb9f5401e10a1a4c4cae73bac1b462378ac8a45bfb47ebbed7d5e"
+  }
+}

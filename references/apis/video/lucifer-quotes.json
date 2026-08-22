@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/lucifer-quotes",
+  "name": "Lucifer Quotes",
+  "category": "Video",
+  "description": "Returns Lucifer quotes",
+  "documentation_url": "https://github.com/shadowoff09/lucifer-quotes",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1e7de7561e3ae8391240135c6d2e24672141ba104be2aa0c61588ea95cccc8f"
+  }
+}

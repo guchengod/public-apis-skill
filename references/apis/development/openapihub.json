@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/openapihub",
+  "name": "OpenAPIHub",
+  "category": "Development",
+  "description": "The All-in-one API Platform",
+  "documentation_url": "https://hub.openapihub.com/",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__OPENAPIHUB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "31efef02878167862854e00b19506e2eb1ab863823dbf1b2adbb489906cfc0a5"
+  }
+}

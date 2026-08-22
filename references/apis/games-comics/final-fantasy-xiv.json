@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/final-fantasy-xiv",
+  "name": "Final Fantasy XIV",
+  "category": "Games & Comics",
+  "description": "Final Fantasy XIV Game data API",
+  "documentation_url": "https://xivapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a4869d4b2c2da55106290115771542c6ba59880bc75ca757307b2857518c59b"
+  }
+}

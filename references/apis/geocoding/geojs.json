@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geojs",
+  "name": "GeoJS",
+  "category": "Geocoding",
+  "description": "IP geolocation with ChatOps integration",
+  "documentation_url": "https://www.geojs.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bb6fbef177836c22296a6322c4b77d50c2a2fa295fcb4b4118740fd1570f1a03"
+  }
+}

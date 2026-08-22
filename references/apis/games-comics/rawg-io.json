@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/rawg-io",
+  "name": "RAWG.io",
+  "category": "Games & Comics",
+  "description": "500,000+ games for 50 platforms including mobiles",
+  "documentation_url": "https://rawg.io/apidocs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__RAWG_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "06f902f570aa2b3d43ba8fb318daf9af20117f5531df2303250dbf9ec8d791a5"
+  }
+}

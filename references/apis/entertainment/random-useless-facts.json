@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/random-useless-facts",
+  "name": "Random Useless Facts",
+  "category": "Entertainment",
+  "description": "Get useless, but true facts",
+  "documentation_url": "https://uselessfacts.jsph.pl/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "edc67174a77f0cf1fe9a38067986108182b3f6132f6e7598278ed39ab0255f8b"
+  }
+}

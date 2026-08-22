@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/bored",
+  "name": "Bored",
+  "category": "Development",
+  "description": "Find random activities to fight boredom",
+  "documentation_url": "https://bored-api.appbrewery.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c8445f53d72de94de44772a46c0b8b3d028276ddc89bc404932fcd38795a6f4"
+  }
+}

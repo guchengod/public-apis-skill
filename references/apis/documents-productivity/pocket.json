@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/pocket",
+  "name": "Pocket",
+  "category": "Documents & Productivity",
+  "description": "Bookmarking service",
+  "documentation_url": "https://getpocket.com/developer/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__POCKET__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "23f0234e4377e7695ef7b09c99778fcf23f25d52e3b59bcbf0f6e590b0378ae8"
+  }
+}

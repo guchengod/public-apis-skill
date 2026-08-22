@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/npm-registry",
+  "name": "npm Registry",
+  "category": "Development",
+  "description": "Query information about your favorite Node.js libraries programatically",
+  "documentation_url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e094bc0973f9cd51cb743c5108fc5f89529d0aa21e9db5851d95ae0c4fad5d7d"
+  }
+}

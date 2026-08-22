@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-lisbon-portugal",
+  "name": "Transport for Lisbon, Portugal",
+  "category": "Transportation",
+  "description": "Data about buses routes, parking and traffic",
+  "documentation_url": "https://emel.city-platform.com/opendata/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_LISBON_PORTUGAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c4b35214014e8a617d99a933da1c1cf82a8d34335ab3ab7bb9ffa8f9d6d74549"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/potterdb",
+  "name": "PotterDB",
+  "category": "Entertainment",
+  "description": "Harry Potter universe database with characters, spells, potions and more",
+  "documentation_url": "https://docs.potterdb.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "21edb2e4a9afe877c0601c741007b6f007ae658bedc791072dc4b30276b6e038"
+  }
+}

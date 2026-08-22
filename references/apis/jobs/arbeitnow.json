@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/arbeitnow",
+  "name": "Arbeitnow",
+  "category": "Jobs",
+  "description": "API for Job board aggregator in Europe / Remote",
+  "documentation_url": "https://documenter.getpostman.com/view/18545278/UVJbJdKh",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a35f069e0118e5d19d0b0c16566c66b0cb61dfbf602651204fb2519593360a9"
+  }
+}

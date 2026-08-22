@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinmarketcap",
+  "name": "CoinMarketCap",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Prices",
+  "documentation_url": "https://coinmarketcap.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINMARKETCAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35da0666e0b250f7c5e5897ee2195a8ccf04784ed7dbee99fccfa7a05124001f"
+  }
+}

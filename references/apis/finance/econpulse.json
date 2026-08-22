@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/econpulse",
+  "name": "EconPulse",
+  "category": "Finance",
+  "description": "Live economic data — CPI, PPI, energy, treasury rates, BTC premium",
+  "documentation_url": "https://econpulse.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__ECONPULSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "46afe3998e331e3b50ace253a61ffece104b75667b49a684d9081a83d47db5a6"
+  }
+}

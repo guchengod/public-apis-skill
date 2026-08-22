@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/helium",
+  "name": "Helium",
+  "category": "Blockchain",
+  "description": "Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage",
+  "documentation_url": "https://docs.helium.com/api/blockchain/introduction/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9e4aa4d2502eb9f23739272a1429d189e1cc88fd01d73c2e8468fe32ad6e8f5a"
+  }
+}

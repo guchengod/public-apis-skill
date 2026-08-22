@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/kdp-intelligence",
+  "name": "KDP Intelligence",
+  "category": "Books",
+  "description": "KDP niche demand scores, competition analysis and revenue estimates",
+  "documentation_url": "https://kdp-intelligence-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d261ab406cedeadbf76a54db908b57ffb6ba4638a2a5b1922cf65e0cf561b5b1"
+  }
+}

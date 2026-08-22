@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/randomfox",
+  "name": "RandomFox",
+  "category": "Animals",
+  "description": "Random pictures of foxes",
+  "documentation_url": "https://randomfox.ca/floof/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "622a3ee21bcb3682274d8edd637c501d20079f9a8d0889f0866958a8cd3040db"
+  }
+}

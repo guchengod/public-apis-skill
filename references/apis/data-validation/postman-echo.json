@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/postman-echo",
+  "name": "Postman Echo",
+  "category": "Data Validation",
+  "description": "Test api server to receive and return value from HTTP method",
+  "documentation_url": "https://www.postman-echo.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d3c31d8dc9449a7e115d40c8fc9f6eeba9313f2dadf6789effe172912759132"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/heroku",
+  "name": "Heroku",
+  "category": "Development",
+  "description": "REST API to programmatically create apps, provision add-ons and perform other task on Heroku",
+  "documentation_url": "https://devcenter.heroku.com/articles/platform-api-reference/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__HEROKU__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be3958e36602b7f967b800a1c5cedf9479eba27fb731350e8b83703e73b5d679"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/marvel",
+  "name": "Marvel",
+  "category": "Games & Comics",
+  "description": "Marvel Comics",
+  "documentation_url": "https://developer.marvel.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__MARVEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6fcdc9d98c4291698975be07ce5c64931b8ef6fdd54cf496c8d9d9628cd915b6"
+  }
+}

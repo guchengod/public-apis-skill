@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "programming/mintlify",
+  "name": "Mintlify",
+  "category": "Programming",
+  "description": "For programmatically generating documentation for code",
+  "documentation_url": "https://docs.mintlify.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PROGRAMMING__MINTLIFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "226ada463a56f00168b331bef643eb378ed881c883eb129600b5286d415f9fbb"
+  }
+}

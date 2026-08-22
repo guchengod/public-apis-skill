@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/block",
+  "name": "Block",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin Payment, Wallet & Transaction Data",
+  "documentation_url": "https://block.io/docs/basic",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BLOCK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a84acef8bcac869cebf97d2e364fd06487a2ad0ab357dffc9e047a6f59efd394"
+  }
+}

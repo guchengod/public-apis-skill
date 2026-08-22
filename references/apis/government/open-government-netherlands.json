@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-netherlands",
+  "name": "Open Government, Netherlands",
+  "category": "Government",
+  "description": "Netherlands Government Open Data",
+  "documentation_url": "https://data.overheid.nl/en/ondersteuning/data-publiceren/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "214a9ecd433a4f591fdc1ce09981c31f10396eee89ad1af1ee6cf402cacf0f13"
+  }
+}

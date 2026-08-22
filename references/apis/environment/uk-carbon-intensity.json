@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/uk-carbon-intensity",
+  "name": "UK Carbon Intensity",
+  "category": "Environment",
+  "description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+  "documentation_url": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d66f56802639634f554b149ebdf059e76ac9897f7695a723b05c84436d558a8d"
+  }
+}

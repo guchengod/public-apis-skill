@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/foaas",
+  "name": "FOAAS",
+  "category": "Personality",
+  "description": "Fuck Off As A Service",
+  "documentation_url": "http://www.foaas.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56686eaf29ebb2e7be9f4d0c92126a2189e1bb5f96a4754d72554190ae20938d"
+  }
+}

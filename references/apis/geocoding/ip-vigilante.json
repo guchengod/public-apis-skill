@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip-vigilante",
+  "name": "IP Vigilante",
+  "category": "Geocoding",
+  "description": "Free IP Geolocation API",
+  "documentation_url": "https://www.ipvigilante.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f54c75f027c095f39c5a52b83b1da4eeba8607d08fb3d776782d5b4a2ec1e2b1"
+  }
+}

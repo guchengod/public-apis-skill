@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "calendar/checkiday-national-holiday",
+  "name": "Checkiday - National Holiday",
+  "category": "Calendar",
+  "description": "Industry-leading holiday data with over 5,000 holidays and thousands of descriptions",
+  "documentation_url": "https://apilayer.com/marketplace/checkiday-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CALENDAR__CHECKIDAY_NATIONAL_HOLIDAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40bc54dc32a3a843a402a799b427b12e9d7fce37ecbd736f0686a642764fea25"
+  }
+}

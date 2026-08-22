@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/orbitalwiki",
+  "name": "OrbitalWiki",
+  "category": "Science & Math",
+  "description": "Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included",
+  "documentation_url": "https://orbitalwiki.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__ORBITALWIKI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dca1c5a1deb93bec0253ed0ebea21e81866756d51d6a164618bc530f05d54ca8"
+  }
+}

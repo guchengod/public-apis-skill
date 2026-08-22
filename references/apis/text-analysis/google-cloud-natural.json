@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/google-cloud-natural",
+  "name": "Google Cloud Natural",
+  "category": "Text Analysis",
+  "description": "Natural language understanding technology, including sentiment, entity and syntax analysis",
+  "documentation_url": "https://cloud.google.com/natural-language/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__GOOGLE_CLOUD_NATURAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "997fdf3424a7f55e7d1c8c070e6c59702534ee1871321b9cb95fbe367899637e"
+  }
+}

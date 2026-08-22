@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/kutt",
+  "name": "Kutt",
+  "category": "URL Shorteners",
+  "description": "Free Modern URL Shortener",
+  "documentation_url": "https://docs.kutt.it/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__KUTT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c0182217aebe79c5c7b1d5d0facb5e86d8ebac2109a0614b71abf80081237f2"
+  }
+}

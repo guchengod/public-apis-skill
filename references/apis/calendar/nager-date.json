@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/nager-date",
+  "name": "Nager.Date",
+  "category": "Calendar",
+  "description": "Public holidays for more than 90 countries",
+  "documentation_url": "https://date.nager.at",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37e5f25bb4e880b2dc4c6c8b6bef52da4c0f581092129169b0156dc7fe1e7624"
+  }
+}

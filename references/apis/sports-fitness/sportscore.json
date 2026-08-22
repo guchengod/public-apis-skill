@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sportscore",
+  "name": "SportScore",
+  "category": "Sports & Fitness",
+  "description": "Live scores, fixtures, standings and stats for football, basketball, cricket and tennis",
+  "documentation_url": "https://sportscore.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3503589c41bf891f47fdbea3ac76c41e79aafe38066bc9bc59c26ddd03b49635"
+  }
+}

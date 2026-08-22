@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/lecto-translation",
+  "name": "Lecto Translation",
+  "category": "Text Analysis",
+  "description": "Translation API with free tier and reasonable prices",
+  "documentation_url": "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__LECTO_TRANSLATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ad05a34c9db123c9f8811945802ba2f80d86ed80c7bdc2142c1606c1d0ac7b0"
+  }
+}

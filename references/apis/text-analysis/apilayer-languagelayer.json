@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/apilayer-languagelayer",
+  "name": "apilayer languagelayer",
+  "category": "Text Analysis",
+  "description": "Language Detection JSON API supporting 173 languages",
+  "documentation_url": "https://languagelayer.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__APILAYER_LANGUAGELAYER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ff2eebb96c7840d287fcca621866ea000086884ec84cc8a7a2ec2305ad2004c5"
+  }
+}

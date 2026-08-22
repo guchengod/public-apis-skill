@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/russian-calendar",
+  "name": "Russian Calendar",
+  "category": "Calendar",
+  "description": "Check if a date is a Russian holiday or not",
+  "documentation_url": "https://github.com/egno/work-calendar",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6e28d0d3c7a757223e592a80911c1a3280ad3e95659697e552c67fb89727c5b6"
+  }
+}

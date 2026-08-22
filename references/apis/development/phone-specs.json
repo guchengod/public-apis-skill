@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/phone-specs",
+  "name": "Phone Specs",
+  "category": "Development",
+  "description": "Real-time smartphone specifications database for 263 devices",
+  "documentation_url": "https://phone-specs-api-production.up.railway.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f98cabd4c9adb7335d1600433dffad838c8391b767f49c88e9eaea9d71ef49c"
+  }
+}

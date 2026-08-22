@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/ig",
+  "name": "IG",
+  "category": "Finance",
+  "description": "Spreadbetting and CFD Market Data",
+  "documentation_url": "https://labs.ig.com/gettingstarted",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__IG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2086270f8a4f3c2782f0f8baf2ce5b1985d9d3413dc82b21c9485891430f5da1"
+  }
+}

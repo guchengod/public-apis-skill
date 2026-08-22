@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/mocky",
+  "name": "Mocky",
+  "category": "Development",
+  "description": "Mock user defined test JSON for REST API endpoints",
+  "documentation_url": "https://designer.mocky.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9202234f35d6ea8804391a27498ef3f1ea547b0f8251c164e80e33d38bbbf2ad"
+  }
+}

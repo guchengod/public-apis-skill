@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/final-space",
+  "name": "Final Space",
+  "category": "Video",
+  "description": "Final Space API",
+  "documentation_url": "https://finalspaceapi.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1bdcf3bc4da217d451819390d0bbffa406a773175859417aec5f24b11742eaec"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/itsthisforthat",
+  "name": "ItsThisForThat",
+  "category": "Test Data",
+  "description": "Generate Random startup ideas",
+  "documentation_url": "https://itsthisforthat.com/api.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d0212cfad3d273d6901b1dab91a33feefe4ae61e8907a6048b5afc06896a318"
+  }
+}

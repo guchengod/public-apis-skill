@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/apitemplate-io",
+  "name": "APITemplate.io",
+  "category": "Photography",
+  "description": "Dynamically generate images and PDFs from templates with a simple API",
+  "documentation_url": "https://apitemplate.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__APITEMPLATE_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03103ac031d07e6139e626636ca4148f442127af2a1fd196bf75c3a14e2e043d"
+  }
+}

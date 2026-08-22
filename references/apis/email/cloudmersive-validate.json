@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/cloudmersive-validate",
+  "name": "Cloudmersive Validate",
+  "category": "Email",
+  "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
+  "documentation_url": "https://cloudmersive.com/validate-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__CLOUDMERSIVE_VALIDATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b5833a15f9328a9da5e212917422447005ec1d7497a6c2acbb9786d38cdfaf04"
+  }
+}

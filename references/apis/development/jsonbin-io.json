@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/jsonbin-io",
+  "name": "JSONbin.io",
+  "category": "Development",
+  "description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
+  "documentation_url": "https://jsonbin.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__JSONBIN_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "591be445425ec1cf0e2aef5a3a5c84b6b5268d900d3c38360884847425b7b548"
+  }
+}

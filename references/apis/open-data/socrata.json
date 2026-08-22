@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "open-data/socrata",
+  "name": "Socrata",
+  "category": "Open Data",
+  "description": "Access to Open Data from Governments, Non-profits and NGOs around the world",
+  "documentation_url": "https://dev.socrata.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__OPEN_DATA__SOCRATA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc4cbad958f7d5273df6dcf56ac2bb0d464fc1947935ad214d37de3b504dd34a"
+  }
+}

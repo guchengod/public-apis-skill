@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/isitdownstatus",
+  "name": "isitdownstatus",
+  "category": "Development",
+  "description": "Check if websites and online services are currently down",
+  "documentation_url": "https://isitdownstatus.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03e5513d7cd8ae2762af9b6b07f76414074b690dd45d2954c63589ccd19c2159"
+  }
+}

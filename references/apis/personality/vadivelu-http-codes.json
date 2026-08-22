@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/vadivelu-http-codes",
+  "name": "Vadivelu HTTP Codes",
+  "category": "Personality",
+  "description": "On demand HTTP Codes with images",
+  "documentation_url": "https://vadivelu.anoram.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f1af56f8f7ceec2c04dcf2695dfbe0a6e0c4dd43aa417a05aa832bd2a10e9de"
+  }
+}

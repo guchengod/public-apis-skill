@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/brazilian-chamber-of-deputies-open-data",
+  "name": "Brazilian Chamber of Deputies Open Data",
+  "category": "Government",
+  "description": "Provides legislative information in Apis XML and JSON, as well as files in various formats",
+  "documentation_url": "https://dadosabertos.camara.leg.br/swagger/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e914f0727fea965a501b518f3aabe4dc46789ced83fe219acec7b39d6466458d"
+  }
+}

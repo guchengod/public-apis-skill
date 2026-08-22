@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/icanhazdadjoke",
+  "name": "icanhazdadjoke",
+  "category": "Personality",
+  "description": "The largest selection of dad jokes on the internet",
+  "documentation_url": "https://icanhazdadjoke.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7799117ec52c2f42c83045f6a13845f5564c8662142d6227c073f45e40605bdc"
+  }
+}

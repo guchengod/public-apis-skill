@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/currents",
+  "name": "Currents",
+  "category": "News",
+  "description": "Real-time and historical global news with multilingual support",
+  "documentation_url": "https://currentsapi.services/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__CURRENTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f2133163250ce58d7ef1d7fb27f02434951602f86c4000bc3caaaa7e25f1a984"
+  }
+}

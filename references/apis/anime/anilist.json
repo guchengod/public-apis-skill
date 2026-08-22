@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "anime/anilist",
+  "name": "AniList",
+  "category": "Anime",
+  "description": "Anime discovery & tracking",
+  "documentation_url": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ANIME__ANILIST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "660c9a7243541e850ce2801da67561df06d43c01a8bff3b98aec7535cb472256"
+  }
+}

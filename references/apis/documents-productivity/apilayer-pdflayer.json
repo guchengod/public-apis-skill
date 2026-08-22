@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/apilayer-pdflayer",
+  "name": "apilayer pdflayer",
+  "category": "Documents & Productivity",
+  "description": "HTML/URL to PDF",
+  "documentation_url": "https://pdflayer.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__APILAYER_PDFLAYER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "83181546c1772d3c6d1dc16336d9cdcdbc6a0ddc585d7752abc7b2bf8a232677"
+  }
+}

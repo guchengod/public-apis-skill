@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-manchester-england",
+  "name": "Transport for Manchester, England",
+  "category": "Transportation",
+  "description": "TfGM transport network data",
+  "documentation_url": "https://developer.tfgm.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_MANCHESTER_ENGLAND__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a3f4c3ddc8101bb8d5572452ba030923982620c241460892e527524d0b408ff8"
+  }
+}

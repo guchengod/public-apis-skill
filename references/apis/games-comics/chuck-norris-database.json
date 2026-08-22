@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/chuck-norris-database",
+  "name": "Chuck Norris Database",
+  "category": "Games & Comics",
+  "description": "Jokes",
+  "documentation_url": "http://www.icndb.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03ec7d0d62b8eb9b76a582a85b20f8da1c972d76a9ef3a0bca1244df139eac62"
+  }
+}

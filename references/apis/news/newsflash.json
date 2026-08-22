@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/newsflash",
+  "name": "Newsflash",
+  "category": "News",
+  "description": "Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents",
+  "documentation_url": "https://newsflash.sh/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEWSFLASH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d34438629ee5568b691456c7492dfeba16dc1860541ba4ac2b990098b30b14f8"
+  }
+}

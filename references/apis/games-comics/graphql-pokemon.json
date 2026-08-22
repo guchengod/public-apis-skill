@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/graphql-pokemon",
+  "name": "GraphQL Pokemon",
+  "category": "Games & Comics",
+  "description": "GraphQL powered Pokemon API. Supports generations 1 through 8",
+  "documentation_url": "https://github.com/favware/graphql-pokemon",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "69c667100b8e15857783e66f0d7c21508149ffd41d10918588026a5c58e29fd6"
+  }
+}

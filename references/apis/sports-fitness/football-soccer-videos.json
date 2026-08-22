@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football-soccer-videos",
+  "name": "Football (Soccer) Videos",
+  "category": "Sports & Fitness",
+  "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
+  "documentation_url": "https://www.scorebat.com/video-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "142a710d7d23b2ebddc3a7610d7ac85e23d47303127f75fcdc673c1065cf5fa3"
+  }
+}

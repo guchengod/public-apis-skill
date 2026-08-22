@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/http2-pro",
+  "name": "HTTP2.Pro",
+  "category": "Development",
+  "description": "Test endpoints for client and server HTTP/2 protocol support",
+  "documentation_url": "https://http2.pro/doc/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "595916a7e25b3a295c91ca434c2948c4b380a883dd58b5735fba7b944f2df9a8"
+  }
+}

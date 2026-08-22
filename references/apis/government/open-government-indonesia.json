@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-indonesia",
+  "name": "Open Government, Indonesia",
+  "category": "Government",
+  "description": "Indonesian Government Open Data",
+  "documentation_url": "https://data.go.id/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a04ec6159f485fc8f9d0a445f91c14fc36897855da3424600061de1840abc2d"
+  }
+}

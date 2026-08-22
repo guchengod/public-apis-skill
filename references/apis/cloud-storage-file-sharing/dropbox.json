@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/dropbox",
+  "name": "Dropbox",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage",
+  "documentation_url": "https://www.dropbox.com/developers",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__DROPBOX__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a0618531583fd00b6bcf1c17f8ca37a36aa8badc935d3c891731fbb2157d10c1"
+  }
+}

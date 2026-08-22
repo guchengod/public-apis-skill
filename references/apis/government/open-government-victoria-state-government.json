@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-victoria-state-government",
+  "name": "Open Government, Victoria State Government",
+  "category": "Government",
+  "description": "Victoria State Government Open Data",
+  "documentation_url": "https://www.data.vic.gov.au/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b4953a715354f8a18bf1cfd0ae5e8a600d135e2eaf961014064bd0f0c383303f"
+  }
+}

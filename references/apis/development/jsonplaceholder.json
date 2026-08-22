@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/jsonplaceholder",
+  "name": "JSONPlaceholder",
+  "category": "Development",
+  "description": "Fake REST API for testing and prototyping",
+  "documentation_url": "https://jsonplaceholder.typicode.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a77758f3ac55cfc7653f3f3462f31a35c5a8797e478b1ea21f7d2d0a4de6152d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "test-data/randommer",
+  "name": "Randommer",
+  "category": "Test Data",
+  "description": "Random data generator",
+  "documentation_url": "https://randommer.io/randommer-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEST_DATA__RANDOMMER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "54972b01de320db3f253eeab752455d1accfb3bb74619b113a719becdebd355f"
+  }
+}

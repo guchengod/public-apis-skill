@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/ocean-facts",
+  "name": "Ocean Facts",
+  "category": "Science & Math",
+  "description": "Facts pertaining to the physical science of Oceanography",
+  "documentation_url": "https://oceanfacts.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "79fcd51ac252f7027015ec69fc77d68cbec1acc496eb6b29e0531ad483ea53ea"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "tracking/postalpincode",
+  "name": "PostalPinCode",
+  "category": "Tracking",
+  "description": "API for getting Pincode details in India",
+  "documentation_url": "http://www.postalpincode.in/Api-Details",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "de38820f0f3bb5c2dedfc31aab3f0a9b3022bcc0b69bef170a5c037f9ef47edf"
+  }
+}

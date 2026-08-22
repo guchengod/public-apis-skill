@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-india",
+  "name": "Covid-19 India",
+  "category": "Health",
+  "description": "Covid 19 statistics state and district wise about cases, vaccinations, recovery within India",
+  "documentation_url": "https://data.covid19india.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e3cae7da2a96a50845adb62c11827492d2984788c34755a0410a30a83ba961f7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/unplugg",
+  "name": "Unplugg",
+  "category": "Machine Learning",
+  "description": "Forecasting API for timeseries data",
+  "documentation_url": "https://unplu.gg/test_api.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__UNPLUGG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "39642e4a1d2ad859feb77ca514317965d1b69d8060c2eb4b3579cfd239e6e1bc"
+  }
+}

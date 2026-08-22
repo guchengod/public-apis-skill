@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/dicebear-avatars",
+  "name": "Dicebear Avatars",
+  "category": "Test Data",
+  "description": "Generate random pixel-art avatars",
+  "documentation_url": "https://avatars.dicebear.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc1cc9a809c11dee53c410141e2b9bcfe242a5ac5100ee112eba4310cd3a8654"
+  }
+}

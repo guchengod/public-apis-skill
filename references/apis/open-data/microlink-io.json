@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/microlink-io",
+  "name": "Microlink.io",
+  "category": "Open Data",
+  "description": "Extract structured data from any website",
+  "documentation_url": "https://microlink.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1ee2f56b021d0e6ca3ddf003100f6486c5402142dfa880c85779afd43d87331"
+  }
+}

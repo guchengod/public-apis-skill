@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/openaq",
+  "name": "OpenAQ",
+  "category": "Environment",
+  "description": "Open air quality data",
+  "documentation_url": "https://docs.openaq.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__OPENAQ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd05eb83b75966b8afc4a93083b1338a2e01dc3a9473bb438c4d1619fa250483"
+  }
+}

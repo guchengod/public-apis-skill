@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/gamerpower",
+  "name": "GamerPower",
+  "category": "Games & Comics",
+  "description": "Game Giveaways Tracker",
+  "documentation_url": "https://www.gamerpower.com/api-read",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2a213f8aaa9cba1b00fc0e1db604c897e79a63947375726445b21340be03415d"
+  }
+}

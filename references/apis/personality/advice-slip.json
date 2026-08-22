@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/advice-slip",
+  "name": "Advice Slip",
+  "category": "Personality",
+  "description": "Generate random advice slips",
+  "documentation_url": "http://api.adviceslip.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b15082a84ad7ff1d7e46950460d4e352342941f1fc3c1f44f9c532c3581d2d33"
+  }
+}

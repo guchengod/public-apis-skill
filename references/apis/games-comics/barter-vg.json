@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/barter-vg",
+  "name": "Barter.VG",
+  "category": "Games & Comics",
+  "description": "Provides information about Game, DLC, Bundles, Giveaways, Trading",
+  "documentation_url": "https://github.com/bartervg/barter.vg/wiki",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0b1747af70e707ce430a237b3e51a0244f64e953d2671128b10dc628360293aa"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/open-meteo",
+  "name": "Open-Meteo",
+  "category": "Weather",
+  "description": "Global weather forecast API for non-commercial use",
+  "documentation_url": "https://open-meteo.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2cd62200ba8496d1d32aacdb7e86feb7727262dc186d38905bf35dd7792fd1f4"
+  }
+}

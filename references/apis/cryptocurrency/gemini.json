@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/gemini",
+  "name": "Gemini",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Exchange",
+  "documentation_url": "https://docs.gemini.com/rest-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3561a625f2189a9058b3526f09d769514f5dc85bc60c9c8ae12defe926726df0"
+  }
+}

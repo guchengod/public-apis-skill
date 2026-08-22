@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/fakestoreapi",
+  "name": "FakeStoreAPI",
+  "category": "Test Data",
+  "description": "Fake store rest API for your e-commerce or shopping website prototype",
+  "documentation_url": "https://fakestoreapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49f35ca41541c632a6c840a6b5da275b8e339ee4fe7d56d7e7e0fd5ce30bd98f"
+  }
+}

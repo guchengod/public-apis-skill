@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/etsy",
+  "name": "Etsy",
+  "category": "Shopping",
+  "description": "Manage shop and interact with listings",
+  "documentation_url": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__ETSY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37d1b27c7572c167b166e4d80aabe2448ccfbbe9c5c29965697f4ce499200ed4"
+  }
+}

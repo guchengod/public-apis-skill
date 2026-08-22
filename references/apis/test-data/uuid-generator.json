@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/uuid-generator",
+  "name": "UUID Generator",
+  "category": "Test Data",
+  "description": "Generate UUIDs",
+  "documentation_url": "https://www.uuidtools.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d500f604210a4950b9c805456a1d4992d016f7e3c2969b304fc7d50a9f34a379"
+  }
+}

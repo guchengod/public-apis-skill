@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/untappd",
+  "name": "Untappd",
+  "category": "Food & Drink",
+  "description": "Social beer sharing",
+  "documentation_url": "https://untappd.com/api/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FOOD_DRINK__UNTAPPD__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5e8047283aa0a60a329f44916690fe084f3e998302b8109b3b40f4145d17a8c"
+  }
+}

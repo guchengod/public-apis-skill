@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/movebank",
+  "name": "Movebank",
+  "category": "Animals",
+  "description": "Movement and Migration data of animals",
+  "documentation_url": "https://github.com/movebank/movebank-api-doc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f00d97974da52fd367cc93fc4970bb8361a13394254ccc4776cb40dc5b5a081"
+  }
+}

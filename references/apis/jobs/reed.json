@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/reed",
+  "name": "Reed",
+  "category": "Jobs",
+  "description": "Job board aggregator",
+  "documentation_url": "https://www.reed.co.uk/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__REED__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cd5178ca3f02b19d5965848e7c9c4af6d724818eb5f0394bf975d7068e6abc9d"
+  }
+}

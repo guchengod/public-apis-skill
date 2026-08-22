@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/open-movie-database",
+  "name": "Open Movie Database",
+  "category": "Video",
+  "description": "Movie information",
+  "documentation_url": "http://www.omdbapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__OPEN_MOVIE_DATABASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2c77ed221ddf746e10a212fdf15a61fad8ff6791064932ab84533f923e90260b"
+  }
+}

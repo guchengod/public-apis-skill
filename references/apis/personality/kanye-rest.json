@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/kanye-rest",
+  "name": "kanye.rest",
+  "category": "Personality",
+  "description": "REST API for random Kanye West quotes",
+  "documentation_url": "https://kanye.rest",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3681a693ae7389aa0597bb67e1a6c73992e60bcfbd8f2ad174fac43c49cc44fc"
+  }
+}

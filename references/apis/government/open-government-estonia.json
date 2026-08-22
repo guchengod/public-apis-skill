@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-estonia",
+  "name": "Open Government, Estonia",
+  "category": "Government",
+  "description": "Estonia Government Open Data",
+  "documentation_url": "https://avaandmed.eesti.ee/instructions/opendata-dataset-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_ESTONIA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "187b938dd708bee8daf58412aa6b95dff5332ae673bac6fb864897643eb20c04"
+  }
+}

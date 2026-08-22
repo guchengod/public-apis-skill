@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "test-data/mockaroo",
+  "name": "Mockaroo",
+  "category": "Test Data",
+  "description": "Generate fake data to JSON, CSV, TXT, SQL and XML",
+  "documentation_url": "https://www.mockaroo.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEST_DATA__MOCKAROO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e03984d89d5b6f90e5bb106ab520e93adf3a17b043c2be2fb5fac346193688ef"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-barcode",
+  "name": "QR & Barcode",
+  "category": "Development",
+  "description": "QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output",
+  "documentation_url": "https://solsigs.com/qrapi/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c9b805fa42cfde047a38ba5169e83ba0f6e434e1019dce39872f1b65820d58d7"
+  }
+}

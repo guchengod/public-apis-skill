@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-portugal",
+  "name": "Open Government, Portugal",
+  "category": "Government",
+  "description": "Portugal Government Open Data",
+  "documentation_url": "https://dados.gov.pt/en/docapi/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b9942dcf4d8b21aeb0dcbcd61fa476642429c5c7ea9635c715f265adb9c05d5f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/movie-quote",
+  "name": "Movie Quote",
+  "category": "Video",
+  "description": "Random Movie and Series Quotes",
+  "documentation_url": "https://github.com/F4R4N/movie-quote/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "300c07fa1201e6e30232f8867b6688a1168adca7a5a5a7bffb6456157a09941a"
+  }
+}

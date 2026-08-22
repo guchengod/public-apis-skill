@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/collins",
+  "name": "Collins",
+  "category": "Dictionaries",
+  "description": "Bilingual Dictionary and Thesaurus Data",
+  "documentation_url": "https://api.collinsdictionary.com/api/v1/documentation/html/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__COLLINS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bfe44b6f5de648740162ff9f67ce9207ea23e46a36b2e5eb2cd0ebf1f5e1102e"
+  }
+}

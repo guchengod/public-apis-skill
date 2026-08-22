@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/yandex-weather",
+  "name": "Yandex.Weather",
+  "category": "Weather",
+  "description": "Assesses weather condition in specific locations",
+  "documentation_url": "https://yandex.com/dev/weather/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__YANDEX_WEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7454f30b2d5109370bd4506a0e407170e1659130e0719b83e7e33d9771ba209c"
+  }
+}

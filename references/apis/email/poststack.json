@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/poststack",
+  "name": "PostStack",
+  "category": "Email",
+  "description": "EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics",
+  "documentation_url": "https://poststack.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__POSTSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5483503fe7c4de6926ed539c69bfb79b9ff966ffb529232bd82594850c33c2e5"
+  }
+}

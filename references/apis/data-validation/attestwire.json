@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/attestwire",
+  "name": "Attestwire",
+  "category": "Data Validation",
+  "description": "Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS",
+  "documentation_url": "https://api.attestwire.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__ATTESTWIRE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f06f473ed786d4f5955041e652d3dabf55f0744c71d6276689373b4fad19067e"
+  }
+}

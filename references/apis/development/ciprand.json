@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/ciprand",
+  "name": "Ciprand",
+  "category": "Development",
+  "description": "Secure random string generator",
+  "documentation_url": "https://github.com/polarspetroll/ciprand",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "768b4cb4e50a80b02ed53d2b48d2b4f2cb53325cfabbd17eaa5e09c58e808ff9"
+  }
+}

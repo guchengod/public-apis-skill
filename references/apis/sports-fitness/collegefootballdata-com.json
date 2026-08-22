@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/collegefootballdata-com",
+  "name": "CollegeFootballData.com",
+  "category": "Sports & Fitness",
+  "description": "Unofficial detailed American college football statistics, records, and results API",
+  "documentation_url": "https://collegefootballdata.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__COLLEGEFOOTBALLDATA_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1925aff995737b548b8e13580f9370334b06ab5ff0dc08d07450d496d15dfa11"
+  }
+}

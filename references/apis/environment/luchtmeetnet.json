@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/luchtmeetnet",
+  "name": "Luchtmeetnet",
+  "category": "Environment",
+  "description": "Predicted and actual air quality components for The Netherlands (RIVM)",
+  "documentation_url": "https://api-docs.luchtmeetnet.nl/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "597c8a75e0a942c07a7eaa531e318d27ef24e984e776c7d286add0e9795b134c"
+  }
+}

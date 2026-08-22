@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/national-grid-eso",
+  "name": "National Grid ESO",
+  "category": "Environment",
+  "description": "Open data from Great Britain’s Electricity System Operator",
+  "documentation_url": "https://data.nationalgrideso.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cb1f3ef9fc31e3c7ba55599c7d9253ba21d18abc4fcb1abd179bb3b99796b442"
+  }
+}

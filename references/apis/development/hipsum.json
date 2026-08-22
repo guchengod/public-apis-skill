@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/hipsum",
+  "name": "Hipsum",
+  "category": "Development",
+  "description": "Hipster-themed lorem ipsum generator for placeholder text",
+  "documentation_url": "https://hipsum.co",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9785fbe4672ee4c95b73c36db111dcbaef77a10fb3c99c9ca817ca3e4abc975f"
+  }
+}

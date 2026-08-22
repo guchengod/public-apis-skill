@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/vedinteltm-astroapi",
+  "name": "VedIntel™ AstroAPI",
+  "category": "Science & Math",
+  "description": "Vedic astrology computation — birth charts, dashas, panchang, AI narratives",
+  "documentation_url": "https://vedintelastroapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__VEDINTELTM_ASTROAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "86091de12bad3032194e29eb76639b17ec3335ca686b99ee371823d86595cc0d"
+  }
+}

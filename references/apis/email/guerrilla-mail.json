@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/guerrilla-mail",
+  "name": "Guerrilla Mail",
+  "category": "Email",
+  "description": "Disposable temporary Email addresses",
+  "documentation_url": "https://www.guerrillamail.com/GuerrillaMailAPI.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f930a0efe2e88fc15bee96cb03d164f095991730eedc92502f5dca46613e42d1"
+  }
+}

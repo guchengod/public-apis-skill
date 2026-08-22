@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/gateio",
+  "name": "Gateio",
+  "category": "Cryptocurrency",
+  "description": "API provides spot, margin and futures trading operations",
+  "documentation_url": "https://www.gate.io/api2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__GATEIO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "388ba4f3a8f6006cdef874e986841511e347bb5a8ab4f93e6ec59e56287dff70"
+  }
+}

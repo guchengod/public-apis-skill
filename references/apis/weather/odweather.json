@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/odweather",
+  "name": "ODWeather",
+  "category": "Weather",
+  "description": "Weather and weather webcams",
+  "documentation_url": "http://api.oceandrivers.com/static/docs.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1db9b77ae36c31d5251979bf161b59e0b5f750901947e00ef8f66440b77f366e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptomarket",
+  "name": "CryptoMarket",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Trading platform",
+  "documentation_url": "https://api.exchange.cryptomkt.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__CRYPTOMARKET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "61a9b7e15eba6f8786f0b7cc52d8685cac6a059602a7346901ada577a95e3bf9"
+  }
+}

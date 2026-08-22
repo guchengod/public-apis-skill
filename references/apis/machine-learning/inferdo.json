@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/inferdo",
+  "name": "Inferdo",
+  "category": "Machine Learning",
+  "description": "Computer Vision services like Facial detection, Image labeling, NSFW classification",
+  "documentation_url": "https://rapidapi.com/user/inferdo",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__INFERDO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8971eb8ea38c5f5b87d3a0d1342530ff964735a3ebc1c5797205d2252dffbb0c"
+  }
+}

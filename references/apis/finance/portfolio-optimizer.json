@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/portfolio-optimizer",
+  "name": "Portfolio Optimizer",
+  "category": "Finance",
+  "description": "Portfolio analysis and optimization",
+  "documentation_url": "https://portfoliooptimizer.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd1eda3629f0ecc28aa504847885f204e063eace7b31c9eeb7de5a4636f7d26b"
+  }
+}

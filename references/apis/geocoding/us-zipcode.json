@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/us-zipcode",
+  "name": "US ZipCode",
+  "category": "Geocoding",
+  "description": "Validate and append data for any US ZipCode",
+  "documentation_url": "https://www.smarty.com/docs/cloud/us-zipcode-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__US_ZIPCODE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1aaceb16c6d443503391a157ed260163af1548e8355989428cae94a042a90a3f"
+  }
+}

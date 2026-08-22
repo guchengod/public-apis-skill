@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/apicagent",
+  "name": "ApicAgent",
+  "category": "Development",
+  "description": "Extract device details from user-agent string",
+  "documentation_url": "https://www.apicagent.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d193a21f4c0351e19d69283a7c6f8665b17de6c7d7eb2626e528ef2c7035d39b"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/netlify",
+  "name": "Netlify",
+  "category": "Development",
+  "description": "Netlify is a hosting service for the programmable web",
+  "documentation_url": "https://docs.netlify.com/api/get-started/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__NETLIFY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "26158310f3c8694d4e8b245141f8f34956395c87d871b4fae7eba4800fc825ad"
+  }
+}

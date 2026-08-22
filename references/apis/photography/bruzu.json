@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/bruzu",
+  "name": "Bruzu",
+  "category": "Photography",
+  "description": "Image generation with query string",
+  "documentation_url": "https://docs.bruzu.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__BRUZU__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e689fd92813556c5b03c3c496a641ee5d281ad6377016e20706ace1a3579016d"
+  }
+}

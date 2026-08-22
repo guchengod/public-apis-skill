@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/hytale",
+  "name": "Hytale",
+  "category": "Games & Comics",
+  "description": "Hytale blog posts and jobs",
+  "documentation_url": "https://hytale-api.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2c82bca6b2732aa059dc6e5f99639386c566842132a00a19423a8c5012c068bf"
+  }
+}

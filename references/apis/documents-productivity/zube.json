@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/zube",
+  "name": "Zube",
+  "category": "Documents & Productivity",
+  "description": "Full stack project management",
+  "documentation_url": "https://zube.io/docs/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__ZUBE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc4352510ce43a68c5f6734e84f83100931f0042f4bf8fa61c44f73602d55773"
+  }
+}

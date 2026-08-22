@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-philadelphia-us",
+  "name": "Transport for Philadelphia, US",
+  "category": "Transportation",
+  "description": "SEPTA APIs",
+  "documentation_url": "http://www3.septa.org/hackathon/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36dbc7db9339699d3a9a85f318df1be813236aa307ab8743c6322991ba667d4e"
+  }
+}

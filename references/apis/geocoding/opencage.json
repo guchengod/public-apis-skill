@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/opencage",
+  "name": "OpenCage",
+  "category": "Geocoding",
+  "description": "Forward and reverse geocoding using open data",
+  "documentation_url": "https://opencagedata.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__OPENCAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e170d44bb536a8f9c50e3b8ab60ef729f43294071a8a0ff44e98640b676819a"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/nba-data",
+  "name": "NBA Data",
+  "category": "Sports & Fitness",
+  "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
+  "documentation_url": "https://rapidapi.com/api-sports/api/api-nba/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__NBA_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b91572c1e2ff1ee31b2baa0276af874e4fec057ad7a40c5d7c5fedd77559d2b0"
+  }
+}

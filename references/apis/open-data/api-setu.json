@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/api-setu",
+  "name": "API Setu",
+  "category": "Open Data",
+  "description": "An Indian Government platform that provides a lot of APIS for KYC, business, education & employment",
+  "documentation_url": "https://www.apisetu.gov.in/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "12d982f43082b2a81bd35da99f258d760c6e71d2e5e2825ff61fd41030b10091"
+  }
+}

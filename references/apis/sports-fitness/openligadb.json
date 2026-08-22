@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/openligadb",
+  "name": "OpenLigaDB",
+  "category": "Sports & Fitness",
+  "description": "Crowd sourced sports league results",
+  "documentation_url": "https://www.openligadb.de",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "43f9ea4841780a31a0ae4338856d1e517d7708954088ffcaf0c7467c858d8390"
+  }
+}

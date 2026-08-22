@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "finance/ynab",
+  "name": "YNAB",
+  "category": "Finance",
+  "description": "Budgeting & Planning",
+  "documentation_url": "https://api.youneedabudget.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FINANCE__YNAB__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bcb0bf5616c4efa2b7807001bf6f511d8c58fc4da481dd67f333d129c86bb7e5"
+  }
+}

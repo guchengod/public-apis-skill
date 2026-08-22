@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/tax-data",
+  "name": "Tax Data",
+  "category": "Finance",
+  "description": "Instant VAT number and tax validation across the globe",
+  "documentation_url": "https://apilayer.com/marketplace/tax_data-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__TAX_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f9abddc315fce5d90f1f12b071e802ec4eaeac9452f02826beb0fcacea15f8bf"
+  }
+}

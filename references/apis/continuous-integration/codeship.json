@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/codeship",
+  "name": "Codeship",
+  "category": "Continuous Integration",
+  "description": "Codeship is a Continuous Integration Platform in the cloud",
+  "documentation_url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__CODESHIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f8c92e5a36be07044d77dd79924277d8239698d73e4900acfed852015b71bdb4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/grunstromindex",
+  "name": "GrünstromIndex",
+  "category": "Environment",
+  "description": "Green Power Index for Germany (Grünstromindex/GSI)",
+  "documentation_url": "https://gruenstromindex.de/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f9d1916da713215454dc6a2783b02a29a8b25ac247b80a7dac6a380aefc94d29"
+  }
+}

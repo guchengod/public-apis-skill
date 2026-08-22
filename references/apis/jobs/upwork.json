@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "jobs/upwork",
+  "name": "Upwork",
+  "category": "Jobs",
+  "description": "Freelance job board and management system",
+  "documentation_url": "https://developers.upwork.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__JOBS__UPWORK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "50c210f6c5ded7b685dcbe84c9fd050f629d8c535c9bed7d7b4efeca9c48019e"
+  }
+}

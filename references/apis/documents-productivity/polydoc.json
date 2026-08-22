@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/polydoc",
+  "name": "PolyDoc",
+  "category": "Documents & Productivity",
+  "description": "HTML/URL to PDF and screenshots, plus Factur-X/ZUGFeRD e-invoices; free tier",
+  "documentation_url": "https://polydoc.tech",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__POLYDOC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "024627fd232e15f21a2177de1217f8c449f1d3b122f76d1374c407ed2b80df91"
+  }
+}

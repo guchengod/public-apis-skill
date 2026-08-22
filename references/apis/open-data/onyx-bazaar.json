@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/onyx-bazaar",
+  "name": "Onyx Bazaar",
+  "category": "Open Data",
+  "description": "Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API",
+  "documentation_url": "https://onyx-actions.onrender.com/bazaar",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "738e0e47200758b85984d68f96641262fb08b8f3f40bd3dd7a269079a4aeb33f"
+  }
+}

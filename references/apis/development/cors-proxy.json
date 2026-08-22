@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/cors-proxy",
+  "name": "CORS Proxy",
+  "category": "Development",
+  "description": "Get around the dreaded CORS error by using this proxy as a middle man",
+  "documentation_url": "https://github.com/burhanuday/cors-proxy",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "87c565ee366e2ca1b84f91b2bd3596351d1c74e470e04bbafab56841df7f2b1c"
+  }
+}

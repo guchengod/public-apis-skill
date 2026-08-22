@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailtrap",
+  "name": "Mailtrap",
+  "category": "Email",
+  "description": "Email API and SMTP for sending transactional and bulk emails, with email testing sandbox for safe development",
+  "documentation_url": "https://mailtrap.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILTRAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f91f88dfbbe3f43f7bbe594f56bb1765dbf39a3893029d1e2da812f8b8b80f9"
+  }
+}

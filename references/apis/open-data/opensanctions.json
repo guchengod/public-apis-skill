@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/opensanctions",
+  "name": "OpenSanctions",
+  "category": "Open Data",
+  "description": "Data on international sanctions, crime and politically exposed persons",
+  "documentation_url": "https://www.opensanctions.org/docs/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d8b36723b4d8cfd33f8b842ead06fcd285963b0d8f5e9ce3451b5804f2cfc12"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/ilovepdf",
+  "name": "iLovePDF",
+  "category": "Documents & Productivity",
+  "description": "Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month",
+  "documentation_url": "https://developer.ilovepdf.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__ILOVEPDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5cdde128f9978f1ef4438af0779eaaff7f5134b1b8bb6060355af20427387cc4"
+  }
+}

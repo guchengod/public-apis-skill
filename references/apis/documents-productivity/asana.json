@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/asana",
+  "name": "Asana",
+  "category": "Documents & Productivity",
+  "description": "Programmatic access to all data in your asana system",
+  "documentation_url": "https://developers.asana.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__ASANA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "016295131ac116ae6c68d50b3dd2f7d4247c6b36bb48f14ada3866c640c9d427"
+  }
+}

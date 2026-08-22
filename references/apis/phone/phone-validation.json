@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "phone/phone-validation",
+  "name": "Phone Validation",
+  "category": "Phone",
+  "description": "Validate phone numbers globally",
+  "documentation_url": "https://www.abstractapi.com/phone-validation-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHONE__PHONE_VALIDATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "72d7329227f4194af26fc275cda8d5e32b70b828ad8598437b6b20fd01391d00"
+  }
+}

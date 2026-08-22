@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/watson-natural-language-understanding",
+  "name": "Watson Natural Language Understanding",
+  "category": "Text Analysis",
+  "description": "Natural language processing for advanced text analysis",
+  "documentation_url": "https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__WATSON_NATURAL_LANGUAGE_UNDERSTANDING__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "792ab9189d35aba06281b122e256c066af8ff4801ba5d38f7a5c1ec718f998d6"
+  }
+}

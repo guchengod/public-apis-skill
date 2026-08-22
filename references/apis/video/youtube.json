@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "video/youtube",
+  "name": "YouTube",
+  "category": "Video",
+  "description": "Add YouTube functionality to your sites and apps",
+  "documentation_url": "https://developers.google.com/youtube/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__VIDEO__YOUTUBE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b15791af7deae2d4c76bd81dbfe56d215072b1ca60c344906d55ae7bd6abc773"
+  }
+}

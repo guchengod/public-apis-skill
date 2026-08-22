@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/worldcoinindex",
+  "name": "WorldCoinIndex",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Prices",
+  "documentation_url": "https://www.worldcoinindex.com/apiservice",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__WORLDCOININDEX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ccdc300d27f8b59929db49e838487faa7dc06a8596290064ab00c74cf4daba1"
+  }
+}

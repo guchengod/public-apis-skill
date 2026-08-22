@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/sirv",
+  "name": "Sirv",
+  "category": "Photography",
+  "description": "Image management solutions like optimization, manipulation, hosting",
+  "documentation_url": "https://apidocs.sirv.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__SIRV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7933d1f9ab2f212c402c807d1476c623579c3f067e77547b8d42b452be172f09"
+  }
+}

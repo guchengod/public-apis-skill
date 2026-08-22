@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/securitytrails",
+  "name": "SecurityTrails",
+  "category": "Security",
+  "description": "Domain and IP related information such as current and historical WHOIS and DNS records",
+  "documentation_url": "https://securitytrails.com/corp/apidocs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__SECURITYTRAILS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "67e20984d961843d898dd0b03a1af3ac12641508ac1685ebd7aa963163a08ef8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip2geo-dev",
+  "name": "ip2geo.dev",
+  "category": "Geocoding",
+  "description": "Programmatically convert IP addresses into geolocation data",
+  "documentation_url": "https://ip2geo.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IP2GEO_DEV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "896dc7e5ce2cec25902501d1a761fceffe74bb483949a5e7fd17f8d670b42668"
+  }
+}

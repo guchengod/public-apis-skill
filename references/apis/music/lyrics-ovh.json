@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/lyrics-ovh",
+  "name": "Lyrics.ovh",
+  "category": "Music",
+  "description": "Simple API to retrieve the lyrics of a song",
+  "documentation_url": "https://lyricsovh.docs.apiary.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03afa8747eddf12124da1184ae183c51899d7038a0beb59abc5b92b0bca5c5c4"
+  }
+}

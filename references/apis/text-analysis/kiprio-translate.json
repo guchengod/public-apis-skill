@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/kiprio-translate",
+  "name": "Kiprio Translate",
+  "category": "Text Analysis",
+  "description": "Free text translation with language detection, supports 50+ languages",
+  "documentation_url": "https://kiprio.com/v1/translate",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__KIPRIO_TRANSLATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "38a76052e3b29119fcd8d7cb3cad13e14c3b9213552225d9f89c950ee7483e05"
+  }
+}

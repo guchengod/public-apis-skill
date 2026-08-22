@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-canada",
+  "name": "Open Government, Canada",
+  "category": "Government",
+  "description": "Canadian Government Open Data",
+  "documentation_url": "http://open.canada.ca/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c59843b93df8dcb734b92dfefbdab7f3a1d6dfb5d7f125d066c996e9e8237668"
+  }
+}

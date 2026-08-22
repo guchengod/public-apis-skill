@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/hypixel",
+  "name": "Hypixel",
+  "category": "Games & Comics",
+  "description": "Hypixel player stats",
+  "documentation_url": "https://api.hypixel.net/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__HYPIXEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a66ddcc769813bf6bf896b483ba7610df4e128db3a8a9d1626bfdacc0da2413f"
+  }
+}

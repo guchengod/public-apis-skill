@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/urlhaus",
+  "name": "URLhaus",
+  "category": "Security",
+  "description": "Database of malicious URLs used for malware distribution",
+  "documentation_url": "https://urlhaus.abuse.ch/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "069457aacb9aa67f8d9f2b0638b360ae9098b6d316456504ab1101c2b6460436"
+  }
+}

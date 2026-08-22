@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/domaindb-info",
+  "name": "DomainDb Info",
+  "category": "Development",
+  "description": "Domain name search to find all domains containing particular words/phrases/etc",
+  "documentation_url": "https://api.domainsdb.info/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eb6d618679f97ad90de482d0a89259fdcfc790ae99765c5398ad2ec62f4ae3c8"
+  }
+}

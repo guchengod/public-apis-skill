@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/open-collective",
+  "name": "Open Collective",
+  "category": "Social",
+  "description": "Get Open Collective data",
+  "documentation_url": "https://docs.opencollective.com/help/developers/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ef8b9b1308fc489038f644873a2c6eaa846a8ebf2221111d949c219871f116c"
+  }
+}

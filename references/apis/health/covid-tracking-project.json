@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-tracking-project",
+  "name": "Covid Tracking Project",
+  "category": "Health",
+  "description": "Covid-19  data for the US",
+  "documentation_url": "https://covidtracking.com/data/api/version-2",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63781a85cef71b38aeaae022a7538441a7cf004567b3796d3b5d2de9146210af"
+  }
+}

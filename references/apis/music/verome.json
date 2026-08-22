@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/verome",
+  "name": "Verome",
+  "category": "Music",
+  "description": "Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm",
+  "documentation_url": "https://github.com/Kirazul/Verome-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b5826a669edaff0793c0ae8e95f5a29136dc2a38a8941695c531de2d0af7f87"
+  }
+}

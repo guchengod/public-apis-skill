@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "anime/anidb",
+  "name": "AniDB",
+  "category": "Anime",
+  "description": "Anime Database",
+  "documentation_url": "https://wiki.anidb.net/HTTP_API_Definition",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIME__ANIDB__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95d2426640a275482e059f400dc81e80e10c5b4a14f44072599bc2bfc1352ba3"
+  }
+}

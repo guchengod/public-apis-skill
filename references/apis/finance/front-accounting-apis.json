@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "finance/front-accounting-apis",
+  "name": "Front Accounting APIs",
+  "category": "Finance",
+  "description": "Front accounting is multilingual and multicurrency software for small businesses",
+  "documentation_url": "https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FINANCE__FRONT_ACCOUNTING_APIS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e3d3a4afeb7aed45a75e2b0c5a3370dbaed0e08fb7bb3820f76ad11cff17843"
+  }
+}

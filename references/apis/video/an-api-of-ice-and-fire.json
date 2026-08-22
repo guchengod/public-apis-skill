@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/an-api-of-ice-and-fire",
+  "name": "An API of Ice And Fire",
+  "category": "Video",
+  "description": "Game Of Thrones API",
+  "documentation_url": "https://anapioficeandfire.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0af2cc04c32bcd9b1a3f321debfc612574ca750644dbfcd5e64794e3498837f5"
+  }
+}

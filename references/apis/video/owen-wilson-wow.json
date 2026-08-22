@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/owen-wilson-wow",
+  "name": "Owen Wilson Wow",
+  "category": "Video",
+  "description": "API for actor Owen Wilson's \"wow\" exclamations in movies",
+  "documentation_url": "https://owen-wilson-wow-api.herokuapp.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b68be5c30fca090588fbb0711766343d4842bf58759ee41f0468c86c45dbef8d"
+  }
+}

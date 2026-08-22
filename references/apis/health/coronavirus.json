@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/coronavirus",
+  "name": "Coronavirus",
+  "category": "Health",
+  "description": "HTTP API for Latest Covid-19 Data",
+  "documentation_url": "https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "671bcac1f412360b767c396bb0ef1d0210eff4cc1c04875f51462b1f9c7b0ec6"
+  }
+}

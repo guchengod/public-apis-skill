@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/apiip",
+  "name": "Apiip",
+  "category": "Geocoding",
+  "description": "Get location information by IP address",
+  "documentation_url": "https://apiip.net/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__APIIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4132b51afc6beb1c7c1ce045adf78597c518f54509d5f2a91953fac20c2653fc"
+  }
+}

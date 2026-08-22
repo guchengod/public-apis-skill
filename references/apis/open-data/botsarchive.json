@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/botsarchive",
+  "name": "BotsArchive",
+  "category": "Open Data",
+  "description": "JSON formatted details about Telegram Bots available in database",
+  "documentation_url": "https://botsarchive.com/docs.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc7584165c78383856664dd396fb35f19aba55da888f0ec54dd3896492986cd8"
+  }
+}

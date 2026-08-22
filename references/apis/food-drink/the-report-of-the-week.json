@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/the-report-of-the-week",
+  "name": "The Report of the Week",
+  "category": "Food & Drink",
+  "description": "Food & Drink Reviews",
+  "documentation_url": "https://github.com/andyklimczak/TheReportOfTheWeek-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "186f84211a6235b3a8e45d38f16b92d6deb03945c23905d9e0401c14ecd4fd13"
+  }
+}

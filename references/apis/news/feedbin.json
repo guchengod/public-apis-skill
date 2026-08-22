@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "news/feedbin",
+  "name": "Feedbin",
+  "category": "News",
+  "description": "RSS reader",
+  "documentation_url": "https://github.com/feedbin/feedbin-api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__NEWS__FEEDBIN__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a77683a07ccba8e9fe53131f4bb5a947d0b5325384660463e5636483f2bdb30"
+  }
+}

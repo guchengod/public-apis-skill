@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/represent-by-open-north",
+  "name": "Represent by Open North",
+  "category": "Government",
+  "description": "Find Canadian Government Representatives",
+  "documentation_url": "https://represent.opennorth.ca/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8bc6a1d7dfe2b8a1f37f283a272daf51991dbfb08293b89c37980af0a296ba58"
+  }
+}

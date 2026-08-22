@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/problemsbyvin",
+  "name": "ProblemsByVin",
+  "category": "Vehicle",
+  "description": "Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year",
+  "documentation_url": "https://problemsbyvin.com/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef6c26536a944ef009ae4dac7f4b43817b6a98894bb1696b0298c4d623efe938"
+  }
+}

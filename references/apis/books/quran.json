@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/quran",
+  "name": "Quran",
+  "category": "Books",
+  "description": "RESTful Quran API with multiple languages",
+  "documentation_url": "https://quran.api-docs.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc8dcf3d2ebd7945707a8c272b8ca8a21f6f6b1258b33f7d34930124dae2f4d6"
+  }
+}

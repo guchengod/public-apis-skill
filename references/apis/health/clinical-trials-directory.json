@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/clinical-trials-directory",
+  "name": "Clinical Trials Directory",
+  "category": "Health",
+  "description": "Every clinical trial registered with ClinicalTrials.gov, indexed by condition and sponsor",
+  "documentation_url": "https://trials.starfile.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c96e55411fa812c35dc01741ee491208d30d9fee2bb252f9faa40db2f5cc497"
+  }
+}

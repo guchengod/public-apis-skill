@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/steam--9eeeefa3",
+  "name": "Steam",
+  "category": "Games & Comics",
+  "description": "Steam Web API documentation",
+  "documentation_url": "https://steamapi.xpaw.me/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__STEAM__9EEEEFA3__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73f8ceeaba2c5bf4ab26dff4a0c2504ccfc9b9f8bc95567451726ca353da1fe1"
+  }
+}

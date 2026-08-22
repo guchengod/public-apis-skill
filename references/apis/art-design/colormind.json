@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/colormind",
+  "name": "Colormind",
+  "category": "Art & Design",
+  "description": "Color scheme generator",
+  "documentation_url": "http://colormind.io/api-access/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3b8dbb7dc1cc61673bac19ef80ca1608b53c2ae36bf1def7fc36ac2d248fc795"
+  }
+}

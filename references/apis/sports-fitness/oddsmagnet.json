@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/oddsmagnet",
+  "name": "Oddsmagnet",
+  "category": "Sports & Fitness",
+  "description": "Odds history from multiple UK bookmakers",
+  "documentation_url": "https://data.oddsmagnet.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5874966a95c194c79459143b4b324eb4f80003cfd889dd9a429d86e589fdcacd"
+  }
+}

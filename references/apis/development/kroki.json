@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/kroki",
+  "name": "Kroki",
+  "category": "Development",
+  "description": "Creates diagrams from textual descriptions",
+  "documentation_url": "https://kroki.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae3cae012da8cfb922523258745664af38f41b5ad08a7b2d5fce4cd4318c0953"
+  }
+}

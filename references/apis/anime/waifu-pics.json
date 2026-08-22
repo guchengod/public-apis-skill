@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/waifu-pics",
+  "name": "Waifu.pics",
+  "category": "Anime",
+  "description": "Image sharing platform for anime images",
+  "documentation_url": "https://waifu.pics/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6260067710b8243964d3ed2092b6857488f1b40b858902a1f86ab4e8322caafe"
+  }
+}

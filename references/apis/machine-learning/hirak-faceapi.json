@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/hirak-faceapi",
+  "name": "Hirak FaceAPI",
+  "category": "Machine Learning",
+  "description": "Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits",
+  "documentation_url": "https://faceapi.hirak.site/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__HIRAK_FACEAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7077c808b6a6291356b6d38bc41c3c7c887c7ae850188fdb0d2782260f9c9a6e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/jsonplaceholder",
+  "name": "JSONPlaceholder",
+  "category": "Test Data",
+  "description": "Fake data for testing and prototyping",
+  "documentation_url": "http://jsonplaceholder.typicode.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "51bd194db54aca25fae64a6bb738720968e61aafcc7d25e97518615ce822f457"
+  }
+}

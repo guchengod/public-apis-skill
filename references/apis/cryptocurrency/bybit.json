@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bybit",
+  "name": "Bybit",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency data feed and algorithmic trading",
+  "documentation_url": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BYBIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ee8b213bd93c1b8c8804abaa60bee70cf2887a63fc83ec1461a4ff77dc06b32d"
+  }
+}

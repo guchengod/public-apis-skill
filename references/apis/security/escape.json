@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/escape",
+  "name": "Escape",
+  "category": "Security",
+  "description": "An API for escaping different kind of queries",
+  "documentation_url": "https://github.com/polarspetroll/EscapeAPI",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "574a35fa404993dcf2cd5e9bd430bafe012e120528a4d3f84fa0b2fd7fc92730"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/gyazo",
+  "name": "Gyazo",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Save & Share screen captures instantly",
+  "documentation_url": "https://gyazo.com/api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__GYAZO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ed6ce83836459cdece79c1da867587f2eee6616d50d4f449b86ff59b507531b6"
+  }
+}

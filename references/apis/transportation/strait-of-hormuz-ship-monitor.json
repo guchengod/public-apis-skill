@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/strait-of-hormuz-ship-monitor",
+  "name": "Strait of Hormuz Ship Monitor",
+  "category": "Transportation",
+  "description": "Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz",
+  "documentation_url": "https://hormuz.data-tracking.net/llms.txt",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b15b87355de03cb22fe572574aa256455ecdf56364317e3cd5de53a8d1965085"
+  }
+}

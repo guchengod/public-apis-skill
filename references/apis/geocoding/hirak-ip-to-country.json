@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/hirak-ip-to-country",
+  "name": "Hirak IP to Country",
+  "category": "Geocoding",
+  "description": "Ip to location with country code, currency code & currency name, fast response, unlimited requests",
+  "documentation_url": "https://iplocation.hirak.site/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__HIRAK_IP_TO_COUNTRY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f04073af03a7bc73465f52017e933c4affca6bade059a5917cb5559b7cb9097"
+  }
+}

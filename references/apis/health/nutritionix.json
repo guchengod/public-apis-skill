@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/nutritionix",
+  "name": "Nutritionix",
+  "category": "Health",
+  "description": "Worlds largest verified nutrition database",
+  "documentation_url": "https://developer.nutritionix.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__NUTRITIONIX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f95c0e446929fd55ffb47de7a7ff46d84601331913ea13f048cb240e215a113"
+  }
+}

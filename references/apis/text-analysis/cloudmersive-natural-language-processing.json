@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/cloudmersive-natural-language-processing",
+  "name": "Cloudmersive Natural Language Processing",
+  "category": "Text Analysis",
+  "description": "Natural language processing and text analysis",
+  "documentation_url": "https://www.cloudmersive.com/nlp-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__CLOUDMERSIVE_NATURAL_LANGUAGE_PROCESSING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "821b2fd5485582428151f1118a5a386efca874495da6521513c3707ba744f889"
+  }
+}

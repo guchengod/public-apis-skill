@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/binlist",
+  "name": "Binlist",
+  "category": "Finance",
+  "description": "Public access to a database of IIN/BIN information",
+  "documentation_url": "https://binlist.net/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9d7c6224e699489048b889d782ff83065f4e9c09a35cf7da3013c1dc6879d33"
+  }
+}

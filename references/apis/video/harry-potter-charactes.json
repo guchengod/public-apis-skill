@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/harry-potter-charactes",
+  "name": "Harry Potter Charactes",
+  "category": "Video",
+  "description": "Harry Potter Characters Data with with imagery",
+  "documentation_url": "https://hp-api.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ec89a45b34919dfc8c41e07c62fc8bf03812a3b6273471d3c8c98c8ab80ef195"
+  }
+}

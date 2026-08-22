@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/shopee",
+  "name": "Shopee",
+  "category": "Shopping",
+  "description": "Shopee's official API for integration of various services from Shopee",
+  "documentation_url": "https://open.shopee.com/documents?version=1",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__SHOPEE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f3b5facb5b819d4e702fef0e7d0cb128610ddd867b9110f32202470477a96d5c"
+  }
+}

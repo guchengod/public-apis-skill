@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/thronesapi",
+  "name": "ThronesApi",
+  "category": "Video",
+  "description": "Game Of Thrones Characters Data with imagery",
+  "documentation_url": "https://thronesapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc7ebc85a0bf64a0cf972542b9f04bd85dc3e713f2b200ae03cbdf6b6227c85a"
+  }
+}

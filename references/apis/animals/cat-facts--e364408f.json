@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/cat-facts--e364408f",
+  "name": "Cat Facts",
+  "category": "Animals",
+  "description": "Random cat facts",
+  "documentation_url": "https://catfact.ninja/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2fd6dbe2404832974b1f5af599a70118d848602f8dc28accb4d285cf17483ab9"
+  }
+}

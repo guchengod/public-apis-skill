@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/ipma",
+  "name": "IPMA",
+  "category": "Weather",
+  "description": "Portuguese weather and climate data",
+  "documentation_url": "https://api.ipma.pt/open-data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "16dd8a90e70772f934d5cb0a11731de6d3a2084718d047248d3c6d1b2d7855b4"
+  }
+}

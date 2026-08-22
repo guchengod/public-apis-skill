@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/padel-snipe",
+  "name": "Padel Snipe",
+  "category": "Sports & Fitness",
+  "description": "4,000+ mapped padel clubs across 9 European countries with GPS and courts",
+  "documentation_url": "https://padelsnipe.com/fr/world/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c129b2415c35756d72c253348cf26c61834565f0f5d12dd6c36360c6840154a"
+  }
+}

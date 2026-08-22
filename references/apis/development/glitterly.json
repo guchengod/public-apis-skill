@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/glitterly",
+  "name": "Glitterly",
+  "category": "Development",
+  "description": "Image generation API",
+  "documentation_url": "https://developers.glitterly.app",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GLITTERLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa738551d8c6c0998255685aced5174db7b1bbe0e4a991f4304eb20421bc699d"
+  }
+}

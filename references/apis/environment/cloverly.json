@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/cloverly",
+  "name": "Cloverly",
+  "category": "Environment",
+  "description": "API calculates the impact of common carbon-intensive activities in real time",
+  "documentation_url": "https://www.cloverly.com/carbon-offset-documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__CLOVERLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f0fbf1c6466819a5f8c960ebdb96196f95e87cecca911591900c5224fa9cb34b"
+  }
+}

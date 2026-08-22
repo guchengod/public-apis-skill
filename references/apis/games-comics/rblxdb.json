@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/rblxdb",
+  "name": "Rblxdb",
+  "category": "Games & Comics",
+  "description": "Verified Roblox music codes and decal IDs with live working status",
+  "documentation_url": "https://rblxdb.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "297cefa3271a8cbaf8a46e67593ecbb94a2f53cf472a2af51557f37a218034b4"
+  }
+}

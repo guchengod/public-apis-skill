@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptocompare",
+  "name": "CryptoCompare",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Comparison",
+  "documentation_url": "https://www.cryptocompare.com/api#",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "877a42d94d7f2b1b75967d20e3ef9c9fe1e38a611d39185530320967a04dcfb5"
+  }
+}

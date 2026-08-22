@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/brave-newcoin",
+  "name": "Brave NewCoin",
+  "category": "Cryptocurrency",
+  "description": "Real-time and historic crypto data from more than 200+ exchanges",
+  "documentation_url": "https://bravenewcoin.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BRAVE_NEWCOIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f8b65074f6cdab4f57d6f8fce35f300562f429dc731ad22236b5c3bb3212a82"
+  }
+}

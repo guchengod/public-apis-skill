@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/erstat",
+  "name": "ERstat",
+  "category": "Health",
+  "description": "Live Canadian emergency room closures and service disruptions, by province",
+  "documentation_url": "https://erstat.ca/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__ERSTAT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9b9e3d95facd358dc1f4e6b42814eff8d4997c6cd8b876ef49f81fb5d7609be2"
+  }
+}

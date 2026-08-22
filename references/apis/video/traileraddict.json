@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/traileraddict",
+  "name": "TrailerAddict",
+  "category": "Video",
+  "description": "Easily embed trailers from TrailerAddict",
+  "documentation_url": "https://www.traileraddict.com/trailerapi",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__TRAILERADDICT__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96c4d461007541cc2d7976a998ee8980e54c05ee3d6ca37cb2e8d835764ddc53"
+  }
+}

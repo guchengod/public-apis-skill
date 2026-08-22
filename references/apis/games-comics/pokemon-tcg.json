@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/pokemon-tcg",
+  "name": "Pokémon TCG",
+  "category": "Games & Comics",
+  "description": "Pokémon TCG Information",
+  "documentation_url": "https://pokemontcg.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d0bc469fb5352cf5771ff01064f715a1de458440d0fce12a8c0b6e74ca35c6f4"
+  }
+}

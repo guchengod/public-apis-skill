@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/quoteclear",
+  "name": "quoteclear",
+  "category": "Personality",
+  "description": "Ever-growing list of James Clear quotes from the 3-2-1 Newsletter",
+  "documentation_url": "https://quoteclear.web.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36402b797dc9310f994885bee503b29cbb7ad0b3f01f06cf2f2fe13909c28d11"
+  }
+}

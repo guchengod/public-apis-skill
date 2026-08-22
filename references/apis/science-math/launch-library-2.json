@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/launch-library-2",
+  "name": "Launch Library 2",
+  "category": "Science & Math",
+  "description": "Spaceflight launches and events database",
+  "documentation_url": "https://thespacedevs.com/llapi",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fec2dc1175e737721f2b3ee73f2918d26f00721aa9c270e29990e87f2299f618"
+  }
+}

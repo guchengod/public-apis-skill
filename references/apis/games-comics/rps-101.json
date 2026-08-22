@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/rps-101",
+  "name": "RPS 101",
+  "category": "Games & Comics",
+  "description": "Rock, Paper, Scissors with 101 objects",
+  "documentation_url": "https://rps101.pythonanywhere.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a213c1a97ce46d7175411fbdec0982223b9c88fd2cd1a9f0edd64270678aa098"
+  }
+}

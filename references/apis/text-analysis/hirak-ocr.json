@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/hirak-ocr",
+  "name": "Hirak OCR",
+  "category": "Text Analysis",
+  "description": "Image to text -text recognition- from image more than 100 language, accurate, unlimited requests",
+  "documentation_url": "https://ocr.hirak.site/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__HIRAK_OCR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f3c167b1bb145d0acfeb31e7c611c33f0f442cd120dc4a0f3f4660466cdc9da"
+  }
+}

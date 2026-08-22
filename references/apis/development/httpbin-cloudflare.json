@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/httpbin-cloudflare",
+  "name": "Httpbin Cloudflare",
+  "category": "Development",
+  "description": "A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare",
+  "documentation_url": "https://cloudflare-quic.com/b/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c993ce79e77358bba5e51d4ea960e036317d2e56851b845f1beafcee24455023"
+  }
+}

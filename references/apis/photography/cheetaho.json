@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/cheetaho",
+  "name": "CheetahO",
+  "category": "Photography",
+  "description": "Photo optimization and resize",
+  "documentation_url": "https://cheetaho.com/docs/getting-started/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__CHEETAHO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c2ec247cfe02b32098c98d4253f23369f398157d3de76e89df2ea399ab3d5b32"
+  }
+}

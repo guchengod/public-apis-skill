@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/meltema",
+  "name": "Meltema",
+  "category": "Weather",
+  "description": "Multi-model weather: GFS, ECMWF AIFS/IFS and a 31-member GEFS ensemble, keyless point forecasts",
+  "documentation_url": "https://meltema.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e215b6e647061e8689eed0821e4b3f05c5fea333fa862ffa832da8c5ac035092"
+  }
+}

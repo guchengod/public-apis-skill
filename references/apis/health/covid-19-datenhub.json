@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-datenhub",
+  "name": "Covid-19 Datenhub",
+  "category": "Health",
+  "description": "Maps, datasets, applications and more in the context of COVID-19",
+  "documentation_url": "https://npgeo-corona-npgeo-de.hub.arcgis.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5afe474dc306a454fa38cd8533baeb0764404d76eae03f8efb69900a7e250520"
+  }
+}

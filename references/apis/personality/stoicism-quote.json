@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/stoicism-quote",
+  "name": "Stoicism Quote",
+  "category": "Personality",
+  "description": "Quotes about Stoicism",
+  "documentation_url": "https://github.com/tlcheah2/stoic-quote-lambda-public-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e1882560e3369cded7f9b9adea486af4eeeee15a77add9b91ffd0ca0f2037e2c"
+  }
+}

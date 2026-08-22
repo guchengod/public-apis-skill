@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/free-dictionary",
+  "name": "Free Dictionary",
+  "category": "Dictionaries",
+  "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+  "documentation_url": "https://dictionaryapi.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cbb4eac1aa6f24296ef5760d731f3986fbdbfb5564124e5255e07c0f90001721"
+  }
+}

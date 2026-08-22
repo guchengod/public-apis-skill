@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/prexview",
+  "name": "PrexView",
+  "category": "Documents & Productivity",
+  "description": "Data from XML or JSON to PDF, HTML or Image",
+  "documentation_url": "https://prexview.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PREXVIEW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "166d46a89b3a901b7144684ba537f56d002e7427dda0be624a2c71ddb63dcd63"
+  }
+}

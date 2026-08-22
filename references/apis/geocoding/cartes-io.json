@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/cartes-io",
+  "name": "Cartes.io",
+  "category": "Geocoding",
+  "description": "Create maps and markers for anything",
+  "documentation_url": "https://github.com/M-Media-Group/Cartes.io/wiki/API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c078f847bcd34d6f0d52fce6136aa52cde58c8e09be2831bf5ddc47a32240d8"
+  }
+}

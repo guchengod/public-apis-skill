@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/sheetsu",
+  "name": "Sheetsu",
+  "category": "Development",
+  "description": "Easy google sheets integration",
+  "documentation_url": "https://sheetsu.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SHEETSU__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a32dd96ffc03a8320f414c03d9a4f7b5fb55bb41447568266209b87d83919fb6"
+  }
+}

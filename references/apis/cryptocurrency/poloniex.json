@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/poloniex",
+  "name": "Poloniex",
+  "category": "Cryptocurrency",
+  "description": "US based digital asset exchange",
+  "documentation_url": "https://docs.poloniex.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__POLONIEX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b3f44dce04e628204eb30087fa89d1c8fd022951a00056e396b88aa7cf908abb"
+  }
+}

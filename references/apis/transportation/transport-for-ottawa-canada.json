@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-ottawa-canada",
+  "name": "Transport for Ottawa, Canada",
+  "category": "Transportation",
+  "description": "OC Transpo API",
+  "documentation_url": "https://www.octranspo.com/en/plan-your-trip/travel-tools/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_OTTAWA_CANADA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "47df7bee6ba5da938380a6d142662f9e3fbf7536505124307eff5d6cde81e660"
+  }
+}

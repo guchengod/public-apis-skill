@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/disqus",
+  "name": "Disqus",
+  "category": "Social",
+  "description": "Communicate with Disqus data",
+  "documentation_url": "https://disqus.com/api/docs/auth/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__DISQUS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba94b9be229805c889f5edc5a2b4c1d79dbd75be0146552fb5bc89d16046e043"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/browshot",
+  "name": "Browshot",
+  "category": "Development",
+  "description": "Easily make screenshots of web pages in any screen size, as any device",
+  "documentation_url": "https://browshot.com/api/documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BROWSHOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c97e0947d7bfffbd5b779226669f638602abbea6d62c1bf74ef700c34ad56eef"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/peakmetrics",
+  "name": "PeakMetrics",
+  "category": "Open Data",
+  "description": "News articles and public datasets",
+  "documentation_url": "https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__PEAKMETRICS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "285891afb69c667aefbb59d534a22caaa4b9042b477e2a42e63bea685b2d9d1d"
+  }
+}

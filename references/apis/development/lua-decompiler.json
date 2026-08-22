@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/lua-decompiler",
+  "name": "Lua Decompiler",
+  "category": "Development",
+  "description": "Online Lua 5.1 Decompiler",
+  "documentation_url": "https://lua-decompiler.ferib.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "970f957ae64a8f037de8ed1ac72a71418f543a24ddbbc191aee43a918807c821"
+  }
+}

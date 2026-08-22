@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/board-game-geek",
+  "name": "Board Game Geek",
+  "category": "Games & Comics",
+  "description": "Board games, RPG and videogames",
+  "documentation_url": "https://boardgamegeek.com/wiki/page/BGG_XML_API2",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "02d3df037ff5592905d17d6bf77a6a5b2479100532e322b57c5237f4c01bba67"
+  }
+}

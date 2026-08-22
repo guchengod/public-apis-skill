@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/mercedes-benz",
+  "name": "Mercedes-Benz",
+  "category": "Vehicle",
+  "description": "Telematics data, remotely access vehicle functions, car configurator, locate service dealers",
+  "documentation_url": "https://developer.mercedes-benz.com/apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__MERCEDES_BENZ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d67d35e63195aa4667ed5197ecbf877ec6200a51df84dadf9ab234b87ba8385"
+  }
+}

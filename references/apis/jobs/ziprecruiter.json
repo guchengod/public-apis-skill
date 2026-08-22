@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/ziprecruiter",
+  "name": "ZipRecruiter",
+  "category": "Jobs",
+  "description": "Job search app and website",
+  "documentation_url": "https://www.ziprecruiter.com/publishers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__ZIPRECRUITER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "436fb3162e978f799d6b437e9e2dc6bb3c80f5dc3fcc3c07aa768ebc52cc507d"
+  }
+}

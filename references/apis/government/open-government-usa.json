@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-usa",
+  "name": "Open Government, USA",
+  "category": "Government",
+  "description": "United States Government Open Data",
+  "documentation_url": "https://www.data.gov/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56cc33c8ca6a9d1b3f76eac03788dce92efdb26783b6ce246ab8dce0ee7d686d"
+  }
+}

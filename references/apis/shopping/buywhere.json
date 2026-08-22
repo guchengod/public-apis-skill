@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/buywhere",
+  "name": "BuyWhere",
+  "category": "Shopping",
+  "description": "Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH, VN, PH, ID, US)",
+  "documentation_url": "https://buywhere.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__BUYWHERE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cace07dbda51018533c47b648dca7d150088bfc700b9e62e45547cb24e7851b8"
+  }
+}

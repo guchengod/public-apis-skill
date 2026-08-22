@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/runyankole-bible",
+  "name": "Runyankole Bible",
+  "category": "Books",
+  "description": "Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses",
+  "documentation_url": "https://runyankole-bible-api.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b670386f0946bd1a5bd6846a8cb9217b0b0d27886d2a0b22e07d9e0d547d0ef3"
+  }
+}

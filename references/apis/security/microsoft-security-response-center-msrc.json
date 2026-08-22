@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/microsoft-security-response-center-msrc",
+  "name": "Microsoft Security Response Center (MSRC)",
+  "category": "Security",
+  "description": "Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC)",
+  "documentation_url": "https://msrc.microsoft.com/report/developer",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8bc72059ad9bd871933c3856c1b5a6a3b03e2a312452b6b3f88fd45a1d09de33"
+  }
+}

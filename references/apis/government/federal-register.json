@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/federal-register",
+  "name": "Federal Register",
+  "category": "Government",
+  "description": "The Daily Journal of the United States Government",
+  "documentation_url": "https://www.federalregister.gov/reader-aids/developer-resources/rest-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ab081c76a67efb7d78c2f5dabb13eec6eb61fe7e8ca4c9844df3bf97ae97d9f"
+  }
+}

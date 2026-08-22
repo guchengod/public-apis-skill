@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/usa-gov",
+  "name": "USA.gov",
+  "category": "Government",
+  "description": "Authoritative information on U.S. programs, events, services and more",
+  "documentation_url": "https://www.usa.gov/developer",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__USA_GOV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d0bf7ba692f9163720c6f040cfe6337aa8b2bb73d2bbc70ea7d7f10bf9b06d4a"
+  }
+}

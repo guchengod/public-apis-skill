@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/swapi--d315f897",
+  "name": "SWAPI",
+  "category": "Video",
+  "description": "All the Star Wars data you've ever wanted",
+  "documentation_url": "https://swapi.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "52533b6319b584f9c61207f3ceb5f745b915f85969ca44f9666cfdcf6c9baf4c"
+  }
+}

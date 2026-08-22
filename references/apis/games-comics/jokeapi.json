@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/jokeapi",
+  "name": "JokeAPI",
+  "category": "Games & Comics",
+  "description": "Programming, Miscellaneous and Dark Jokes",
+  "documentation_url": "https://sv443.net/jokeapi/v2/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "92c54390349f34075fef9d582e27435ba6741934983cb79b2cd992e132471ba6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/pexafy",
+  "name": "Pexafy",
+  "category": "Photography",
+  "description": "Semantic image search across 9+ free stock photo sources with a unified JSON schema",
+  "documentation_url": "https://docs.pexafy.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__PEXAFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "684f559b36259224419dcb7e33f3e12280612ae48a6059cd55118c2e25955a3a"
+  }
+}

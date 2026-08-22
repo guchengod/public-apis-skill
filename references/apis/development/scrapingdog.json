@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrapingdog",
+  "name": "ScrapingDog",
+  "category": "Development",
+  "description": "Proxy API for Web scraping",
+  "documentation_url": "https://www.scrapingdog.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPINGDOG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8491023c07764d96e21c622e468bebe3b5bbc78b33da7f0e92066181d3fddc76"
+  }
+}

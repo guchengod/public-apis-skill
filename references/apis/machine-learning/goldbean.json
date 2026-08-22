@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/goldbean",
+  "name": "GoldBean",
+  "category": "Machine Learning",
+  "description": "OCR, Translation, NLP & ERNIE LLM via Baidu AI (free tier available)",
+  "documentation_url": "https://goldbean-api.xyz/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__GOLDBEAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "79449b7a11641c36c8c9dc9c8208fce0747a9f38cb45a69a413650f9de1307b9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/florida-man",
+  "name": "Florida Man",
+  "category": "News",
+  "description": "Static JSON dataset of 10,000+ Florida Man headlines by date",
+  "documentation_url": "https://github.com/juliayxhuang/florida-man-api#readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "97f5815f82ed07ef9210a38529f6cacd9a34164ac5c1a3cff0416983eeb26402"
+  }
+}

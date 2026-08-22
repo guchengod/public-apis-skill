@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/agify-io",
+  "name": "Agify.io",
+  "category": "Development",
+  "description": "Estimates the age from a first name",
+  "documentation_url": "https://agify.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "993dd3d2b2514c38a5a5b1e87f760c9bdefefb5e33c129ee100041831446ac37"
+  }
+}

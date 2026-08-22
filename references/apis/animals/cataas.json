@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/cataas",
+  "name": "Cataas",
+  "category": "Animals",
+  "description": "Cat as a service (cats pictures and gifs)",
+  "documentation_url": "https://cataas.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a91b839be59c4a7e8f1844e2bac8e8362e33a37fc24e9d99d36b716895b2e7f5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-czech-republic",
+  "name": "Transport for Czech Republic",
+  "category": "Transportation",
+  "description": "Czech transport API",
+  "documentation_url": "https://www.chaps.cz/eng/products/idos-internet",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6a26c8fe60e78e7c336b2335e0a549a71db745068c730e476ee027e7bc8121cf"
+  }
+}

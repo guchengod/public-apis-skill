@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/azure-devops",
+  "name": "Azure DevOps",
+  "category": "Development",
+  "description": "The Azure DevOps basic components of a REST API request/response pair",
+  "documentation_url": "https://docs.microsoft.com/en-us/rest/api/azure/devops",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__AZURE_DEVOPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e6c2e4acfb60a8551ca428b35b549451bb7ef1d32b29976759cbfa2989c10a1"
+  }
+}

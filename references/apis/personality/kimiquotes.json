@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/kimiquotes",
+  "name": "kimiquotes",
+  "category": "Personality",
+  "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
+  "documentation_url": "https://kimiquotes.herokuapp.com/doc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b11f956c1edf1dc74b075694dae79d635d9855471c7c77a9a3442384925a83ef"
+  }
+}

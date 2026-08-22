@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/gaana",
+  "name": "Gaana",
+  "category": "Music",
+  "description": "API to retrieve song information from Gaana",
+  "documentation_url": "https://github.com/cyberboysumanjay/GaanaAPI",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "92c136a9b183947ea3e6cfb13882aa48443f8d457c5e1498e8b54a3a2178723f"
+  }
+}

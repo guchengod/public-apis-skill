@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/freeforexapi",
+  "name": "FreeForexAPI",
+  "category": "Currency Exchange",
+  "description": "Real-time foreign exchange rates for major currency pairs",
+  "documentation_url": "https://freeforexapi.com/Home/Api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6eff5ec66185f0c7ec596d8071d1fe1fe09bff672b3b70c8d4231fdb443a66c1"
+  }
+}

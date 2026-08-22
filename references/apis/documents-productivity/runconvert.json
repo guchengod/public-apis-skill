@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/runconvert",
+  "name": "RunConvert",
+  "category": "Documents & Productivity",
+  "description": "Convert video, audio, image, and document files programmatically",
+  "documentation_url": "https://www.runconvert.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__RUNCONVERT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49293122d0b00170a2f3c37e53fc0c87f944e650929916b4397bc5c11d4b90c4"
+  }
+}

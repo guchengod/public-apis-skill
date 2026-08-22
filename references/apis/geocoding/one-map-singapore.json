@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/one-map-singapore",
+  "name": "One Map, Singapore",
+  "category": "Geocoding",
+  "description": "Singapore Land Authority REST API services for Singapore addresses",
+  "documentation_url": "https://www.onemap.gov.sg/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__ONE_MAP_SINGAPORE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "62c9f1816a6a994c15113200fcdd6916f2c6fc8a846b116036d9ca94ca2902de"
+  }
+}

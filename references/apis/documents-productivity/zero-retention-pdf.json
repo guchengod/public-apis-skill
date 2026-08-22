@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/zero-retention-pdf",
+  "name": "Zero Retention PDF",
+  "category": "Documents & Productivity",
+  "description": "Zero-retention HTML to PDF conversion",
+  "documentation_url": "https://xeropdf.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__ZERO_RETENTION_PDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1a493fa026c636fbbce5ece6c4ec5dd8badde05be9f691dbdecb595ed489bd4"
+  }
+}

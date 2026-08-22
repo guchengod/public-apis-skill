@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/google-drive",
+  "name": "Google Drive",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage",
+  "documentation_url": "https://developers.google.com/drive/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__GOOGLE_DRIVE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "24be5d7eaee98cf84756cc86c8061d5d2416392e3fba5f59a1934c9d775b4a1c"
+  }
+}

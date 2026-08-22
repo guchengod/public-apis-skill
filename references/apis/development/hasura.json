@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/hasura",
+  "name": "Hasura",
+  "category": "Development",
+  "description": "GraphQL and REST API Engine with built in Authorization",
+  "documentation_url": "https://hasura.io/opensource/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__HASURA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "70120f9df4de71c3062303841e9cf689d25328df80fd4479dd421946b7df5998"
+  }
+}

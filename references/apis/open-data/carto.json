@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/carto",
+  "name": "CARTO",
+  "category": "Open Data",
+  "description": "Location Information Prediction",
+  "documentation_url": "https://carto.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__CARTO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0aaa98316053b8ca34ac06c85ece8ec9a926832822681d2131461261a9b85ebb"
+  }
+}

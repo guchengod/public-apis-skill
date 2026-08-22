@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/nekosbest",
+  "name": "NekosBest",
+  "category": "Anime",
+  "description": "Neko Images & Anime roleplaying GIFs",
+  "documentation_url": "https://docs.nekos.best",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "530bdf519a22e1674410af043ca670eab38d9b1624596c58c9f0a613936a6223"
+  }
+}

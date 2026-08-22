@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/podio",
+  "name": "Podio",
+  "category": "Documents & Productivity",
+  "description": "File sharing and productivity",
+  "documentation_url": "https://developers.podio.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PODIO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "53c6ffb39e59c801f3d6e3184e019f2377909b29a06036625828c436fafc97ae"
+  }
+}

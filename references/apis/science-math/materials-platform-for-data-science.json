@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/materials-platform-for-data-science",
+  "name": "Materials Platform for Data Science",
+  "category": "Science & Math",
+  "description": "Curated experimental data for materials science",
+  "documentation_url": "https://mpds.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__MATERIALS_PLATFORM_FOR_DATA_SCIENCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a80e70749191252c8900b5d627751729a6c123198a65c0b637a433c56e31fd57"
+  }
+}

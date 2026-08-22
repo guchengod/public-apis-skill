@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/compare-flight-prices",
+  "name": "Compare Flight Prices",
+  "category": "Transportation",
+  "description": "API for comparing flight prices across platforms",
+  "documentation_url": "https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__COMPARE_FLIGHT_PRICES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e66a22e17337898620d50708799ce3fd883d49f4de8fd2aac9c3687aa0578eb3"
+  }
+}

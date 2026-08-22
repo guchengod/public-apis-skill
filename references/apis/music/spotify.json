@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/spotify",
+  "name": "Spotify",
+  "category": "Music",
+  "description": "View Spotify music catalog, manage users' libraries, get recommendations and more",
+  "documentation_url": "https://beta.developer.spotify.com/documentation/web-api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__SPOTIFY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d0e6bb6a440ee9a1a72572c69f169e5fd489bc8402f66e83287315706703711"
+  }
+}

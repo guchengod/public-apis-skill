@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/bank-data",
+  "name": "Bank Data",
+  "category": "Finance",
+  "description": "Instant IBAN and SWIFT number validation across the globe",
+  "documentation_url": "https://apilayer.com/marketplace/bank_data-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__BANK_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2ed577295c67e19e59a84bc895fcdfb37545a65c36a472a2ac5b38418a8302fc"
+  }
+}

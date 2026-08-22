@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/thirukkural",
+  "name": "Thirukkural",
+  "category": "Books",
+  "description": "1330 Thirukkural poems and explanation in Tamil and English",
+  "documentation_url": "https://api-thirukkural.web.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2002c4dc125e187e3fe234d124d558e9ab348377222a16e9ea9dc7b870288729"
+  }
+}

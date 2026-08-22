@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/drivet-url-shortener",
+  "name": "Drivet URL Shortener",
+  "category": "URL Shorteners",
+  "description": "Shorten a long URL easily and fast",
+  "documentation_url": "https://wiki.drivet.xyz/en/url-shortener/add-links",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "759ecce2b8239246a486dd693385992b15c13b9eb7f96eaedfb82045cadb7f72"
+  }
+}

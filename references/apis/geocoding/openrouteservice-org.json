@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/openrouteservice-org",
+  "name": "openrouteservice.org",
+  "category": "Geocoding",
+  "description": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
+  "documentation_url": "https://openrouteservice.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__OPENROUTESERVICE_ORG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49dc9c9a8f4ffe84b77913fc3e79fe531800f8a589d131ff6b1e28c5b24f3b17"
+  }
+}

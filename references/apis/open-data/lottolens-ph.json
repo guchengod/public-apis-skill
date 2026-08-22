@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/lottolens-ph",
+  "name": "LottoLens PH",
+  "category": "Open Data",
+  "description": "Fixed Philippine PCSO historical results and normal draw schedules",
+  "documentation_url": "https://remo65588-boop.github.io/lottolens-ph-public-data/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "87a88881cfea01fac35176452e8d2441343c0822d43475ee9d0ab318e93f96b0"
+  }
+}

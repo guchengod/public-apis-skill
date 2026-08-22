@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/noctua",
+  "name": "Noctua",
+  "category": "Science & Math",
+  "description": "REST API used to access NoctuaSky features",
+  "documentation_url": "https://api.noctuasky.com/api/v1/swaggerdoc/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8cfe250b8f1ac68316a87f991860e1b03f789ceb5e1fa7541652fe75f7233ac8"
+  }
+}

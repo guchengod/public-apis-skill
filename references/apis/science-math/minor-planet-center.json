@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/minor-planet-center",
+  "name": "Minor Planet Center",
+  "category": "Science & Math",
+  "description": "Asterank.com Information",
+  "documentation_url": "http://www.asterank.com/mpc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "99a4b69cf8761983473bf3d6922b1a2d4fc9481d09889c75f8eb9a28fbfe8935"
+  }
+}

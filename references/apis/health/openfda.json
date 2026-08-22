@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/openfda",
+  "name": "openFDA",
+  "category": "Health",
+  "description": "Public FDA data about drugs, devices and foods",
+  "documentation_url": "https://open.fda.gov",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__OPENFDA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "90d4405ae7ac2321625189f47f407bea8994ffe2cdffd36cbc81745115ee7590"
+  }
+}

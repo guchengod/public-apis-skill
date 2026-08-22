@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "calendar/google-calendar",
+  "name": "Google Calendar",
+  "category": "Calendar",
+  "description": "Display, create and modify Google calendar events",
+  "documentation_url": "https://developers.google.com/google-apps/calendar/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__CALENDAR__GOOGLE_CALENDAR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1627dfea757489179375aa40adf145cd03a6d308752a57f8593b3cb8bbfaaf12"
+  }
+}

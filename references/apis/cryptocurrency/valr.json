@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/valr",
+  "name": "VALR",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Exchange based in South Africa",
+  "documentation_url": "https://docs.valr.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__VALR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "006af8b2ae2d8ec32971f6d20b6841ad5056c24c04dc5ed713fa33b39a8ad006"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/gfycat",
+  "name": "Gfycat",
+  "category": "Photography",
+  "description": "Jiffier GIFs",
+  "documentation_url": "https://developers.gfycat.com/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__GFYCAT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa28e50cbfb1f3e1392ff7cdce57d8ca50a92df86308a1e6d5f7cdb433aff4f3"
+  }
+}

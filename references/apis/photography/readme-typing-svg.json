@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/readme-typing-svg",
+  "name": "Readme typing SVG",
+  "category": "Photography",
+  "description": "Customizable typing and deleting text SVG",
+  "documentation_url": "https://github.com/DenverCoder1/readme-typing-svg",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4dc3c1cd6277d31a3236ac6825f9233d8517306edb2a633cc4df53c39aa23471"
+  }
+}

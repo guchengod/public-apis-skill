@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/randomdog",
+  "name": "RandomDog",
+  "category": "Animals",
+  "description": "Random pictures of dogs",
+  "documentation_url": "https://random.dog/woof.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ca389c09210d28593ff3042173008ca7da9a083be773e71936d1655ff1e8053"
+  }
+}

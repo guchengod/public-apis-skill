@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-germany",
+  "name": "Open Government, Germany",
+  "category": "Government",
+  "description": "Germany Government Open Data",
+  "documentation_url": "https://www.govdata.de/daten/-/details/govdata-metadatenkatalog",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aee6476e160a3595da1cb0dd937acf3bacd9d1cf910d9e9efe95b58c46a5d7f9"
+  }
+}

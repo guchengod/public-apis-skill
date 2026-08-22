@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/gun-policy",
+  "name": "Gun Policy",
+  "category": "Government",
+  "description": "International firearm injury prevention and policy",
+  "documentation_url": "https://www.gunpolicy.org/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__GUN_POLICY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c4112ceef5467a7c607e57979488041517cf3c71388ef55c1da22756d031a30d"
+  }
+}

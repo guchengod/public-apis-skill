@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/minecraft-server-status",
+  "name": "Minecraft Server Status",
+  "category": "Games & Comics",
+  "description": "API to get Information about a Minecraft Server",
+  "documentation_url": "https://api.mcsrvstat.us",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "627530e3e3090d89943cde75c1d244d525d44c4e668830ffd4d1dc08aef79b50"
+  }
+}

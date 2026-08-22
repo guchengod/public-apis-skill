@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/carvector",
+  "name": "CarVector",
+  "category": "Vehicle",
+  "description": "Vehicle specs, images, recalls, and DTC codes across 1925-2029",
+  "documentation_url": "https://carvector.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__CARVECTOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a8d3b13fab0e2138ab3656aed36f51dafc8ed0bbd69b5e2b2bfd2a23bffb5860"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/socialswarm",
+  "name": "SocialSwarm",
+  "category": "Social",
+  "description": "Turn articles into ready-to-post X thread drafts with different hooks",
+  "documentation_url": "https://social-swarm-main-aa77a19.zuplo.site",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__SOCIALSWARM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b26d78f0f1b0bb50069aaa6a498cf8369144574a479d835a820206d7ccfbb09"
+  }
+}

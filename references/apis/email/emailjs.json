@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/emailjs",
+  "name": "EmailJS",
+  "category": "Email",
+  "description": "Send emails directly from client-side JavaScript without a backend server",
+  "documentation_url": "https://www.emailjs.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__EMAILJS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef24d167bc3ce45433b9aaf33344de669de042972d0ae2fbb756c6213f8afbdd"
+  }
+}

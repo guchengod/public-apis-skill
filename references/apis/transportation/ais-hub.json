@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/ais-hub",
+  "name": "AIS Hub",
+  "category": "Transportation",
+  "description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
+  "documentation_url": "http://www.aishub.net/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AIS_HUB__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a37f71797b21835d20b0ba7b08b956bdb1bd93b089128cdf0182a7e8c815e4e0"
+  }
+}

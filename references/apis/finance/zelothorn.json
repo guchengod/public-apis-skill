@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/zelothorn",
+  "name": "Zelothorn",
+  "category": "Finance",
+  "description": "Plain-English explanations of US public companies with SEC filings and earnings data",
+  "documentation_url": "https://zelothorn.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0635801bc9012d45c5c01f02c5194b4534b3d5184532242bcd03cdee7f099027"
+  }
+}

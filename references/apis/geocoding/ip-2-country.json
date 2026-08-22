@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip-2-country",
+  "name": "IP 2 Country",
+  "category": "Geocoding",
+  "description": "Map an IP to a country",
+  "documentation_url": "https://ip2country.info",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f298bce04afb628d6447bc7711ed0b649cc8c6ee4988a2bc1185fb64e54ee9d"
+  }
+}

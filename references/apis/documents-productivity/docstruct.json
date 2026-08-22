@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/docstruct",
+  "name": "DocStruct",
+  "category": "Documents & Productivity",
+  "description": "AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV",
+  "documentation_url": "https://docstruct.pages.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "436a12b7a874c2f1e4e84abe7bccc3aa7ced66e0cdbc81ef521be3ed029bcabf"
+  }
+}

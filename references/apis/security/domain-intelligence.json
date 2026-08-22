@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/domain-intelligence",
+  "name": "Domain Intelligence",
+  "category": "Security",
+  "description": "DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call",
+  "documentation_url": "https://oti-labs.com/domain-intelligence-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__DOMAIN_INTELLIGENCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "647c77df2de38353ee9d4c90b57fcb3a8a005036399af09707a6e8bfbdaed177"
+  }
+}

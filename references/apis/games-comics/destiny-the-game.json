@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/destiny-the-game",
+  "name": "Destiny The Game",
+  "category": "Games & Comics",
+  "description": "Bungie Platform API",
+  "documentation_url": "https://bungie-net.github.io/multi/index.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__DESTINY_THE_GAME__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e279ba55a5c918cdcbb30e0cf99a7e9d5eb174a6eaeba6bb4780d7898e761905"
+  }
+}

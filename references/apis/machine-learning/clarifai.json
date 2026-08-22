@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/clarifai",
+  "name": "Clarifai",
+  "category": "Machine Learning",
+  "description": "Computer Vision",
+  "documentation_url": "https://docs.clarifai.com/api-guide/api-overview",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__CLARIFAI__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "07d84c3c59f656599be3eed00c710ff665869a1d553553b242508ec99bdfbf94"
+  }
+}

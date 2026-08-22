@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/fbi-wanted",
+  "name": "FBI Wanted",
+  "category": "Government",
+  "description": "Access information on the FBI Wanted program",
+  "documentation_url": "https://www.fbi.gov/wanted/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e2c657c04f29a4ecb658ebd14f10a45fcb26423a4d3d336d414872acc07cb76"
+  }
+}

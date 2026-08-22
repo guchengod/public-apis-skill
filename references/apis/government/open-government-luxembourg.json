@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-luxembourg",
+  "name": "Open Government, Luxembourg",
+  "category": "Government",
+  "description": "Luxembourgish Government Open Data",
+  "documentation_url": "https://data.public.lu",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_LUXEMBOURG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "48bb19ed3e917db88e4e0552c7da9fa9b7fcc0b2f3ac91db23bda6104f43703e"
+  }
+}

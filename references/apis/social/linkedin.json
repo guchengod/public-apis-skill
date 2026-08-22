@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/linkedin",
+  "name": "LinkedIn",
+  "category": "Social",
+  "description": "The foundation of all digital integrations with LinkedIn",
+  "documentation_url": "https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__LINKEDIN__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "676048090ab2cbadf6404dbe53e56d51798e92077b380039c24cdfda30f54039"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/redirhub",
+  "name": "RedirHub",
+  "category": "URL Shorteners",
+  "description": "URL redirect management with custom domains, HTTPS, analytics, and REST API",
+  "documentation_url": "https://redirhub.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__REDIRHUB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6501107987011af16f422c9e7fde1ca6b4aea403390a2b1bb1648ffc89874be"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/deck-of-cards",
+  "name": "Deck of Cards",
+  "category": "Games & Comics",
+  "description": "Deck of Cards",
+  "documentation_url": "http://deckofcardsapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4c66c14cafd25092432f4fcbf8b84105ae92c6ef77606b5c77721de2b01add9"
+  }
+}

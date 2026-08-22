@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/kelley-blue-book",
+  "name": "Kelley Blue Book",
+  "category": "Vehicle",
+  "description": "Vehicle info, pricing, configuration, plus much more",
+  "documentation_url": "http://developer.kbb.com/#!/data/1-Default",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__KELLEY_BLUE_BOOK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73f2aed8a7aa73b44cc06c4a63d0901d46df2ee86174e2e48b8c104009086f15"
+  }
+}

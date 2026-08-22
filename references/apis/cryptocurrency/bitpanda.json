@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitpanda",
+  "name": "BitPanda",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Information",
+  "documentation_url": "https://developers.bitpanda.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BITPANDA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "66b8325805d157cd5622be2dd6289ccad38b1bd4c138cea5e7ac68f6d54acb99"
+  }
+}

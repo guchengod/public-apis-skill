@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/monster-hunter-world",
+  "name": "Monster Hunter World",
+  "category": "Games & Comics",
+  "description": "Monster Hunter World data",
+  "documentation_url": "https://docs.mhw-db.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8bd1b8fbdc20227d2669d6c3f8e0b6274ee1394f70dd70b2e34ec860462e840f"
+  }
+}

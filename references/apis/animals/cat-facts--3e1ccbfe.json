@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/cat-facts--3e1ccbfe",
+  "name": "Cat Facts",
+  "category": "Animals",
+  "description": "Daily cat facts",
+  "documentation_url": "https://alexwohlbruck.github.io/cat-facts/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a311f993649a03c34abb5c39088b224093541d4f3ea179eb286d6caf1b91f88f"
+  }
+}

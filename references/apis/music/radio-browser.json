@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/radio-browser",
+  "name": "Radio Browser",
+  "category": "Music",
+  "description": "List of internet radio stations",
+  "documentation_url": "https://api.radio-browser.info/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "268d04e743a5deb1091c43a3bed1c407a644a744ed6d51e20c5ddbe629d4f246"
+  }
+}

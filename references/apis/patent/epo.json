@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "patent/epo",
+  "name": "EPO",
+  "category": "Patent",
+  "description": "European patent search system api",
+  "documentation_url": "https://developers.epo.org/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PATENT__EPO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e90d95347f5fd6d7cab6b163d4f9e58f7ba05381049887cd09c8ac81ef5cd181"
+  }
+}

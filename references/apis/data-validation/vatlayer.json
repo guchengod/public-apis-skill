@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/vatlayer",
+  "name": "VATlayer",
+  "category": "Data Validation",
+  "description": "VAT number validation",
+  "documentation_url": "https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__VATLAYER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3db49f74b818be7d475556bbd1491d0812efe6a9dfe68b126203db892999348b"
+  }
+}

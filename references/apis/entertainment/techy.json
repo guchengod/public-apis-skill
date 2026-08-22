@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/techy",
+  "name": "Techy",
+  "category": "Entertainment",
+  "description": "JSON and Plaintext API for tech-savvy sounding phrases",
+  "documentation_url": "https://techy-api.vercel.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e006e4a4ac78359aabe8a7982c67aa5e306fe598c9b86a42813f8c3cdbaf2d22"
+  }
+}

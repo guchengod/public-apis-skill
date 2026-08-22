@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/zenrows",
+  "name": "ZenRows",
+  "category": "Development",
+  "description": "Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies",
+  "documentation_url": "https://www.zenrows.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__ZENROWS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "867803055cc12f660267be86217c144629332f56e839ac68762073c7ce67e434"
+  }
+}

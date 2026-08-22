@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/proxykingdom",
+  "name": "ProxyKingdom",
+  "category": "Development",
+  "description": "Rotating Proxy API that produces a working proxy on every request",
+  "documentation_url": "https://proxykingdom.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__PROXYKINGDOM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "58a207e3337ea4adbcd55b66308d136cede33cda4c8eef3008003aac63fba0ab"
+  }
+}

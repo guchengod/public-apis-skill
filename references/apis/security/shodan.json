@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/shodan",
+  "name": "Shodan",
+  "category": "Security",
+  "description": "Search engine for Internet connected devices",
+  "documentation_url": "https://developer.shodan.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__SHODAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "330f87b2ce5f537df460a856e4aafa41492a64348201d95d44db23fc303125a5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/alchemy-ethereum",
+  "name": "Alchemy Ethereum",
+  "category": "Cryptocurrency",
+  "description": "Ethereum Node-as-a-Service Provider",
+  "documentation_url": "https://docs.alchemy.com/alchemy/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__ALCHEMY_ETHEREUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d73654a7fd13e12af4cc1be001b676c3829276fa8f27a796774854e21809ce22"
+  }
+}

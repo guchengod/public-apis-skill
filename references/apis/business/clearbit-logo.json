@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/clearbit-logo",
+  "name": "Clearbit Logo",
+  "category": "Business",
+  "description": "Search for company logos and embed them in your projects",
+  "documentation_url": "https://clearbit.com/docs#logo-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__CLEARBIT_LOGO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7f640d943b8dcb2d696b89c7ffc1cbb46ae9fdc13d5d5aa060bd5acd794d8a67"
+  }
+}

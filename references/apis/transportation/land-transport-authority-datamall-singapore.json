@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/land-transport-authority-datamall-singapore",
+  "name": "Land Transport Authority DataMall, Singapore",
+  "category": "Transportation",
+  "description": "Singapore transport information",
+  "documentation_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__LAND_TRANSPORT_AUTHORITY_DATAMALL_SINGAPORE__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ab9ce9aed369f9cf198fd1b69ad06e6ce3572b36afe0e9c9b44a23a07582d19f"
+  }
+}

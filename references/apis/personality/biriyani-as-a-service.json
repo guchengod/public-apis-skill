@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/biriyani-as-a-service",
+  "name": "Biriyani As A Service",
+  "category": "Personality",
+  "description": "Biriyani images placeholder",
+  "documentation_url": "https://biriyani.anoram.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36d216e21bacd1789a186eab36ac077f2bacb74572a6e0e3cbaebf85e9a4f859"
+  }
+}

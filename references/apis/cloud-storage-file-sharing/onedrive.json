@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/onedrive",
+  "name": "OneDrive",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage",
+  "documentation_url": "https://developer.microsoft.com/onedrive",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__ONEDRIVE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf6d5c5ce0a9f3281c7e1c37595c7d8c0bdb8fddc088e1293ce8f969104346c5"
+  }
+}

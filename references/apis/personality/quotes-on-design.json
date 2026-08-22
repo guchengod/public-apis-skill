@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/quotes-on-design",
+  "name": "Quotes on Design",
+  "category": "Personality",
+  "description": "Inspirational Quotes",
+  "documentation_url": "https://quotesondesign.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1826911cf02b64ef0ab6403baa6ed1cc5b64ae41db5a7c6a88ed036b0d3e7df4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/open-food-facts",
+  "name": "Open Food Facts",
+  "category": "Food & Drink",
+  "description": "Food Products Database",
+  "documentation_url": "https://world.openfoodfacts.org/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "32898707605797c682f20a667b408840e86ad997a091e8e443c42112ea454e33"
+  }
+}

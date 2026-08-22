@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-uk",
+  "name": "Transport for UK",
+  "category": "Transportation",
+  "description": "Transport API and dataset for UK",
+  "documentation_url": "https://developer.transportapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_UK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7fad45e13b1adee0c52575d72b4efc3448e5b0990bdeacbecdfc0eacd5b26d2"
+  }
+}

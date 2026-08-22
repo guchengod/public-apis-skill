@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/monday",
+  "name": "Monday",
+  "category": "Documents & Productivity",
+  "description": "Programmatically access and update data inside a monday.com account",
+  "documentation_url": "https://api.developer.monday.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__MONDAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fca37a80239f1668473a76472a30b47f560b50eedf4773b5d9329dfe72de7e2"
+  }
+}

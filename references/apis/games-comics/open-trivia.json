@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/open-trivia",
+  "name": "Open Trivia",
+  "category": "Games & Comics",
+  "description": "Trivia Questions",
+  "documentation_url": "https://opentdb.com/api_config.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "11bdd720e639675aab990e980abd461a86b5e7d53042be905c20e86309f290ff"
+  }
+}

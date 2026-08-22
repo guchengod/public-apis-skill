@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/grab",
+  "name": "Grab",
+  "category": "Transportation",
+  "description": "Track deliveries, ride fares, payments and loyalty points",
+  "documentation_url": "https://developer.grab.com/docs/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__GRAB__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fd190ab9a9e21fac06215d08699c25fc97afb004f2456e2f03b2a06e1fb9ed0"
+  }
+}

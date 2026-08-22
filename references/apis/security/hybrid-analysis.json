@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/hybrid-analysis",
+  "name": "Hybrid Analysis",
+  "category": "Security",
+  "description": "File and URL malware analysis powered by Falcon Sandbox",
+  "documentation_url": "https://www.hybrid-analysis.com/docs/api/v2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__HYBRID_ANALYSIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "64f32fb32bec051245bbd6bcb5c9f30013a333972b879872cca6b20b7c31944e"
+  }
+}

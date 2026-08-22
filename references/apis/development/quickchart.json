@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/quickchart",
+  "name": "QuickChart",
+  "category": "Development",
+  "description": "Generate chart and graph images",
+  "documentation_url": "https://quickchart.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9111a97308974e393fcd4d26606be71408cc21b444b5a99a1d0fd73cccbbe35b"
+  }
+}

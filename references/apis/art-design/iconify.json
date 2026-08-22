@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/iconify",
+  "name": "Iconify",
+  "category": "Art & Design",
+  "description": "Search and fetch SVG icons from 200+ open source icon sets",
+  "documentation_url": "https://iconify.design/docs/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63b2fecd50f3452e7d388f70a09debcb287fb7e0e8a38393dccd44b5a00acdeb"
+  }
+}

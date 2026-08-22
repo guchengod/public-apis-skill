@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/dungeons-and-dragons",
+  "name": "Dungeons and Dragons",
+  "category": "Games & Comics",
+  "description": "Reference for 5th edition spells, classes, monsters, and more",
+  "documentation_url": "https://www.dnd5eapi.co/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "125ea0ec5f265c7f45487f31aa4c4069ba9bff198370f53d78e3b635bb21f1a1"
+  }
+}

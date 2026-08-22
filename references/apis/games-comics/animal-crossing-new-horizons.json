@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/animal-crossing-new-horizons",
+  "name": "Animal Crossing: New Horizons",
+  "category": "Games & Comics",
+  "description": "API for critters, fossils, art, music, furniture and villagers",
+  "documentation_url": "http://acnhapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e7ced63c3732dd4a03c204a24af06f63136537ac2869708fadc3b101dc21cd44"
+  }
+}

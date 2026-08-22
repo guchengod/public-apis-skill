@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/exmo",
+  "name": "EXMO",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies exchange based in UK",
+  "documentation_url": "https://documenter.getpostman.com/view/10287440/SzYXWKPi",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__EXMO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "51b015760ebd4e19cde230aca3cdf433d935f338de2be9417b603f6a20e5166f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/totalshiftleft-sandbox",
+  "name": "TotalShiftLeft Sandbox",
+  "category": "Test Data",
+  "description": "Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec",
+  "documentation_url": "https://demo.totalshiftleft.ai/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a55a67e87a9addf2a94e171fff95179cd1d299162588a250916655e1b21d182f"
+  }
+}

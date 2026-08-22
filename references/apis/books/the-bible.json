@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "books/the-bible",
+  "name": "The Bible",
+  "category": "Books",
+  "description": "Everything you need from the Bible in one discoverable place",
+  "documentation_url": "https://docs.api.bible",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BOOKS__THE_BIBLE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c86453784f587113fcb541537bfa2f326ae8c396a9c06231f6f1723959bb86d3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/shoutcloud",
+  "name": "SHOUTCLOUD",
+  "category": "Development",
+  "description": "ALL-CAPS AS A SERVICE",
+  "documentation_url": "http://shoutcloud.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7b33ba1a4c50756f7a01f2c6842fb4d298bdd072a3e31620fb30e618aad4c23"
+  }
+}

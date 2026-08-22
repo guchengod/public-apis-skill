@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/chinese-text-project",
+  "name": "Chinese Text Project",
+  "category": "Dictionaries",
+  "description": "Online open-access digital library for pre-modern Chinese texts",
+  "documentation_url": "https://ctext.org/tools/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2f682d3e8a12e0d06b4bb8f3e357ead17b0f360c5045aee6476da128370dbf6c"
+  }
+}

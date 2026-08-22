@@ -1,0 +1,18 @@
+{
+  "defaults": {
+    "timeout": 30,
+    "user_agent": "public-api-skill/1.0",
+    "proxy": false
+  },
+  "apis": {
+    "animals/adoptapet": {
+      "base_url": "https://api.provider.example",
+      "auth": {
+        "location": "header",
+        "name": "X-API-Key",
+        "scheme": null,
+        "value_env": "ADOPTAPET_API_KEY"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/wikipedia",
+  "name": "Wikipedia",
+  "category": "Open Data",
+  "description": "Mediawiki Encyclopedia",
+  "documentation_url": "https://www.mediawiki.org/wiki/API:Main_page",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "401830414c6f99cf50329ead085980f05e06b75af2a73f2dc75dce7e2ca042c3"
+  }
+}

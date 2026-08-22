@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/jokeapi",
+  "name": "JokeAPI",
+  "category": "Entertainment",
+  "description": "Programmable jokes in multiple languages with filtering options",
+  "documentation_url": "https://v2.jokeapi.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "129dd7580ef06d4fefae21ec7651bc8e1b8dcdc97e1add484db0ba076ff76efa"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-belgium",
+  "name": "Open Government, Belgium",
+  "category": "Government",
+  "description": "Belgium Government Open Data",
+  "documentation_url": "https://data.gov.be/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c269e30416b7682accb45c3c3f0587233e81b4b271080f0ec9cd1cb42454f6d6"
+  }
+}

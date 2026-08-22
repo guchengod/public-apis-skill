@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tenders-in-romania",
+  "name": "Tenders in Romania",
+  "category": "Business",
+  "description": "Get data for procurements in Romania in JSON format",
+  "documentation_url": "https://tenders.guru/ro/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c5a5bc5606e3ac0a936a4ce6ea90eee71d1a9f1058f06ba55236494ebe674d64"
+  }
+}

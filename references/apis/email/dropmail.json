@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/dropmail",
+  "name": "DropMail",
+  "category": "Email",
+  "description": "GraphQL API for creating and managing ephemeral e-mail inboxes",
+  "documentation_url": "https://dropmail.me/api/#live-demo",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "799b0abf132ea9ad6297fcc827b09ec7e264855edd9eb23042c1159227ec28a0"
+  }
+}

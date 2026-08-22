@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/mostexpensivewatches",
+  "name": "MostExpensiveWatches",
+  "category": "Open Data",
+  "description": "Documented luxury watch auction records, live listings, valuations and price indices",
+  "documentation_url": "https://mostexpensivewatches.net/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b4cc40d9d64dd118df34b826b0cebb8d564bb4c0d3c654d8d8c5fd3e3b36228c"
+  }
+}

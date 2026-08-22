@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/localbitcoins",
+  "name": "Localbitcoins",
+  "category": "Cryptocurrency",
+  "description": "P2P platform to buy and sell Bitcoins",
+  "documentation_url": "https://localbitcoins.com/api-docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a5e628d11452a78616787ffd6d0ea61e901356a9d65a001d8f916fc6af351452"
+  }
+}

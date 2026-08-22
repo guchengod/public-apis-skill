@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tronald-dump",
+  "name": "Tronald Dump",
+  "category": "Games & Comics",
+  "description": "The dumbest things Donald Trump has ever said",
+  "documentation_url": "https://www.tronalddump.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7dd4cc5fb33a57917029c94e4e35d81da6f24dd29c921978c555877f667dee6b"
+  }
+}

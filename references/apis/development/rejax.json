@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/rejax",
+  "name": "Rejax",
+  "category": "Development",
+  "description": "Reverse AJAX service to notify clients",
+  "documentation_url": "https://rejax.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__REJAX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2c124871b87ed6192e1c6ac0f36218ac805241cde829e94272ce53bbf4f25583"
+  }
+}

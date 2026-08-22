@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/uber",
+  "name": "Uber",
+  "category": "Transportation",
+  "description": "Uber ride requests and price estimation",
+  "documentation_url": "https://developer.uber.com/products",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__UBER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f336d9137ad3e310760bc7885bfc893aa63e32581ee948d693859b6f130ca93f"
+  }
+}

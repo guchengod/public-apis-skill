@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/postalcodes",
+  "name": "PostalCodes",
+  "category": "Geocoding",
+  "description": "Postal code search, country exports, and address validation data",
+  "documentation_url": "https://postalcodes.info/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c615d5022999976f45810fe2c8ad0bb087d859d9995bd9988be8036039b7abfd"
+  }
+}

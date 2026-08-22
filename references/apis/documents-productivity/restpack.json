@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/restpack",
+  "name": "Restpack",
+  "category": "Documents & Productivity",
+  "description": "Provides screenshot, HTML to PDF and content extraction APIs",
+  "documentation_url": "https://restpack.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__RESTPACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "622c21a0632bf2de599feadf78895f9bab25ec0189abf1e65d291ab34e4cc5b0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/aqicn",
+  "name": "AQICN",
+  "category": "Weather",
+  "description": "Air Quality Index Data for over 1000 cities",
+  "documentation_url": "https://aqicn.org/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__AQICN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9b4f9e108eaac8400bc70263f2b2f495ae45301b249ce5c8c130b60ab8a4fe2"
+  }
+}

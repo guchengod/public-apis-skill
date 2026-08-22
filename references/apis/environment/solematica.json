@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/solematica",
+  "name": "Solematica",
+  "category": "Environment",
+  "description": "Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data",
+  "documentation_url": "https://www.solematica.it/sviluppatori",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b539280d0ddd66ac73496da2f2afe5f33e1db516a7fd7cb1beb5c5976a359439"
+  }
+}

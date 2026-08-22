@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/doge-meme",
+  "name": "Doge-Meme",
+  "category": "Social",
+  "description": "Top meme posts from r/dogecoin which include 'Meme' flair",
+  "documentation_url": "https://api.doge-meme.lol/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4cc0e700c2311c91827729557d1d676689e5d10d2d8ddcf514fbdc68e3cceb0b"
+  }
+}

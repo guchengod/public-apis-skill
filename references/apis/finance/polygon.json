@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/polygon",
+  "name": "Polygon",
+  "category": "Finance",
+  "description": "Historical stock market data",
+  "documentation_url": "https://polygon.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__POLYGON__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "febfac693fcadfb7bfe75bc820603620c670939ab4f255e03a19ee66105c96b0"
+  }
+}

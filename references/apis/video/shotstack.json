@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/shotstack",
+  "name": "Shotstack",
+  "category": "Video",
+  "description": "Cloud video editing API to create and render videos programmatically",
+  "documentation_url": "https://shotstack.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__SHOTSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a492ea618bbb2c0ae27dd6a76c9ee285844c031ca851409005e4b9ac447be99c"
+  }
+}

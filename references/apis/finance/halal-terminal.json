@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/halal-terminal",
+  "name": "Halal Terminal",
+  "category": "Finance",
+  "description": "Shariah-compliant stock and ETF screening across 5 methodologies, zakat and purification",
+  "documentation_url": "https://api.halalterminal.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__HALAL_TERMINAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0747becf111a51316b833a0bacf5b43cd2a2f4666292f4c2dac28a395fd76816"
+  }
+}

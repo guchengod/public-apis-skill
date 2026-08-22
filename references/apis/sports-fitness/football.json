@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football",
+  "name": "Football",
+  "category": "Sports & Fitness",
+  "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
+  "documentation_url": "https://rapidapi.com/GiulianoCrescimbeni/api/football98/",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FOOTBALL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "44d7c84c339660fa7c2ed61f68b4dbcbda969821c30de691b0fa4067f0d4d4e3"
+  }
+}

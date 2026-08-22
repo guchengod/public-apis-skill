@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/quickmocker",
+  "name": "QuickMocker",
+  "category": "Test Data",
+  "description": "API mocking tool to generate contextual, fake or random data",
+  "documentation_url": "https://quickmocker.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b01dfc5f2da8766c4567651616b3e3add4443fc0f7763a88829a103245aac1fa"
+  }
+}

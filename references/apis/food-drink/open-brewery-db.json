@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/open-brewery-db",
+  "name": "Open Brewery DB",
+  "category": "Food & Drink",
+  "description": "Breweries, Cideries and Craft Beer Bottle Shops",
+  "documentation_url": "https://www.openbrewerydb.org",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e2713b3e9d40e582206e3b48c97552b7f9d9497e701f1afece32bb8f151e3a35"
+  }
+}

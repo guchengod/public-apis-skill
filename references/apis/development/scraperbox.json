@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scraperbox",
+  "name": "scraperBox",
+  "category": "Development",
+  "description": "Undetectable web scraping API",
+  "documentation_url": "https://scraperbox.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPERBOX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dfaf940bc284778955c1304e2db7a24adbee61f87bbc3ee961bdf2241a865068"
+  }
+}

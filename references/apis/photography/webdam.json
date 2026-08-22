@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/webdam",
+  "name": "Webdam",
+  "category": "Photography",
+  "description": "Images",
+  "documentation_url": "https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__WEBDAM__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0cd30e077d8ea45673a94cfdaa7a0abc8bb9b34c6132ae7dcf158e4f20b6d6ae"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/what3words",
+  "name": "What3Words",
+  "category": "Geocoding",
+  "description": "Three words as rememberable and unique coordinates worldwide",
+  "documentation_url": "https://what3words.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__WHAT3WORDS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f28679383e6cc7f8d5919eb3278d7996c6ee4795b81a6edda1697483b8a0ec6"
+  }
+}

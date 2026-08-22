@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/open-charge-map",
+  "name": "Open Charge Map",
+  "category": "Transportation",
+  "description": "Global public registry of electric vehicle charging locations",
+  "documentation_url": "https://openchargemap.org/site/develop/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__OPEN_CHARGE_MAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "243614381a2dca388df17ff224844ba6d3d29296fcc746adc3549beca39895a3"
+  }
+}

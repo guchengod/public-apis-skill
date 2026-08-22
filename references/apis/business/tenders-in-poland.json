@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tenders-in-poland",
+  "name": "Tenders in Poland",
+  "category": "Business",
+  "description": "Get data for procurements in Poland in JSON format",
+  "documentation_url": "https://tenders.guru/pl/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4055bad8d280eb2ccf2eacea984ae047d6c632e0f9f102c023927028003fc4be"
+  }
+}

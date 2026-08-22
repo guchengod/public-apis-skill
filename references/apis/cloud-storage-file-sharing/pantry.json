@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/pantry",
+  "name": "Pantry",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Free JSON storage for small projects",
+  "documentation_url": "https://getpantry.cloud/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd9a628dbd43747838240f74fe0e3c2cf35715d020e98e7fce9a31a466777c90"
+  }
+}

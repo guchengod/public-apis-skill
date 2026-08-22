@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-switzerland--c7af0af4",
+  "name": "Transport for Switzerland",
+  "category": "Transportation",
+  "description": "Swiss public transport API",
+  "documentation_url": "https://transport.opendata.ch/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "31406e5ab1d08c98be273062a1c2e780beab6ddd9ee7f4d7ac0b1846024fb88c"
+  }
+}

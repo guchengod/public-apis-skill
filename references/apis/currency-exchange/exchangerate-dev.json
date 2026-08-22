@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/exchangerate-dev",
+  "name": "Exchangerate.dev",
+  "category": "Currency Exchange",
+  "description": "Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo",
+  "documentation_url": "https://exchangerate.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d44c576f5f1868b1a54a8830ef29475762d371de0aa3e02caa3b153a9971bc46"
+  }
+}

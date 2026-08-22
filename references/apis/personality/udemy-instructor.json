@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "personality/udemy-instructor",
+  "name": "Udemy(instructor)",
+  "category": "Personality",
+  "description": "API for instructors on Udemy",
+  "documentation_url": "https://www.udemy.com/developers/instructor/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PERSONALITY__UDEMY_INSTRUCTOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "465f2041a76ff145f5ce3dd8a381f8320751bc3af782c8830f1b987e8c9fc196"
+  }
+}

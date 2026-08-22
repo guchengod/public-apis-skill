@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/mapbox",
+  "name": "Mapbox",
+  "category": "Tracking",
+  "description": "Maps, directions, geocoding",
+  "documentation_url": "https://docs.mapbox.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__MAPBOX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9a68cadd15b6c2f790acae99f2f790e7c4436b707635007ee8db8f8caee61c32"
+  }
+}

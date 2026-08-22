@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/geekflare",
+  "name": "GeekFlare",
+  "category": "Development",
+  "description": "Provide numerous capabilities for important testing and monitoring methods for websites",
+  "documentation_url": "https://apidocs.geekflare.com/docs/geekflare-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GEEKFLARE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c690dca3d2540a4b85310a792f539fce5ebd64adbcc3f916f300723a14a987b"
+  }
+}

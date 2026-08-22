@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-singapore",
+  "name": "Open Government, Singapore",
+  "category": "Government",
+  "description": "Singapore Government Open Data",
+  "documentation_url": "https://data.gov.sg/developer",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59732a02727162e2f1fd0c6dcfff05267f272b7f59dfcad2067c149765528ec4"
+  }
+}

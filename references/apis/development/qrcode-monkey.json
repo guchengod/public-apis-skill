@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qrcode-monkey",
+  "name": "Qrcode Monkey",
+  "category": "Development",
+  "description": "Integrate custom and unique looking QR codes into your system or workflow",
+  "documentation_url": "https://www.qrcode-monkey.com/qr-code-api-with-logo/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a78359f1cb87b5160e00f6720dc4b2744e113bded16b86753a996838c64311ea"
+  }
+}

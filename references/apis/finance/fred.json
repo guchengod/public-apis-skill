@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/fred",
+  "name": "FRED",
+  "category": "Finance",
+  "description": "Economic data from the Federal Reserve Bank of St. Louis",
+  "documentation_url": "https://fred.stlouisfed.org/docs/api/fred/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FRED__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "18c0a907742f9f30c6d07b0c03cb2b928c3aa06de6039634035eab46ac4d98d8"
+  }
+}

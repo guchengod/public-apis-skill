@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/telegraph",
+  "name": "Telegraph",
+  "category": "Social",
+  "description": "Create attractive blogs easily, to share",
+  "documentation_url": "https://telegra.ph/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TELEGRAPH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "db2158ac220e938b4a9cc95094f8a3421f032f8c525607d84883b35330479359"
+  }
+}

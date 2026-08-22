@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/amberone",
+  "name": "AmberOne",
+  "category": "Development",
+  "description": "Turn any website into a build-ready Android, iOS, PWA or Electron app project",
+  "documentation_url": "https://scubamike124.github.io/amberone-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__AMBERONE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "812fc49ab293fb054b71735e541e8be1048e76f5b984f4c3b4185710fd3fb6c0"
+  }
+}

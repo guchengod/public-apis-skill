@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/airportsapi",
+  "name": "airportsapi",
+  "category": "Transportation",
+  "description": "Get name and website-URL for airports by ICAO code",
+  "documentation_url": "https://airport-web.appspot.com/api/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9b8185dbd619b10b4e6da6c7bcffc4c48dae374a857ee7b6b50b23370c8f84ff"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/google-photos",
+  "name": "Google Photos",
+  "category": "Photography",
+  "description": "Integrate Google Photos with your apps or devices",
+  "documentation_url": "https://developers.google.com/photos",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__GOOGLE_PHOTOS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9fd3c55652ca762885ee68c852f3f805562442e42f8668e87ee451db1cec2c70"
+  }
+}

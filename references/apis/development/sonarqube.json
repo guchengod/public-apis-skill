@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/sonarqube",
+  "name": "SonarQube",
+  "category": "Development",
+  "description": "SonarQube REST APIs to detect bugs, code smells & security vulnerabilities",
+  "documentation_url": "https://sonarcloud.io/web_api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SONARQUBE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2969d0dee87c1f95cd12053f60b0777f4861e283f8d8e33ff8233c32bbcd580c"
+  }
+}

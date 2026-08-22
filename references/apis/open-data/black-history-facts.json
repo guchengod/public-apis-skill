@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/black-history-facts",
+  "name": "Black History Facts",
+  "category": "Open Data",
+  "description": "Contribute or search one of the largest black history fact databases on the web",
+  "documentation_url": "https://www.blackhistoryapi.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__BLACK_HISTORY_FACTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ee21c6b875073f70e323bbd84ca6e0871d5bfc7ae27e8feb595c4aca9a3463fe"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/web3-storage",
+  "name": "Web3 Storage",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage for Free with 1TB Space",
+  "documentation_url": "https://web3.storage/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__WEB3_STORAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d6c1a57dba885c41314ca800e811fa6f65fc312bbdf8ed377d2fbacd1fe1389b"
+  }
+}

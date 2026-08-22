@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/blynk-cloud",
+  "name": "Blynk-Cloud",
+  "category": "Development",
+  "description": "Control IoT Devices from Blynk IoT Cloud",
+  "documentation_url": "https://blynkapi.docs.apiary.io/#",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BLYNK_CLOUD__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0ae0b2efaebd3d00640590654068ede90e4b8fd6b1553d70a28e8cc98b9a4a06"
+  }
+}

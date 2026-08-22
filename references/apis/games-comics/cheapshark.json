@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/cheapshark",
+  "name": "CheapShark",
+  "category": "Games & Comics",
+  "description": "Steam/PC Game Prices and Deals",
+  "documentation_url": "https://www.cheapshark.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f4428b10cb0dd6381d01e90548db321304dcbde00e7edc2a3ec101e840c11e0"
+  }
+}

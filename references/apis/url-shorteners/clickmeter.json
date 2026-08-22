@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/clickmeter",
+  "name": "ClickMeter",
+  "category": "URL Shorteners",
+  "description": "Monitor, compare and optimize your marketing links",
+  "documentation_url": "https://support.clickmeter.com/hc/en-us/categories/201474986",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__CLICKMETER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96cdbc3d8e9ffca29e835fad903e18115f9b89bf654209d716fed72d70d2b0db"
+  }
+}

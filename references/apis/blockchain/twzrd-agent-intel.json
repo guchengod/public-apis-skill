@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/twzrd-agent-intel",
+  "name": "TWZRD Agent Intel",
+  "category": "Blockchain",
+  "description": "Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets",
+  "documentation_url": "https://intel.twzrd.xyz",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1e2d96d48d66d822437f6bd7b95a7fa12a86689f73cf729cd4c0b32946f0e68a"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-new-zealand",
+  "name": "Open Government, New Zealand",
+  "category": "Government",
+  "description": "New Zealand Government Open Data",
+  "documentation_url": "https://www.data.govt.nz/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cdf8cd2eb7709e872d7a434efe805eb1ab68475ae474d56a7e3c0354fb33e72b"
+  }
+}

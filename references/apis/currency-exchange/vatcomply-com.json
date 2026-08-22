@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/vatcomply-com",
+  "name": "VATComply.com",
+  "category": "Currency Exchange",
+  "description": "Exchange rates, geolocation and VAT number validation",
+  "documentation_url": "https://www.vatcomply.com/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "33ad6eca0d91692a37f20a4595a3325667aa56e9ec1c9d8720f28b7f9d412876"
+  }
+}

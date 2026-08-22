@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/itunes-search",
+  "name": "iTunes Search",
+  "category": "Music",
+  "description": "Software products",
+  "documentation_url": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0ae4b269883391f6c4e97cf3e5894ca0c1eb6d2668a60c28f80fb47faf7c748d"
+  }
+}

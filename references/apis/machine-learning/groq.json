@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/groq",
+  "name": "Groq",
+  "category": "Machine Learning",
+  "description": "Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models",
+  "documentation_url": "https://console.groq.com/docs/quickstart",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__GROQ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b0e93a921657e06b508a18321e0aa26c641353d93da73ab0bd828c6c93c4821e"
+  }
+}

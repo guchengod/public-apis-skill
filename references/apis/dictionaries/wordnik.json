@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/wordnik",
+  "name": "Wordnik",
+  "category": "Dictionaries",
+  "description": "Dictionary Data",
+  "documentation_url": "https://developer.wordnik.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__WORDNIK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f7510554e1f2516d6cdc4b795e3989f02b372c606ecb2d41abce3c4abad0621b"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/world-time-weather",
+  "name": "World Time & Weather",
+  "category": "Weather",
+  "description": "Current weather, local time, UTC offset and DST rules for 400 cities as static JSON",
+  "documentation_url": "https://worldtimeweather.com/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc28ecd5bbd2a2453caae97f15d11308f86c3f7e5426fd5517b3a20d22cb6e26"
+  }
+}

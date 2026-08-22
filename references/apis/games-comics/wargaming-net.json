@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/wargaming-net",
+  "name": "Wargaming.net",
+  "category": "Games & Comics",
+  "description": "Wargaming.net info and stats",
+  "documentation_url": "https://developers.wargaming.net/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__WARGAMING_NET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b9fd35ce651cc09ea576ca3553a958105430e60d15ff11cfc8fad8428101e71e"
+  }
+}

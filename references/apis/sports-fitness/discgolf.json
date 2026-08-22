@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/discgolf",
+  "name": "DiscGolf",
+  "category": "Sports & Fitness",
+  "description": "Structured disc golf course data",
+  "documentation_url": "https://discgolfapi.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d478152a84bc26e0ba0341221583da4ce0cf4406e19aea6f44a320ccf30cd967"
+  }
+}

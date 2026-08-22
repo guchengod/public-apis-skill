@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/clockify",
+  "name": "Clockify",
+  "category": "Documents & Productivity",
+  "description": "Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems",
+  "documentation_url": "https://clockify.me/developers-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CLOCKIFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "47b5bcd550dea63221f8d777084128e36dc8c440075b60af7f977eea53f88bc9"
+  }
+}

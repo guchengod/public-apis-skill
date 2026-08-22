@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/amadeus-for-developers",
+  "name": "Amadeus for Developers",
+  "category": "Transportation",
+  "description": "Travel Search - Limited usage",
+  "documentation_url": "https://developers.amadeus.com/self-service",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AMADEUS_FOR_DEVELOPERS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e3d85456fa9e9b519ea758aa32a8b3712b481253023a6395fc4bf347a8c94d7"
+  }
+}

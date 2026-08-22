@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailboxvalidator",
+  "name": "MailboxValidator",
+  "category": "Email",
+  "description": "Validate email address to improve deliverability",
+  "documentation_url": "https://www.mailboxvalidator.com/api-email-free",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILBOXVALIDATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e70697dba8072ad3c62b83fea8fbba1aa5084cd02938bf6773ca139bd581b9ec"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "events/eventbrite",
+  "name": "Eventbrite",
+  "category": "Events",
+  "description": "Find events",
+  "documentation_url": "https://www.eventbrite.com/platform/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__EVENTS__EVENTBRITE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d6d15214974005f14b3a04cd1be43a6bea9a31cbd60f8b1ea77121c92a85af3e"
+  }
+}

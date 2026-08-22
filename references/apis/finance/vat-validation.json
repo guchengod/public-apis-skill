@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/vat-validation",
+  "name": "VAT Validation",
+  "category": "Finance",
+  "description": "Validate VAT numbers and calculate VAT rates",
+  "documentation_url": "https://www.abstractapi.com/vat-validation-rates-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__VAT_VALIDATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5126cfe3f776855eabc04f2f0c6ae87aacb3a2bec351b565ae485e3dd379e1d9"
+  }
+}

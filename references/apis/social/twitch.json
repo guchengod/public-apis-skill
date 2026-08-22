@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/twitch",
+  "name": "Twitch",
+  "category": "Social",
+  "description": "Game Streaming API",
+  "documentation_url": "https://dev.twitch.tv/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TWITCH__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e775f0f5c0715aedce385f5699a71732fcb332227ab76f9538b0adde0494867"
+  }
+}

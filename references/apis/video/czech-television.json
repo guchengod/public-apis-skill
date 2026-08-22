@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/czech-television",
+  "name": "Czech Television",
+  "category": "Video",
+  "description": "TV programme of Czech TV",
+  "documentation_url": "http://www.ceskatelevize.cz/xml/tv-program/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ad829f731c60c48e6a610524f9f84f2b870effb96fed16f9e0dca46716bca62"
+  }
+}

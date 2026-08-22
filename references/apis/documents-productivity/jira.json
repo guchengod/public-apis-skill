@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/jira",
+  "name": "JIRA",
+  "category": "Documents & Productivity",
+  "description": "JIRA is a proprietary issue tracking product that allows bug tracking and agile project management",
+  "documentation_url": "https://developer.atlassian.com/server/jira/platform/rest-apis/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__JIRA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a197ebafc3ef6d2243f4e05e251591f894b8dc886b7938e5364332b82713cf60"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/numbers--6e556b7a",
+  "name": "Numbers",
+  "category": "Science & Math",
+  "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
+  "documentation_url": "https://math.tools/api/numbers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__NUMBERS__6E556B7A__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4414e767b4aa308a2bfa33725a5b58c21e2381f8a42a7267bab7ce9f50e67f2"
+  }
+}

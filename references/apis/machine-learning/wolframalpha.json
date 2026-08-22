@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/wolframalpha",
+  "name": "WolframAlpha",
+  "category": "Machine Learning",
+  "description": "Provides specific answers to questions using data and algorithms",
+  "documentation_url": "https://products.wolframalpha.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__WOLFRAMALPHA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "377807efbef2e4214071faf618adb47153387e693474d1b78cd2122ac198ef4b"
+  }
+}

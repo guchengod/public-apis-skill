@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/kakao",
+  "name": "Kakao",
+  "category": "Social",
+  "description": "Kakao Login, Share on KakaoTalk, Social Plugins and more",
+  "documentation_url": "https://developers.kakao.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__KAKAO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e6429da2948be6a327c626916c3bb02e241ee2dc1ed3629fccb9dace71e2480"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/http-dog",
+  "name": "HTTP Dog",
+  "category": "Animals",
+  "description": "Dogs for every HTTP response status code",
+  "documentation_url": "https://http.dog/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bf18c9d9df3b06422a351294abb878dbb426a9930d3ecb6ee0f555066d084f98"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/screenshotapi-net",
+  "name": "ScreenshotAPI.net",
+  "category": "Development",
+  "description": "Create pixel-perfect website screenshots",
+  "documentation_url": "https://screenshotapi.net/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCREENSHOTAPI_NET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ef72f7287dd9ae1ea41bb71671949d960f12226f17ba72430ba3e41d452c3c4"
+  }
+}

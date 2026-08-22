@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/umea-open-data",
+  "name": "Umeå Open Data",
+  "category": "Open Data",
+  "description": "Open data of the city Umeå in northen Sweden",
+  "documentation_url": "https://opendata.umea.se/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5f6301370ecb8c13fa8fce66454355c904f3283726195768e731a265c34efb5b"
+  }
+}

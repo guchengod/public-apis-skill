@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/icons8",
+  "name": "Icons8",
+  "category": "Art & Design",
+  "description": "Icons (find \"search icon\" hyperlink in page)",
+  "documentation_url": "https://img.icons8.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ce7e6ec1ebe508c128fd34b5646109eea97a9957ce88587b70ef4edb610f572"
+  }
+}

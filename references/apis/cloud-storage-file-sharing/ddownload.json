@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/ddownload",
+  "name": "ddownload",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage",
+  "documentation_url": "https://ddownload.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__DDOWNLOAD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e56d97aefadd58c4cefb0be49c605b464b3983d4b4c8d4fa3c40955dd7a5dbf3"
+  }
+}

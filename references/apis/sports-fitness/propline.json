@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/propline",
+  "name": "PropLine",
+  "category": "Sports & Fitness",
+  "description": "Real-time player-props betting odds with graded prop resolution across 13 books",
+  "documentation_url": "https://prop-line.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PROPLINE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2da6013c3c4385d1eb6d1ae925fb85a809fd7887f9f881328fd6d851b6f2bfa0"
+  }
+}

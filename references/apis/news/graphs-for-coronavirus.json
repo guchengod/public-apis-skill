@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/graphs-for-coronavirus",
+  "name": "Graphs for Coronavirus",
+  "category": "News",
+  "description": "Each Country separately and Worldwide Graphs for Coronavirus. Daily updates",
+  "documentation_url": "https://corona.dnsforfamily.com/api.txt",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e98eb86818301a83599e32380e853c2c510feecfbcf68bf13ba4bcd8a85eb15"
+  }
+}

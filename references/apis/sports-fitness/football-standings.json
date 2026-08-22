@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football-standings",
+  "name": "Football Standings",
+  "category": "Sports & Fitness",
+  "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
+  "documentation_url": "https://github.com/azharimm/football-standings-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3120bec36d38ef3bae872fd49b35266279a99c063b74b5a1aed0fb0ab07911b5"
+  }
+}

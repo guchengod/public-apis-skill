@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-jhu-csse",
+  "name": "Covid-19 JHU CSSE",
+  "category": "Health",
+  "description": "Open-source API for exploring Covid19 cases based on JHU CSSE",
+  "documentation_url": "https://nuttaphat.com/covid19-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2051ce6aeffd8710352e5bffab5dbf2aa35a7c1649706f3c7a8457a319c129d5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/twitterapis",
+  "name": "TwitterAPIs",
+  "category": "Social",
+  "description": "Twitter / X data API: search, profiles, timelines, followers, DMs, write actions",
+  "documentation_url": "https://www.twitterapis.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TWITTERAPIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ee674062dc9c691cc770cde6c3b90b177110f745f39f4affe1af329fc888739"
+  }
+}

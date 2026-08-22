@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/ethplorer",
+  "name": "Ethplorer",
+  "category": "Cryptocurrency",
+  "description": "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures",
+  "documentation_url": "https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__ETHPLORER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef91533a0ccfa9c1558615b99944e0f63b6eb7872deee47e3ac5c9b7ea09b479"
+  }
+}

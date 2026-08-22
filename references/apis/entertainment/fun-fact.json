@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/fun-fact",
+  "name": "Fun Fact",
+  "category": "Entertainment",
+  "description": "A simple HTTPS api that can randomly select and return a fact from the FFA database",
+  "documentation_url": "https://api.aakhilv.me",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7bcd998b39da3bae6676d452ea8491daad4e10bb2b7c9edd7951283755f4023"
+  }
+}

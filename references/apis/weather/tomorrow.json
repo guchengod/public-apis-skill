@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/tomorrow",
+  "name": "Tomorrow",
+  "category": "Weather",
+  "description": "Weather API Powered by Proprietary Technology",
+  "documentation_url": "https://docs.tomorrow.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__TOMORROW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ebc834d1fe5fcf171de0081bba8b7b9650913bce568527abf68c37933f8a3d2"
+  }
+}

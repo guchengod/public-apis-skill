@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/jobs2careers",
+  "name": "Jobs2Careers",
+  "category": "Jobs",
+  "description": "Job aggregator",
+  "documentation_url": "http://api.jobs2careers.com/api/spec.pdf",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JOBS2CAREERS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "65bcffb40755446ba94a28349367b6bda0ccfaf8dad5132b1458fe446f40d1c1"
+  }
+}

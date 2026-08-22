@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/the-calendar",
+  "name": "The Calendar",
+  "category": "Calendar",
+  "description": "Public holidays for US states and 30 countries plus sports and finance calendars as static JSON",
+  "documentation_url": "https://the-calendar.net/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef6af1044a560cc1e76ffb0d39a316d0e1b6a3e9eb24e66c45001fa13ec88671"
+  }
+}

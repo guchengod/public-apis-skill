@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/fifa-ultimate-team",
+  "name": "FIFA Ultimate Team",
+  "category": "Games & Comics",
+  "description": "FIFA Ultimate Team items API",
+  "documentation_url": "https://www.easports.com/fifa/ultimate-team/api/fut/item",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4470f1574a92c64d17f33db9eecad2e2fe58a694770d299b687667e8ce8664bd"
+  }
+}

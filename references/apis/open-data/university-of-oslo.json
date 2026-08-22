@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/university-of-oslo",
+  "name": "University of Oslo",
+  "category": "Open Data",
+  "description": "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)",
+  "documentation_url": "https://data.uio.no/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef71b74ed4c547d87de2593fd5dbf285fd5fd89e09c1340c1c55d2de0bdef103"
+  }
+}

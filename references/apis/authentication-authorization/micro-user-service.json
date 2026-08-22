@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/micro-user-service",
+  "name": "Micro User Service",
+  "category": "Authentication & Authorization",
+  "description": "User management and authentication",
+  "documentation_url": "https://m3o.com/user",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__MICRO_USER_SERVICE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cb752a606bd2627bc378cbd5e480a45fc9c9daed6ef8d3d1000d56ffa1a0cd3d"
+  }
+}

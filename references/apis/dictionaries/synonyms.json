@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/synonyms",
+  "name": "Synonyms",
+  "category": "Dictionaries",
+  "description": "Synonyms, thesaurus and antonyms information for any given word",
+  "documentation_url": "https://www.synonyms.com/synonyms_api.php",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__SYNONYMS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9fe8760609a437510c5cd4f1cbd75ef63e88d145aa25b67ce7c1274920f10b56"
+  }
+}

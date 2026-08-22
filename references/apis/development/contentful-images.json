@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/contentful-images",
+  "name": "Contentful Images",
+  "category": "Development",
+  "description": "Used to retrieve and apply transformations to images",
+  "documentation_url": "https://www.contentful.com/developers/docs/references/images-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__CONTENTFUL_IMAGES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7bd2dc090743515940a8f28cbd026c58c1bc61cef876a39dfc4945546935354f"
+  }
+}

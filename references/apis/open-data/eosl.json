@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/eosl",
+  "name": "EOSL",
+  "category": "Open Data",
+  "description": "Hardware end-of-sale and end-of-service-life dates by part number, source-linked",
+  "documentation_url": "https://eosl.ai/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e59cb13f770085cf4d399878c0dc224315077f7b1cb4e67dedd27cfc3980649"
+  }
+}

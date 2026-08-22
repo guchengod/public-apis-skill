@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitcoin-halving",
+  "name": "Bitcoin Halving",
+  "category": "Cryptocurrency",
+  "description": "Halving era, block reward, and schedule arithmetic for any Bitcoin block height",
+  "documentation_url": "https://why21million.com/halving-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1d53a2f69deed785123acf95a9b87797bcb3d3b51699a26e0cfaf86568941f4"
+  }
+}

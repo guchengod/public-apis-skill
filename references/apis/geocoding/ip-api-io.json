@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip-api-io",
+  "name": "IP-API.io",
+  "category": "Geocoding",
+  "description": "IP geolocation with VPN/proxy/Tor detection, reputation and risk score",
+  "documentation_url": "https://ip-api.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IP_API_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be4350741547dec131b731237229f91a85262fd9eca0ef6f4316f58c68cb4887"
+  }
+}

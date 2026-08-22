@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/open-library",
+  "name": "Open Library",
+  "category": "Books",
+  "description": "Books, book covers and related data",
+  "documentation_url": "https://openlibrary.org/developers/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ac9b7014b484a78cf3b8bce0ca868c278ca3c42684b2aa23630162dcb9aabeb5"
+  }
+}

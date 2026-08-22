@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/hyrule-compendium",
+  "name": "Hyrule Compendium",
+  "category": "Games & Comics",
+  "description": "Data on all interactive items from The Legend of Zelda: BOTW",
+  "documentation_url": "https://github.com/gadhagod/Hyrule-Compendium-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0ac2fac37f146463b03687091f0648cae21dc5c452db2a3a6f3239c13bf413c2"
+  }
+}

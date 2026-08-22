@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/quran-cloud",
+  "name": "Quran Cloud",
+  "category": "Books",
+  "description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran",
+  "documentation_url": "https://alquran.cloud/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c4b012fbeb1fe82934ef0bc95b402bfccaa11da24c4d27549e89d10434156064"
+  }
+}

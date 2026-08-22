@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/studio-ghibli",
+  "name": "Studio Ghibli",
+  "category": "Anime",
+  "description": "Resources from Studio Ghibli films",
+  "documentation_url": "https://ghibliapi.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "064d7112c82af7669f3a880f08a7ad1eb3cd2a8250d99c86a3dd624d5201f02e"
+  }
+}

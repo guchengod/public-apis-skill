@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/bitbucket",
+  "name": "Bitbucket",
+  "category": "Development",
+  "description": "Bitbucket API",
+  "documentation_url": "https://developer.atlassian.com/bitbucket/api/2/reference/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BITBUCKET__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9960e6b680c57a3b32cd24833e3f2346aedb16e90c33918621654770a40b4755"
+  }
+}

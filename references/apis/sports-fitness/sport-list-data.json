@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sport-list-data",
+  "name": "Sport List & Data",
+  "category": "Sports & Fitness",
+  "description": "List of and resources related to sports",
+  "documentation_url": "https://developers.decathlon.com/products/sports",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f08f0d92c57833be15b0b2a2208ac8cb8bc712f6eb4971d8177725271cb335e1"
+  }
+}

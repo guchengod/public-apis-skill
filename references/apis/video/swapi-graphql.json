@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/swapi-graphql",
+  "name": "SWAPI GraphQL",
+  "category": "Video",
+  "description": "Star Wars GraphQL API",
+  "documentation_url": "https://graphql.org/swapi-graphql",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c52973c4f0a2149f2fdab4febdbcc11f3a48d175acf7c76cff86e99e2eb34004"
+  }
+}

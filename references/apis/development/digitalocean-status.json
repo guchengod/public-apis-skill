@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/digitalocean-status",
+  "name": "DigitalOcean Status",
+  "category": "Development",
+  "description": "Status of all DigitalOcean services",
+  "documentation_url": "https://status.digitalocean.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3d688e867d49a64b09cbe6f64d97a18a4a520482f23b3cfa92bbfc989a3793a3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/rainbow-weather",
+  "name": "Rainbow Weather",
+  "category": "Weather",
+  "description": "Global real-time nowcasting API powered by radar + satellite fusion",
+  "documentation_url": "https://developer.rainbow.ai/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__RAINBOW_WEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "44a5e2b8f3bf541237831f89ff98390d29898e2bb381b4d88ed849d9f40db13b"
+  }
+}

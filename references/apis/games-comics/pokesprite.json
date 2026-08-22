@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/pokesprite",
+  "name": "PokéSprite",
+  "category": "Games & Comics",
+  "description": "Database of Pokémon sprites and icons",
+  "documentation_url": "https://msikma.github.io/pokesprite/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce0e5f1e53748166414be16c5408e3e42c15259fa35af28086f7ac3b0d4e8982"
+  }
+}

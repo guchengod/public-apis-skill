@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/administrative-divisons-db",
+  "name": "administrative-divisons-db",
+  "category": "Geocoding",
+  "description": "Get all administrative divisions of a country",
+  "documentation_url": "https://github.com/kamikazechaser/administrative-divisions-db",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ae021f81e309a3ef9f5147af225c1ab4c3b7eed1f767543152d2cc2191f12cb"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/nownodes",
+  "name": "Nownodes",
+  "category": "Blockchain",
+  "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
+  "documentation_url": "https://nownodes.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__NOWNODES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ff501df50311d915a4aa86205d1a4612d93dc1b128333ae1a2345ac76d9e1fe6"
+  }
+}

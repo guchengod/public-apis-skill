@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/0x",
+  "name": "0x",
+  "category": "Cryptocurrency",
+  "description": "API for querying token and pool stats across various liquidity pools",
+  "documentation_url": "https://0x.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f403b44324a44c0221834b0add769f89e885eb12294b50c59ce30826840002f8"
+  }
+}

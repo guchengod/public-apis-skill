@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/cloudmersive",
+  "name": "Cloudmersive",
+  "category": "Machine Learning",
+  "description": "Image captioning, face recognition, NSFW classification",
+  "documentation_url": "https://www.cloudmersive.com/image-recognition-and-processing-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__CLOUDMERSIVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fdbb265b405cc0c781b055b678eb35726cc740a6b7eb8584b2318b3dafa1659c"
+  }
+}

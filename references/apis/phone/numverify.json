@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "phone/numverify",
+  "name": "Numverify",
+  "category": "Phone",
+  "description": "Phone number validation",
+  "documentation_url": "https://numverify.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHONE__NUMVERIFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a1a8ca9c6e1e12b1f4909d77234ea29884d7718e3f8c3277dae7a375408a4ee3"
+  }
+}

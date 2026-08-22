@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/base",
+  "name": "Base",
+  "category": "Development",
+  "description": "Building quick backends",
+  "documentation_url": "https://www.base-api.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__BASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b5b9372789f416d9a51d89069a9414a22a97be4746c51dbf9754074cf7d735b9"
+  }
+}

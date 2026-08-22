@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/hg-weather",
+  "name": "HG Weather",
+  "category": "Weather",
+  "description": "Provides weather forecast data for cities in Brazil",
+  "documentation_url": "https://hgbrasil.com/status/weather",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__HG_WEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8435ca90b97a84714212394e3bf542e953cd705f46d4d53e37bdbf6fcabf411c"
+  }
+}

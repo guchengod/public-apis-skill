@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-berlin-germany",
+  "name": "Transport for Berlin, Germany",
+  "category": "Transportation",
+  "description": "Third-party VBB API",
+  "documentation_url": "https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b875e22bd7da8f36550aed1399770f12d9853cbbfe27882a133f391e0bec6a58"
+  }
+}

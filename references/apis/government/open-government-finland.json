@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-finland",
+  "name": "Open Government, Finland",
+  "category": "Government",
+  "description": "Finland Government Open Data",
+  "documentation_url": "https://www.avoindata.fi/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d3b126f8219550437fc19c05c5f3f4bb935600568084b7e514da659e9055bad4"
+  }
+}

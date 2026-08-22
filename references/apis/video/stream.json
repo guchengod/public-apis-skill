@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/stream",
+  "name": "Stream",
+  "category": "Video",
+  "description": "Czech internet television, films, series and online videos for free",
+  "documentation_url": "https://api.stream.cz/graphiql",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b477110478a17a641e897751db30379f9be097950b553ffc0a25d912386233f1"
+  }
+}

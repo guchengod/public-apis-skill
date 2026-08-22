@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/postnord",
+  "name": "PostNord",
+  "category": "Tracking",
+  "description": "Provides information about parcels in transport for Sweden and Denmark",
+  "documentation_url": "https://developer.postnord.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__POSTNORD__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b294a41e46e1eca4f02efcc25906ae41eeacf409cfd98cb5f2f5c3b0d37a60d0"
+  }
+}

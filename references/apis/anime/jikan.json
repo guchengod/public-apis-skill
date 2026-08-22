@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/jikan",
+  "name": "Jikan",
+  "category": "Anime",
+  "description": "Unofficial MyAnimeList API",
+  "documentation_url": "https://jikan.moe",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dacf1bcf52d34610a1da89b7330192e5c3973042e7a06a9e9cd69a52ea932829"
+  }
+}

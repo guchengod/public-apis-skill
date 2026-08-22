@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptingup",
+  "name": "CryptingUp",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency data",
+  "documentation_url": "https://www.cryptingup.com/apidoc/#introduction",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c563045e4bf23e720934d89cc11ea5088104bdbbbcd542748b96734c3dd3fd2"
+  }
+}

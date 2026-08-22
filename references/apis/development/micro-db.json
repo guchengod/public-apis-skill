@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/micro-db",
+  "name": "Micro DB",
+  "category": "Development",
+  "description": "Simple database service",
+  "documentation_url": "https://m3o.com/db",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__MICRO_DB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c3567a812719bea08909ab43d79b682276d183fb6c51512f28524f4773e1593e"
+  }
+}

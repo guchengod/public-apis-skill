@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/tredict",
+  "name": "Tredict",
+  "category": "Sports & Fitness",
+  "description": "Get and set activities, health data and more",
+  "documentation_url": "https://www.tredict.com/blog/oauth_docs/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__TREDICT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5bc2bad2519526ea42984c3515f0ebded786d93fc0d68553064729cd23935ef9"
+  }
+}

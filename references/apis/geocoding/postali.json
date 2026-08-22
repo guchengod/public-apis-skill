@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/postali",
+  "name": "Postali",
+  "category": "Geocoding",
+  "description": "Mexico Zip Codes API",
+  "documentation_url": "https://postali.app/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ec34efad8b69fae9ecbac18c1460f1709a718c2e28145f2db5e18526e3bce52"
+  }
+}

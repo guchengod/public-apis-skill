@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/quotable-quotes",
+  "name": "Quotable Quotes",
+  "category": "Personality",
+  "description": "Quotable is a free, open source quotations API",
+  "documentation_url": "https://github.com/lukePeavey/quotable",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2b36562db7225cfc8a36d0743aab6847d88c2d0433053907576804dda36fceb2"
+  }
+}

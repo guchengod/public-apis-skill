@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/correios",
+  "name": "Correios",
+  "category": "Tracking",
+  "description": "Integration to provide information and prepare shipments using Correio's services",
+  "documentation_url": "https://cws.correios.com.br/ajuda",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__CORREIOS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7cf7b4646c9ce5d05ac555637373ed8f41fb8ae2c25af7f170b5a0979cf80e72"
+  }
+}

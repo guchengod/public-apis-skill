@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/gorest",
+  "name": "Gorest",
+  "category": "Development",
+  "description": "Online REST API for Testing and Prototyping",
+  "documentation_url": "https://gorest.co.in/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOREST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6d67d96417f8f28325ba4cc64a64e8b0853337087fe61b6f229b37b04bf61ea7"
+  }
+}

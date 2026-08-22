@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/meme-maker",
+  "name": "Meme Maker",
+  "category": "Entertainment",
+  "description": "REST API for create your own meme",
+  "documentation_url": "https://mememaker.github.io/API/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2618bdaed30431cc8aecf28b8d994c86ced02b976248c96a917d941ff49aaa32"
+  }
+}

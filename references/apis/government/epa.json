@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/epa",
+  "name": "EPA",
+  "category": "Government",
+  "description": "Web services and data sets from the US Environmental Protection Agency",
+  "documentation_url": "https://www.epa.gov/developers/data-data-products#apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d4bfb5536f9dff6f6cec77be5f17165f34d6290557899bc8cec9a8ae6781be2"
+  }
+}

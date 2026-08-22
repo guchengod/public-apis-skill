@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/penguin-publishing",
+  "name": "Penguin Publishing",
+  "category": "Books",
+  "description": "Books, book covers and related data",
+  "documentation_url": "http://www.penguinrandomhouse.biz/webservices/rest/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "735f7999dd178e468d2d5566d7d65fc043cf0c3291679006dd520fdea8d4e00f"
+  }
+}

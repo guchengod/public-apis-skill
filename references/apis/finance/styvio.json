@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/styvio",
+  "name": "Styvio",
+  "category": "Finance",
+  "description": "Realtime and historical stock data and current stock sentiment",
+  "documentation_url": "https://www.Styvio.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__STYVIO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a49fb95d257ab932c5af10893d120267b2536a55704fcf145bdafa3f6f0bf6ba"
+  }
+}

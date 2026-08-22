@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/crxcavator",
+  "name": "CRXcavator",
+  "category": "Security",
+  "description": "Chrome extension risk scoring",
+  "documentation_url": "https://crxcavator.io/apidocs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__CRXCAVATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "258d9f7a0912825ea057c6bad62002565808c16ab068cd67c46108213a9e02e1"
+  }
+}

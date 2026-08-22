@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/iplogs",
+  "name": "IPLogs",
+  "category": "Security",
+  "description": "Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing",
+  "documentation_url": "https://iplogs.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "62551d75a7bfe9672b4821d64aecbb413a22d7f7c9ece001437d5ac6e366b0a7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/agpc-domain-check",
+  "name": "AGPC Domain Check",
+  "category": "Email",
+  "description": "Check a domain's SPF, DKIM, DMARC and MX with a graded shareable report",
+  "documentation_url": "https://guild.tradeuniquecapital.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be1479645160c4c2cbae25a4fea4c4696477598c74887827cb055731b4dea154"
+  }
+}

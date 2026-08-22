@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/citysdk",
+  "name": "CitySDK",
+  "category": "Geocoding",
+  "description": "Open APIs for select European cities",
+  "documentation_url": "http://www.citysdk.eu/citysdk-toolkit/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e2f4f1959eaddad6feade7ab69cbe00cd031d5532a14cbe61052695cdc9acf7"
+  }
+}

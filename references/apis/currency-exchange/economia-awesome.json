@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/economia-awesome",
+  "name": "Economia.Awesome",
+  "category": "Currency Exchange",
+  "description": "Portuguese free currency prices and conversion with no rate limits",
+  "documentation_url": "https://docs.awesomeapi.com.br/api-de-moedas",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6cef5c4c0f56094294834341e078ae7065f13f355e585ff63ec9ba81c9243ed3"
+  }
+}

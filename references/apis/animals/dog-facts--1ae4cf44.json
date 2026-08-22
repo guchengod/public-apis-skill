@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/dog-facts--1ae4cf44",
+  "name": "Dog Facts",
+  "category": "Animals",
+  "description": "Random dog facts",
+  "documentation_url": "https://dukengn.github.io/Dog-facts-API/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "288c5d5b4bf42e08b56be114db2e9386b7d5fe8fdf6cdab4e345cdb9fa89dd0d"
+  }
+}

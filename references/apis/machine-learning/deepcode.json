@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/deepcode",
+  "name": "Deepcode",
+  "category": "Machine Learning",
+  "description": "AI for code review",
+  "documentation_url": "https://www.deepcode.ai",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "17a441ce3b4df5c2656fa827fbdea40eeda1221723089a7aa2fadc9a07493e62"
+  }
+}

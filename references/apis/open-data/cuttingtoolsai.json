@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/cuttingtoolsai",
+  "name": "CuttingToolsAI",
+  "category": "Open Data",
+  "description": "Cross-brand carbide insert grade equivalents by ISO application class",
+  "documentation_url": "https://cuttingtoolsai.eu/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "081b91fb98161edce7550f7ffbf0f4c28cd65e26e8a553fc8837890967f694c3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/navitia",
+  "name": "Navitia",
+  "category": "Transportation",
+  "description": "The open API for building cool stuff with transport data",
+  "documentation_url": "https://doc.navitia.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__NAVITIA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bc0186418afd542cc5ce35411b7f401257787a242246fe16be13e85bdff3480e"
+  }
+}

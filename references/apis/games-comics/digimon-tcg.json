@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/digimon-tcg",
+  "name": "Digimon TCG",
+  "category": "Games & Comics",
+  "description": "Search for Digimon cards in digimoncard.io",
+  "documentation_url": "https://documenter.getpostman.com/view/14059948/TzecB4fH",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b2787f8367d67e805ada8dffcc42223cc68e2e75b4016bf420f754dfdb12150e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "events/seatgeek",
+  "name": "SeatGeek",
+  "category": "Events",
+  "description": "Search events, venues and performers",
+  "documentation_url": "https://platform.seatgeek.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EVENTS__SEATGEEK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e6d352d582a7b9945f47a223f3eeadc5bcd88a7f71faceab1c64131b5611e41f"
+  }
+}

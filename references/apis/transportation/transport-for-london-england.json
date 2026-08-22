@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-london-england",
+  "name": "Transport for London, England",
+  "category": "Transportation",
+  "description": "TfL API",
+  "documentation_url": "https://api.tfl.gov.uk",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_LONDON_ENGLAND__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aeff354135254c6b28e65109b579e5150755580f202596c7ac6e8955f1f0d592"
+  }
+}

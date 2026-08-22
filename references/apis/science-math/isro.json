@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/isro",
+  "name": "ISRO",
+  "category": "Science & Math",
+  "description": "ISRO Space Crafts Information",
+  "documentation_url": "https://isro.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "beb2036c1ed8f29a49e629bf8d3dbc091928261232d9b055a661f4bb5353fc00"
+  }
+}

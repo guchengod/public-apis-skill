@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/numbers--9d59be7f",
+  "name": "Numbers",
+  "category": "Science & Math",
+  "description": "Facts about numbers",
+  "documentation_url": "http://numbersapi.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "74f1092a4acd55558c332350661f240d25dceee011b57d8d102bbb2df295c185"
+  }
+}

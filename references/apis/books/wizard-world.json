@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/wizard-world",
+  "name": "Wizard World",
+  "category": "Books",
+  "description": "Get information from the Harry Potter universe",
+  "documentation_url": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a41774e9560b64222fc496a0bad84922fe196b239a10e18274108f0f261c8722"
+  }
+}

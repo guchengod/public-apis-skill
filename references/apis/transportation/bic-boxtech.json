@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/bic-boxtech",
+  "name": "BIC-Boxtech",
+  "category": "Transportation",
+  "description": "Container technical detail for the global container fleet",
+  "documentation_url": "https://docs.bic-boxtech.org/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__BIC_BOXTECH__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5f42b265655449e97ecbff3b06fc25c4738a1efcd7f483d0f48dcdb9edb68a79"
+  }
+}

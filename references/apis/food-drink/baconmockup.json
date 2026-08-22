@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/baconmockup",
+  "name": "BaconMockup",
+  "category": "Food & Drink",
+  "description": "Resizable bacon placeholder images",
+  "documentation_url": "https://baconmockup.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95e06d9f77e77465f973c8637d5e1df0f4713292e94f9ff9c58699c0f1303fc8"
+  }
+}

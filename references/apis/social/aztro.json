@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/aztro",
+  "name": "aztro",
+  "category": "Social",
+  "description": "Daily horoscope info for yesterday, today, and tomorrow",
+  "documentation_url": "https://aztro.sameerkumar.website/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ffc27be174a6d488a4928d76c6c1090500a8a9baaec6eb0a2bcc193a5dc1e0f"
+  }
+}

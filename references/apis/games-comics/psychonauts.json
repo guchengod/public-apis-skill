@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/psychonauts",
+  "name": "Psychonauts",
+  "category": "Games & Comics",
+  "description": "Psychonauts World Characters Information and PSI Powers",
+  "documentation_url": "https://psychonauts-api.netlify.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0b8ed9d37a0588eb70ff108eaf5492ec26d0d7708939d5d23da40fd39e044fb1"
+  }
+}

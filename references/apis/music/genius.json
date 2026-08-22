@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/genius",
+  "name": "Genius",
+  "category": "Music",
+  "description": "Crowdsourced lyrics and music knowledge",
+  "documentation_url": "https://docs.genius.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__GENIUS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "690b7eb444d3329d9b680e9b43e99f989193fa1b91dd44557397ad0bbb963161"
+  }
+}

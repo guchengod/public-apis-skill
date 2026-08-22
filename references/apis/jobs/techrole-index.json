@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/techrole-index",
+  "name": "TechRole Index",
+  "category": "Jobs",
+  "description": "Russian IT profession, vacancy publication and salary aggregates",
+  "documentation_url": "https://techrole.ru/open-data-daily",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fa5c7a9fb797ba92679e31f91df346556c9d1424364dff069f930b9099b01d9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/auth0",
+  "name": "Auth0",
+  "category": "Authentication & Authorization",
+  "description": "Easy to implement, adaptable authentication and authorization platform",
+  "documentation_url": "https://auth0.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__AUTH0__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e472447c9657df2a250ba236a1840c2e0406ac3dcd36aebbf6ed893aa46939fc"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/tvdb",
+  "name": "TVDB",
+  "category": "Video",
+  "description": "Television data",
+  "documentation_url": "https://thetvdb.com/api-information",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__TVDB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8df87ffeabf4d875ba5b294f000353fe86bd6aed786da6957332144a7756c20e"
+  }
+}

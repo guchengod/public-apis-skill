@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/catalogopolis",
+  "name": "Catalogopolis",
+  "category": "Video",
+  "description": "Doctor Who API",
+  "documentation_url": "https://api.catalogopolis.xyz/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b9159836c18b8aa311081ccae9906b52f335949e652440d0312c9878f222941b"
+  }
+}

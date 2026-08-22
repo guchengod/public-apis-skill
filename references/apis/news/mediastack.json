@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/mediastack",
+  "name": "Mediastack",
+  "category": "News",
+  "description": "Free, Simple REST API for Live News & Blog Articles",
+  "documentation_url": "https://mediastack.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__MEDIASTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c02cdf47c2ea0410b4492dab8a06e021d71470c373879998a965cafa57eca35f"
+  }
+}

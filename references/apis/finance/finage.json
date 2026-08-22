@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/finage",
+  "name": "Finage",
+  "category": "Finance",
+  "description": "Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider",
+  "documentation_url": "https://finage.co.uk",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FINAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da8c5a2d16cbba0ad4b14119a98cc99613d58b76b766da16213e49468eca0fb3"
+  }
+}

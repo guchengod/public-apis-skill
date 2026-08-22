@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/audiomack",
+  "name": "Audiomack",
+  "category": "Music",
+  "description": "Api of the streaming music hub Audiomack",
+  "documentation_url": "https://www.audiomack.com/data-api/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__AUDIOMACK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b47af0e63085cbfcc70c7b2643ce49b46e8c90e33176c16f14e72a519ac0e72d"
+  }
+}

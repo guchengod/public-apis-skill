@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/tokopedia",
+  "name": "Tokopedia",
+  "category": "Shopping",
+  "description": "Tokopedia's Official API for integration of various services from Tokopedia",
+  "documentation_url": "https://developer.tokopedia.com/openapi/guide/#/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__TOKOPEDIA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "64552d1288c3cb1f54a69f2f43ce6f0817040d27d716a794db24687e9a68efeb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/saidit",
+  "name": "Saidit",
+  "category": "Social",
+  "description": "Open Source Reddit Clone",
+  "documentation_url": "https://www.saidit.net/dev/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__SAIDIT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d1056270f16273f5c71a9d42e0f5173a85c84ad62fc87beecbf0401c2736d03"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/financial-modeling-prep",
+  "name": "Financial Modeling Prep",
+  "category": "Finance",
+  "description": "Realtime and historical stock data",
+  "documentation_url": "https://site.financialmodelingprep.com/developer/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FINANCIAL_MODELING_PREP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "695a32f4db0aa805b5e1ae294a49159101eabbca5cafc93b97e74d759c733783"
+  }
+}

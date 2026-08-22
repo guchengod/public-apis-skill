@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "phone/phone-specification",
+  "name": "Phone Specification",
+  "category": "Phone",
+  "description": "Rest Api for Phone specifications",
+  "documentation_url": "https://github.com/azharimm/phone-specs-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f5035edef4ce28b94eebc36ff37f970dff45f4fb8e1be1668ba23a3826951a3"
+  }
+}

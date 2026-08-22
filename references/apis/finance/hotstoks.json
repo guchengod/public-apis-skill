@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/hotstoks",
+  "name": "Hotstoks",
+  "category": "Finance",
+  "description": "Stock market data powered by SQL",
+  "documentation_url": "https://hotstoks.com?utm_source=public-apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__HOTSTOKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b9217644d35b99f2be00b4db276f0fa356abbff7e3628d07dd4af42eb98639a4"
+  }
+}

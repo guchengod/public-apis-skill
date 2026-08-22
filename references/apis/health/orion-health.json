@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "health/orion-health",
+  "name": "Orion Health",
+  "category": "Health",
+  "description": "Medical platform which allows the development of applications for different healthcare scenarios",
+  "documentation_url": "https://developer.orionhealth.io/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__HEALTH__ORION_HEALTH__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c3cdb375390dc95307930384425741f904696f0475b5d958406736139fa1a6f4"
+  }
+}

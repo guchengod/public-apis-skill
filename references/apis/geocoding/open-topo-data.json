@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/open-topo-data",
+  "name": "Open Topo Data",
+  "category": "Geocoding",
+  "description": "Elevation and ocean depth for a latitude and longitude",
+  "documentation_url": "https://www.opentopodata.org",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "06346f5e3423950c5e38850ee690cba75092b29bdee0ddb5ff85adb2047b3b9b"
+  }
+}

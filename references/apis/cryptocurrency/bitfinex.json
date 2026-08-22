@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitfinex",
+  "name": "Bitfinex",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Trading Platform",
+  "documentation_url": "https://docs.bitfinex.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BITFINEX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e4daee37c00b2520fffed7a4008ed9120eff65e9342ed5f0ca88722956c9a9e2"
+  }
+}

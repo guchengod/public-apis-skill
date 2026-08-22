@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/cleartrace",
+  "name": "ClearTrace",
+  "category": "Blockchain",
+  "description": "Cross-frontend DEX attribution and execution quality data across Ethereum and L2s",
+  "documentation_url": "https://cleartracedata.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a7c4554b3f8d7923ecbd99eaefcb537001925e1e58db8f2526c5d756ea021e43"
+  }
+}

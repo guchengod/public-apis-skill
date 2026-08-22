@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-the-netherlands--d42b0d85",
+  "name": "Transport for The Netherlands",
+  "category": "Transportation",
+  "description": "OVAPI, country-wide public transport",
+  "documentation_url": "https://github.com/skywave/KV78Turbo-OVAPI/wiki",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eea0e34657a4d164d92a4d531b86f4597a0e303791e6f54b2c12a7ee072db4f4"
+  }
+}

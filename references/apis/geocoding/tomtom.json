@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/tomtom",
+  "name": "TomTom",
+  "category": "Geocoding",
+  "description": "Maps, Directions, Places and Traffic APIs",
+  "documentation_url": "https://developer.tomtom.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__TOMTOM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "641c28be96d5eae2fa5bc8f6e9f01d290f3a5ac272ec4201313a1fb8acb953d1"
+  }
+}

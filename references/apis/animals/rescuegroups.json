@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/rescuegroups",
+  "name": "RescueGroups",
+  "category": "Animals",
+  "description": "Adoption",
+  "documentation_url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bf4a659940acbdd458ce681b7ccaf550d8d8046d0d03f1292d8fb3342c61c4ca"
+  }
+}

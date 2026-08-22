@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/catboy",
+  "name": "Catboy",
+  "category": "Anime",
+  "description": "Neko images, funny GIFs & more",
+  "documentation_url": "https://catboys.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "787b2d53524140612090530e63f8f148e1d601fd524edd0ac6d248b54bb714d3"
+  }
+}

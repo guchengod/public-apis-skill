@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/meirra",
+  "name": "Meirra",
+  "category": "Business",
+  "description": "SEO monitoring, email verification, lead generation, and marketing analytics",
+  "documentation_url": "https://meirra.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__MEIRRA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c889aa5bbd36c9b4a69d653369352136ae0eab13c4d1bcb153f3cf6d804b116"
+  }
+}

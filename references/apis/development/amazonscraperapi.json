@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/amazonscraperapi",
+  "name": "Amazonscraperapi",
+  "category": "Development",
+  "description": "Amazon product, search & batch scraping API with residential proxies (1000 free)",
+  "documentation_url": "https://amazonscraperapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__AMAZONSCRAPERAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b00268e18559efc747c7b497dd282f1a34090efbd39254aa6565acbe2f8d81b"
+  }
+}

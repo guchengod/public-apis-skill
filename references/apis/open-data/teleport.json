@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/teleport",
+  "name": "Teleport",
+  "category": "Open Data",
+  "description": "Quality of Life Data",
+  "documentation_url": "https://developers.teleport.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f155d0e39239b80d7d6de9ead97a2411bfd64940bb793e17561a652038be6fc5"
+  }
+}

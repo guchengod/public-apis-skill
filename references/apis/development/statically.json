@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/statically",
+  "name": "Statically",
+  "category": "Development",
+  "description": "A free CDN for developers",
+  "documentation_url": "https://statically.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b93c369f0069b68831840e37adea699e721a5450d72ddc909ba9f93c15a9939a"
+  }
+}

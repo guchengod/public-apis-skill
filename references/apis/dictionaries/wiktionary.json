@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/wiktionary",
+  "name": "Wiktionary",
+  "category": "Dictionaries",
+  "description": "Collaborative dictionary data",
+  "documentation_url": "https://en.wiktionary.org/w/api.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "85c82ffd7045f070b3d17d31fdf5aa948ab9dfb51e5bd4c583ba5ce197594592"
+  }
+}

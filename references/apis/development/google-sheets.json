@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/google-sheets",
+  "name": "Google Sheets",
+  "category": "Development",
+  "description": "API to read, write, and format Google Sheets data",
+  "documentation_url": "https://developers.google.com/sheets/api/reference/rest",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_SHEETS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3160d32fdb7b85bfc4d7ab6c9fa9dd4435ad37ac3f4d35825bc9ad382082ef34"
+  }
+}

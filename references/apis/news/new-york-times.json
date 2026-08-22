@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/new-york-times",
+  "name": "New York Times",
+  "category": "News",
+  "description": "The New York Times Developer Network",
+  "documentation_url": "https://developer.nytimes.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEW_YORK_TIMES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f513216998207c4412cd3c7ee9b7cbb7e3640fa9df9bec5761d7e02bd52a2c6"
+  }
+}

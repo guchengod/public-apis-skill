@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/edamam-nutrition",
+  "name": "Edamam nutrition",
+  "category": "Food & Drink",
+  "description": "Nutrition Analysis",
+  "documentation_url": "https://developer.edamam.com/edamam-docs-nutrition-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__EDAMAM_NUTRITION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "139f5b3d965f94502017e314b4a15996f30f791ad6f3bfc325bbbfc6640837cc"
+  }
+}

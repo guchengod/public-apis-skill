@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/tisane",
+  "name": "Tisane",
+  "category": "Text Analysis",
+  "description": "Text Analytics with focus on detection of abusive content and law enforcement applications",
+  "documentation_url": "https://tisane.ai/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__TISANE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d1296b4713ec304a102f80838c92fb56c3e02d3c5fe51e221bd33dfe8985c6c"
+  }
+}

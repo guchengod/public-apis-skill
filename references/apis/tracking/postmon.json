@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "tracking/postmon",
+  "name": "Postmon",
+  "category": "Tracking",
+  "description": "An API to query Brazilian ZIP codes and orders easily, quickly and free",
+  "documentation_url": "http://postmon.com.br",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e12278d9f9c0879a3bdc08783c4e02b2a030e5ce286a7d2e52d5e2aa3497fd94"
+  }
+}

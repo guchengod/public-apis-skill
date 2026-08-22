@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/kickbox",
+  "name": "Kickbox",
+  "category": "Email",
+  "description": "Email verification API",
+  "documentation_url": "https://open.kickbox.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36e7c56c99443746a4ab11efb6a0e1b09d2135f46c8036cdb36324e385c63487"
+  }
+}

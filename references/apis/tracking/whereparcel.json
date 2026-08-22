@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/whereparcel",
+  "name": "WhereParcel",
+  "category": "Tracking",
+  "description": "Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.)",
+  "documentation_url": "https://whereparcel.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__WHEREPARCEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0a265d63fadca367a3012d12f54ea31d1e02ce30b9fc7c2e16b8b69b7c2b09ea"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/genrenator",
+  "name": "Genrenator",
+  "category": "Music",
+  "description": "Music genre generator",
+  "documentation_url": "https://binaryjazz.us/genrenator-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "42d106d190580acedbc21c82558e462dfcb177d1fd3c2ae88ece0ef13daca099"
+  }
+}

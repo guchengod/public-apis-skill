@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-toronto-open-data",
+  "name": "City, Toronto Open Data",
+  "category": "Government",
+  "description": "Toronto (CA) City Open Data",
+  "documentation_url": "https://open.toronto.ca/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f3b941fe2a157fa2620ed5e1e31dccf6f3c5b7cd50933c966dc3fae6091c485f"
+  }
+}

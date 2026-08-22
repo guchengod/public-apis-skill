@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/open-disease",
+  "name": "Open Disease",
+  "category": "Health",
+  "description": "API for Current cases and more stuff about COVID-19 and Influenza",
+  "documentation_url": "https://disease.sh/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b3e5148133a354c7da7128234cec5808022c12de2233200fa54247696c9b8aae"
+  }
+}

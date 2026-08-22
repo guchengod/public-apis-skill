@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/whiskyhunter",
+  "name": "WhiskyHunter",
+  "category": "Food & Drink",
+  "description": "Past online whisky auctions statistical data",
+  "documentation_url": "https://whiskyhunter.net/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "47acdd81c5cc91667dbf8e40c100ee1c79f9b8ea9a6b7641c80a6998dbc6d027"
+  }
+}

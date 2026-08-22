@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/loripsum",
+  "name": "Loripsum",
+  "category": "Test Data",
+  "description": "The \"lorem ipsum\" generator that doesn't suck",
+  "documentation_url": "http://loripsum.net/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1311ddd1790aea9afe8b5556428cf3a21738ad8aeb8a054fc1c155f6b45af53"
+  }
+}

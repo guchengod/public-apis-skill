@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/redditapis",
+  "name": "RedditAPIs",
+  "category": "Social",
+  "description": "Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts",
+  "documentation_url": "https://www.redditapis.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__REDDITAPIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce77addc02afb50da73fc5e138b040b21970baa748e1c44af2ed8e7181d655a9"
+  }
+}

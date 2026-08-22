@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/disclosed-capitol",
+  "name": "Disclosed Capitol",
+  "category": "Government",
+  "description": "US congressional & executive-branch stock trade disclosures (STOCK Act + OGE)",
+  "documentation_url": "https://www.disclosedcapitol.com/data-files/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__DISCLOSED_CAPITOL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "972677b9341addb4e86c2011812ccd3aa7362cf869b981c46d265a829610bb7b"
+  }
+}

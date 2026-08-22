@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "programming/judge0-ce",
+  "name": "Judge0 CE",
+  "category": "Programming",
+  "description": "Online code execution system",
+  "documentation_url": "https://ce.judge0.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PROGRAMMING__JUDGE0_CE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f52a3996a00a95b70a6e8ab25a12ae9c80eb7e5d1705d0e321374e98a8724009"
+  }
+}

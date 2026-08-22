@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "finance/zoho-books",
+  "name": "Zoho Books",
+  "category": "Finance",
+  "description": "Online accounting software, built for your business",
+  "documentation_url": "https://www.zoho.com/books/api/v3/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FINANCE__ZOHO_BOOKS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e658a5fb242fe71f1ab8a8a602a7bf8e893a246b28c4b02a3281dd3305357bee"
+  }
+}

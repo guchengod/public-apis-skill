@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/pm2-5-open-data-portal",
+  "name": "PM2.5 Open Data Portal",
+  "category": "Environment",
+  "description": "Open low-cost PM2.5 sensor data",
+  "documentation_url": "https://pm25.lass-net.org/#apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "77f352d0b357f272a1a4af29062a3d3ec83e007a330d9317c4c3c613200c9965"
+  }
+}

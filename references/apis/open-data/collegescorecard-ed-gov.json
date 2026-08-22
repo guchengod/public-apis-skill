@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/collegescorecard-ed-gov",
+  "name": "CollegeScoreCard.ed.gov",
+  "category": "Open Data",
+  "description": "Data on higher education institutions in the United States",
+  "documentation_url": "https://collegescorecard.ed.gov/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb0552e5896cded1f7e49e7282cd3aba778b8a1077b659766b6c76bb62cb3417"
+  }
+}

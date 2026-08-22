@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/scriptmasterlabs-mcp",
+  "name": "ScriptMasterLabs MCP",
+  "category": "Cryptocurrency",
+  "description": "Model Context Protocol server with web search, social search & LLM chat paid via x402",
+  "documentation_url": "https://mcp-x402.onrender.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__SCRIPTMASTERLABS_MCP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "11eade535c8b995332d8111f5a61dd3088cfe82df80d2713acc84591f341b6d8"
+  }
+}

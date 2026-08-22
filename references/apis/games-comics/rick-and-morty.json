@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/rick-and-morty",
+  "name": "Rick and Morty",
+  "category": "Games & Comics",
+  "description": "All the Rick and Morty information, including images",
+  "documentation_url": "https://rickandmortyapi.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0bf58621b8384a932c28088bd27217e4643d09687797a05ed10548305755775e"
+  }
+}

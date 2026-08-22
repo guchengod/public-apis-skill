@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/bugcrowd",
+  "name": "Bugcrowd",
+  "category": "Security",
+  "description": "Bugcrowd API for interacting and tracking the reported issues programmatically",
+  "documentation_url": "https://docs.bugcrowd.com/api/getting-started/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__BUGCROWD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e4b39da91ac6a9ab0d1765594a52fe52535a6955dbb6234d99c6b8971be6341"
+  }
+}

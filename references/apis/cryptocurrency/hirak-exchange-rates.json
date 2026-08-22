@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/hirak-exchange-rates",
+  "name": "Hirak Exchange Rates",
+  "category": "Cryptocurrency",
+  "description": "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits",
+  "documentation_url": "https://rates.hirak.site/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__HIRAK_EXCHANGE_RATES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7a06b2a8f6082d9d85042bc90723a945bc59f23da210294d111136a5868f7859"
+  }
+}

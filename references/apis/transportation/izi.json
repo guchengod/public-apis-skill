@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/izi",
+  "name": "Izi",
+  "category": "Transportation",
+  "description": "Audio guide for travellers",
+  "documentation_url": "http://api-docs.izi.travel/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__IZI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8efe0d77dfec8011c1f84c735d082f44aa3645c7caeb75b78e38dfacc7b597e2"
+  }
+}

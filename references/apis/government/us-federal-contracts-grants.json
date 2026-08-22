@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/us-federal-contracts-grants",
+  "name": "US Federal Contracts & Grants",
+  "category": "Government",
+  "description": "US federal contracts, grants, and agency spending data updated daily",
+  "documentation_url": "https://government-data-api.onrender.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f94f59e7cc0694cb0d359a7941e8ab7316f0c233ee1cee75825dd4e78be185a0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/nlp-cloud",
+  "name": "NLP Cloud",
+  "category": "Machine Learning",
+  "description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
+  "documentation_url": "https://nlpcloud.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__NLP_CLOUD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f25f6f57868907658b2e3d317b3ff56c8901c89afb4a60953f026eba77d16ab5"
+  }
+}

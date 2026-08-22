@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/chinese-character-web",
+  "name": "Chinese Character Web",
+  "category": "Dictionaries",
+  "description": "Chinese character definitions and pronunciations",
+  "documentation_url": "http://ccdb.hemiola.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96694a60d4e3f5c0c92d200643ac5ee866bbd2b42b8ef47c75ecec95c446416a"
+  }
+}

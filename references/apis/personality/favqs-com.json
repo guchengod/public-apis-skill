@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "personality/favqs-com",
+  "name": "FavQs.com",
+  "category": "Personality",
+  "description": "FavQs allows you to collect, discover and share your favorite quotes",
+  "documentation_url": "https://favqs.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PERSONALITY__FAVQS_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8312fe5f302eebafa17011bfb9fb4d6b5bfde982fe892b43544dd0b387025bce"
+  }
+}

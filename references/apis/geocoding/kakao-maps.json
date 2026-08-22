@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/kakao-maps",
+  "name": "Kakao Maps",
+  "category": "Geocoding",
+  "description": "Kakao Maps provide multiple APIs for Korean maps",
+  "documentation_url": "https://apis.map.kakao.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__KAKAO_MAPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7681589605dd107578048b3359df2d329514dc15151d6fb7f2771e455473aa73"
+  }
+}

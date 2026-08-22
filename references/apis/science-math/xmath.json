@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/xmath",
+  "name": "xMath",
+  "category": "Science & Math",
+  "description": "Random mathematical expressions",
+  "documentation_url": "https://x-math.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "978c5ff2747cfc0e2fb14bd7aa7b991971c1f4094d48ac1e0505ac8b61744801"
+  }
+}

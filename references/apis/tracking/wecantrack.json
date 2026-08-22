@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/wecantrack",
+  "name": "WeCanTrack",
+  "category": "Tracking",
+  "description": "Automatically place subids in affiliate links to attribute affiliate conversions to click data",
+  "documentation_url": "https://docs.wecantrack.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__WECANTRACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5fa2fb1f8d5f3dc5816109b4d6e9046d4243a2562f74c5a636b51b642f5479f"
+  }
+}

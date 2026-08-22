@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/musicbrainz",
+  "name": "MusicBrainz",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29d4e29b7ee5efa4f136460a0f0a658e1a97dc2a7b7d84b753342f034d9f4772"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/best-buy",
+  "name": "Best Buy",
+  "category": "Shopping",
+  "description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce",
+  "documentation_url": "https://bestbuyapis.github.io/api-documentation/#overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__BEST_BUY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c07aaad599128d5bbdbd4bbcdc6ec37ef3e7f5432183b5c3723676d06d41c6a7"
+  }
+}

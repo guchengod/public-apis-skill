@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/tensorfeed",
+  "name": "TensorFeed",
+  "category": "Machine Learning",
+  "description": "Real-time AI news, model pricing, service status, and agent activity feeds",
+  "documentation_url": "https://tensorfeed.ai/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "426e7a543581d73741ad9dcf101e75319803827607f65c4193cad0fe7611a549"
+  }
+}

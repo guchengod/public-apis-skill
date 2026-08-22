@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/srp-energy",
+  "name": "Srp Energy",
+  "category": "Environment",
+  "description": "Hourly usage energy report for Srp customers",
+  "documentation_url": "https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__SRP_ENERGY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88143ebea06f9e39e58e2d8a34daaa85c7d17e8988856f446129883438a01f98"
+  }
+}

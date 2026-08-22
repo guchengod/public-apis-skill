@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/aviationweather",
+  "name": "AviationWeather",
+  "category": "Weather",
+  "description": "NOAA aviation weather forecasts and observations",
+  "documentation_url": "https://www.aviationweather.gov/dataserver",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6038b1ea1ff373fcef44cb5ba8d8a963b6a8f1365e39fca2e0b726928d64c804"
+  }
+}

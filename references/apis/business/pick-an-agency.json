@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/pick-an-agency",
+  "name": "Pick an Agency",
+  "category": "Business",
+  "description": "Search 47,000+ marketing agencies by service, location and rating",
+  "documentation_url": "https://www.pickanagency.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5a2f1dfcc6f61f8a66ca13410354c6e5adb2bd868d16df2993bf8aa737763768"
+  }
+}

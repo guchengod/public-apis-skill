@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/toolcarton",
+  "name": "Toolcarton",
+  "category": "Test Data",
+  "description": "Generate random testimonial data",
+  "documentation_url": "https://testimonialapi.toolcarton.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bea33f33f5fecfd40ddfcba9351b7ccdacdc3e568b284f3e904233ee148ba122"
+  }
+}

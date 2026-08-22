@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/yandex-maps-geocoder",
+  "name": "Yandex.Maps Geocoder",
+  "category": "Geocoding",
+  "description": "Use geocoding to get an object's coordinates from its address",
+  "documentation_url": "https://yandex.com/dev/maps/geocoder",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__YANDEX_MAPS_GEOCODER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0d2f404b042b1a237d79a7d15659dc7e1c355a437627df52027c6f0724ad19b6"
+  }
+}

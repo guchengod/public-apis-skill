@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/carbon-interface",
+  "name": "Carbon Interface",
+  "category": "Environment",
+  "description": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
+  "documentation_url": "https://docs.carboninterface.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__CARBON_INTERFACE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5bc9afe3c4af064a223fdddc0353d41aab1f00353f17f8723c1f971ad9858330"
+  }
+}

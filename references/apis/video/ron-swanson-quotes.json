@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/ron-swanson-quotes",
+  "name": "Ron Swanson Quotes",
+  "category": "Video",
+  "description": "Television",
+  "documentation_url": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0c129c734a2d92466635092d7e161a4574a575c89c5d5cb3907a902d9445cf7"
+  }
+}

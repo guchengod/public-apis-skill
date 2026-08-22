@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/tankerkoenig",
+  "name": "Tankerkoenig",
+  "category": "Transportation",
+  "description": "German realtime gas/diesel prices",
+  "documentation_url": "https://creativecommons.tankerkoenig.de/swagger/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TANKERKOENIG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4294eaca593f6d86ffd8748061e046f523a2b8efabb06a43fb75f5b2ae645fa3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/steamgpt",
+  "name": "SteamGPT",
+  "category": "Games & Comics",
+  "description": "Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends",
+  "documentation_url": "https://steamgpt.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01d805d58ae4de86829f9146b3629a1428cf52482cba142bb1793b5b7fc0f4d8"
+  }
+}

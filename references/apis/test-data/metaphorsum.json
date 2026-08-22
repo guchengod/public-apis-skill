@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/metaphorsum",
+  "name": "Metaphorsum",
+  "category": "Test Data",
+  "description": "Generate demo paragraphs giving number of words and sentences",
+  "documentation_url": "http://metaphorpsum.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "69918f11712ba4b8e7f15ea8107d3b380406894448e775c652c50521f9271eaa"
+  }
+}

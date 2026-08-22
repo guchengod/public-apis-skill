@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/block-lottos",
+  "name": "Block Lottos",
+  "category": "Cryptocurrency",
+  "description": "On-chain lottery, draw history, jackpot and advertising endpoints",
+  "documentation_url": "https://blocklottos.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "838310529ee6effdc8a586a241091a245c337a291bc3453cd502e0c5d6c06f81"
+  }
+}

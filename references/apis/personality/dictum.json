@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/dictum",
+  "name": "Dictum",
+  "category": "Personality",
+  "description": "API to get access to the collection of the most inspiring expressions of mankind",
+  "documentation_url": "https://github.com/fisenkodv/dictum",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa80cdaeb116d5ccd9c12317ae408ca8b709d1ddefe3b4a0be168ffd145e6758"
+  }
+}

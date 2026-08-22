@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/hyperserve",
+  "name": "Hyperserve",
+  "category": "Video",
+  "description": "Video backend API: upload any format, transcode to MP4, deliver via CDN",
+  "documentation_url": "https://hyperserve.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__HYPERSERVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f5531c2229dc48e09367c2695e67132b60c0312e864d94c21ee7b412ad53234"
+  }
+}

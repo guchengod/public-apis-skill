@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/tamtam",
+  "name": "TamTam",
+  "category": "Social",
+  "description": "Bot API to interact with TamTam",
+  "documentation_url": "https://dev.tamtam.chat/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TAMTAM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e5b05f04acd3dd85afe885d248b5375ede706cbee435883a1e2e5fa65ea5d83"
+  }
+}

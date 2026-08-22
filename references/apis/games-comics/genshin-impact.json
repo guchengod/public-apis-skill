@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/genshin-impact",
+  "name": "Genshin Impact",
+  "category": "Games & Comics",
+  "description": "Genshin Impact game data",
+  "documentation_url": "https://genshin.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4bdae781e1a63a5cfdee50e3c3f5a5f3fb50acbd57da9debda6fd681fd95f8bc"
+  }
+}

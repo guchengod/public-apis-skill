@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/freetogame",
+  "name": "FreeToGame",
+  "category": "Games & Comics",
+  "description": "Free-To-Play Games Database",
+  "documentation_url": "https://www.freetogame.com/api-doc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "094ebbbe43a51ff632ecc23716a4ff575eb8164cd63868ed07a939a0bb62ef46"
+  }
+}

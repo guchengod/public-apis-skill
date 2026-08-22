@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/robohash",
+  "name": "RoboHash",
+  "category": "Test Data",
+  "description": "Generate random robot/alien avatars",
+  "documentation_url": "https://robohash.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "18feb9f2bf354b3f8f3561403832ec1fabbaa34a42689fef46e11674a60f68d8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinranking",
+  "name": "CoinRanking",
+  "category": "Cryptocurrency",
+  "description": "Live Cryptocurrency data",
+  "documentation_url": "https://developers.coinranking.com/api/documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINRANKING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a00e77af8cbbd4ca00fc0720084e9bb8362be8004fadb42cfa722ca6d098a077"
+  }
+}

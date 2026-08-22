@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/aviationapi",
+  "name": "AviationAPI",
+  "category": "Transportation",
+  "description": "FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather",
+  "documentation_url": "https://docs.aviationapi.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "435ee452aef20f03b20a702f058fa1f587a3d92ccbb7ad5b86cfa5c0874ae37f"
+  }
+}

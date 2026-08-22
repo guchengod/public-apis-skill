@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/binance",
+  "name": "Binance",
+  "category": "Cryptocurrency",
+  "description": "Exchange for Trading Cryptocurrencies based in China",
+  "documentation_url": "https://github.com/binance/binance-spot-api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BINANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ac5679099e6a418b95a62d1f3f3e397458eed80a81b4560d29c5da54816d3dc8"
+  }
+}

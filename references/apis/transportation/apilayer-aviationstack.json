@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/apilayer-aviationstack",
+  "name": "apilayer aviationstack",
+  "category": "Transportation",
+  "description": "Real-time Flight Status & Global Aviation Data API",
+  "documentation_url": "https://aviationstack.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__APILAYER_AVIATIONSTACK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d0f316d95dcc59522f9ce7cf8d33d71cc0710757f60add4752ad017158a7d22"
+  }
+}

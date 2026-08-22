@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/gdbrowser",
+  "name": "GDBrowser",
+  "category": "Games & Comics",
+  "description": "Easy way to use the Geometry Dash Servers",
+  "documentation_url": "https://gdbrowser.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "069203d7f5501cf339a97e8ccb09fc1a858956c85c33ccfea3ef06f304a75af1"
+  }
+}

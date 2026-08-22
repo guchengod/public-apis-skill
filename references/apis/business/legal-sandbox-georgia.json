@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/legal-sandbox-georgia",
+  "name": "Legal Sandbox Georgia",
+  "category": "Business",
+  "description": "Find verified legal specialists in Georgia from natural-language queries",
+  "documentation_url": "https://legal.ge/api/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "16aa9cc4651e0277d4aa68b34a9ae11d04f1450f639b72c9b2e1e03cf7987132"
+  }
+}

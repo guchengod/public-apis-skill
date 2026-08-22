@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/colourlovers",
+  "name": "ColourLovers",
+  "category": "Art & Design",
+  "description": "Get various patterns, palettes and images",
+  "documentation_url": "http://www.colourlovers.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6cf6e0c93d58dadd0c44e186efddf4eb2057e6273d8c0d3e3111a9f631b1bba8"
+  }
+}

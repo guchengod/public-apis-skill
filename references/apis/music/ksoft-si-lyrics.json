@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/ksoft-si-lyrics",
+  "name": "KSoft.Si Lyrics",
+  "category": "Music",
+  "description": "API to get lyrics for songs",
+  "documentation_url": "https://docs.ksoft.si/api/lyrics-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__KSOFT_SI_LYRICS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c7644823c7fbc932878afd14d11d8b6312738de3b5536de2e77ea5df4ef44ac2"
+  }
+}

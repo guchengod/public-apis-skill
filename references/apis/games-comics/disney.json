@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/disney",
+  "name": "Disney",
+  "category": "Games & Comics",
+  "description": "Information of Disney characters",
+  "documentation_url": "https://disneyapi.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "79411cf8b22a5a1e145834a00a01bec9ab9a026074e3113f51f15466a362acec"
+  }
+}

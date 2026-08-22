@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/chess-com",
+  "name": "Chess.com",
+  "category": "Games & Comics",
+  "description": "Chess.com read-only REST API",
+  "documentation_url": "https://www.chess.com/news/view/published-data-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf5a3ac82b62b3b233460b15280aaeb1d912ff8454e888526219fc7e0fd1a116"
+  }
+}

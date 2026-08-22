@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-gdansk",
+  "name": "City, Gdańsk",
+  "category": "Government",
+  "description": "Gdańsk (PL) City Open Data",
+  "documentation_url": "https://ckan.multimediagdansk.pl/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a400f7cbafd2346a220c90c350057f07405b45a9a542d11e7f5bfd13479960e8"
+  }
+}

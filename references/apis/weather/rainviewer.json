@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/rainviewer",
+  "name": "RainViewer",
+  "category": "Weather",
+  "description": "Radar data collected from different websites across the Internet",
+  "documentation_url": "https://www.rainviewer.com/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "99539e082c574c48dbb9e950195cc6decaa435215db021cf7fc733258c485017"
+  }
+}

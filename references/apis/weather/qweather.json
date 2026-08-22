@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/qweather",
+  "name": "QWeather",
+  "category": "Weather",
+  "description": "Location-based weather data",
+  "documentation_url": "https://dev.qweather.com/en/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__QWEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "530fc4057d126d0a77d08ff5bc6785d5cd179e8e6ec8cab59b791d0c33c22dcb"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/meetup-com",
+  "name": "Meetup.com",
+  "category": "Social",
+  "description": "Data about Meetups from Meetup.com",
+  "documentation_url": "https://www.meetup.com/api/guide",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__MEETUP_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "874df73197f82e32e335cc19a1b3ed6ad7f3536ae65c38bf6efce0f01aac11df"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipapi-co",
+  "name": "ipapi.co",
+  "category": "Geocoding",
+  "description": "Find IP address location information",
+  "documentation_url": "https://ipapi.co/api/#introduction",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dfe532b63e786eb0aaedf0cd077e1d2982dd0ae2650c585b94c5af08221f2cde"
+  }
+}

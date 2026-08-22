@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/open-data-nhs-scotland",
+  "name": "Open Data NHS Scotland",
+  "category": "Health",
+  "description": "Medical reference data and statistics by Public Health Scotland",
+  "documentation_url": "https://www.opendata.nhs.scot",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96414e76d86040b94f18121e557b9ac08daaf02a87e0453d9e63cbf040edeac2"
+  }
+}

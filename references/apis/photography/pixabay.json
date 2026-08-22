@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/pixabay",
+  "name": "Pixabay",
+  "category": "Photography",
+  "description": "Photography",
+  "documentation_url": "https://pixabay.com/sk/service/about/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__PIXABAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1d91c463f48a87713007c66bef0e22a8c7478e51afda46e19d56711308ac9c6"
+  }
+}

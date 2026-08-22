@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/foodish",
+  "name": "Foodish",
+  "category": "Food & Drink",
+  "description": "Random pictures of food dishes",
+  "documentation_url": "https://github.com/surhud004/Foodish#readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "361e0726bb173a7837e1ea2a8714ec453e6558bac0bee15eae6ccf9e55da3f66"
+  }
+}

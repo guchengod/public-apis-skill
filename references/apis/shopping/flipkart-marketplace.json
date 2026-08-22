@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/flipkart-marketplace",
+  "name": "Flipkart Marketplace",
+  "category": "Shopping",
+  "description": "Product listing management, Order Fulfilment in the Flipkart Marketplace",
+  "documentation_url": "https://seller.flipkart.com/api-docs/FMSAPI.html",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__FLIPKART_MARKETPLACE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59e64bd8ea3cbf5f4985dc2633c1f216b7b0569872e4e01ef6c6b6d0e6713ea2"
+  }
+}

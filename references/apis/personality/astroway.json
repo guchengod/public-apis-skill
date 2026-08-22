@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "personality/astroway",
+  "name": "AstroWay",
+  "category": "Personality",
+  "description": "Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris",
+  "documentation_url": "https://api.astroway.info/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PERSONALITY__ASTROWAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "265915b34645c3aab5b84bc834ac8e4810ba11170126fe70cb888aef91d4d375"
+  }
+}

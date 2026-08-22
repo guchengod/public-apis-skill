@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/blockchain",
+  "name": "Blockchain",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin Payment, Wallet & Transaction Data",
+  "documentation_url": "https://www.blockchain.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BLOCKCHAIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c9174e575e66e1a8d4e8aefde1d64602220913c8db40072f39ad4e8bda58f2a"
+  }
+}

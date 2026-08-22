@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football-data",
+  "name": "Football-Data",
+  "category": "Sports & Fitness",
+  "description": "Football data with matches info, players, teams, and competitions",
+  "documentation_url": "https://www.football-data.org",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FOOTBALL_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a332fa96607f47cef62d23c9aa42f5f965aa931fa1160704faecbb9979580a7"
+  }
+}

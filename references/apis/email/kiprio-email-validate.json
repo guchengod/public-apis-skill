@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/kiprio-email-validate",
+  "name": "Kiprio Email Validate",
+  "category": "Email",
+  "description": "Free email validation: MX check, disposable detection, syntax",
+  "documentation_url": "https://kiprio.com/v1/email-validate",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__KIPRIO_EMAIL_VALIDATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "41cda71b97e5713b8acc2f60e99a683ec0861b8bf794e4d901097eca9d950e62"
+  }
+}

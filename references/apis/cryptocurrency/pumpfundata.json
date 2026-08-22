@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/pumpfundata",
+  "name": "PumpFunData",
+  "category": "Cryptocurrency",
+  "description": "Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files",
+  "documentation_url": "https://pumpfundata.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__PUMPFUNDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "97861f3091bf83c3928cb3371961a6f0b5e4ddcf51c007249c277665ce945e62"
+  }
+}

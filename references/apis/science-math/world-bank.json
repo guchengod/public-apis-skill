@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/world-bank",
+  "name": "World Bank",
+  "category": "Science & Math",
+  "description": "World Data",
+  "documentation_url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da93853365eb0ce2c54041239f6f0804cde4f961079f7ff72790d739c2a3b057"
+  }
+}

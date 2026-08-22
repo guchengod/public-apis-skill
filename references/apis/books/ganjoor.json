@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "books/ganjoor",
+  "name": "Ganjoor",
+  "category": "Books",
+  "description": "Classic Persian poetry works including access to related manuscripts, recitations and music tracks",
+  "documentation_url": "https://api.ganjoor.net",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BOOKS__GANJOOR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4fbd0265414faa82ac8b28c9513e5f8296ab2898fbaea4fb4fbcd62f135e81cc"
+  }
+}

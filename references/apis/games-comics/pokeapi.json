@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/pokeapi",
+  "name": "Pokéapi",
+  "category": "Games & Comics",
+  "description": "Pokémon Information",
+  "documentation_url": "https://pokeapi.co",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d670b728a73c92084285994892a248904f3798a9ca17bf0581cc0a6abde04896"
+  }
+}

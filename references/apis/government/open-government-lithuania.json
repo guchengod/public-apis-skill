@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-lithuania",
+  "name": "Open Government, Lithuania",
+  "category": "Government",
+  "description": "Lithuania Government Open Data",
+  "documentation_url": "https://data.gov.lt/public/api/1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0348fcbfc6c4f62fbfd8587b0032ef1cd7ecc98b886df934aa6d95a505d9ea5e"
+  }
+}

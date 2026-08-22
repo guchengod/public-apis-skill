@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/helium",
+  "name": "Helium",
+  "category": "Finance",
+  "description": "News with media bias scoring, balanced news synthesis, live market data, AI options pricing",
+  "documentation_url": "https://heliumtrades.com/mcp-page/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0df5bb0f23c23c12aab8cb219d1b57972e937031dc6b31b427712c8d7c149ed"
+  }
+}

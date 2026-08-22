@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/keen-io",
+  "name": "Keen IO",
+  "category": "Machine Learning",
+  "description": "Data Analytics",
+  "documentation_url": "https://keen.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__KEEN_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ac34e9eec752f36abcb1b6ec6bf2d6d1cd1f45baed969d7a5d0fe13de639ca1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/here-maps",
+  "name": "HERE Maps",
+  "category": "Geocoding",
+  "description": "Create/customize digital maps based on HERE Maps data",
+  "documentation_url": "https://developer.here.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__HERE_MAPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "20e4a2d863b7025bd8fd4f5ce11575e3c6b7550328792ffa19cf1a050348029e"
+  }
+}

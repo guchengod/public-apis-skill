@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/libretranslate",
+  "name": "LibreTranslate",
+  "category": "Text Analysis",
+  "description": "Translation tool with 17 available languages",
+  "documentation_url": "https://libretranslate.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c05ea30ab66ab41a7644eddc4d06e328617dfc1b8e3ca91e5b01569a8777866"
+  }
+}

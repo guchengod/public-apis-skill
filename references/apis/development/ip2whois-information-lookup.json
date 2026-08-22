@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ip2whois-information-lookup",
+  "name": "IP2WHOIS Information Lookup",
+  "category": "Development",
+  "description": "WHOIS domain name lookup",
+  "documentation_url": "https://www.ip2whois.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IP2WHOIS_INFORMATION_LOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b2dec7171d28568eff36730a09db466620542f3874be9bb5982f68d4729efab"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/fec",
+  "name": "FEC",
+  "category": "Government",
+  "description": "Information on campaign donations in federal elections",
+  "documentation_url": "https://api.open.fec.gov/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__FEC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cb9fa49ed9feff3d6a58f3619851962fa5ae66ad671f29593b81c319e74e5db9"
+  }
+}

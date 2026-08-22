@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "tracking/whatpulse",
+  "name": "WhatPulse",
+  "category": "Tracking",
+  "description": "Small application that measures your keyboard/mouse usage",
+  "documentation_url": "https://developer.whatpulse.org/#web-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "af70fe8b302a1556ddca4aac6c04c3ac65e6343864c177b5868b16f582a85c47"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/us-weather",
+  "name": "US Weather",
+  "category": "Weather",
+  "description": "US National Weather Service",
+  "documentation_url": "https://www.weather.gov/documentation/services-web-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a8649e2b7a3a7705a1cf3a4bdd08e5f0b62002c1281886483d8017989d7438be"
+  }
+}

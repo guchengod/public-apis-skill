@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/html2pdf",
+  "name": "Html2PDF",
+  "category": "Documents & Productivity",
+  "description": "HTML/URL to PDF",
+  "documentation_url": "https://html2pdf.app/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__HTML2PDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "61dcd69df1dde26d9cc9b677dd7528afb6a6d5e3838e36a93faa9792c13f4ec4"
+  }
+}

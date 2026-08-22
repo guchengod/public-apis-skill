@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/travis-ci",
+  "name": "Travis CI",
+  "category": "Continuous Integration",
+  "description": "Sync your GitHub projects with Travis CI to test your code in minutes",
+  "documentation_url": "https://docs.travis-ci.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__TRAVIS_CI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "995746aa87cbea195dffbc49e4586400da88fd355e748d1b33195a24ea8b18c5"
+  }
+}

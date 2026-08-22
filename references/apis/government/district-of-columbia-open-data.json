@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/district-of-columbia-open-data",
+  "name": "District of Columbia Open Data",
+  "category": "Government",
+  "description": "Contains D.C. government public datasets, including crime, GIS, financial data, and so on",
+  "documentation_url": "http://opendata.dc.gov/pages/using-apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3ceec8474552467dfa2d1b9e084aa58bb037c6b05e639a3ca5f063e24af36192"
+  }
+}

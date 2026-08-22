@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tetr-io",
+  "name": "TETR.IO",
+  "category": "Games & Comics",
+  "description": "TETR.IO Tetra Channel API",
+  "documentation_url": "https://tetr.io/about/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e945742a208fd6de4a30adc1dec648485a33bad6923871377e9e60767ca9e0a1"
+  }
+}

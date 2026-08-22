@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/sendgrid",
+  "name": "Sendgrid",
+  "category": "Email",
+  "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+  "documentation_url": "https://docs.sendgrid.com/api-reference/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__SENDGRID__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ea14f0bcb162bc01d71b4c553d792e4a7cd93d5c2978daf356f8cc852cd1a61b"
+  }
+}

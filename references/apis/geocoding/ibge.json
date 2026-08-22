@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ibge",
+  "name": "IBGE",
+  "category": "Geocoding",
+  "description": "Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)",
+  "documentation_url": "https://servicodados.ibge.gov.br/api/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f17eae997630aa196098c1f66d569b7f9762c0314a2a526f860a53cce413e573"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/not-human-search",
+  "name": "Not Human Search",
+  "category": "Machine Learning",
+  "description": "AI tool discovery with agentic scoring for 8,600+ tools and MCP servers",
+  "documentation_url": "https://nothumansearch.ai/openapi.yaml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3e98c8deb8f43f74b58a0806f7a0f92f645d327fa672560f8596d669ebacb7fb"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/orb-intelligence",
+  "name": "ORB Intelligence",
+  "category": "Business",
+  "description": "Company lookup",
+  "documentation_url": "https://api.orb-intelligence.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__ORB_INTELLIGENCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "23a887856c1e25bc95210aaac98d5b66de9fa51ee2614836be006b4f6c16fc77"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/boston-mbta-transit",
+  "name": "Boston MBTA Transit",
+  "category": "Transportation",
+  "description": "Stations and predicted arrivals for MBTA",
+  "documentation_url": "https://www.mbta.com/developers/v3-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__BOSTON_MBTA_TRANSIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6e5a081be08ccd0194a8b2e11c92500f0a217644f7b3be4b89158a89c6f6e7f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geodata-gov-gr",
+  "name": "Geodata.gov.gr",
+  "category": "Geocoding",
+  "description": "Open geospatial data and API service for Greece",
+  "documentation_url": "https://geodata.gov.gr/en/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7994a06ec06d95e822dc75bc3ebfa6a701dad6e62f83e4ab6266460999e7b459"
+  }
+}

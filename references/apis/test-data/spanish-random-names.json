@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/spanish-random-names",
+  "name": "Spanish random names",
+  "category": "Test Data",
+  "description": "Generate spanish names (with gender) randomly",
+  "documentation_url": "https://random-names-api.herokuapp.com/public",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c3ff5f63126595f7355769f3fe12a23ae541c3987a6779a875983c01e70cfec"
+  }
+}

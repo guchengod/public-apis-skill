@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/coronavirus-in-the-uk",
+  "name": "Coronavirus in the UK",
+  "category": "Health",
+  "description": "UK Government coronavirus data, including deaths and cases by region",
+  "documentation_url": "https://coronavirus.data.gov.uk/details/developers-guide",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d0ca0ce0e6bcb7045a9bba56d4faa33acae4f5577a9c622853882d23d4e4f9ae"
+  }
+}

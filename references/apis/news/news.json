@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/news",
+  "name": "News",
+  "category": "News",
+  "description": "Headlines currently published on a range of news sources and blogs",
+  "documentation_url": "https://newsapi.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEWS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "61d60666266640eda13b3da4c1cae57c37878b74a443dfd51851168731d79830"
+  }
+}

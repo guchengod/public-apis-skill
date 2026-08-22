@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/nordigen",
+  "name": "Nordigen",
+  "category": "Finance",
+  "description": "Connect to bank accounts using official bank APIs and get raw transaction data",
+  "documentation_url": "https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__NORDIGEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95f79ff669afe1659d3db969bbd0a3534dca8bb81ec93e3c55ce60946e26c7de"
+  }
+}

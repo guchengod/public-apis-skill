@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/auto-body-shop-directory",
+  "name": "Auto Body Shop Directory",
+  "category": "Vehicle",
+  "description": "Find auto body shops by ZIP code, city, location, or profile",
+  "documentation_url": "https://autobodyshopnear.com/developers/body-shop-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "510ff7536baeb515cc3ae4c8fc9d508b65f8828ca3c71d3d64ad1679bac97a85"
+  }
+}

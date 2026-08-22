@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/machinetutors",
+  "name": "Machinetutors",
+  "category": "Machine Learning",
+  "description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
+  "documentation_url": "https://www.machinetutors.com/portfolio/MT_api.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__MACHINETUTORS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4aa1198e183f23d6f954976f020e307ecf84954cccf52bc4b00629f05580ca38"
+  }
+}

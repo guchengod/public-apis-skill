@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/kkbox",
+  "name": "KKBOX",
+  "category": "Music",
+  "description": "Get music libraries, playlists, charts, and perform out of KKBOX's platform",
+  "documentation_url": "https://developer.kkbox.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__KKBOX__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "059deb331564909accb86f65c95deec67ed876fc6492abf40f658a7702043c72"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/giant-bomb",
+  "name": "Giant Bomb",
+  "category": "Games & Comics",
+  "description": "Video Games",
+  "documentation_url": "https://www.giantbomb.com/api/documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__GIANT_BOMB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e620c53e7efa687833fa9a49f944dab57d243fcb2c34cb0de882bb219843ed28"
+  }
+}

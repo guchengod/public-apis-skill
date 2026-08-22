@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/spacex--61a97bb6",
+  "name": "SpaceX",
+  "category": "Science & Math",
+  "description": "GraphQL, Company, Ships, launchpad and launch data",
+  "documentation_url": "https://api.spacex.land/graphql/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cdeaa4cadd1bd311f202543ca3daaae65a1849d0d10d00b898dc991f2228d432"
+  }
+}

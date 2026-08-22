@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/istanbul-ibb-open-data",
+  "name": "Istanbul (İBB) Open Data",
+  "category": "Government",
+  "description": "Data sets from the İstanbul Metropolitan Municipality (İBB)",
+  "documentation_url": "https://data.ibb.gov.tr",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6cfdf7c758b770fcfda0d981e204634c5c547006d5c3e4a357c1aa7035ea3e28"
+  }
+}

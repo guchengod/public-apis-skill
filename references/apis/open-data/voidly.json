@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/voidly",
+  "name": "Voidly",
+  "category": "Open Data",
+  "description": "Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries",
+  "documentation_url": "https://voidly.ai/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "97b9806744adcaccf628ec87c393c627921a39f8b7fe0650e18acc603de3d4ad"
+  }
+}

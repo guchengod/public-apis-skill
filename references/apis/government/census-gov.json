@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/census-gov",
+  "name": "Census.gov",
+  "category": "Government",
+  "description": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
+  "documentation_url": "https://www.census.gov/data/developers/data-sets.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "45ccaca95eff8832c514bc9adf30680f6e2bc00250f2633d0bf3c6f3530d45d0"
+  }
+}

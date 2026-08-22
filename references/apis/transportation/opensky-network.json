@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/opensky-network",
+  "name": "OpenSky Network",
+  "category": "Transportation",
+  "description": "Free real-time ADS-B aviation data",
+  "documentation_url": "https://opensky-network.org/apidoc/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae896304579d216f741bdeb5558981d63b8c895294ac36e1a5f9322d7ddd2f04"
+  }
+}

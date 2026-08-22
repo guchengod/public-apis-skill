@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/tollmint",
+  "name": "Tollmint",
+  "category": "Government",
+  "description": "Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK",
+  "documentation_url": "https://api.tollmint.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b333fdcbcedd0aa59989ca2c89c8707a12d29c95c486fa68133cd16e07b5429a"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/discogs",
+  "name": "Discogs",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://www.discogs.com/developers/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__DISCOGS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f96f11f7a82377ff1347671edc26224b7a23d76f5a7ec069d699a85d8bb95b0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "business/trello",
+  "name": "Trello",
+  "category": "Business",
+  "description": "Boards, lists and cards to help you organize and prioritize your projects",
+  "documentation_url": "https://developers.trello.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BUSINESS__TRELLO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "47bc255e6f80c1186dbedc1eaba17b2d1e001b90b2c4302480403f08c3a4d49c"
+  }
+}

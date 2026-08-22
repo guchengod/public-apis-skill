@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-tracker-sri-lanka",
+  "name": "COVID-19 Tracker Sri Lanka",
+  "category": "Health",
+  "description": "Provides situation of the COVID-19 patients reported in Sri Lanka",
+  "documentation_url": "https://www.hpb.health.gov.lk/en/api-documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "58a2dcfd8788ab226f93e3ebfe14a211005a5b2792ee2dcc6b1246b367dd0e25"
+  }
+}

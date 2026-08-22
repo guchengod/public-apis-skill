@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/marketstack",
+  "name": "Marketstack",
+  "category": "Finance",
+  "description": "Real-Time, Intraday & Historical Market Data API",
+  "documentation_url": "https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__MARKETSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "445442474e79b43964c288e50f8f72ffa139a1547b5c3ae451e8014f1df76af7"
+  }
+}

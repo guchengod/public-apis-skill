@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/mexc",
+  "name": "Mexc",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency info, place order",
+  "documentation_url": "https://www.mexc.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__MEXC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df8fee6cef5e8e175278eb62aaa5e30e704d5d32302c722b72fa7dfa9ff6e087"
+  }
+}

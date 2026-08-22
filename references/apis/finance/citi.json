@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/citi",
+  "name": "Citi",
+  "category": "Finance",
+  "description": "All Citigroup account and statement data APIs",
+  "documentation_url": "https://sandbox.developerhub.citi.com/api-catalog-list",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__CITI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a28755153c7ab8c61e20ce56545c5f0c0a67992caeccf2d287e38f95d49f8e6c"
+  }
+}

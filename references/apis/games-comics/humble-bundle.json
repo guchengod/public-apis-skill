@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/humble-bundle",
+  "name": "Humble Bundle",
+  "category": "Games & Comics",
+  "description": "Humble Bundle's current bundles",
+  "documentation_url": "https://rapidapi.com/Ziggoto/api/humble-bundle",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__HUMBLE_BUNDLE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ab6edd79003ef652d6eabdec0e90f6afaf39aa909c82d63bcf5bce33fef933e2"
+  }
+}

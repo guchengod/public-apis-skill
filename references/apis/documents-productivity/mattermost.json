@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/mattermost",
+  "name": "Mattermost",
+  "category": "Documents & Productivity",
+  "description": "An open source platform for developer collaboration",
+  "documentation_url": "https://api.mattermost.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__MATTERMOST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6be5c3269d21b22907b1c0488ddbffc084e4e5c2dc04bd2cb221c8085220e95"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/steem",
+  "name": "Steem",
+  "category": "Blockchain",
+  "description": "Blockchain-based blogging and social media website",
+  "documentation_url": "https://developers.steem.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc0b5153df4ce9135e9b1a4685ed68da6f7b1964c0f718af9697483fd87c3efc"
+  }
+}

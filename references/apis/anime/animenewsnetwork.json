@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/animenewsnetwork",
+  "name": "AnimeNewsNetwork",
+  "category": "Anime",
+  "description": "Anime industry news",
+  "documentation_url": "https://www.animenewsnetwork.com/encyclopedia/api.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f489ebd8ab0c291fef77508da15a9ec55340583670bedfd602e9ca7e6ab254fa"
+  }
+}

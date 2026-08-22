@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/mail-gw",
+  "name": "mail.gw",
+  "category": "Email",
+  "description": "10 Minute Mail",
+  "documentation_url": "https://docs.mail.gw",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b43eab10f1fe5cca4f0e203bebf6991e30296b54189e92e6872a93a1c922fcbe"
+  }
+}

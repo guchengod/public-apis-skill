@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "patent/uspto",
+  "name": "USPTO",
+  "category": "Patent",
+  "description": "USA patent api services",
+  "documentation_url": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "256f17630ecd334fa9c6bef605ff464c22ebcf5274f6d2470bfa0a6c0d42aa5c"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/tiktok",
+  "name": "TikTok",
+  "category": "Social",
+  "description": "Fetches user info and user's video posts on TikTok platform",
+  "documentation_url": "https://developers.tiktok.com/doc/login-kit-web",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TIKTOK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f19fef5fcc8e40034412d0bd13b93af5ef1cf4f4b381dc894742111caee6fc90"
+  }
+}

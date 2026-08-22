@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/postman",
+  "name": "Postman",
+  "category": "Development",
+  "description": "Tool for testing APIs",
+  "documentation_url": "https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__POSTMAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eb5064b8588d9fc1c3ff52412f564508ce1e0ea78e273c8f306425849fd90999"
+  }
+}

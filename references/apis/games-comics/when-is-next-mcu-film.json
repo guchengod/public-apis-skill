@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/when-is-next-mcu-film",
+  "name": "When is next MCU film",
+  "category": "Games & Comics",
+  "description": "Upcoming MCU film information",
+  "documentation_url": "https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1804c3c3320a7d962f08174db84affb26dadc3afc4bff192b7ab4a09b42f537e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/fofa",
+  "name": "FOFA",
+  "category": "Security",
+  "description": "Search engine for Internet connected assets and devices",
+  "documentation_url": "https://en.fofa.info/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__FOFA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aaf6bec4ae66438e8ea459c666b76f2a92f279919ed9a333e6d5ccfc1be66abd"
+  }
+}

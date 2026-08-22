@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/phishstats",
+  "name": "PhishStats",
+  "category": "Security",
+  "description": "Phishing database",
+  "documentation_url": "https://phishstats.info/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9be8f0554b547ad1ebc5a8af01cd75c92f19c9a41e7985a5fab32404995f002f"
+  }
+}

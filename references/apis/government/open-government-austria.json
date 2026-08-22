@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-austria",
+  "name": "Open Government, Austria",
+  "category": "Government",
+  "description": "Austria Government Open Data",
+  "documentation_url": "https://www.data.gv.at/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c20c6abb62ca2f7d2e5f4d58c6b8d63d191c5c557c5e6387e6f12a100b76773"
+  }
+}

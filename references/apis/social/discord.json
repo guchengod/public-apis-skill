@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/discord",
+  "name": "Discord",
+  "category": "Social",
+  "description": "Make bots for Discord, integrate Discord onto an external platform",
+  "documentation_url": "https://discord.com/developers/docs/intro",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__DISCORD__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a839a5daff9031995b8f01d397e4ae8b1e7e0be06d41701738c8817e2d9b3f99"
+  }
+}

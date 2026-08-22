@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/remove-bg",
+  "name": "Remove.bg",
+  "category": "Photography",
+  "description": "Image Background removal",
+  "documentation_url": "https://www.remove.bg/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__REMOVE_BG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c21594ed890d02028dd0aad88c2ee1c2c436afe8165cbd8cf396c5497ed6e550"
+  }
+}

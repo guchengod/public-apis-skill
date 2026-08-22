@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/share",
+  "name": "SHARE",
+  "category": "Science & Math",
+  "description": "A free, open, dataset about research and scholarly activities",
+  "documentation_url": "https://share.osf.io/api/v2/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aae3bddb40e8f7a4fd033bd9be4fc21cc8f2e83e363acf3cd1a402e356d1c752"
+  }
+}

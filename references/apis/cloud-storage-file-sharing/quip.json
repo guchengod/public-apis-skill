@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/quip",
+  "name": "Quip",
+  "category": "Cloud Storage & File Sharing",
+  "description": "File Sharing and Storage for groups",
+  "documentation_url": "https://quip.com/dev/automation/documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__QUIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce52eb0d5525af4dc8bff7523f8de3c2c0bc7d43b5f6370688883736b5a045ae"
+  }
+}

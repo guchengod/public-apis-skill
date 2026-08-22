@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football-charts",
+  "name": "Football Charts",
+  "category": "Sports & Fitness",
+  "description": "Tables, results, model probabilities and Monte Carlo season projections for 93 leagues",
+  "documentation_url": "https://www.football-charts.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FOOTBALL_CHARTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc8d50bef33d0d0884764b96c403a4449bf84d035170593c3aac441171e0431e"
+  }
+}

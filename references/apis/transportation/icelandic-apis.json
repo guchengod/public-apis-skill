@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/icelandic-apis",
+  "name": "Icelandic APIs",
+  "category": "Transportation",
+  "description": "Open APIs that deliver services in or regarding Iceland",
+  "documentation_url": "http://docs.apis.is/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7afb01e83b752de61de36c42ce778acf0caa965defe0f01df65e1431c09f5beb"
+  }
+}

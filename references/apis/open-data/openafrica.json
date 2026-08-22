@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/openafrica",
+  "name": "openAFRICA",
+  "category": "Open Data",
+  "description": "Large datasets repository of African open data",
+  "documentation_url": "https://africaopendata.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e12a67383e53ad173e9c57be37dcd083b003e5d686d47c99ded6f37f6f9ed6e5"
+  }
+}

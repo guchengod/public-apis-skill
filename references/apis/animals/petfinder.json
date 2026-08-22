@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "animals/petfinder",
+  "name": "Petfinder",
+  "category": "Animals",
+  "description": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
+  "documentation_url": "https://www.petfinder.com/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIMALS__PETFINDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "68a8bf58688aa254d0390c3d9e6476c628a0523bead36759a72316e2d7b7c679"
+  }
+}

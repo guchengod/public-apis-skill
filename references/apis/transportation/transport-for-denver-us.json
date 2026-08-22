@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-denver-us",
+  "name": "Transport for Denver, US",
+  "category": "Transportation",
+  "description": "RTD",
+  "documentation_url": "http://www.rtd-denver.com/gtfs-developer-guide.shtml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6a2636cb76021e47b69dd6fbe71ffb2bcf64d75fc7f17e3f30a593f172629161"
+  }
+}

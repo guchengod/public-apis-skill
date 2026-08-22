@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/purple-air",
+  "name": "Purple Air",
+  "category": "Science & Math",
+  "description": "Real Time Air Quality Monitoring",
+  "documentation_url": "https://www2.purpleair.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4aa94447f815212c6cf4fcf1d3126431d8cc89dff76b9ca25cbcedb726a6ec74"
+  }
+}

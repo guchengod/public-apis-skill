@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/faa-n-number-registry",
+  "name": "FAA N-Number Registry",
+  "category": "Transportation",
+  "description": "Every FAA-registered civil aircraft in the United States, lookup by N-number or Mode S hex code",
+  "documentation_url": "https://n-number.starfile.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5b99c720401c594f8d0dfd4b2d1938ef66a17011247004f5e326bb3dd18dedc"
+  }
+}

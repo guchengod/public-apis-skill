@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/gnews",
+  "name": "GNews",
+  "category": "News",
+  "description": "Search for news from various sources",
+  "documentation_url": "https://gnews.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__GNEWS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6de17779424d847a98ae8778298a1163a5ed2f248c08be0c90fbf4cb959a83b0"
+  }
+}

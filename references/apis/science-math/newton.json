@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/newton",
+  "name": "Newton",
+  "category": "Science & Math",
+  "description": "Symbolic and Arithmetic Math Calculator",
+  "documentation_url": "https://newton.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e855825936ef03a84bee4640b0a0530cc718c1aaacebabf60851467bbdf26e7b"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/acrelens",
+  "name": "AcreLens",
+  "category": "Open Data",
+  "description": "Land suitability scoring API for any US property: off-grid, rural, recreational, investment",
+  "documentation_url": "https://www.acrelens.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__ACRELENS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "421bbb7d8bb0cfe07960a87689e0b6d9b6ee7b136ca80201b3bc78db1eadf3a7"
+  }
+}

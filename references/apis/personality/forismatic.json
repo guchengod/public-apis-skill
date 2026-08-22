@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/forismatic",
+  "name": "Forismatic",
+  "category": "Personality",
+  "description": "Inspirational Quotes",
+  "documentation_url": "http://forismatic.com/en/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "16242b5e08044adeba1dbce046b2d72a3aebf53945b8d945f2cc70ea345f0d98"
+  }
+}

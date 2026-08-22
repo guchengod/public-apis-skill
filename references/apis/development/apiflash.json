@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/apiflash",
+  "name": "ApiFlash",
+  "category": "Development",
+  "description": "Chrome based screenshot API for developers",
+  "documentation_url": "https://apiflash.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__APIFLASH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0b111767fd62176a1933629c82daef34cec86f4c7ad1c671f2b55ba94193698d"
+  }
+}

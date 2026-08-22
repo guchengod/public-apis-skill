@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/klarna",
+  "name": "Klarna",
+  "category": "Finance",
+  "description": "Klarna payment and shopping service",
+  "documentation_url": "https://docs.klarna.com/klarna-payments/api/payments-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__KLARNA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1f43d1cec0391c3784c7b26891c91047732e3af26ee3a98ae3bab82ce6bcb84"
+  }
+}

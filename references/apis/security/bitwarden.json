@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "security/bitwarden",
+  "name": "BitWarden",
+  "category": "Security",
+  "description": "Best open-source password manager",
+  "documentation_url": "https://bitwarden.com/help/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SECURITY__BITWARDEN__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf81bc09650ca882d67939d44866ef7d6644274fc40c82312d15dc6baf64a483"
+  }
+}

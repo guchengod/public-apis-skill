@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/roboflow-universe",
+  "name": "Roboflow Universe",
+  "category": "Machine Learning",
+  "description": "Pre-trained computer vision models",
+  "documentation_url": "https://universe.roboflow.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__ROBOFLOW_UNIVERSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e2085224f99b6b6249dc274e4755934d13c98e7743be68ccb756ce3b5ee5746"
+  }
+}

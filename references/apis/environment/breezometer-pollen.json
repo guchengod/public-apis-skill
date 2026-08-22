@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/breezometer-pollen",
+  "name": "BreezoMeter Pollen",
+  "category": "Environment",
+  "description": "Daily Forecast pollen conditions data for a specific location",
+  "documentation_url": "https://docs.breezometer.com/api-documentation/pollen-api/v2/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__BREEZOMETER_POLLEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e8bed521852b1befcb55d17a8b8b63a490756d1789efd247a6f972517bfe4932"
+  }
+}

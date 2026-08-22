@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/nppes",
+  "name": "NPPES",
+  "category": "Health",
+  "description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US",
+  "documentation_url": "https://npiregistry.cms.hhs.gov/registry/help-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "525f65062997c4797bc2b3c484d103b45c5c1283b74e4911121ba00edbc437a7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/filingrail",
+  "name": "Filingrail",
+  "category": "Finance",
+  "description": "SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings",
+  "documentation_url": "https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FILINGRAIL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc75eb1683c200d0f95a7973c4cc4b6f1dac0273d3ab1c7181cddbaf555dfd48"
+  }
+}

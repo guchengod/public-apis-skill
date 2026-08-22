@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/privacy-com",
+  "name": "Privacy.com",
+  "category": "Security",
+  "description": "Generate merchant-specific and one-time use credit card numbers that link back to your bank",
+  "documentation_url": "https://privacy.com/developer/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__PRIVACY_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "360930f3b268162ca6ed074c63abbed500a7d62c0bd151b4b469222032e1ebbd"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/24-pull-requests",
+  "name": "24 Pull Requests",
+  "category": "Development",
+  "description": "Project to promote open source collaboration during December",
+  "documentation_url": "https://24pullrequests.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "15912c5660bc9cf26c20d1de96e5297bd333d2ec1e129d2025b135e0de0ba6ce"
+  }
+}

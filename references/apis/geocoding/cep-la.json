@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/cep-la",
+  "name": "Cep.la",
+  "category": "Geocoding",
+  "description": "Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states",
+  "documentation_url": "http://cep.la/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "66d5c4bf5ca14be176018400a04dcbb36862e3ab1e3e902e6d8bab009b75428f"
+  }
+}

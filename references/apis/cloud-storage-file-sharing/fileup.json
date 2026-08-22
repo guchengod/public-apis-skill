@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/fileup",
+  "name": "FileUp",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Temporary file hosting with upload API, expiration times, and view limits",
+  "documentation_url": "https://github.com/RealSinaSnp/FileUp",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "390dac1bd25e2e4da7c26d5d5c2a8955908dfac1f2d428c592ee9b4787743566"
+  }
+}

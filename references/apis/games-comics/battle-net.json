@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/battle-net",
+  "name": "Battle.net",
+  "category": "Games & Comics",
+  "description": "Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs",
+  "documentation_url": "https://develop.battle.net/documentation/guides/getting-started",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__BATTLE_NET__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "960d7f211f7151b5524eade07ee1fecff7889bc527f6016739aab73d9d2943b3"
+  }
+}

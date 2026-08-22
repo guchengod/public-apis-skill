@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/trace-moe",
+  "name": "Trace Moe",
+  "category": "Anime",
+  "description": "A useful tool to get the exact scene of an anime from a screenshot",
+  "documentation_url": "https://soruly.github.io/trace.moe-api/#/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9110dea833ebb2a056925ed2bdfafb7db676904afa70137884824071fbaf26df"
+  }
+}

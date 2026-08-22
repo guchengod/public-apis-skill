@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/sonar",
+  "name": "Sonar",
+  "category": "Development",
+  "description": "Project Sonar DNS Enumeration API",
+  "documentation_url": "https://github.com/Cgboal/SonarSearch",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d43ce6cc7d9d2c8c378b1a55fcb086cf1050c92c885c0124bd5f289a0dda3500"
+  }
+}

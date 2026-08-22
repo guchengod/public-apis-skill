@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/randomduck",
+  "name": "RandomDuck",
+  "category": "Animals",
+  "description": "Random pictures of ducks",
+  "documentation_url": "https://random-d.uk/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "800a21693737390e6e2f64d8112d2d43ec341ac7cc77f98873eaf9bca94124c0"
+  }
+}

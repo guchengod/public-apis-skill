@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/nasdaq-data-link",
+  "name": "Nasdaq Data Link",
+  "category": "Open Data",
+  "description": "Stock market data",
+  "documentation_url": "https://docs.data.nasdaq.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__NASDAQ_DATA_LINK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b3fa08512b3464c689ddc1b61be764d000feef0c6d15bc586236e90afa0144eb"
+  }
+}

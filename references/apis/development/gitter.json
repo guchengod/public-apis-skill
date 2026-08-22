@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/gitter",
+  "name": "Gitter",
+  "category": "Development",
+  "description": "Chat for Developers",
+  "documentation_url": "https://developer.gitter.im/docs/welcome",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GITTER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf25ed094d30f7baf5f11bb8527e99e97a0be6ba2ac8c1c8d3479250c5666887"
+  }
+}

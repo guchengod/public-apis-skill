@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/ayrshare",
+  "name": "Ayrshare",
+  "category": "Social",
+  "description": "Social media APIs to post, get analytics, and manage multiple users social media accounts",
+  "documentation_url": "https://www.ayrshare.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__AYRSHARE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c70d39bde0ca3bca970f4b9730db63458f7e426d0d9120c13e69f35958b103e"
+  }
+}

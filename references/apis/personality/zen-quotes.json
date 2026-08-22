@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/zen-quotes",
+  "name": "Zen Quotes",
+  "category": "Personality",
+  "description": "Large collection of Zen quotes for inspiration",
+  "documentation_url": "https://zenquotes.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3e184f4e2f21aa5200b5ca7a0f77ffcad0e36345919ff50f5eabb4de5986a6e6"
+  }
+}

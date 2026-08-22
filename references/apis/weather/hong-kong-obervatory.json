@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/hong-kong-obervatory",
+  "name": "Hong Kong Obervatory",
+  "category": "Weather",
+  "description": "Provide weather information, earthquake information, and climate data",
+  "documentation_url": "https://www.hko.gov.hk/en/abouthko/opendata_intro.htm",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "372314cc0a8960e3c43283b82e891514ef940929ae34d1342c704b85a4cc30b8"
+  }
+}

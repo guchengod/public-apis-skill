@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/hebrew-calendar",
+  "name": "Hebrew Calendar",
+  "category": "Calendar",
+  "description": "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc",
+  "documentation_url": "https://www.hebcal.com/home/developer-apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f907b60da9e369d195001ebdc23ff5dfa4dea193ed5c373538a6b300c458910"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/inei",
+  "name": "INEI",
+  "category": "Government",
+  "description": "Peruvian Statistical Government Open Data",
+  "documentation_url": "http://iinei.inei.gob.pe/microdatos/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c824d278596e9e88c643c4f51a788f455018eba890282a35b1421b79e86fa0e7"
+  }
+}

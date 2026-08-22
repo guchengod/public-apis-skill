@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/this-person-does-not-exist",
+  "name": "This Person Does not Exist",
+  "category": "Test Data",
+  "description": "Generates real-life faces of people who do not exist",
+  "documentation_url": "https://thispersondoesnotexist.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d3f012f0a2686d867c2ef708144cf696868f1c4a2f52947d292180f0158248d0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-los-angeles-us",
+  "name": "Transport for Los Angeles, US",
+  "category": "Transportation",
+  "description": "Data about positions of Metro vehicles in real time and travel their routes",
+  "documentation_url": "https://developer.metro.net/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c08bed4cff0b61ef75bf1036a15ec6ecf31b2eb69f0db6a9f6533a22a3e6d5a3"
+  }
+}

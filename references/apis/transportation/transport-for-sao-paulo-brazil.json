@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-sao-paulo-brazil",
+  "name": "Transport for Sao Paulo, Brazil",
+  "category": "Transportation",
+  "description": "SPTrans",
+  "documentation_url": "http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_SAO_PAULO_BRAZIL__TOKEN"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4410a07f6761751999aad1d10c1db5475b4110b0aa70e16ce56ecace3a329c8b"
+  }
+}

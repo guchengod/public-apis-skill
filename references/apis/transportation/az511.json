@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/az511",
+  "name": "AZ511",
+  "category": "Transportation",
+  "description": "Access traffic data from the ADOT API",
+  "documentation_url": "https://www.az511.com/developers/doc",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AZ511__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "90957de60a2994612dac3ec0fea5289e9d78e7837f3d738bdba62ffb49a912fe"
+  }
+}

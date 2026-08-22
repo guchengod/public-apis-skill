@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/funtranslations",
+  "name": "FunTranslations",
+  "category": "Games & Comics",
+  "description": "Translate Text into funny languages",
+  "documentation_url": "https://api.funtranslations.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9be2689b3c11a7fd63951d50d29bb43d637e0e443a9781d315a0a9e52f1670dc"
+  }
+}

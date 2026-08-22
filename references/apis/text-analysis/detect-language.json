@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/detect-language",
+  "name": "Detect Language",
+  "category": "Text Analysis",
+  "description": "Detects text language",
+  "documentation_url": "https://detectlanguage.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__DETECT_LANGUAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf1154fdc90b27696c85bffd60452a6fa1323c4bcaef0c1ceef10763a17247af"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-rest",
+  "name": "transport.rest",
+  "category": "Transportation",
+  "description": "Community maintained, developer-friendly public transport API",
+  "documentation_url": "https://transport.rest",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c7f8f0f68172a1f996dc2442454ccb60773911c862a54e920ed8130dfef29ae"
+  }
+}

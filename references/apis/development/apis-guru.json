@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/apis-guru",
+  "name": "APIs.guru",
+  "category": "Development",
+  "description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs",
+  "documentation_url": "https://apis.guru/api-doc/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "66baae037e283fbce851c6ae92d0ffeecbd4de285f3a1b667c5f4f29e402ceca"
+  }
+}

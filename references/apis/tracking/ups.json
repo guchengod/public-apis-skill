@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/ups",
+  "name": "UPS",
+  "category": "Tracking",
+  "description": "Shipment and Address information",
+  "documentation_url": "https://www.ups.com/upsdeveloperkit",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__UPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7f60efe78cfced080b4e60f748f5c5a9ac3765b7ae5fe32a2897b5e5470faea1"
+  }
+}

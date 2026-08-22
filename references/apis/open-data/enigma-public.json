@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/enigma-public",
+  "name": "Enigma Public",
+  "category": "Open Data",
+  "description": "Broadest collection of public data",
+  "documentation_url": "https://developers.enigma.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__ENIGMA_PUBLIC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "afcb709b12e58ecee4f0c4612ea68f0800d64786c47e44641f4b161142aded6b"
+  }
+}

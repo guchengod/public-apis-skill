@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/czech-namedays-calendar",
+  "name": "Czech Namedays Calendar",
+  "category": "Calendar",
+  "description": "Lookup for a name and returns nameday date",
+  "documentation_url": "https://svatky.adresa.info",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0a764bf0695daf35032625d376e47e240323eec03e3becac681fe7543a1e092d"
+  }
+}

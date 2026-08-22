@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/inspiration",
+  "name": "Inspiration",
+  "category": "Personality",
+  "description": "Motivational and Inspirational quotes",
+  "documentation_url": "https://inspiration.goprogram.ai/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9c7bc798fed2b05f444373a1f6bedf70444188041df3033faf7a8daf0faa3112"
+  }
+}

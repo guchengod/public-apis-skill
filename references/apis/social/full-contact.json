@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/full-contact",
+  "name": "Full Contact",
+  "category": "Social",
+  "description": "Get Social Media profiles and contact Information",
+  "documentation_url": "https://docs.fullcontact.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__FULL_CONTACT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "896394bf52612e861ec42be2b900ba463d94d5ea2bcce58a3cae93bed9343293"
+  }
+}

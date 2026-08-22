@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/paralelo-bo",
+  "name": "paralelo.bo",
+  "category": "Currency Exchange",
+  "description": "Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s",
+  "documentation_url": "https://paralelo.bo/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e47c32fc70573ea8892a318218a3dae44ab59555cea2b5757b9e0bb6a5457176"
+  }
+}

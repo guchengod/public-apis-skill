@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/namedays-calendar",
+  "name": "Namedays Calendar",
+  "category": "Calendar",
+  "description": "Provides namedays for multiple countries",
+  "documentation_url": "https://nameday.abalin.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7191b0113b6d5aafbca76431ce1adb6b0caa35387936a5ffb2e12dce1544e494"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/reqres",
+  "name": "ReqRes",
+  "category": "Development",
+  "description": "A hosted REST-API ready to respond to your AJAX requests",
+  "documentation_url": "https://reqres.in/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd37f80a4017831d3cb89e28c9e68fce55f172a943cda2895558d4d97cae180c"
+  }
+}

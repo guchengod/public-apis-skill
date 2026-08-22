@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/bandcamp",
+  "name": "Bandcamp",
+  "category": "Music",
+  "description": "API of Music store Bandcamp",
+  "documentation_url": "https://bandcamp.com/developer",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__BANDCAMP__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ce23ac40a93949ab5dc70a574c64c0384a9ea650bc5d4df0088a51b0ac58980"
+  }
+}

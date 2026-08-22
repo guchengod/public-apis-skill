@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/fooddata-central",
+  "name": "FoodData Central",
+  "category": "Health",
+  "description": "National Nutrient Database for Standard Reference",
+  "documentation_url": "https://fdc.nal.usda.gov/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__FOODDATA_CENTRAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1b4a97664f5c16f7cc28524d32f1f5f6d0103a33974bfea55dd9e016d8844da2"
+  }
+}

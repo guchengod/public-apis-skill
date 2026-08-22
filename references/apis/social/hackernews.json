@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/hackernews",
+  "name": "HackerNews",
+  "category": "Social",
+  "description": "Social news for CS and entrepreneurship",
+  "documentation_url": "https://github.com/HackerNews/API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "790b849c86ff3ef7ce6ff70c5cfd8d13ecb874074dbffc6fb83544d7d4e8e4e0"
+  }
+}

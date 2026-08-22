@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/http-cat",
+  "name": "HTTP Cat",
+  "category": "Animals",
+  "description": "Cat for every HTTP Status",
+  "documentation_url": "https://http.cat/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d577f0eaa96b673525b2f5f550a47cfeeaea703427ff05153390a0530cc2226d"
+  }
+}

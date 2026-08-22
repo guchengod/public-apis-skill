@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/siteintel",
+  "name": "SiteIntel",
+  "category": "Development",
+  "description": "Extract metadata, tech stack, emails, and screenshots from any URL",
+  "documentation_url": "https://siteintel.duckdns.org",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SITEINTEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b512cc684c689d9c56c71da9886bcab2b468ce06a710c2e9d12b752e17dd95a6"
+  }
+}

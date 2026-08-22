@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/aylien-text-analysis",
+  "name": "Aylien Text Analysis",
+  "category": "Text Analysis",
+  "description": "A collection of information retrieval and natural language APIs",
+  "documentation_url": "https://docs.aylien.com/textapi/#getting-started",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__AYLIEN_TEXT_ANALYSIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98733528a5cab9e6dad724820983cb4472e26c37c6f2ee0d3cc8fd1154864a72"
+  }
+}

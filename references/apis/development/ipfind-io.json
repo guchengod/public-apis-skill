@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ipfind-io",
+  "name": "ipfind.io",
+  "category": "Development",
+  "description": "Geographic location of an IP address or any domain name along with some other useful information",
+  "documentation_url": "https://ipfind.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IPFIND_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "efde12338239d7412e04601f42e65b5b6e6c71e797b86d8f1ec6ede21c3240d4"
+  }
+}

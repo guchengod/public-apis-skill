@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "art-design/dribbble",
+  "name": "Dribbble",
+  "category": "Art & Design",
+  "description": "Discover the world’s top designers & creatives",
+  "documentation_url": "https://developer.dribbble.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ART_DESIGN__DRIBBBLE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5cedad62703bd1a6548c7641882273cf66c4a7e2c7f43123eeba56c630f246e8"
+  }
+}

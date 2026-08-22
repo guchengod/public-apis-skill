@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipgeo",
+  "name": "IPGEO",
+  "category": "Geocoding",
+  "description": "Unlimited free IP Address API with useful information",
+  "documentation_url": "https://api.techniknews.net/ipgeo/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c45ec0bcd6fde7b6acd6bcbe23565a083e881120f05543337e4d3ae8c28692c"
+  }
+}

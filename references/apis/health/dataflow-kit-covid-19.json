@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/dataflow-kit-covid-19",
+  "name": "Dataflow Kit COVID-19",
+  "category": "Health",
+  "description": "COVID-19 live statistics into sites per hour",
+  "documentation_url": "https://covid-19.dataflowkit.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "413caf06cfbf3246269147f31171c2769686d8cf37276d87be1dc0f0ba6ad844"
+  }
+}

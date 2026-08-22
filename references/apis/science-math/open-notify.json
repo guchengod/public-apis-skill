@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/open-notify",
+  "name": "Open Notify",
+  "category": "Science & Math",
+  "description": "ISS astronauts, current location, etc",
+  "documentation_url": "http://open-notify.org/Open-Notify-API/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f240c1de570e6a6618ed8342616974405b4b823d92e63d1f21f983ebeecdc3ac"
+  }
+}

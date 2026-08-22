@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/callook-info",
+  "name": "Callook.info",
+  "category": "Open Data",
+  "description": "United States ham radio callsigns",
+  "documentation_url": "https://callook.info",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1c913d5e836e51fa061aa9d339e20798a1a21883a53214d99dbfbfc50f3f210"
+  }
+}

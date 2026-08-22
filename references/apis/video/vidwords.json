@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/vidwords",
+  "name": "VidWords",
+  "category": "Video",
+  "description": "YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis",
+  "documentation_url": "https://vidwords.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__VIDWORDS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7953bb09a4c9f4736492264285b55ba380f22a41c71ce7eb8f865057f7d4c76c"
+  }
+}

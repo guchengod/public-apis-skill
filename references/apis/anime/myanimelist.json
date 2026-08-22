@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "anime/myanimelist",
+  "name": "MyAnimeList",
+  "category": "Anime",
+  "description": "Anime and Manga Database and Community",
+  "documentation_url": "https://myanimelist.net/clubs.php?cid=13727",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ANIME__MYANIMELIST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9b5c4a591cd7f8042f77f73143e711ca9d7c602d21ce58bbfd91cdf626f0d7e5"
+  }
+}

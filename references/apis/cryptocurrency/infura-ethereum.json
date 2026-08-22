@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/infura-ethereum",
+  "name": "INFURA Ethereum",
+  "category": "Cryptocurrency",
+  "description": "Interaction with the Ethereum mainnet and several testnets",
+  "documentation_url": "https://infura.io/product/ethereum",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__INFURA_ETHEREUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "04085d7730881c80b1236f0c6a268f0d3d74da043b481f4712fa140979294603"
+  }
+}

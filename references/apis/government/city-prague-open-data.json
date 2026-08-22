@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-prague-open-data",
+  "name": "City, Prague Open Data",
+  "category": "Government",
+  "description": "Prague(CZ) City Open Data",
+  "documentation_url": "http://opendata.praha.eu/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dfc7643fcc46c56fe54d684ae51e798c152e1f944e317858a6d322989c98b797"
+  }
+}

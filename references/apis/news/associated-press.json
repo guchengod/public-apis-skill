@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/associated-press",
+  "name": "Associated Press",
+  "category": "News",
+  "description": "Search for news and metadata from Associated Press",
+  "documentation_url": "https://developer.ap.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__ASSOCIATED_PRESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9249281d1c776a44d915e6033659a606839b3324db6bb0d07610578757e55fe0"
+  }
+}

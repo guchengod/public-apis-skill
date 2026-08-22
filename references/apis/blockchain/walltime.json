@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/walltime",
+  "name": "Walltime",
+  "category": "Blockchain",
+  "description": "To retrieve Walltime's market info",
+  "documentation_url": "https://walltime.info/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03a001e2d44ce9019c7f1737c7f46272423c76078e7f0aca2faef18aa5b20a9f"
+  }
+}

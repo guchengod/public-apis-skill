@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/pokeapi-graphql",
+  "name": "PokéAPI (GraphQL)",
+  "category": "Games & Comics",
+  "description": "The Unofficial GraphQL for PokeAPI",
+  "documentation_url": "https://github.com/mazipan/graphql-pokeapi",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c1bb14d625dbf3d669f879dd78294bec5df53329bc9b0a3221d82d7fd3f567b"
+  }
+}

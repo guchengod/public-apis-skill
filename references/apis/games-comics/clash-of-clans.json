@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/clash-of-clans",
+  "name": "Clash of Clans",
+  "category": "Games & Comics",
+  "description": "Clash of Clans Game Information",
+  "documentation_url": "https://developer.clashofclans.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__CLASH_OF_CLANS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "387eb2f495b5187adbcf20aac46c7d64f680a90e4572daa7f4e08e08e6739ac4"
+  }
+}

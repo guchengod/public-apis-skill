@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/vk",
+  "name": "vk",
+  "category": "Social",
+  "description": "Read and write vk data",
+  "documentation_url": "https://vk.com/dev/sites",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__VK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa3848dee9236128ba06821c64043107c82466cdc59ffabd3d9d177ca4fc0354"
+  }
+}

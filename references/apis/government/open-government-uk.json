@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-uk",
+  "name": "Open Government, UK",
+  "category": "Government",
+  "description": "UK Government Open Data",
+  "documentation_url": "https://data.gov.uk/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c97c346acb9cce5bf0bc7ca30935d41c601084df73692cb0259a5fd8e53e1b21"
+  }
+}

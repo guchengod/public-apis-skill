@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "personality/medium",
+  "name": "Medium",
+  "category": "Personality",
+  "description": "Community of readers and writers offering unique perspectives on ideas",
+  "documentation_url": "https://github.com/Medium/medium-api-docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PERSONALITY__MEDIUM__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fbca30d521c93754037346e9d156d05f0b3422cf42332bcf4e6579a32d7346e"
+  }
+}

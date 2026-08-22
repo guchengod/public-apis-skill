@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/skybiometry",
+  "name": "SkyBiometry",
+  "category": "Machine Learning",
+  "description": "Face Detection, Face Recognition and Face Grouping",
+  "documentation_url": "https://skybiometry.com/documentation/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__SKYBIOMETRY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c373967f0ffa9c8d514eeb99dee76c50f7a5c5e6e7c946fde1d08be85d387fb1"
+  }
+}

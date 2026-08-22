@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "anime/aniapi",
+  "name": "AniAPI",
+  "category": "Anime",
+  "description": "Anime discovery, streaming & syncing with trackers",
+  "documentation_url": "https://aniapi.com/docs/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ANIME__ANIAPI__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6aa78b230990097e7b9bffb73ee0f958001aee7091c26d90644c5c782d5e9965"
+  }
+}

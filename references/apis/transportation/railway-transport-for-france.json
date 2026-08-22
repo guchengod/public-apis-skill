@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/railway-transport-for-france",
+  "name": "Railway Transport for France",
+  "category": "Transportation",
+  "description": "SNCF public API",
+  "documentation_url": "https://www.digital.sncf.com/startup/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__RAILWAY_TRANSPORT_FOR_FRANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "669b93545fbb7ed8614cafdf10b23e623b8f4185363d085e8e67d4f0c8733e30"
+  }
+}

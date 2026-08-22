@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/halo",
+  "name": "Halo",
+  "category": "Games & Comics",
+  "description": "Halo 5 and Halo Wars 2 Information",
+  "documentation_url": "https://developer.haloapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__HALO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6b36e5ee40d64e173f088aa9c4699fcf8a91461356d777c086ea6f64de85d2dc"
+  }
+}

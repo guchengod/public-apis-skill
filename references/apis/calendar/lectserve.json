@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/lectserve",
+  "name": "LectServe",
+  "category": "Calendar",
+  "description": "Protestant liturgical calendar",
+  "documentation_url": "http://www.lectserve.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d914b3514c97506d6844e0386f1bc09aa33ff58e6326753106a76507c2b5349"
+  }
+}

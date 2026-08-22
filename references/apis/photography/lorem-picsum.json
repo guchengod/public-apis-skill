@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/lorem-picsum",
+  "name": "Lorem Picsum",
+  "category": "Photography",
+  "description": "Images from Unsplash",
+  "documentation_url": "https://picsum.photos/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd8d066336fc0689c326629edbdd8541c6040f9b047f0d4600921ffd520c0516"
+  }
+}

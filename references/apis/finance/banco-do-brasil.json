@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "finance/banco-do-brasil",
+  "name": "Banco do Brasil",
+  "category": "Finance",
+  "description": "All Banco do Brasil financial transaction APIs",
+  "documentation_url": "https://developers.bb.com.br/home",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__FINANCE__BANCO_DO_BRASIL__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9521df929b157a1e18e8c66909468f6112c75f83c605037a83550cb25a970202"
+  }
+}

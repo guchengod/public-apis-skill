@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/premier-league-standings",
+  "name": "Premier League Standings",
+  "category": "Sports & Fitness",
+  "description": "All Current Premier League Standings and Statistics",
+  "documentation_url": "https://rapidapi.com/heisenbug/api/premier-league-live-scores/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PREMIER_LEAGUE_STANDINGS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "02753b22489b06c9f2f314ba940ecd27fc609cf4720aa07976fd66031ea8bd74"
+  }
+}

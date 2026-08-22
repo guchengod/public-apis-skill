@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/digimon-information",
+  "name": "Digimon Information",
+  "category": "Games & Comics",
+  "description": "Provides information about digimon creatures",
+  "documentation_url": "https://digimon-api.vercel.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56adc60faa0cff5c8499d9a98f78ea9b1b1135c079cf79127febf9d9eb7cdfdb"
+  }
+}

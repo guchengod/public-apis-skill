@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/csr-plus",
+  "name": "CSR.plus",
+  "category": "Security",
+  "description": "Generate certificate signing requests and private keys without OpenSSL",
+  "documentation_url": "https://csr.plus/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "972dccd2186b1403254a9ec1fd43310e3344161f5f4b6a7bb6e17c36368f32d6"
+  }
+}

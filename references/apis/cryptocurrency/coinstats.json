@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinstats",
+  "name": "CoinStats",
+  "category": "Cryptocurrency",
+  "description": "Crypto Tracker",
+  "documentation_url": "https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c750dbcdf067ce15a8838a1d550181007b4e996678a3b577aa63ad36019db70d"
+  }
+}

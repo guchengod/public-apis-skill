@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "events/ticketmaster",
+  "name": "Ticketmaster",
+  "category": "Events",
+  "description": "Search events, attractions, or venues",
+  "documentation_url": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EVENTS__TICKETMASTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7053f53fef38e70b59b73df35634063a8b290f207ce67b7f3a72cb4320b28d97"
+  }
+}

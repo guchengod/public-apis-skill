@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/pirate-weather",
+  "name": "Pirate Weather",
+  "category": "Weather",
+  "description": "Free weather API with forecast data similar to Dark Sky",
+  "documentation_url": "https://pirateweather.net/en/latest/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "636251a52ce101c4ce6f8a5ebb19a3a4797180c6b461795cafea59cd7e9cf1bf"
+  }
+}

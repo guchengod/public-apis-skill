@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/sabre-for-developers",
+  "name": "Sabre for Developers",
+  "category": "Transportation",
+  "description": "Travel Search - Limited usage",
+  "documentation_url": "https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__SABRE_FOR_DEVELOPERS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59bd58b34dae348e48fc0ab2b75e304e8e826564a68ec8d86a7fc7bc8bf440cc"
+  }
+}

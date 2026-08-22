@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/hunter",
+  "name": "Hunter",
+  "category": "Development",
+  "description": "API for domain search, professional email finder, author finder and email verifier",
+  "documentation_url": "https://hunter.io/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__HUNTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e268c917834a57099c909e3ac1ddf474146f50ca82b9260a1f659a21d55c8fad"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptapi",
+  "name": "CryptAPI",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Payment Processor",
+  "documentation_url": "https://docs.cryptapi.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ccef35660ec63c962c6e25504ca54460cc0370bc8ba0cfaef44263d3bc45260b"
+  }
+}

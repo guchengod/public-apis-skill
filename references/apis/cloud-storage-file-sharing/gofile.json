@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/gofile",
+  "name": "GoFile",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Unlimited size file uploads for free",
+  "documentation_url": "https://gofile.io/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__GOFILE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9c70e6effeaac40d58c9d83973903b473942d9aea49e4679611b91fb97b88749"
+  }
+}

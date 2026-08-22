@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/inspirehep-net",
+  "name": "inspirehep.net",
+  "category": "Science & Math",
+  "description": "High Energy Physics info. system",
+  "documentation_url": "https://github.com/inspirehep/rest-api-doc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "06b5eeacf449caae5a801ebb699d1bab525dc636c1876f926ee8d085c087fe08"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geokeo",
+  "name": "Geokeo",
+  "category": "Geocoding",
+  "description": "Geokeo geocoding service- with 2500 free api requests daily",
+  "documentation_url": "https://geokeo.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "02c921a7385ac86ca3d7190fd3f5e697ecb3ab238d0cc2cb39c42d8306b5bdd3"
+  }
+}

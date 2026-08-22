@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/top-5-stocks",
+  "name": "Top 5 Stocks",
+  "category": "Finance",
+  "description": "Daily AI-ranked stock and crypto watchlists",
+  "documentation_url": "https://top5stocks.netlify.app/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "844a8de8819ac6ca932e36d210167dd5675089761dd9136a4b7eeecc21bc5e81"
+  }
+}

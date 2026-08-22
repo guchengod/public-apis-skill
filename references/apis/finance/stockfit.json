@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/stockfit",
+  "name": "StockFit",
+  "category": "Finance",
+  "description": "SEC filings, financial statements, earnings, ETF holdings and ownership data",
+  "documentation_url": "https://api.stockfit.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__STOCKFIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8be18ea7d8f9af6176207bc18b12275c05fb73f9d40f330e9fb30da9354606f3"
+  }
+}

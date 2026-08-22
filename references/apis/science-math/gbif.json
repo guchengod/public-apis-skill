@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/gbif",
+  "name": "GBIF",
+  "category": "Science & Math",
+  "description": "Global Biodiversity Information Facility",
+  "documentation_url": "https://www.gbif.org/developer/summary",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c1d598c16189057d7fdfa94d31d5b91cc75ca84b62601a9d7a1a859f15753ee"
+  }
+}

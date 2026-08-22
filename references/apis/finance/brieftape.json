@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/brieftape",
+  "name": "BriefTape",
+  "category": "Finance",
+  "description": "Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged",
+  "documentation_url": "https://brieftape.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__BRIEFTAPE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f33cd5d0540925bcffa534ad4ed5bbae378c511e9a2f4766f42e876c6bc8f26c"
+  }
+}

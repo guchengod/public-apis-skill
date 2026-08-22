@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/supportivekoala",
+  "name": "Supportivekoala",
+  "category": "Development",
+  "description": "Autogenerate images with template",
+  "documentation_url": "https://developers.supportivekoala.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SUPPORTIVEKOALA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d50414d43757599598a866b79ba7014288e8ea6fd0e3ce39cb44f12f1c6ca2f8"
+  }
+}

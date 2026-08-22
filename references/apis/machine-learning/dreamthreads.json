@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/dreamthreads",
+  "name": "DreamThreads",
+  "category": "Machine Learning",
+  "description": "Parse dreams into structured entities, emotions, agency, threat, and outcomes",
+  "documentation_url": "https://mydreamthreads.xyz/dream-interpretation-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b1f8fa847c91d2525543df8a56ddc77fd2693d6e425708c6ccce0a013443cf4"
+  }
+}

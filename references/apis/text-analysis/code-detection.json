@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/code-detection",
+  "name": "Code Detection",
+  "category": "Text Analysis",
+  "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
+  "documentation_url": "https://codedetectionapi.runtime.dev",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__CODE_DETECTION__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3d51df73b60f476a6c474441e1589f52e4d465394de196b9da0989f0fd288317"
+  }
+}

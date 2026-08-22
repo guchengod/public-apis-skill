@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geocodify-com",
+  "name": "Geocodify.com",
+  "category": "Geocoding",
+  "description": "Worldwide geocoding, geoparsing and autocomplete for addresses",
+  "documentation_url": "https://geocodify.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__GEOCODIFY_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a384be823a04ab712eec577381706b220b2812031081f1416295e33c428a994e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/scoop-it",
+  "name": "Scoop.it",
+  "category": "Open Data",
+  "description": "Content Curation Service",
+  "documentation_url": "http://www.scoop.it/dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__SCOOP_IT__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73bf136f5abee01b3bf188b99d3d454df48d8e0f7e2515a01b948df4c596247a"
+  }
+}

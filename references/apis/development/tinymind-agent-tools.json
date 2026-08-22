@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/tinymind-agent-tools",
+  "name": "TinyMind Agent Tools",
+  "category": "Development",
+  "description": "Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping",
+  "documentation_url": "https://tinymind.eu/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "670ed0bdff9490d47f9c9466b678c834f8b20a142044f2a6255a509eecf6d0bd"
+  }
+}

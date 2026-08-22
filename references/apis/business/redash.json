@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/redash",
+  "name": "Redash",
+  "category": "Business",
+  "description": "Access your queries and dashboards on Redash",
+  "documentation_url": "https://redash.io/help/user-guide/integrations-and-api/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__REDASH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4b52d949e36ad2ea4bd4885294944aebd7cddb43e267854b1a4769a90dff9bb0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/todoist",
+  "name": "Todoist",
+  "category": "Documents & Productivity",
+  "description": "Todo Lists",
+  "documentation_url": "https://developer.todoist.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__TODOIST__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "28fbbbbb40f1ef2671dfc31ae1cbeab2b666775e90ffdac8a82c87141ce59212"
+  }
+}

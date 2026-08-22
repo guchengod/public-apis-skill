@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/kucoin",
+  "name": "KuCoin",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Trading Platform",
+  "documentation_url": "https://docs.kucoin.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__KUCOIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ec179395ec5d97b4759f70e992b0ac56645099d714b262c34c99d53cf61b2c8"
+  }
+}

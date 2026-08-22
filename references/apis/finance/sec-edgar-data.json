@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/sec-edgar-data",
+  "name": "SEC EDGAR Data",
+  "category": "Finance",
+  "description": "API to access annual reports of public US companies",
+  "documentation_url": "https://www.sec.gov/edgar/sec-api-documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2463e29c4e0291cf50bfb0122b23d592e29228633a005d58c6057b6a4e12a5ea"
+  }
+}

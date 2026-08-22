@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/spanish-random-words",
+  "name": "Spanish random words",
+  "category": "Test Data",
+  "description": "Generate spanish words randomly",
+  "documentation_url": "https://palabras-aleatorias-public-api.herokuapp.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ca90afdebe7dd27ffa11c704c2028991f2af77f168682958bd8a052499f999bf"
+  }
+}

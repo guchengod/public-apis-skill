@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/email-validation",
+  "name": "Email Validation",
+  "category": "Email",
+  "description": "Validate email addresses for deliverability and spam",
+  "documentation_url": "https://www.abstractapi.com/email-verification-validation-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__EMAIL_VALIDATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dda52d31bb0ed93af3ea1eae5c889f000317774652b0bd4ed94c384f6fe7f8eb"
+  }
+}

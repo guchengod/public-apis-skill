@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/hashable",
+  "name": "Hashable",
+  "category": "Security",
+  "description": "A REST API to access high level cryptographic functions and methods",
+  "documentation_url": "https://hashable.space/pages/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2789f49da23264ede9e66dc9b2fe951152321fd30c3d42413dc080e7de490aa1"
+  }
+}

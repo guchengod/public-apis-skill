@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/blockscout",
+  "name": "Blockscout",
+  "category": "Blockchain",
+  "description": "Multichain block explorer REST API (with Etherscan-compatible JSON-RPC)",
+  "documentation_url": "https://dev.blockscout.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__BLOCKSCOUT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ac514f348235342c365fab512f78e6a32d9623043f527cf7bfa7e6f6fd49258"
+  }
+}

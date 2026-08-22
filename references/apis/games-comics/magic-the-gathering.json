@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/magic-the-gathering",
+  "name": "Magic The Gathering",
+  "category": "Games & Comics",
+  "description": "Magic The Gathering Game Information",
+  "documentation_url": "http://magicthegathering.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9cf6bc644b109fedcc8c1e99b9883a7bd8ea7a6f3b096ed7a13e91dfa21a3054"
+  }
+}

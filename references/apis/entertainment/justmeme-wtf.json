@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/justmeme-wtf",
+  "name": "justmeme.wtf",
+  "category": "Entertainment",
+  "description": "Free meme API with 2400+ templates, search, trending, and AI generation",
+  "documentation_url": "https://justmeme.wtf/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ead919a3f443fa8b9fc4ea6fdfbd280200d50f88112e298f14f13afe7ea2082e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/mercadobitcoin",
+  "name": "MercadoBitcoin",
+  "category": "Cryptocurrency",
+  "description": "Brazilian Cryptocurrency Information",
+  "documentation_url": "https://www.mercadobitcoin.com.br/api-doc/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d99187688fb3b19b57803e66bbf3553d4c68b5236fec9c38027e4ade03a605c"
+  }
+}

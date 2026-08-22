@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/descripio-amazon-reviews",
+  "name": "Descripio Amazon Reviews",
+  "category": "Shopping",
+  "description": "Amazon product reviews for 12 marketplaces",
+  "documentation_url": "https://docs.descripio.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__DESCRIPIO_AMAZON_REVIEWS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a8537e3c66fd8cb911848b153ad010f8af2c913ffc1c7c99d91be2d0d5d8bb25"
+  }
+}

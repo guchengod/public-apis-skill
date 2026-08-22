@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "art-design/noun-project",
+  "name": "Noun Project",
+  "category": "Art & Design",
+  "description": "Icons",
+  "documentation_url": "http://api.thenounproject.com/index.html",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ART_DESIGN__NOUN_PROJECT__TOKEN"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5f6579a0d0934210ac11596e301e711007c5e964179887d7c5bcd053c4009b79"
+  }
+}

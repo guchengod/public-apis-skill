@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/image-upload",
+  "name": "Image Upload",
+  "category": "Photography",
+  "description": "Image Optimization",
+  "documentation_url": "https://apilayer.com/marketplace/image_upload-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__IMAGE_UPLOAD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "861df7bf85867dfffbafbda80d2cf0cbfcc0fd4a15729a531729e7e4f6abdcbf"
+  }
+}

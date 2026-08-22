@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/tallytopia",
+  "name": "Tallytopia",
+  "category": "Science & Math",
+  "description": "Calculators for finance, health, math, space and sports with step-by-step results",
+  "documentation_url": "https://tallytopia.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95d4842f235a2c2a60d9334514d77b73a2004fe2926aeb482a4dc79b72eb8841"
+  }
+}

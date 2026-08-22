@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/funding-signals",
+  "name": "Funding Signals",
+  "category": "Business",
+  "description": "Companies that just raised funding, scored as sales leads, from public SEC filings",
+  "documentation_url": "https://fundingsignals.net/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__FUNDING_SIGNALS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3ea6032eb88175382e9e55ae8bca82c4d4104868f9d048094c3324dddcfdb782"
+  }
+}

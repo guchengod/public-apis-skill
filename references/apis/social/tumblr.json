@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/tumblr",
+  "name": "Tumblr",
+  "category": "Social",
+  "description": "Read and write Tumblr Data",
+  "documentation_url": "https://www.tumblr.com/docs/en/api/v2",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TUMBLR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "847de27855afc8b2275a00aba293ad70a2dc3489ba398c4a15e60bb166fdeb4f"
+  }
+}

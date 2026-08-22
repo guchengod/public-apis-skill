@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/cosmyday-astrology",
+  "name": "CosmyDay Astrology",
+  "category": "Entertainment",
+  "description": "Natal charts and sky events computed from Swiss Ephemeris",
+  "documentation_url": "https://cosmyday.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8924841c2511d8584d329a9d6b8f439d1cc5072db24268e2f615736ed318966e"
+  }
+}

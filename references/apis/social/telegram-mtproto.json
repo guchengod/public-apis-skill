@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/telegram-mtproto",
+  "name": "Telegram MTProto",
+  "category": "Social",
+  "description": "Read and write Telegram data",
+  "documentation_url": "https://core.telegram.org/api#getting-started",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TELEGRAM_MTPROTO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "728955c1221bc7333e3d998a33ea607c6a66b279597a875271eaf4329b823d74"
+  }
+}

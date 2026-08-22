@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/quote-garden",
+  "name": "Quote Garden",
+  "category": "Personality",
+  "description": "REST API for more than 5000 famous quotes",
+  "documentation_url": "https://pprathameshmore.github.io/QuoteGarden/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4b253cb3d806dbd4b5755318eb7aed108b71d85e24b9c12a1c3d2493e02fa0de"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geoapi",
+  "name": "GeoApi",
+  "category": "Geocoding",
+  "description": "French geographical data",
+  "documentation_url": "https://api.gouv.fr/api/geoapi.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "368c191a81e891a01545ca651ae7d069925e1b1d20f6fe958625bf31d14fe4d9"
+  }
+}

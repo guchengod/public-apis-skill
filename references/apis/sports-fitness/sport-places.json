@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sport-places",
+  "name": "Sport Places",
+  "category": "Sports & Fitness",
+  "description": "Crowd-source sports places around the world",
+  "documentation_url": "https://developers.decathlon.com/products/sport-places",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63e7c70e38fc421572d43162954ce1189253db06707a626391c720fe210c0686"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/smartcar",
+  "name": "Smartcar",
+  "category": "Vehicle",
+  "description": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars",
+  "documentation_url": "https://smartcar.com/docs/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__VEHICLE__SMARTCAR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c931bf32ad584bb8c5dcbdd4a9e1a9dba93f67b668376a0c9c651d8d4c8e2300"
+  }
+}

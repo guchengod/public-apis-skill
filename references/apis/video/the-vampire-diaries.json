@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/the-vampire-diaries",
+  "name": "The Vampire Diaries",
+  "category": "Video",
+  "description": "TV Show Data",
+  "documentation_url": "https://vampire-diaries-api.netlify.app/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__THE_VAMPIRE_DIARIES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f61bbc0044201716f72459bf425fcb253effa748523210cebd0fef981027679"
+  }
+}

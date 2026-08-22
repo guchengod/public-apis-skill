@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/punkapi",
+  "name": "PunkAPI",
+  "category": "Food & Drink",
+  "description": "Brewdog Beer Recipes",
+  "documentation_url": "https://punkapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4854b3cc3fa83e59a161c9cd121174ab7ec8bbc89e0b64b47185ea7b991e2507"
+  }
+}

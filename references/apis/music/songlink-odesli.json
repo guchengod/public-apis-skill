@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/songlink-odesli",
+  "name": "Songlink / Odesli",
+  "category": "Music",
+  "description": "Get all the services on which a song is available",
+  "documentation_url": "https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__SONGLINK_ODESLI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c22e29b0682092ade0c92a85e12b4c5b5da69502ebb4749f65624c323674cc6f"
+  }
+}

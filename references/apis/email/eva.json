@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/eva",
+  "name": "EVA",
+  "category": "Email",
+  "description": "Validate email addresses",
+  "documentation_url": "https://eva.pingutil.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8656d57e1918ace2094214322cc4dc1bd3a64ea130e0a3f9c84f5b71de67a4d7"
+  }
+}

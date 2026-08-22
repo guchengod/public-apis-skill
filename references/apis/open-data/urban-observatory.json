@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/urban-observatory",
+  "name": "Urban Observatory",
+  "category": "Open Data",
+  "description": "The largest set of publicly available real time urban data in the UK",
+  "documentation_url": "https://urbanobservatory.ac.uk",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c9e00da9ff52f14809b6ad1b0dadece4712958fca2c932649206f18b7e66923"
+  }
+}

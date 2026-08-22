@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-philippines",
+  "name": "Covid-19 Philippines",
+  "category": "Health",
+  "description": "Unofficial Covid-19 Web API for Philippines from data collected by DOH",
+  "documentation_url": "https://github.com/Simperfy/Covid-19-API-Philippines-DOH",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6a3589c9c8c337292a96297fc7bcd27499b61d8cfe10632011a05f53550ba614"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/ecourtsindia",
+  "name": "eCourtsIndia",
+  "category": "Government",
+  "description": "Indian court case status, judgments, and hearing schedule API",
+  "documentation_url": "https://ecourtsindia.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__ECOURTSINDIA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f12e2d1980cf1581d57b69a4e1769f60fc9e6d312601d14ffa8b1627f70addd5"
+  }
+}

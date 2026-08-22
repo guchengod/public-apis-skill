@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/usgs-water-services",
+  "name": "USGS Water Services",
+  "category": "Science & Math",
+  "description": "Water quality and level info for rivers and lakes",
+  "documentation_url": "https://waterservices.usgs.gov/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2b944b6fe70540e30c2280f4f6d8631327229c64dc80b764862cb5ad1f0f1fd6"
+  }
+}

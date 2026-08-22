@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/photoroom",
+  "name": "PhotoRoom",
+  "category": "Photography",
+  "description": "Remove background from images",
+  "documentation_url": "https://www.photoroom.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__PHOTOROOM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cd881cba61bf6571d4701d23a45e997f08f0c317934ab3d30e217db5f652832c"
+  }
+}

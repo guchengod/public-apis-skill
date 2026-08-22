@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/okex",
+  "name": "OKEx",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency exchange based in Seychelles",
+  "documentation_url": "https://www.okex.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__OKEX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d69c7d2352b79ef7a0e5d50793a39a8dc2b6c7b7365bf03a2036bd4d342eb365"
+  }
+}

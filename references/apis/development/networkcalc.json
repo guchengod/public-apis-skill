@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/networkcalc",
+  "name": "NetworkCalc",
+  "category": "Development",
+  "description": "Network calculators, including subnets, DNS, binary, and security tools",
+  "documentation_url": "https://networkcalc.com/api/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a1323d675f5a4dad4d8a718728319cd3f8c4d862eeb7acfc7a16a9d4f1a960b2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/mixcloud",
+  "name": "Mixcloud",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://www.mixcloud.com/developers/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__MIXCLOUD__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98f0757d24e96afc708214cf36462a1bc0389cc3d0013df182da92d51ef8a191"
+  }
+}

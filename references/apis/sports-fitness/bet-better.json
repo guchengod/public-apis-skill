@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/bet-better",
+  "name": "Bet Better",
+  "category": "Sports & Fitness",
+  "description": "Sports model win probabilities and fair odds across 13 leagues",
+  "documentation_url": "https://betbetter.world/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4eb0a2f8563661b4dc07ea254b9c469cf18a93fd65e90d5a2dc4a4cfb99fe5cd"
+  }
+}

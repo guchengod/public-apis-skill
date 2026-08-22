@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/telegram-bot",
+  "name": "Telegram Bot",
+  "category": "Social",
+  "description": "Simplified HTTP version of the MTProto API for bots",
+  "documentation_url": "https://core.telegram.org/bots/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TELEGRAM_BOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c340b7825799bd5abc4394cbbf709eeed849803aa4382279440f8f37ae987fef"
+  }
+}

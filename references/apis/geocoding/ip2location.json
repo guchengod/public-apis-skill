@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip2location",
+  "name": "IP2Location",
+  "category": "Geocoding",
+  "description": "IP geolocation web service to get more than 55 parameters",
+  "documentation_url": "https://www.ip2location.com/web-service/ip2location",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IP2LOCATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c8f62930af3504662666cd870052b95fe0c4849488ce422def934e9213a65515"
+  }
+}

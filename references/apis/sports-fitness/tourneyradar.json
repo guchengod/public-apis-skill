@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/tourneyradar",
+  "name": "TourneyRadar",
+  "category": "Sports & Fitness",
+  "description": "Upcoming chess tournaments from 140+ national federations worldwide",
+  "documentation_url": "https://tourneyradar-api.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0769557cc91d0ca7cc374ede42d8e126bf120c4d2c0987649b22d8f32a96efb2"
+  }
+}

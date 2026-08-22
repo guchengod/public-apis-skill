@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/indian-pincode",
+  "name": "Indian Pincode",
+  "category": "Government",
+  "description": "Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data",
+  "documentation_url": "https://indianpincode.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ad979d5a3c499e4812c9d53dc84e980367ed54ab937f064534c23f9fc3634ae9"
+  }
+}

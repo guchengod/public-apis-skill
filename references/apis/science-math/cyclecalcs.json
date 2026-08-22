@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/cyclecalcs",
+  "name": "CycleCalcs",
+  "category": "Science & Math",
+  "description": "Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons",
+  "documentation_url": "https://www.cyclecalcs.com/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "27c032e9faa5e39a8ea308fe8662c27c318e65ed1bf4351896d993f3e0fa0891"
+  }
+}

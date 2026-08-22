@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinlore",
+  "name": "Coinlore",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies prices, volume and more",
+  "documentation_url": "https://www.coinlore.com/cryptocurrency-data-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1cf4bf3e4ac5254fa0f7f7b2dcfea8dd1dbb642dc942560d8da2490870c0addf"
+  }
+}

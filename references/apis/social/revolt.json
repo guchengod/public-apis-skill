@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/revolt",
+  "name": "Revolt",
+  "category": "Social",
+  "description": "Revolt open source Discord alternative",
+  "documentation_url": "https://developers.revolt.chat/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__REVOLT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "68f9ba56a223582b36066e526f5f2535d7ed0a3be7bd6dbc6a38d4c868811c7f"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "books/bhagavad-gita--b60b866b",
+  "name": "Bhagavad Gita",
+  "category": "Books",
+  "description": "Bhagavad Gita text",
+  "documentation_url": "https://bhagavadgita.io/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BOOKS__BHAGAVAD_GITA__B60B866B__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9c364606534553e420d6f34555efecf4a065aa05a348218f7c82e87c5d811da9"
+  }
+}

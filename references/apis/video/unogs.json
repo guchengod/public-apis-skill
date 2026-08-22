@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/unogs",
+  "name": "uNoGS",
+  "category": "Video",
+  "description": "Unofficial Netflix Online Global Search, Search all netflix regions in one place",
+  "documentation_url": "https://rapidapi.com/unogs/api/unogsng",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__UNOGS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f811620aca4045b229f957bcecfbaa96074c5922735d48908d7e6c226a4bd6dd"
+  }
+}

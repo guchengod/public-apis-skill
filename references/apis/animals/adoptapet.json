@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "animals/adoptapet",
+  "name": "AdoptAPet",
+  "category": "Animals",
+  "description": "Resource to help get pets adopted",
+  "documentation_url": "https://www.adoptapet.com/public/apis/pet_list.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIMALS__ADOPTAPET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e2f4828bc76af75319755f77dec9114df94c878c3e81f095660b22789da00262"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "phone/numlookup",
+  "name": "Numlookup",
+  "category": "Phone",
+  "description": "Phone number validation and carrier lookup API with global coverage",
+  "documentation_url": "https://numlookupapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHONE__NUMLOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4420e6c1831677e985fbeb3069b02c01d6ab20d69249ea49d8d3e9ecaf4fd149"
+  }
+}

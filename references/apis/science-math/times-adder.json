@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/times-adder",
+  "name": "Times Adder",
+  "category": "Science & Math",
+  "description": "With this API you can add each of the times introduced in the array sended",
+  "documentation_url": "https://github.com/FranP-code/API-Times-Adder",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e3c7ee3b59be64b2a6d37a688915470a1e54c7d0a325d8ac7cc5f988cad44a6"
+  }
+}

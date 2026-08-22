@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scraperapi",
+  "name": "ScraperApi",
+  "category": "Development",
+  "description": "Easily build scalable web scrapers",
+  "documentation_url": "https://www.scraperapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPERAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88384dda7bb8a80db3f2ab6cee4a2cc61526738bba0625bf5f15a59adde9f404"
+  }
+}

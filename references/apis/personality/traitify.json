@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/traitify",
+  "name": "Traitify",
+  "category": "Personality",
+  "description": "Assess, collect and analyze Personality",
+  "documentation_url": "https://app.traitify.com/developer",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "faafcd59a83bd9e82b1bf1cbf99677c6253ea03475998edbeede1fc16172f1e7"
+  }
+}

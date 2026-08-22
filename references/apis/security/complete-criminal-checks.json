@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/complete-criminal-checks",
+  "name": "Complete Criminal Checks",
+  "category": "Security",
+  "description": "Provides data of offenders from all U.S. States and Pureto Rico",
+  "documentation_url": "https://completecriminalchecks.com/Developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__COMPLETE_CRIMINAL_CHECKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e04af9426ef2174a67a428c96a2ab0aa8c12f358a7a1eaafb1af9ab794d2fcc"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/mempool",
+  "name": "Mempool",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin API Service focusing on the transaction fee",
+  "documentation_url": "https://mempool.space/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "478cbce1e753890be10deafae5d249b95ca445658d40a68d5ea0aa82b1d794fc"
+  }
+}

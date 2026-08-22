@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/spotsense",
+  "name": "SpotSense",
+  "category": "Geocoding",
+  "description": "Add location based interactions to your mobile app",
+  "documentation_url": "https://spotsense.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__SPOTSENSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "496c40de0060f1f98b4051fc3575f741b48dfe7b12aa71fe997e17c45d95ba30"
+  }
+}

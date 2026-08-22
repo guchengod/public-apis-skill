@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/rebrandly",
+  "name": "Rebrandly",
+  "category": "URL Shorteners",
+  "description": "Custom URL shortener for sharing branded links",
+  "documentation_url": "https://developers.rebrandly.com/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__REBRANDLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "34a272accc4418d7cc4d8499892c00cc00bfa8555dd6e2761de7c786a7290ac7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/breaking-bad",
+  "name": "Breaking Bad",
+  "category": "Video",
+  "description": "Breaking Bad API",
+  "documentation_url": "https://breakingbadapi.com/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "60c6add93443b907a7c2c98ad128ee1b975b160afd7286792a1017ac9c51a019"
+  }
+}

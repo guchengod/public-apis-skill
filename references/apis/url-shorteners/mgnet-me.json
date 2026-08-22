@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/mgnet-me",
+  "name": "Mgnet.me",
+  "category": "URL Shorteners",
+  "description": "Torrent URL shorten API",
+  "documentation_url": "http://mgnet.me/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7278f36cd086bbe71c3a7ef67e96cf886a5d9c1bf094c438f22f2aaf3fed2e60"
+  }
+}

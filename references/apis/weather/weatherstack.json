@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/weatherstack",
+  "name": "Weatherstack",
+  "category": "Weather",
+  "description": "Real-Time & Historical World Weather Data API",
+  "documentation_url": "https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__WEATHERSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "adfa896dab83756a3c946774d494edd728a90c20c3a407e5d3c52d17fd951b4b"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/edgrapi",
+  "name": "Edgrapi",
+  "category": "Finance",
+  "description": "Clean SEC EDGAR company financials, ratios, filings and 10-K/10-Q sections as normalized JSON",
+  "documentation_url": "https://edgrapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__EDGRAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0eb190b15bd5cf33e161d8958d02959e548c2e66c6787d8bf65bdb0ca7e2f229"
+  }
+}

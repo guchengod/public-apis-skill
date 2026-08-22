@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-toronto-canada",
+  "name": "Transport for Toronto, Canada",
+  "category": "Transportation",
+  "description": "TTC",
+  "documentation_url": "https://myttc.ca/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da0c1d00c54511b1ad288a2866766c761ec8edc652568e0263ab196ffa3be63a"
+  }
+}

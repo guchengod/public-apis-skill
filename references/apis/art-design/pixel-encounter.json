@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/pixel-encounter",
+  "name": "Pixel Encounter",
+  "category": "Art & Design",
+  "description": "SVG Icon Generator",
+  "documentation_url": "https://pixelencounter.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a459ff6c20338007ce5eac925f1e9a62e419a68ff0cd038bf4abcdac93c2bb54"
+  }
+}

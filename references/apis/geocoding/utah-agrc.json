@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/utah-agrc",
+  "name": "Utah AGRC",
+  "category": "Geocoding",
+  "description": "Utah Web API for geocoding Utah addresses",
+  "documentation_url": "https://api.mapserv.utah.gov",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__UTAH_AGRC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "173a332d42b6687660a4a50117807fcfa17a7b3f2f89a760d5ce578c9d28a0c6"
+  }
+}

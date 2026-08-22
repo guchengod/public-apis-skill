@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/openweathermap",
+  "name": "OpenWeatherMap",
+  "category": "Weather",
+  "description": "Weather",
+  "documentation_url": "https://openweathermap.org/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__OPENWEATHERMAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "06617b73d0a778bedd89b4298961a915cd55f6934577015e7564e9ecf8ce7c1d"
+  }
+}

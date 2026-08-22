@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "video/vimeo",
+  "name": "Vimeo",
+  "category": "Video",
+  "description": "Vimeo Developer API",
+  "documentation_url": "https://developer.vimeo.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__VIDEO__VIMEO__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f5cfd544b99a2d59b3462322808c27d0a0e0c7f172356b27f3f7e0d6b15367dd"
+  }
+}

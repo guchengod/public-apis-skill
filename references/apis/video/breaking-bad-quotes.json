@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/breaking-bad-quotes",
+  "name": "Breaking Bad Quotes",
+  "category": "Video",
+  "description": "Some Breaking Bad quotes",
+  "documentation_url": "https://github.com/shevabam/breaking-bad-quotes",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9eeb3ece2d703e2467085d9763645b2663376b9bc2594599a7579f10ea9210fb"
+  }
+}

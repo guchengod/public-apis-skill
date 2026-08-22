@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/stapi",
+  "name": "STAPI",
+  "category": "Video",
+  "description": "Information on all things Star Trek",
+  "documentation_url": "http://stapi.co",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c3f618d2cb40ff7ca58738f25bdb22f844b93aa768f8c446f9f534a3793aee2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinbase-pro",
+  "name": "Coinbase Pro",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrency Trading Platform",
+  "documentation_url": "https://docs.pro.coinbase.com/#api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINBASE_PRO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9d65b5580814c57562756fdc1deddc22b1eb42d52984539fdf2d09673cd69683"
+  }
+}

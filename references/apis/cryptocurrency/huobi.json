@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/huobi",
+  "name": "Huobi",
+  "category": "Cryptocurrency",
+  "description": "Seychelles based cryptocurrency exchange",
+  "documentation_url": "https://huobiapi.github.io/docs/spot/v1/en/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__HUOBI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "376e00d7b70d5d39be0094079292e70e511b182cb2836fbdbfb092e0177e2da8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/data-parliament-uk",
+  "name": "Data.parliament.uk",
+  "category": "Government",
+  "description": "Contains live datasets including information about petitions, bills, MP votes, attendance and more",
+  "documentation_url": "https://explore.data.parliament.uk/?learnmore=Members",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b70c5ce32e36990d5f09c2d6482fd8b7d03d8abdb94134499c76440842143636"
+  }
+}

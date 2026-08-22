@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geonames",
+  "name": "GeoNames",
+  "category": "Geocoding",
+  "description": "Place names and other geographical data",
+  "documentation_url": "http://www.geonames.org/export/web-services.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8b4afca931e0a2bdbbea203d8bf39e56c8c891315d300e1ec8cab8339bb63797"
+  }
+}

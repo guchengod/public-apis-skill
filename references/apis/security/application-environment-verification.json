@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/application-environment-verification",
+  "name": "Application Environment Verification",
+  "category": "Security",
+  "description": "Android library and API to verify the safety of user devices, detect rooted devices and other risks",
+  "documentation_url": "https://github.com/fingerprintjs/aev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__APPLICATION_ENVIRONMENT_VERIFICATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7146285c9e17fded36b3edb0eaa7e8376613307369d9ac5473563d972ed2041b"
+  }
+}

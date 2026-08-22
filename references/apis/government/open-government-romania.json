@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-romania",
+  "name": "Open Government, Romania",
+  "category": "Government",
+  "description": "Romania Government Open Data",
+  "documentation_url": "http://data.gov.ro/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "896bfaf644f6186ce893b7677aa578fd8c6b4c64631cdab0c166fc37184da03c"
+  }
+}

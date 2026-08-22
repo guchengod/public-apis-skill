@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/healthcare-gov",
+  "name": "Healthcare.gov",
+  "category": "Health",
+  "description": "Educational content about the US Health Insurance Marketplace",
+  "documentation_url": "https://www.healthcare.gov/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b49e679d072b19580814885895034b3953cd368683ad30255a227f998203033d"
+  }
+}

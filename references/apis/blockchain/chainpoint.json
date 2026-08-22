@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/chainpoint",
+  "name": "Chainpoint",
+  "category": "Blockchain",
+  "description": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
+  "documentation_url": "https://tierion.com/chainpoint/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37f97ec29ed562706492e0136213749af7000b0a2d0c8a640246a411904abfdf"
+  }
+}

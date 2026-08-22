@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/french-address-search",
+  "name": "French Address Search",
+  "category": "Open Data",
+  "description": "Address search via the French Government",
+  "documentation_url": "https://geo.api.gouv.fr/adresse",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9dd86cd498e3ce8989f145f722a1aa9658f378a34775f39df3aea27cefaf50d5"
+  }
+}

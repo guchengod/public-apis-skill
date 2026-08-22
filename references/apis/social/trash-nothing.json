@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/trash-nothing",
+  "name": "Trash Nothing",
+  "category": "Social",
+  "description": "A freecycling community with thousands of free items posted every day",
+  "documentation_url": "https://trashnothing.com/developer",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__TRASH_NOTHING__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d71841adc22bc0f9dda7594e299a7d57a6e9ee28aa226df27d9cf42e99514e7"
+  }
+}

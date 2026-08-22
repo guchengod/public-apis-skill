@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/igdb-com",
+  "name": "IGDB.com",
+  "category": "Games & Comics",
+  "description": "Video Game Database",
+  "documentation_url": "https://api-docs.igdb.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__IGDB_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6d538f81ca83a5f199cb357e81a11b46d1d66323729a447bab224d3c8d20860e"
+  }
+}

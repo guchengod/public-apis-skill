@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/cloudflare-trace",
+  "name": "Cloudflare Trace",
+  "category": "Development",
+  "description": "Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More",
+  "documentation_url": "https://github.com/fawazahmed0/cloudflare-trace-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40b1c36bdc2e85f4d838005126017584aacef68ff0d48c128359bc496400cf06"
+  }
+}

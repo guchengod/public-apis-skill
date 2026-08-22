@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-argentina",
+  "name": "Open Government, Argentina",
+  "category": "Government",
+  "description": "Argentina Government Open Data",
+  "documentation_url": "https://datos.gob.ar/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f99069cc8e36f03dcd6078fa08fb19409369991359587ce312a0ca8fc678c10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/weather-api",
+  "name": "weather-api",
+  "category": "Weather",
+  "description": "A RESTful free API to check the weather",
+  "documentation_url": "https://github.com/robertoduessmann/weather-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d523c2ddd4c6e4d7c0295bfe15ff6b87eaef74603715f5e6b40c7015d6fd256a"
+  }
+}

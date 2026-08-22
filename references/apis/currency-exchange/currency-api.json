@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/currency-api",
+  "name": "Currency-api",
+  "category": "Currency Exchange",
+  "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
+  "documentation_url": "https://github.com/fawazahmed0/currency-api#readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "53b07d7f1942836055bd45f995065118245a0196fed969acd57c815bd9a5c164"
+  }
+}

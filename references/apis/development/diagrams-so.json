@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/diagrams-so",
+  "name": "Diagrams.so",
+  "category": "Development",
+  "description": "Generate editable draw.io architecture diagrams from text or infrastructure code",
+  "documentation_url": "https://diagrams.so/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__DIAGRAMS_SO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a7f7530612f80721bd9de69a3418873acd621abf5801f1dc57db2729685da3b"
+  }
+}

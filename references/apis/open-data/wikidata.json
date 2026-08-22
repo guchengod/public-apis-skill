@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "open-data/wikidata",
+  "name": "Wikidata",
+  "category": "Open Data",
+  "description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
+  "documentation_url": "https://www.wikidata.org/w/api.php?action=help",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__OPEN_DATA__WIKIDATA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a835c90b4a64921acaf5f1078485308028faf4105cdfa9e4cb9c1d74690dc787"
+  }
+}

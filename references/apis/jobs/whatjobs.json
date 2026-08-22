@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/whatjobs",
+  "name": "WhatJobs",
+  "category": "Jobs",
+  "description": "Job search engine",
+  "documentation_url": "https://www.whatjobs.com/affiliates",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__WHATJOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ead9cc5f4433b28b7d983f26f039c8f1cdbfacbffe1e981dbec0262f2603264"
+  }
+}

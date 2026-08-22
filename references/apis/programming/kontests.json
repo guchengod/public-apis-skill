@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "programming/kontests",
+  "name": "KONTESTS",
+  "category": "Programming",
+  "description": "For upcoming and ongoing competitive coding contests",
+  "documentation_url": "https://kontests.net/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df94a9af01b9df81fd1d2fe8d930694ccff528254d159958ae7a3a93275513d3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/climatiq",
+  "name": "Climatiq",
+  "category": "Environment",
+  "description": "Calculate the environmental footprint created by a broad range of emission-generating activities",
+  "documentation_url": "https://docs.climatiq.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__CLIMATIQ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "72f4efec69ea25460baaeec16e09b98f417a6dd6e0645f726f9c2b5ae25bf947"
+  }
+}

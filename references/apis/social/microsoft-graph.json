@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/microsoft-graph",
+  "name": "Microsoft Graph",
+  "category": "Social",
+  "description": "Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility",
+  "documentation_url": "https://docs.microsoft.com/en-us/graph/api/overview",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__MICROSOFT_GRAPH__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0ca970ac3575bd859b026a441e66f54c417a4ad3bfd583ac7cccaa460de7a904"
+  }
+}

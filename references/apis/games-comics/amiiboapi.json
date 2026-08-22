@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/amiiboapi",
+  "name": "AmiiboAPI",
+  "category": "Games & Comics",
+  "description": "Nintendo Amiibo Information",
+  "documentation_url": "https://amiiboapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "feaf4ffd4abbadd6382a76d29cd158b05fe260f2dae06092053509ed7ec37025"
+  }
+}

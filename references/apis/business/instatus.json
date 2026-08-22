@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/instatus",
+  "name": "Instatus",
+  "category": "Business",
+  "description": "Post to and update maintenance and incidents on your status page through an HTTP REST API",
+  "documentation_url": "https://instatus.com/help/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__INSTATUS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "16ebccfef019d34a49bceef6d43a6e0a062c29555995cee8992a8c25a7f0300b"
+  }
+}

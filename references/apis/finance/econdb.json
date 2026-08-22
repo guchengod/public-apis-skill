@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/econdb",
+  "name": "Econdb",
+  "category": "Finance",
+  "description": "Global macroeconomic data",
+  "documentation_url": "https://www.econdb.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb83a78d5ad22ff640c67536be9acd8260e2e8690aba206ff904df6703a15d68"
+  }
+}

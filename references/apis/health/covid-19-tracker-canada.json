@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-tracker-canada",
+  "name": "COVID-19 Tracker Canada",
+  "category": "Health",
+  "description": "Details on Covid-19 cases across Canada",
+  "documentation_url": "https://api.covid19tracker.ca/docs/1.0/overview",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fcf007945ec2b6a87fb67771b8e70608392a1a49f289750ff912f5a07b78a4be"
+  }
+}

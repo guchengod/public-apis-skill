@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/moov",
+  "name": "Moov",
+  "category": "Finance",
+  "description": "The Moov API makes it simple for platforms to send, receive, and store money",
+  "documentation_url": "https://docs.moov.io/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__MOOV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4e0eda6d60af579a6d79af29830f8a8fea65d1c87fd68d0470638f0bf850ead"
+  }
+}

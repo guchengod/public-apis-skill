@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-washington-us",
+  "name": "Transport for Washington, US",
+  "category": "Transportation",
+  "description": "Washington Metro transport API",
+  "documentation_url": "https://developer.wmata.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_WASHINGTON_US__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f77f73a2518e7f031c9d899833e48ee7a1c760b69517d45cf1a27d361b1e35b"
+  }
+}

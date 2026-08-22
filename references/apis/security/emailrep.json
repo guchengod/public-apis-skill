@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/emailrep",
+  "name": "EmailRep",
+  "category": "Security",
+  "description": "Email address threat and risk prediction",
+  "documentation_url": "https://docs.emailrep.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "133fd33787ffb386ec9227b387564311badd547ce3e9705bdfeb35a83f51c462"
+  }
+}

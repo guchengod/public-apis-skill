@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/messengerx-io",
+  "name": "MessengerX.io",
+  "category": "Machine Learning",
+  "description": "A FREE API for developers to build and monetize personalized ML based chat apps",
+  "documentation_url": "https://messengerx.rtfd.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__MESSENGERX_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dad94be773a23a66c1e6f813e3383e77c8ad811612400f95bd8b508779a76df4"
+  }
+}

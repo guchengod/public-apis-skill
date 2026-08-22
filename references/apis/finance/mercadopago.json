@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/mercadopago",
+  "name": "MercadoPago",
+  "category": "Finance",
+  "description": "Mercado Pago API reference - all the information you need to develop your integrations",
+  "documentation_url": "https://www.mercadopago.com.br/developers/es/reference",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__MERCADOPAGO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "04a76f6117dd710ef958019661214e711d337dfe21febe93d2bf65b25c7c5112"
+  }
+}

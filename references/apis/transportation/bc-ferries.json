@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/bc-ferries",
+  "name": "BC Ferries",
+  "category": "Transportation",
+  "description": "Sailing times and capacities for BC Ferries",
+  "documentation_url": "https://www.bcferriesapi.ca",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6448ba22a044003034e3cded4ee8c70fc1e818209cb7173043f6e365f90bae75"
+  }
+}

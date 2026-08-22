@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/thecocktaildb",
+  "name": "TheCocktailDB",
+  "category": "Food & Drink",
+  "description": "Cocktail Recipes",
+  "documentation_url": "https://www.thecocktaildb.com/api.php",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__THECOCKTAILDB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fdd4b7574eee50bbfdaef76becbda0eef24339b378fc94301ec2bf6ed64015ea"
+  }
+}

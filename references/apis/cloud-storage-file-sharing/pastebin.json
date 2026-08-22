@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/pastebin",
+  "name": "Pastebin",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Plain Text Storage",
+  "documentation_url": "https://pastebin.com/doc_api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__PASTEBIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29aa1fcb41f2eb62ebdae5e6f91dd16ec6cba5f2eb529a7a2a26561c359eee4d"
+  }
+}

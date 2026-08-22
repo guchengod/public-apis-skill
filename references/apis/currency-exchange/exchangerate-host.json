@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/exchangerate-host",
+  "name": "Exchangerate.host",
+  "category": "Currency Exchange",
+  "description": "Free foreign exchange & crypto rates API",
+  "documentation_url": "https://exchangerate.host?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f22da6287b66827625af6904f368abcc1c7aefc09ae0592e92c33431773a566e"
+  }
+}

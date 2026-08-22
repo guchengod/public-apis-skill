@@ -1,0 +1,105 @@
+name: Sync public-apis catalog
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: public-apis-catalog-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  UPSTREAM_REPOSITORY: "https://github.com/public-apis/public-apis.git"
+  UPDATE_BRANCH: "automation/public-apis-sync"
+  BASE_BRANCH: "${{ github.event.repository.default_branch }}"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: "${{ github.event.repository.default_branch }}"
+
+      - name: Fetch one atomic upstream snapshot
+        id: upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 "$UPSTREAM_REPOSITORY" "$RUNNER_TEMP/public-apis"
+          upstream_sha="$(git -C "$RUNNER_TEMP/public-apis" rev-parse HEAD)"
+          echo "sha=$upstream_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Generate the semantic catalog increment
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/sync_catalog.py \
+            --source "$RUNNER_TEMP/public-apis/README.md" \
+            --revision "${{ steps.upstream.outputs.sha }}"
+
+      - name: Validate source parity and runtime behavior
+        env:
+          PYTHONPATH: "scripts"
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_catalog.py \
+            --source "$RUNNER_TEMP/public-apis/README.md"
+          python3 -m unittest discover -s scripts/tests -v
+
+      - name: Detect generated changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- references/catalog references/apis; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push the update branch
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$UPDATE_BRANCH"
+          git add -- references/catalog references/apis
+          git commit -m "chore: sync public APIs ${{ steps.upstream.outputs.sha }}"
+          git push --force origin "HEAD:$UPDATE_BRANCH"
+
+      - name: Open or update the synchronization pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: "${{ github.token }}"
+          UPSTREAM_SHA: "${{ steps.upstream.outputs.sha }}"
+        shell: bash
+        run: |
+          set -euo pipefail
+          title="chore: sync public-apis catalog"
+          body="Automated semantic catalog update from public-apis/public-apis at commit \`$UPSTREAM_SHA\`. Full source-parity and runtime tests passed before this branch was pushed."
+          pr_number="$(gh pr list \
+            --state open \
+            --head "$UPDATE_BRANCH" \
+            --base "$BASE_BRANCH" \
+            --json number \
+            --jq '.[0].number // empty')"
+          if [[ -n "$pr_number" ]]; then
+            gh pr edit "$pr_number" --title "$title" --body "$body"
+          else
+            gh pr create \
+              --base "$BASE_BRANCH" \
+              --head "$UPDATE_BRANCH" \
+              --title "$title" \
+              --body "$body"
+          fi

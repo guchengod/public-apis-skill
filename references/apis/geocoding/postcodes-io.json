@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/postcodes-io",
+  "name": "Postcodes.io",
+  "category": "Geocoding",
+  "description": "Postcode lookup & Geolocation for the UK",
+  "documentation_url": "https://postcodes.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40aea0a7a021ac4e67a7dc5bab245378ae17a9ae8628f7fc834c2232a62202ba"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/google-docs",
+  "name": "Google Docs",
+  "category": "Development",
+  "description": "API to read, write, and format Google Docs documents",
+  "documentation_url": "https://developers.google.com/docs/api/reference/rest",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_DOCS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4055042cefbed34eb01b013dad5bf7daf96f78e9bb599abe580ac847f1498f24"
+  }
+}

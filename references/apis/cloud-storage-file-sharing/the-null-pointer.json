@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/the-null-pointer",
+  "name": "The Null Pointer",
+  "category": "Cloud Storage & File Sharing",
+  "description": "No-bullshit file hosting and URL shortening service",
+  "documentation_url": "https://0x0.st",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6c635192534158a3675a0ce5e0ab241e1e48a76496361301f0e794c1d316e025"
+  }
+}

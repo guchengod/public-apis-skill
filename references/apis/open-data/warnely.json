@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/warnely",
+  "name": "Warnely",
+  "category": "Open Data",
+  "description": "Composite travel-safety scores for 180 countries (FCDO + US State + GPI + WGI + live incident wire), OpenAPI 3.1 spec, CC BY 4.0",
+  "documentation_url": "https://warnely.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa229046a9e1bb74ffeb04572787bcbdcc1bbbf2a89a5a4b49f2070a0e085412"
+  }
+}

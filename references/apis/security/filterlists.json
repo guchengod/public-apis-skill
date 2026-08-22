@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/filterlists",
+  "name": "FilterLists",
+  "category": "Security",
+  "description": "Lists of filters for adblockers and firewalls",
+  "documentation_url": "https://filterlists.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "501ce2f4923239c2511050f06f506c4dc31ef8780e638df261902ec905fe02d5"
+  }
+}

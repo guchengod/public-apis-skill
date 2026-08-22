@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/mercadolibre",
+  "name": "Mercadolibre",
+  "category": "Shopping",
+  "description": "Manage sales, ads, products, services and Shops",
+  "documentation_url": "https://developers.mercadolibre.cl/es_ar/api-docs-es",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__MERCADOLIBRE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2629a3d47a3d227305d9d20f054148725289af18ddc29afd49b8b70f5278e714"
+  }
+}

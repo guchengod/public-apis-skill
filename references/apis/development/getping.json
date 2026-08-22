@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/getping",
+  "name": "GETPing",
+  "category": "Development",
+  "description": "Trigger an email notification with a simple GET request",
+  "documentation_url": "https://www.getping.info",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GETPING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0ccd58416b1586207f01c1d0d7e9854d85cb639f11b979c87b8943166887bd3f"
+  }
+}

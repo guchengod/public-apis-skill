@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/jiosaavn",
+  "name": "JioSaavn",
+  "category": "Music",
+  "description": "API to retrieve song information, album meta data and many more from JioSaavn",
+  "documentation_url": "https://github.com/cyberboysumanjay/JioSaavnAPI",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "60f1e31daf76cf3b98482acdcea99e32a2e234e1f973e2e733e0c90f7b06112a"
+  }
+}

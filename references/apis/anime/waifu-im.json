@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/waifu-im",
+  "name": "Waifu.im",
+  "category": "Anime",
+  "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+  "documentation_url": "https://waifu.im/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6dc7d137088f0aa392cfb85512d917ec65f6e9a497c347af1e9d54a0fa3a613e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/metropolitan-museum-of-art",
+  "name": "Metropolitan Museum of Art",
+  "category": "Art & Design",
+  "description": "Met Museum of Art",
+  "documentation_url": "https://metmuseum.github.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88d6b4d47faff7e97d4b24221db0deacdf17713e4cb3e636a7445dc04d213f70"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/eve-online",
+  "name": "Eve Online",
+  "category": "Games & Comics",
+  "description": "Third-Party Developer Documentation",
+  "documentation_url": "https://esi.evetech.net/ui",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__EVE_ONLINE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d30c0af7f479e28f7a1fe2a30b69f7921765cbea69acdfcac3b5672d8bb0e390"
+  }
+}

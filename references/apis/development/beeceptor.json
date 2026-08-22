@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/beeceptor",
+  "name": "Beeceptor",
+  "category": "Development",
+  "description": "Build a mock Rest API endpoint in seconds",
+  "documentation_url": "https://beeceptor.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1829dd36601a6159941e589928456c581ca137cfa0e59f6d9463d9eb1fe826e8"
+  }
+}

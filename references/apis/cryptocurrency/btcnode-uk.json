@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/btcnode-uk",
+  "name": "btcnode.uk",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints.",
+  "documentation_url": "https://btcnode.uk",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9e2303255cc0f4f5158eff7ea67e94ca3ea64d1704e6e3cfc5c531a08d5d1ade"
+  }
+}

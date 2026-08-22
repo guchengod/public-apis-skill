@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/cloudmersive-document-and-data-conversion",
+  "name": "Cloudmersive Document and Data Conversion",
+  "category": "Documents & Productivity",
+  "description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
+  "documentation_url": "https://cloudmersive.com/convert-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CLOUDMERSIVE_DOCUMENT_AND_DATA_CONVERSION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a1a22acfc2e11425ddfdf32cb28a91e1e1422f60bc615259d4d67b320ba02c0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/bdapis",
+  "name": "BdAPIs",
+  "category": "Geocoding",
+  "description": "Get divisions, districts, and upazzilas of Bangladesh",
+  "documentation_url": "https://bdapis.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e30c0e246f263be93b1c3ea3624371c3015e3733faf2eb1f35193745f02d0e70"
+  }
+}

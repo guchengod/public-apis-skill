@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipgeolocation",
+  "name": "ipgeolocation",
+  "category": "Geocoding",
+  "description": "IP Geolocation AP with free plan 30k requests per month",
+  "documentation_url": "https://ipgeolocation.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IPGEOLOCATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fbecc1c2cad6656eef86f1d47f9a46dd151f1497b1ad085ce629a8147338c9de"
+  }
+}

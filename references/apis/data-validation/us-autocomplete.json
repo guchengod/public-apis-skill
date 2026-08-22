@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/us-autocomplete",
+  "name": "US Autocomplete",
+  "category": "Data Validation",
+  "description": "Enter address data quickly with real-time address suggestions",
+  "documentation_url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__US_AUTOCOMPLETE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a337c006de11babb58e2d8e48c23f76a73821df79dcce7a191bbcf4dfabab296"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/uchecker",
+  "name": "uchecker",
+  "category": "Email",
+  "description": "Bulk email verification with full SMTP server responses",
+  "documentation_url": "https://api.uchecker.net/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__UCHECKER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d3e4380efab379f1d11f51e956967c21b5a9b4928fbd6a42e349058c72a5c353"
+  }
+}

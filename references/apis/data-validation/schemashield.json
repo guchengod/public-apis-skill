@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/schemashield",
+  "name": "SchemaShield",
+  "category": "Data Validation",
+  "description": "Read-only preflight for breaking schema changes and downstream query impact",
+  "documentation_url": "https://rapidapi.com/kaiasistentedavid/api/schema-change-risk",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__SCHEMASHIELD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8cfc5b2d288479fc7d8e8ae70bb18b524fe599e7458d597818a3a40ca3100bae"
+  }
+}

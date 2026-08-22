@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/covalent",
+  "name": "Covalent",
+  "category": "Blockchain",
+  "description": "Multi-blockchain data aggregator platform",
+  "documentation_url": "https://www.covalenthq.com/docs/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__COVALENT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b72843f1fda64b13e46ecbd19ac9d8ad54be1334adbb7e3272476d47c1cb4e38"
+  }
+}

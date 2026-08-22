@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/code-stats",
+  "name": "Code::Stats",
+  "category": "Documents & Productivity",
+  "description": "Automatic time tracking for programmers",
+  "documentation_url": "https://codestats.net/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CODE_STATS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "80f20042efc36538a6104c4ab00cee40c3f4ad79a79c26569f119ff774ceb4c6"
+  }
+}

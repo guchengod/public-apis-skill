@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/getotp",
+  "name": "GetOTP",
+  "category": "Authentication & Authorization",
+  "description": "Implement OTP flow quickly",
+  "documentation_url": "https://otp.dev/en/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__GETOTP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eba972b0814749f704ba5149894f2bb9484eb0c18a137e52a022422c3f14fb15"
+  }
+}

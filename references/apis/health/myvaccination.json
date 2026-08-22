@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/myvaccination",
+  "name": "MyVaccination",
+  "category": "Health",
+  "description": "Vaccination data for Malaysia",
+  "documentation_url": "https://documenter.getpostman.com/view/16605343/Tzm8GG7u",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0b2b84a2a7995380683a12892a23f499d6f3b11423bbd08827fcfc7c73b26690"
+  }
+}

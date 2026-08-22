@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geodatasource",
+  "name": "GeoDataSource",
+  "category": "Geocoding",
+  "description": "Geocoding of city name by using latitude and longitude coordinates",
+  "documentation_url": "https://www.geodatasource.com/web-service",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__GEODATASOURCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f6488614c10b0cc779d7c680c1771dc9d51eb469fbfda8214f900495a167396"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/ebay",
+  "name": "eBay",
+  "category": "Shopping",
+  "description": "Sell and Buy on eBay",
+  "documentation_url": "https://developer.ebay.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__EBAY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "66c00ba57f0f0391b5af0952d594fc678c72ecf90f92d2798d5fc782cf73215a"
+  }
+}

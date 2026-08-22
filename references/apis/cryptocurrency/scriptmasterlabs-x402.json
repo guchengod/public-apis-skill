@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/scriptmasterlabs-x402",
+  "name": "ScriptMasterLabs x402",
+  "category": "Cryptocurrency",
+  "description": "100+ SEC, DeFi, crypto, and macro endpoints for AI agents via x402 micropayments",
+  "documentation_url": "https://acp-x402-scriptmasterlabs.onrender.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__SCRIPTMASTERLABS_X402__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c36425615a4592f13430a82ca4d9e614856c4f04aeac1cd1aeab377a1bb7f807"
+  }
+}

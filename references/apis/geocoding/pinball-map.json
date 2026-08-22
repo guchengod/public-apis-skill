@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/pinball-map",
+  "name": "Pinball Map",
+  "category": "Geocoding",
+  "description": "A crowdsourced map of public pinball machines",
+  "documentation_url": "https://pinballmap.com/api/v1/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a245a974521672a9ef36c3ed848560ffe6788d1f03e870b4c721576f82757789"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/clickup",
+  "name": "ClickUp",
+  "category": "Documents & Productivity",
+  "description": "ClickUp is a robust, cloud-based project management tool for boosting productivity",
+  "documentation_url": "https://clickup.com/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CLICKUP__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "143a45cdcaa062418b3744025e227f953bc11e24989c923c4e320fbd0af78016"
+  }
+}

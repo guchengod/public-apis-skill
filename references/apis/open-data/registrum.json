@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/registrum",
+  "name": "Registrum",
+  "category": "Open Data",
+  "description": "UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status",
+  "documentation_url": "https://api.registrum.co.uk/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__REGISTRUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c964fa64d3e2aa7bfdc1ec925d1b832b343cc762979b98e46ca1aafc04c1f29c"
+  }
+}

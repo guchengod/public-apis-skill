@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/i6eal-open-ai-data",
+  "name": "i6eal Open AI Data",
+  "category": "Open Data",
+  "description": "Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU",
+  "documentation_url": "https://i6eal.de/en/tools/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d69492d86d2a2e76c867bf9f2967d5a1e5eacb022d0eb28073e1685cc572da3c"
+  }
+}

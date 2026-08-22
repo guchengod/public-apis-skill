@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/pan-africa-data",
+  "name": "Pan Africa Data",
+  "category": "Open Data",
+  "description": "Macroeconomic and subnational income distribution data for all 54 African countries",
+  "documentation_url": "https://panafricadata.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__PAN_AFRICA_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "78bfaedfb9d1cad68ad78971f20c6079145c4549a9051a176d1110a154d769fe"
+  }
+}

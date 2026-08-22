@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/bhagavad-gita-telugu",
+  "name": "Bhagavad Gita telugu",
+  "category": "Books",
+  "description": "Bhagavad Gita API in telugu and odia languages",
+  "documentation_url": "https://gita-api.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ed26b7130e1479d2ec471a13ead01da2403cb438620425cea7e503645a43039"
+  }
+}

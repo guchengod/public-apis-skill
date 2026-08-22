@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/google-keep",
+  "name": "Google Keep",
+  "category": "Development",
+  "description": "API to read, write, and format Google Keep notes",
+  "documentation_url": "https://developers.google.com/keep/api/reference/rest",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_KEEP__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f93e8591d05ff5b9efe8a891ee3d2113dfb7164212029fd7dd0167730a7e2ac"
+  }
+}

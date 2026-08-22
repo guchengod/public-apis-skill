@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/cisco-spark",
+  "name": "Cisco Spark",
+  "category": "Social",
+  "description": "Team Collaboration Software",
+  "documentation_url": "https://developer.ciscospark.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__CISCO_SPARK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5902526ca92f56e6b555fe7dc93ae05492e2f26f50b6b49c9346274c28b04434"
+  }
+}

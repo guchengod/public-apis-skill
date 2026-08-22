@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-helsinki",
+  "name": "City, Helsinki",
+  "category": "Government",
+  "description": "Helsinki(FI) City Open Data",
+  "documentation_url": "https://hri.fi/en_gb/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f9d020a384168ae157eaf531f46c20e3faf9ea3f13f85f7a60edf71a5feb753e"
+  }
+}

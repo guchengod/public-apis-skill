@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/non-working-days--8f36c30a",
+  "name": "Non-Working Days",
+  "category": "Calendar",
+  "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
+  "documentation_url": "https://isdayoff.ru",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "94038f8140cd5cc3e0d7ddb67f7fc50a5ea3e42d9e4709bab3051510e293c467"
+  }
+}

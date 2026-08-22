@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/openqr",
+  "name": "OpenQR",
+  "category": "Development",
+  "description": "Generate QR codes and manage dynamic (editable) QR codes with scan analytics",
+  "documentation_url": "https://openqr.uk/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__OPENQR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "12407b1055c0dac681924226cfaee10175a8fdc907db1c72ea0942eba4793afe"
+  }
+}

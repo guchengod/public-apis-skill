@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/hail-history",
+  "name": "Hail History",
+  "category": "Weather",
+  "description": "Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year",
+  "documentation_url": "https://hail-history-noaa.netlify.app/api-docs.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c8ed05b905cc9244f80bf0db1f1187fd94baf45aa012200d6896bf9a9edd5a1"
+  }
+}

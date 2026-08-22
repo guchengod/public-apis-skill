@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/fastdol",
+  "name": "FastDOL",
+  "category": "Government",
+  "description": "Federal enforcement records for US employers: OSHA, WHD, MSHA, EPA, NLRB, and more",
+  "documentation_url": "https://www.fastdol.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__FASTDOL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c8af061bf28df03a364f29a9fa50b3e0e8d94b7a5d40085680498c3063da8432"
+  }
+}

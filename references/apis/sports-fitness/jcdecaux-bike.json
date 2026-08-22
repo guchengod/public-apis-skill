@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/jcdecaux-bike",
+  "name": "JCDecaux Bike",
+  "category": "Sports & Fitness",
+  "description": "JCDecaux's self-service bicycles",
+  "documentation_url": "https://developer.jcdecaux.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__JCDECAUX_BIKE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98eed19632c433ce10ea3dd52d3559f03b19699cd7e5eecf0721a6dc7b2c5d39"
+  }
+}

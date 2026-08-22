@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/mailjet",
+  "name": "mailjet",
+  "category": "Business",
+  "description": "Marketing email can be sent and mail templates made in MJML or HTML can be sent using API",
+  "documentation_url": "https://www.mailjet.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__MAILJET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29d066b03db29c0a37715069687f01b21b5f03fa240f9fb89aa35251fddc62cb"
+  }
+}

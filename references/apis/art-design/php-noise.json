@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/php-noise",
+  "name": "PHP-Noise",
+  "category": "Art & Design",
+  "description": "Noise Background Image Generator",
+  "documentation_url": "https://php-noise.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d545fe3757c6782eb5fdfcf30e7ffb316bae52c58a676134d84594e55122d97b"
+  }
+}

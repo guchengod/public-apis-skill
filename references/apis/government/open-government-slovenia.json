@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-slovenia",
+  "name": "Open Government, Slovenia",
+  "category": "Government",
+  "description": "Slovenia Government Open Data",
+  "documentation_url": "https://podatki.gov.si/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "02397affc375bdb1e3e2652674993904fe678e5b468639ca0a0cb405ef8c6e64"
+  }
+}

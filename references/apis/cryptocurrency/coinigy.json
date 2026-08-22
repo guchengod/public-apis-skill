@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinigy",
+  "name": "Coinigy",
+  "category": "Cryptocurrency",
+  "description": "Interacting with Coinigy Accounts and Exchange Directly",
+  "documentation_url": "https://coinigy.docs.apiary.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINIGY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "41c9fae9fb4eca4fcd619f93cae649e6b026538fc00e790ccc079a12109cc5f9"
+  }
+}

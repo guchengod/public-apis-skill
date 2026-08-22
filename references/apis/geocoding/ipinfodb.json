@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipinfodb",
+  "name": "IPInfoDB",
+  "category": "Geocoding",
+  "description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
+  "documentation_url": "https://www.ipinfodb.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IPINFODB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9882b7252ec8158efb86f55d89bc1885dc7ae85c59296e856b3b55b3e278ef89"
+  }
+}

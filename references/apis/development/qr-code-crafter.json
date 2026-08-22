@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-code-crafter",
+  "name": "QR Code Crafter",
+  "category": "Development",
+  "description": "Generate static QR codes in SVG, PNG, JPG, WebP, PDF, or EPS",
+  "documentation_url": "https://qrcodecrafter.com/qr-code-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "209854abd2c5327bb5e7017de8676f4aca85ead74b254ec45025e35ce71a58ed"
+  }
+}

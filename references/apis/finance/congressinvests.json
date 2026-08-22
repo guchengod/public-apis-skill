@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/congressinvests",
+  "name": "CongressInvests",
+  "category": "Finance",
+  "description": "Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk",
+  "documentation_url": "https://congressinvests.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__CONGRESSINVESTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7655df50381ae4c76664bc8859ad2b1fe4b161c887e57d8166495bfb67ba254"
+  }
+}

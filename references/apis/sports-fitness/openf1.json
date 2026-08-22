@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/openf1",
+  "name": "OpenF1",
+  "category": "Sports & Fitness",
+  "description": "Real-time and historical Formula 1 data including laps, car telemetry and positions",
+  "documentation_url": "https://openf1.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1bbc49684e00288e055bf39a886c88c777a01494df8cae05f30d71efe40ed5bb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/notion",
+  "name": "Notion",
+  "category": "Documents & Productivity",
+  "description": "Integrate with Notion",
+  "documentation_url": "https://developers.notion.com/docs/getting-started",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__NOTION__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "607c6d142e04018c1729379b6c126b1d018ea589c0b3e912b8855ebc1419ebdc"
+  }
+}

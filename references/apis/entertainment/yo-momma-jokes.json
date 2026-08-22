@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/yo-momma-jokes",
+  "name": "Yo Momma Jokes",
+  "category": "Entertainment",
+  "description": "REST API for Yo Momma Jokes",
+  "documentation_url": "https://github.com/beanboi7/yomomma-apiv2",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e8b0ebe94db97a0d8bba41b11cff0f1df77bbb538715d705e9dff8debb23ed1"
+  }
+}

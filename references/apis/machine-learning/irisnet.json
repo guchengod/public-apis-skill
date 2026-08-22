@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/irisnet",
+  "name": "Irisnet",
+  "category": "Machine Learning",
+  "description": "Realtime content moderation API that blocks or blurs unwanted images in real-time",
+  "documentation_url": "https://irisnet.de/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__IRISNET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3d68b4350726d5d618909f203b25d6f03c3c4f27f896a007d4aca69b8f8d4834"
+  }
+}

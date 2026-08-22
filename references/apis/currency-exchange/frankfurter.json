@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/frankfurter",
+  "name": "Frankfurter",
+  "category": "Currency Exchange",
+  "description": "Exchange rates, currency conversion and time series",
+  "documentation_url": "https://www.frankfurter.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b99a31d75a951452ed626006eb39db728ea0d720b09d08e74fce58428b1174b1"
+  }
+}

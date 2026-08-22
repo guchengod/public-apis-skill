@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/aletheia",
+  "name": "Aletheia",
+  "category": "Finance",
+  "description": "Insider trading data, earnings call analysis, financial statements, and more",
+  "documentation_url": "https://aletheiaapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__ALETHEIA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b08406c5dde529fad48ea0495bd6f64986c1aed6c4de51593c1a2aa4e0adb7a0"
+  }
+}

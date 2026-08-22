@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrapestack",
+  "name": "scrapestack",
+  "category": "Development",
+  "description": "Real-time, Scalable Proxy & Web Scraping REST API",
+  "documentation_url": "https://scrapestack.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPESTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "866a96bbf3ddc30e216cde0ee66401cdea8dfc3ebb806970175e9eab90201aeb"
+  }
+}

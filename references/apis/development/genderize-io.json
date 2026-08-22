@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/genderize-io",
+  "name": "Genderize.io",
+  "category": "Development",
+  "description": "Estimates a gender from a first name",
+  "documentation_url": "https://genderize.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e971695e301124d67b995c7497acf37559c6deb734151d36aa7743146153f93b"
+  }
+}

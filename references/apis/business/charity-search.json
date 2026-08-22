@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/charity-search",
+  "name": "Charity Search",
+  "category": "Business",
+  "description": "Non-profit charity data",
+  "documentation_url": "http://charityapi.orghunter.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__CHARITY_SEARCH__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1d632da7cc058660dc377ad54ea3fa7992e011f5d823478252018197a2c9de0"
+  }
+}

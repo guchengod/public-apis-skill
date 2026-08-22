@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip2proxy",
+  "name": "IP2Proxy",
+  "category": "Geocoding",
+  "description": "Detect proxy and VPN using IP address",
+  "documentation_url": "https://www.ip2location.com/web-service/ip2proxy",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IP2PROXY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01363dd79ed65bfb8bebadb6bf195fbc3a70421887c1d3ffdc7e8a24e5c12f5f"
+  }
+}

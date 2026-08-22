@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/nba-stats",
+  "name": "NBA Stats",
+  "category": "Sports & Fitness",
+  "description": "Current and historical NBA Statistics",
+  "documentation_url": "https://any-api.com/nba_com/nba_com/docs/API_Description",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "050ca249817a70de1156552c5014154178db64cca01473a6c7ceadacef0dca4c"
+  }
+}

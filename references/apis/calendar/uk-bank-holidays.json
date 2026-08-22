@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/uk-bank-holidays",
+  "name": "UK Bank Holidays",
+  "category": "Calendar",
+  "description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
+  "documentation_url": "https://www.gov.uk/bank-holidays.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d054eed873e441d327104330641301ff365da31f9f08b82e08165bef56d7bd2"
+  }
+}

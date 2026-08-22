@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/apimedic",
+  "name": "ApiMedic",
+  "category": "Sports & Fitness",
+  "description": "ApiMedic offers a medical symptom checker API primarily for patients",
+  "documentation_url": "https://apimedic.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__APIMEDIC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "686a726ac43a61d4c71ed3bdad603ef52173987745ce356ae035dca93a0a16ba"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/hugging-face",
+  "name": "Hugging Face",
+  "category": "Machine Learning",
+  "description": "AI model hub with inference API for NLP, computer vision, and audio",
+  "documentation_url": "https://huggingface.co",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__HUGGING_FACE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb466263ab9b08c14df679cc548b4aa199e7e821de3199a2b5487ffc0ef0ac62"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/viacep",
+  "name": "ViaCep",
+  "category": "Geocoding",
+  "description": "Brazil RESTful zip codes API",
+  "documentation_url": "https://viacep.com.br",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5cab356df11e9f7bead203a01626785949b4ff9018c1b86cdb05c4afd8425008"
+  }
+}

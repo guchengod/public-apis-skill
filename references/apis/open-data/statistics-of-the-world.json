@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/statistics-of-the-world",
+  "name": "Statistics of the World",
+  "category": "Open Data",
+  "description": "Economic data for 218 countries — GDP, population, inflation, and 440+ indicators from IMF and World Bank",
+  "documentation_url": "https://statisticsoftheworld.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7dfd24f686b80a7e6bf680f0391b585b9805bed025449d5b6f43b574b236a778"
+  }
+}

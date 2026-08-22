@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/imgur",
+  "name": "Imgur",
+  "category": "Photography",
+  "description": "Images",
+  "documentation_url": "https://apidocs.imgur.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__IMGUR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e3c8ba6ed4ebbaaf0ee5d203c7bf926c9015415a3756e1ff86829134dd9b004"
+  }
+}

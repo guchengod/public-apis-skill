@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/naver",
+  "name": "NAVER",
+  "category": "Social",
+  "description": "NAVER Login, Share on NAVER, Social Plugins and more",
+  "documentation_url": "https://developers.naver.com/main/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__NAVER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e6c3c0698064f10c886ff09cbd9e2e8658687fde108c619a4eec62d9a1b75c8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/keycdn-ip-location-finder",
+  "name": "keycdn IP Location Finder",
+  "category": "Geocoding",
+  "description": "Get the IP geolocation data through the simple REST API. All the responses are JSON encoded",
+  "documentation_url": "https://tools.keycdn.com/geo",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__KEYCDN_IP_LOCATION_FINDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b1255f4895664b72fd91a3c8764d088fea219902a835d900cd98fdb5a2ea0eb4"
+  }
+}

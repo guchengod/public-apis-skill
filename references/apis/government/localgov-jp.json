@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/localgov-jp",
+  "name": "LocalGov.jp",
+  "category": "Government",
+  "description": "Japan grants and subsidies (central J-Grants + 1,916 municipalities)",
+  "documentation_url": "https://localgov.jp/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3813b0290fe233ab2598457b6ad789d14ecd40001df0b42129fcfaead000f396"
+  }
+}

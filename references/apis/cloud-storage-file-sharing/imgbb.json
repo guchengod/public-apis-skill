@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/imgbb",
+  "name": "Imgbb",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Simple and quick private image sharing",
+  "documentation_url": "https://api.imgbb.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__IMGBB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "721b16bf2984e94e417679959dda0f90e32bcb99aaa5a15d6220919135f4e318"
+  }
+}

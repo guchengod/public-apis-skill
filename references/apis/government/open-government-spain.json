@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-spain",
+  "name": "Open Government, Spain",
+  "category": "Government",
+  "description": "Spain Government Open Data",
+  "documentation_url": "https://datos.gob.es/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "112d5693a930c5da4d111736afe71e994dcf01aa691bab9a83ac0243d55c5cfe"
+  }
+}

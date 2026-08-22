@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/thenews",
+  "name": "TheNews",
+  "category": "News",
+  "description": "Aggregated headlines, top story and live news JSON API",
+  "documentation_url": "https://www.thenewsapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__THENEWS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f46758e7c81ffa1afcbdeda180287e02e555c5157f364924586cbebfdbfdd59"
+  }
+}

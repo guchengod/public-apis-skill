@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/dynapictures",
+  "name": "DynaPictures",
+  "category": "Photography",
+  "description": "Generate Hundreds of Personalized Images in Minutes",
+  "documentation_url": "https://dynapictures.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__DYNAPICTURES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63467d853c2edfa9b2007c6fdf0b91f3b30106776e48bac13f809fe455c39e8d"
+  }
+}

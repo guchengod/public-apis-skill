@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/mojoauth",
+  "name": "MojoAuth",
+  "category": "Authentication & Authorization",
+  "description": "Secure and modern passwordless authentication platform",
+  "documentation_url": "https://mojoauth.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__MOJOAUTH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "931ed6375fe77d60208782d4d347a92600d1daf4b1dab8ad8ed6436d4e43c97e"
+  }
+}

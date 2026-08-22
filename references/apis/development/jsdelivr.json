@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/jsdelivr",
+  "name": "jsDelivr",
+  "category": "Development",
+  "description": "Package info and download stats on jsDelivr CDN",
+  "documentation_url": "https://github.com/jsdelivr/data.jsdelivr.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a27ad928ed2be7d8dfe45d6156a2eb79ccacb0e9482b3097247ef0214fe0aac"
+  }
+}

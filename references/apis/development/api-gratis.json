@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/api-gratis",
+  "name": "API Grátis",
+  "category": "Development",
+  "description": "Multiples services and public APIs",
+  "documentation_url": "https://apigratis.com.br/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e0691d40b00c2d6a6929522b1a0c3eb41a9dba613efddeade4113fc191fcb804"
+  }
+}

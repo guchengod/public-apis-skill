@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/rwanda-locations",
+  "name": "Rwanda Locations",
+  "category": "Geocoding",
+  "description": "Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets",
+  "documentation_url": "https://rapidapi.com/victorkarangwa4/api/rwanda",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2963032374deb1dbb90d10f65192db7cfea125e040a1b684b98fd7df6a1bc018"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-ireland",
+  "name": "Open Government, Ireland",
+  "category": "Government",
+  "description": "Ireland Government Open Data",
+  "documentation_url": "https://data.gov.ie/pages/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7fe7ec7ab89c1c0a18e64dfc308135ee0f7b99eaab2e77156ec4284c54e45b16"
+  }
+}

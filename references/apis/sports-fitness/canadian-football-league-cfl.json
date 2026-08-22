@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/canadian-football-league-cfl",
+  "name": "Canadian Football League (CFL)",
+  "category": "Sports & Fitness",
+  "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
+  "documentation_url": "http://api.cfl.ca/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__CANADIAN_FOOTBALL_LEAGUE_CFL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fac1134051fc112e16ceea0167bdbdc38b30f9e02e91a457f70a7243bea43aa9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/ips-online",
+  "name": "IPS Online",
+  "category": "Machine Learning",
+  "description": "Face and License Plate Anonymization",
+  "documentation_url": "https://docs.identity.ps/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__IPS_ONLINE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4935ef61eb136e4e794e73c69a10017f97ff21e110308b18125c03fc1f41a5c"
+  }
+}

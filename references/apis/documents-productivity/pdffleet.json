@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/pdffleet",
+  "name": "PDFFleet",
+  "category": "Documents & Productivity",
+  "description": "HTML and URL to PDF API with templates and a free tier",
+  "documentation_url": "https://pdffleet.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PDFFLEET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "540fd9edba2b3e9a69fba59be2d420643ae0bc6117f9874830e51ab92401d0be"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/aemet",
+  "name": "Aemet",
+  "category": "Weather",
+  "description": "Weather and forecast data from Spain",
+  "documentation_url": "https://opendata.aemet.es/centrodedescargas/inicio",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__AEMET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ddad004a6f00ccb8a7d4cff3803556eca434f6e041ea47951918a3bcc0998ba"
+  }
+}

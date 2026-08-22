@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-norway",
+  "name": "Transport for Norway",
+  "category": "Transportation",
+  "description": "Transport APIs and dataset for Norway",
+  "documentation_url": "https://developer.entur.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7090f56d7ae166462ed9b0124b415cda55c1fbb2c6a7beef9acddfbf7a59410"
+  }
+}

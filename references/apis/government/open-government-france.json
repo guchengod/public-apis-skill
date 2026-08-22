@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-france",
+  "name": "Open Government, France",
+  "category": "Government",
+  "description": "French Government Open Data",
+  "documentation_url": "https://www.data.gouv.fr/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_FRANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c4a32837671fc2dfc0308edd6ea56c3b64121bc40ef095b9113f8d8f34e6f56"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/ip-fast-com",
+  "name": "ip-fast.com",
+  "category": "Development",
+  "description": "IP address, country and city",
+  "documentation_url": "https://ip-fast.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ad8f56438567e8c9799724fbb798806b2fca7b6815563d8e9e1a9fddc0c3973"
+  }
+}

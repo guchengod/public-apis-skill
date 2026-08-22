@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/nexchange",
+  "name": "Nexchange",
+  "category": "Cryptocurrency",
+  "description": "Automated cryptocurrency exchange service",
+  "documentation_url": "https://nexchange2.docs.apiary.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6b0b530399212be44c9d8a0eebd9ad3d03b4ff74dc554cd161842dd36a18a0d1"
+  }
+}

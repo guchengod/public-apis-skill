@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/clico",
+  "name": "Clico",
+  "category": "URL Shorteners",
+  "description": "URL shortener service",
+  "documentation_url": "https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__CLICO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e3df476496f8724e6c46efc4d8c9809a822a5abc84697f3d0010e0c29cf9f4dd"
+  }
+}

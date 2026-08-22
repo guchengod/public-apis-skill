@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/humanitarian-data-exchange",
+  "name": "Humanitarian Data Exchange",
+  "category": "Health",
+  "description": "Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations",
+  "documentation_url": "https://data.humdata.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "64b066e41dd5f01a2596a88b0498abffdbb6bb59892e15f9feff4a955b943713"
+  }
+}

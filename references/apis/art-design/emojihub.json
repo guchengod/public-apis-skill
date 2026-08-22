@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/emojihub",
+  "name": "EmojiHub",
+  "category": "Art & Design",
+  "description": "Get emojis by categories and groups",
+  "documentation_url": "https://github.com/cheatsnake/emojihub",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "970139bd2d71795505ee9842c98bea00c19fee5a8f1b66e3675807b8a09457a3"
+  }
+}

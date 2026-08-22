@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/reddit",
+  "name": "Reddit",
+  "category": "Social",
+  "description": "Homepage of the internet",
+  "documentation_url": "https://www.reddit.com/dev/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__REDDIT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36b62d375fcc7ec89638258796e7bf894faa7c2d7f28414389be4c2da942adf8"
+  }
+}

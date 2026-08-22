@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/exude-api",
+  "name": "EXUDE-API",
+  "category": "Machine Learning",
+  "description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
+  "documentation_url": "http://uttesh.com/exude-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3bdafbe1140aaecc61275c79530fa8e5b1b3ae1d65d5f4d499045f190f7142d0"
+  }
+}

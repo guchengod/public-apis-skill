@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/pvwatts",
+  "name": "PVWatts",
+  "category": "Environment",
+  "description": "Energy production photovoltaic (PV) energy systems",
+  "documentation_url": "https://developer.nrel.gov/docs/solar/pvwatts/v6/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__PVWATTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "514f64af1a66594f922c00ae1ff403ede20148203e8c4ae305c89b3c233f75e1"
+  }
+}

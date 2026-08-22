@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/bank-negara-malaysia-open-data",
+  "name": "Bank Negara Malaysia Open Data",
+  "category": "Government",
+  "description": "Malaysia Central Bank Open Data",
+  "documentation_url": "https://apikijangportal.bnm.gov.my/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5592f5970b47d042f5b96fc9bc30eb364fa20325f335db64a36027b00a313642"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/tastedive",
+  "name": "TasteDive",
+  "category": "Entertainment",
+  "description": "Content-based recommendations for movies, music, TV shows, books, games, and podcasts",
+  "documentation_url": "https://tastedive.com/read/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENTERTAINMENT__TASTEDIVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c3322e494f4669ba83f87197939c831a25512fdc80da86f727e3587b4162c29"
+  }
+}

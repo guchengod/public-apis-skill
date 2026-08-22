@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/blazephoenix",
+  "name": "BlazePhoenix",
+  "category": "Cryptocurrency",
+  "description": "On-chain DEX aggregator quotes and route execution data",
+  "documentation_url": "https://blazephoenix.xyz/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c3570cf9987b84e8a935d9fc469006ad4c69264fddb53d044ae33c8b7fe0baa9"
+  }
+}

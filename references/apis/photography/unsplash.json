@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/unsplash",
+  "name": "Unsplash",
+  "category": "Photography",
+  "description": "Photography",
+  "documentation_url": "https://unsplash.com/developers",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__UNSPLASH__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be5b0422f059491240186eec55874dcb84e10fa290df8d2b0f391853c15a75f1"
+  }
+}

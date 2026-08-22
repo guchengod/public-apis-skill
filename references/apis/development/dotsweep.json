@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/dotsweep",
+  "name": "dotsweep",
+  "category": "Development",
+  "description": "Domain availability across 1200+ TLDs with registration and renewal prices",
+  "documentation_url": "https://dotsweep.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3abbee30dca767deef721af87f1039dc1d136962650b210fbdf0c466b19f5c91"
+  }
+}

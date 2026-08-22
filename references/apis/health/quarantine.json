@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/quarantine",
+  "name": "Quarantine",
+  "category": "Health",
+  "description": "Coronavirus API with free COVID-19 live updates",
+  "documentation_url": "https://quarantine.country/coronavirus/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7a9132819fd7567f359644153e6d63d2e64c9160b517fdcc4d900fcac82ce447"
+  }
+}

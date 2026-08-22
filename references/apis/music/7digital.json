@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "music/7digital",
+  "name": "7digital",
+  "category": "Music",
+  "description": "Api of Music store 7digital",
+  "documentation_url": "https://docs.7digital.com/reference",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__MUSIC__7DIGITAL__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7368af4083a9772c27bf26aa3faf1710df3c914f8a618f84db6a113000d6fce7"
+  }
+}

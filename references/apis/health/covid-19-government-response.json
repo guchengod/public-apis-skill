@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19-government-response",
+  "name": "Covid-19 Government Response",
+  "category": "Health",
+  "description": "Government measures tracker to fight against the Covid-19 pandemic",
+  "documentation_url": "https://covidtracker.bsg.ox.ac.uk",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c9d42e485afddfa2ea0866f9bb4a2933b63e8dce4a8cc953ec16fa1b7d79f527"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/mercury",
+  "name": "Mercury",
+  "category": "Documents & Productivity",
+  "description": "Web parser",
+  "documentation_url": "https://mercury.postlight.com/web-parser/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__MERCURY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "211d8e1cb7fc9fbb5d1cce0ca5521ea74e94b3b8e372bcbad7cdae270d250918"
+  }
+}

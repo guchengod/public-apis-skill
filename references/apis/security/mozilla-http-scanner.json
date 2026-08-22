@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/mozilla-http-scanner",
+  "name": "Mozilla http scanner",
+  "category": "Security",
+  "description": "Mozilla observatory http scanner",
+  "documentation_url": "https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "44ba32a0505ffdcdaf81290f71055680e4e1f3239b20aaa3b16947b1b838f259"
+  }
+}

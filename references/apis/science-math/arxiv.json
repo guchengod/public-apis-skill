@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/arxiv",
+  "name": "arXiv",
+  "category": "Science & Math",
+  "description": "Curated research-sharing platform: physics, mathematics, quantitative finance, and economics",
+  "documentation_url": "https://arxiv.org/help/api/user-manual",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a1cf04379c9258851bfccc9b55808546cf83bce2ea8920c9a35798e205b670f6"
+  }
+}

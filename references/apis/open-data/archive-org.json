@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/archive-org",
+  "name": "Archive.org",
+  "category": "Open Data",
+  "description": "The Internet Archive",
+  "documentation_url": "https://archive.readme.io/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "894a090492fb7497c13325d2798534366928d789974f599e83f94f9b678683b7"
+  }
+}

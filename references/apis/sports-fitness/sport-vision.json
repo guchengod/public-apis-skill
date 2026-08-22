@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sport-vision",
+  "name": "Sport Vision",
+  "category": "Sports & Fitness",
+  "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
+  "documentation_url": "https://developers.decathlon.com/products/sport-vision",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__SPORT_VISION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e22f1b2ecdd936933658e8e74071de232dd209622af0a052ee4ef8d6e722d7f1"
+  }
+}

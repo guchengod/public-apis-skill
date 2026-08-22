@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/can-i-enter",
+  "name": "Can I enter",
+  "category": "Transportation",
+  "description": "Visa and entry requirements for 199 passports, cited to official sources, verified daily",
+  "documentation_url": "https://canienter.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "75968f1b9f107596a9bbbf15df3f20d97298ab440090b258af264ce1d401b78f"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "open-data/genesis",
+  "name": "GENESIS",
+  "category": "Open Data",
+  "description": "Federal Statistical Office Germany",
+  "documentation_url": "https://www.destatis.de/EN/Service/OpenData/api-webservice.html",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__OPEN_DATA__GENESIS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3acc5af7c0cd59dae4ed68d064bedab9199df9e87952ac6260b0fd24085bb827"
+  }
+}

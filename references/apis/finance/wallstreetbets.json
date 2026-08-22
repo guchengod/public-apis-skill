@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/wallstreetbets",
+  "name": "WallstreetBets",
+  "category": "Finance",
+  "description": "WallstreetBets Stock Comments Sentiment Analysis",
+  "documentation_url": "https://dashboard.nbshare.io/apps/reddit/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "91a8175659e266a9b57a6fdbf314553d5acd0c8b0962b8f49d279c8e384e656b"
+  }
+}

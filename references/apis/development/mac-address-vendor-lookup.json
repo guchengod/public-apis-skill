@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/mac-address-vendor-lookup",
+  "name": "MAC address vendor lookup",
+  "category": "Development",
+  "description": "Retrieve vendor details and other information regarding a given MAC address or an OUI",
+  "documentation_url": "https://macaddress.io/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__MAC_ADDRESS_VENDOR_LOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fe59368d6ac18d4fbe1e532eee56e21f49ca0abfb8154129a2eb558b8c472788"
+  }
+}

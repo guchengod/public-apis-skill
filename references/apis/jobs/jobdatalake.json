@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/jobdatalake",
+  "name": "JobDataLake",
+  "category": "Jobs",
+  "description": "1M+ enriched job listings from 20,000+ companies with salary, skills, seniority",
+  "documentation_url": "https://www.jobdatalake.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JOBDATALAKE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd2de76bd83a27429e399c82d03bac7238689d7042afb4928f53fd30bd2c5298"
+  }
+}

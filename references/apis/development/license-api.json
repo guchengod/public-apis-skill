@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/license-api",
+  "name": "License-API",
+  "category": "Development",
+  "description": "Unofficial REST API for choosealicense.com",
+  "documentation_url": "https://github.com/cmccandless/license-api/blob/master/README.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "47f807c3ff9e8f08266f63584c0076c5e4e061ddc74525e49e227d1237c8c58e"
+  }
+}

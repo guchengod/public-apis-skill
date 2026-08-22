@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/pexels",
+  "name": "Pexels",
+  "category": "Photography",
+  "description": "Free Stock Photos and Videos",
+  "documentation_url": "https://www.pexels.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__PEXELS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb97278e8b314a54ff646bbb77b3d23cdfdd86983bbcff63ccf63121aee9326e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/proxyforge",
+  "name": "ProxyForge",
+  "category": "Development",
+  "description": "Free auto-updating list of live-tested proxies (HTTP/HTTPS/SOCKS4/SOCKS5), refreshed every 6 h",
+  "documentation_url": "https://proxyforge.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c14ecd7260ba278e06efaea1eb1be354e45433c56777543e03d0d82ebc3b8122"
+  }
+}

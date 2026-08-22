@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-sweden",
+  "name": "Open Government, Sweden",
+  "category": "Government",
+  "description": "Sweden Government Open Data",
+  "documentation_url": "https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fac2462c10f6a71012d52e2ee3cd57550a545555632ecf57df16b4693d9702a"
+  }
+}

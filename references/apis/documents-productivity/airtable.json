@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/airtable",
+  "name": "Airtable",
+  "category": "Documents & Productivity",
+  "description": "Integrate with Airtable",
+  "documentation_url": "https://airtable.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__AIRTABLE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a9bbf82253257155db1faae654ac30541750ac8ad8b7633e1e9cc16eb909378"
+  }
+}

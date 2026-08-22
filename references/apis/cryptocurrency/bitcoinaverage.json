@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitcoinaverage",
+  "name": "BitcoinAverage",
+  "category": "Cryptocurrency",
+  "description": "Digital Asset Price Data for the blockchain industry",
+  "documentation_url": "https://apiv2.bitcoinaverage.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BITCOINAVERAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "de9113a9cbf5c9d624ad21b1ca534f10735b60269317d7769bb90e1266fc93c4"
+  }
+}

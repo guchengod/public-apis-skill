@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/latlng",
+  "name": "LatLng",
+  "category": "Geocoding",
+  "description": "Geocoding, reverse geocoding, places, and static maps",
+  "documentation_url": "https://www.latlng.work/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c336904106566e09a36cfec6d11473377a421cca6d39910b95646a1699c68939"
+  }
+}

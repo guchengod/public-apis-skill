@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/flickr",
+  "name": "Flickr",
+  "category": "Photography",
+  "description": "Flickr Services",
+  "documentation_url": "https://www.flickr.com/services/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__FLICKR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "43d46e3665871114931867ca49d7e9a7b27d34400ba1678841af27112ea91f35"
+  }
+}

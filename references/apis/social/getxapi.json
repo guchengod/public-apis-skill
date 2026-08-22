@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/getxapi",
+  "name": "GetXAPI",
+  "category": "Social",
+  "description": "Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST",
+  "documentation_url": "https://www.getxapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__GETXAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b7e4e8a058b665da0a6eabad50c67009c17d6a167e94795a4e1ad37c9deb060"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/open-skills",
+  "name": "Open Skills",
+  "category": "Jobs",
+  "description": "Job titles, skills and related jobs data",
+  "documentation_url": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c44ac01b64f710989a3dac66b9239196cb4d7087a5a6319382747dbb7b18bfe"
+  }
+}

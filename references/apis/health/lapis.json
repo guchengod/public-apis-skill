@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/lapis",
+  "name": "LAPIS",
+  "category": "Health",
+  "description": "SARS-CoV-2 genomic sequences from public sources",
+  "documentation_url": "https://cov-spectrum.ethz.ch/public",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "345adb0032ec9677ff4e6a03f5d54eed19905f73a32df7cdc25d29230026c82e"
+  }
+}

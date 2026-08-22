@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geographql",
+  "name": "GeographQL",
+  "category": "Geocoding",
+  "description": "A Country, State, and City GraphQL API",
+  "documentation_url": "https://geographql.netlify.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29d1a4be8a1161b2a1c5c6defec3bdfd0cdb915b800e83a584779d5dc6e4e0b7"
+  }
+}

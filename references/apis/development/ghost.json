@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ghost",
+  "name": "Ghost",
+  "category": "Development",
+  "description": "Get Published content into your Website, App or other embedded media",
+  "documentation_url": "https://ghost.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GHOST__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e781e336ab7e5326ab6696600c69a6ee9ba0a9908a074b5c09d2a43aff82b20f"
+  }
+}

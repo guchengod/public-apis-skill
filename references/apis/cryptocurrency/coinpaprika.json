@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinpaprika",
+  "name": "Coinpaprika",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies prices, volume and more",
+  "documentation_url": "https://api.coinpaprika.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "067599796849900c00d442c32009dd887102b306c9aae0bc6218c0bf3ab6691a"
+  }
+}

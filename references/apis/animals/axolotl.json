@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/axolotl",
+  "name": "Axolotl",
+  "category": "Animals",
+  "description": "Collection of axolotl pictures and facts",
+  "documentation_url": "https://theaxolotlapi.netlify.app/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d4c6345fd8cad12f4003a093ef64f0a8d293b0cf4baa8c6b797abd606d2da98"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/fraudlabs-pro",
+  "name": "FraudLabs Pro",
+  "category": "Security",
+  "description": "Screen order information using AI to detect frauds",
+  "documentation_url": "https://www.fraudlabspro.com/developer/api/screen-order",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__FRAUDLABS_PRO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b851c1c73124b4b7e478ddf4124d1c887f77e73bcf21aa4f4946a56bbb7e87ae"
+  }
+}

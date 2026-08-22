@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/refuge-restrooms",
+  "name": "REFUGE Restrooms",
+  "category": "Transportation",
+  "description": "Provides safe restroom access for transgender, intersex and gender nonconforming individuals",
+  "documentation_url": "https://www.refugerestrooms.org/api/docs/#!/restrooms",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "27e0495e2f7d1b6de470e4f4c86c0233f15c794d4d14f1457663dfa7d11efddb"
+  }
+}

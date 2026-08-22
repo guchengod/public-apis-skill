@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/webscraping-ai",
+  "name": "WebScraping.AI",
+  "category": "Development",
+  "description": "Web Scraping API with built-in proxies and JS rendering",
+  "documentation_url": "https://webscraping.ai/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__WEBSCRAPING_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8da910872b69ec6210b8bc64e6f41513fa53b1ec9aa944497492f63cd82a9701"
+  }
+}

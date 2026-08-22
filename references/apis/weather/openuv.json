@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/openuv",
+  "name": "OpenUV",
+  "category": "Weather",
+  "description": "Real-time UV Index Forecast",
+  "documentation_url": "https://www.openuv.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__OPENUV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4015db4229c3872c459b78ab5342e5443809c22074c26cbef32bfea3c3f49a82"
+  }
+}

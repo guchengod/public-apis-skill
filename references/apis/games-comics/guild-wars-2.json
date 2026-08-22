@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/guild-wars-2",
+  "name": "Guild Wars 2",
+  "category": "Games & Comics",
+  "description": "Guild Wars 2 Game Information",
+  "documentation_url": "https://wiki.guildwars2.com/wiki/API:Main",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__GUILD_WARS_2__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73e739db673560d513b108204927f7945e6dc95447b9649dcf99587277f216b0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/mojang",
+  "name": "Mojang",
+  "category": "Games & Comics",
+  "description": "Mojang / Minecraft API",
+  "documentation_url": "https://wiki.vg/Mojang_API",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__MOJANG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "683d00eb17ee7812b54c06e7a7027f720264643fdd6fab43416c71168794de88"
+  }
+}

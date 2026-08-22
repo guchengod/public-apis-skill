@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/songsterr",
+  "name": "Songsterr",
+  "category": "Music",
+  "description": "Provides guitar, bass and drums tabs and chords",
+  "documentation_url": "https://www.songsterr.com/a/wa/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ec5655a4dfc3df95017f2e3cc12b38cb46b393d642a3abc4f2e8304f38ec7d8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/chainlink",
+  "name": "Chainlink",
+  "category": "Blockchain",
+  "description": "Build hybrid smart contracts with Chainlink",
+  "documentation_url": "https://chain.link/developer-resources",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "52241e6376bf16cb592c48555fb2a7f1de7fce30a664961afff740c33d9ec5ba"
+  }
+}

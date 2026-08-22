@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "art-design/harvard-art-museums",
+  "name": "Harvard Art Museums",
+  "category": "Art & Design",
+  "description": "Art",
+  "documentation_url": "https://github.com/harvardartmuseums/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ART_DESIGN__HARVARD_ART_MUSEUMS__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4bf37aa7de2cda4e2e9c08cca1e6cb6ac4200ee5e9059125f564ea6020d9971e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/open-data-minneapolis",
+  "name": "Open Data Minneapolis",
+  "category": "Open Data",
+  "description": "Spatial (GIS) and non-spatial city data for Minneapolis",
+  "documentation_url": "https://opendata.minneapolismn.gov/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ab3758162163c5b2b9588a41f9ed64ea253bd7885c65ac6a997f5ffea8632e8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/iqair",
+  "name": "IQAir",
+  "category": "Environment",
+  "description": "Air quality and weather data",
+  "documentation_url": "https://www.iqair.com/air-pollution-data-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__IQAIR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "593ce0d5188c9dfe7c0c346a2723bddf252827daaf6a080894d32998b9c9280d"
+  }
+}

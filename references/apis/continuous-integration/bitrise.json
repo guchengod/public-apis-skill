@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/bitrise",
+  "name": "Bitrise",
+  "category": "Continuous Integration",
+  "description": "Build tool and processes integrations to create efficient development pipelines",
+  "documentation_url": "https://api-docs.bitrise.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__BITRISE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "515da45c250f84338758a548918495612bdfa5b49e530f7d117b3ba134590506"
+  }
+}

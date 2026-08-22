@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/recreation-information-database",
+  "name": "Recreation Information Database",
+  "category": "Open Data",
+  "description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)",
+  "documentation_url": "https://ridb.recreation.gov/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__RECREATION_INFORMATION_DATABASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "33300b6e0540d865a5e7d64f5caa87bb0c8281f9428227c18b7424c4e18a0db2"
+  }
+}

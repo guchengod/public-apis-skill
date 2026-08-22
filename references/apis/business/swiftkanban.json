@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/swiftkanban",
+  "name": "SwiftKanban",
+  "category": "Business",
+  "description": "Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity",
+  "documentation_url": "https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__SWIFTKANBAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0148192e8a1b5034e59f19c4ac6461263dc084ba344cdb7bbde23e3a55998f17"
+  }
+}

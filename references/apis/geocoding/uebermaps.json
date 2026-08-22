@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/uebermaps",
+  "name": "Uebermaps",
+  "category": "Geocoding",
+  "description": "Discover and share maps with friends",
+  "documentation_url": "https://uebermaps.com/api/v2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__UEBERMAPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7633d731911f076df4d65be697fc6c473f9dee62deff978ffbe3cca420d93bcb"
+  }
+}

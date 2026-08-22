@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/universalis",
+  "name": "Universalis",
+  "category": "Games & Comics",
+  "description": "Final Fantasy XIV market board data",
+  "documentation_url": "https://universalis.app/docs/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73688d15dbc40940df27481777b9d95cb304c7a664687bdbaaa9d9574cd2e5a3"
+  }
+}

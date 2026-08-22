@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/loginradius",
+  "name": "LoginRadius",
+  "category": "Security",
+  "description": "Managed User Authentication Service",
+  "documentation_url": "https://www.loginradius.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__LOGINRADIUS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "262c87ae00ddec0b1d413a4cabeeda6966c3e392651cd942dc7d3e7b68681758"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/colorado-information-marketplace",
+  "name": "Colorado Information Marketplace",
+  "category": "Government",
+  "description": "Colorado State Government Open Data",
+  "documentation_url": "https://data.colorado.gov/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "88306d95baf1f86a34001aa708178034d9f5206b3d9de7f75ef5c8e3bdfb28d7"
+  }
+}

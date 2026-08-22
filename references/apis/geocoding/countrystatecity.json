@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/countrystatecity",
+  "name": "CountryStateCity",
+  "category": "Geocoding",
+  "description": "World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format",
+  "documentation_url": "https://countrystatecity.in/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__COUNTRYSTATECITY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f2e1715bbf99043bb2548eaa874d6677d97b616e6fe6b05ab97d3777d26be0dd"
+  }
+}

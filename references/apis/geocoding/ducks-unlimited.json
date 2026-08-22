@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ducks-unlimited",
+  "name": "Ducks Unlimited",
+  "category": "Geocoding",
+  "description": "API explorer that gives a query URL with a JSON response of locations and cities",
+  "documentation_url": "https://gis.ducks.org/datasets/du-university-chapters/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4bb85918723feff3d866e74e47ec05541d1f5e312d65685e64cf612a910a56ea"
+  }
+}

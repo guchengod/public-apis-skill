@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/datacube-ai",
+  "name": "DataCube AI",
+  "category": "News",
+  "description": "Daily curated AI industry news, funding rounds and trends in 8 languages",
+  "documentation_url": "https://www.datacubeai.space/en/tools/ai-news-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa36dd530da23a83f3b74c602b01c43102205a1328a686ea0db58d3358d28a76"
+  }
+}

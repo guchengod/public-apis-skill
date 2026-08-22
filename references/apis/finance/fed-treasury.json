@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/fed-treasury",
+  "name": "Fed Treasury",
+  "category": "Finance",
+  "description": "U.S. Department of the Treasury Data",
+  "documentation_url": "https://fiscaldata.treasury.gov/api-documentation/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f60bd5360752970f712a7757b017d6f49872198d9fa84cc46f5039b1caa9105"
+  }
+}

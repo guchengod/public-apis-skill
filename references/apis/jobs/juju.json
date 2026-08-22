@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/juju",
+  "name": "Juju",
+  "category": "Jobs",
+  "description": "Job search engine",
+  "documentation_url": "http://www.juju.com/publisher/spec/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JUJU__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4db2dfbbce5db3984ad458feff7c178f3dc5e597a5549021411f484192b10d8"
+  }
+}

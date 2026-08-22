@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/musixmatch",
+  "name": "Musixmatch",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://developer.musixmatch.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__MUSIXMATCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eee165c9dfba320b528a7b567b40d42e1533be7c606ad55560339537590cda85"
+  }
+}

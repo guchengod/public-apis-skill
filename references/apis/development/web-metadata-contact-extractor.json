@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/web-metadata-contact-extractor",
+  "name": "Web Metadata & Contact Extractor",
+  "category": "Development",
+  "description": "Extract SEO metadata, contact emails, social links, and tech stack (<200ms)",
+  "documentation_url": "https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__WEB_METADATA_CONTACT_EXTRACTOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c2516864b13e83de8a6c23f9d39d9625d441821a8e1a467ef4ff9a1c61e989a3"
+  }
+}

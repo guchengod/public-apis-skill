@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ibm-text-to-speech",
+  "name": "IBM Text to Speech",
+  "category": "Development",
+  "description": "Convert text to speech",
+  "documentation_url": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IBM_TEXT_TO_SPEECH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "547724f81367695dd583769c053981d01382bdd69347906fb5e4e559b9033b94"
+  }
+}

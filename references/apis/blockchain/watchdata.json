@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/watchdata",
+  "name": "Watchdata",
+  "category": "Blockchain",
+  "description": "Provide simple and reliable API access to Ethereum blockchain",
+  "documentation_url": "https://docs.watchdata.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__WATCHDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "704ac938055e4408f93145b021d9f9e96d64b810e0699701627e04ba257cdde5"
+  }
+}

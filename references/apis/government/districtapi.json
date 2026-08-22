@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/districtapi",
+  "name": "DistrictAPI",
+  "category": "Government",
+  "description": "US school districts and schools by address, with enrollment and boundaries",
+  "documentation_url": "https://districtapi.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__DISTRICTAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4b9b2202513e77bd166b7305468c99543f916a22fd80b12781a3d381c47d4dd8"
+  }
+}

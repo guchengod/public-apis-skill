@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/dune",
+  "name": "Dune",
+  "category": "Video",
+  "description": "A simple API which provides you with book, character, movie and quotes JSON data",
+  "documentation_url": "https://github.com/ywalia01/dune-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "964a511b5055a80a5b7da9b3cc5c915884f829a66382f5e966cb996dab517ebd"
+  }
+}

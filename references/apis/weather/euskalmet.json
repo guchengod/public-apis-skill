@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/euskalmet",
+  "name": "Euskalmet",
+  "category": "Weather",
+  "description": "Meteorological data of the Basque Country",
+  "documentation_url": "https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__EUSKALMET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c900925b3198421284d2b12843e7b45d7a3a60eeb89c6f0f8036f18d98869f1"
+  }
+}

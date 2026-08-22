@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/hackmyip",
+  "name": "HackMyIP",
+  "category": "Geocoding",
+  "description": "IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups",
+  "documentation_url": "https://hackmyip.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2b1858358f967b06619acfc544dcd825102ae38e9189e0c73f0f7e71a4f8103a"
+  }
+}

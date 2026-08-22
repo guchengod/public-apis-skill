@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/spyse",
+  "name": "Spyse",
+  "category": "Security",
+  "description": "Access data on all Internet assets and build powerful attack surface management applications",
+  "documentation_url": "https://spyse-dev.readme.io/reference/quick-start",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__SPYSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "382bc674b744480aa011efadbf59da6413488db702899a414e90bb44020f3e10"
+  }
+}

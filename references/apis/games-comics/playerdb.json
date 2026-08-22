@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/playerdb",
+  "name": "PlayerDB",
+  "category": "Games & Comics",
+  "description": "Query Minecraft, Steam and XBox Accounts",
+  "documentation_url": "https://playerdb.co/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5b6e17b7008de5dfe8db390d8aa30dea94e55a658c99e695a8c44b8b7a60f6d"
+  }
+}

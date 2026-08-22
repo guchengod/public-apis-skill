@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "business/gmail",
+  "name": "Gmail",
+  "category": "Business",
+  "description": "Flexible, RESTful access to the user's inbox",
+  "documentation_url": "https://developers.google.com/gmail/api/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BUSINESS__GMAIL__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "929c5d3797326296a72659e6a37f133f86118a4f8fcb0619783a062bf0115546"
+  }
+}

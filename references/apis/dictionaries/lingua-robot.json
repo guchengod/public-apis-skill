@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/lingua-robot",
+  "name": "Lingua Robot",
+  "category": "Dictionaries",
+  "description": "Word definitions, pronunciations, synonyms, antonyms and others",
+  "documentation_url": "https://www.linguarobot.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__LINGUA_ROBOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f54f7b93ce7e77d279faecb7201c181a0cc10434af2ef27450b7a604a1719ca4"
+  }
+}

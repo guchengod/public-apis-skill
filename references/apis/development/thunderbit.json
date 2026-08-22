@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/thunderbit",
+  "name": "Thunderbit",
+  "category": "Development",
+  "description": "Extract web pages as Markdown or structured data for AI apps",
+  "documentation_url": "https://thunderbit.com/docs/introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__THUNDERBIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "af03fb023ba826f258c87cfceced26566772bce8e69a8e8267e090c4d3ddcddd"
+  }
+}

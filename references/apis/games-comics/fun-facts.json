@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/fun-facts",
+  "name": "Fun Facts",
+  "category": "Games & Comics",
+  "description": "Random Fun Facts",
+  "documentation_url": "https://asli-fun-fact-api.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bf6a594acf1742972e2de56efb1e7e548accdf97846c0b7506b9197bda2501f2"
+  }
+}

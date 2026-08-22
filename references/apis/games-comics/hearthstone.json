@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/hearthstone",
+  "name": "Hearthstone",
+  "category": "Games & Comics",
+  "description": "Hearthstone Cards Information",
+  "documentation_url": "http://hearthstoneapi.com/",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__HEARTHSTONE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d6166a55fbabb1074ff41f5ee92e7dab8dc5c01727a5597814f8cd7e9d8f087e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/jina-ai",
+  "name": "Jina AI",
+  "category": "Machine Learning",
+  "description": "Free AI API for embeddings, reranking, and text processing",
+  "documentation_url": "https://jina.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__JINA_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "52dbbd803e051064b517cf657a6c9a8ed26131c22074fca20f75aace4af7035b"
+  }
+}

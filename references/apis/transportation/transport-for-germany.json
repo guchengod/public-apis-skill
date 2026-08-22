@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-germany",
+  "name": "Transport for Germany",
+  "category": "Transportation",
+  "description": "Deutsche Bahn (DB) API",
+  "documentation_url": "http://data.deutschebahn.com/dataset/api-fahrplan",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_GERMANY__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da404b5905f1dde63853a4324b384cd83b0a193c7b9d1513ae7f84be798faf06"
+  }
+}

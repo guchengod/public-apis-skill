@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/bay-area-rapid-transit",
+  "name": "Bay Area Rapid Transit",
+  "category": "Transportation",
+  "description": "Stations and predicted arrivals for BART",
+  "documentation_url": "http://api.bart.gov",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__BAY_AREA_RAPID_TRANSIT__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "453940582b10875c311092928bf9e02c2c3c51e11932b1fd0dff536782edc3fb"
+  }
+}

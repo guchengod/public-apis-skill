@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/storm-glass",
+  "name": "Storm Glass",
+  "category": "Weather",
+  "description": "Global marine weather from multiple sources",
+  "documentation_url": "https://stormglass.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__STORM_GLASS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b87eef581a4dd82b034f4ea892015c0a15a8c21600a8b53aab7ed94dee49d88a"
+  }
+}

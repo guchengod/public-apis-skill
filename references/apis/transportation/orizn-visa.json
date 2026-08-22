@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/orizn-visa",
+  "name": "Orizn Visa",
+  "category": "Transportation",
+  "description": "Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages",
+  "documentation_url": "https://visa.orizn.app",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__ORIZN_VISA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96ce7c482f9e211106636de37bf23349a178b8c4b84879b0ac79a385ae7e5cda"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinlib",
+  "name": "Coinlib",
+  "category": "Cryptocurrency",
+  "description": "Crypto Currency Prices",
+  "documentation_url": "https://coinlib.io/apidocs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINLIB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "40671f4f5bf2ac99685ff28279f23af6cab47927834478dc4a92143a187be9a3"
+  }
+}

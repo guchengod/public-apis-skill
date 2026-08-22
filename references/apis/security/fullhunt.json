@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/fullhunt",
+  "name": "FullHunt",
+  "category": "Security",
+  "description": "Searchable attack surface database of the entire internet",
+  "documentation_url": "https://api-docs.fullhunt.io/#introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__FULLHUNT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "acc9c2f944072543aebfb01a102838f95b4b64defb1802c31b003af36e521f6b"
+  }
+}

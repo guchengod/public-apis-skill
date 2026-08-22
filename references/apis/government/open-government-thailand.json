@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-thailand",
+  "name": "Open Government, Thailand",
+  "category": "Government",
+  "description": "Thailand Government Open Data",
+  "documentation_url": "https://data.go.th/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_THAILAND__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "127d66dc543a6cfe9b1b607c8cb1d38eb420cadd2525359377ac828bffafe668"
+  }
+}

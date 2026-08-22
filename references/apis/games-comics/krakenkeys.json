@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/krakenkeys",
+  "name": "KrakenKeys",
+  "category": "Games & Comics",
+  "description": "Steam game key price comparison across 20+ stores, deals, and price history",
+  "documentation_url": "https://krakenkeys.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__KRAKENKEYS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a4049de4dcfdb005fa94c97cc0e52c11a37aea21ef1feb5dd6d8a9200e1377f"
+  }
+}

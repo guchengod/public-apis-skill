@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/country",
+  "name": "Country",
+  "category": "Geocoding",
+  "description": "Get your visitor's country from their IP",
+  "documentation_url": "http://country.is/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e143b80ad38ced561db7acc3f8b22a4ad04376346993aaa3dfc8b1a4b105f9e6"
+  }
+}

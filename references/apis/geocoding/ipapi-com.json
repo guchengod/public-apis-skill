@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipapi-com",
+  "name": "ipapi.com",
+  "category": "Geocoding",
+  "description": "Real-time Geolocation & Reverse IP Lookup REST API",
+  "documentation_url": "https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IPAPI_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a424d58655e5ff8270907f0017f5bb92b7c03cf35d714159c038e4ed018e9525"
+  }
+}

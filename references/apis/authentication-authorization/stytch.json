@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/stytch",
+  "name": "Stytch",
+  "category": "Authentication & Authorization",
+  "description": "User infrastructure for modern applications",
+  "documentation_url": "https://stytch.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__STYTCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e2dbeb6a42dcff6a7f91e96b0026c1463f501b0f5566744c19667676ea7bbd8f"
+  }
+}

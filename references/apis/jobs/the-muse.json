@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/the-muse",
+  "name": "The Muse",
+  "category": "Jobs",
+  "description": "Job board and company profiles",
+  "documentation_url": "https://www.themuse.com/developers/api/v2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__THE_MUSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bef9b5bf47faab478cd4b9f5fcf5bbcef783f7c6b811cb4cf577049029692cd4"
+  }
+}

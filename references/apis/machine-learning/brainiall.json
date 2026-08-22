@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/brainiall",
+  "name": "BRAINIALL",
+  "category": "Machine Learning",
+  "description": "PT-BR and Spanish audio transcription with diarization and SRT/VTT",
+  "documentation_url": "https://github.com/fasuizu-br/brainiall-transcription-skill",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__BRAINIALL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "28ce86580ff535859d2c658f402cf266d5338e06a54257579e7d1d7bdcbb38f3"
+  }
+}

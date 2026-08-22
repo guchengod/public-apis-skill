@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip-address-details",
+  "name": "IP Address Details",
+  "category": "Geocoding",
+  "description": "Find geolocation with ip address",
+  "documentation_url": "https://ipinfo.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "18017e22c40da7b8e79d5b9dcb1c76a3de94c46f14048fe10f432204d97c435b"
+  }
+}

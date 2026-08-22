@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/cdnjs",
+  "name": "CDNJS",
+  "category": "Development",
+  "description": "Library info on CDNJS",
+  "documentation_url": "https://api.cdnjs.com/libraries/jquery",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a899625cd0f6a877ea82e3c719dc99a453ceb772cbf599ca8c0d8a7cadbf6a0d"
+  }
+}

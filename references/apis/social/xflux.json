@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/xflux",
+  "name": "XFlux",
+  "category": "Social",
+  "description": "Read X/Twitter profiles, search, timelines; account monitors with signed webhooks",
+  "documentation_url": "https://www.xfluxapi.com/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__XFLUX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1304bad657b2025aed32de20b6bdbb761fc355924ba58abc403782169b5aa38c"
+  }
+}

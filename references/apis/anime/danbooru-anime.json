@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "anime/danbooru-anime",
+  "name": "Danbooru Anime",
+  "category": "Anime",
+  "description": "Thousands of anime artist database to find good anime art",
+  "documentation_url": "https://danbooru.donmai.us/wiki_pages/help:api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIME__DANBOORU_ANIME__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba63892820a91647f7c8c376add58151c6cc2c34b6ebd4603239308688f23721"
+  }
+}

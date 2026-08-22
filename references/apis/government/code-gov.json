@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/code-gov",
+  "name": "Code.gov",
+  "category": "Government",
+  "description": "The primary platform for Open Source and code sharing for the U.S. Federal Government",
+  "documentation_url": "https://code.gov",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__CODE_GOV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3169a82d2a664da1b4ba7b4657711a436c0b17206d0a2aed271c4ac136cb2a06"
+  }
+}

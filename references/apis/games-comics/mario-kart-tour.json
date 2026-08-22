@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/mario-kart-tour",
+  "name": "Mario Kart Tour",
+  "category": "Games & Comics",
+  "description": "API for Drivers, Karts, Gliders and Courses",
+  "documentation_url": "https://mario-kart-tour-api.herokuapp.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__MARIO_KART_TOUR__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "71a772fa4b2ae9b2dee7fd985fb09df7cebb0bf43acf77b000e9b9865d450e16"
+  }
+}

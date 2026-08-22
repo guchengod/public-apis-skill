@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/usgs-earthquake-hazards-program",
+  "name": "USGS Earthquake Hazards Program",
+  "category": "Science & Math",
+  "description": "Earthquakes data real-time",
+  "documentation_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc8334802bbb427bfec1f144269441201a564101a9d419503fc6419a9c7c4676"
+  }
+}

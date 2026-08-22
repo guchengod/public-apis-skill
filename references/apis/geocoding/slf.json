@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/slf",
+  "name": "SLF",
+  "category": "Geocoding",
+  "description": "German city, country, river, database",
+  "documentation_url": "https://github.com/slftool/slftool.github.io/blob/master/API.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8b2bc654c4c561665443423c555ea298078cd5fa3d0c4e7ae8a1bb090afe9177"
+  }
+}

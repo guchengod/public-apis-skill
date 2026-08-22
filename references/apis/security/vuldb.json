@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/vuldb",
+  "name": "VulDB",
+  "category": "Security",
+  "description": "VulDB API allows to initiate queries for one or more items along with transactional bots",
+  "documentation_url": "https://vuldb.com/?doc.api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__VULDB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fe93ab95c6352195d89bac90042650d73bc1a5bc280698765f6addd0f4740c17"
+  }
+}

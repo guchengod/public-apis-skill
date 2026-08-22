@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "continuous-integration/buddy",
+  "name": "Buddy",
+  "category": "Continuous Integration",
+  "description": "The fastest continuous integration and continuous delivery platform",
+  "documentation_url": "https://buddy.works/docs/api/getting-started/overview",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__CONTINUOUS_INTEGRATION__BUDDY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e52932073f1a1ca73e7031be317264a65607efd668cbefb0378e393b65b4aa9d"
+  }
+}

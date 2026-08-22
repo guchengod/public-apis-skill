@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/universities-list",
+  "name": "Universities List",
+  "category": "Open Data",
+  "description": "University names, countries and domains",
+  "documentation_url": "https://github.com/Hipo/university-domains-list",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6b72b3a032cce17450c2d58539441b2fb450bf693559a1df8cf96068a3fd6739"
+  }
+}

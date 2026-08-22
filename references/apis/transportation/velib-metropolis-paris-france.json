@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/velib-metropolis-paris-france",
+  "name": "Velib metropolis, Paris, France",
+  "category": "Transportation",
+  "description": "Velib Open Data API",
+  "documentation_url": "https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c3140bb428216a9cd911055fb105f1eac79620cc8e3597f76e63817b5f5fea03"
+  }
+}

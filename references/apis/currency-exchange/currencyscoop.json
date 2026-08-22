@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/currencyscoop",
+  "name": "CurrencyScoop",
+  "category": "Currency Exchange",
+  "description": "Real-time and historical currency rates JSON API",
+  "documentation_url": "https://currencyscoop.com/api-documentation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__CURRENCYSCOOP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "20ff08b3494f54462a8074afd74b469ec10fc99f897c526ccf75ecbf6fa1907e"
+  }
+}

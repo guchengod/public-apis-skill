@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/brewpage",
+  "name": "BrewPage",
+  "category": "Development",
+  "description": "Free hosting for HTML, JSON, key-value, files, multi-file sites with short URLs and TTL retention",
+  "documentation_url": "https://brewpage.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa65f28d48b7fc4912514cf9b3e61bffa1292e42e23234c3edf60966989f1882"
+  }
+}

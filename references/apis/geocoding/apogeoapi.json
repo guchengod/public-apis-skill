@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/apogeoapi",
+  "name": "ApogeoAPI",
+  "category": "Geocoding",
+  "description": "Bundled API for countries, states, cities, IP geolocation, and live exchange rates",
+  "documentation_url": "https://apogeoapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__APOGEOAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "52367f2898eed82a2b13387557785ad4667869afef77b74d00fa7927ce00c4e3"
+  }
+}

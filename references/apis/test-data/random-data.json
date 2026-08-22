@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/random-data",
+  "name": "Random Data",
+  "category": "Test Data",
+  "description": "Random data generator",
+  "documentation_url": "https://random-data-api.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3e918841ec5b1b8a392a7bf014baa456fa290917c8fd9b5962da52494f581013"
+  }
+}

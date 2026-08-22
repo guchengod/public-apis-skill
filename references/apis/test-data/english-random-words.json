@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/english-random-words",
+  "name": "English Random Words",
+  "category": "Test Data",
+  "description": "Generate English Random Words with Pronunciation",
+  "documentation_url": "https://random-words-api.vercel.app/word",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ec52a69ab3d150e67f19c25240bd5527fb288a33594a50982c748cf1445c23a7"
+  }
+}

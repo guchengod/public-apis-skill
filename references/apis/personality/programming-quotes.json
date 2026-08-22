@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/programming-quotes",
+  "name": "Programming Quotes",
+  "category": "Personality",
+  "description": "Programming Quotes API for open source projects",
+  "documentation_url": "https://github.com/skolakoda/programming-quotes-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5846331e24c3a2828e248c3d1d581303998b468d7c367718b197545e03a3db0a"
+  }
+}

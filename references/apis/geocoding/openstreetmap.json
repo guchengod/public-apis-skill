@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/openstreetmap",
+  "name": "OpenStreetMap",
+  "category": "Geocoding",
+  "description": "Navigation, geolocation and geographical data",
+  "documentation_url": "http://wiki.openstreetmap.org/wiki/API",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GEOCODING__OPENSTREETMAP__TOKEN"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f3b26fed111895c9b0f686b85ea4ed4f96bedd0c710be230d2f25d9c4e92465"
+  }
+}

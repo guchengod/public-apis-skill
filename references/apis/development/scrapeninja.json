@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrapeninja",
+  "name": "ScrapeNinja",
+  "category": "Development",
+  "description": "Scraping API with Chrome fingerprint and residential proxies",
+  "documentation_url": "https://scrapeninja.net",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPENINJA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "31d75f6a495e33dac9d080561160a4a627efd8758668f0d44164e79d5d1a180f"
+  }
+}

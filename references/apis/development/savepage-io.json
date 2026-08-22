@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/savepage-io",
+  "name": "SavePage.io",
+  "category": "Development",
+  "description": "A free, RESTful API used to screenshot any desktop, or mobile website",
+  "documentation_url": "https://www.savepage.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SAVEPAGE_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "863de57c3de4882b74e6aeaa28714099418b32250877890842a96a0c6c4c8b9c"
+  }
+}

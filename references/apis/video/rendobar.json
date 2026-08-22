@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/rendobar",
+  "name": "Rendobar",
+  "category": "Video",
+  "description": "Hosted media processing over REST: transcode, caption, watermark video",
+  "documentation_url": "https://rendobar.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__RENDOBAR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f76b17d7313057d7ae4334773b19a28e3ef2b6b7142cff85168b0163e7debc3"
+  }
+}

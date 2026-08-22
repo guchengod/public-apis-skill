@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/helipaddy-sites",
+  "name": "Helipaddy sites",
+  "category": "Vehicle",
+  "description": "Helicopter and passenger drone landing site directory, Helipaddy data and much more",
+  "documentation_url": "https://helipaddy.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__HELIPADDY_SITES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "edca82236f46cde72255755c4b365fc709e286d5b75059c9a82719020e9d08d2"
+  }
+}

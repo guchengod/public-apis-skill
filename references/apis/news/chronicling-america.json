@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/chronicling-america",
+  "name": "Chronicling America",
+  "category": "News",
+  "description": "Provides access to millions of pages of historic US newspapers from the Library of Congress",
+  "documentation_url": "http://chroniclingamerica.loc.gov/about/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d976e3fd5d425adacf7792878987f84d273a8c216cb3cdc0296c62316269a3d4"
+  }
+}

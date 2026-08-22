@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/amdoren",
+  "name": "Amdoren",
+  "category": "Currency Exchange",
+  "description": "Free currency API with over 150 currencies",
+  "documentation_url": "https://www.amdoren.com/currency-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__AMDOREN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0cd2b199fcba9058d2d7e2858d7789935b19acc75d4cb04e4984d08623b9ae54"
+  }
+}

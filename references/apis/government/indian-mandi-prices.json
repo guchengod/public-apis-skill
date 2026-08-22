@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/indian-mandi-prices",
+  "name": "Indian Mandi Prices",
+  "category": "Government",
+  "description": "Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in",
+  "documentation_url": "https://mandi-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "514e9ad0b6579bf1472a35a68021aab2e9513d8b8d6a6f97642d72ff82588663"
+  }
+}

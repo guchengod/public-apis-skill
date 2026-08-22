@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/sendinblue",
+  "name": "Sendinblue",
+  "category": "Email",
+  "description": "A service that provides solutions relating to marketing and/or transactional email and/or SMS",
+  "documentation_url": "https://developers.sendinblue.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__SENDINBLUE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d51be44aaaf464a6a81796af576495690310508b9d641fd6633fc932de46711a"
+  }
+}

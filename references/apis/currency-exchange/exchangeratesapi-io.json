@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/exchangeratesapi-io",
+  "name": "Exchangeratesapi.io",
+  "category": "Currency Exchange",
+  "description": "Exchange rates with currency conversion",
+  "documentation_url": "https://exchangeratesapi.io?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__EXCHANGERATESAPI_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ff1adb1a8a78144f60385cdacf66862cff8f53508682c64c92a53ebf44faf3ff"
+  }
+}

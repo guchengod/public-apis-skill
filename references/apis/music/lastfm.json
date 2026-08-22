@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/lastfm",
+  "name": "LastFm",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://www.last.fm/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__LASTFM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e8584ba1b8419d3674f59121629400e6a7a06909868a539ade8c0d6731befde7"
+  }
+}

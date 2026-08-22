@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/devitjobs-uk",
+  "name": "DevITjobs UK",
+  "category": "Jobs",
+  "description": "Jobs with GraphQL",
+  "documentation_url": "https://devitjobs.uk/job_feed.xml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9e0c6a9317341256c4863082178d986b92db9c70e523d875dc39caac7a61e3e"
+  }
+}

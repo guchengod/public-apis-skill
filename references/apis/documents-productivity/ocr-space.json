@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/ocr-space",
+  "name": "OCR.Space",
+  "category": "Documents & Productivity",
+  "description": "OCR text extraction from images and PDFs with a free tier",
+  "documentation_url": "https://ocr.space/ocrapi",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__OCR_SPACE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecd5dc0184f8878c81613b173950a0893591a5584aae4eab8b2fc5642912685d"
+  }
+}

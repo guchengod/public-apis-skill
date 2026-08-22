@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/czech-national-bank",
+  "name": "Czech National Bank",
+  "category": "Currency Exchange",
+  "description": "A collection of exchange rates",
+  "documentation_url": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e97da949ebca678f6fb9ccc0274023ebf6dda93a86140f362f04cb1835b2f93e"
+  }
+}

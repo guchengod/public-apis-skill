@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/linkpreview",
+  "name": "LinkPreview",
+  "category": "Open Data",
+  "description": "Get JSON formatted summary with title, description and preview image for any requested URL",
+  "documentation_url": "https://www.linkpreview.net",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__LINKPREVIEW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d816dd205a271d74b9ad6a4387466d737dee2a610826374dc574f5054053ddfe"
+  }
+}

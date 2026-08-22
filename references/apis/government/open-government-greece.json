@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-greece",
+  "name": "Open Government, Greece",
+  "category": "Government",
+  "description": "Greece Government Open Data",
+  "documentation_url": "https://data.gov.gr/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_GREECE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a77196a7c338c5605901e090dc478a17f4270852ed09ea26445c0cc2c13e8804"
+  }
+}

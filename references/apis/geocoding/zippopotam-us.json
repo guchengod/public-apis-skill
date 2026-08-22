@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/zippopotam-us",
+  "name": "Zippopotam.us",
+  "category": "Geocoding",
+  "description": "Get information about place such as country, city, state, etc",
+  "documentation_url": "http://www.zippopotam.us",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ca9ad2c47f73197c7a27c0f5c1b9005fc2b4afc199d5539ae012994eadf4e48"
+  }
+}

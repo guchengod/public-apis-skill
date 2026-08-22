@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/the-lord-of-the-rings",
+  "name": "The Lord of the Rings",
+  "category": "Video",
+  "description": "The Lord of the Rings API",
+  "documentation_url": "https://the-one-api.dev/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__THE_LORD_OF_THE_RINGS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b1e02194637a49f31f5032befa608576946feb31012248b40f9af03dbb8590ff"
+  }
+}

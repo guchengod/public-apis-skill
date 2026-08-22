@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/urantia-papers",
+  "name": "Urantia Papers",
+  "category": "Books",
+  "description": "Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations",
+  "documentation_url": "https://urantia.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f0ed63a4855e94ac7e2130addc5a5bf72d24572a065b54c273f237427af25284"
+  }
+}

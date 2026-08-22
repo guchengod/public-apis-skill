@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/dogs",
+  "name": "Dogs",
+  "category": "Animals",
+  "description": "Based on the Stanford Dogs Dataset",
+  "documentation_url": "https://dog.ceo/dog-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0fd227f3519f9ebb99747a1608d0278d4d23b3ba6786be3562d5e0d01dafb9b8"
+  }
+}

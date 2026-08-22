@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/schiphol-airport",
+  "name": "Schiphol Airport",
+  "category": "Transportation",
+  "description": "Schiphol",
+  "documentation_url": "https://developer.schiphol.nl/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__SCHIPHOL_AIRPORT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6e687430fc6a1622e4140f70d53a9e9de190892173d9da600f6a8f726bc76c45"
+  }
+}

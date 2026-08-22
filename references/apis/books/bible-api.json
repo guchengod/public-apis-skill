@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/bible-api",
+  "name": "Bible-api",
+  "category": "Books",
+  "description": "Free Bible API with multiple languages",
+  "documentation_url": "https://bible-api.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b6abb85b931faa16a532805cbc87572f6c55bb46a299bd45d7a3fb3d93d27e6a"
+  }
+}

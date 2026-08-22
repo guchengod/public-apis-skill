@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-new-york-open-data",
+  "name": "City, New York Open Data",
+  "category": "Government",
+  "description": "New York (US) City Open Data",
+  "documentation_url": "https://opendata.cityofnewyork.us/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "520deae978633299d55823b2d6c82ba9bda5fe5dc36d61695bc08e0105f95374"
+  }
+}

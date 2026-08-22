@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/lexigram",
+  "name": "Lexigram",
+  "category": "Health",
+  "description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+  "documentation_url": "https://docs.lexigram.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__LEXIGRAM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a6dc8b7346c01e932c224018ae5d9f1683461ef457a2e7930ecd6a4c6bb5607"
+  }
+}

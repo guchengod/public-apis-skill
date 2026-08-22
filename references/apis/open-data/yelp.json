@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "open-data/yelp",
+  "name": "Yelp",
+  "category": "Open Data",
+  "description": "Find Local Business",
+  "documentation_url": "https://www.yelp.com/developers/documentation/v3",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__OPEN_DATA__YELP__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7774a31239f6adb394e2c9e77d964a6117ddbd985ffaa110fff349cf827ea61d"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/fuck-off-as-a-service",
+  "name": "Fuck Off as a Service",
+  "category": "Social",
+  "description": "Asks someone to fuck off",
+  "documentation_url": "https://www.foaas.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f78e08088d739cbf7e8252022fc34511ed361527c388ea56a872072c09a282a4"
+  }
+}

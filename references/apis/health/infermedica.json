@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/infermedica",
+  "name": "Infermedica",
+  "category": "Health",
+  "description": "NLP based symptom checker and patient triage API for health diagnosis from text",
+  "documentation_url": "https://developer.infermedica.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__INFERMEDICA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6e3183cb83e93c500d9494665ecbfb64b1766cbcf9230351fcbd63fa45ed3c1e"
+  }
+}

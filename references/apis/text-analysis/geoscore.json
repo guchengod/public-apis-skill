@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/geoscore",
+  "name": "GeoScore",
+  "category": "Text Analysis",
+  "description": "Score content for AI search citation readiness with a 0-100 GEO score and 8 structural metrics",
+  "documentation_url": "https://geoscoreapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__GEOSCORE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4d876f39c78f59598a06d54163453af827a8f7f77f2110041480b5efb9f9c886"
+  }
+}

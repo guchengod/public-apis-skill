@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/rss-feed-to-json",
+  "name": "RSS feed to JSON",
+  "category": "Development",
+  "description": "Returns RSS feed in JSON format using feed URL",
+  "documentation_url": "https://rss-to-json-serverless-api.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5204ca8c9c978c141eaf4d6d9ed9a8e60126734874a8768a00e86b5e54582c52"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/openvan",
+  "name": "OpenVan",
+  "category": "Transportation",
+  "description": "Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel",
+  "documentation_url": "https://openvan.camp/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7701022792818c59698263703f1a2f0a2ecad3ea5e2167751b3d6e520c1d986"
+  }
+}

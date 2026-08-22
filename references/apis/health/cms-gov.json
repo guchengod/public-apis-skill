@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/cms-gov",
+  "name": "CMS.gov",
+  "category": "Health",
+  "description": "Access to the data from the CMS - medicare.gov",
+  "documentation_url": "https://data.cms.gov/provider-data/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__CMS_GOV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9949020039d0c52c1d44fb58648d33fef411199d47e5a3ccf356136c197691b9"
+  }
+}

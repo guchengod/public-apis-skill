@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/placebear",
+  "name": "PlaceBear",
+  "category": "Animals",
+  "description": "Placeholder bear pictures",
+  "documentation_url": "https://placebear.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4738c7f8b61f310be7f34340d2ca37f1e192e398a07cf181609994794bf45cc"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/tmdb",
+  "name": "TMDb",
+  "category": "Video",
+  "description": "Community-based movie data",
+  "documentation_url": "https://www.themoviedb.org/documentation/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__TMDB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f646126f0fdee03eeb7c184dd3dedb178276c8c70ca1fe04480d0cf3cb10e319"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-south-australian-government",
+  "name": "Open Government, South Australian Government",
+  "category": "Government",
+  "description": "South Australian Government Open Data",
+  "documentation_url": "https://data.sa.gov.au/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "65a2e7180ce6b5d264b8aa5db251b1b030e4dbd8567ee4e38f87cad598155118"
+  }
+}

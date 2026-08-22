@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/mmo-games",
+  "name": "MMO Games",
+  "category": "Games & Comics",
+  "description": "MMO Games Database, News and Giveaways",
+  "documentation_url": "https://www.mmobomb.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "28bc4313f957c3d8971563f6d6f8b870bccffbafe42c0dc4c862d76d80063454"
+  }
+}

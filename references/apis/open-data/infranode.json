@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/infranode",
+  "name": "InfraNode",
+  "category": "Open Data",
+  "description": "Unified German city open data: weather, air quality, EV chargers, transit, demographics",
+  "documentation_url": "https://infranode.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__INFRANODE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "81e6b23ca55c7d30b79eb406f740748a6531172d3fa6bb4ad0399392bd9ad647"
+  }
+}

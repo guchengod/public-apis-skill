@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/findwork",
+  "name": "Findwork",
+  "category": "Jobs",
+  "description": "Job board",
+  "documentation_url": "https://findwork.dev/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__FINDWORK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ea8f25cfcbe4a37531700d7684895a092dcac617d2447c2204ceeb6649726938"
+  }
+}

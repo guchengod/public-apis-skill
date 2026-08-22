@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/nasa",
+  "name": "NASA",
+  "category": "Science & Math",
+  "description": "NASA data, including imagery",
+  "documentation_url": "https://api.nasa.gov",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da0da4bb8510a994be71a5903a98a098a6ce16ea69f77f78fde9ef1fbdea5c0f"
+  }
+}

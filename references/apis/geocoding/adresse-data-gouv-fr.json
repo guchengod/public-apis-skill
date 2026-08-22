@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/adresse-data-gouv-fr",
+  "name": "adresse.data.gouv.fr",
+  "category": "Geocoding",
+  "description": "Address database of France, geocoding and reverse",
+  "documentation_url": "https://adresse.data.gouv.fr",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1152972c65caa3c280e851e61aa05ee463f113257b6b32f0aa2ca3d088c18baf"
+  }
+}

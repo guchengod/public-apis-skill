@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/us-presidential-election-data-by-togatech",
+  "name": "US Presidential Election Data by TogaTech",
+  "category": "Government",
+  "description": "Basic candidate data and live electoral vote counts for top two parties in US presidential election",
+  "documentation_url": "https://uselection.togatech.org/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1789d679a07eff57537dd565b3947789a4cf7c54d0b2db7e39ae756bff87772d"
+  }
+}

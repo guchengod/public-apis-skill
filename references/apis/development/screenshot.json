@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/screenshot",
+  "name": "Screenshot",
+  "category": "Development",
+  "description": "Take programmatic screenshots of web pages from any website",
+  "documentation_url": "https://www.abstractapi.com/website-screenshot-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCREENSHOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0944510d96bf38b5b289ac397b07fd3701d924262dc79e2a9d5b0a56b6436ff4"
+  }
+}

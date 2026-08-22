@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-mexico--3d8f43d8",
+  "name": "Open Government, Mexico",
+  "category": "Government",
+  "description": "Mexican Statistical Government Open Data",
+  "documentation_url": "https://www.inegi.org.mx/datos/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3eb8f8c761228f2390f66e5957bd0df01009d85bf5a73d9d0cbb740797da39a5"
+  }
+}

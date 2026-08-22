@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/shrtcode",
+  "name": "Shrtcode",
+  "category": "URL Shorteners",
+  "description": "URl Shortener with multiple Domains",
+  "documentation_url": "https://shrtco.de/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2fcb2772d15a71ad7f41df4b787fd342460bf24e4a5c07a0988cf7c691a52fbb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/artificial-intelligence-jobs",
+  "name": "Artificial Intelligence Jobs",
+  "category": "Jobs",
+  "description": "Live AI/ML job listings from 260+ companies' own career pages, with salary, location, remote and seniority filters",
+  "documentation_url": "https://artificialintelligencejobs.co/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "08897589e49a86fe87b8617e4074a9761ff01ebbdedc4d4b0f18991d74c8b633"
+  }
+}

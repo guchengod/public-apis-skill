@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/bacon-ipsum",
+  "name": "Bacon Ipsum",
+  "category": "Test Data",
+  "description": "A Meatier Lorem Ipsum Generator",
+  "documentation_url": "https://baconipsum.com/json-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5e8971ed86bc5c96ee0ce7518c30ca15622a4218426b6c9dcdea3c3dcea4e3b6"
+  }
+}

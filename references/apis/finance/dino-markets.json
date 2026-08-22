@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/dino-markets",
+  "name": "Dino.markets",
+  "category": "Finance",
+  "description": "Matched Kalshi and Polymarket prediction-market data, cross-venue spreads",
+  "documentation_url": "https://dino.markets/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__DINO_MARKETS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6d2109272e6324f350f4ada72449b7010597f2a57bfa5a74d75302c6624c3a25"
+  }
+}

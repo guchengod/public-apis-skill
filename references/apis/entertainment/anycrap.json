@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/anycrap",
+  "name": "Anycrap",
+  "category": "Entertainment",
+  "description": "35,000+ absurdist AI-generated product concepts with names, descriptions, and images",
+  "documentation_url": "https://anycrap.shop/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENTERTAINMENT__ANYCRAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9f2a6110691a1e31a0319e3ac74c58de9571e0b43961e12e8e5f19c0085a8ed"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "patent/patentsview",
+  "name": "PatentsView",
+  "category": "Patent",
+  "description": "API is intended to explore and visualize trends/patterns across the US innovation landscape",
+  "documentation_url": "https://patentsview.org/apis/purpose",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "439e32cd8068a85da0f2c9719d7e9fc26f8634df319d79af60a2d8214bf7d26c"
+  }
+}

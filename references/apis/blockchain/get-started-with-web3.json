@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/get-started-with-web3",
+  "name": "Get Started with Web3",
+  "category": "Blockchain",
+  "description": "Bilingual Web3 lessons, glossary search and role-based learning paths",
+  "documentation_url": "https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecf6e1c2739e7e504a0853c33d73e2137189b382a5d117ab38982abbc6ffea5e"
+  }
+}

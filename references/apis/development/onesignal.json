@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/onesignal",
+  "name": "OneSignal",
+  "category": "Development",
+  "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
+  "documentation_url": "https://documentation.onesignal.com/docs/onesignal-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__ONESIGNAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a2c8f6c1db85841aadcd28e1f85461a02aac74e3eff2f0bdaaac642ea2fbc33"
+  }
+}

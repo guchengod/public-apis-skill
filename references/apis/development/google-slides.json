@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/google-slides",
+  "name": "Google Slides",
+  "category": "Development",
+  "description": "API to read, write, and format Google Slides presentations",
+  "documentation_url": "https://developers.google.com/slides/api/reference/rest",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_SLIDES__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7729b7f1ff4e164048001f862ab31bd4017051ca58a6d8d9e08f8e58776ed8a2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/suprsonic",
+  "name": "Suprsonic",
+  "category": "Development",
+  "description": "Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities",
+  "documentation_url": "https://suprsonic.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SUPRSONIC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e59a9f926c0428a450064d0d78cdba800c013f1486ad071367887aef6967c4f4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/wttr-in",
+  "name": "wttr.in",
+  "category": "Weather",
+  "description": "Weather in your terminal, supports JSON output",
+  "documentation_url": "https://wttr.in/:help",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b32ab292dfaa70ddd12dd8143d79733ffd18dd69187ee27a176b0f7be0137f64"
+  }
+}

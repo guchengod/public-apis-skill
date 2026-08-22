@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/merriam-webster",
+  "name": "Merriam-Webster",
+  "category": "Dictionaries",
+  "description": "Dictionary and Thesaurus Data",
+  "documentation_url": "https://dictionaryapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__MERRIAM_WEBSTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a7ad4d28f011cc97cb2206ec6e463554e15b6ad11c7b295400c4152000d6b9f"
+  }
+}

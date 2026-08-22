@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/json2video",
+  "name": "JSON2Video",
+  "category": "Video",
+  "description": "Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations",
+  "documentation_url": "https://json2video.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__JSON2VIDEO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fefacf8a18303ec44177f3ab31026f2b5f42a704410ad44e4f5046a5588e2aaa"
+  }
+}

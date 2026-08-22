@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "anime/shikimori",
+  "name": "Shikimori",
+  "category": "Anime",
+  "description": "Anime discovery, tracking, forum, rates",
+  "documentation_url": "https://shikimori.one/api/doc",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__ANIME__SHIKIMORI__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "66446009d16cdeb42454d29a1a93ccfd9a7daf2b92dabc71e812eef778e4f13d"
+  }
+}

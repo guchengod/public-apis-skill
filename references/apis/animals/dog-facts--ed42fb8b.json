@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/dog-facts--ed42fb8b",
+  "name": "Dog Facts",
+  "category": "Animals",
+  "description": "Random facts of Dogs",
+  "documentation_url": "https://kinduff.github.io/dog-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0cd2c92fa958f30378880ca83900acec4711b714f21527a718625e376d02994b"
+  }
+}

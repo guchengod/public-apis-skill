@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-auckland-new-zealand",
+  "name": "Transport for Auckland, New Zealand",
+  "category": "Transportation",
+  "description": "Auckland Transport",
+  "documentation_url": "https://dev-portal.at.govt.nz/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e6fe78721791aba438c1de61b1f41c27019d9c6fd6ebf9a5850f84deef923e42"
+  }
+}

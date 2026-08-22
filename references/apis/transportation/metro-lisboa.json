@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/metro-lisboa",
+  "name": "Metro Lisboa",
+  "category": "Transportation",
+  "description": "Delays in subway lines",
+  "documentation_url": "http://app.metrolisboa.pt/status/getLinhas.php",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ed7e674fd0b75f82df8cd0eb4e4d14385b9d4a02e8b617f6cbd3e5987dca9416"
+  }
+}

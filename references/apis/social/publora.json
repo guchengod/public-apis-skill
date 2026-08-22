@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/publora",
+  "name": "Publora",
+  "category": "Social",
+  "description": "Publish and schedule posts to ten social networks from one endpoint",
+  "documentation_url": "https://docs.publora.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__PUBLORA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95b1e01933b67465855da4b19070e8416e2a50c27e0c5934003d55df273ebfc4"
+  }
+}

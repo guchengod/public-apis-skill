@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "jobs/arbeitsamt",
+  "name": "Arbeitsamt",
+  "category": "Jobs",
+  "description": "API for the \"Arbeitsamt\", which is a german Job board aggregator",
+  "documentation_url": "https://jobsuche.api.bund.dev/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__JOBS__ARBEITSAMT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f75dea97eb3bab9e772742271b7259e75afea64cca33d3feb5e1c5c40bf4cdb4"
+  }
+}

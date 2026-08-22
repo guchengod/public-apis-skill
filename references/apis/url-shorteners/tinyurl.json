@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/tinyurl",
+  "name": "TinyURL",
+  "category": "URL Shorteners",
+  "description": "Shorten long URLs",
+  "documentation_url": "https://tinyurl.com/app/dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__TINYURL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0d31f8688f77385ba4c0392dff6eb1cd2f8cd618add3241a2c0e738f5e5cdb48"
+  }
+}

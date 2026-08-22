@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/vett",
+  "name": "Vett",
+  "category": "Government",
+  "description": "Screen names & companies against OFAC, PEP, watchlists & recalls",
+  "documentation_url": "https://wimberly.solutions/api/free-sanctions-check/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b450491d546768e87fd095e3bd7cf86d3763d8d9ae6acdd3abfedb2e9b901ec5"
+  }
+}

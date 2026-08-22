@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/north7-agent",
+  "name": "NORTH7 Agent",
+  "category": "Finance",
+  "description": "Trading signals, market analysis and geopolitical intelligence",
+  "documentation_url": "https://north7.ai/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__NORTH7_AGENT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1949cfbd90e4ebbc74dd97f1a94736025100193347d5107af918835a03c35b4e"
+  }
+}

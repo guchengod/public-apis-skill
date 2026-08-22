@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/dangerous-discord-database",
+  "name": "Dangerous Discord Database",
+  "category": "Social",
+  "description": "Database of malicious Discord accounts",
+  "documentation_url": "https://discord.riverside.rocks/docs/index.php",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__DANGEROUS_DISCORD_DATABASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96afdfc8f756135b0a2c2dc70b4be98e68010f62b07523337a513711c69fa76b"
+  }
+}

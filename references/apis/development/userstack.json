@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/userstack",
+  "name": "Userstack",
+  "category": "Development",
+  "description": "Secure User-Agent String Lookup JSON API",
+  "documentation_url": "https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__USERSTACK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f65573f8fc822216e429598c2cd0d921926d85b941147140aba029355e364c11"
+  }
+}

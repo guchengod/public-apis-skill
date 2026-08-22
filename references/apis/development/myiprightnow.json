@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/myiprightnow",
+  "name": "MyIPRightNow",
+  "category": "Development",
+  "description": "Public IP address with network, location, and connection details",
+  "documentation_url": "https://myiprightnow.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5dbff0e312f7b7c9a042ea6fface9945b0102e1933d44e828da2c0fe07a93b8"
+  }
+}

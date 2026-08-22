@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/city-berlin",
+  "name": "City, Berlin",
+  "category": "Government",
+  "description": "Berlin(DE) City Open Data",
+  "documentation_url": "https://daten.berlin.de/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29c79530da43f5ac9193e22cc7956bfe2953f04b6b192bc47527ffef2b78ca23"
+  }
+}

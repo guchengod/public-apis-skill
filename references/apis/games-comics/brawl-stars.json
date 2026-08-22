@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/brawl-stars",
+  "name": "Brawl Stars",
+  "category": "Games & Comics",
+  "description": "Brawl Stars Game Information",
+  "documentation_url": "https://developer.brawlstars.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__BRAWL_STARS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf1e1b9d2630ceaa770f335e4db00630728eef336c0a39736fae696a4a9a0a00"
+  }
+}

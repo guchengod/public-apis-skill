@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/tvmaze",
+  "name": "TVMaze",
+  "category": "Video",
+  "description": "TV Show Data",
+  "documentation_url": "http://www.tvmaze.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01dbd0bcbe3dfdb83208e96aea6efc4d3688c46d793a5dc61028daa3338dc08e"
+  }
+}

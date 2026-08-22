@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/open-page-rank",
+  "name": "Open Page Rank",
+  "category": "Development",
+  "description": "API for calculating and comparing metrics of different websites using Page Rank algorithm",
+  "documentation_url": "https://www.domcop.com/openpagerank/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__OPEN_PAGE_RANK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e7d842a7b35070bc43965fe401eb0d72a13f13e4af4795b05bfd1dbda4fa7bb5"
+  }
+}

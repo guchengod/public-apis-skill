@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coincap",
+  "name": "CoinCap",
+  "category": "Cryptocurrency",
+  "description": "Real time Cryptocurrency prices through a RESTful API",
+  "documentation_url": "https://docs.coincap.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f7748a3d546a690c0ca642f66d35f54dd684cd998fc1341b5eb34bc241be6039"
+  }
+}

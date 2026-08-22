@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/animefacts",
+  "name": "AnimeFacts",
+  "category": "Anime",
+  "description": "Anime Facts (over 100+)",
+  "documentation_url": "https://chandan-02.github.io/anime-facts-rest-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "83027d00768d87c63da813273ffa9217150c1a1caf7c76751990def56c6e133f"
+  }
+}

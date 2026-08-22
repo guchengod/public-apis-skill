@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/4chan",
+  "name": "4chan",
+  "category": "Social",
+  "description": "Simple image-based bulletin board dedicated to a variety of topics",
+  "documentation_url": "https://github.com/4chan/4chan-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d771e40ff49f44a9a8675e76fd628a365278b96c2c1f990ded39e3733a72e53e"
+  }
+}

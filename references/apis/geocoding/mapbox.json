@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/mapbox",
+  "name": "Mapbox",
+  "category": "Geocoding",
+  "description": "Create/customize beautiful digital maps",
+  "documentation_url": "https://docs.mapbox.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__MAPBOX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ce9bb060e0b07b5efe3585a58d7b7bec8bd0529167082ede5501391221a02bf"
+  }
+}

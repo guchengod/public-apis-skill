@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/visual-crossing",
+  "name": "Visual Crossing",
+  "category": "Weather",
+  "description": "Global historical and weather forecast data",
+  "documentation_url": "https://www.visualcrossing.com/weather-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__VISUAL_CROSSING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba1ccfcb37e46c61b213a7fe96403c4f48d0312b1a3431f61c059433b78335b3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/mediacraft-ai",
+  "name": "MediaCraft AI",
+  "category": "Machine Learning",
+  "description": "Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC).",
+  "documentation_url": "https://mediacraft-x402-api.onrender.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__MEDIACRAFT_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df553662eeb23ff924e562c5efbbb9e29d08a84520a91aaba60989426124cae3"
+  }
+}

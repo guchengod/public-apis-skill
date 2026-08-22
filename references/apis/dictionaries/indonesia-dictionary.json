@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/indonesia-dictionary",
+  "name": "Indonesia Dictionary",
+  "category": "Dictionaries",
+  "description": "Indonesia dictionary many words",
+  "documentation_url": "https://new-kbbi-api.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce5e43a7b0fdaa042edfea1d001c8fd2ef8713ad559c1a19b8c579fe83ef055b"
+  }
+}

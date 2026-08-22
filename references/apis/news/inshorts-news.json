@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/inshorts-news",
+  "name": "Inshorts News",
+  "category": "News",
+  "description": "Provides news from inshorts",
+  "documentation_url": "https://github.com/cyberboysumanjay/Inshorts-News-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a2456db4651ac5c7172bbcda88b0678c6af8f52afc8d20557fbb6a9f4f5a399"
+  }
+}

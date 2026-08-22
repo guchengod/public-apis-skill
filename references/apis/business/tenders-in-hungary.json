@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tenders-in-hungary",
+  "name": "Tenders in Hungary",
+  "category": "Business",
+  "description": "Get data for procurements in Hungary in JSON format",
+  "documentation_url": "https://tenders.guru/hu/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c7f236ea7f953a225c02a847f684c3179ba0689173f790910da61b8c59c73894"
+  }
+}

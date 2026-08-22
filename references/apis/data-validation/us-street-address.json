@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/us-street-address",
+  "name": "US Street Address",
+  "category": "Data Validation",
+  "description": "Validate and append data for any US postal address",
+  "documentation_url": "https://www.smarty.com/docs/cloud/us-street-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__US_STREET_ADDRESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9861e53737f6e5fcb0d6a32d390ec4ab0b805d6bdc315dd1e48d76783842a3d9"
+  }
+}

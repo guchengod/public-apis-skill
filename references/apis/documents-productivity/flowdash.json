@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/flowdash",
+  "name": "Flowdash",
+  "category": "Documents & Productivity",
+  "description": "Automate business workflows",
+  "documentation_url": "https://docs.flowdash.com/docs/api-introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__FLOWDASH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bb6a80cc6f49fade5e95d123cf4aaad785380afbbf0ced1c2832e2a10154fdb4"
+  }
+}

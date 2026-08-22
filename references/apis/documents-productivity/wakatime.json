@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/wakatime",
+  "name": "WakaTime",
+  "category": "Documents & Productivity",
+  "description": "Automated time tracking leaderboards for programmers",
+  "documentation_url": "https://wakatime.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f04d25c6107e4cee427a229aae7781f0cb8c202400da1ca4f7d2fb45f8262b39"
+  }
+}

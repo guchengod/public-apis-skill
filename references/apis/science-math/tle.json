@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/tle",
+  "name": "TLE",
+  "category": "Science & Math",
+  "description": "Satellite information",
+  "documentation_url": "https://tle.ivanstanojevic.me/#/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59861d5dd5dfaa588b3352bfeac23bb6e62a4e1cee3950a6835242271223f41e"
+  }
+}

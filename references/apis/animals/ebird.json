@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "animals/ebird",
+  "name": "eBird",
+  "category": "Animals",
+  "description": "Retrieve recent or notable birding observations within a region",
+  "documentation_url": "https://documenter.getpostman.com/view/664302/S1ENwy59",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIMALS__EBIRD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f570d843ee789452bd372d7da9c9f5f5353de29bd0911016dc6ddc19c8434d1"
+  }
+}

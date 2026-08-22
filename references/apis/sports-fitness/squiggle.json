@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/squiggle",
+  "name": "Squiggle",
+  "category": "Sports & Fitness",
+  "description": "Fixtures, results and predictions for Australian Football League matches",
+  "documentation_url": "https://api.squiggle.com.au",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5a364b7e61456390886609fb64b33e43e09a22bc9717be31a954509a5aab1dfc"
+  }
+}

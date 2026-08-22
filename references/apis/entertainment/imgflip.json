@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/imgflip",
+  "name": "Imgflip",
+  "category": "Entertainment",
+  "description": "Gets an array of popular memes",
+  "documentation_url": "https://imgflip.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "56388995951d1e9182d16f1947dbe9b8e559850a54f7ee9d0e891b142ffe9f6d"
+  }
+}

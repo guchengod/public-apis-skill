@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/free-url-shortener",
+  "name": "Free Url Shortener",
+  "category": "URL Shorteners",
+  "description": "Free URL Shortener offers a powerful API to interact with other sites",
+  "documentation_url": "https://ulvis.net/developer.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ac9ff918bc4e9de40a9d59509958a3a88c53505a55201507a03153aad89bf8d3"
+  }
+}

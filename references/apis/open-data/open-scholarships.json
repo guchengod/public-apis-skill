@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/open-scholarships",
+  "name": "Open Scholarships",
+  "category": "Open Data",
+  "description": "Free, openly-licensed directory of US scholarships and student aid from official sources",
+  "documentation_url": "https://scholarships.grudged.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce085b73fa4b357c2807ac9ea58ec3a4d0e4d5280cc490f1c871ed006c9ea720"
+  }
+}

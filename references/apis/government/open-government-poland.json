@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-poland",
+  "name": "Open Government, Poland",
+  "category": "Government",
+  "description": "Poland Government Open Data",
+  "documentation_url": "https://dane.gov.pl/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ab681889856ee6a4d2a486bf178aca467863d373fb19f52bf79910f861c6da3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/dungeons-and-dragons-alternate",
+  "name": "Dungeons and Dragons (Alternate)",
+  "category": "Games & Comics",
+  "description": "Includes all monsters and spells from the SRD (System Reference Document) as well as a search API",
+  "documentation_url": "https://open5e.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6df7be12eaddfb94c6591ea2fe9a5834d76c2c2836e1b1c38b19820f75be6368"
+  }
+}

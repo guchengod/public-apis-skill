@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-colombia",
+  "name": "Open Government, Colombia",
+  "category": "Government",
+  "description": "Colombia Government Open Data",
+  "documentation_url": "https://www.dane.gov.co/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "647d79580682ab07cdb5a370891fc5c54a99664728beadef42a74b9395594649"
+  }
+}

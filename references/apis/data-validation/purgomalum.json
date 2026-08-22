@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/purgomalum",
+  "name": "PurgoMalum",
+  "category": "Data Validation",
+  "description": "Content validator against profanity & obscenity",
+  "documentation_url": "http://www.purgomalum.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc82df4c06cdb06f0af9f8b3f2512248989ad7ea9572a9bdf21b50cea8c9b9a1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/mlb-records-and-stats",
+  "name": "MLB Records and Stats",
+  "category": "Sports & Fitness",
+  "description": "Current and historical MLB statistics",
+  "documentation_url": "https://appac.github.io/mlb-data-api-docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "160c747a5634f3e7296c24b3c2d6df0aab3f2d509f967d76e0475e586174ecd7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/1pt",
+  "name": "1pt",
+  "category": "URL Shorteners",
+  "description": "A simple URL shortener",
+  "documentation_url": "https://github.com/1pt-co/api/blob/main/README.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3149bbdf6cb7d19380a25c8674cffa52c3ec343cf3c6ffb14a8a08a29e99c153"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/buildpdf",
+  "name": "BuildPDF",
+  "category": "Documents & Productivity",
+  "description": "Convert HTML, images, and text to PDF",
+  "documentation_url": "https://buildpdf.co/api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__BUILDPDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5f1392cdf59181af9f62ae75eda0e9e88da58d9569903fec9618cb37e98ceafa"
+  }
+}

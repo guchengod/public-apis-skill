@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/itis",
+  "name": "ITIS",
+  "category": "Science & Math",
+  "description": "Integrated Taxonomic Information System",
+  "documentation_url": "https://www.itis.gov/ws_description.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6be4ebccc23a7e612c81430885625b68e8938ea77dfd240bc0552f3e6be82262"
+  }
+}

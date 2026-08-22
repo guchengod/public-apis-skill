@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/kanari",
+  "name": "kanari",
+  "category": "Environment",
+  "description": "Real-time worldwide wildfire detections, water bomber tracking and open fire archive",
+  "documentation_url": "https://kanari.io/en/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ad2b84b23fb6c3267f850a86eeed45f39158b188484eba3246268fd3f7b716e"
+  }
+}

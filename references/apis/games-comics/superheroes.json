@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/superheroes",
+  "name": "SuperHeroes",
+  "category": "Games & Comics",
+  "description": "All SuperHeroes and Villains data from all universes under a single API",
+  "documentation_url": "https://superheroapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__SUPERHEROES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "46d5f8ceb23410a513f4b15d278aa1d5295666f045c68ff3f1cb18f8c5851166"
+  }
+}

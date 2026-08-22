@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/balldontlie",
+  "name": "balldontlie",
+  "category": "Sports & Fitness",
+  "description": "Balldontlie provides access to stats data from the NBA",
+  "documentation_url": "https://www.balldontlie.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "04f103772272e677cc9d6bcd73856add618529de0ab92dc4ca850800c031b71c"
+  }
+}

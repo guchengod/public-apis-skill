@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/yu-gi-oh",
+  "name": "Yu-Gi-Oh!",
+  "category": "Games & Comics",
+  "description": "Yu-Gi-Oh! TCG Information",
+  "documentation_url": "https://db.ygoprodeck.com/api-guide/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0fb16bfd0d273f9b6b615c7c8f418b13ec18d274d1b67b16dfdada17cb1e1868"
+  }
+}

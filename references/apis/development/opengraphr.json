@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/opengraphr",
+  "name": "OpenGraphr",
+  "category": "Development",
+  "description": "Really simple API to retrieve Open Graph data from an URL",
+  "documentation_url": "https://opengraphr.com/docs/1.0/overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__OPENGRAPHR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f2dc9482477df89471d200de0a8b81cb68b6dd028a35a26e3bb12b6cbaa16626"
+  }
+}

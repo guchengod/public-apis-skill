@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "business/google-analytics",
+  "name": "Google Analytics",
+  "category": "Business",
+  "description": "Collect, configure and analyze your data to reach the right audience",
+  "documentation_url": "https://developers.google.com/analytics/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BUSINESS__GOOGLE_ANALYTICS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1cc55a98e9b5a2b17bbd6ce1ea6d7da99aaf4173e5ff8d26e333d948aa442e2"
+  }
+}

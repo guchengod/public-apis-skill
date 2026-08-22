@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/geocode-xyz",
+  "name": "Geocode.xyz",
+  "category": "Geocoding",
+  "description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing",
+  "documentation_url": "https://geocode.xyz/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "269d57309d24df41675e43787e664f3b3db537147db0c428e947cd0e4ea6ec6b"
+  }
+}

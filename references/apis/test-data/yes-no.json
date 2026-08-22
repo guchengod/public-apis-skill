@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/yes-no",
+  "name": "Yes No",
+  "category": "Test Data",
+  "description": "Generate yes or no randomly",
+  "documentation_url": "https://yesno.wtf/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e774fa5b6c4b61317a8074cd4728a493389bc3a83c49abeffaf8d910dbd910d"
+  }
+}

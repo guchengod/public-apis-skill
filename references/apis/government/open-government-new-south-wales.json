@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-new-south-wales",
+  "name": "Open Government, New South Wales",
+  "category": "Government",
+  "description": "New South Wales Government Open Data",
+  "documentation_url": "https://api.nsw.gov.au/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPEN_GOVERNMENT_NEW_SOUTH_WALES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d979f054265c3d664ec821b0a670de7d85a7994e91a8ee8e1bb02203cf80b818"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/caldays",
+  "name": "caldays",
+  "category": "Calendar",
+  "description": "Public holidays for 195+ countries",
+  "documentation_url": "https://caldays.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "032f89d6cea88493cf78479073d7747916bd255ee6e5175112d6e9a04ae3d0c6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/edamam",
+  "name": "Edamam",
+  "category": "Health",
+  "description": "Food and nutrition data API with recipe search",
+  "documentation_url": "https://developer.edamam.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__EDAMAM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ee689f45f4f6cf5b58b42de75e984c797bffa4f363f8ef0e70a594e9c100e2e3"
+  }
+}

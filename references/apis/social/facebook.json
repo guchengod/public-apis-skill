@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/facebook",
+  "name": "Facebook",
+  "category": "Social",
+  "description": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
+  "documentation_url": "https://developers.facebook.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__FACEBOOK__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae91f8d8e2048c449ef9f54f5fc719bdef4c3a3e33a5ac6240cc73e28b797015"
+  }
+}

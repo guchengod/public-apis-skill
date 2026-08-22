@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/newsx",
+  "name": "NewsX",
+  "category": "News",
+  "description": "Get or Search Latest Breaking News with ML Powered Summaries 🤖",
+  "documentation_url": "https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEWSX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "04f7dea33f8040db15d46d9f06463297e610f1aff974cc0578185f9bc4574fc3"
+  }
+}

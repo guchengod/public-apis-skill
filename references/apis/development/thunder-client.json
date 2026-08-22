@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/thunder-client",
+  "name": "Thunder Client",
+  "category": "Development",
+  "description": "API testing tool",
+  "documentation_url": "https://www.thunderclient.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c551b49f7262da46f2e074a1507e33960aede18139079cc5cef08e9f46183b2a"
+  }
+}

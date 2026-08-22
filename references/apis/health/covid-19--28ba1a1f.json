@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19--28ba1a1f",
+  "name": "Covid-19",
+  "category": "Health",
+  "description": "Covid 19 spread, infection and recovery",
+  "documentation_url": "https://covid19api.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "24a397b522faa0b737b8e95f56e9e05e4e988340a1fdc16de69dd89c7f45873d"
+  }
+}

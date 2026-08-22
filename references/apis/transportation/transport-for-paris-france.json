@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-paris-france",
+  "name": "Transport for Paris, France",
+  "category": "Transportation",
+  "description": "RATP Open Data API",
+  "documentation_url": "http://data.ratp.fr/api/v1/console/datasets/1.0/search/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a37132a089f96b9bcefbebd9af5bb70219e0a69e7cc6bc3e1bc59bbbddcb4b9"
+  }
+}

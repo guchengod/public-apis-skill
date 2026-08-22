@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/web-series-quotes-generator",
+  "name": "Web Series Quotes Generator",
+  "category": "Video",
+  "description": "API generates various Web Series Quote Images",
+  "documentation_url": "https://github.com/yogeshwaran01/web-series-quotes",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "80a32b971b70710c336dfce47929130f76f212388b79ba2d86ec59964027fc5e"
+  }
+}

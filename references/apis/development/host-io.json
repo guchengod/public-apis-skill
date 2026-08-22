@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/host-io",
+  "name": "Host.io",
+  "category": "Development",
+  "description": "Domains Data API for Developers",
+  "documentation_url": "https://host.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__HOST_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ec88fb1cdacd4909bdc799e4fb2936af197090bbc851d48312dbb5b06a6ea4b9"
+  }
+}

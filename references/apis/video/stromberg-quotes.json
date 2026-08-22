@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/stromberg-quotes",
+  "name": "Stromberg Quotes",
+  "category": "Video",
+  "description": "Returns Stromberg quotes and more",
+  "documentation_url": "https://www.stromberg-api.de/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c298cb0ec012709161f9db63a9a05d1fafd7fa3610fcc0eb6422e6de7c6d1546"
+  }
+}

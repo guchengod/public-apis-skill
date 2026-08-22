@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/talordata",
+  "name": "Talordata",
+  "category": "Development",
+  "description": "SERP data from major search engines with a free trial",
+  "documentation_url": "https://docs.talordata.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__TALORDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "125f42750c6ea77880d07ab1ae545de2de3b39470ef805a2fda7ca5515888263"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/gutendex",
+  "name": "Gutendex",
+  "category": "Books",
+  "description": "Web-API for fetching data from Project Gutenberg Books Library",
+  "documentation_url": "https://gutendex.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "713d3711f7086b04fec5a16aaa149ad2cbbcce9eec9fdceef0fb53e17735247a"
+  }
+}

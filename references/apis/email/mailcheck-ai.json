@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/mailcheck-ai",
+  "name": "MailCheck.ai",
+  "category": "Email",
+  "description": "Prevent users to sign up with temporary email addresses",
+  "documentation_url": "https://www.mailcheck.ai/#documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7481aae9d568e8343ac9f79bf11c216b04194bb759535beac652cea9162a667"
+  }
+}

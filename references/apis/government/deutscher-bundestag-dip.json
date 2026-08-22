@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/deutscher-bundestag-dip",
+  "name": "Deutscher Bundestag DIP",
+  "category": "Government",
+  "description": "This API provides read access to DIP entities (e.g. activities, persons, printed material)",
+  "documentation_url": "https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__DEUTSCHER_BUNDESTAG_DIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2f563b63ad49d853d77d78475d9dd2b3b6eab6babbbb621ceb683973950c1eb1"
+  }
+}

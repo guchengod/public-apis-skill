@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sport-data",
+  "name": "Sport Data",
+  "category": "Sports & Fitness",
+  "description": "Get sports data from all over the world",
+  "documentation_url": "https://sportdataapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__SPORT_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4c52c3ff7aa1f5935506cfe980feae98ab514a6d450fe91cb48913c1c125ddd"
+  }
+}

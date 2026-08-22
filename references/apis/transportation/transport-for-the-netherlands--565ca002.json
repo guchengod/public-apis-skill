@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-the-netherlands--565ca002",
+  "name": "Transport for The Netherlands",
+  "category": "Transportation",
+  "description": "NS, only trains",
+  "documentation_url": "http://www.ns.nl/reisinformatie/ns-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_THE_NETHERLANDS__565CA002__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e86f3f3d767857a0488ed20f33262f269211185cb013612a8490e125a46daa44"
+  }
+}

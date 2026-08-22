@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/downstatus",
+  "name": "DownStatus",
+  "category": "Development",
+  "description": "Real-time status for GitHub, AWS, Discord and 90+ services",
+  "documentation_url": "https://isitdownstatus.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d451444c7d8b11fcae09c7282817748f9561135347f9967efd9e943a01a9463"
+  }
+}

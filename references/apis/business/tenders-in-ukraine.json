@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tenders-in-ukraine",
+  "name": "Tenders in Ukraine",
+  "category": "Business",
+  "description": "Get data for procurements in Ukraine in JSON format",
+  "documentation_url": "https://tenders.guru/ua/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98b7507458aee619036137b1bc413d68a698c378524911f9003808f904bfcb8e"
+  }
+}

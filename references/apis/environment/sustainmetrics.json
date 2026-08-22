@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/sustainmetrics",
+  "name": "SustainMetrics",
+  "category": "Environment",
+  "description": "18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember",
+  "documentation_url": "https://www.sustainmetrics.net/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__SUSTAINMETRICS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9ac2106413b2a199257855a33f842a6f04877d71d5b3abc21a53c93dd1e3e29"
+  }
+}

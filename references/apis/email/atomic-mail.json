@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/atomic-mail",
+  "name": "Atomic Mail",
+  "category": "Email",
+  "description": "Email for AI agents: programmatic inbox creation and send/receive over JMAP",
+  "documentation_url": "https://atomic-mail.github.io/atomic-mail-agentic/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__ATOMIC_MAIL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f9f88569ca9f9c6cf1e59a889817e1ab76eb3c3c70c72d66c1004de912f813ce"
+  }
+}

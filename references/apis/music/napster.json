@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/napster",
+  "name": "Napster",
+  "category": "Music",
+  "description": "Music",
+  "documentation_url": "https://developer.napster.com/api/v2.2",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__NAPSTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5782b8049c08426644a2c00a01ef7b77be98bdd8940ad690b76f65332396cdeb"
+  }
+}

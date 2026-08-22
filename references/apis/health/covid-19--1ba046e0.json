@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/covid-19--1ba046e0",
+  "name": "Covid-19",
+  "category": "Health",
+  "description": "Covid 19 cases, deaths and recovery per country",
+  "documentation_url": "https://github.com/M-Media-Group/Covid-19-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63f4b8f774d30cbb7e07ed0ad72780d71621ca718d04d0c7a943fc7a7b07aac1"
+  }
+}

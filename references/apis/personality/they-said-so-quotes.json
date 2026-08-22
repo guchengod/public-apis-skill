@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/they-said-so-quotes",
+  "name": "They Said So Quotes",
+  "category": "Personality",
+  "description": "Quotes Trusted by many fortune brands around the world",
+  "documentation_url": "https://theysaidso.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3181abfc4c6854134ff82a642f5e7be254460b75663fc9a279c1ff8b022bb92d"
+  }
+}

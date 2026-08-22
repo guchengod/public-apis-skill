@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/poetrydb",
+  "name": "PoetryDB",
+  "category": "Books",
+  "description": "Enables you to get instant data from our vast poetry collection",
+  "documentation_url": "https://github.com/thundercomb/poetrydb#readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49a25872b7bf49a8a9029e3bc33852e0fe97a48030922ce51b7ffe28764d8232"
+  }
+}

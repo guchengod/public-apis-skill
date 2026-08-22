@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/aftership",
+  "name": "Aftership",
+  "category": "Tracking",
+  "description": "API to update, manage and track shipment efficiently",
+  "documentation_url": "https://developers.aftership.com/reference/quick-start",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__AFTERSHIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "00b7fd232007288707f05d1ea1ec364534aca7cd48099baef61440b257af7c67"
+  }
+}

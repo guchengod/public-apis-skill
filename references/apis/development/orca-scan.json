@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/orca-scan",
+  "name": "Orca Scan",
+  "category": "Development",
+  "description": "Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF",
+  "documentation_url": "https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f2f19608db5d29e8acc58d3e64ca568a28e8f2c1876800fe2fe54babeb851e5"
+  }
+}

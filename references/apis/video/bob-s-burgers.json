@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/bob-s-burgers",
+  "name": "Bob's Burgers",
+  "category": "Video",
+  "description": "Bob's Burgers API",
+  "documentation_url": "https://bobs-burgers-api-ui.herokuapp.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "114821860724e78d3573a1ec33d1fcb544adb72458eb8198c95743bd2fe5d2be"
+  }
+}

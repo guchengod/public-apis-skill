@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/censys",
+  "name": "Censys",
+  "category": "Security",
+  "description": "Search engine for Internet connected host and devices",
+  "documentation_url": "https://search.censys.io/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__CENSYS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fba279aaf396fb0e68b4877d6198ab49984b4c67f2790d7acadf6db6b656c682"
+  }
+}

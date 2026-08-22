@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitcambio",
+  "name": "Bitcambio",
+  "category": "Cryptocurrency",
+  "description": "Get the list of all traded assets in the exchange",
+  "documentation_url": "https://nova.bitcambio.com.br/api/v3/docs#a-public",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "68c6a026ef6fec3d02124e191566fd410fc74f66db7f2305639614df98c1c412"
+  }
+}

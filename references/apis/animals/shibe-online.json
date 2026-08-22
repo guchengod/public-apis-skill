@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/shibe-online",
+  "name": "Shibe.Online",
+  "category": "Animals",
+  "description": "Random pictures of Shiba Inu, cats or birds",
+  "documentation_url": "http://shibe.online/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2c0a5ec6ac44dc520c440722ebe65c681a189d7222922050473dbca018aafbb9"
+  }
+}

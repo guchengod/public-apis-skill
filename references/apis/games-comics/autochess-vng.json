@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/autochess-vng",
+  "name": "Autochess VNG",
+  "category": "Games & Comics",
+  "description": "Rest Api for Autochess VNG",
+  "documentation_url": "https://github.com/didadadida93/autochess-vng-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f83a0dba5bfa78ba9f480fd50a5f0d6ade5bd102b518bcb859eb554644d86cc2"
+  }
+}

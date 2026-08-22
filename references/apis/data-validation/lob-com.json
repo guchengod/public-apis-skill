@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/lob-com",
+  "name": "Lob.com",
+  "category": "Data Validation",
+  "description": "US Address Verification",
+  "documentation_url": "https://lob.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__LOB_COM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4cd0ab83746187e4581fe6e7f6fee9ff300f27e427b473766c21eb298b8abef8"
+  }
+}

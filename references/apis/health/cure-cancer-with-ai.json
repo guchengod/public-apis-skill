@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/cure-cancer-with-ai",
+  "name": "Cure Cancer With AI",
+  "category": "Health",
+  "description": "Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions",
+  "documentation_url": "https://www.curecancerwithai.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__CURE_CANCER_WITH_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd90fe29cff2409b3f14f543fa571e005c8fcb1950e67e4141b87553b8a72d4c"
+  }
+}

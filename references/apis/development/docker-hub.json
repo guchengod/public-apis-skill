@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/docker-hub",
+  "name": "Docker Hub",
+  "category": "Development",
+  "description": "Interact with Docker Hub",
+  "documentation_url": "https://docs.docker.com/docker-hub/api/latest/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__DOCKER_HUB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ffe45cf5cd5798cc0ecc5e0ab97642cd596f6bddc08c0143af6e7677bd371f45"
+  }
+}

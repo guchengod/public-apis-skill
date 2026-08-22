@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip-api",
+  "name": "ip-api",
+  "category": "Geocoding",
+  "description": "Find location with IP address or domain",
+  "documentation_url": "https://ip-api.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bde5933e5d9fb58503fdcccb5ba4a20409a6a2bdadc6a2d14f16e1f8fc2934ee"
+  }
+}

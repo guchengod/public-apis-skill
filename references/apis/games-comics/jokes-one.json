@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/jokes-one",
+  "name": "Jokes One",
+  "category": "Games & Comics",
+  "description": "Joke of the day and large category of jokes accessible via REST API",
+  "documentation_url": "https://jokes.one/api/joke/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__JOKES_ONE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e094fc56e0ebd7f576186a911dcf33969edc5f78b522fb22500c583bd9283a3"
+  }
+}

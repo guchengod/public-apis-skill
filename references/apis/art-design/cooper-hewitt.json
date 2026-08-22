@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "art-design/cooper-hewitt",
+  "name": "Cooper Hewitt",
+  "category": "Art & Design",
+  "description": "Smithsonian Design Museum",
+  "documentation_url": "https://collection.cooperhewitt.org/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ART_DESIGN__COOPER_HEWITT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c3ffad980c3ac3d1ce9a2b0fba129df04d692483e895f8a4fe7eaf9452e362ef"
+  }
+}

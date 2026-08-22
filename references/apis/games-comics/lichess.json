@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/lichess",
+  "name": "Lichess",
+  "category": "Games & Comics",
+  "description": "Access to all data of users, games, puzzles and etc on Lichess",
+  "documentation_url": "https://lichess.org/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__LICHESS__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4349883303c1e2c99b1d7e5e467841d61c29b0c1647b0e13024b28f78dcff2f"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/wger",
+  "name": "Wger",
+  "category": "Sports & Fitness",
+  "description": "Workout manager data as exercises, muscles or equipment",
+  "documentation_url": "https://wger.de/en/software/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__WGER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "db23e4e531ab53eae2735d3ce1f9fae68a0117aeb3fb34643ef42005627c70f1"
+  }
+}

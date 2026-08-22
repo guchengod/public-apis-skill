@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinremitter",
+  "name": "Coinremitter",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Payment & Prices",
+  "documentation_url": "https://coinremitter.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINREMITTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "137e84dd4af80df97629de38b928488043bd9423d2bd5e28ea86a2240a8d1403"
+  }
+}

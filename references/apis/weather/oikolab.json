@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/oikolab",
+  "name": "Oikolab",
+  "category": "Weather",
+  "description": "70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF",
+  "documentation_url": "https://docs.oikolab.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__OIKOLAB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f253242189bbc7f40e53a52a0f117ebb6bc4798e00db226b2d608dc8ae31413b"
+  }
+}

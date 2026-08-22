@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/alpha-mossland",
+  "name": "Alpha (Mossland)",
+  "category": "Cryptocurrency",
+  "description": "Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store",
+  "documentation_url": "https://alpha.moss.land/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b29ecf4e2369d0d2e0275672c6f890261cb6e4e90828a3525f46234b73d1a15"
+  }
+}

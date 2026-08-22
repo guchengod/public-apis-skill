@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-united-states",
+  "name": "Transport for United States",
+  "category": "Transportation",
+  "description": "NextBus API",
+  "documentation_url": "https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc11f61daaaebe9d591e9cf5f178eb724dfefd64bd67747b0a987350cfff95b2"
+  }
+}

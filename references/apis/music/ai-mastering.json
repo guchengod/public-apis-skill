@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/ai-mastering",
+  "name": "AI Mastering",
+  "category": "Music",
+  "description": "Automated Music Mastering",
+  "documentation_url": "https://aimastering.com/api_docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__AI_MASTERING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f2f84ca4109932495238e394c059c80567acc5d469661e6a9927c19f77864666"
+  }
+}

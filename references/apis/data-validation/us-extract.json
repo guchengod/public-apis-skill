@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/us-extract",
+  "name": "US Extract",
+  "category": "Data Validation",
+  "description": "Extract postal addresses from any text including emails",
+  "documentation_url": "https://www.smarty.com/products/apis/us-extract-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__US_EXTRACT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37727a23d09df20b64b0c7f2ac6d74c22a8de64e1194ce9c3bbd80de72e9d8d8"
+  }
+}

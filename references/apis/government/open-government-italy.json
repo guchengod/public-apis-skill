@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-italy",
+  "name": "Open Government, Italy",
+  "category": "Government",
+  "description": "Italy Government Open Data",
+  "documentation_url": "https://www.dati.gov.it/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ebb0b2f1e9394e3e9557aa8673064b3ba0e48a83d009ebfb968ff2b98342c6be"
+  }
+}

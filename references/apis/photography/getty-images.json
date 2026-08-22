@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "photography/getty-images",
+  "name": "Getty Images",
+  "category": "Photography",
+  "description": "Build applications using the world's most powerful imagery",
+  "documentation_url": "http://developers.gettyimages.com/en/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__GETTY_IMAGES__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f0d33f318fcd2e758e00d38adfc7d7d1af5a37c3e1ca7044e74c4c33cf28bd9"
+  }
+}

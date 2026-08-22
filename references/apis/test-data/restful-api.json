@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/restful-api",
+  "name": "restful-api",
+  "category": "Test Data",
+  "description": "Fake REST API for testing and prototyping with CRUD endpoints",
+  "documentation_url": "https://restful-api.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2d9e69df6e9f939900c38a537d4ac88541c2035eb1aaa1f696ca2777dcbd95fd"
+  }
+}

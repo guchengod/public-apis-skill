@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "anime/mangapi",
+  "name": "Mangapi",
+  "category": "Anime",
+  "description": "Translate manga pages from one language to another",
+  "documentation_url": "https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIME__MANGAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d8e7b6b0e0b3e22993af51c10ac46a85d9aa9badf2c85c8cdc4242a85f11b052"
+  }
+}

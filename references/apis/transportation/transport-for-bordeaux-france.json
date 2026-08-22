@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-bordeaux-france",
+  "name": "Transport for Bordeaux, France",
+  "category": "Transportation",
+  "description": "Bordeaux Métropole public transport and more (France)",
+  "documentation_url": "https://opendata.bordeaux-metropole.fr/explore/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_BORDEAUX_FRANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f769966a5d40febebbecdf9d248bb519fa874607fb4f6ff139671cf89269b9e"
+  }
+}

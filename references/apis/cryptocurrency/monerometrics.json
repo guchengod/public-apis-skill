@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/monerometrics",
+  "name": "monerometrics",
+  "category": "Cryptocurrency",
+  "description": "Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations",
+  "documentation_url": "https://monerometrics.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5a0711030b9ab78cf953950b794a43f99560554340c12f990ae2472e6ceda3db"
+  }
+}

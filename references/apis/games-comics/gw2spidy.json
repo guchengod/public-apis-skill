@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/gw2spidy",
+  "name": "GW2Spidy",
+  "category": "Games & Comics",
+  "description": "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",
+  "documentation_url": "https://github.com/rubensayshi/gw2spidy/wiki",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7a72447389d1e5129843a4f60c9bb8951455ae63d82d4eacc24544c5e59d5a52"
+  }
+}

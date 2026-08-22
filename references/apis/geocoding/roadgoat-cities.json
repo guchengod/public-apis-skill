@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/roadgoat-cities",
+  "name": "RoadGoat Cities",
+  "category": "Geocoding",
+  "description": "Cities content & photos API",
+  "documentation_url": "https://www.roadgoat.com/business/cities-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__ROADGOAT_CITIES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9d7b82b310bb774da01254a593ba56f8cf81c1c803dc1dccd4e3c7b3a95090d"
+  }
+}

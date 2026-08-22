@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-vancouver-canada",
+  "name": "Transport for Vancouver, Canada",
+  "category": "Transportation",
+  "description": "TransLink",
+  "documentation_url": "https://developer.translink.ca/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_VANCOUVER_CANADA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "782c6b11478691c77c7e041cdc3cdfb18ff69ce59d9fbaee30f1d7001a39875b"
+  }
+}

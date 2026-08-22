@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/path-of-exile",
+  "name": "Path of Exile",
+  "category": "Games & Comics",
+  "description": "Path of Exile Game Information",
+  "documentation_url": "https://www.pathofexile.com/developer/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__PATH_OF_EXILE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6be4e6c04d36a75c7df1b8d35d4b2fbc93c5856885ca4d996e72cfbe9b784f1b"
+  }
+}

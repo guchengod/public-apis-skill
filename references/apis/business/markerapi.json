@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/markerapi",
+  "name": "markerapi",
+  "category": "Business",
+  "description": "Trademark Search",
+  "documentation_url": "https://markerapi.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f98ecbd7117d50164483d3eb4a59d47a1a77dfcbc17f2e64bf38290f063b66b3"
+  }
+}

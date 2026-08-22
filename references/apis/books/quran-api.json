@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/quran-api",
+  "name": "Quran-api",
+  "category": "Books",
+  "description": "Free Quran API Service with 90+ different languages and 400+ translations",
+  "documentation_url": "https://github.com/fawazahmed0/quran-api#readme",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c8161b6f2bef0b88e307c88de0556ad93da867d14cd7c61f1e7f06e3e0e5ad35"
+  }
+}

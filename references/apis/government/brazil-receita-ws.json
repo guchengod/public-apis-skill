@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/brazil-receita-ws",
+  "name": "Brazil Receita WS",
+  "category": "Government",
+  "description": "Consult companies by CNPJ for Brazilian companies",
+  "documentation_url": "https://www.receitaws.com.br/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a1a7eca88031f029ad9bf1fb64c26735d4b727f208f05126706f4291316063cc"
+  }
+}

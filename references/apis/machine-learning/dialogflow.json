@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/dialogflow",
+  "name": "Dialogflow",
+  "category": "Machine Learning",
+  "description": "Natural Language Processing",
+  "documentation_url": "https://cloud.google.com/dialogflow/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__DIALOGFLOW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "10614ef51d802471bd93494a175a93418b2bed0f7054da6bee09e6e7af6ce0a9"
+  }
+}

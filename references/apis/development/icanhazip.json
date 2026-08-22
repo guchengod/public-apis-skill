@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/icanhazip",
+  "name": "Icanhazip",
+  "category": "Development",
+  "description": "IP Address API",
+  "documentation_url": "https://major.io/icanhazip-com-faq/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d462dd618deb51a0281aa8d1323d7ec972210a7c2c5d17649d94f993873e9332"
+  }
+}

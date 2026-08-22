@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/micro-weather",
+  "name": "Micro Weather",
+  "category": "Weather",
+  "description": "Real time weather forecasts and historic data",
+  "documentation_url": "https://m3o.com/weather/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__MICRO_WEATHER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8466b94f5d90a668b8f7b41a8386e351ba959671968d409f1ba611fccf30ec31"
+  }
+}

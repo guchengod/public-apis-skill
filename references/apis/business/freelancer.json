@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "business/freelancer",
+  "name": "Freelancer",
+  "category": "Business",
+  "description": "Hire freelancers to get work done",
+  "documentation_url": "https://developers.freelancer.com",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__BUSINESS__FREELANCER__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7cd4b47dcecb4880ed31762d746baf7cf3e4cea002a78fa7a5947e06cf7c4fb8"
+  }
+}

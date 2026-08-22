@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/cleanuri",
+  "name": "CleanURI",
+  "category": "URL Shorteners",
+  "description": "URL shortener service",
+  "documentation_url": "https://cleanuri.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dddfe42dce92eb103daa5535bab9398ea2e928af9a4096216ab0a53c39595bf0"
+  }
+}

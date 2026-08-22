@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/graphql-jobs",
+  "name": "GraphQL Jobs",
+  "category": "Jobs",
+  "description": "Jobs with GraphQL",
+  "documentation_url": "https://graphql.jobs/docs/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2d9b868cc2c1933bd3312c9744bb2899988d4e3313cc834c5c19faaa8bd482de"
+  }
+}

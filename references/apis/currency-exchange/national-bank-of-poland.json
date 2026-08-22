@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/national-bank-of-poland",
+  "name": "National Bank of Poland",
+  "category": "Currency Exchange",
+  "description": "A collection of currency exchange rates (data in XML and JSON)",
+  "documentation_url": "http://api.nbp.pl/en.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96a5f3c6e25c4b2b6b9e6ccb00c686902f985e78faf7ce5c22363b5bc71a43c4"
+  }
+}

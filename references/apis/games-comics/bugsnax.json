@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/bugsnax",
+  "name": "Bugsnax",
+  "category": "Games & Comics",
+  "description": "Get information about Bugsnax",
+  "documentation_url": "https://www.bugsnaxapi.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6fc4a85ced1e08d2a6d5029226938eb6610d69b17afe9a2a40fcb0a02cbc000"
+  }
+}

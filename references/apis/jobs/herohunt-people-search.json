@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/herohunt-people-search",
+  "name": "HeroHunt People Search",
+  "category": "Jobs",
+  "description": "Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing",
+  "documentation_url": "https://www.herohunt.ai/people-search-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__HEROHUNT_PEOPLE_SEARCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "335af2d4c5a4992feffee708a40f447099da04072b68790e5ff8f093de21604f"
+  }
+}

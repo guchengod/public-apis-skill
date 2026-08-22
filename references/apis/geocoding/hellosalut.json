@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/hellosalut",
+  "name": "HelloSalut",
+  "category": "Geocoding",
+  "description": "Get hello translation following user language",
+  "documentation_url": "https://fourtonfish.com/project/hellosalut-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0014dcaa3efaff481007754b51f1befb7c64236b359dc2d71e42484046599e3a"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/7timer",
+  "name": "7Timer!",
+  "category": "Weather",
+  "description": "Weather, especially for Astroweather",
+  "documentation_url": "http://www.7timer.info/doc.php?lang=en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "10d8e80336390e640448add1533c969a474ff9db2e3b0cd29c2950d1b309a22b"
+  }
+}

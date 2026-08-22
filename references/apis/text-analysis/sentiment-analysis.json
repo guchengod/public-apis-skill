@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/sentiment-analysis",
+  "name": "Sentiment Analysis",
+  "category": "Text Analysis",
+  "description": "Multilingual sentiment analysis of texts from different sources",
+  "documentation_url": "https://www.meaningcloud.com/developer/sentiment-analysis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__SENTIMENT_ANALYSIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3cdf55f07eba951f3e1f7d124c844f33129a9feab9282b2b91bfa7c88fd3eac3"
+  }
+}

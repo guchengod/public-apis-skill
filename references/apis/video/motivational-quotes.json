@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/motivational-quotes",
+  "name": "Motivational Quotes",
+  "category": "Video",
+  "description": "Random Motivational Quotes",
+  "documentation_url": "https://nodejs-quoteapp.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "adc0b6c3405f67b45b24b369030d2084a977ca7944089a615e1c42337a0a4f24"
+  }
+}

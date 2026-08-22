@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "books/bhagavad-gita--1a37c017",
+  "name": "Bhagavad Gita",
+  "category": "Books",
+  "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+  "documentation_url": "https://docs.bhagavadgitaapi.in",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BOOKS__BHAGAVAD_GITA__1A37C017__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9c110e32f7e2ac967c22863fb1be4671b5e8a907e8227a150802d6f67a583fa"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/gitguardian",
+  "name": "GitGuardian",
+  "category": "Security",
+  "description": "Scan files for secrets (API Keys, database credentials)",
+  "documentation_url": "https://api.gitguardian.com/doc",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__GITGUARDIAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6258c5e5500b24b807eabf46dac33611a695bfa98d748d1361a749c345a42fde"
+  }
+}

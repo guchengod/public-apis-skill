@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/longdo-map",
+  "name": "Longdo Map",
+  "category": "Geocoding",
+  "description": "Interactive map with detailed places and information portal in Thailand",
+  "documentation_url": "https://map.longdo.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__LONGDO_MAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c861ee50f922d30aab4f437ca6a0756d44d3f18dfd41906626e0af9de7b4bba"
+  }
+}

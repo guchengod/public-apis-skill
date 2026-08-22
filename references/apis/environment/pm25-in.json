@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/pm25-in",
+  "name": "PM25.in",
+  "category": "Environment",
+  "description": "Air quality of China",
+  "documentation_url": "http://www.pm25.in/api_doc",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__PM25_IN__API_KEY"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "afad02ff6d21dc2cdd72e359c5c7585754b60b5227419fe6363353bbdcd7966c"
+  }
+}

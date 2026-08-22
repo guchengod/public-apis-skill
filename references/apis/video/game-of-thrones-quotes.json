@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/game-of-thrones-quotes",
+  "name": "Game of Thrones Quotes",
+  "category": "Video",
+  "description": "Some Game of Thrones quotes",
+  "documentation_url": "https://gameofthronesquotes.xyz/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4427cfad591ad547a1d557d84df6fcf5976ce25094c14c77f58dbb0c2c070c76"
+  }
+}

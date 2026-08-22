@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "social/line",
+  "name": "Line",
+  "category": "Social",
+  "description": "Line Login, Share on Line, Social Plugins and more",
+  "documentation_url": "https://developers.line.biz/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SOCIAL__LINE__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f3186b5d105b2af17c8d0ef97a3a5eea66483b3bc8e702ff3be7031adf4f067"
+  }
+}

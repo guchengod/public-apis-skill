@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/bclaws",
+  "name": "BCLaws",
+  "category": "Government",
+  "description": "Access to the laws of British Columbia",
+  "documentation_url": "https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c97845c051e49f7f3e010bb7f6db521ed26842c90eb52caefd31c5fcb2404b50"
+  }
+}

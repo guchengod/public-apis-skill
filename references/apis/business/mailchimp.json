@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/mailchimp",
+  "name": "Mailchimp",
+  "category": "Business",
+  "description": "Send marketing campaigns and transactional mails",
+  "documentation_url": "https://mailchimp.com/developer/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__MAILCHIMP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "23792c4148262b83392cc8e01321f1103b95389cf13082c65b2a62b3178dbf94"
+  }
+}

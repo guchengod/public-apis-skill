@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/binaryedge",
+  "name": "BinaryEdge",
+  "category": "Security",
+  "description": "Provide access to BinaryEdge 40fy scanning platform",
+  "documentation_url": "https://docs.binaryedge.io/api-v2.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__BINARYEDGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4b9c35992711685ce0bcc420c25fa3394cabf765d25604ac654e323b08e9e3ea"
+  }
+}

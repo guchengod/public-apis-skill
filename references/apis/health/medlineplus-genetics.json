@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/medlineplus-genetics",
+  "name": "MedlinePlus Genetics",
+  "category": "Health",
+  "description": "Genetic conditions, genes, chromosomes and mtDNA data",
+  "documentation_url": "https://medlineplus.gov/about/developers/geneticsdatafilesapi/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9d82a1a21f9e31add913565b54db5fd21ebbf9e80404b3d610f050db9af1bdd9"
+  }
+}

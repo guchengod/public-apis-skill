@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/meowfacts",
+  "name": "MeowFacts",
+  "category": "Animals",
+  "description": "Get random cat facts",
+  "documentation_url": "https://github.com/wh-iterabb-it/meowfacts",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4722114d8d7552f9fc6ff807b24792f1b06172382fa03ebbac9368b8cb0625b1"
+  }
+}

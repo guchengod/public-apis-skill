@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/sunrise-and-sunset",
+  "name": "Sunrise and Sunset",
+  "category": "Science & Math",
+  "description": "Sunset and sunrise times for a given latitude and longitude",
+  "documentation_url": "https://sunrise-sunset.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc607a945c5cee64a2d5216b8f98c66e05af9356913c1d057f184684b5a7c888"
+  }
+}

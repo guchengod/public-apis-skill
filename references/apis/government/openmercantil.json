@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/openmercantil",
+  "name": "OpenMercantil",
+  "category": "Government",
+  "description": "Spanish company public data and BORME event timelines",
+  "documentation_url": "https://openmercantil.es/api/documentacion",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "862182863c51d91f686109c30f2a1bfc3f990405a44e248f98dde1e24f37993f"
+  }
+}

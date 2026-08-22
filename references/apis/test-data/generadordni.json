@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "test-data/generadordni",
+  "name": "GeneradorDNI",
+  "category": "Test Data",
+  "description": "Data generator API. Profiles, vehicles, banks and cards, etc",
+  "documentation_url": "https://api.generadordni.es",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEST_DATA__GENERADORDNI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0294dcd6d0c9c775c2264ceda4e008639f09a870e30957f0ec14348fc274b60d"
+  }
+}

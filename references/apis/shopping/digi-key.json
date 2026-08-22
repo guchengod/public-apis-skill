@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "shopping/digi-key",
+  "name": "Digi-Key",
+  "category": "Shopping",
+  "description": "Retrieve price and inventory of electronic components as well as place orders",
+  "documentation_url": "https://www.digikey.com/en/resources/api-solutions",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SHOPPING__DIGI_KEY__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f8ec4d3d45df617d74a74bcdb01e3854206d889bc2c72cf1c9d2fbb422e6c32c"
+  }
+}

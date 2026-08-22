@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/pinata",
+  "name": "Pinata",
+  "category": "Cloud Storage & File Sharing",
+  "description": "IPFS Pinning Services API",
+  "documentation_url": "https://docs.pinata.cloud/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__PINATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9aea841241067148aa2130e8d70341d3556b97f3bcc4eac6486b90fadb762ca6"
+  }
+}

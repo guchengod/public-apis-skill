@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/semantria",
+  "name": "Semantria",
+  "category": "Text Analysis",
+  "description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
+  "documentation_url": "https://semantria.readme.io/docs",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__SEMANTRIA__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4f3972a8afb7f82b03f1b06c5c1d80cfe082983352aaffc78841b1803a2cc64"
+  }
+}

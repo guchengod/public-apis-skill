@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/dead-drop",
+  "name": "dead-drop",
+  "category": "Security",
+  "description": "Ephemeral zero-knowledge encrypted data sharing",
+  "documentation_url": "https://api.dead-drop.xyz/api/v1/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ace49a2fbd37a063692d44b4a770977f073f12d89ac6ea35c87bd596d0065d6"
+  }
+}

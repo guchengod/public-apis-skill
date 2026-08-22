@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/dota-2",
+  "name": "Dota 2",
+  "category": "Games & Comics",
+  "description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
+  "documentation_url": "https://docs.opendota.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__DOTA_2__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "109277e40d428bce1e00698682199d86fbee68148c63237804ed8834295dbbc0"
+  }
+}

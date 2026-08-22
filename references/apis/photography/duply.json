@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/duply",
+  "name": "Duply",
+  "category": "Photography",
+  "description": "Generate, Edit, Scale and Manage Images and Videos Smarter & Faster",
+  "documentation_url": "https://duply.co/docs#getting-started-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__DUPLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5aa68335dc97796fe113b0e7c6059741cf935a5030d42fdce0641a4a33db88da"
+  }
+}

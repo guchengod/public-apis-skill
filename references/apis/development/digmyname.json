@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/digmyname",
+  "name": "DigMyName",
+  "category": "Development",
+  "description": "Domain availability and registrar pricing across 52 TLDs",
+  "documentation_url": "https://digmyname.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3e2ec00ec4adbef996ccbf1d0e64a5598ceece22c424ba1c12f84912c22487db"
+  }
+}

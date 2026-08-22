@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/chomp",
+  "name": "Chomp",
+  "category": "Food & Drink",
+  "description": "Data about various grocery products and foods",
+  "documentation_url": "https://chompthis.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__CHOMP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a366fac37c78f202669f3ac7d088cf82f475e732c47368ce5916aa1f1d97f0a6"
+  }
+}

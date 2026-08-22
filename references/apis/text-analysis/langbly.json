@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/langbly",
+  "name": "Langbly",
+  "category": "Text Analysis",
+  "description": "Context-aware text translation and language detection for 100+ languages",
+  "documentation_url": "https://langbly.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__LANGBLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fcc968706c7770f3d34f2920ef31552b64a2a2a20cfe67d043145cb46ae75127"
+  }
+}

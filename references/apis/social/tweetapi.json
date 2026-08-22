@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/tweetapi",
+  "name": "TweetAPI",
+  "category": "Social",
+  "description": "Public Twitter data for posts, profiles, followers, search, lists and communities",
+  "documentation_url": "https://tweetapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TWEETAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1976a221a168a8bc35eca052b4b6831b340f80a28147dd82f1be4ba44c152ff7"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/spacetradersapi",
+  "name": "SpaceTradersAPI",
+  "category": "Games & Comics",
+  "description": "A playable inter-galactic space trading MMOAPI",
+  "documentation_url": "https://spacetraders.io?rel=pub-apis",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__SPACETRADERSAPI__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c8295971c1afb437af1fb7f22f9415a9a0db7eb344f0efd0ae902c2201b7943"
+  }
+}

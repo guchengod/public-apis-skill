@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/rustybeer",
+  "name": "Rustybeer",
+  "category": "Food & Drink",
+  "description": "Beer brewing tools",
+  "documentation_url": "https://rustybeer.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d19614c4b94f6d9724be53537e7531d3ccea95aab89f45f3c255282e64748bbc"
+  }
+}

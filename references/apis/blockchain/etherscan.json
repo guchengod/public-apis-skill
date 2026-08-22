@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/etherscan",
+  "name": "Etherscan",
+  "category": "Blockchain",
+  "description": "Ethereum explorer API",
+  "documentation_url": "https://etherscan.io/apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__ETHERSCAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "adc50b78280a49b3e7e667815e5b68c4ed485107aef99c603c969f38dde9e9f9"
+  }
+}

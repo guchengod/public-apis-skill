@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitcoincharts",
+  "name": "BitcoinCharts",
+  "category": "Cryptocurrency",
+  "description": "Financial and Technical Data related to the Bitcoin Network",
+  "documentation_url": "https://bitcoincharts.com/about/exchanges/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3b8b4caae8e49028831c7885e3f972c9461ba9a32f0104fcfa7ab83ad4a9254c"
+  }
+}

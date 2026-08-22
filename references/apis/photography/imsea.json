@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/imsea",
+  "name": "Imsea",
+  "category": "Photography",
+  "description": "Free image search",
+  "documentation_url": "https://imsea.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a51c123adc81b4386cde04a76e70df5e0d36d8437cb946fec2b6b1e9607a7148"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transitland",
+  "name": "TransitLand",
+  "category": "Transportation",
+  "description": "Transit Aggregation",
+  "documentation_url": "https://www.transit.land/documentation/datastore/api-endpoints.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2ae080501e1232e2dfd2ac9413e2f1a5b9c298b3f34f1df86f93adaf928b78d6"
+  }
+}

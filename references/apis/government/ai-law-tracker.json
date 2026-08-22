@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/ai-law-tracker",
+  "name": "AI Law Tracker",
+  "category": "Government",
+  "description": "AI regulation laws by jurisdiction (US, EU, global) as read-only JSON; free tier",
+  "documentation_url": "https://ai-law-tracker.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__AI_LAW_TRACKER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c555f73cc3ddbdc976f3f0a3a26a880ce2270109add1b51053286a5df1eb097"
+  }
+}

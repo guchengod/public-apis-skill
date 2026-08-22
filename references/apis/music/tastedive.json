@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/tastedive",
+  "name": "TasteDive",
+  "category": "Music",
+  "description": "Similar artist API (also works for movies and TV shows)",
+  "documentation_url": "https://tastedive.com/read/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__TASTEDIVE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "25f125bce49b53d70a72f87adada7ac878e973fd4ad3188eeee7b3d38f23663e"
+  }
+}

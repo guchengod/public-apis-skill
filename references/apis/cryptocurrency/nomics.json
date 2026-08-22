@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/nomics",
+  "name": "Nomics",
+  "category": "Cryptocurrency",
+  "description": "Historical and realtime cryptocurrency prices and market data",
+  "documentation_url": "https://nomics.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__NOMICS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aee02fad35ac3063afa1b2cd13e009f141932bfdb3b9d91f5c3a958326649cd2"
+  }
+}

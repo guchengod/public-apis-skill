@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/ai-economics-tools",
+  "name": "AI Economics Tools",
+  "category": "Machine Learning",
+  "description": "Token cost, LLM energy, agent-hour and Proof-Adjusted Autonomy calculators by Michał Piszczek",
+  "documentation_url": "https://piszczek.pl/tools/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d4aaa54eba092aa7e183197671f08d3d9730a6a934f9a0d8606aebc51f00cb19"
+  }
+}

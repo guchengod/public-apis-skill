@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/graph-countries",
+  "name": "Graph Countries",
+  "category": "Geocoding",
+  "description": "Country-related data like currencies, languages, flags, regions+subregions and bordering countries",
+  "documentation_url": "https://github.com/lennertVanSever/graphcountries",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13581b30899ae6ed4295f6fcc351fcd02d3924d908949cdd79e851f3c7c490be"
+  }
+}

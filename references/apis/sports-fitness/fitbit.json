@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/fitbit",
+  "name": "Fitbit",
+  "category": "Sports & Fitness",
+  "description": "Fitbit Information",
+  "documentation_url": "https://dev.fitbit.com/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FITBIT__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b954f0914104fb602ef1e1e4435858c79053c34abe393198dcd89c7a218c6493"
+  }
+}

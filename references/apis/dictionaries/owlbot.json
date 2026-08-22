@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/owlbot",
+  "name": "OwlBot",
+  "category": "Dictionaries",
+  "description": "Definitions with example sentence and photo if available",
+  "documentation_url": "https://owlbot.info/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__OWLBOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "625f5593f7dfb05ad3263f1dcaaad957df8f9abf9532a82949a098180042392e"
+  }
+}

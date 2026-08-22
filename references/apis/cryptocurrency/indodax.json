@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/indodax",
+  "name": "Indodax",
+  "category": "Cryptocurrency",
+  "description": "Trade your Bitcoin and other assets with rupiah",
+  "documentation_url": "https://github.com/btcid/indodax-official-api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__INDODAX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b41d984c4b16636f937cdf096db9a0b0a199b9c64ae86bfb23c42c6e014698e6"
+  }
+}

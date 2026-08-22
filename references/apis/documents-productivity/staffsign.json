@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/staffsign",
+  "name": "staffSign",
+  "category": "Documents & Productivity",
+  "description": "Digital employment contract API with QES/eIDAS support for HR and staffing",
+  "documentation_url": "https://staffsign.de/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__STAFFSIGN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4a417a2d278774e807e7b930834e222f4aa8563b99b780581a8221d78e5af8ba"
+  }
+}

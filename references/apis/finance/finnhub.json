@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/finnhub",
+  "name": "Finnhub",
+  "category": "Finance",
+  "description": "Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto",
+  "documentation_url": "https://finnhub.io/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FINNHUB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e1839b2dad875feca86167b3b8fe6b606bfeecc1f9a490ebdf67936354f3bf64"
+  }
+}

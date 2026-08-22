@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/ai-for-thai",
+  "name": "AI For Thai",
+  "category": "Machine Learning",
+  "description": "Free Various Thai AI API",
+  "documentation_url": "https://aiforthai.in.th/index.php",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__AI_FOR_THAI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5138b2161e0708a0aee549463277acc9588159dd5d5feba6551fd251eb7d2d02"
+  }
+}

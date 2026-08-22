@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/randomuser",
+  "name": "RandomUser",
+  "category": "Test Data",
+  "description": "Generates and list user data",
+  "documentation_url": "https://randomuser.me",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "727d4225c1fcbeb67193a57a3650c9bdf65c14f19f8eac9144ec4b1a1e57beb9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/disify",
+  "name": "Disify",
+  "category": "Email",
+  "description": "Validate and detect disposable and temporary email addresses",
+  "documentation_url": "https://www.disify.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a576a46307311c1df0ca8c8f87f81a8f39f688ab11f683b6908b94caa91c7c6d"
+  }
+}

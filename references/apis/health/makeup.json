@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/makeup",
+  "name": "Makeup",
+  "category": "Health",
+  "description": "Makeup Information",
+  "documentation_url": "http://makeup-api.herokuapp.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "caaf91d4bb822205e32c05801d425cb059b4491d5981fb9e0de879415d9542f5"
+  }
+}

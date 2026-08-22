@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/addressmock",
+  "name": "AddressMock",
+  "category": "Test Data",
+  "description": "Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP",
+  "documentation_url": "https://addressmock.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5689ea3331d6056839a96cb76bec8134d5bfcba11d45c3b8e196348378d3df75"
+  }
+}

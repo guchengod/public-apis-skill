@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/exchangerate-api",
+  "name": "ExchangeRate-API",
+  "category": "Currency Exchange",
+  "description": "Free currency conversion",
+  "documentation_url": "https://www.exchangerate-api.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__EXCHANGERATE_API__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ed03a61148ad76922557d3c0bfb45ee6e861d0f06b6b6e329b03296cb21765c0"
+  }
+}

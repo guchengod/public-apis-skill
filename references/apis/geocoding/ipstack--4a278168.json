@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipstack--4a278168",
+  "name": "IPstack",
+  "category": "Geocoding",
+  "description": "Locate and identify website visitors by IP address",
+  "documentation_url": "https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__IPSTACK__4A278168__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be469de85cb72496f2c4157a58d27c54a2b56b8a834ea2178fb4df234f025af5"
+  }
+}

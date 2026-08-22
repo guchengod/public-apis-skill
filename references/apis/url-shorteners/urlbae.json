@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/urlbae",
+  "name": "UrlBae",
+  "category": "URL Shorteners",
+  "description": "Simple and efficient short link creation",
+  "documentation_url": "https://urlbae.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__URLBAE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d93c721f80ec531a16fd562898574a24345884baf10212bb47d7fcdf797c2b54"
+  }
+}

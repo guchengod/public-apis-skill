@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sportmonks-football",
+  "name": "Sportmonks Football",
+  "category": "Sports & Fitness",
+  "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
+  "documentation_url": "https://docs.sportmonks.com/football/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__SPORTMONKS_FOOTBALL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fbe0c421a7bd436603510295a2544bbf1b6d599a9674fc99d383355db93f1177"
+  }
+}

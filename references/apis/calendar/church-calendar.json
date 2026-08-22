@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/church-calendar",
+  "name": "Church Calendar",
+  "category": "Calendar",
+  "description": "Catholic liturgical calendar",
+  "documentation_url": "http://calapi.inadiutorium.cz/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d4c06bb8d2eaf5c6a560d42d2889a029aeb0a18ece293eb71ea4d1b9764307f"
+  }
+}

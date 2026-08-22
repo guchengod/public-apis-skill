@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/ipinfo",
+  "name": "IPinfo",
+  "category": "Development",
+  "description": "Another simple IP Address API",
+  "documentation_url": "https://ipinfo.io/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c79b60821f9b80363a0f9ff1171592c9cf6e9e3a2f2c8b04e4ebf4f6a1be2f4"
+  }
+}

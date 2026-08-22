@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/cutt-ly",
+  "name": "Cutt.ly",
+  "category": "URL Shorteners",
+  "description": "URL shortener service",
+  "documentation_url": "https://cutt.ly/api-documentation/cuttly-links-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__CUTT_LY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49f1ce97fd23147125a92599fa809cc6fb2c20fa74b455633456ccfddb835f84"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/import-io",
+  "name": "import.io",
+  "category": "Development",
+  "description": "Retrieve structured data from a website or RSS feed",
+  "documentation_url": "http://api.docs.import.io/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IMPORT_IO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b56ad15d123873eddb58f65137ac9bb30813eb227ce38c3f2478eedd6e376ae3"
+  }
+}

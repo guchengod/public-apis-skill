@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/chucknorris-io",
+  "name": "chucknorris.io",
+  "category": "Entertainment",
+  "description": "JSON API for hand curated Chuck Norris jokes",
+  "documentation_url": "https://api.chucknorris.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b6363f35130f4b777590b36ca8d875d0b7b664ea216b6cc8462a27a0aad71e3a"
+  }
+}

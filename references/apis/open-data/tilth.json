@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/tilth",
+  "name": "Tilth",
+  "category": "Open Data",
+  "description": "Free daily UK fertiliser price index across nine grades, CC BY 4.0 licensed",
+  "documentation_url": "https://www.tilth.uk/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d3080448b284e7e0307cd0873dbcc0950193e0301db8b306cd7b478de7449bbd"
+  }
+}

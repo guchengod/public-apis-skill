@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "animals/the-dog",
+  "name": "The Dog",
+  "category": "Animals",
+  "description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
+  "documentation_url": "https://thedogapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ANIMALS__THE_DOG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4e84924fc18827d25840ae01db8a1c7ee0da3690932b7df37fd3f89119899b13"
+  }
+}

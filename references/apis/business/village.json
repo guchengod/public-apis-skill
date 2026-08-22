@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/village",
+  "name": "Village",
+  "category": "Business",
+  "description": "Person and company enrichment plus warm introduction paths through your network",
+  "documentation_url": "https://docs.village.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__VILLAGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6f4c0853613b4edc3dfd4c8986b468a3f7c7d5f121e799b73cde40286e03e4f"
+  }
+}

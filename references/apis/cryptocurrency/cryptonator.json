@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptonator",
+  "name": "Cryptonator",
+  "category": "Cryptocurrency",
+  "description": "Cryptocurrencies Exchange Rates",
+  "documentation_url": "https://www.cryptonator.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0678467a9bf03bf60aa4a41a872ff4c54863fabfcbfd0e4ee0280825c757bcd"
+  }
+}

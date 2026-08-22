@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/newsdata",
+  "name": "NewsData",
+  "category": "News",
+  "description": "News data API for live-breaking news and headlines from reputed  news sources",
+  "documentation_url": "https://newsdata.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEWSDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6762b0481952fc65761d1860192cf20258291cf2ce0e852692412ee2e31f2482"
+  }
+}

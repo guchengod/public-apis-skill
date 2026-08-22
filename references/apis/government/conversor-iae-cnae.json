@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/conversor-iae-cnae",
+  "name": "Conversor IAE CNAE",
+  "category": "Government",
+  "description": "Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations",
+  "documentation_url": "https://www.conversoriaecnae.es/api/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__CONVERSOR_IAE_CNAE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "251674e38be56146f2acb35ea97cd1d85d998f56ee0316979587c49bde016409"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/prc-exam-schedule",
+  "name": "PRC Exam Schedule",
+  "category": "Government",
+  "description": "Unofficial Philippine Professional Regulation Commission's examination schedule",
+  "documentation_url": "https://api.whenisthenextboardexam.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "34086167232070e4adae9e99a33259c2d25adc03ebf7a5d4feb4c5bcc3d78546"
+  }
+}

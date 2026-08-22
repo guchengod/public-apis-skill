@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/food-standards-agency",
+  "name": "Food Standards Agency",
+  "category": "Government",
+  "description": "UK food hygiene rating data API",
+  "documentation_url": "http://ratings.food.gov.uk/open-data/en-GB",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "no",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf2c32fb6ca234661fc2f47c991cda879c130074a338578ead70df67c660fdc1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/warrant",
+  "name": "Warrant",
+  "category": "Authentication & Authorization",
+  "description": "APIs for authorization and access control",
+  "documentation_url": "https://warrant.dev/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__WARRANT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f881a83567480a2b4f24fbbd9570133584f358442d0c8377a1bcbfae3defc1f"
+  }
+}

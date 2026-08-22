@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/longevity-world-cup",
+  "name": "Longevity World Cup",
+  "category": "Health",
+  "description": "Public biological age competition data with biomarkers and rankings",
+  "documentation_url": "https://longevityworldcup.com/api/data/athletes",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a12b322725d784e6152eac3493a0dd2616f420d317934503166a8f4b745fecd0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailboxlayer",
+  "name": "mailboxlayer",
+  "category": "Email",
+  "description": "Email address validation",
+  "documentation_url": "https://mailboxlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILBOXLAYER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5da54f76dbb928fb07b8abdcaa4e5b8efea5e2cb8a2115b86cd245f419bab6b3"
+  }
+}

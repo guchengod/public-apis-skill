@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/spacex--9f149346",
+  "name": "SpaceX",
+  "category": "Science & Math",
+  "description": "Company, vehicle, launchpad and launch data",
+  "documentation_url": "https://github.com/r-spacex/SpaceX-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bbe43f59b29bc4a02e25f5fcce84163edeac12767a6f525c9638f70d904cb381"
+  }
+}

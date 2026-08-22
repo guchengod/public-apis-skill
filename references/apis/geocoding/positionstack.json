@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/positionstack",
+  "name": "positionstack",
+  "category": "Geocoding",
+  "description": "Forward & Reverse Batch Geocoding REST API",
+  "documentation_url": "https://positionstack.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__POSITIONSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "759b846002552bdc92d69c3c649ba10c730779c67f9f23b1d38d0d534627a00a"
+  }
+}

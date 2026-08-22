@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/opensensemap",
+  "name": "openSenseMap",
+  "category": "Weather",
+  "description": "Data from Personal Weather Stations called senseBoxes",
+  "documentation_url": "https://api.opensensemap.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a0baa79f385cdfca4b09626421961b3be731333c70aef703da257f0de61fed47"
+  }
+}

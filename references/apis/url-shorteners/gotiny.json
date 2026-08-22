@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/gotiny",
+  "name": "GoTiny",
+  "category": "URL Shorteners",
+  "description": "A lightweight URL shortener, focused on ease-of-use for the developer and end-user",
+  "documentation_url": "https://github.com/robvanbakel/gotiny-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4e7d4b1394f1e47300a99a0b04679e8ec688ebf611b5e94ed10eff1a77115fa1"
+  }
+}

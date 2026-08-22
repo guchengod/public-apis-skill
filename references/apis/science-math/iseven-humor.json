@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/iseven-humor",
+  "name": "isEven (humor)",
+  "category": "Science & Math",
+  "description": "Check if a number is even",
+  "documentation_url": "https://isevenapi.xyz/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "90c72c7d0d659cce239db62515c6306a7f87145e18108bfbfa30fb1bba8876ab"
+  }
+}

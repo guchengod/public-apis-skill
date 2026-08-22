@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/words",
+  "name": "Words",
+  "category": "Dictionaries",
+  "description": "Definitions and synonyms for more than 150,000 words",
+  "documentation_url": "https://www.wordsapi.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__WORDS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "014e34ee887846665e68489f6a26fd221af7ef9fc1c33e6a3a9653e518ec5fb7"
+  }
+}

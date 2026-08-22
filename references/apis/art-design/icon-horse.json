@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/icon-horse",
+  "name": "Icon Horse",
+  "category": "Art & Design",
+  "description": "Favicons for any website, with fallbacks",
+  "documentation_url": "https://icon.horse",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2f3b60ec37b316e49f27607a583709dea8da2d607f13344b89ad7dd2900d766c"
+  }
+}

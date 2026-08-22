@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/valorant-non-official",
+  "name": "Valorant (non-official)",
+  "category": "Games & Comics",
+  "description": "An extensive API containing data of most Valorant in-game items, assets and more",
+  "documentation_url": "https://valorant-api.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1d0d057971e5d30ee54b96108a967f6d5bca10176ffc5fc6b7abde2d8aa0cca"
+  }
+}

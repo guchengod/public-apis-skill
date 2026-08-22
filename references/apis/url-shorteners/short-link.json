@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/short-link",
+  "name": "Short Link",
+  "category": "URL Shorteners",
+  "description": "Short URLs support so many domains",
+  "documentation_url": "https://github.com/FayasNoushad/Short-Link-API",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f812e1b30a852cadedbe06535d28957226e4888eb46ac7a7fae764a53b9eeaf7"
+  }
+}

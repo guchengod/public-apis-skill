@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-switzerland",
+  "name": "Open Government, Switzerland",
+  "category": "Government",
+  "description": "Switzerland Government Open Data",
+  "documentation_url": "https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dfb4a16e9bbd1a4e0d935cf436ce287618d034ee5a33b54a68d2ac985b58c5da"
+  }
+}

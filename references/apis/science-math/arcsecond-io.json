@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/arcsecond-io",
+  "name": "arcsecond.io",
+  "category": "Science & Math",
+  "description": "Multiple astronomy data sources",
+  "documentation_url": "https://api.arcsecond.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6397046b1d3a35a3d93ae03aeae022267d94d9709e7d5d9cea9c63aba174356e"
+  }
+}

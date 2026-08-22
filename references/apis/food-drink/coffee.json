@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/coffee",
+  "name": "Coffee",
+  "category": "Food & Drink",
+  "description": "Random pictures of coffee",
+  "documentation_url": "https://coffee.alexflipnote.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a282ce003f556da4cf0ead6fb61afc6fd95ed71eeb06336202eb241523c0e3a3"
+  }
+}

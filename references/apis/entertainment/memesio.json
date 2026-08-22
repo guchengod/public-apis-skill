@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/memesio",
+  "name": "Memesio",
+  "category": "Entertainment",
+  "description": "Meme creation API with templates, editable captions and hosted share links",
+  "documentation_url": "https://memesio.com/developers/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fa1f7af2be1c3646b449d80e7fd525a25d4b74ca4abd99776af1306aadab9d3"
+  }
+}

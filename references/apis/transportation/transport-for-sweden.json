@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transport-for-sweden",
+  "name": "Transport for Sweden",
+  "category": "Transportation",
+  "description": "Public Transport consumer",
+  "documentation_url": "https://www.trafiklab.se/api",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSPORT_FOR_SWEDEN__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1598c4d9910f23940738a489e5b6653ff46aa8d0638616e827b4dc511c6828a7"
+  }
+}

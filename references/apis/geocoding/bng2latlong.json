@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/bng2latlong",
+  "name": "bng2latlong",
+  "category": "Geocoding",
+  "description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude",
+  "documentation_url": "https://www.getthedata.com/bng2latlong",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "116d8c74e255aa19b5b2f1f700b099dc726641b79eebaa5bdeccc7d13b8424c9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "books/amanah-sunnah",
+  "name": "Amanah Sunnah",
+  "category": "Books",
+  "description": "Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators",
+  "documentation_url": "https://sunnah.amanahagent.cloud/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BOOKS__AMANAH_SUNNAH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "965c65d223977dc5a40a88856b25ee7c1e6d05bb6d0940df61c7da1a1616068a"
+  }
+}

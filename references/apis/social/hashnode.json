@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/hashnode",
+  "name": "Hashnode",
+  "category": "Social",
+  "description": "A blogging platform built for developers",
+  "documentation_url": "https://hashnode.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "93c0264e59a59fcf8fdef656aa44cb066a360c0b3ef5684feddf66267f8900a3"
+  }
+}

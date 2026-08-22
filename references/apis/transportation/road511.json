@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/road511",
+  "name": "Road511",
+  "category": "Transportation",
+  "description": "Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes",
+  "documentation_url": "https://road511.com/docs.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__ROAD511__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "954b00b0c68172b0909b65a7b708aafb25c0b24a328734b74fb7cbaa2cdaf231"
+  }
+}

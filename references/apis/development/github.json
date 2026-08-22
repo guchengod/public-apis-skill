@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "development/github",
+  "name": "GitHub",
+  "category": "Development",
+  "description": "Make use of GitHub repositories, code and user info programmatically",
+  "documentation_url": "https://docs.github.com/en/free-pro-team@latest/rest",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GITHUB__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d829b1b076e175c41c3ed02b2fe76e7078051a8c2ddda745ca242c34bc667a50"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/iex-cloud",
+  "name": "IEX Cloud",
+  "category": "Finance",
+  "description": "Realtime & Historical Stock and Market Data",
+  "documentation_url": "https://iexcloud.io/docs/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__IEX_CLOUD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dac1256da112303f3a6f5d14506ee4a39c7459e069d52c3fa75ca1a26ddcbf5f"
+  }
+}

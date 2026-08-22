@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/danish-data-service-energi",
+  "name": "Danish data service Energi",
+  "category": "Environment",
+  "description": "Open energy data from Energinet to society",
+  "documentation_url": "https://www.energidataservice.dk/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01704fe30816b6cc7049fe0c4eb2b12a13d6bc78e564966ca1bbe27fb5ac7a66"
+  }
+}

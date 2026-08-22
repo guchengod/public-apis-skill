@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/ffxiv-collect",
+  "name": "FFXIV Collect",
+  "category": "Games & Comics",
+  "description": "Final Fantasy XIV data on collectables",
+  "documentation_url": "https://ffxivcollect.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "90f1f200fb32d332990b34635f9e5bf0439e56864476b3199f42742d454123e3"
+  }
+}

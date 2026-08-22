@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-norway",
+  "name": "Open Government, Norway",
+  "category": "Government",
+  "description": "Norwegian Government Open Data",
+  "documentation_url": "https://data.norge.no/dataservices",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "63bea1ed8f8f3f4e4612da94d81cf7fe4a0e6214b2a86cca6b10b334ac6fbc95"
+  }
+}

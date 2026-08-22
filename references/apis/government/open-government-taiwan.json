@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/open-government-taiwan",
+  "name": "Open Government, Taiwan",
+  "category": "Government",
+  "description": "Taiwan Government Open Data",
+  "documentation_url": "https://data.gov.tw/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f7914d82ed9185186eac0c1ba33367a26cc067549893b81828f773aa8064686"
+  }
+}

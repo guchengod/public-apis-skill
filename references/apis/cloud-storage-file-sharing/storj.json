@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/storj",
+  "name": "Storj",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Decentralized Open-Source Cloud Storage",
+  "documentation_url": "https://docs.storj.io/dcs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__STORJ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b03b16822501feab34f49afed6a6411d837154a279174c3b4484e85b1009843b"
+  }
+}

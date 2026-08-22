@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/my-ip",
+  "name": "MY IP",
+  "category": "Development",
+  "description": "Get IP address information",
+  "documentation_url": "https://www.myip.com/api-docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fafac2f7bedf4a93769140216eaf4d70c21ddab16bebce38380384e821d6b904"
+  }
+}

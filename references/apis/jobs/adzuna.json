@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/adzuna",
+  "name": "Adzuna",
+  "category": "Jobs",
+  "description": "Job board aggregator",
+  "documentation_url": "https://developer.adzuna.com/overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__ADZUNA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4d739c6234c6feab82df02a94913dba7dbc81775a8f7ded9925a9db2861cf0f7"
+  }
+}

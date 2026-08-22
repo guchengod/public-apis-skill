@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/virushee",
+  "name": "Virushee",
+  "category": "Security",
+  "description": "Virushee file/data scanning",
+  "documentation_url": "https://api.virushee.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d87cf67278a6935df5d3dcc16d7a8c4a917aefce84a82f6f4e03274c1c310db"
+  }
+}

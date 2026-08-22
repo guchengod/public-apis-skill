@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "news/noozra",
+  "name": "Noozra",
+  "category": "News",
+  "description": "Free news headlines from 200+ curated RSS sources",
+  "documentation_url": "https://noozra.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d7ef4d431b90eeb66ddeb4d69853156cb5fc61079c363ea3dcc7c67108432c5"
+  }
+}

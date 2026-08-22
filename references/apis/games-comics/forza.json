@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/forza",
+  "name": "Forza",
+  "category": "Games & Comics",
+  "description": "Show random image of car from Forza",
+  "documentation_url": "https://docs.forza-api.tk",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "448b781443aa5704bedb4e0a8aecdaa75620450acb60dd5feb2df819caf764a1"
+  }
+}
