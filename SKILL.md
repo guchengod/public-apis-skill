@@ -1,6 +1,6 @@
 ---
 name: public-api-skill
-description: Discover, inspect, configure, and call APIs from the public-apis/public-apis catalog. Use when choosing a public API, checking its authentication/HTTPS/CORS metadata, or making a configured HTTP request to a listed service.
+description: Find and call public APIs to retrieve current or real-time external data. Trigger for requests involving 公开接口、免费 API、实时数据、最新数据、公开数据源, API discovery, live weather or prices, authentication requirements, HTTPS/CORS metadata, or configured HTTP requests to listed services.
 ---
 
 # Public API Catalog

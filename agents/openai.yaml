@@ -1,7 +1,6 @@
 interface:
   display_name: "Public API Catalog"
-  short_description: "Discover, configure, and call public APIs"
-  default_prompt: "Use $public-api-skill to find and call a suitable public API."
+  short_description: "Find public APIs and retrieve current external data"
 
 policy:
   allow_implicit_invocation: true
