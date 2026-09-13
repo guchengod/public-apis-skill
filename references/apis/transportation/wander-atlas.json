@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/wander-atlas",
+  "name": "Wander Atlas",
+  "category": "Transportation",
+  "description": "Hourly quiet and busy crowd windows for 620+ tourist attractions in 20 countries",
+  "documentation_url": "https://wanderatlasguides.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e035710e00838f37399ce45850e52c0ba329677d318e564117571afe1ee6dc42"
+  }
+}

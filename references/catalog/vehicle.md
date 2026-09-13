@@ -1,6 +1,6 @@
 # Vehicle
 
-10 interfaces. Paths are relative to this catalog file.
+11 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | ProblemsByVin | No | yes | yes | [`vehicle/problemsbyvin`](../apis/vehicle/problemsbyvin.json) |
 | RevCarData | apiKey | yes | yes | [`vehicle/revcardata`](../apis/vehicle/revcardata.json) |
 | Smartcar | OAuth | yes | yes | [`vehicle/smartcar`](../apis/vehicle/smartcar.json) |
+| Wheelwise | No | yes | no | [`vehicle/wheelwise`](../apis/vehicle/wheelwise.json) |

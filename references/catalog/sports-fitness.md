@@ -1,9 +1,10 @@
 # Sports & Fitness
 
-46 interfaces. Paths are relative to this catalog file.
+48 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
+| 5DollarFootball | apiKey | yes | yes | [`sports-fitness/5dollarfootball`](../apis/sports-fitness/5dollarfootball.json) |
 | API-FOOTBALL | apiKey | yes | yes | [`sports-fitness/api-football`](../apis/sports-fitness/api-football.json) |
 | ApiMedic | apiKey | yes | unknown | [`sports-fitness/apimedic`](../apis/sports-fitness/apimedic.json) |
 | balldontlie | No | yes | yes | [`sports-fitness/balldontlie`](../apis/sports-fitness/balldontlie.json) |
@@ -29,6 +30,7 @@
 | Odds-API | apiKey | yes | yes | [`sports-fitness/odds-api`](../apis/sports-fitness/odds-api.json) |
 | Oddsmagnet | No | yes | yes | [`sports-fitness/oddsmagnet`](../apis/sports-fitness/oddsmagnet.json) |
 | OpenF1 | No | yes | yes | [`sports-fitness/openf1`](../apis/sports-fitness/openf1.json) |
+| OpenFoot API | apiKey | yes | yes | [`sports-fitness/openfoot-api`](../apis/sports-fitness/openfoot-api.json) |
 | OpenLigaDB | No | yes | yes | [`sports-fitness/openligadb`](../apis/sports-fitness/openligadb.json) |
 | Padel Snipe | No | yes | yes | [`sports-fitness/padel-snipe`](../apis/sports-fitness/padel-snipe.json) |
 | PlayerElo | apiKey | yes | unknown | [`sports-fitness/playerelo`](../apis/sports-fitness/playerelo.json) |

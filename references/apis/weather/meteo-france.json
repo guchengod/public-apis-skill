@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/meteo-france",
+  "name": "Météo-France",
+  "category": "Weather",
+  "description": "French weather forecasts and alerts",
+  "documentation_url": "https://portail-api.meteofrance.fr/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__METEO_FRANCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "deed21140c58d31bd0777c88002f3167c9f7735d9526b1bec6b9cc4a93e9e8cc"
+  }
+}

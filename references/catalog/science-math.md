@@ -1,6 +1,6 @@
 # Science & Math
 
-39 interfaces. Paths are relative to this catalog file.
+42 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -9,6 +9,7 @@
 | CodeCogs | No | yes | unknown | [`science-math/codecogs`](../apis/science-math/codecogs.json) |
 | CORE | apiKey | yes | unknown | [`science-math/core`](../apis/science-math/core.json) |
 | CycleCalcs | No | yes | yes | [`science-math/cyclecalcs`](../apis/science-math/cyclecalcs.json) |
+| Europe PMC | No | yes | yes | [`science-math/europe-pmc`](../apis/science-math/europe-pmc.json) |
 | GBIF | No | yes | yes | [`science-math/gbif`](../apis/science-math/gbif.json) |
 | iDigBio | No | yes | unknown | [`science-math/idigbio`](../apis/science-math/idigbio.json) |
 | inspirehep.net | No | yes | unknown | [`science-math/inspirehep-net`](../apis/science-math/inspirehep-net.json) |
@@ -19,6 +20,7 @@
 | Materials Platform for Data Science | apiKey | yes | no | [`science-math/materials-platform-for-data-science`](../apis/science-math/materials-platform-for-data-science.json) |
 | Minor Planet Center | No | no | unknown | [`science-math/minor-planet-center`](../apis/science-math/minor-planet-center.json) |
 | NASA | No | yes | no | [`science-math/nasa`](../apis/science-math/nasa.json) |
+| NASA InSight | apiKey | yes | yes | [`science-math/nasa-insight`](../apis/science-math/nasa-insight.json) |
 | NASA ADS | OAuth | yes | yes | [`science-math/nasa-ads`](../apis/science-math/nasa-ads.json) |
 | Newton | No | yes | no | [`science-math/newton`](../apis/science-math/newton.json) |
 | Noctua | No | yes | unknown | [`science-math/noctua`](../apis/science-math/noctua.json) |
@@ -31,6 +33,7 @@
 | OrbitalWiki | apiKey | yes | yes | [`science-math/orbitalwiki`](../apis/science-math/orbitalwiki.json) |
 | Purple Air | No | yes | unknown | [`science-math/purple-air`](../apis/science-math/purple-air.json) |
 | Remote Calc | No | yes | yes | [`science-math/remote-calc`](../apis/science-math/remote-calc.json) |
+| Semantic Scholar | No | yes | unknown | [`science-math/semantic-scholar`](../apis/science-math/semantic-scholar.json) |
 | SHARE | No | yes | no | [`science-math/share`](../apis/science-math/share.json) |
 | SpaceX | No | yes | no | [`science-math/spacex--9f149346`](../apis/science-math/spacex--9f149346.json) |
 | SpaceX | No | yes | unknown | [`science-math/spacex--61a97bb6`](../apis/science-math/spacex--61a97bb6.json) |

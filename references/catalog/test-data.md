@@ -1,6 +1,6 @@
 # Test Data
 
-29 interfaces. Paths are relative to this catalog file.
+31 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -12,8 +12,10 @@
 | FakeJSON | apiKey | yes | yes | [`test-data/fakejson`](../apis/test-data/fakejson.json) |
 | FakerAPI | No | yes | yes | [`test-data/fakerapi`](../apis/test-data/fakerapi.json) |
 | FakeStoreAPI | No | yes | unknown | [`test-data/fakestoreapi`](../apis/test-data/fakestoreapi.json) |
+| flaky | No | yes | yes | [`test-data/flaky`](../apis/test-data/flaky.json) |
 | GeneradorDNI | apiKey | yes | unknown | [`test-data/generadordni`](../apis/test-data/generadordni.json) |
 | ItsThisForThat | No | yes | no | [`test-data/itsthisforthat`](../apis/test-data/itsthisforthat.json) |
+| JsonFabrica | apiKey | yes | unknown | [`test-data/jsonfabrica`](../apis/test-data/jsonfabrica.json) |
 | JSONPlaceholder | No | no | unknown | [`test-data/jsonplaceholder`](../apis/test-data/jsonplaceholder.json) |
 | Loripsum | No | no | unknown | [`test-data/loripsum`](../apis/test-data/loripsum.json) |
 | Mailsac | apiKey | yes | unknown | [`test-data/mailsac`](../apis/test-data/mailsac.json) |

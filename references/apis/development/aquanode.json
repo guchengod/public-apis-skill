@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/aquanode",
+  "name": "Aquanode",
+  "category": "Development",
+  "description": "Live GPU rental prices and availability across nine cloud providers",
+  "documentation_url": "https://docs.aquanode.io/docs/api/marketplace",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "86336545f64f3be7cae0f3ae3baa5393cff67fe4254c07afc58db428cb0296bf"
+  }
+}

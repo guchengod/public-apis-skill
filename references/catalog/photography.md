@@ -1,6 +1,6 @@
 # Photography
 
-31 interfaces. Paths are relative to this catalog file.
+32 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -29,6 +29,7 @@
 | Readme typing SVG | No | yes | unknown | [`photography/readme-typing-svg`](../apis/photography/readme-typing-svg.json) |
 | Remove.bg | apiKey | yes | unknown | [`photography/remove-bg`](../apis/photography/remove-bg.json) |
 | ReSmush.it | No | no | unknown | [`photography/resmush-it`](../apis/photography/resmush-it.json) |
+| Screenshot Studio | No | yes | no | [`photography/screenshot-studio`](../apis/photography/screenshot-studio.json) |
 | shutterstock | OAuth | yes | unknown | [`photography/shutterstock`](../apis/photography/shutterstock.json) |
 | Sirv | apiKey | yes | unknown | [`photography/sirv`](../apis/photography/sirv.json) |
 | Tinify.dev | apiKey | yes | no | [`photography/tinify-dev`](../apis/photography/tinify-dev.json) |

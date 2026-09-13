@@ -1,12 +1,13 @@
 # Government
 
-103 interfaces. Paths are relative to this catalog file.
+107 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | AI Law Tracker | apiKey | yes | unknown | [`government/ai-law-tracker`](../apis/government/ai-law-tracker.json) |
 | Bank Negara Malaysia Open Data | No | yes | unknown | [`government/bank-negara-malaysia-open-data`](../apis/government/bank-negara-malaysia-open-data.json) |
 | BCLaws | No | no | unknown | [`government/bclaws`](../apis/government/bclaws.json) |
+| Bidledger | No | yes | yes | [`government/bidledger`](../apis/government/bidledger.json) |
 | Brazil | No | yes | yes | [`government/brazil`](../apis/government/brazil.json) |
 | Brazil Central Bank Open Data | No | yes | unknown | [`government/brazil-central-bank-open-data`](../apis/government/brazil-central-bank-open-data.json) |
 | Brazil Receita WS | No | yes | unknown | [`government/brazil-receita-ws`](../apis/government/brazil-receita-ws.json) |
@@ -33,6 +34,7 @@
 | District of Columbia Open Data | No | yes | unknown | [`government/district-of-columbia-open-data`](../apis/government/district-of-columbia-open-data.json) |
 | DistrictAPI | apiKey | yes | yes | [`government/districtapi`](../apis/government/districtapi.json) |
 | eCourtsIndia | apiKey | yes | yes | [`government/ecourtsindia`](../apis/government/ecourtsindia.json) |
+| EditalMD | No | yes | yes | [`government/editalmd`](../apis/government/editalmd.json) |
 | EPA | No | yes | unknown | [`government/epa`](../apis/government/epa.json) |
 | FastDOL | apiKey | yes | yes | [`government/fastdol`](../apis/government/fastdol.json) |
 | FBI Wanted | No | yes | unknown | [`government/fbi-wanted`](../apis/government/fbi-wanted.json) |
@@ -99,9 +101,11 @@
 | OpenMercantil | No | yes | yes | [`government/openmercantil`](../apis/government/openmercantil.json) |
 | OpenRegistry | OAuth | yes | unknown | [`government/openregistry`](../apis/government/openregistry.json) |
 | PRC Exam Schedule | No | yes | yes | [`government/prc-exam-schedule`](../apis/government/prc-exam-schedule.json) |
+| Radar CNPJ | No | yes | no | [`government/radar-cnpj`](../apis/government/radar-cnpj.json) |
 | Represent by Open North | No | yes | unknown | [`government/represent-by-open-north`](../apis/government/represent-by-open-north.json) |
 | Tollmint | No | yes | yes | [`government/tollmint`](../apis/government/tollmint.json) |
 | UK Companies House | OAuth | yes | unknown | [`government/uk-companies-house`](../apis/government/uk-companies-house.json) |
+| UK Legislation Changes | No | yes | yes | [`government/uk-legislation-changes`](../apis/government/uk-legislation-changes.json) |
 | US Presidential Election Data by TogaTech | No | yes | no | [`government/us-presidential-election-data-by-togatech`](../apis/government/us-presidential-election-data-by-togatech.json) |
 | USA.gov | apiKey | yes | unknown | [`government/usa-gov`](../apis/government/usa-gov.json) |
 | US Federal Contracts & Grants | No | yes | yes | [`government/us-federal-contracts-grants`](../apis/government/us-federal-contracts-grants.json) |

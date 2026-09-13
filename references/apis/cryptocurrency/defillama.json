@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/defillama",
+  "name": "DefiLlama",
+  "category": "Cryptocurrency",
+  "description": "Open and transparent DeFi data, TVL, coin prices, volumes, and yields",
+  "documentation_url": "https://defillama.com/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bb1e343cd0355d90ceae7ec6d22032e1b0e6fc6e9562960ef269dbe38d13d20e"
+  }
+}

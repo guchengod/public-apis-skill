@@ -1,6 +1,6 @@
 # Transportation
 
-77 interfaces. Paths are relative to this catalog file.
+82 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -10,6 +10,8 @@
 | Amadeus for Developers | OAuth | yes | unknown | [`transportation/amadeus-for-developers`](../apis/transportation/amadeus-for-developers.json) |
 | apilayer aviationstack | OAuth | yes | unknown | [`transportation/apilayer-aviationstack`](../apis/transportation/apilayer-aviationstack.json) |
 | Apimetro | No | yes | yes | [`transportation/apimetro`](../apis/transportation/apimetro.json) |
+| ArcNautical | No | yes | yes | [`transportation/arcnautical`](../apis/transportation/arcnautical.json) |
+| Aviation Safety Data | No | yes | yes | [`transportation/aviation-safety-data`](../apis/transportation/aviation-safety-data.json) |
 | AviationAPI | No | yes | no | [`transportation/aviationapi`](../apis/transportation/aviationapi.json) |
 | AZ511 | apiKey | yes | unknown | [`transportation/az511`](../apis/transportation/az511.json) |
 | Bay Area Rapid Transit | apiKey | no | unknown | [`transportation/bay-area-rapid-transit`](../apis/transportation/bay-area-rapid-transit.json) |
@@ -29,6 +31,7 @@
 | Impala Hotel Bookings | apiKey | yes | no | [`transportation/impala-hotel-bookings`](../apis/transportation/impala-hotel-bookings.json) |
 | Izi | apiKey | yes | unknown | [`transportation/izi`](../apis/transportation/izi.json) |
 | Land Transport Authority DataMall, Singapore | apiKey | no | unknown | [`transportation/land-transport-authority-datamall-singapore`](../apis/transportation/land-transport-authority-datamall-singapore.json) |
+| LiveTrafficCam | No | yes | no | [`transportation/livetrafficcam`](../apis/transportation/livetrafficcam.json) |
 | Metro Lisboa | No | no | no | [`transportation/metro-lisboa`](../apis/transportation/metro-lisboa.json) |
 | Navitia | apiKey | yes | unknown | [`transportation/navitia`](../apis/transportation/navitia.json) |
 | Open Charge Map | apiKey | yes | yes | [`transportation/open-charge-map`](../apis/transportation/open-charge-map.json) |
@@ -81,3 +84,5 @@
 | Tripadvisor | apiKey | yes | unknown | [`transportation/tripadvisor`](../apis/transportation/tripadvisor.json) |
 | Uber | OAuth | yes | yes | [`transportation/uber`](../apis/transportation/uber.json) |
 | Velib metropolis, Paris, France | No | yes | no | [`transportation/velib-metropolis-paris-france`](../apis/transportation/velib-metropolis-paris-france.json) |
+| Wander Atlas | No | yes | yes | [`transportation/wander-atlas`](../apis/transportation/wander-atlas.json) |
+| Windsock | apiKey | yes | unknown | [`transportation/windsock`](../apis/transportation/windsock.json) |

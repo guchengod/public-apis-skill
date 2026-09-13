@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/kmalservico-gold-price-dataset",
+  "name": "KmalServico Gold Price Dataset",
+  "category": "Finance",
+  "description": "Current gold price per gram at 6 purities for 188 countries, JSON, no auth",
+  "documentation_url": "https://www.kmalservico.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "649896907477f36e80c561c60e2dd564a364844b55565175095c8c664a1823a7"
+  }
+}

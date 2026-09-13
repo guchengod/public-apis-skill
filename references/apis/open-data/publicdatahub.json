@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/publicdatahub",
+  "name": "PublicDataHub",
+  "category": "Open Data",
+  "description": "US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance",
+  "documentation_url": "https://publicdatahub.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "69746065a77ba967463cb6253fe8454fe2bf45c32e41511454a95349a13da67c"
+  }
+}

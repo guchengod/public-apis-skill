@@ -1,6 +1,6 @@
 # Geocoding
 
-95 interfaces. Paths are relative to this catalog file.
+96 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@
 | openrouteservice.org | apiKey | yes | unknown | [`geocoding/openrouteservice-org`](../apis/geocoding/openrouteservice-org.json) |
 | OpenStreetMap | OAuth | no | unknown | [`geocoding/openstreetmap`](../apis/geocoding/openstreetmap.json) |
 | Pinball Map | No | yes | yes | [`geocoding/pinball-map`](../apis/geocoding/pinball-map.json) |
+| PontoFato | No | yes | no | [`geocoding/pontofato`](../apis/geocoding/pontofato.json) |
 | positionstack | apiKey | yes | unknown | [`geocoding/positionstack`](../apis/geocoding/positionstack.json) |
 | Postali | No | yes | yes | [`geocoding/postali`](../apis/geocoding/postali.json) |
 | PostcodeData.nl | No | no | unknown | [`geocoding/postcodedata-nl`](../apis/geocoding/postcodedata-nl.json) |

@@ -1,6 +1,6 @@
 # Text Analysis
 
-19 interfaces. Paths are relative to this catalog file.
+20 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -22,4 +22,5 @@
 | Semantria | OAuth | yes | unknown | [`text-analysis/semantria`](../apis/text-analysis/semantria.json) |
 | Sentiment Analysis | apiKey | yes | yes | [`text-analysis/sentiment-analysis`](../apis/text-analysis/sentiment-analysis.json) |
 | Tisane | OAuth | yes | yes | [`text-analysis/tisane`](../apis/text-analysis/tisane.json) |
+| ToHuman | apiKey | yes | unknown | [`text-analysis/tohuman`](../apis/text-analysis/tohuman.json) |
 | Watson Natural Language Understanding | OAuth | yes | unknown | [`text-analysis/watson-natural-language-understanding`](../apis/text-analysis/watson-natural-language-understanding.json) |

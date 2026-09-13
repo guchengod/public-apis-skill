@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/futures-clock",
+  "name": "Futures Clock",
+  "category": "Finance",
+  "description": "Trading hours and session windows for 65 futures products on 16 global exchanges",
+  "documentation_url": "https://futuresclock.com/en/data-methodology/#open-data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bcb73cf04fe2e155e3c9d695c81c2a2eea344ae15be8aabe947f369a8f24b6d8"
+  }
+}

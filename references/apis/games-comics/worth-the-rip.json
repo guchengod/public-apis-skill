@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/worth-the-rip",
+  "name": "Worth the Rip",
+  "category": "Games & Comics",
+  "description": "Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours",
+  "documentation_url": "https://worththerip.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bffc41199c266591f5ab917975df67c6c870b29b5972e01d2e949e18ac359fa5"
+  }
+}

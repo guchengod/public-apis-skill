@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/radar-cnpj",
+  "name": "Radar CNPJ",
+  "category": "Government",
+  "description": "Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring",
+  "documentation_url": "https://radar-cnpj.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d6fbba7d890132909e409bebc9943f2d5b27121b37b9ad9ed6cb968b83e94bbc"
+  }
+}

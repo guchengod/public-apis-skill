@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/semantic-scholar",
+  "name": "Semantic Scholar",
+  "category": "Science & Math",
+  "description": "Academic search engine for papers, authors, and citations",
+  "documentation_url": "https://api.semanticscholar.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e0399e1431c3d7b7a9dd9d86bcbe98c661d7768d2e452bcf9e937a71f3741fcb"
+  }
+}

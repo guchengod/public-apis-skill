@@ -1,6 +1,6 @@
 # Machine Learning
 
-35 interfaces. Paths are relative to this catalog file.
+36 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | Machinetutors | apiKey | yes | yes | [`machine-learning/machinetutors`](../apis/machine-learning/machinetutors.json) |
 | MediaCraft AI | apiKey | yes | yes | [`machine-learning/mediacraft-ai`](../apis/machine-learning/mediacraft-ai.json) |
 | MessengerX.io | apiKey | yes | yes | [`machine-learning/messengerx-io`](../apis/machine-learning/messengerx-io.json) |
+| Modelfax | No | yes | yes | [`machine-learning/modelfax`](../apis/machine-learning/modelfax.json) |
 | NLP Cloud | apiKey | yes | unknown | [`machine-learning/nlp-cloud`](../apis/machine-learning/nlp-cloud.json) |
 | Not Human Search | No | yes | yes | [`machine-learning/not-human-search`](../apis/machine-learning/not-human-search.json) |
 | OpenVisionAPI | No | yes | yes | [`machine-learning/openvisionapi`](../apis/machine-learning/openvisionapi.json) |

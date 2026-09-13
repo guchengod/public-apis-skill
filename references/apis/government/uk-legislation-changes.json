@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/uk-legislation-changes",
+  "name": "UK Legislation Changes",
+  "category": "Government",
+  "description": "Point-in-time amendment history for UK law",
+  "documentation_url": "https://uk-legal-changes.pages.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a8fe169d60e4a475a50068603bb1cede1d9f81bb227817c1b5059bfed5e64cb"
+  }
+}

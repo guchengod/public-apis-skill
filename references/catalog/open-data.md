@@ -1,15 +1,17 @@
 # Open Data
 
-52 interfaces. Paths are relative to this catalog file.
+57 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | 18F | No | no | unknown | [`open-data/18f`](../apis/open-data/18f.json) |
+| 49 Gallery Historical Data | No | yes | yes | [`open-data/49-gallery-historical-data`](../apis/open-data/49-gallery-historical-data.json) |
 | AcreLens | apiKey | yes | unknown | [`open-data/acrelens`](../apis/open-data/acrelens.json) |
 | API Setu | No | yes | yes | [`open-data/api-setu`](../apis/open-data/api-setu.json) |
 | Archive.org | No | yes | no | [`open-data/archive-org`](../apis/open-data/archive-org.json) |
 | Black History Facts | apiKey | yes | yes | [`open-data/black-history-facts`](../apis/open-data/black-history-facts.json) |
 | BotsArchive | No | yes | unknown | [`open-data/botsarchive`](../apis/open-data/botsarchive.json) |
+| BTU Graph | No | yes | yes | [`open-data/btu-graph`](../apis/open-data/btu-graph.json) |
 | Callook.info | No | yes | unknown | [`open-data/callook-info`](../apis/open-data/callook-info.json) |
 | CARTO | apiKey | yes | unknown | [`open-data/carto`](../apis/open-data/carto.json) |
 | CollegeScoreCard.ed.gov | No | yes | unknown | [`open-data/collegescorecard-ed-gov`](../apis/open-data/collegescorecard-ed-gov.json) |
@@ -38,10 +40,13 @@
 | OpenCorporates | apiKey | yes | unknown | [`open-data/opencorporates`](../apis/open-data/opencorporates.json) |
 | OpenSanctions | No | yes | yes | [`open-data/opensanctions`](../apis/open-data/opensanctions.json) |
 | Pan Africa Data | apiKey | yes | unknown | [`open-data/pan-africa-data`](../apis/open-data/pan-africa-data.json) |
+| PayCrunch | No | yes | yes | [`open-data/paycrunch`](../apis/open-data/paycrunch.json) |
 | PeakMetrics | apiKey | yes | unknown | [`open-data/peakmetrics`](../apis/open-data/peakmetrics.json) |
+| PublicDataHub | No | yes | yes | [`open-data/publicdatahub`](../apis/open-data/publicdatahub.json) |
 | Recreation Information Database | apiKey | yes | unknown | [`open-data/recreation-information-database`](../apis/open-data/recreation-information-database.json) |
 | Registrum | apiKey | yes | no | [`open-data/registrum`](../apis/open-data/registrum.json) |
 | Scoop.it | apiKey | no | unknown | [`open-data/scoop-it`](../apis/open-data/scoop-it.json) |
+| SlashYear | No | yes | yes | [`open-data/slashyear`](../apis/open-data/slashyear.json) |
 | Socrata | OAuth | yes | yes | [`open-data/socrata`](../apis/open-data/socrata.json) |
 | Statistics of the World | No | yes | yes | [`open-data/statistics-of-the-world`](../apis/open-data/statistics-of-the-world.json) |
 | Teleport | No | yes | unknown | [`open-data/teleport`](../apis/open-data/teleport.json) |

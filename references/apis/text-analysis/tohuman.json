@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "text-analysis/tohuman",
+  "name": "ToHuman",
+  "category": "Text Analysis",
+  "description": "Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it",
+  "documentation_url": "https://tohuman.io/ai-humanizer-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEXT_ANALYSIS__TOHUMAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "14f5e182848a5ae47979378ceab07adbb737505bda67fb083355b70aae440edc"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/gridcarbon",
+  "name": "gridcarbon",
+  "category": "Environment",
+  "description": "Hourly grid carbon intensity in gCO2eq/kWh for 45 zones in Europe, the US and Great Britain",
+  "documentation_url": "https://gridcarbon.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ddeecba0b613d4029a25c7a8ffeb1303f0ae1bbf5e1e0f5f5e69847489efed4"
+  }
+}

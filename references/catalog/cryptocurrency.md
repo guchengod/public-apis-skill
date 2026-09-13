@@ -1,6 +1,6 @@
 # Cryptocurrency
 
-77 interfaces. Paths are relative to this catalog file.
+79 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@
 | Blockchain | apiKey | yes | unknown | [`cryptocurrency/blockchain`](../apis/cryptocurrency/blockchain.json) |
 | blockfrost Cardano | apiKey | yes | unknown | [`cryptocurrency/blockfrost-cardano`](../apis/cryptocurrency/blockfrost-cardano.json) |
 | Brave NewCoin | apiKey | yes | unknown | [`cryptocurrency/brave-newcoin`](../apis/cryptocurrency/brave-newcoin.json) |
+| BTCGlobe | No | yes | yes | [`cryptocurrency/btcglobe`](../apis/cryptocurrency/btcglobe.json) |
 | btcnode.uk | No | yes | unknown | [`cryptocurrency/btcnode-uk`](../apis/cryptocurrency/btcnode-uk.json) |
 | BtcTurk | apiKey | yes | yes | [`cryptocurrency/btcturk`](../apis/cryptocurrency/btcturk.json) |
 | Bybit | apiKey | yes | unknown | [`cryptocurrency/bybit`](../apis/cryptocurrency/bybit.json) |
@@ -48,6 +49,7 @@
 | CryptoCompare | No | yes | unknown | [`cryptocurrency/cryptocompare`](../apis/cryptocurrency/cryptocompare.json) |
 | CryptoMarket | apiKey | yes | yes | [`cryptocurrency/cryptomarket`](../apis/cryptocurrency/cryptomarket.json) |
 | Cryptonator | No | yes | unknown | [`cryptocurrency/cryptonator`](../apis/cryptocurrency/cryptonator.json) |
+| DefiLlama | No | yes | yes | [`cryptocurrency/defillama`](../apis/cryptocurrency/defillama.json) |
 | dYdX | apiKey | yes | unknown | [`cryptocurrency/dydx`](../apis/cryptocurrency/dydx.json) |
 | Ethplorer | apiKey | yes | unknown | [`cryptocurrency/ethplorer`](../apis/cryptocurrency/ethplorer.json) |
 | EXMO | apiKey | yes | unknown | [`cryptocurrency/exmo`](../apis/cryptocurrency/exmo.json) |

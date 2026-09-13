@@ -1,6 +1,6 @@
 # Jobs
 
-23 interfaces. Paths are relative to this catalog file.
+24 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -16,6 +16,7 @@
 | GraphQL Jobs | No | yes | yes | [`jobs/graphql-jobs`](../apis/jobs/graphql-jobs.json) |
 | HeroHunt People Search | apiKey | yes | yes | [`jobs/herohunt-people-search`](../apis/jobs/herohunt-people-search.json) |
 | Jobs2Careers | apiKey | yes | unknown | [`jobs/jobs2careers`](../apis/jobs/jobs2careers.json) |
+| Jobven | apiKey | yes | yes | [`jobs/jobven`](../apis/jobs/jobven.json) |
 | Jooble | apiKey | yes | unknown | [`jobs/jooble`](../apis/jobs/jooble.json) |
 | Juju | apiKey | no | unknown | [`jobs/juju`](../apis/jobs/juju.json) |
 | JobDataLake | apiKey | yes | yes | [`jobs/jobdatalake`](../apis/jobs/jobdatalake.json) |

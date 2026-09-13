@@ -1,6 +1,6 @@
 # Art & Design
 
-24 interfaces. Paths are relative to this catalog file.
+25 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@
 | PHP-Noise | No | yes | yes | [`art-design/php-noise`](../apis/art-design/php-noise.json) |
 | Pixel Encounter | No | yes | no | [`art-design/pixel-encounter`](../apis/art-design/pixel-encounter.json) |
 | Rijksmuseum | apiKey | yes | unknown | [`art-design/rijksmuseum`](../apis/art-design/rijksmuseum.json) |
+| Smithsonian Open Access | apiKey | yes | unknown | [`art-design/smithsonian-open-access`](../apis/art-design/smithsonian-open-access.json) |
 | Thisispaper | apiKey | yes | yes | [`art-design/thisispaper`](../apis/art-design/thisispaper.json) |
 | UpRes | apiKey | yes | yes | [`art-design/upres`](../apis/art-design/upres.json) |
 | Text-till-Kladdesign | apiKey | yes | yes | [`art-design/text-till-kladdesign`](../apis/art-design/text-till-kladdesign.json) |

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/eod-historical-data",
+  "name": "EOD Historical Data",
+  "category": "Finance",
+  "description": "Real-time and historical stock market data with 150+ exchanges",
+  "documentation_url": "https://eodhd.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__EOD_HISTORICAL_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a86f9c32f9ef67768c117622a63913e205d95122f77f9560e91ad42b2d9aafa0"
+  }
+}

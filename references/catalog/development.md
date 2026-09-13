@@ -1,6 +1,6 @@
 # Development
 
-150 interfaces. Paths are relative to this catalog file.
+163 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -13,6 +13,8 @@
 | ApicAgent | No | yes | yes | [`development/apicagent`](../apis/development/apicagent.json) |
 | ApiFlash | apiKey | yes | unknown | [`development/apiflash`](../apis/development/apiflash.json) |
 | APIs.guru | No | yes | unknown | [`development/apis-guru`](../apis/development/apis-guru.json) |
+| APIzone | No | yes | yes | [`development/apizone`](../apis/development/apizone.json) |
+| Aquanode | No | yes | no | [`development/aquanode`](../apis/development/aquanode.json) |
 | Azure DevOps | apiKey | yes | unknown | [`development/azure-devops`](../apis/development/azure-devops.json) |
 | Base | apiKey | yes | yes | [`development/base`](../apis/development/base.json) |
 | Beeceptor | No | yes | yes | [`development/beeceptor`](../apis/development/beeceptor.json) |
@@ -33,6 +35,8 @@
 | Contentful Images | apiKey | yes | yes | [`development/contentful-images`](../apis/development/contentful-images.json) |
 | CORS Proxy | No | yes | yes | [`development/cors-proxy`](../apis/development/cors-proxy.json) |
 | CountAPI | No | yes | yes | [`development/countapi`](../apis/development/countapi.json) |
+| crates.io | No | yes | yes | [`development/crates-io`](../apis/development/crates-io.json) |
+| Crawl Readiness | apiKey | yes | yes | [`development/crawl-readiness`](../apis/development/crawl-readiness.json) |
 | Databricks | apiKey | yes | yes | [`development/databricks`](../apis/development/databricks.json) |
 | Diagrams.so | apiKey | yes | no | [`development/diagrams-so`](../apis/development/diagrams-so.json) |
 | DigitalOcean Status | No | yes | unknown | [`development/digitalocean-status`](../apis/development/digitalocean-status.json) |
@@ -43,6 +47,7 @@
 | DownStatus | No | yes | yes | [`development/downstatus`](../apis/development/downstatus.json) |
 | ExtendsClass JSON Storage | No | yes | yes | [`development/extendsclass-json-storage`](../apis/development/extendsclass-json-storage.json) |
 | GeekFlare | apiKey | yes | unknown | [`development/geekflare`](../apis/development/geekflare.json) |
+| GcrawlAI | apiKey | yes | yes | [`development/gcrawlai`](../apis/development/gcrawlai.json) |
 | Genderize.io | No | yes | yes | [`development/genderize-io`](../apis/development/genderize-io.json) |
 | GETPing | apiKey | yes | unknown | [`development/getping`](../apis/development/getping.json) |
 | Ghost | apiKey | yes | yes | [`development/ghost`](../apis/development/ghost.json) |
@@ -84,6 +89,7 @@
 | JSONPlaceholder | No | yes | yes | [`development/jsonplaceholder`](../apis/development/jsonplaceholder.json) |
 | Keyvalue | No | yes | unknown | [`development/keyvalue`](../apis/development/keyvalue.json) |
 | Kroki | No | yes | yes | [`development/kroki`](../apis/development/kroki.json) |
+| Labelixa | apiKey | yes | yes | [`development/labelixa`](../apis/development/labelixa.json) |
 | License-API | No | yes | no | [`development/license-api`](../apis/development/license-api.json) |
 | Logs.to | apiKey | yes | unknown | [`development/logs-to`](../apis/development/logs-to.json) |
 | Lua Decompiler | No | yes | yes | [`development/lua-decompiler`](../apis/development/lua-decompiler.json) |
@@ -98,6 +104,7 @@
 | Netlify | OAuth | yes | unknown | [`development/netlify`](../apis/development/netlify.json) |
 | NetworkCalc | No | yes | yes | [`development/networkcalc`](../apis/development/networkcalc.json) |
 | npm Registry | No | yes | unknown | [`development/npm-registry`](../apis/development/npm-registry.json) |
+| NuGet | No | yes | yes | [`development/nuget`](../apis/development/nuget.json) |
 | OneSignal | apiKey | yes | unknown | [`development/onesignal`](../apis/development/onesignal.json) |
 | Open Page Rank | apiKey | yes | unknown | [`development/open-page-rank`](../apis/development/open-page-rank.json) |
 | OpenAPIHub | X-Mashape-Key | yes | unknown | [`development/openapihub`](../apis/development/openapihub.json) |
@@ -106,7 +113,9 @@
 | Orca Scan | No | yes | yes | [`development/orca-scan`](../apis/development/orca-scan.json) |
 | OutageDeck | No | yes | yes | [`development/outagedeck`](../apis/development/outagedeck.json) |
 | oyyi | No | yes | yes | [`development/oyyi`](../apis/development/oyyi.json) |
+| Packagist | No | yes | no | [`development/packagist`](../apis/development/packagist.json) |
 | PageCDN | apiKey | yes | yes | [`development/pagecdn`](../apis/development/pagecdn.json) |
+| Peak | apiKey | yes | yes | [`development/peak`](../apis/development/peak.json) |
 | Phone Specs | No | yes | yes | [`development/phone-specs`](../apis/development/phone-specs.json) |
 | Postman | apiKey | yes | unknown | [`development/postman`](../apis/development/postman.json) |
 | ProxyCrawl | apiKey | yes | unknown | [`development/proxycrawl`](../apis/development/proxycrawl.json) |
@@ -117,12 +126,14 @@
 | QR code | No | yes | yes | [`development/qr-code--b1bcbc91`](../apis/development/qr-code--b1bcbc91.json) |
 | QR code | No | yes | unknown | [`development/qr-code--d3cca5e9`](../apis/development/qr-code--d3cca5e9.json) |
 | QR Code Crafter | No | yes | yes | [`development/qr-code-crafter`](../apis/development/qr-code-crafter.json) |
+| QR Codes | apiKey | yes | no | [`development/qr-codes`](../apis/development/qr-codes.json) |
 | Qrcode Monkey | No | yes | unknown | [`development/qrcode-monkey`](../apis/development/qrcode-monkey.json) |
 | QuickChart | No | yes | yes | [`development/quickchart`](../apis/development/quickchart.json) |
 | Random Stuff | apiKey | yes | yes | [`development/random-stuff`](../apis/development/random-stuff.json) |
 | Rejax | apiKey | yes | no | [`development/rejax`](../apis/development/rejax.json) |
 | ReqRes | No | yes | unknown | [`development/reqres`](../apis/development/reqres.json) |
 | RSS feed to JSON | No | yes | yes | [`development/rss-feed-to-json`](../apis/development/rss-feed-to-json.json) |
+| RubyGems | No | yes | yes | [`development/rubygems`](../apis/development/rubygems.json) |
 | SavePage.io | apiKey | yes | yes | [`development/savepage-io`](../apis/development/savepage-io.json) |
 | ScrapeNinja | apiKey | yes | unknown | [`development/scrapeninja`](../apis/development/scrapeninja.json) |
 | ScraperApi | apiKey | yes | unknown | [`development/scraperapi`](../apis/development/scraperapi.json) |
@@ -130,11 +141,13 @@
 | scrapestack | apiKey | yes | unknown | [`development/scrapestack`](../apis/development/scrapestack.json) |
 | ScrapingAnt | apiKey | yes | unknown | [`development/scrapingant`](../apis/development/scrapingant.json) |
 | ScrapingDog | apiKey | yes | unknown | [`development/scrapingdog`](../apis/development/scrapingdog.json) |
+| Scrax | apiKey | yes | unknown | [`development/scrax`](../apis/development/scrax.json) |
 | Screenshot | apiKey | yes | yes | [`development/screenshot`](../apis/development/screenshot.json) |
 | ScreenshotAPI.net | apiKey | yes | yes | [`development/screenshotapi-net`](../apis/development/screenshotapi-net.json) |
 | Serialif Color | No | yes | no | [`development/serialif-color`](../apis/development/serialif-color.json) |
 | serpstack | apiKey | yes | yes | [`development/serpstack`](../apis/development/serpstack.json) |
 | Sheetsu | apiKey | yes | unknown | [`development/sheetsu`](../apis/development/sheetsu.json) |
+| Shotanvil | apiKey | yes | no | [`development/shotanvil`](../apis/development/shotanvil.json) |
 | SHOUTCLOUD | No | no | unknown | [`development/shoutcloud`](../apis/development/shoutcloud.json) |
 | SiteIntel | apiKey | yes | unknown | [`development/siteintel`](../apis/development/siteintel.json) |
 | Sonar | No | yes | yes | [`development/sonar`](../apis/development/sonar.json) |

@@ -1,6 +1,6 @@
 # Weather
 
-37 interfaces. Paths are relative to this catalog file.
+41 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -18,12 +18,15 @@
 | HG Weather | apiKey | yes | yes | [`weather/hg-weather`](../apis/weather/hg-weather.json) |
 | Hong Kong Obervatory | No | yes | unknown | [`weather/hong-kong-obervatory`](../apis/weather/hong-kong-obervatory.json) |
 | IPMA | No | yes | unknown | [`weather/ipma`](../apis/weather/ipma.json) |
+| KNMI | apiKey | yes | unknown | [`weather/knmi`](../apis/weather/knmi.json) |
 | Meltema | No | yes | no | [`weather/meltema`](../apis/weather/meltema.json) |
+| Météo-France | apiKey | yes | unknown | [`weather/meteo-france`](../apis/weather/meteo-france.json) |
 | Meteorologisk Institutt | User-Agent | yes | unknown | [`weather/meteorologisk-institutt`](../apis/weather/meteorologisk-institutt.json) |
 | Micro Weather | apiKey | yes | unknown | [`weather/micro-weather`](../apis/weather/micro-weather.json) |
 | ODWeather | No | no | unknown | [`weather/odweather`](../apis/weather/odweather.json) |
 | Oikolab | apiKey | yes | yes | [`weather/oikolab`](../apis/weather/oikolab.json) |
 | Open-Meteo | No | yes | yes | [`weather/open-meteo`](../apis/weather/open-meteo.json) |
+| Open-Meteo Ensemble | No | yes | yes | [`weather/open-meteo-ensemble`](../apis/weather/open-meteo-ensemble.json) |
 | openSenseMap | No | yes | yes | [`weather/opensensemap`](../apis/weather/opensensemap.json) |
 | OpenUV | apiKey | yes | unknown | [`weather/openuv`](../apis/weather/openuv.json) |
 | OpenWeatherMap | apiKey | yes | unknown | [`weather/openweathermap`](../apis/weather/openweathermap.json) |
@@ -38,6 +41,7 @@
 | weather-api | No | yes | no | [`weather/weather-api`](../apis/weather/weather-api.json) |
 | WeatherAPI | apiKey | yes | yes | [`weather/weatherapi`](../apis/weather/weatherapi.json) |
 | Weatherbit | apiKey | yes | unknown | [`weather/weatherbit`](../apis/weather/weatherbit.json) |
+| WeatherTotals | No | yes | yes | [`weather/weathertotals`](../apis/weather/weathertotals.json) |
 | World Time & Weather | No | yes | yes | [`weather/world-time-weather`](../apis/weather/world-time-weather.json) |
 | wttr.in | No | yes | yes | [`weather/wttr-in`](../apis/weather/wttr-in.json) |
 | Yandex.Weather | apiKey | yes | no | [`weather/yandex-weather`](../apis/weather/yandex-weather.json) |

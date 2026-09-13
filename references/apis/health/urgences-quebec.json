@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/urgences-quebec",
+  "name": "Urgences Québec",
+  "category": "Health",
+  "description": "Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada",
+  "documentation_url": "https://sante.handled.tools/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "111abef22ad7ba4b4b43e9eaa263e1d5456bb3824679d8aafdd943929bc2da96"
+  }
+}

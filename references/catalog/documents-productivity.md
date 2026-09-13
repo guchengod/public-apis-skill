@@ -1,6 +1,6 @@
 # Documents & Productivity
 
-38 interfaces. Paths are relative to this catalog file.
+39 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@
 | Podio | OAuth | yes | unknown | [`documents-productivity/podio`](../apis/documents-productivity/podio.json) |
 | PolyDoc | apiKey | yes | unknown | [`documents-productivity/polydoc`](../apis/documents-productivity/polydoc.json) |
 | PrexView | apiKey | yes | unknown | [`documents-productivity/prexview`](../apis/documents-productivity/prexview.json) |
+| PrintSocket | apiKey | yes | no | [`documents-productivity/printsocket`](../apis/documents-productivity/printsocket.json) |
 | Renderly | apiKey | yes | yes | [`documents-productivity/renderly`](../apis/documents-productivity/renderly.json) |
 | Rendex | apiKey | yes | unknown | [`documents-productivity/rendex`](../apis/documents-productivity/rendex.json) |
 | Restpack | apiKey | yes | unknown | [`documents-productivity/restpack`](../apis/documents-productivity/restpack.json) |

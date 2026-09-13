@@ -1,6 +1,6 @@
 # Security
 
-46 interfaces. Paths are relative to this catalog file.
+48 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -37,6 +37,7 @@
 | Mozilla http scanner | No | yes | unknown | [`security/mozilla-http-scanner`](../apis/security/mozilla-http-scanner.json) |
 | Mozilla tls scanner | No | yes | unknown | [`security/mozilla-tls-scanner`](../apis/security/mozilla-tls-scanner.json) |
 | National Vulnerability Database | No | yes | unknown | [`security/national-vulnerability-database`](../apis/security/national-vulnerability-database.json) |
+| Neetix Liveliness | apiKey | yes | no | [`security/neetix-liveliness`](../apis/security/neetix-liveliness.json) |
 | Passwordinator | No | yes | yes | [`security/passwordinator`](../apis/security/passwordinator.json) |
 | PhishStats | No | yes | unknown | [`security/phishstats`](../apis/security/phishstats.json) |
 | Privacy.com | apiKey | yes | unknown | [`security/privacy-com`](../apis/security/privacy-com.json) |
@@ -45,6 +46,7 @@
 | Shodan | apiKey | yes | unknown | [`security/shodan`](../apis/security/shodan.json) |
 | Spyse | apiKey | yes | unknown | [`security/spyse`](../apis/security/spyse.json) |
 | SSL Domain Health Check | apiKey | yes | unknown | [`security/ssl-domain-health-check`](../apis/security/ssl-domain-health-check.json) |
+| SSL Labs | No | yes | unknown | [`security/ssl-labs`](../apis/security/ssl-labs.json) |
 | Threat Jammer | apiKey | yes | unknown | [`security/threat-jammer`](../apis/security/threat-jammer.json) |
 | UK Police | No | yes | unknown | [`security/uk-police`](../apis/security/uk-police.json) |
 | URLhaus | No | yes | unknown | [`security/urlhaus`](../apis/security/urlhaus.json) |
