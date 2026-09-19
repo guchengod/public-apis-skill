@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/nerdulator",
+  "name": "Nerdulator",
+  "category": "Development",
+  "description": "Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions",
+  "documentation_url": "https://nerdulator.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f8a00610e850c58f7d6bee5499d835612af7b6bbc7788d5526168d168d4dfe7"
+  }
+}

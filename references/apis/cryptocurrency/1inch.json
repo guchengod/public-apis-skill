@@ -4,11 +4,13 @@
   "name": "1inch",
   "category": "Cryptocurrency",
   "description": "API for querying decentralize exchange",
-  "documentation_url": "https://1inch.io/api/",
+  "documentation_url": "https://business.1inch.com/portal/documentation",
   "auth": {
-    "type": "none",
-    "required": false,
-    "strategy": "none"
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__1INCH__API_KEY"
   },
   "transport": {
     "https": "yes",
@@ -20,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "c07a71e6d273423174ebfea4931973292f63281d2b1228126b1072f1684af3e1"
+    "fingerprint": "5f28d2d2be191ddd70f61d5d98b29104e07515c0b7012a3958fdd3f5048fb488"
   }
 }

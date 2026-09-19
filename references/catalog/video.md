@@ -1,6 +1,6 @@
 # Video
 
-47 interfaces. Paths are relative to this catalog file.
+49 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -20,6 +20,8 @@
 | IMDb-API | apiKey | yes | unknown | [`video/imdb-api`](../apis/video/imdb-api.json) |
 | IMDbOT | No | yes | yes | [`video/imdbot`](../apis/video/imdbot.json) |
 | JSON2Video | apiKey | yes | no | [`video/json2video`](../apis/video/json2video.json) |
+| KPainter | apiKey | yes | yes | [`video/kpainter`](../apis/video/kpainter.json) |
+| KinoPipe | apiKey | yes | no | [`video/kinopipe`](../apis/video/kinopipe.json) |
 | Lucifer Quotes | No | yes | unknown | [`video/lucifer-quotes`](../apis/video/lucifer-quotes.json) |
 | MCU Countdown | No | yes | yes | [`video/mcu-countdown`](../apis/video/mcu-countdown.json) |
 | Motivational Quotes | No | yes | unknown | [`video/motivational-quotes`](../apis/video/motivational-quotes.json) |

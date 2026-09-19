@@ -1,6 +1,6 @@
 # News
 
-23 interfaces. Paths are relative to this catalog file.
+24 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -19,6 +19,7 @@
 | News | apiKey | yes | unknown | [`news/news`](../apis/news/news.json) |
 | NewsData | apiKey | yes | unknown | [`news/newsdata`](../apis/news/newsdata.json) |
 | Newsflash | apiKey | yes | no | [`news/newsflash`](../apis/news/newsflash.json) |
+| NewsMesh | apiKey | yes | no | [`news/newsmesh`](../apis/news/newsmesh.json) |
 | NewsX | apiKey | yes | unknown | [`news/newsx`](../apis/news/newsx.json) |
 | Noozra | No | yes | yes | [`news/noozra`](../apis/news/noozra.json) |
 | NPR One | OAuth | yes | unknown | [`news/npr-one`](../apis/news/npr-one.json) |

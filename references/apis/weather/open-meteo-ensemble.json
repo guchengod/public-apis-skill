@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/open-meteo-ensemble",
+  "name": "Open-Meteo Ensemble",
+  "category": "Weather",
+  "description": "Weather ensemble forecasts from multiple models",
+  "documentation_url": "https://open-meteo.com/en/docs/ensemble-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f9eb4aeb0d9ec6f054e7397d5c6c4196e24c0549f68f5486ec32f5eb3984c95c"
+  }
+}

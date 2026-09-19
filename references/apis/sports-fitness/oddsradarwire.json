@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/oddsradarwire",
+  "name": "OddsRadarWire",
+  "category": "Sports & Fitness",
+  "description": "Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE",
+  "documentation_url": "https://oddsradarwire.com/docs.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__ODDSRADARWIRE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecaf1269b5bb49fc36405b5c1b94bd93a6f1d027d2fac27f56dc34b35ec0d218"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/renderwolf",
+  "name": "Renderwolf",
+  "category": "Development",
+  "description": "Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML",
+  "documentation_url": "https://ironfang.uk/renderwolf/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__RENDERWOLF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8994225e563f537401989208d113ec26b5cedb614210c58b09ae4f8fd7687309"
+  }
+}

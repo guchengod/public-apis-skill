@@ -1,6 +1,6 @@
 # Geocoding
 
-95 interfaces. Paths are relative to this catalog file.
+100 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -12,6 +12,7 @@
 | adresse.data.gouv.fr | No | yes | unknown | [`geocoding/adresse-data-gouv-fr`](../apis/geocoding/adresse-data-gouv-fr.json) |
 | Airtel IP | No | yes | unknown | [`geocoding/airtel-ip`](../apis/geocoding/airtel-ip.json) |
 | Apiip | apiKey | yes | yes | [`geocoding/apiip`](../apis/geocoding/apiip.json) |
+| AtlasFetch | apiKey | yes | no | [`geocoding/atlasfetch`](../apis/geocoding/atlasfetch.json) |
 | Battuta | apiKey | no | unknown | [`geocoding/battuta`](../apis/geocoding/battuta.json) |
 | BdAPIs | No | yes | unknown | [`geocoding/bdapis`](../apis/geocoding/bdapis.json) |
 | BigDataCloud | apiKey | yes | unknown | [`geocoding/bigdatacloud`](../apis/geocoding/bigdatacloud.json) |
@@ -54,6 +55,7 @@
 | IP2Location | apiKey | yes | unknown | [`geocoding/ip2location`](../apis/geocoding/ip2location.json) |
 | IP2Proxy | apiKey | yes | unknown | [`geocoding/ip2proxy`](../apis/geocoding/ip2proxy.json) |
 | ip2geo.dev | apiKey | yes | yes | [`geocoding/ip2geo-dev`](../apis/geocoding/ip2geo-dev.json) |
+| IP99 | No | yes | yes | [`geocoding/ip99`](../apis/geocoding/ip99.json) |
 | ipapi.co | No | yes | yes | [`geocoding/ipapi-co`](../apis/geocoding/ipapi-co.json) |
 | IPGEO | No | yes | unknown | [`geocoding/ipgeo`](../apis/geocoding/ipgeo.json) |
 | ipgeolocation | apiKey | yes | yes | [`geocoding/ipgeolocation`](../apis/geocoding/ipgeolocation.json) |
@@ -77,6 +79,7 @@
 | openrouteservice.org | apiKey | yes | unknown | [`geocoding/openrouteservice-org`](../apis/geocoding/openrouteservice-org.json) |
 | OpenStreetMap | OAuth | no | unknown | [`geocoding/openstreetmap`](../apis/geocoding/openstreetmap.json) |
 | Pinball Map | No | yes | yes | [`geocoding/pinball-map`](../apis/geocoding/pinball-map.json) |
+| PontoFato | No | yes | no | [`geocoding/pontofato`](../apis/geocoding/pontofato.json) |
 | positionstack | apiKey | yes | unknown | [`geocoding/positionstack`](../apis/geocoding/positionstack.json) |
 | Postali | No | yes | yes | [`geocoding/postali`](../apis/geocoding/postali.json) |
 | PostcodeData.nl | No | no | unknown | [`geocoding/postcodedata-nl`](../apis/geocoding/postcodedata-nl.json) |
@@ -90,7 +93,9 @@
 | SpotSense | apiKey | yes | unknown | [`geocoding/spotsense`](../apis/geocoding/spotsense.json) |
 | Telize | apiKey | yes | yes | [`geocoding/telize`](../apis/geocoding/telize.json) |
 | TomTom | apiKey | yes | yes | [`geocoding/tomtom`](../apis/geocoding/tomtom.json) |
+| TrustyData | apiKey | yes | yes | [`geocoding/trustydata`](../apis/geocoding/trustydata.json) |
 | Uebermaps | apiKey | yes | unknown | [`geocoding/uebermaps`](../apis/geocoding/uebermaps.json) |
+| Unblock Master IP | No | yes | yes | [`geocoding/unblock-master-ip`](../apis/geocoding/unblock-master-ip.json) |
 | US ZipCode | apiKey | yes | yes | [`geocoding/us-zipcode`](../apis/geocoding/us-zipcode.json) |
 | Utah AGRC | apiKey | yes | unknown | [`geocoding/utah-agrc`](../apis/geocoding/utah-agrc.json) |
 | ViaCep | No | yes | unknown | [`geocoding/viacep`](../apis/geocoding/viacep.json) |

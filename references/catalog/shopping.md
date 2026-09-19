@@ -1,11 +1,12 @@
 # Shopping
 
-18 interfaces. Paths are relative to this catalog file.
+20 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | Best Buy | apiKey | yes | unknown | [`shopping/best-buy`](../apis/shopping/best-buy.json) |
 | BuyWhere | apiKey | yes | unknown | [`shopping/buywhere`](../apis/shopping/buywhere.json) |
+| CartScout | apiKey | yes | unknown | [`shopping/cartscout`](../apis/shopping/cartscout.json) |
 | Digi-Key | OAuth | yes | unknown | [`shopping/digi-key`](../apis/shopping/digi-key.json) |
 | Descripio Amazon Reviews | apiKey | yes | unknown | [`shopping/descripio-amazon-reviews`](../apis/shopping/descripio-amazon-reviews.json) |
 | Dummy Products | apiKey | yes | yes | [`shopping/dummy-products`](../apis/shopping/dummy-products.json) |
@@ -17,6 +18,7 @@
 | Mercadolibre | apiKey | yes | unknown | [`shopping/mercadolibre`](../apis/shopping/mercadolibre.json) |
 | Octopart | apiKey | yes | unknown | [`shopping/octopart`](../apis/shopping/octopart.json) |
 | OLX Poland | apiKey | yes | unknown | [`shopping/olx-poland`](../apis/shopping/olx-poland.json) |
+| Pangolinfo Amazon Data | apiKey | yes | unknown | [`shopping/pangolinfo-amazon-data`](../apis/shopping/pangolinfo-amazon-data.json) |
 | Rappi | OAuth | yes | unknown | [`shopping/rappi`](../apis/shopping/rappi.json) |
 | Shopee | apiKey | yes | unknown | [`shopping/shopee`](../apis/shopping/shopee.json) |
 | Sparepilot | apiKey | yes | unknown | [`shopping/sparepilot`](../apis/shopping/sparepilot.json) |

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/jobspipe",
+  "name": "JobsPipe",
+  "category": "Jobs",
+  "description": "Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema",
+  "documentation_url": "https://docs.jobspipe.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JOBSPIPE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b8dbaa5be3a9ebc8609de2ba86632031c592345a4344b6227a2350fc97986ee8"
+  }
+}

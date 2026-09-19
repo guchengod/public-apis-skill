@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/editalmd",
+  "name": "EditalMD",
+  "category": "Government",
+  "description": "Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements",
+  "documentation_url": "https://editalmd.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "46e0e26a9456cb6df81d5935a8884ed62eb3828c915330eac51a41700764480d"
+  }
+}

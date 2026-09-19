@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/apizone",
+  "name": "APIzone",
+  "category": "Development",
+  "description": "Independent uptime & status monitoring for 200+ popular APIs",
+  "documentation_url": "https://apizone.io/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ab5e3b9a7dcfff64a789eb1fa70f632d280d1f92c40be8c04d424786fae765d0"
+  }
+}

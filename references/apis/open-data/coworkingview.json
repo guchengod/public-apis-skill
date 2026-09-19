@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/coworkingview",
+  "name": "CoworkingView",
+  "category": "Open Data",
+  "description": "Coworking spaces and offices in 63 European and Gulf cities with operator-published prices",
+  "documentation_url": "https://coworkingview.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "96752860e123ec3ea2e6207c136980a5647401a39922fcc52a15c5d4370bca9c"
+  }
+}

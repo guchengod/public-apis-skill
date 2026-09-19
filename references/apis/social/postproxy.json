@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/postproxy",
+  "name": "Postproxy",
+  "category": "Social",
+  "description": "Publish posts, comments, DMs, and more",
+  "documentation_url": "https://postproxy.dev/getting-started/quickstart/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__POSTPROXY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc38520f32e53c0ba58ee4e830dbf1dc00b45b79bea356c33f9a4b6b43b822ac"
+  }
+}

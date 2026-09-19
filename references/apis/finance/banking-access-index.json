@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/banking-access-index",
+  "name": "Banking Access Index",
+  "category": "Finance",
+  "description": "Which US business banking providers accept founders by country of residence, with sources",
+  "documentation_url": "https://www.globalsolo.global/data/banking-access-index",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df670076bc010a5728a22b8a33cd32936bf46c39a22c742df6c9de3eda504c53"
+  }
+}

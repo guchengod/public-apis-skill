@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/stanza-udi-decoder",
+  "name": "Stanza UDI Decoder",
+  "category": "Health",
+  "description": "Decode and validate FDA GUDID and EU MDR medical device UDI barcodes",
+  "documentation_url": "https://stanzaapi.com/tools/udi-decoder",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__STANZA_UDI_DECODER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "deb24fca6c37f5af613d74887baf312c8041205671f10e4366d71cc0de46d48f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/pontofato",
+  "name": "PontoFato",
+  "category": "Geocoding",
+  "description": "Brazilian postal codes (CEP) with IBGE coordinates, addresses and the companies registered there",
+  "documentation_url": "https://pontofato.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d7c2a693ce4154606f3179685f048bafe748230416040c1e247570fc2a388229"
+  }
+}

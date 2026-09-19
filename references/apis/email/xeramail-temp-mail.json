@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/xeramail-temp-mail",
+  "name": "Xeramail Temp Mail",
+  "category": "Email",
+  "description": "Temp email address REST API for privacy, testing, automation with OTP extraction",
+  "documentation_url": "https://xeramail.com/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__XERAMAIL_TEMP_MAIL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d66f9e6e70610ad4c02b540a9d5682511d574412f8d9707904edd993efa311be"
+  }
+}

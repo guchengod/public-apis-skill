@@ -1,6 +1,6 @@
 # Games & Comics
 
-101 interfaces. Paths are relative to this catalog file.
+103 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | Digimon TCG | No | yes | unknown | [`games-comics/digimon-tcg`](../apis/games-comics/digimon-tcg.json) |
 | Disney | No | yes | yes | [`games-comics/disney`](../apis/games-comics/disney.json) |
 | Dota 2 | apiKey | yes | unknown | [`games-comics/dota-2`](../apis/games-comics/dota-2.json) |
+| DotaSense Timings | No | yes | yes | [`games-comics/dotasense-timings`](../apis/games-comics/dotasense-timings.json) |
 | Dungeons and Dragons | No | no | no | [`games-comics/dungeons-and-dragons`](../apis/games-comics/dungeons-and-dragons.json) |
 | Dungeons and Dragons (Alternate) | No | yes | yes | [`games-comics/dungeons-and-dragons-alternate`](../apis/games-comics/dungeons-and-dragons-alternate.json) |
 | Eve Online | OAuth | yes | unknown | [`games-comics/eve-online`](../apis/games-comics/eve-online.json) |
@@ -103,5 +104,6 @@
 | Warface (non-official) | No | yes | no | [`games-comics/warface-non-official`](../apis/games-comics/warface-non-official.json) |
 | Wargaming.net | apiKey | yes | no | [`games-comics/wargaming-net`](../apis/games-comics/wargaming-net.json) |
 | When is next MCU film | No | yes | unknown | [`games-comics/when-is-next-mcu-film`](../apis/games-comics/when-is-next-mcu-film.json) |
+| Worth the Rip | No | yes | yes | [`games-comics/worth-the-rip`](../apis/games-comics/worth-the-rip.json) |
 | xkcd | No | yes | no | [`games-comics/xkcd`](../apis/games-comics/xkcd.json) |
 | Yu-Gi-Oh! | No | yes | unknown | [`games-comics/yu-gi-oh`](../apis/games-comics/yu-gi-oh.json) |
