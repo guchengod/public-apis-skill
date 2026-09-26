@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/presend",
+  "name": "Presend",
+  "category": "Security",
+  "description": "Security and developer utility API -- malware, vulnerability, and domain checks, no signup",
+  "documentation_url": "https://presend.pages.dev/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "beb54f1530a423d753b9bd44d83643915016c80e1aa525b92d27a2860a7d0475"
+  }
+}

@@ -1,14 +1,17 @@
 # Food & Drink
 
-26 interfaces. Paths are relative to this catalog file.
+29 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | BaconMockup | No | yes | yes | [`food-drink/baconmockup`](../apis/food-drink/baconmockup.json) |
+| CalorieNinjas | \piKey\ | yes | yes | [`food-drink/calorieninjas`](../apis/food-drink/calorieninjas.json) |
 | Chomp | apiKey | yes | unknown | [`food-drink/chomp`](../apis/food-drink/chomp.json) |
 | Coffee | No | yes | unknown | [`food-drink/coffee`](../apis/food-drink/coffee.json) |
+| Daily Food Recalls | No | yes | yes | [`food-drink/daily-food-recalls`](../apis/food-drink/daily-food-recalls.json) |
 | Edamam nutrition | apiKey | yes | unknown | [`food-drink/edamam-nutrition`](../apis/food-drink/edamam-nutrition.json) |
 | Edamam recipes | apiKey | yes | unknown | [`food-drink/edamam-recipes`](../apis/food-drink/edamam-recipes.json) |
+| ExactCup | No | yes | yes | [`food-drink/exactcup`](../apis/food-drink/exactcup.json) |
 | Food Info | apiKey | yes | no | [`food-drink/food-info`](../apis/food-drink/food-info.json) |
 | Foodish | No | yes | yes | [`food-drink/foodish`](../apis/food-drink/foodish.json) |
 | Fruityvice | No | yes | unknown | [`food-drink/fruityvice`](../apis/food-drink/fruityvice.json) |

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/swiftnodes",
+  "name": "SwiftNodes",
+  "category": "Blockchain",
+  "description": "Multi-chain blockchain RPC nodes (Ethereum, Solana and 75+ networks)",
+  "documentation_url": "https://swiftnodes.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__SWIFTNODES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01c6baa911face1675ce01d9abed9c09aa01e87dd9d1b731b4a98ea241df108e"
+  }
+}

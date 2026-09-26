@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/random-lexicon",
+  "name": "Random Lexicon",
+  "category": "Dictionaries",
+  "description": "Random words and definitions using optional filters",
+  "documentation_url": "https://randomlexicon.com/api-reference",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "beeb7095ef7c536ac246ffdb674d1cf749b81f21857b9e6861754de80c361a72"
+  }
+}

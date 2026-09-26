@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/daily-food-recalls",
+  "name": "Daily Food Recalls",
+  "category": "Food & Drink",
+  "description": "U.S. FDA and USDA food recalls, merged and normalized, updated daily",
+  "documentation_url": "https://dailyfoodrecalls.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9da2b4dfb4b71631ea70c778dc2483eb229eebd49a2a210b917510c73a5d51fe"
+  }
+}

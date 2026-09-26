@@ -3,32 +3,22 @@
   "generator_version": 2,
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "revision": "c045a2eb505f0f8b7992bb4af53cc020f25003fd",
-    "catalog_digest": "6b7a4c3b34e9edc7366a454f5ff526bee11f5633ef3aee6e0dad3a82a7d16a40"
+    "revision": "91f546263b29497ba39e8bbe1c85dc66d34e2539",
+    "catalog_digest": "9fe6ad7872ad0b49e744205fc173760dcbf3287266cdfe8791ca869a4041ffb5"
   },
   "counts": {
-    "apis": 1695,
+    "apis": 1914,
     "categories": 51,
     "authentication": {
-      "No": 796,
+      "No": 916,
       "OAuth": 150,
       "User-Agent": 1,
       "X-Mashape-Key": 6,
-      "apiKey": 742
+      "\\\u0007piKey\\": 1,
+      "apiKey": 840
     }
   },
   "entries": [
-    {
-      "id": "animals/adoptapet",
-      "name": "AdoptAPet",
-      "category": "Animals",
-      "description": "Resource to help get pets adopted",
-      "auth": "apiKey",
-      "https": "yes",
-      "cors": "yes",
-      "fingerprint": "e2f4828bc76af75319755f77dec9114df94c878c3e81f095660b22789da00262",
-      "definition": "references/apis/animals/adoptapet.json"
-    },
     {
       "id": "animals/axolotl",
       "name": "Axolotl",
@@ -39,6 +29,17 @@
       "cors": "no",
       "fingerprint": "7d4c6345fd8cad12f4003a093ef64f0a8d293b0cf4baa8c6b797abd606d2da98",
       "definition": "references/apis/animals/axolotl.json"
+    },
+    {
+      "id": "animals/breed-health-score",
+      "name": "Breed Health Score",
+      "category": "Animals",
+      "description": "Dog breed health scores, median lifespans and conditions",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "dc123a7903875463ef7395df433fad69bf63f8a89bc6209c51867b5c12fff523",
+      "definition": "references/apis/animals/breed-health-score.json"
     },
     {
       "id": "animals/cat-facts--3e1ccbfe",
@@ -61,17 +62,6 @@
       "cors": "yes",
       "fingerprint": "2fd6dbe2404832974b1f5af599a70118d848602f8dc28accb4d285cf17483ab9",
       "definition": "references/apis/animals/cat-facts--e364408f.json"
-    },
-    {
-      "id": "animals/cataas",
-      "name": "Cataas",
-      "category": "Animals",
-      "description": "Cat as a service (cats pictures and gifs)",
-      "auth": "No",
-      "https": "yes",
-      "cors": "no",
-      "fingerprint": "a91b839be59c4a7e8f1844e2bac8e8362e33a37fc24e9d99d36b716895b2e7f5",
-      "definition": "references/apis/animals/cataas.json"
     },
     {
       "id": "animals/cats",
@@ -167,9 +157,9 @@
       "category": "Animals",
       "description": "IUCN Red List of Threatened Species",
       "auth": "apiKey",
-      "https": "no",
+      "https": "yes",
       "cors": "no",
-      "fingerprint": "99496baf0ded3b6b070aedc154c82797b7d872801fa0a86d7e29488f90dfc17b",
+      "fingerprint": "c0510a4b69c4be5a756fc6de209e2a3c570978e30aa69c3d4bad8b138e407007",
       "definition": "references/apis/animals/iucn.json"
     },
     {
@@ -193,17 +183,6 @@
       "cors": "yes",
       "fingerprint": "9f00d97974da52fd367cc93fc4970bb8361a13394254ccc4776cb40dc5b5a081",
       "definition": "references/apis/animals/movebank.json"
-    },
-    {
-      "id": "animals/petfinder",
-      "name": "Petfinder",
-      "category": "Animals",
-      "description": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
-      "auth": "apiKey",
-      "https": "yes",
-      "cors": "yes",
-      "fingerprint": "68a8bf58688aa254d0390c3d9e6476c628a0523bead36759a72316e2d7b7c679",
-      "definition": "references/apis/animals/petfinder.json"
     },
     {
       "id": "animals/placebear",
@@ -591,6 +570,17 @@
       "definition": "references/apis/anti-malware/malshare.json"
     },
     {
+      "id": "anti-malware/malwagon",
+      "name": "Malwagon",
+      "category": "Anti-Malware",
+      "description": "Detonates files and URLs in instrumented VMs and returns behaviour, IOCs and ATT&CK",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "8bbd2fa4e53d6d523959d85c1b94eccbf14adcd0a33b215f7308fbb22cf8c653",
+      "definition": "references/apis/anti-malware/malwagon.json"
+    },
+    {
       "id": "anti-malware/malwarebazaar",
       "name": "MalwareBazaar",
       "category": "Anti-Malware",
@@ -644,6 +634,17 @@
       "cors": "yes",
       "fingerprint": "89afa61a32bfdb15bbd2de8ea8a3c57176fdd3758553e2c48aa93f900a8ac1e5",
       "definition": "references/apis/anti-malware/scanii.json"
+    },
+    {
+      "id": "anti-malware/scanmalware",
+      "name": "ScanMalware",
+      "category": "Anti-Malware",
+      "description": "Scan URLs in a sandboxed browser and search past scans by domain, IP, ASN, JARM or favicon hash",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "cb748c088c098c23943c0ca693f1e3307d2df3ec95e137046fe55594de3a6598",
+      "definition": "references/apis/anti-malware/scanmalware.json"
     },
     {
       "id": "anti-malware/urlhaus",
@@ -789,6 +790,17 @@
       "definition": "references/apis/art-design/europeana.json"
     },
     {
+      "id": "art-design/face-shape-guide-lookup",
+      "name": "Face Shape Guide Lookup",
+      "category": "Art & Design",
+      "description": "Read-only lookup for published face-shape guide records",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9192d09412b63a16776981418e71650d578bbc90de261729e2347940f04e5e69",
+      "definition": "references/apis/art-design/face-shape-guide-lookup.json"
+    },
+    {
       "id": "art-design/harvard-art-museums",
       "name": "Harvard Art Museums",
       "category": "Art & Design",
@@ -908,6 +920,17 @@
       "cors": "unknown",
       "fingerprint": "b6185b9efff0a7603c18c5635363209c6ed196db72369a6a381ff620a6ec1603",
       "definition": "references/apis/art-design/rijksmuseum.json"
+    },
+    {
+      "id": "art-design/smithsonian-open-access",
+      "name": "Smithsonian Open Access",
+      "category": "Art & Design",
+      "description": "Smithsonian collection metadata and open-access digital media",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "bdbfd235ce46320f7dd1188bbace13f57138063891c84df6bd31a9294612f2c2",
+      "definition": "references/apis/art-design/smithsonian-open-access.json"
     },
     {
       "id": "art-design/thisispaper",
@@ -1152,6 +1175,17 @@
       "definition": "references/apis/blockchain/steem.json"
     },
     {
+      "id": "blockchain/swiftnodes",
+      "name": "SwiftNodes",
+      "category": "Blockchain",
+      "description": "Multi-chain blockchain RPC nodes (Ethereum, Solana and 75+ networks)",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "01c6baa911face1675ce01d9abed9c09aa01e87dd9d1b731b4a98ea241df108e",
+      "definition": "references/apis/blockchain/swiftnodes.json"
+    },
+    {
       "id": "blockchain/twzrd-agent-intel",
       "name": "TWZRD Agent Intel",
       "category": "Blockchain",
@@ -1304,6 +1338,17 @@
       "cors": "unknown",
       "fingerprint": "332fedc83a19f6810ea6d3a3c2df35d31f47b4e14bb2ea0d1c69d6ff44c493e5",
       "definition": "references/apis/books/google-books.json"
+    },
+    {
+      "id": "books/greenlit-books",
+      "name": "Greenlit Books",
+      "category": "Books",
+      "description": "Catalog of practical AI books with search, series, glossary and a claim ledger",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b2ca60c0abe4d62d85599b51901f8e247b8679e5a458ce5311c677bfb78564ec",
+      "definition": "references/apis/books/greenlit-books.json"
     },
     {
       "id": "books/gurbaninow",
@@ -1504,6 +1549,17 @@
       "definition": "references/apis/business/clearbit-logo.json"
     },
     {
+      "id": "business/crustdata",
+      "name": "Crustdata",
+      "category": "Business",
+      "description": "People and company data covering profiles, headcount, funding and contacts",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "b105c8e048b58280bbc8749bb88baf4c466848d5dad8e2dcb33a23f097a4ec9b",
+      "definition": "references/apis/business/crustdata.json"
+    },
+    {
       "id": "business/domainsdb-info",
       "name": "Domainsdb.info",
       "category": "Business",
@@ -1513,6 +1569,17 @@
       "cors": "no",
       "fingerprint": "4dd84535541619bd018154f5800bdb5c7c5348eb9eaa6190ce6ec91d31b4537b",
       "definition": "references/apis/business/domainsdb-info.json"
+    },
+    {
+      "id": "business/eurovalidate",
+      "name": "EuroValidate",
+      "category": "Business",
+      "description": "EU VAT (VIES), IBAN and EORI validation with company name & address lookup",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ecce60e50b945490346cc603b9096d91ba0162ef3d3085a19399fda87d25e059",
+      "definition": "references/apis/business/eurovalidate.json"
     },
     {
       "id": "business/freelancer",
@@ -1535,6 +1602,17 @@
       "cors": "no",
       "fingerprint": "3ea6032eb88175382e9e55ae8bca82c4d4104868f9d048094c3324dddcfdb782",
       "definition": "references/apis/business/funding-signals.json"
+    },
+    {
+      "id": "business/globalentity",
+      "name": "GlobalEntity",
+      "category": "Business",
+      "description": "Official company data from 56 European business registers as normalized JSON",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b59403867ec4cd60f22dfebc14365b08cf5f7214228ca47e23e94a1e12b51be9",
+      "definition": "references/apis/business/globalentity.json"
     },
     {
       "id": "business/gmail",
@@ -1570,6 +1648,17 @@
       "definition": "references/apis/business/instatus.json"
     },
     {
+      "id": "business/invoicein",
+      "name": "InvoiceIn",
+      "category": "Business",
+      "description": "Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "af29c2ebeb3e84ef54215e700ee14a1e923b9f588901438f59a6343737541a18",
+      "definition": "references/apis/business/invoicein.json"
+    },
+    {
       "id": "business/invovate",
       "name": "Invovate",
       "category": "Business",
@@ -1579,6 +1668,28 @@
       "cors": "no",
       "fingerprint": "1420b2acc27dde7d24e2421c6bc314bd95a815597d7557afb649368dd1b00e24",
       "definition": "references/apis/business/invovate.json"
+    },
+    {
+      "id": "business/katalis-uk-company-enrichment",
+      "name": "Katalis UK Company Enrichment",
+      "category": "Business",
+      "description": "Verified UK company profiles with an AI summary and accuracy score, from Companies House data",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "38d88d69a4ae4f24e98471f4719b9b1748144ff373b5c1c969fc2eee3b2eb6db",
+      "definition": "references/apis/business/katalis-uk-company-enrichment.json"
+    },
+    {
+      "id": "business/kontragentpro",
+      "name": "KontragentPro",
+      "category": "Business",
+      "description": "Russian company data from state registers by INN or OGRN: profile, finances, timeline",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b8ddc2c871cfc4e0ac031fa6abdaf293a39bf93d1c1189c1dfe4aae384b97dff",
+      "definition": "references/apis/business/kontragentpro.json"
     },
     {
       "id": "business/legal-sandbox-georgia",
@@ -1766,6 +1877,17 @@
       "cors": "unknown",
       "fingerprint": "98b7507458aee619036137b1bc413d68a698c378524911f9003808f904bfcb8e",
       "definition": "references/apis/business/tenders-in-ukraine.json"
+    },
+    {
+      "id": "business/tradedatahub",
+      "name": "TradeDataHub",
+      "category": "Business",
+      "description": "U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "36098c758280b5da775ac43dcd81b089a8b9fdaa893d9f7edbcbdfb5242c9582",
+      "definition": "references/apis/business/tradedatahub.json"
     },
     {
       "id": "business/tomba-email-finder",
@@ -2289,10 +2411,10 @@
       "name": "1inch",
       "category": "Cryptocurrency",
       "description": "API for querying decentralize exchange",
-      "auth": "No",
+      "auth": "apiKey",
       "https": "yes",
       "cors": "unknown",
-      "fingerprint": "c07a71e6d273423174ebfea4931973292f63281d2b1228126b1072f1684af3e1",
+      "fingerprint": "5f28d2d2be191ddd70f61d5d98b29104e07515c0b7012a3958fdd3f5048fb488",
       "definition": "references/apis/cryptocurrency/1inch.json"
     },
     {
@@ -2483,6 +2605,17 @@
       "definition": "references/apis/cryptocurrency/brave-newcoin.json"
     },
     {
+      "id": "cryptocurrency/btcglobe",
+      "name": "BTCGlobe",
+      "category": "Cryptocurrency",
+      "description": "Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b5ff160691740de6b707b97c988c76d61a4efd2f0631c4a3a15419b86e78579d",
+      "definition": "references/apis/cryptocurrency/btcglobe.json"
+    },
+    {
       "id": "cryptocurrency/btcnode-uk",
       "name": "btcnode.uk",
       "category": "Cryptocurrency",
@@ -2648,6 +2781,17 @@
       "definition": "references/apis/cryptocurrency/coinmarketcap.json"
     },
     {
+      "id": "cryptocurrency/coinnudge",
+      "name": "CoinNudge",
+      "category": "Cryptocurrency",
+      "description": "Current crypto market breadth, funding and open-interest research datasets",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "ac45f004c490b71edb1c33c8ea95dfa0e80681c989f876770f413957a43c110d",
+      "definition": "references/apis/cryptocurrency/coinnudge.json"
+    },
+    {
       "id": "cryptocurrency/coinpaprika",
       "name": "Coinpaprika",
       "category": "Cryptocurrency",
@@ -2690,6 +2834,17 @@
       "cors": "unknown",
       "fingerprint": "c750dbcdf067ce15a8838a1d550181007b4e996678a3b577aa63ad36019db70d",
       "definition": "references/apis/cryptocurrency/coinstats.json"
+    },
+    {
+      "id": "cryptocurrency/corpstacking",
+      "name": "CorpStacking",
+      "category": "Cryptocurrency",
+      "description": "Corporate, government and ETF Bitcoin, Ethereum and Solana treasury disclosures",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "daa93ee649434647ddd804d394adae3acb31c8aa22f3d648e14250506d4a6e17",
+      "definition": "references/apis/cryptocurrency/corpstacking.json"
     },
     {
       "id": "cryptocurrency/cryptapi",
@@ -2747,6 +2902,28 @@
       "definition": "references/apis/cryptocurrency/cryptonator.json"
     },
     {
+      "id": "cryptocurrency/deep-blue-alpha",
+      "name": "Deep Blue Alpha",
+      "category": "Cryptocurrency",
+      "description": "Real-time Ethereum whale wallet tracking, DEX trades, net flow, and conviction scoring",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "4ccd31a70b994f63c512cd63d2157b386d54e9c8c9bdcb470713706c2a207f9d",
+      "definition": "references/apis/cryptocurrency/deep-blue-alpha.json"
+    },
+    {
+      "id": "cryptocurrency/defillama",
+      "name": "DefiLlama",
+      "category": "Cryptocurrency",
+      "description": "Open and transparent DeFi data, TVL, coin prices, volumes, and yields",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "bb1e343cd0355d90ceae7ec6d22032e1b0e6fc6e9562960ef269dbe38d13d20e",
+      "definition": "references/apis/cryptocurrency/defillama.json"
+    },
+    {
       "id": "cryptocurrency/dydx",
       "name": "dYdX",
       "category": "Cryptocurrency",
@@ -2780,6 +2957,17 @@
       "definition": "references/apis/cryptocurrency/exmo.json"
     },
     {
+      "id": "cryptocurrency/fraudcoins",
+      "name": "FraudCoins",
+      "category": "Cryptocurrency",
+      "description": "On-chain top-10 holder concentration and contract permissions for crypto tokens",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "afb7c0aea906f19d88edf6082a8e130cd9ead36b3c55a4a5e705b40b429745a8",
+      "definition": "references/apis/cryptocurrency/fraudcoins.json"
+    },
+    {
       "id": "cryptocurrency/gateio",
       "name": "Gateio",
       "category": "Cryptocurrency",
@@ -2811,6 +2999,17 @@
       "cors": "unknown",
       "fingerprint": "7a06b2a8f6082d9d85042bc90723a945bc59f23da210294d111136a5868f7859",
       "definition": "references/apis/cryptocurrency/hirak-exchange-rates.json"
+    },
+    {
+      "id": "cryptocurrency/hostdefi",
+      "name": "HostDeFi",
+      "category": "Cryptocurrency",
+      "description": "Free A+–F token-safety grades across Solana and EVM chains",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0903424a08c143557a0c8ab7e1777fb6b89dfab212e63f25813d3a072b0dbe8c",
+      "definition": "references/apis/cryptocurrency/hostdefi.json"
     },
     {
       "id": "cryptocurrency/huobi",
@@ -2899,6 +3098,17 @@
       "cors": "unknown",
       "fingerprint": "a5e628d11452a78616787ffd6d0ea61e901356a9d65a001d8f916fc6af351452",
       "definition": "references/apis/cryptocurrency/localbitcoins.json"
+    },
+    {
+      "id": "cryptocurrency/madeonsol",
+      "name": "MadeOnSol",
+      "category": "Cryptocurrency",
+      "description": "Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "acfb38992cb4d5441ccd2fd1cb5885888a2d2d9fb14ca64776507d492b86f22d",
+      "definition": "references/apis/cryptocurrency/madeonsol.json"
     },
     {
       "id": "cryptocurrency/mempool",
@@ -3033,6 +3243,17 @@
       "definition": "references/apis/cryptocurrency/solana-json-rpc.json"
     },
     {
+      "id": "cryptocurrency/sololuck",
+      "name": "SoloLuck",
+      "category": "Cryptocurrency",
+      "description": "Bitcoin solo mining pool stats, per-address miner stats and an open dataset of solo-mined blocks",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8a265ad5cecb204ab74abb21d3d2364d30dc2def7eed0a520f2c69aa49bab854",
+      "definition": "references/apis/cryptocurrency/sololuck.json"
+    },
+    {
       "id": "cryptocurrency/technical-analysis",
       "name": "Technical Analysis",
       "category": "Cryptocurrency",
@@ -3042,6 +3263,17 @@
       "cors": "no",
       "fingerprint": "05994b1d43b48a0a2ac7da880093ec46af0a5be785d439dec164d8708294451d",
       "definition": "references/apis/cryptocurrency/technical-analysis.json"
+    },
+    {
+      "id": "cryptocurrency/the-coin-analysis",
+      "name": "The Coin Analysis",
+      "category": "Cryptocurrency",
+      "description": "Live and historical cryptocurrency prices, market caps, volatility and drawdown",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ad009e7f7f19d6c5e36ec0b9b51c2bfc4dee860f428b99b510c07fb2952e150d",
+      "definition": "references/apis/cryptocurrency/the-coin-analysis.json"
     },
     {
       "id": "cryptocurrency/valr",
@@ -3176,6 +3408,17 @@
       "definition": "references/apis/currency-exchange/amdoren.json"
     },
     {
+      "id": "currency-exchange/api-mint",
+      "name": "api-mint",
+      "category": "Currency Exchange",
+      "description": "Free utility APIs: timezone, forex rates, crypto prices, page metadata",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "3dae9a60accc1a604c103a4c3f54680c2036cbd61ac49dfaa78c3f58f6842d75",
+      "definition": "references/apis/currency-exchange/api-mint.json"
+    },
+    {
       "id": "currency-exchange/bank-of-russia",
       "name": "Bank of Russia",
       "category": "Currency Exchange",
@@ -3196,6 +3439,17 @@
       "cors": "yes",
       "fingerprint": "53b07d7f1942836055bd45f995065118245a0196fed969acd57c815bd9a5c164",
       "definition": "references/apis/currency-exchange/currency-api.json"
+    },
+    {
+      "id": "currency-exchange/currencybeacon",
+      "name": "CurrencyBeacon",
+      "category": "Currency Exchange",
+      "description": "Real-time and historical currency exchange rates with free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "898ba512ff59f47ce19e0209e6ed6fd4de113c25912cbdb8ad4c2481751769dd",
+      "definition": "references/apis/currency-exchange/currencybeacon.json"
     },
     {
       "id": "currency-exchange/currencyfreaks",
@@ -3286,6 +3540,17 @@
       "definition": "references/apis/currency-exchange/freeforexapi.json"
     },
     {
+      "id": "currency-exchange/fxpeek",
+      "name": "FXpeek",
+      "category": "Currency Exchange",
+      "description": "Source-linked historical reference exchange rates with CSV, JSON and an MCP server",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "916497d619a93e66a639d6d925e57b10d3cdf36d39ba801ecbe0a4dccb79fd3e",
+      "definition": "references/apis/currency-exchange/fxpeek.json"
+    },
+    {
       "id": "currency-exchange/national-bank-of-poland",
       "name": "National Bank of Poland",
       "category": "Currency Exchange",
@@ -3306,6 +3571,17 @@
       "cors": "yes",
       "fingerprint": "e47c32fc70573ea8892a318218a3dae44ab59555cea2b5757b9e0bb6a5457176",
       "definition": "references/apis/currency-exchange/paralelo-bo.json"
+    },
+    {
+      "id": "currency-exchange/rate-api",
+      "name": "Rate-API",
+      "category": "Currency Exchange",
+      "description": "Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9145e452a2841b7c61094c77d165bfe556e0042023aefd704b3deca0351d88cc",
+      "definition": "references/apis/currency-exchange/rate-api.json"
     },
     {
       "id": "currency-exchange/taxid",
@@ -3385,6 +3661,17 @@
       "definition": "references/apis/data-validation/purgomalum.json"
     },
     {
+      "id": "data-validation/revaddress",
+      "name": "RevAddress",
+      "category": "Data Validation",
+      "description": "US address standardization, congressional and state legislative districts, Census data; free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "2dd09be5d99928f110aa429bbd59a75f39dfd4141d0b0ccd96facc38630b5531",
+      "definition": "references/apis/data-validation/revaddress.json"
+    },
+    {
       "id": "data-validation/schemashield",
       "name": "SchemaShield",
       "category": "Data Validation",
@@ -3394,6 +3681,17 @@
       "cors": "unknown",
       "fingerprint": "8cfc5b2d288479fc7d8e8ae70bb18b524fe599e7458d597818a3a40ca3100bae",
       "definition": "references/apis/data-validation/schemashield.json"
+    },
+    {
+      "id": "data-validation/sthan-io-address-verification",
+      "name": "sthan.io Address Verification",
+      "category": "Data Validation",
+      "description": "Validate and standardize US addresses, with ZIP+4 and deliverability status",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "32595172c39989427387d4d96878cc4abfd2c99a1bbf361cbab86e236e5d0e66",
+      "definition": "references/apis/data-validation/sthan-io-address-verification.json"
     },
     {
       "id": "data-validation/temsor",
@@ -3440,6 +3738,17 @@
       "definition": "references/apis/data-validation/us-street-address.json"
     },
     {
+      "id": "data-validation/verifnow",
+      "name": "VerifNow",
+      "category": "Data Validation",
+      "description": "Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "dc12a2fd5260dc973daa2591c6e84ffd721736a0e276354109ee0ab0e33dd003",
+      "definition": "references/apis/data-validation/verifnow.json"
+    },
+    {
       "id": "development/userstack",
       "name": "Userstack",
       "category": "Development",
@@ -3460,6 +3769,28 @@
       "cors": "yes",
       "fingerprint": "15912c5660bc9cf26c20d1de96e5297bd333d2ec1e129d2025b135e0de0ba6ce",
       "definition": "references/apis/development/24-pull-requests.json"
+    },
+    {
+      "id": "development/aether-bridge",
+      "name": "Aether Bridge",
+      "category": "Development",
+      "description": "Autonomous agent team management and API workflow orchestration",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "6db0238076f02a3134501fb4cb27434d62455ee48886f603ee58bfe67adf4815",
+      "definition": "references/apis/development/aether-bridge.json"
+    },
+    {
+      "id": "development/agent-nexus",
+      "name": "Agent Nexus",
+      "category": "Development",
+      "description": "Continuously probed registry of APIs, MCP servers and CLIs callable by agents",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "37beffaca01ff46c13fe214a9fb8a4da93c54f5824ee76b2e35280a5e128b8b0",
+      "definition": "references/apis/development/agent-nexus.json"
     },
     {
       "id": "development/agify-io",
@@ -3537,6 +3868,28 @@
       "cors": "unknown",
       "fingerprint": "66baae037e283fbce851c6ae92d0ffeecbd4de285f3a1b667c5f4f29e402ceca",
       "definition": "references/apis/development/apis-guru.json"
+    },
+    {
+      "id": "development/apizone",
+      "name": "APIzone",
+      "category": "Development",
+      "description": "Independent uptime & status monitoring for 200+ popular APIs",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ab5e3b9a7dcfff64a789eb1fa70f632d280d1f92c40be8c04d424786fae765d0",
+      "definition": "references/apis/development/apizone.json"
+    },
+    {
+      "id": "development/aquanode",
+      "name": "Aquanode",
+      "category": "Development",
+      "description": "Live GPU rental prices and availability across nine cloud providers",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "86336545f64f3be7cae0f3ae3baa5393cff67fe4254c07afc58db428cb0296bf",
+      "definition": "references/apis/development/aquanode.json"
     },
     {
       "id": "development/azure-devops",
@@ -3682,6 +4035,17 @@
       "definition": "references/apis/development/changelogs-md.json"
     },
     {
+      "id": "development/chartbytes",
+      "name": "ChartBytes",
+      "category": "Development",
+      "description": "Chart image API: turn a URL into a PNG or SVG chart (bar, pie, donut, stacked)",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "85652dd1a2ca6d747f6fe9e6116a6fa46eafe6315f74bcfbdff3e7def65950ca",
+      "definition": "references/apis/development/chartbytes.json"
+    },
+    {
       "id": "development/ciprand",
       "name": "Ciprand",
       "category": "Development",
@@ -3691,6 +4055,17 @@
       "cors": "no",
       "fingerprint": "768b4cb4e50a80b02ed53d2b48d2b4f2cb53325cfabbd17eaa5e09c58e808ff9",
       "definition": "references/apis/development/ciprand.json"
+    },
+    {
+      "id": "development/claudecookie",
+      "name": "claudecookie",
+      "category": "Development",
+      "description": "Convert cookie formats, check Claude sessions and generate Claude Code credentials",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b41f8abaf4516d7fe2708c8389f8a9923bcaa243b9b33064f05b8883583fc390",
+      "definition": "references/apis/development/claudecookie.json"
     },
     {
       "id": "development/cloudflare",
@@ -3757,6 +4132,28 @@
       "cors": "yes",
       "fingerprint": "b7aa0b98b195cd9c38e18e1710112438ae6cfd5ac0805099eef2d842f474146e",
       "definition": "references/apis/development/countapi.json"
+    },
+    {
+      "id": "development/crates-io",
+      "name": "crates.io",
+      "category": "Development",
+      "description": "Rust crate versions, downloads and dependency metadata",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "61765d8c49113a2c258beb2155217388c7d54857413515e7e5bfaa5f686a4ee5",
+      "definition": "references/apis/development/crates-io.json"
+    },
+    {
+      "id": "development/crawl-readiness",
+      "name": "Crawl Readiness",
+      "category": "Development",
+      "description": "Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "002cf76d56c51c7936a58e4e4edc78fbfd2cba5e71df7c78e7ab48f3b76c3de6",
+      "definition": "references/apis/development/crawl-readiness.json"
     },
     {
       "id": "development/databricks",
@@ -3858,6 +4255,28 @@
       "definition": "references/apis/development/extendsclass-json-storage.json"
     },
     {
+      "id": "development/fair-draw",
+      "name": "Fair Draw",
+      "category": "Development",
+      "description": "Verifiable random draws bound to the drand public randomness beacon",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b2a4eaf80968f5b729a9615bc94ab40620815e398e335d1931396d3fb5b826aa",
+      "definition": "references/apis/development/fair-draw.json"
+    },
+    {
+      "id": "development/framejet",
+      "name": "Framejet",
+      "category": "Development",
+      "description": "Website screenshot API with cookie banners and chat widgets removed; free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "0fe6fe69fa789b077e4531ca75ced4eb751529cf44c4b1e7a35c2398fd04cf46",
+      "definition": "references/apis/development/framejet.json"
+    },
+    {
       "id": "development/geekflare",
       "name": "GeekFlare",
       "category": "Development",
@@ -3867,6 +4286,17 @@
       "cors": "unknown",
       "fingerprint": "5c690dca3d2540a4b85310a792f539fce5ebd64adbcc3f916f300723a14a987b",
       "definition": "references/apis/development/geekflare.json"
+    },
+    {
+      "id": "development/gcrawlai",
+      "name": "GcrawlAI",
+      "category": "Development",
+      "description": "Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "759355207fa57d746e4ed4d69164d64d6bf3675788f5ef48aaa8b504ff4982ed",
+      "definition": "references/apis/development/gcrawlai.json"
     },
     {
       "id": "development/genderize-io",
@@ -3990,6 +4420,17 @@
       "definition": "references/apis/development/google-keep.json"
     },
     {
+      "id": "development/google-pagespeed-insights",
+      "name": "Google PageSpeed Insights",
+      "category": "Development",
+      "description": "Website performance and Lighthouse audit scores",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "1706d56c971ef04952bffd02db3393837141ad651f7ac87f61bd4b7a148740f6",
+      "definition": "references/apis/development/google-pagespeed-insights.json"
+    },
+    {
       "id": "development/google-sheets",
       "name": "Google Sheets",
       "category": "Development",
@@ -4045,6 +4486,17 @@
       "definition": "references/apis/development/heroku.json"
     },
     {
+      "id": "development/hex",
+      "name": "Hex",
+      "category": "Development",
+      "description": "Elixir and Erlang package versions and docs",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "9ea3b2eb85380c8048ccacf2c02a2510628d86e8d022941661ed91a970b76912",
+      "definition": "references/apis/development/hex.json"
+    },
+    {
       "id": "development/host-t-com",
       "name": "host-t.com",
       "category": "Development",
@@ -4065,6 +4517,17 @@
       "cors": "yes",
       "fingerprint": "ec88fb1cdacd4909bdc799e4fb2936af197090bbc851d48312dbb5b06a6ea4b9",
       "definition": "references/apis/development/host-io.json"
+    },
+    {
+      "id": "development/hostdealradar",
+      "name": "HostDealRadar",
+      "category": "Development",
+      "description": "Source-backed hosting price and provider record lookup",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9bdfcec348b36df439acb76c10b7f58da2fdf0bde5fe3bfdc49dd1b6f71febdc",
+      "definition": "references/apis/development/hostdealradar.json"
     },
     {
       "id": "development/http2-pro",
@@ -4243,6 +4706,17 @@
       "definition": "references/apis/development/ipinfo.json"
     },
     {
+      "id": "development/is-this-site-down",
+      "name": "Is This Site Down?",
+      "category": "Development",
+      "description": "Check if any website is down, from two continents; live status, uptime history and TLS expiry",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "4d45add9374cb90552cb9da26564d0b444ee55aa5e8dd50dc0d3ae5050b2c4b5",
+      "definition": "references/apis/development/is-this-site-down.json"
+    },
+    {
       "id": "development/isitdownstatus",
       "name": "isitdownstatus",
       "category": "Development",
@@ -4320,6 +4794,17 @@
       "definition": "references/apis/development/kroki.json"
     },
     {
+      "id": "development/labelixa",
+      "name": "Labelixa",
+      "category": "Development",
+      "description": "Render, validate and generate Zebra ZPL label barcodes as PNG/PDF",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "677fa3672c374403a633cd822fdabce6d6ac4a2a2c60cebd1597d83ea258b75f",
+      "definition": "references/apis/development/labelixa.json"
+    },
+    {
       "id": "development/license-api",
       "name": "License-API",
       "category": "Development",
@@ -4329,6 +4814,17 @@
       "cors": "no",
       "fingerprint": "47f807c3ff9e8f08266f63584c0076c5e4e061ddc74525e49e227d1237c8c58e",
       "definition": "references/apis/development/license-api.json"
+    },
+    {
+      "id": "development/litport-free-proxy",
+      "name": "Litport Free Proxy",
+      "category": "Development",
+      "description": "Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "313cae72e09e2429fab8d52c4ef1d26eb924f6b3c71fedc2b1b94814a1297d60",
+      "definition": "references/apis/development/litport-free-proxy.json"
     },
     {
       "id": "development/logs-to",
@@ -4408,6 +4904,17 @@
       "definition": "references/apis/development/mocky.json"
     },
     {
+      "id": "development/msgboard",
+      "name": "msgboard",
+      "category": "Development",
+      "description": "Public message board for agent-to-agent messaging, no account or key",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "2382dd317e5883ad70d8f65fd91654bfcd9ec04a4d86e81b48ffeee59393acad",
+      "definition": "references/apis/development/msgboard.json"
+    },
+    {
       "id": "development/my-ip",
       "name": "MY IP",
       "category": "Development",
@@ -4430,6 +4937,17 @@
       "definition": "references/apis/development/myiprightnow.json"
     },
     {
+      "id": "development/namegender",
+      "name": "NameGender",
+      "category": "Development",
+      "description": "Gender from a first name, full name, email or username, with probability",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "78c19f3dbee6e7ba871595c0ec7784a0c1f8ecaedf20c43e6d9ffecbb47b93c5",
+      "definition": "references/apis/development/namegender.json"
+    },
+    {
       "id": "development/nationalize-io",
       "name": "Nationalize.io",
       "category": "Development",
@@ -4439,6 +4957,17 @@
       "cors": "yes",
       "fingerprint": "4af510c47a0921aa46849e35287bd9b9c957d3e57f38b3625af635e1a660cc57",
       "definition": "references/apis/development/nationalize-io.json"
+    },
+    {
+      "id": "development/nerdulator",
+      "name": "Nerdulator",
+      "category": "Development",
+      "description": "Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0f8a00610e850c58f7d6bee5499d835612af7b6bbc7788d5526168d168d4dfe7",
+      "definition": "references/apis/development/nerdulator.json"
     },
     {
       "id": "development/netlify",
@@ -4474,6 +5003,17 @@
       "definition": "references/apis/development/npm-registry.json"
     },
     {
+      "id": "development/nuget",
+      "name": "NuGet",
+      "category": "Development",
+      "description": ".NET package versions, metadata and search",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "d17ce2e79e1a413df4056709823b1696ce50acc0a72315cf9300dd8ffba4d5b3",
+      "definition": "references/apis/development/nuget.json"
+    },
+    {
       "id": "development/onesignal",
       "name": "OneSignal",
       "category": "Development",
@@ -4494,6 +5034,17 @@
       "cors": "unknown",
       "fingerprint": "e7d842a7b35070bc43965fe401eb0d72a13f13e4af4795b05bfd1dbda4fa7bb5",
       "definition": "references/apis/development/open-page-rank.json"
+    },
+    {
+      "id": "development/open-vsx",
+      "name": "Open VSX",
+      "category": "Development",
+      "description": "Search and access VS Code extensions from the Open VSX registry",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f6938e71b6153815e4ba41e973aa1dba935a10ee9ed5fc776679bb5b877369e4",
+      "definition": "references/apis/development/open-vsx.json"
     },
     {
       "id": "development/openapihub",
@@ -4562,6 +5113,17 @@
       "definition": "references/apis/development/oyyi.json"
     },
     {
+      "id": "development/packagist",
+      "name": "Packagist",
+      "category": "Development",
+      "description": "PHP Composer package versions and dist metadata",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "d162fe8b813d7a5680cd113ad47dc12e13a3d194a6362a36610fbf807ef4d988",
+      "definition": "references/apis/development/packagist.json"
+    },
+    {
       "id": "development/pagecdn",
       "name": "PageCDN",
       "category": "Development",
@@ -4571,6 +5133,17 @@
       "cors": "yes",
       "fingerprint": "16789e1e6d0bf4042bcec9c8790a5eb0e57872ece49427c4b92ac4b020ba4d11",
       "definition": "references/apis/development/pagecdn.json"
+    },
+    {
+      "id": "development/peak",
+      "name": "Peak",
+      "category": "Development",
+      "description": "Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c0e335bc267fbb0805c6a6e2bff8f6bc5225503e8d62c922d2f656b06c61f844",
+      "definition": "references/apis/development/peak.json"
     },
     {
       "id": "development/phone-specs",
@@ -4683,6 +5256,17 @@
       "definition": "references/apis/development/qr-code-crafter.json"
     },
     {
+      "id": "development/qr-codes",
+      "name": "QR Codes",
+      "category": "Development",
+      "description": "Generate QR codes via a single GET request, with logo embedding and custom colors",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "f367538debc061d5f8230e4816bf546fa4c752499b979fd2a6025e7cb19fb428",
+      "definition": "references/apis/development/qr-codes.json"
+    },
+    {
       "id": "development/qrcode-monkey",
       "name": "Qrcode Monkey",
       "category": "Development",
@@ -4703,6 +5287,17 @@
       "cors": "yes",
       "fingerprint": "9111a97308974e393fcd4d26606be71408cc21b444b5a99a1d0fd73cccbbe35b",
       "definition": "references/apis/development/quickchart.json"
+    },
+    {
+      "id": "development/quotable",
+      "name": "Quotable",
+      "category": "Development",
+      "description": "Random quotes with authors and tags",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0bc74207963c99f78fb4793c4b6b1d6a97f399f34a6f875e9201919e4d7195a9",
+      "definition": "references/apis/development/quotable.json"
     },
     {
       "id": "development/random-stuff",
@@ -4727,6 +5322,17 @@
       "definition": "references/apis/development/rejax.json"
     },
     {
+      "id": "development/renderwolf",
+      "name": "Renderwolf",
+      "category": "Development",
+      "description": "Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "8994225e563f537401989208d113ec26b5cedb614210c58b09ae4f8fd7687309",
+      "definition": "references/apis/development/renderwolf.json"
+    },
+    {
       "id": "development/reqres",
       "name": "ReqRes",
       "category": "Development",
@@ -4747,6 +5353,17 @@
       "cors": "yes",
       "fingerprint": "5204ca8c9c978c141eaf4d6d9ed9a8e60126734874a8768a00e86b5e54582c52",
       "definition": "references/apis/development/rss-feed-to-json.json"
+    },
+    {
+      "id": "development/rubygems",
+      "name": "RubyGems",
+      "category": "Development",
+      "description": "Ruby gem metadata, versions, dependencies and search",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7d7f1d3bd758aa6e818c98f36b05ecbc73d483914e7358318a5b8da4d82bd6ea",
+      "definition": "references/apis/development/rubygems.json"
     },
     {
       "id": "development/savepage-io",
@@ -4826,6 +5443,17 @@
       "definition": "references/apis/development/scrapingdog.json"
     },
     {
+      "id": "development/scrax",
+      "name": "Scrax",
+      "category": "Development",
+      "description": "Web scraping API that only bills for successful scrapes",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "03a3bcea65a3ed3b6b75c4b56495074a938d795956d4d4569d997db5831d5efd",
+      "definition": "references/apis/development/scrax.json"
+    },
+    {
       "id": "development/screenshot",
       "name": "Screenshot",
       "category": "Development",
@@ -4848,6 +5476,17 @@
       "definition": "references/apis/development/screenshotapi-net.json"
     },
     {
+      "id": "development/segmentlite",
+      "name": "SegmentLite",
+      "category": "Development",
+      "description": "Lightweight event routing and webhook fan-out API alternative to Segment",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "947eb812ec187bc3e159e46a19f883df8d98a420dd2fd254be81109a9c275ddc",
+      "definition": "references/apis/development/segmentlite.json"
+    },
+    {
       "id": "development/serialif-color",
       "name": "Serialif Color",
       "category": "Development",
@@ -4857,6 +5496,17 @@
       "cors": "no",
       "fingerprint": "a8a62b88a17b445ab08248c8c013d76b57d580a3f7d7bf3d263f4739768eea7f",
       "definition": "references/apis/development/serialif-color.json"
+    },
+    {
+      "id": "development/serply",
+      "name": "Serply",
+      "category": "Development",
+      "description": "Google, Bing, News, Scholar and Maps search results and page scraping as JSON",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "032228743a750ad45f652e2f69664b4b967fa7a425910fcc0bd0c5b73bd77509",
+      "definition": "references/apis/development/serply.json"
     },
     {
       "id": "development/serpstack",
@@ -4881,6 +5531,17 @@
       "definition": "references/apis/development/sheetsu.json"
     },
     {
+      "id": "development/shotanvil",
+      "name": "Shotanvil",
+      "category": "Development",
+      "description": "Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "26bddee5afb96c69de58c51e6bcfb9a26f9e1d954b068419a99333c990776f0e",
+      "definition": "references/apis/development/shotanvil.json"
+    },
+    {
       "id": "development/shoutcloud",
       "name": "SHOUTCLOUD",
       "category": "Development",
@@ -4901,6 +5562,17 @@
       "cors": "unknown",
       "fingerprint": "b512cc684c689d9c56c71da9886bcab2b468ce06a710c2e9d12b752e17dd95a6",
       "definition": "references/apis/development/siteintel.json"
+    },
+    {
+      "id": "development/snoopscan",
+      "name": "SnoopScan",
+      "category": "Development",
+      "description": "Scrape, crawl, map and search the web as clean markdown or JSON, with a free monthly tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "d5d6c1e30bf3b7736afeb30b3c790097b56dc9356e5f32b91afabbb9852217be",
+      "definition": "references/apis/development/snoopscan.json"
     },
     {
       "id": "development/sonar",
@@ -5013,6 +5685,17 @@
       "definition": "references/apis/development/tinymind-agent-tools.json"
     },
     {
+      "id": "development/toolforte",
+      "name": "ToolForte",
+      "category": "Development",
+      "description": "Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays and test data",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "37338431ddd4c410395c5cf4193f3859feaaf9ea7fd09e1906c445c8f234d4ff",
+      "definition": "references/apis/development/toolforte.json"
+    },
+    {
       "id": "development/tyk",
       "name": "Tyk",
       "category": "Development",
@@ -5022,6 +5705,17 @@
       "cors": "yes",
       "fingerprint": "c03c6949d3de1c0bfa1f0524687aa0793e509f6c1ec8fa4e221a77140aa027f1",
       "definition": "references/apis/development/tyk.json"
+    },
+    {
+      "id": "development/urlpipe",
+      "name": "URLpipe",
+      "category": "Development",
+      "description": "Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "fdc551f74b5be0aef10be9cd1afd5e5712623ee503e1467ab57cfcf020dffb21",
+      "definition": "references/apis/development/urlpipe.json"
     },
     {
       "id": "development/utilorax",
@@ -5079,6 +5773,17 @@
       "definition": "references/apis/development/webscraping-ai.json"
     },
     {
+      "id": "development/xlsx-inspector",
+      "name": "XLSX Inspector",
+      "category": "Development",
+      "description": "Inspect XLSX/XLSM structure: sheets, formulas, macros and external links",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "35dff6a025034549ed039a5b9951fe10dee82c1ca608abaa70f4cb44b47ef9d6",
+      "definition": "references/apis/development/xlsx-inspector.json"
+    },
+    {
       "id": "development/zenrows",
       "name": "ZenRows",
       "category": "Development",
@@ -5126,11 +5831,11 @@
       "id": "dictionaries/free-dictionary",
       "name": "Free Dictionary",
       "category": "Dictionaries",
-      "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+      "description": "Definitions, phonetics, pronunciations, parts of speech, examples, synonyms",
       "auth": "No",
       "https": "yes",
       "cors": "unknown",
-      "fingerprint": "cbb4eac1aa6f24296ef5760d731f3986fbdbfb5564124e5255e07c0f90001721",
+      "fingerprint": "74a9e10b15391dfb49068d752630816957f78d907aabd48deee03eeaff7e1e24",
       "definition": "references/apis/dictionaries/free-dictionary.json"
     },
     {
@@ -5187,6 +5892,28 @@
       "cors": "no",
       "fingerprint": "9c8f934a22f2fba7c6af1d1a2726725319fda62b0c350aa628731c07cf9ca753",
       "definition": "references/apis/dictionaries/oxford.json"
+    },
+    {
+      "id": "dictionaries/random-lexicon",
+      "name": "Random Lexicon",
+      "category": "Dictionaries",
+      "description": "Random words and definitions using optional filters",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "beeb7095ef7c536ac246ffdb674d1cf749b81f21857b9e6861754de80c361a72",
+      "definition": "references/apis/dictionaries/random-lexicon.json"
+    },
+    {
+      "id": "dictionaries/sayitvid",
+      "name": "SayItVid",
+      "category": "Dictionaries",
+      "description": "English video pronunciation search with timestamps, IPA phonetics and subtitle context",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "74151605fe337534041d3b303a9df3e790a5c03a085daa30fb052c3304247a69",
+      "definition": "references/apis/dictionaries/sayitvid.json"
     },
     {
       "id": "dictionaries/synonyms",
@@ -5365,6 +6092,17 @@
       "definition": "references/apis/documents-productivity/docstruct.json"
     },
     {
+      "id": "documents-productivity/faturapdf",
+      "name": "FaturaPDF",
+      "category": "Documents & Productivity",
+      "description": "Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "8edd8240db627248970491c27806522e47e265b1ae33f939f0bd4f41253cfc22",
+      "definition": "references/apis/documents-productivity/faturapdf.json"
+    },
+    {
       "id": "documents-productivity/flowdash",
       "name": "Flowdash",
       "category": "Documents & Productivity",
@@ -5374,6 +6112,17 @@
       "cors": "unknown",
       "fingerprint": "bb6a80cc6f49fade5e95d123cf4aaad785380afbbf0ced1c2832e2a10154fdb4",
       "definition": "references/apis/documents-productivity/flowdash.json"
+    },
+    {
+      "id": "documents-productivity/formfeed",
+      "name": "Formfeed",
+      "category": "Documents & Productivity",
+      "description": "Render PDFs and images from HTML (Jinja2, Liquid, Handlebars) or Word templates, with a free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "5d1888939b1fb8b44eefac95f4a10cf4bf9dc88f57a5533ee7ae56fdcb4a3e25",
+      "definition": "references/apis/documents-productivity/formfeed.json"
     },
     {
       "id": "documents-productivity/html2pdf",
@@ -5486,6 +6235,17 @@
       "definition": "references/apis/documents-productivity/pdffleet.json"
     },
     {
+      "id": "documents-productivity/pdfmint",
+      "name": "PDFMint",
+      "category": "Documents & Productivity",
+      "description": "HTML, Markdown or a URL to PDF or PNG, with a no-key demo endpoint and a free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "fa957fd08022d4c1529e75f88d98f837567d6f4e164d9eb3702cc6d4afe375f9",
+      "definition": "references/apis/documents-productivity/pdfmint.json"
+    },
+    {
       "id": "documents-productivity/pocket",
       "name": "Pocket",
       "category": "Documents & Productivity",
@@ -5528,6 +6288,17 @@
       "cors": "unknown",
       "fingerprint": "166d46a89b3a901b7144684ba537f56d002e7427dda0be624a2c71ddb63dcd63",
       "definition": "references/apis/documents-productivity/prexview.json"
+    },
+    {
+      "id": "documents-productivity/printsocket",
+      "name": "PrintSocket",
+      "category": "Documents & Productivity",
+      "description": "Send PDFs, ZPL labels and ESC/POS receipts to your own printers from any language; free tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "0c94874a9ea73ce233ade491d4bbdc8ac612f96b1b9ee69b894782c277fa55af",
+      "definition": "references/apis/documents-productivity/printsocket.json"
     },
     {
       "id": "documents-productivity/renderly",
@@ -5684,6 +6455,17 @@
       "definition": "references/apis/email/atomic-mail.json"
     },
     {
+      "id": "email/best-temp-mail",
+      "name": "Best Temp Mail",
+      "category": "Email",
+      "description": "Disposable inboxes for automated email testing, with OTP extraction",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "aba775c5038fa8d3ab1cf03786fd5ca4b396b83b7a9f1ddee063d93130a140bf",
+      "definition": "references/apis/email/best-temp-mail.json"
+    },
+    {
       "id": "email/cloudmersive-validate",
       "name": "Cloudmersive Validate",
       "category": "Email",
@@ -5717,6 +6499,17 @@
       "definition": "references/apis/email/dropmail.json"
     },
     {
+      "id": "email/email-spam-tester",
+      "name": "Email Spam Tester",
+      "category": "Email",
+      "description": "Send a test message and get a spam score, 41 checks with RFC citations and a fix plan",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "fabb11e44239509fe97275c2d4b5e6bdd1d6cdca4e1e37d918899aad54610b23",
+      "definition": "references/apis/email/email-spam-tester.json"
+    },
+    {
       "id": "email/emailjs",
       "name": "EmailJS",
       "category": "Email",
@@ -5737,6 +6530,17 @@
       "cors": "yes",
       "fingerprint": "dda52d31bb0ed93af3ea1eae5c889f000317774652b0bd4ed94c384f6fe7f8eb",
       "definition": "references/apis/email/email-validation.json"
+    },
+    {
+      "id": "email/email-validator-by-lifestep",
+      "name": "Email Validator by LifeStep",
+      "category": "Email",
+      "description": "Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "a43e1fadfd65612867c1b78a0a00c4148a20bc2d68dfd66261b642966af886f8",
+      "definition": "references/apis/email/email-validator-by-lifestep.json"
     },
     {
       "id": "email/eva",
@@ -5770,6 +6574,17 @@
       "cors": "unknown",
       "fingerprint": "88c6a042fb4cbd8f1609bce206c9fe5afe41d93669a62b40b66fed2a6d53be48",
       "definition": "references/apis/email/improvmx.json"
+    },
+    {
+      "id": "email/inboxsink",
+      "name": "inboxsink",
+      "category": "Email",
+      "description": "Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "5407267c015fb635bcf03edb65437fd2e372668395b48084d92ca166c87702e5",
+      "definition": "references/apis/email/inboxsink.json"
     },
     {
       "id": "email/kickbox",
@@ -5838,6 +6653,17 @@
       "definition": "references/apis/email/mailcheck-ai.json"
     },
     {
+      "id": "email/mailfornet",
+      "name": "Mailfornet",
+      "category": "Email",
+      "description": "Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "df481ac401f21911fc58506778e03b156b3a719dcdd805caeb2e00e8dd727753",
+      "definition": "references/apis/email/mailfornet.json"
+    },
+    {
       "id": "email/mailtrap",
       "name": "Mailtrap",
       "category": "Email",
@@ -5858,6 +6684,17 @@
       "cors": "no",
       "fingerprint": "5483503fe7c4de6926ed539c69bfb79b9ff966ffb529232bd82594850c33c2e5",
       "definition": "references/apis/email/poststack.json"
+    },
+    {
+      "id": "email/rankfabrik-verify",
+      "name": "RankFabrik Verify",
+      "category": "Email",
+      "description": "Validate email addresses for deliverability, syntax and disposable detection",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "0a60c83abbd453820bb947ff1d595657f1efc5946b4b5903abeb9b001a7cdd3f",
+      "definition": "references/apis/email/rankfabrik-verify.json"
     },
     {
       "id": "email/sendgrid",
@@ -5882,6 +6719,17 @@
       "definition": "references/apis/email/sendinblue.json"
     },
     {
+      "id": "email/smtpfast",
+      "name": "SMTPfast",
+      "category": "Email",
+      "description": "Send transactional email, manage contacts and broadcasts, free 3,000 emails/month",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c003f3290bdb7db82896fb2958635abb993b54918b520d99fb3e9025b1fd67f0",
+      "definition": "references/apis/email/smtpfast.json"
+    },
+    {
       "id": "email/uchecker",
       "name": "uchecker",
       "category": "Email",
@@ -5904,6 +6752,17 @@
       "definition": "references/apis/email/verifier.json"
     },
     {
+      "id": "email/xeramail-temp-mail",
+      "name": "Xeramail Temp Mail",
+      "category": "Email",
+      "description": "Temp email address REST API for privacy, testing, automation with OTP extraction",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "d66f9e6e70610ad4c02b540a9d5682511d574412f8d9707904edd993efa311be",
+      "definition": "references/apis/email/xeramail-temp-mail.json"
+    },
+    {
       "id": "entertainment/anycrap",
       "name": "Anycrap",
       "category": "Entertainment",
@@ -5913,6 +6772,17 @@
       "cors": "yes",
       "fingerprint": "d9f2a6110691a1e31a0319e3ac74c58de9571e0b43961e12e8e5f19c0085a8ed",
       "definition": "references/apis/entertainment/anycrap.json"
+    },
+    {
+      "id": "entertainment/bucketlist-dream-of-the-day",
+      "name": "Bucketlist Dream of the Day",
+      "category": "Entertainment",
+      "description": "Daily travel and life-experience inspiration with canonical links and images",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9f84d70e43974b580f1fc2752cf629333419c9326dcb4815f75a21b7b54d1c7b",
+      "definition": "references/apis/entertainment/bucketlist-dream-of-the-day.json"
     },
     {
       "id": "entertainment/chucknorris-io",
@@ -6091,6 +6961,17 @@
       "definition": "references/apis/entertainment/yo-momma-jokes.json"
     },
     {
+      "id": "environment/airnow",
+      "name": "AirNow",
+      "category": "Environment",
+      "description": "US EPA air quality data and forecasts",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "cf34ef70eff3b526770ea90c543645d68b9c90a3f1076d9ed5d5c112383a6efd",
+      "definition": "references/apis/environment/airnow.json"
+    },
+    {
       "id": "environment/breezometer-pollen",
       "name": "BreezoMeter Pollen",
       "category": "Environment",
@@ -6155,6 +7036,17 @@
       "cors": "unknown",
       "fingerprint": "01704fe30816b6cc7049fe0c4eb2b12a13d6bc78e564966ca1bbe27fb5ac7a66",
       "definition": "references/apis/environment/danish-data-service-energi.json"
+    },
+    {
+      "id": "environment/gridhub",
+      "name": "GridHub",
+      "category": "Environment",
+      "description": "Live wholesale electricity prices and demand across 25 grid zones",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "599b908b7ad6258281d23f980b6ef8b0b030084ca1c0a1e16608179f37cee369",
+      "definition": "references/apis/environment/gridhub.json"
     },
     {
       "id": "environment/grunstromindex",
@@ -6223,6 +7115,17 @@
       "definition": "references/apis/environment/openaq.json"
     },
     {
+      "id": "environment/open-meteo",
+      "name": "Open-Meteo",
+      "category": "Environment",
+      "description": "Free weather API for non-commercial use",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "3a2953048ed81f37d7b5937da784b5dcba7f04f8e8f34725a243b8643b65f94f",
+      "definition": "references/apis/environment/open-meteo.json"
+    },
+    {
       "id": "environment/pm2-5-open-data-portal",
       "name": "PM2.5 Open Data Portal",
       "category": "Environment",
@@ -6243,6 +7146,17 @@
       "cors": "unknown",
       "fingerprint": "afad02ff6d21dc2cdd72e359c5c7585754b60b5227419fe6363353bbdcd7966c",
       "definition": "references/apis/environment/pm25-in.json"
+    },
+    {
+      "id": "environment/pvgis",
+      "name": "PVGIS",
+      "category": "Environment",
+      "description": "EU solar radiation and photovoltaic performance estimates",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "1ed3f17c4e69230bbcd7e63bf566e24c23af221ead71bc2b9924ae72eef8ca91",
+      "definition": "references/apis/environment/pvgis.json"
     },
     {
       "id": "environment/pvwatts",
@@ -6298,6 +7212,17 @@
       "cors": "unknown",
       "fingerprint": "d66f56802639634f554b149ebdf059e76ac9897f7695a723b05c84436d558a8d",
       "definition": "references/apis/environment/uk-carbon-intensity.json"
+    },
+    {
+      "id": "environment/wattfigure",
+      "name": "WattFigure",
+      "category": "Environment",
+      "description": "US electricity rates by state, with appliance and EV charging running costs",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "2f04486350824c3835206a664798f8a1e43d64a6dd0b8032ecdf721e2a24e14a",
+      "definition": "references/apis/environment/wattfigure.json"
     },
     {
       "id": "environment/website-carbon",
@@ -6410,6 +7335,17 @@
       "definition": "references/apis/finance/bank-data.json"
     },
     {
+      "id": "finance/banking-access-index",
+      "name": "Banking Access Index",
+      "category": "Finance",
+      "description": "Which US business banking providers accept founders by country of residence, with sources",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "df670076bc010a5728a22b8a33cd32936bf46c39a22c742df6c9de3eda504c53",
+      "definition": "references/apis/finance/banking-access-index.json"
+    },
+    {
       "id": "finance/billplz",
       "name": "Billplz",
       "category": "Finance",
@@ -6487,6 +7423,17 @@
       "definition": "references/apis/finance/dino-markets.json"
     },
     {
+      "id": "finance/drillr",
+      "name": "Drillr",
+      "category": "Finance",
+      "description": "Fundamentals, filings, earnings, ownership and events for US, China and Japan equities",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "fae5c955f5268610bf735db4ae754d44f7c39e4af0b23e331f76cc18182cec2b",
+      "definition": "references/apis/finance/drillr.json"
+    },
+    {
       "id": "finance/econdb",
       "name": "Econdb",
       "category": "Finance",
@@ -6509,15 +7456,37 @@
       "definition": "references/apis/finance/econpulse.json"
     },
     {
-      "id": "finance/edgrapi",
-      "name": "Edgrapi",
+      "id": "finance/eod-historical-data",
+      "name": "EOD Historical Data",
       "category": "Finance",
-      "description": "Clean SEC EDGAR company financials, ratios, filings and 10-K/10-Q sections as normalized JSON",
+      "description": "Real-time and historical stock market data with 150+ exchanges",
       "auth": "apiKey",
       "https": "yes",
-      "cors": "unknown",
-      "fingerprint": "0eb190b15bd5cf33e161d8958d02959e548c2e66c6787d8bf65bdb0ca7e2f229",
-      "definition": "references/apis/finance/edgrapi.json"
+      "cors": "yes",
+      "fingerprint": "a86f9c32f9ef67768c117622a63913e205d95122f77f9560e91ad42b2d9aafa0",
+      "definition": "references/apis/finance/eod-historical-data.json"
+    },
+    {
+      "id": "finance/estimatetax",
+      "name": "EstimateTax",
+      "category": "Finance",
+      "description": "US federal, state and local income tax calculation for 2026, with the source of every figure",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "84836ad20cdc547f9f38ed301be433efe2b42686adb35c428cf2c0a7303ea355",
+      "definition": "references/apis/finance/estimatetax.json"
+    },
+    {
+      "id": "finance/farmdash",
+      "name": "FarmDash",
+      "category": "Finance",
+      "description": "DeFi intelligence, protocol risk, yield simulation plus 84 MCP agent tools, free Scout tier",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ff428cf0db358e5b130dde7778799cf1cd4279bdf4c73f5f3ba9bc6ed37120ea",
+      "definition": "references/apis/finance/farmdash.json"
     },
     {
       "id": "finance/fed-treasury",
@@ -6553,6 +7522,17 @@
       "definition": "references/apis/finance/finage.json"
     },
     {
+      "id": "finance/finance-clearly-tax-rates",
+      "name": "Finance Clearly Tax Rates",
+      "category": "Finance",
+      "description": "Current UK and US tax rates, allowances and thresholds",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "5efc3ec1d77cb1e4d5b19e503710bce858132458683baf0cc569819e1a37200f",
+      "definition": "references/apis/finance/finance-clearly-tax-rates.json"
+    },
+    {
       "id": "finance/financial-modeling-prep",
       "name": "Financial Modeling Prep",
       "category": "Finance",
@@ -6562,6 +7542,17 @@
       "cors": "unknown",
       "fingerprint": "695a32f4db0aa805b5e1ae294a49159101eabbca5cafc93b97e74d759c733783",
       "definition": "references/apis/finance/financial-modeling-prep.json"
+    },
+    {
+      "id": "finance/finbridge",
+      "name": "FinBridge",
+      "category": "Finance",
+      "description": "Official-source financials, segments, valuation, peers and prices for KR, US, JP, TW companies",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8471f0d09ab5c72762d1912e102324feb801b06a2b96182d52f68874706a4992",
+      "definition": "references/apis/finance/finbridge.json"
     },
     {
       "id": "finance/finnhub",
@@ -6597,6 +7588,28 @@
       "definition": "references/apis/finance/front-accounting-apis.json"
     },
     {
+      "id": "finance/futures-clock",
+      "name": "Futures Clock",
+      "category": "Finance",
+      "description": "Trading hours and session windows for 65 futures products on 16 global exchanges",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "bcb73cf04fe2e155e3c9d695c81c2a2eea344ae15be8aabe947f369a8f24b6d8",
+      "definition": "references/apis/finance/futures-clock.json"
+    },
+    {
+      "id": "finance/fxnewsbias",
+      "name": "FXNewsBias",
+      "category": "Finance",
+      "description": "AI-scored news sentiment for the 8 major forex currencies, refreshed every 3 hours",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8a7ded5154be99a10a2699a0693b5fd6d4763ac32170ab6c7dc34d3aefad809d",
+      "definition": "references/apis/finance/fxnewsbias.json"
+    },
+    {
       "id": "finance/goldprice-dev",
       "name": "Goldprice.dev",
       "category": "Finance",
@@ -6619,6 +7632,17 @@
       "definition": "references/apis/finance/halal-terminal.json"
     },
     {
+      "id": "finance/helious",
+      "name": "Helious",
+      "category": "Finance",
+      "description": "US Treasury auction results with the tail and bidder split, plus scored economic releases",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "690c377450fc65d8d1cb5d262581de725fb0106a5a6fd1f24228e904d9f79f15",
+      "definition": "references/apis/finance/helious.json"
+    },
+    {
       "id": "finance/helium",
       "name": "Helium",
       "category": "Finance",
@@ -6639,6 +7663,17 @@
       "cors": "yes",
       "fingerprint": "b9217644d35b99f2be00b4db276f0fa356abbff7e3628d07dd4af42eb98639a4",
       "definition": "references/apis/finance/hotstoks.json"
+    },
+    {
+      "id": "finance/iban-analyzer",
+      "name": "IBAN Analyzer",
+      "category": "Finance",
+      "description": "Resolve an IBAN to its bank name, BIC, city and address for 60+ countries",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0c553fa408c1778f2832fba3abee60fd0bbde9b7498628898154709c9f399aaa",
+      "definition": "references/apis/finance/iban-analyzer.json"
     },
     {
       "id": "finance/ibanforge",
@@ -6707,6 +7742,28 @@
       "definition": "references/apis/finance/klarna.json"
     },
     {
+      "id": "finance/kmalservico-gold-price-dataset",
+      "name": "KmalServico Gold Price Dataset",
+      "category": "Finance",
+      "description": "Current gold price per gram at 6 purities for 188 countries, JSON, no auth",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "649896907477f36e80c561c60e2dd564a364844b55565175095c8c664a1823a7",
+      "definition": "references/apis/finance/kmalservico-gold-price-dataset.json"
+    },
+    {
+      "id": "finance/liquilens",
+      "name": "LiquiLens",
+      "category": "Finance",
+      "description": "Public-record bank and lender failure-risk evidence",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "42e10bc3bf7d0d93be3859e018c13d45a1c78c87246b00280d102aa5ecfd771a",
+      "definition": "references/apis/finance/liquilens.json"
+    },
+    {
       "id": "finance/mercadopago",
       "name": "MercadoPago",
       "category": "Finance",
@@ -6773,6 +7830,17 @@
       "definition": "references/apis/finance/openfigi.json"
     },
     {
+      "id": "finance/pit-financial-state",
+      "name": "PIT Financial State",
+      "category": "Finance",
+      "description": "Point-in-time quarterly revenue for 20 U.S. issuers",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "9affbfdc45bea0b033e68f64504a3213fe5e60388da56344c40b7546244a56da",
+      "definition": "references/apis/finance/pit-financial-state.json"
+    },
+    {
       "id": "finance/plaid",
       "name": "Plaid",
       "category": "Finance",
@@ -6793,6 +7861,17 @@
       "cors": "unknown",
       "fingerprint": "febfac693fcadfb7bfe75bc820603620c670939ab4f255e03a19ee66105c96b0",
       "definition": "references/apis/finance/polygon.json"
+    },
+    {
+      "id": "finance/polykal-fees",
+      "name": "PolyKal Fees",
+      "category": "Finance",
+      "description": "Kalshi & Polymarket trading fee rates and formulas as verified JSON",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "222c087aed6f31c76fb8e1c6cb1282d975c76a87ee64ebdb49596b24866041b1",
+      "definition": "references/apis/finance/polykal-fees.json"
     },
     {
       "id": "finance/portfolio-optimizer",
@@ -6894,6 +7973,17 @@
       "definition": "references/apis/finance/sugra.json"
     },
     {
+      "id": "finance/sales-tax-calculator",
+      "name": "Sales Tax Calculator",
+      "category": "Finance",
+      "description": "Computes exact sales tax amounts and breakdowns for checkout and billing",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "27cedc8a45a96efcb083d082bd254f1b52b159b2e9ee02965be8a21e5fce23d3",
+      "definition": "references/apis/finance/sales-tax-calculator.json"
+    },
+    {
       "id": "finance/tax-data",
       "name": "Tax Data",
       "category": "Finance",
@@ -6903,6 +7993,17 @@
       "cors": "unknown",
       "fingerprint": "f9abddc315fce5d90f1f12b071e802ec4eaeac9452f02826beb0fcacea15f8bf",
       "definition": "references/apis/finance/tax-data.json"
+    },
+    {
+      "id": "finance/tickerlayer",
+      "name": "TickerLayer",
+      "category": "Finance",
+      "description": "Real-time and historical market data for stocks, forex, crypto and more",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "7eef5da9be05003f5beb4b5c362980a6ccb13b8980291a41259997bcbdc37c5c",
+      "definition": "references/apis/finance/tickerlayer.json"
     },
     {
       "id": "finance/top-5-stocks",
@@ -6938,6 +8039,17 @@
       "definition": "references/apis/finance/twelve-data.json"
     },
     {
+      "id": "finance/us-mortgage-calculator",
+      "name": "US Mortgage Calculator",
+      "category": "Finance",
+      "description": "Mortgage payment, amortization, affordability and 50-state property tax data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c7ad20128844bc152e6a080c7a3e290877cb40c6e03cf2b0c43e1b7429cefa4e",
+      "definition": "references/apis/finance/us-mortgage-calculator.json"
+    },
+    {
       "id": "finance/vat-validation",
       "name": "VAT Validation",
       "category": "Finance",
@@ -6949,6 +8061,17 @@
       "definition": "references/apis/finance/vat-validation.json"
     },
     {
+      "id": "finance/voxodds",
+      "name": "VoxOdds",
+      "category": "Finance",
+      "description": "Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "d12c37a5af646de3e22cc0ac4f842485f6518fddc1b3b537d2e076cc67fe0a06",
+      "definition": "references/apis/finance/voxodds.json"
+    },
+    {
       "id": "finance/wallstreetbets",
       "name": "WallstreetBets",
       "category": "Finance",
@@ -6958,6 +8081,28 @@
       "cors": "unknown",
       "fingerprint": "91a8175659e266a9b57a6fdbf314553d5acd0c8b0962b8f49d279c8e384e656b",
       "definition": "references/apis/finance/wallstreetbets.json"
+    },
+    {
+      "id": "finance/xfinlab",
+      "name": "XFINLAB",
+      "category": "Finance",
+      "description": "Market events, sentiment, technical analysis and macro data for stocks",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "37431414fafea2c08010a2c906f1adf63753f54f1a45b0896fc87f553320fc7f",
+      "definition": "references/apis/finance/xfinlab.json"
+    },
+    {
+      "id": "finance/xoomar",
+      "name": "XOOMAR",
+      "category": "Finance",
+      "description": "US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b692e2770ba03cecf7eec9611e66dd36027e2bffca079607d4c21376146a1919",
+      "definition": "references/apis/finance/xoomar.json"
     },
     {
       "id": "finance/yahoo-finance",
@@ -7015,6 +8160,17 @@
       "definition": "references/apis/food-drink/baconmockup.json"
     },
     {
+      "id": "food-drink/calorieninjas",
+      "name": "CalorieNinjas",
+      "category": "Food & Drink",
+      "description": "Nutrition and calorie data for foods and recipes",
+      "auth": "\\\u0007piKey\\",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8f03576ac215d50deaa6c70797e8408f4e195f45117374e65c3807ad3b11dc94",
+      "definition": "references/apis/food-drink/calorieninjas.json"
+    },
+    {
       "id": "food-drink/chomp",
       "name": "Chomp",
       "category": "Food & Drink",
@@ -7037,6 +8193,17 @@
       "definition": "references/apis/food-drink/coffee.json"
     },
     {
+      "id": "food-drink/daily-food-recalls",
+      "name": "Daily Food Recalls",
+      "category": "Food & Drink",
+      "description": "U.S. FDA and USDA food recalls, merged and normalized, updated daily",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9da2b4dfb4b71631ea70c778dc2483eb229eebd49a2a210b917510c73a5d51fe",
+      "definition": "references/apis/food-drink/daily-food-recalls.json"
+    },
+    {
       "id": "food-drink/edamam-nutrition",
       "name": "Edamam nutrition",
       "category": "Food & Drink",
@@ -7057,6 +8224,17 @@
       "cors": "unknown",
       "fingerprint": "eb135664da3e8331c9ae517ecaa839894a3f1cde12cf18581f709fa78370c188",
       "definition": "references/apis/food-drink/edamam-recipes.json"
+    },
+    {
+      "id": "food-drink/exactcup",
+      "name": "ExactCup",
+      "category": "Food & Drink",
+      "description": "Cooking ingredient densities: grams per US cup, tablespoon, teaspoon and mL",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "af4aebd11d910b9ea9fdc8bc0734967596ec20f27b5862b60dc1124d1b1410b8",
+      "definition": "references/apis/food-drink/exactcup.json"
     },
     {
       "id": "food-drink/food-info",
@@ -7554,6 +8732,17 @@
       "definition": "references/apis/games-comics/dota-2.json"
     },
     {
+      "id": "games-comics/dotasense-timings",
+      "name": "DotaSense Timings",
+      "category": "Games & Comics",
+      "description": "Reviewed Dota 2 objective timings in JSON and CSV",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "217bf433d0462dc26d91c46403684e8237f54d441861dc590dfe3e5d6849ec96",
+      "definition": "references/apis/games-comics/dotasense-timings.json"
+    },
+    {
       "id": "games-comics/dungeons-and-dragons",
       "name": "Dungeons and Dragons",
       "category": "Games & Comics",
@@ -7763,6 +8952,17 @@
       "definition": "references/apis/games-comics/gw2spidy.json"
     },
     {
+      "id": "games-comics/gzw-data",
+      "name": "GZW Data",
+      "category": "Games & Comics",
+      "description": "Gray Zone Warfare weapons, missions, loot, armor and game data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "adbfba8fbab75de9a2cf8943f0d6ef7103568fa2e15a41fa6908d6623b3e01a2",
+      "definition": "references/apis/games-comics/gzw-data.json"
+    },
+    {
       "id": "games-comics/halo",
       "name": "Halo",
       "category": "Games & Comics",
@@ -7893,6 +9093,17 @@
       "cors": "no",
       "fingerprint": "3a4049de4dcfdb005fa94c97cc0e52c11a37aea21ef1feb5dd6d8a9200e1377f",
       "definition": "references/apis/games-comics/krakenkeys.json"
+    },
+    {
+      "id": "games-comics/l2-calendar",
+      "name": "L2 Calendar",
+      "category": "Games & Comics",
+      "description": "Lineage 2 private servers list with names, websites, chronicles, rates and opening dates",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "023feef4fd6f4273b35374e572065497f11081dbf14da333decdc86428f7f70e",
+      "definition": "references/apis/games-comics/l2-calendar.json"
     },
     {
       "id": "games-comics/lichess",
@@ -8225,6 +9436,17 @@
       "definition": "references/apis/games-comics/scryfall.json"
     },
     {
+      "id": "games-comics/seedfinder",
+      "name": "SeedFinder",
+      "category": "Games & Comics",
+      "description": "Minecraft Bedrock structures prediction",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9dc26584d4d8a57ed54afea1b8abde06c2e417d1ad35fdfc3e1d6faea711ff01",
+      "definition": "references/apis/games-comics/seedfinder.json"
+    },
+    {
       "id": "games-comics/spacetradersapi",
       "name": "SpaceTradersAPI",
       "category": "Games & Comics",
@@ -8234,6 +9456,17 @@
       "cors": "yes",
       "fingerprint": "4c8295971c1afb437af1fb7f22f9415a9a0db7eb344f0efd0ae902c2201b7943",
       "definition": "references/apis/games-comics/spacetradersapi.json"
+    },
+    {
+      "id": "games-comics/sudoku100",
+      "name": "Sudoku100",
+      "category": "Games & Comics",
+      "description": "Free Sudoku puzzle generation and embedding with images, solver links and interactive games",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "c0dea2569a13862f7ea7da2cd8defa96ca597c90b83fa37736d7d64730fef985",
+      "definition": "references/apis/games-comics/sudoku100.json"
     },
     {
       "id": "games-comics/steam--9eeeefa3",
@@ -8379,6 +9612,17 @@
       "definition": "references/apis/games-comics/when-is-next-mcu-film.json"
     },
     {
+      "id": "games-comics/worth-the-rip",
+      "name": "Worth the Rip",
+      "category": "Games & Comics",
+      "description": "Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "bffc41199c266591f5ab917975df67c6c870b29b5972e01d2e949e18ac359fa5",
+      "definition": "references/apis/games-comics/worth-the-rip.json"
+    },
+    {
       "id": "games-comics/xkcd",
       "name": "xkcd",
       "category": "Games & Comics",
@@ -8487,6 +9731,17 @@
       "cors": "yes",
       "fingerprint": "4132b51afc6beb1c7c1ce045adf78597c518f54509d5f2a91953fac20c2653fc",
       "definition": "references/apis/geocoding/apiip.json"
+    },
+    {
+      "id": "geocoding/atlasfetch",
+      "name": "AtlasFetch",
+      "category": "Geocoding",
+      "description": "Reverse geocode coordinates to country, region and municipality with ISO 3166 codes",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "0e615547d767b06a6e3a7af5e3f19645c13224e5dbe064ebba7fb3094b892bbb",
+      "definition": "references/apis/geocoding/atlasfetch.json"
     },
     {
       "id": "geocoding/battuta",
@@ -8951,6 +10206,17 @@
       "definition": "references/apis/geocoding/ip2geo-dev.json"
     },
     {
+      "id": "geocoding/ip99",
+      "name": "IP99",
+      "category": "Geocoding",
+      "description": "IP geolocation with proxy, VPN and datacenter risk and the age of the evidence",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f6c3d1b339e57836b0eb136bc68f1be98b096dc812257b18a16bdd80bbf6695d",
+      "definition": "references/apis/geocoding/ip99.json"
+    },
+    {
       "id": "geocoding/ipapi-co",
       "name": "ipapi.co",
       "category": "Geocoding",
@@ -8982,6 +10248,17 @@
       "cors": "yes",
       "fingerprint": "fbecc1c2cad6656eef86f1d47f9a46dd151f1497b1ad085ce629a8147338c9de",
       "definition": "references/apis/geocoding/ipgeolocation.json"
+    },
+    {
+      "id": "geocoding/ipgeolocationapi",
+      "name": "ipgeolocationapi",
+      "category": "Geocoding",
+      "description": "IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "cd816278ebfa2860daa40d33bbbb9c9894264df6d7f46101d039a3785c6a9324",
+      "definition": "references/apis/geocoding/ipgeolocationapi.json"
     },
     {
       "id": "geocoding/ipinfodb",
@@ -9116,6 +10393,17 @@
       "definition": "references/apis/geocoding/mexico.json"
     },
     {
+      "id": "geocoding/moradas",
+      "name": "Moradas",
+      "category": "Geocoding",
+      "description": "Portuguese address autocomplete and 7-digit postal codes (CP7)",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "3161835b1fcfccb4f4ac61b062bbb28d7f502aef9d6a87bd38a97efc396a1883",
+      "definition": "references/apis/geocoding/moradas.json"
+    },
+    {
       "id": "geocoding/nominatim",
       "name": "Nominatim",
       "category": "Geocoding",
@@ -9202,6 +10490,17 @@
       "cors": "yes",
       "fingerprint": "a245a974521672a9ef36c3ed848560ffe6788d1f03e870b4c721576f82757789",
       "definition": "references/apis/geocoding/pinball-map.json"
+    },
+    {
+      "id": "geocoding/pontofato",
+      "name": "PontoFato",
+      "category": "Geocoding",
+      "description": "Brazilian postal codes (CEP) with IBGE coordinates, addresses and the companies registered there",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "d7c2a693ce4154606f3179685f048bafe748230416040c1e247570fc2a388229",
+      "definition": "references/apis/geocoding/pontofato.json"
     },
     {
       "id": "geocoding/positionstack",
@@ -9347,6 +10646,17 @@
       "definition": "references/apis/geocoding/tomtom.json"
     },
     {
+      "id": "geocoding/trustydata",
+      "name": "TrustyData",
+      "category": "Geocoding",
+      "description": "French address checks, INSEE company search and routing on official open data",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "da0d5aa04674b210b43effd0099d511365368f1c5953dc0c18576f4a48fe6538",
+      "definition": "references/apis/geocoding/trustydata.json"
+    },
+    {
       "id": "geocoding/uebermaps",
       "name": "Uebermaps",
       "category": "Geocoding",
@@ -9356,6 +10666,17 @@
       "cors": "unknown",
       "fingerprint": "7633d731911f076df4d65be697fc6c473f9dee62deff978ffbe3cca420d93bcb",
       "definition": "references/apis/geocoding/uebermaps.json"
+    },
+    {
+      "id": "geocoding/unblock-master-ip",
+      "name": "Unblock Master IP",
+      "category": "Geocoding",
+      "description": "IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7c4e434b96807a9b352b039b9daeb75fe3c594d0a1d6456b532ff5a78a3f66e4",
+      "definition": "references/apis/geocoding/unblock-master-ip.json"
     },
     {
       "id": "geocoding/us-zipcode",
@@ -9457,6 +10778,17 @@
       "definition": "references/apis/government/ai-law-tracker.json"
     },
     {
+      "id": "government/ayes-and-noes",
+      "name": "Ayes and Noes",
+      "category": "Government",
+      "description": "UK House of Commons MPs, parties and recorded votes",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c26ba0713fb651d58dfd0fd7e40b37b7394a85b398a67f52ef25a6ae429bd370",
+      "definition": "references/apis/government/ayes-and-noes.json"
+    },
+    {
       "id": "government/bank-negara-malaysia-open-data",
       "name": "Bank Negara Malaysia Open Data",
       "category": "Government",
@@ -9477,6 +10809,17 @@
       "cors": "unknown",
       "fingerprint": "c97845c051e49f7f3e010bb7f6db521ed26842c90eb52caefd31c5fcb2404b50",
       "definition": "references/apis/government/bclaws.json"
+    },
+    {
+      "id": "government/bidledger",
+      "name": "Bidledger",
+      "category": "Government",
+      "description": "Every open public tender in the European Union, rebuilt daily from the official TED data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "9bbb8ee725caae16276416a3cc25c425139ace29852438466dc25d492fe988e2",
+      "definition": "references/apis/government/bidledger.json"
     },
     {
       "id": "government/brazil",
@@ -9765,6 +11108,28 @@
       "definition": "references/apis/government/ecourtsindia.json"
     },
     {
+      "id": "government/edgrapi",
+      "name": "Edgrapi",
+      "category": "Government",
+      "description": "US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7e99dff53c247b8844ccd03bca23c8350236f499dd6ffecd59834d53fc664c5c",
+      "definition": "references/apis/government/edgrapi.json"
+    },
+    {
+      "id": "government/editalmd",
+      "name": "EditalMD",
+      "category": "Government",
+      "description": "Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "46e0e26a9456cb6df81d5935a8884ed62eb3828c915330eac51a41700764480d",
+      "definition": "references/apis/government/editalmd.json"
+    },
+    {
       "id": "government/epa",
       "name": "EPA",
       "category": "Government",
@@ -9774,6 +11139,17 @@
       "cors": "unknown",
       "fingerprint": "7d4bfb5536f9dff6f6cec77be5f17165f34d6290557899bc8cec9a8ae6781be2",
       "definition": "references/apis/government/epa.json"
+    },
+    {
+      "id": "government/eu-vat-rates-by-commodity-code",
+      "name": "EU VAT Rates by Commodity Code",
+      "category": "Government",
+      "description": "EU VAT rates mapped to CN and CPA commodity codes, all 27 member states",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0b68c8c7206147c6231b931860628be1ffe61729ca2e92e0429e3d7761bf55f6",
+      "definition": "references/apis/government/eu-vat-rates-by-commodity-code.json"
     },
     {
       "id": "government/fastdol",
@@ -9796,6 +11172,17 @@
       "cors": "unknown",
       "fingerprint": "8e2c657c04f29a4ecb658ebd14f10a45fcb26423a4d3d336d414872acc07cb76",
       "definition": "references/apis/government/fbi-wanted.json"
+    },
+    {
+      "id": "government/fda-import-alert-screening",
+      "name": "FDA Import Alert Screening",
+      "category": "Government",
+      "description": "Screen firm names against FDA Import Alert Red, Yellow and Green Lists",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "3e697b5b52e6829bc06671012226e46d2f42883054c941005f43700cb8705225",
+      "definition": "references/apis/government/fda-import-alert-screening.json"
     },
     {
       "id": "government/fec",
@@ -9829,6 +11216,17 @@
       "cors": "unknown",
       "fingerprint": "cf2c32fb6ca234661fc2f47c991cda879c130074a338578ead70df67c660fdc1",
       "definition": "references/apis/government/food-standards-agency.json"
+    },
+    {
+      "id": "government/gankdat",
+      "name": "gankdat",
+      "category": "Government",
+      "description": "UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "cc1aabdb02a9c68217d820f84e5056547b1f1d614c520c4f411ce2316f61b65e",
+      "definition": "references/apis/government/gankdat.json"
     },
     {
       "id": "government/gazette-data-uk",
@@ -10491,6 +11889,17 @@
       "definition": "references/apis/government/prc-exam-schedule.json"
     },
     {
+      "id": "government/radar-cnpj",
+      "name": "Radar CNPJ",
+      "category": "Government",
+      "description": "Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "d6fbba7d890132909e409bebc9943f2d5b27121b37b9ad9ed6cb968b83e94bbc",
+      "definition": "references/apis/government/radar-cnpj.json"
+    },
+    {
       "id": "government/represent-by-open-north",
       "name": "Represent by Open North",
       "category": "Government",
@@ -10500,6 +11909,17 @@
       "cors": "unknown",
       "fingerprint": "8bc6a1d7dfe2b8a1f37f283a272daf51991dbfb08293b89c37980af0a296ba58",
       "definition": "references/apis/government/represent-by-open-north.json"
+    },
+    {
+      "id": "government/right-to-disconnect",
+      "name": "Right to Disconnect",
+      "category": "Government",
+      "description": "Right-to-disconnect employment law by EU country: binding status, statute, and sanctions",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ae7a4d970bf1456928a6dd883d2edcce7fe5734be65c24c981ea40c1bc34c78d",
+      "definition": "references/apis/government/right-to-disconnect.json"
     },
     {
       "id": "government/tollmint",
@@ -10522,6 +11942,17 @@
       "cors": "unknown",
       "fingerprint": "ce893944c5bd5be0bb2556c6c3bf27afe12248b800e90e00886f61afa6da31a2",
       "definition": "references/apis/government/uk-companies-house.json"
+    },
+    {
+      "id": "government/uk-legislation-changes",
+      "name": "UK Legislation Changes",
+      "category": "Government",
+      "description": "Point-in-time amendment history for UK law",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "1a8fe169d60e4a475a50068603bb1cede1d9f81bb227817c1b5059bfed5e64cb",
+      "definition": "references/apis/government/uk-legislation-changes.json"
     },
     {
       "id": "government/us-presidential-election-data-by-togatech",
@@ -10577,6 +12008,17 @@
       "cors": "yes",
       "fingerprint": "b450491d546768e87fd095e3bd7cf86d3763d8d9ae6acdd3abfedb2e9b901ec5",
       "definition": "references/apis/government/vett.json"
+    },
+    {
+      "id": "government/votepredictor",
+      "name": "VotePredictor",
+      "category": "Government",
+      "description": "US election forecasts, congressional voting records and forecaster accuracy ratings",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b92d7bfb48b7057a561a2e7326abe4cc9fee2819ee0b881fe66df2efb423969f",
+      "definition": "references/apis/government/votepredictor.json"
     },
     {
       "id": "health/clinical-trials-directory",
@@ -10799,6 +12241,17 @@
       "definition": "references/apis/health/erstat.json"
     },
     {
+      "id": "health/findsaunaplunge",
+      "name": "FindSaunaPlunge",
+      "category": "Health",
+      "description": "US cold plunge and sauna venues with dated, source-quoted temperatures and prices",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f3a81f888cb5bfa8422d8fea4d9bcc3fbad1eba01505159c39a4328cbcbce49d",
+      "definition": "references/apis/health/findsaunaplunge.json"
+    },
+    {
       "id": "health/fooddata-central",
       "name": "FoodData Central",
       "category": "Health",
@@ -10986,6 +12439,39 @@
       "definition": "references/apis/health/quarantine.json"
     },
     {
+      "id": "health/stanza-dscsa-verifier",
+      "name": "Stanza DSCSA Verifier",
+      "category": "Health",
+      "description": "Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "c8f2948bddbc922f9925faaa678a3fdac55e4428f9f68c425fb6ece0fd1beb27",
+      "definition": "references/apis/health/stanza-dscsa-verifier.json"
+    },
+    {
+      "id": "health/stanza-udi-decoder",
+      "name": "Stanza UDI Decoder",
+      "category": "Health",
+      "description": "Decode and validate FDA GUDID and EU MDR medical device UDI barcodes",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "deb24fca6c37f5af613d74887baf312c8041205671f10e4366d71cc0de46d48f",
+      "definition": "references/apis/health/stanza-udi-decoder.json"
+    },
+    {
+      "id": "health/urgences-quebec",
+      "name": "Urgences Québec",
+      "category": "Health",
+      "description": "Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "111abef22ad7ba4b4b43e9eaa263e1d5456bb3824679d8aafdd943929bc2da96",
+      "definition": "references/apis/health/urgences-quebec.json"
+    },
+    {
       "id": "jobs/ai-dev-jobs",
       "name": "AI Dev Jobs",
       "category": "Jobs",
@@ -11050,6 +12536,17 @@
       "cors": "unknown",
       "fingerprint": "22c7c04099ed3c437251cec31e8f95ce67f903f8986b8c3c7e528046ccb4ced3",
       "definition": "references/apis/jobs/careerjet.json"
+    },
+    {
+      "id": "jobs/curatorsearch",
+      "name": "CuratorSearch",
+      "category": "Jobs",
+      "description": "Museum and gallery jobs from 400+ institutions' own careers pages, with advertised salaries",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "cae5e7bb6f6c9befa3e6eef1783283ff2be67da07ce6e4f24d84430e39fb340d",
+      "definition": "references/apis/jobs/curatorsearch.json"
     },
     {
       "id": "jobs/devitjobs-uk",
@@ -11118,6 +12615,28 @@
       "definition": "references/apis/jobs/jobs2careers.json"
     },
     {
+      "id": "jobs/jobspipe",
+      "name": "JobsPipe",
+      "category": "Jobs",
+      "description": "Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b8dbaa5be3a9ebc8609de2ba86632031c592345a4344b6227a2350fc97986ee8",
+      "definition": "references/apis/jobs/jobspipe.json"
+    },
+    {
+      "id": "jobs/jobven",
+      "name": "Jobven",
+      "category": "Jobs",
+      "description": "Job postings tracked as roles open and close, with webhooks on changes, from employer career pages",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "5564d51fba7982c8df63a0b1be7cfa9949304eb98dde45d61190389225975b1c",
+      "definition": "references/apis/jobs/jobven.json"
+    },
+    {
       "id": "jobs/jooble",
       "name": "Jooble",
       "category": "Jobs",
@@ -11162,6 +12681,17 @@
       "definition": "references/apis/jobs/open-skills.json"
     },
     {
+      "id": "jobs/rankfabrik-jobs",
+      "name": "RankFabrik Jobs",
+      "category": "Jobs",
+      "description": "Aggregated job postings search, deduplicated on identifier, with coverage per segment",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "b309fb52b2c840912e6d2d154a31bbe51e49efd61727d5de8a63bd9e86bb1a4b",
+      "definition": "references/apis/jobs/rankfabrik-jobs.json"
+    },
+    {
       "id": "jobs/reed",
       "name": "Reed",
       "category": "Jobs",
@@ -11171,6 +12701,17 @@
       "cors": "unknown",
       "fingerprint": "cd5178ca3f02b19d5965848e7c9c4af6d724818eb5f0394bf975d7068e6abc9d",
       "definition": "references/apis/jobs/reed.json"
+    },
+    {
+      "id": "jobs/remoteok",
+      "name": "RemoteOK",
+      "category": "Jobs",
+      "description": "Remote job board for digital nomads",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "5b8036c691e189fe3b1e23a49ff29a249b8504cc9a5673e55562fc9192f48a09",
+      "definition": "references/apis/jobs/remoteok.json"
     },
     {
       "id": "jobs/techrole-index",
@@ -11259,6 +12800,17 @@
       "cors": "yes",
       "fingerprint": "5138b2161e0708a0aee549463277acc9588159dd5d5feba6551fd251eb7d2d02",
       "definition": "references/apis/machine-learning/ai-for-thai.json"
+    },
+    {
+      "id": "machine-learning/audexum",
+      "name": "Audexum",
+      "category": "Machine Learning",
+      "description": "Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "a6bf7b6e667273993c22c103397e443893c51c8591dff2cc0472bea4e34d0989",
+      "definition": "references/apis/machine-learning/audexum.json"
     },
     {
       "id": "machine-learning/brainiall",
@@ -11503,6 +13055,17 @@
       "definition": "references/apis/machine-learning/messengerx-io.json"
     },
     {
+      "id": "machine-learning/modelfax",
+      "name": "Modelfax",
+      "category": "Machine Learning",
+      "description": "LLM pricing, context windows and deprecation dates, schema-validated and updated daily",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7b3e450eb4ab628882ee2217fb5164569512c44724193465ee9a9d7fe5d7d766",
+      "definition": "references/apis/machine-learning/modelfax.json"
+    },
+    {
       "id": "machine-learning/nlp-cloud",
       "name": "NLP Cloud",
       "category": "Machine Learning",
@@ -11545,6 +13108,17 @@
       "cors": "unknown",
       "fingerprint": "2e9ed1d2eed50f48c1f5fdfa8c9d92e7bb1ee3d28c7ac51844542feffb9dc016",
       "definition": "references/apis/machine-learning/perspective.json"
+    },
+    {
+      "id": "machine-learning/requesty",
+      "name": "Requesty",
+      "category": "Machine Learning",
+      "description": "OpenAI compatible LLM router for 600+ models, with a free tier for free models",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c5ead8a15b3bfebeff33a9c44e7b90ddadbb72a8bfb05fee10e8cdfa8e2a217b",
+      "definition": "references/apis/machine-learning/requesty.json"
     },
     {
       "id": "machine-learning/roboflow-universe",
@@ -12053,6 +13627,17 @@
       "definition": "references/apis/news/currents.json"
     },
     {
+      "id": "news/daily-dev",
+      "name": "daily.dev",
+      "category": "News",
+      "description": "Developer news feeds, posts, bookmarks, tags and search from daily.dev",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "a4b7e3074ad8f4b1d883f9143cf3edbc1b99e1c5bdd4ad16a5854a03d6855da0",
+      "definition": "references/apis/news/daily-dev.json"
+    },
+    {
       "id": "news/datacube-ai",
       "name": "DataCube AI",
       "category": "News",
@@ -12174,6 +13759,17 @@
       "definition": "references/apis/news/newsflash.json"
     },
     {
+      "id": "news/newsmesh",
+      "name": "NewsMesh",
+      "category": "News",
+      "description": "Premium news data from thousands of sources",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "988b47e8833f0030b3f3023784209889f23a3437c0b57b84e5dc988fd3ff9c84",
+      "definition": "references/apis/news/newsmesh.json"
+    },
+    {
       "id": "news/newsx",
       "name": "NewsX",
       "category": "News",
@@ -12273,6 +13869,17 @@
       "definition": "references/apis/open-data/18f.json"
     },
     {
+      "id": "open-data/49-gallery-historical-data",
+      "name": "49 Gallery Historical Data",
+      "category": "Open Data",
+      "description": "Normalized historical records and 25 daily-updated reference series",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "29d5667c1ef5cad8a7355ace582cef68d800bd79ef3bdedce55d6b991cfe7b64",
+      "definition": "references/apis/open-data/49-gallery-historical-data.json"
+    },
+    {
       "id": "open-data/acrelens",
       "name": "AcreLens",
       "category": "Open Data",
@@ -12306,6 +13913,17 @@
       "definition": "references/apis/open-data/archive-org.json"
     },
     {
+      "id": "open-data/big-data-explained",
+      "name": "Big Data Explained",
+      "category": "Open Data",
+      "description": "Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8f7a7fc6bc0bd68a27637e2e497bcd1a336fb98b28c6a0dcf4876220fbeab5cd",
+      "definition": "references/apis/open-data/big-data-explained.json"
+    },
+    {
       "id": "open-data/black-history-facts",
       "name": "Black History Facts",
       "category": "Open Data",
@@ -12326,6 +13944,17 @@
       "cors": "unknown",
       "fingerprint": "fc7584165c78383856664dd396fb35f19aba55da888f0ec54dd3896492986cd8",
       "definition": "references/apis/open-data/botsarchive.json"
+    },
+    {
+      "id": "open-data/btu-graph",
+      "name": "BTU Graph",
+      "category": "Open Data",
+      "description": "Source-reviewed energy company knowledge graph and directory exports",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7ae9fea8e29452ce511bba9440c4f7aac6ce73847a343c6f03ac2605697b2206",
+      "definition": "references/apis/open-data/btu-graph.json"
     },
     {
       "id": "open-data/callook-info",
@@ -12359,6 +13988,17 @@
       "cors": "unknown",
       "fingerprint": "fb0552e5896cded1f7e49e7282cd3aba778b8a1077b659766b6c76bb62cb3417",
       "definition": "references/apis/open-data/collegescorecard-ed-gov.json"
+    },
+    {
+      "id": "open-data/coworkingview",
+      "name": "CoworkingView",
+      "category": "Open Data",
+      "description": "Coworking spaces and offices in 63 European and Gulf cities with operator-published prices",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "96752860e123ec3ea2e6207c136980a5647401a39922fcc52a15c5d4370bca9c",
+      "definition": "references/apis/open-data/coworkingview.json"
     },
     {
       "id": "open-data/cuttingtoolsai",
@@ -12414,6 +14054,17 @@
       "cors": "unknown",
       "fingerprint": "3acc5af7c0cd59dae4ed68d064bedab9199df9e87952ac6260b0fd24085bb827",
       "definition": "references/apis/open-data/genesis.json"
+    },
+    {
+      "id": "open-data/housingfeed",
+      "name": "HousingFeed",
+      "category": "Open Data",
+      "description": "US rental listings from property managers' own websites, verified weekly",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ba697aa0deb7790f07ebb941abae4fe901a63c05a34a7bb080e90983f5ffa4de",
+      "definition": "references/apis/open-data/housingfeed.json"
     },
     {
       "id": "open-data/infranode",
@@ -12502,6 +14153,17 @@
       "cors": "unknown",
       "fingerprint": "0ab7283f36e8e4d3a2935f63b71913e47dfe5941eb2205b9d03f9b261a4521d4",
       "definition": "references/apis/open-data/lowy-asia-power-index.json"
+    },
+    {
+      "id": "open-data/microburbs",
+      "name": "Microburbs",
+      "category": "Open Data",
+      "description": "Australian property and suburb data: valuations, sales, rents, schools, demographics, risk, zoning",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "30e0d8d530635cfcb2970f9caf2ca0477c6dffbbdcb2c85f76257eea6003863e",
+      "definition": "references/apis/open-data/microburbs.json"
     },
     {
       "id": "open-data/microlink-io",
@@ -12636,6 +14298,17 @@
       "definition": "references/apis/open-data/pan-africa-data.json"
     },
     {
+      "id": "open-data/paycrunch",
+      "name": "PayCrunch",
+      "category": "Open Data",
+      "description": "US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0734e474dde29a0d266f34afca2b76f6d8c0b1a169833c27072df5e12142f9d3",
+      "definition": "references/apis/open-data/paycrunch.json"
+    },
+    {
       "id": "open-data/peakmetrics",
       "name": "PeakMetrics",
       "category": "Open Data",
@@ -12645,6 +14318,17 @@
       "cors": "unknown",
       "fingerprint": "285891afb69c667aefbb59d534a22caaa4b9042b477e2a42e63bea685b2d9d1d",
       "definition": "references/apis/open-data/peakmetrics.json"
+    },
+    {
+      "id": "open-data/publicdatahub",
+      "name": "PublicDataHub",
+      "category": "Open Data",
+      "description": "US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "69746065a77ba967463cb6253fe8454fe2bf45c32e41511454a95349a13da67c",
+      "definition": "references/apis/open-data/publicdatahub.json"
     },
     {
       "id": "open-data/recreation-information-database",
@@ -12678,6 +14362,17 @@
       "cors": "unknown",
       "fingerprint": "73bf136f5abee01b3bf188b99d3d454df48d8e0f7e2515a01b948df4c596247a",
       "definition": "references/apis/open-data/scoop-it.json"
+    },
+    {
+      "id": "open-data/slashyear",
+      "name": "SlashYear",
+      "category": "Open Data",
+      "description": "86,902 historical events as JSON, each quoted from a cited Wikipedia revision",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "8cfa0de69a27bda0c1441af88e30d628ffff2eb7f72329258a99f600834fdad2",
+      "definition": "references/apis/open-data/slashyear.json"
     },
     {
       "id": "open-data/socrata",
@@ -12911,6 +14606,17 @@
       "definition": "references/apis/open-source-projects/github-readme-stats.json"
     },
     {
+      "id": "open-source-projects/libraries-io",
+      "name": "Libraries.io",
+      "category": "Open Source Projects",
+      "description": "Metadata, dependencies and release history for open-source packages across 30+ managers",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "ef0191cd9f32d1196cbddb1d25d23650f9408063b021071e182825f867a814e0",
+      "definition": "references/apis/open-source-projects/libraries-io.json"
+    },
+    {
       "id": "open-source-projects/metabase",
       "name": "Metabase",
       "category": "Open Source Projects",
@@ -12920,6 +14626,17 @@
       "cors": "yes",
       "fingerprint": "fd6a8488fe25a2b75dab2aaac86f51325faea43b06281b62551e67d2922e99ca",
       "definition": "references/apis/open-source-projects/metabase.json"
+    },
+    {
+      "id": "open-source-projects/neuronto-ard-registry",
+      "name": "Neuronto ARD Registry",
+      "category": "Open Source Projects",
+      "description": "Search index of MCP servers, agents and APIs, with the tools each server actually exposes",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0608a35a80ee9fc7400e2a19fd08211d38dc7c3dd6796061002760a00129f76e",
+      "definition": "references/apis/open-source-projects/neuronto-ard-registry.json"
     },
     {
       "id": "open-source-projects/shields",
@@ -13129,6 +14846,17 @@
       "cors": "yes",
       "fingerprint": "ecee7c849deb902ae20b2934fff3e97860e558cb665b0ac79dcd6eb77e965fec",
       "definition": "references/apis/personality/personality-fyi.json"
+    },
+    {
+      "id": "personality/positivequotation",
+      "name": "PositiveQuotation",
+      "category": "Personality",
+      "description": "Source-verified public-domain English proverbs with provenance",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c07500bbaf57bdb7a2facad26271dba38d128996910aa4451f768d271c2c131d",
+      "definition": "references/apis/personality/positivequotation.json"
     },
     {
       "id": "personality/programming-quotes",
@@ -13494,6 +15222,17 @@
       "definition": "references/apis/photography/imsea.json"
     },
     {
+      "id": "photography/kavel",
+      "name": "Kavel",
+      "category": "Photography",
+      "description": "Generate and edit images with AI, no key or account required",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "60752614e0d784a4128a8f871c6c5fbf34d3d34efae904e275cf7598dec9062d",
+      "definition": "references/apis/photography/kavel.json"
+    },
+    {
       "id": "photography/lorem-picsum",
       "name": "Lorem Picsum",
       "category": "Photography",
@@ -13602,6 +15341,17 @@
       "cors": "unknown",
       "fingerprint": "2b068ecb9d7949fcca0b692b89df4b0d6860956c64bd4a68b94fd802a8940eb1",
       "definition": "references/apis/photography/resmush-it.json"
+    },
+    {
+      "id": "photography/screenshot-studio",
+      "name": "Screenshot Studio",
+      "category": "Photography",
+      "description": "Capture web pages as images through a public HTTP API",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "7b0248936a62c5bbe61186ddf34334c8d0764f2847c49a8ae4a0b40a7c6af94f",
+      "definition": "references/apis/photography/screenshot-studio.json"
     },
     {
       "id": "photography/shutterstock",
@@ -13780,6 +15530,17 @@
       "definition": "references/apis/science-math/cyclecalcs.json"
     },
     {
+      "id": "science-math/europe-pmc",
+      "name": "Europe PMC",
+      "category": "Science & Math",
+      "description": "Life-science literature search with abstracts, citations and full-text links",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "e4b0abae0c2afb3f43a96b351a92516dec37e72a1ae473f767cc91cd7490a310",
+      "definition": "references/apis/science-math/europe-pmc.json"
+    },
+    {
       "id": "science-math/gbif",
       "name": "GBIF",
       "category": "Science & Math",
@@ -13879,6 +15640,17 @@
       "definition": "references/apis/science-math/minor-planet-center.json"
     },
     {
+      "id": "science-math/mygene-info",
+      "name": "MyGene.info",
+      "category": "Science & Math",
+      "description": "Gene annotation queries and ID lookup",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "abdc981d79b5ade2783f6d49519aa8ebdbd63506ea4d103b254d9168a128d72c",
+      "definition": "references/apis/science-math/mygene-info.json"
+    },
+    {
       "id": "science-math/nasa",
       "name": "NASA",
       "category": "Science & Math",
@@ -13888,6 +15660,17 @@
       "cors": "no",
       "fingerprint": "da0da4bb8510a994be71a5903a98a098a6ce16ea69f77f78fde9ef1fbdea5c0f",
       "definition": "references/apis/science-math/nasa.json"
+    },
+    {
+      "id": "science-math/nasa-insight",
+      "name": "NASA InSight",
+      "category": "Science & Math",
+      "description": "Mars weather data from InSight lander",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "1c95f2cd98723ccc97aabe086c8552fbdafdc89f67497ed91c426f515043065d",
+      "definition": "references/apis/science-math/nasa-insight.json"
     },
     {
       "id": "science-math/nasa-ads",
@@ -13989,6 +15772,17 @@
       "definition": "references/apis/science-math/openalex.json"
     },
     {
+      "id": "science-math/open-ephemeris",
+      "name": "Open Ephemeris",
+      "category": "Science & Math",
+      "description": "Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "a52070c875806ec2365087702a51052dd9e63d61c4307f8f7398acaa6170324b",
+      "definition": "references/apis/science-math/open-ephemeris.json"
+    },
+    {
       "id": "science-math/orbitalwiki",
       "name": "OrbitalWiki",
       "category": "Science & Math",
@@ -14011,6 +15805,17 @@
       "definition": "references/apis/science-math/purple-air.json"
     },
     {
+      "id": "science-math/rcsb-pdb",
+      "name": "RCSB PDB",
+      "category": "Science & Math",
+      "description": "3D structures of proteins and nucleic acids",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c6725f49e4800a08f5656e51230fb22a9c940e2d7640db2d18c8d949396c32d9",
+      "definition": "references/apis/science-math/rcsb-pdb.json"
+    },
+    {
       "id": "science-math/remote-calc",
       "name": "Remote Calc",
       "category": "Science & Math",
@@ -14022,6 +15827,17 @@
       "definition": "references/apis/science-math/remote-calc.json"
     },
     {
+      "id": "science-math/semantic-scholar",
+      "name": "Semantic Scholar",
+      "category": "Science & Math",
+      "description": "Academic search engine for papers, authors, and citations",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "e0399e1431c3d7b7a9dd9d86bcbe98c661d7768d2e452bcf9e937a71f3741fcb",
+      "definition": "references/apis/science-math/semantic-scholar.json"
+    },
+    {
       "id": "science-math/share",
       "name": "SHARE",
       "category": "Science & Math",
@@ -14031,6 +15847,17 @@
       "cors": "no",
       "fingerprint": "aae3bddb40e8f7a4fd033bd9be4fc21cc8f2e83e363acf3cd1a402e356d1c752",
       "definition": "references/apis/science-math/share.json"
+    },
+    {
+      "id": "science-math/solar-system-opendata",
+      "name": "Solar System OpenData",
+      "category": "Science & Math",
+      "description": "Data and facts on solar system bodies and planets",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "59c5d689ac598611a49e4fca087298546b156907e2aebd7bf8e5c3aa45137a45",
+      "definition": "references/apis/science-math/solar-system-opendata.json"
     },
     {
       "id": "science-math/spacex--9f149346",
@@ -14242,6 +16069,17 @@
       "definition": "references/apis/security/complete-criminal-checks.json"
     },
     {
+      "id": "security/compliapi",
+      "name": "CompliAPI",
+      "category": "Security",
+      "description": "Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "00f796f817f8f8852f8097e7779abc8af4052b0b700400afba40584bf41950cf",
+      "definition": "references/apis/security/compliapi.json"
+    },
+    {
       "id": "security/crxcavator",
       "name": "CRXcavator",
       "category": "Security",
@@ -14451,6 +16289,17 @@
       "definition": "references/apis/security/intelligence-x.json"
     },
     {
+      "id": "security/ipguardian",
+      "name": "IPGuardian",
+      "category": "Security",
+      "description": "Check IP addresses against 140+ public threat intelligence blocklists",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f610d90b06f69a6f10ae0017592334a9544fc1958a1fcc191218335f762104cd",
+      "definition": "references/apis/security/ipguardian.json"
+    },
+    {
       "id": "security/iplogs",
       "name": "IPLogs",
       "category": "Security",
@@ -14517,6 +16366,17 @@
       "definition": "references/apis/security/national-vulnerability-database.json"
     },
     {
+      "id": "security/neetix-liveliness",
+      "name": "Neetix Liveliness",
+      "category": "Security",
+      "description": "Face liveness, presentation-attack detection and 1:1 face match for identity verification",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "b0f1b25c8c3c2f320d7e51aa2a75bed3105bf8c4f631ebecafd7271f7f378348",
+      "definition": "references/apis/security/neetix-liveliness.json"
+    },
+    {
       "id": "security/passwordinator",
       "name": "Passwordinator",
       "category": "Security",
@@ -14539,6 +16399,17 @@
       "definition": "references/apis/security/phishstats.json"
     },
     {
+      "id": "security/presend",
+      "name": "Presend",
+      "category": "Security",
+      "description": "Security and developer utility API -- malware, vulnerability, and domain checks, no signup",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "beb54f1530a423d753b9bd44d83643915016c80e1aa525b92d27a2860a7d0475",
+      "definition": "references/apis/security/presend.json"
+    },
+    {
       "id": "security/privacy-com",
       "name": "Privacy.com",
       "category": "Security",
@@ -14559,6 +16430,17 @@
       "cors": "unknown",
       "fingerprint": "2c4c7d51f28c4010fdf89e40a9dbc0e0035f6acc0d2cdae2aa4bcf6a01433b72",
       "definition": "references/apis/security/pulsedive.json"
+    },
+    {
+      "id": "security/sealed-rose",
+      "name": "Sealed Rose",
+      "category": "Security",
+      "description": "AI media forensics and synthetic content verification for video, audio, image, and text",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "4124b93b5084603253a7abf6c3c2a5a08829c7df68f46f8ee61510e77138f2cc",
+      "definition": "references/apis/security/sealed-rose.json"
     },
     {
       "id": "security/securitytrails",
@@ -14605,6 +16487,17 @@
       "definition": "references/apis/security/ssl-domain-health-check.json"
     },
     {
+      "id": "security/ssl-labs",
+      "name": "SSL Labs",
+      "category": "Security",
+      "description": "Deep SSL/TLS server analysis with A+ to F grading",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "226d2e9368749200b9c20ef1bb9d909f4b8da3fd5bd06ec9db97d549295369fd",
+      "definition": "references/apis/security/ssl-labs.json"
+    },
+    {
       "id": "security/threat-jammer",
       "name": "Threat Jammer",
       "category": "Security",
@@ -14614,6 +16507,17 @@
       "cors": "unknown",
       "fingerprint": "88fdb8fc8001fb344d016795cd946d84dd7441da81caab367c3000f7898efe89",
       "definition": "references/apis/security/threat-jammer.json"
+    },
+    {
+      "id": "security/threatcluster",
+      "name": "ThreatCluster",
+      "category": "Security",
+      "description": "Threat intelligence: incident clusters, validated IOCs, CVEs, ransomware leak-site victims",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "eca5a1960162b176112317062717cf69363c2c0c045031162da6edabcf3242cb",
+      "definition": "references/apis/security/threatcluster.json"
     },
     {
       "id": "security/uk-police",
@@ -14680,6 +16584,17 @@
       "cors": "unknown",
       "fingerprint": "cace07dbda51018533c47b648dca7d150088bfc700b9e62e45547cb24e7851b8",
       "definition": "references/apis/shopping/buywhere.json"
+    },
+    {
+      "id": "shopping/cartscout",
+      "name": "CartScout",
+      "category": "Shopping",
+      "description": "Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "275063b3df3e009110031301f0fbc70d6efd3a76767c22ede179e5469499f0d3",
+      "definition": "references/apis/shopping/cartscout.json"
     },
     {
       "id": "shopping/digi-key",
@@ -14801,6 +16716,28 @@
       "cors": "unknown",
       "fingerprint": "8135ad6ba2afb7f4c638ce52789c64881ee970b9982c0d0f604f49a923fed158",
       "definition": "references/apis/shopping/olx-poland.json"
+    },
+    {
+      "id": "shopping/opentiendas",
+      "name": "OpenTiendas",
+      "category": "Shopping",
+      "description": "Official e-commerce API and webhooks",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "d699625edc2ba856a21c8addbe528fa4bab1e5a903611e9f2f45a6127ff9cc63",
+      "definition": "references/apis/shopping/opentiendas.json"
+    },
+    {
+      "id": "shopping/pangolinfo-amazon-data",
+      "name": "Pangolinfo Amazon Data",
+      "category": "Shopping",
+      "description": "Amazon product, review, search and Best Sellers data across 20+ marketplaces",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "996869cf836cb25a09ccd02de697536ae0a94a34c0126d5080515d74648a3ccd",
+      "definition": "references/apis/shopping/pangolinfo-amazon-data.json"
     },
     {
       "id": "shopping/rappi",
@@ -15166,6 +17103,17 @@
       "definition": "references/apis/social/postlake.json"
     },
     {
+      "id": "social/postproxy",
+      "name": "Postproxy",
+      "category": "Social",
+      "description": "Publish posts, comments, DMs, and more",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "dc38520f32e53c0ba58ee4e830dbf1dc00b45b79bea356c33f9a4b6b43b822ac",
+      "definition": "references/apis/social/postproxy.json"
+    },
+    {
       "id": "social/product-hunt",
       "name": "Product Hunt",
       "category": "Social",
@@ -15243,6 +17191,17 @@
       "definition": "references/apis/social/slack.json"
     },
     {
+      "id": "social/socialcrawl",
+      "name": "SocialCrawl",
+      "category": "Social",
+      "description": "Social and commerce data from 50+ platforms in one JSON schema",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7dc962bac79ec7b93b9e3c27102cb19e7de65661b741d28c214527964c7ebe96",
+      "definition": "references/apis/social/socialcrawl.json"
+    },
+    {
       "id": "social/socialswarm",
       "name": "SocialSwarm",
       "category": "Social",
@@ -15252,6 +17211,17 @@
       "cors": "no",
       "fingerprint": "5b26d78f0f1b0bb50069aaa6a498cf8369144574a479d835a820206d7ccfbb09",
       "definition": "references/apis/social/socialswarm.json"
+    },
+    {
+      "id": "social/swarmmemo",
+      "name": "SwarmMemo",
+      "category": "Social",
+      "description": "Public bulletin board where AI agents and humans read, post and reply, no account or key needed",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "e5438b5dd6ef3fc482ccf689884ed132caf9211d5dda71fec1689808d7841695",
+      "definition": "references/apis/social/swarmmemo.json"
     },
     {
       "id": "social/tamtam",
@@ -15318,6 +17288,17 @@
       "cors": "yes",
       "fingerprint": "8d71841adc22bc0f9dda7594e299a7d57a6e9ee28aa226df27d9cf42e99514e7",
       "definition": "references/apis/social/trash-nothing.json"
+    },
+    {
+      "id": "social/trendsmcp",
+      "name": "TrendsMCP",
+      "category": "Social",
+      "description": "Live keyword trend data from Google, TikTok, YouTube, Amazon and Reddit",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "ca0c13b273ca258b497a03f3354cd94caafda91ef8abe2f5f9a4340b49e49a40",
+      "definition": "references/apis/social/trendsmcp.json"
     },
     {
       "id": "social/tumblr",
@@ -15408,6 +17389,17 @@
       "definition": "references/apis/social/xflux.json"
     },
     {
+      "id": "sports-fitness/5dollarfootball",
+      "name": "5DollarFootball",
+      "category": "Sports & Fitness",
+      "description": "Football fixtures, results, standings and historical odds with corner and card lines",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "d89945fa3b806a5ec06074f9421934ff3595c2bc51acee72fc81e1841418ed88",
+      "definition": "references/apis/sports-fitness/5dollarfootball.json"
+    },
+    {
       "id": "sports-fitness/api-football",
       "name": "API-FOOTBALL",
       "category": "Sports & Fitness",
@@ -15463,6 +17455,17 @@
       "definition": "references/apis/sports-fitness/canadian-football-league-cfl.json"
     },
     {
+      "id": "sports-fitness/cito-ufc-api",
+      "name": "Cito UFC API",
+      "category": "Sports & Fitness",
+      "description": "UFC and MMA fight data: fighters, cards, round stats, rankings and live state",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "a5966a9a93697bcc2cb7aa3a8d9037a7156960b38364fea214ad123496352e9b",
+      "definition": "references/apis/sports-fitness/cito-ufc-api.json"
+    },
+    {
       "id": "sports-fitness/city-bikes",
       "name": "City Bikes",
       "category": "Sports & Fitness",
@@ -15516,6 +17519,17 @@
       "cors": "unknown",
       "fingerprint": "8dbc82abeed2fd257653e98a823921f3fb92ca3ca7f321ca19419f6b92620cbb",
       "definition": "references/apis/sports-fitness/ergast-f1.json"
+    },
+    {
+      "id": "sports-fitness/fanline-wire",
+      "name": "FanLine Wire",
+      "category": "Sports & Fitness",
+      "description": "Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "3c7fb68d49df07570275826066151db6926a7d8d8337cd94aa74dd34af2014d1",
+      "definition": "references/apis/sports-fitness/fanline-wire.json"
     },
     {
       "id": "sports-fitness/fitbit",
@@ -15650,6 +17664,17 @@
       "definition": "references/apis/sports-fitness/nhl-records-and-stats.json"
     },
     {
+      "id": "sports-fitness/nopunt",
+      "name": "NoPunt",
+      "category": "Sports & Fitness",
+      "description": "Weekly NFL game picks with model win probability, confidence tier and spread",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "6ba54c7746354e1f07e777feeb0965db504f0d3001739d076c176018756500fd",
+      "definition": "references/apis/sports-fitness/nopunt.json"
+    },
+    {
       "id": "sports-fitness/odds-api",
       "name": "Odds-API",
       "category": "Sports & Fitness",
@@ -15659,6 +17684,17 @@
       "cors": "yes",
       "fingerprint": "b0d4a5dccd08f03d206f383006f48dd38c19f0ec2faae374945eed106192923f",
       "definition": "references/apis/sports-fitness/odds-api.json"
+    },
+    {
+      "id": "sports-fitness/oddsbench",
+      "name": "OddsBench",
+      "category": "Sports & Fitness",
+      "description": "Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "d8bf85db2eedf31ab7f92a093984c1882c63a654400520387192c73b0ce027a7",
+      "definition": "references/apis/sports-fitness/oddsbench.json"
     },
     {
       "id": "sports-fitness/oddsmagnet",
@@ -15672,6 +17708,17 @@
       "definition": "references/apis/sports-fitness/oddsmagnet.json"
     },
     {
+      "id": "sports-fitness/oddsradarwire",
+      "name": "OddsRadarWire",
+      "category": "Sports & Fitness",
+      "description": "Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "ecaf1269b5bb49fc36405b5c1b94bd93a6f1d027d2fac27f56dc34b35ec0d218",
+      "definition": "references/apis/sports-fitness/oddsradarwire.json"
+    },
+    {
       "id": "sports-fitness/openf1",
       "name": "OpenF1",
       "category": "Sports & Fitness",
@@ -15681,6 +17728,17 @@
       "cors": "yes",
       "fingerprint": "1bbc49684e00288e055bf39a886c88c777a01494df8cae05f30d71efe40ed5bb",
       "definition": "references/apis/sports-fitness/openf1.json"
+    },
+    {
+      "id": "sports-fitness/openfoot-api",
+      "name": "OpenFoot API",
+      "category": "Sports & Fitness",
+      "description": "Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "a40d9d75c6365eb7820305b1464f38bcaea336c400dfac07b0eafc677528ab5b",
+      "definition": "references/apis/sports-fitness/openfoot-api.json"
     },
     {
       "id": "sports-fitness/openligadb",
@@ -15703,6 +17761,28 @@
       "cors": "yes",
       "fingerprint": "0c129b2415c35756d72c253348cf26c61834565f0f5d12dd6c36360c6840154a",
       "definition": "references/apis/sports-fitness/padel-snipe.json"
+    },
+    {
+      "id": "sports-fitness/parlay",
+      "name": "Parlay",
+      "category": "Sports & Fitness",
+      "description": "Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "7e7466c81e9bb5112fce99d33b183c949903cc11d95623d0d21b0294e166ca43",
+      "definition": "references/apis/sports-fitness/parlay.json"
+    },
+    {
+      "id": "sports-fitness/pinnwire",
+      "name": "PinnWire",
+      "category": "Sports & Fitness",
+      "description": "Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "7246882e023def9cd7bef0eae71958a126602fc1f8632eb291f06a71db0258d7",
+      "definition": "references/apis/sports-fitness/pinnwire.json"
     },
     {
       "id": "sports-fitness/playerelo",
@@ -15736,6 +17816,17 @@
       "cors": "unknown",
       "fingerprint": "2da6013c3c4385d1eb6d1ae925fb85a809fd7887f9f881328fd6d851b6f2bfa0",
       "definition": "references/apis/sports-fitness/propline.json"
+    },
+    {
+      "id": "sports-fitness/qiuxiaoce-football",
+      "name": "QiuXiaoCe Football",
+      "category": "Sports & Fitness",
+      "description": "Football teams, leagues, standings, scorers and match intelligence data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "1f510feae92ed61df31b06bab7021ce815795ea9578b3f021b9bcaee400d41ad",
+      "definition": "references/apis/sports-fitness/qiuxiaoce-football.json"
     },
     {
       "id": "sports-fitness/racinghub",
@@ -16002,6 +18093,17 @@
       "definition": "references/apis/test-data/fakestoreapi.json"
     },
     {
+      "id": "test-data/flaky",
+      "name": "flaky",
+      "category": "Test Data",
+      "description": "Fake REST API with chaos controls: force any status code, add latency, or a failure rate",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f1cfc6a39a0f4381d284ee2d0baf66e8293f56ece1555e1cd04c771e57072b21",
+      "definition": "references/apis/test-data/flaky.json"
+    },
+    {
       "id": "test-data/generadordni",
       "name": "GeneradorDNI",
       "category": "Test Data",
@@ -16022,6 +18124,17 @@
       "cors": "no",
       "fingerprint": "8d0212cfad3d273d6901b1dab91a33feefe4ae61e8907a6048b5afc06896a318",
       "definition": "references/apis/test-data/itsthisforthat.json"
+    },
+    {
+      "id": "test-data/jsonfabrica",
+      "name": "JsonFabrica",
+      "category": "Test Data",
+      "description": "Generate realistic relational synthetic JSON test data from reusable templates",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "f140ed476e703cab303885e02851763c5b2e6c06cd792bbf84a23d290b991032",
+      "definition": "references/apis/test-data/jsonfabrica.json"
     },
     {
       "id": "test-data/jsonplaceholder",
@@ -16145,6 +18258,17 @@
       "definition": "references/apis/test-data/robohash.json"
     },
     {
+      "id": "test-data/sampuli",
+      "name": "Sampuli",
+      "category": "Test Data",
+      "description": "Format-true synthetic test data for 90 countries: IDs, IBANs, cards, addresses",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "6eff0e5f6be4da1d43554221cbd1a48bcfdb647baa7c1b7bf3ae9ff3cfd73460",
+      "definition": "references/apis/test-data/sampuli.json"
+    },
+    {
       "id": "test-data/spanish-random-names",
       "name": "Spanish random names",
       "category": "Test Data",
@@ -16211,6 +18335,17 @@
       "definition": "references/apis/test-data/uuid-generator.json"
     },
     {
+      "id": "test-data/waldrand-avatar",
+      "name": "Waldrand Avatar",
+      "category": "Test Data",
+      "description": "Deterministic SVG/PNG/WebP avatars from any string, four styles",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "366940bd41eb8cf1f7ffed48715278b837957d3c2f3a088403b55fe6a224012a",
+      "definition": "references/apis/test-data/waldrand-avatar.json"
+    },
+    {
       "id": "test-data/what-the-commit",
       "name": "What The Commit",
       "category": "Test Data",
@@ -16264,17 +18399,6 @@
       "cors": "unknown",
       "fingerprint": "98733528a5cab9e6dad724820983cb4472e26c37c6f2ee0d3cc8fd1154864a72",
       "definition": "references/apis/text-analysis/aylien-text-analysis.json"
-    },
-    {
-      "id": "text-analysis/audexum",
-      "name": "Audexum",
-      "category": "Text Analysis",
-      "description": "Text-to-speech REST API with 43 voices and 33 languages",
-      "auth": "apiKey",
-      "https": "yes",
-      "cors": "yes",
-      "fingerprint": "3192ad8e1285df67e9173b9195a37bab36d56b0c74b67abff2dff29c26605a55",
-      "definition": "references/apis/text-analysis/audexum.json"
     },
     {
       "id": "text-analysis/cloudmersive-natural-language-processing",
@@ -16431,6 +18555,17 @@
       "definition": "references/apis/text-analysis/tisane.json"
     },
     {
+      "id": "text-analysis/tohuman",
+      "name": "ToHuman",
+      "category": "Text Analysis",
+      "description": "Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "14f5e182848a5ae47979378ceab07adbb737505bda67fb083355b70aae440edc",
+      "definition": "references/apis/text-analysis/tohuman.json"
+    },
+    {
       "id": "text-analysis/watson-natural-language-understanding",
       "name": "Watson Natural Language Understanding",
       "category": "Text Analysis",
@@ -16574,6 +18709,17 @@
       "definition": "references/apis/transportation/ads-b-exchange.json"
     },
     {
+      "id": "transportation/aether-x-port-congestion",
+      "name": "Aether-X Port Congestion",
+      "category": "Transportation",
+      "description": "Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "a4331f071404f7057ee1c833132fb2655c2d7f486ba9020d8faf7c24e71322ff",
+      "definition": "references/apis/transportation/aether-x-port-congestion.json"
+    },
+    {
       "id": "transportation/airportsapi",
       "name": "airportsapi",
       "category": "Transportation",
@@ -16583,6 +18729,17 @@
       "cors": "unknown",
       "fingerprint": "9b8185dbd619b10b4e6da6c7bcffc4c48dae374a857ee7b6b50b23370c8f84ff",
       "definition": "references/apis/transportation/airportsapi.json"
+    },
+    {
+      "id": "transportation/aether-x-port-congestion-oracle",
+      "name": "Aether-X Port Congestion Oracle",
+      "category": "Transportation",
+      "description": "Predictive port congestion, ETA delay and freight volatility signals for 16 global ports",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "504d9324f3dedcdbfc8e6b9c76426db7e232ea6e9fcbcb2e7a783e4a7e4c8ce5",
+      "definition": "references/apis/transportation/aether-x-port-congestion-oracle.json"
     },
     {
       "id": "transportation/ais-hub",
@@ -16627,6 +18784,28 @@
       "cors": "yes",
       "fingerprint": "5692341cccd4b841461227caeb0e1ecc9605b967b8c3c087401b9bbce6f35404",
       "definition": "references/apis/transportation/apimetro.json"
+    },
+    {
+      "id": "transportation/arcnautical",
+      "name": "ArcNautical",
+      "category": "Transportation",
+      "description": "Screen any ship by IMO for OFAC/EU/UN/UK sanctions, ownership opacity and a vetting grade",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "67eaa18bb98f10d697003333eb05defd115fc7810e285f5e5451223b29431a0d",
+      "definition": "references/apis/transportation/arcnautical.json"
+    },
+    {
+      "id": "transportation/aviation-safety-data",
+      "name": "Aviation Safety Data",
+      "category": "Transportation",
+      "description": "164,068 aircraft accident narratives from 128 official investigation authorities, plus FAA data",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "c5cf73931ce9b728c926f468d7b4aa8bde03fe70cc0ce39aaaf116200b84305e",
+      "definition": "references/apis/transportation/aviation-safety-data.json"
     },
     {
       "id": "transportation/aviationapi",
@@ -16794,6 +18973,17 @@
       "definition": "references/apis/transportation/graphhopper.json"
     },
     {
+      "id": "transportation/gtfs-scorecard",
+      "name": "GTFS Scorecard",
+      "category": "Transportation",
+      "description": "Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "53ddd2e1f31f788367c968c896ca648ab79f704bdc4295ef02219eedfe342b84",
+      "definition": "references/apis/transportation/gtfs-scorecard.json"
+    },
+    {
       "id": "transportation/icelandic-apis",
       "name": "Icelandic APIs",
       "category": "Transportation",
@@ -16836,6 +19026,17 @@
       "cors": "unknown",
       "fingerprint": "ab9ce9aed369f9cf198fd1b69ad06e6ce3572b36afe0e9c9b44a23a07582d19f",
       "definition": "references/apis/transportation/land-transport-authority-datamall-singapore.json"
+    },
+    {
+      "id": "transportation/livetrafficcam",
+      "name": "LiveTrafficCam",
+      "category": "Transportation",
+      "description": "Live US state DOT traffic cameras with verified live status and measured uptime",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "da13538dd070d2cabe5fe0f3bfd26cf9415a8b6e0e871587568769dbb466790c",
+      "definition": "references/apis/transportation/livetrafficcam.json"
     },
     {
       "id": "transportation/metro-lisboa",
@@ -16915,6 +19116,17 @@
       "definition": "references/apis/transportation/railway-transport-for-france.json"
     },
     {
+      "id": "transportation/railworks",
+      "name": "Railworks",
+      "category": "Transportation",
+      "description": "Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "13c76d736b929020b666fe22e155d7c7c39b4c3e5e157850675eb1ea1098e94d",
+      "definition": "references/apis/transportation/railworks.json"
+    },
+    {
       "id": "transportation/refuge-restrooms",
       "name": "REFUGE Restrooms",
       "category": "Transportation",
@@ -16957,6 +19169,17 @@
       "cors": "unknown",
       "fingerprint": "6e687430fc6a1622e4140f70d53a9e9de190892173d9da600f6a8f726bc76c45",
       "definition": "references/apis/transportation/schiphol-airport.json"
+    },
+    {
+      "id": "transportation/smklog",
+      "name": "SMKlog",
+      "category": "Transportation",
+      "description": "Live parcel shipping rates and labels from a plain-words item description",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "110767ced8f2a591c32c294f458b77703d69fab36cd6d64f80937243eaf63c04",
+      "definition": "references/apis/transportation/smklog.json"
     },
     {
       "id": "transportation/strait-of-hormuz-ship-monitor",
@@ -17410,6 +19633,28 @@
       "definition": "references/apis/transportation/velib-metropolis-paris-france.json"
     },
     {
+      "id": "transportation/wander-atlas",
+      "name": "Wander Atlas",
+      "category": "Transportation",
+      "description": "Hourly quiet and busy crowd windows for 620+ tourist attractions in 20 countries",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "e035710e00838f37399ce45850e52c0ba329677d318e564117571afe1ee6dc42",
+      "definition": "references/apis/transportation/wander-atlas.json"
+    },
+    {
+      "id": "transportation/windsock",
+      "name": "Windsock",
+      "category": "Transportation",
+      "description": "Aircraft valuations, FAA registry lookups, cost of ownership and aviation market data",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "43ff0629dbe71ea11036d64b67ceaf2ed14d10c5238bcda9e683dc5fc54ee512",
+      "definition": "references/apis/transportation/windsock.json"
+    },
+    {
       "id": "url-shorteners/1pt",
       "name": "1pt",
       "category": "URL Shorteners",
@@ -17531,6 +19776,17 @@
       "definition": "references/apis/url-shorteners/kutt.json"
     },
     {
+      "id": "url-shorteners/lix-li",
+      "name": "Lix.li",
+      "category": "URL Shorteners",
+      "description": "URL shortener with analytics, QR codes, UTM tags and custom domains",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "502684e7b5929ad3812d134208b70ee2272b3ab7c58969b5aefdbf5e41f5cfec",
+      "definition": "references/apis/url-shorteners/lix-li.json"
+    },
+    {
       "id": "url-shorteners/mgnet-me",
       "name": "Mgnet.me",
       "category": "URL Shorteners",
@@ -17641,6 +19897,17 @@
       "definition": "references/apis/vehicle/auto-body-shop-directory.json"
     },
     {
+      "id": "vehicle/bike-reliability",
+      "name": "Bike Reliability",
+      "category": "Vehicle",
+      "description": "UK motorcycle reliability ranked by first-time MOT pass rates",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "0f47a53ac36156769b74db08f93f6310705e4290faf7d141289f822346a6e835",
+      "definition": "references/apis/vehicle/bike-reliability.json"
+    },
+    {
       "id": "vehicle/brazilian-vehicles-and-prices",
       "name": "Brazilian Vehicles and Prices",
       "category": "Vehicle",
@@ -17738,6 +20005,28 @@
       "cors": "yes",
       "fingerprint": "c931bf32ad584bb8c5dcbdd4a9e1a9dba93f67b668376a0c9c651d8d4c8e2300",
       "definition": "references/apis/vehicle/smartcar.json"
+    },
+    {
+      "id": "vehicle/transparentcars",
+      "name": "TransparentCars",
+      "category": "Vehicle",
+      "description": "Fair-price valuation and yearly road tax (IUC) for used cars in Portugal",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "18b4ab7578b6210e048ec1c64cbece5072eb81c82a66f3471968900a0c165fde",
+      "definition": "references/apis/vehicle/transparentcars.json"
+    },
+    {
+      "id": "vehicle/wheelwise",
+      "name": "Wheelwise",
+      "category": "Vehicle",
+      "description": "UK used-car listings with fair-price grade, 36-month resale forecast and true monthly cost per advert",
+      "auth": "No",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "5067cc85d830591eddd24132da13a38903718ba6a688b9b19d2ecee627383176",
+      "definition": "references/apis/vehicle/wheelwise.json"
     },
     {
       "id": "video/an-api-of-ice-and-fire",
@@ -17916,6 +20205,28 @@
       "definition": "references/apis/video/json2video.json"
     },
     {
+      "id": "video/kpainter",
+      "name": "KPainter",
+      "category": "Video",
+      "description": "Create video, image, and interactive app outputs from prompts or source files",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "eb7b40d309ca0c91da75dd9df89e87c28b96ae3bec6bc1e06f6b7f1b0e524193",
+      "definition": "references/apis/video/kpainter.json"
+    },
+    {
+      "id": "video/kinopipe",
+      "name": "KinoPipe",
+      "category": "Video",
+      "description": "Typed hosted video editing operations for agents and automation",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "no",
+      "fingerprint": "ed2aafbad6d69b23cdd9c2194fe06e3b839890e2ab2ad6d01efbf7326ece89aa",
+      "definition": "references/apis/video/kinopipe.json"
+    },
+    {
       "id": "video/lucifer-quotes",
       "name": "Lucifer Quotes",
       "category": "Video",
@@ -17969,6 +20280,17 @@
       "cors": "unknown",
       "fingerprint": "2c77ed221ddf746e10a212fdf15a61fad8ff6791064932ab84533f923e90260b",
       "definition": "references/apis/video/open-movie-database.json"
+    },
+    {
+      "id": "video/opensubtitles",
+      "name": "OpenSubtitles",
+      "category": "Video",
+      "description": "Search and download subtitles for movies and TV shows",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b768f077d1e182b08f77e048dfa796f0feeee4878c86295601b579336f8add3b",
+      "definition": "references/apis/video/opensubtitles.json"
     },
     {
       "id": "video/owen-wilson-wow",
@@ -18169,6 +20491,17 @@
       "definition": "references/apis/video/trakt.json"
     },
     {
+      "id": "video/tubetotranscript",
+      "name": "TubeToTranscript",
+      "category": "Video",
+      "description": "Extract clean YouTube video transcripts via REST API",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "025cca9235f1365150a8e04a5c2ae3dae6413aaab123395a1ade5d1f2da9e2e5",
+      "definition": "references/apis/video/tubetotranscript.json"
+    },
+    {
       "id": "video/tvdb",
       "name": "TVDB",
       "category": "Video",
@@ -18200,6 +20533,17 @@
       "cors": "yes",
       "fingerprint": "f811620aca4045b229f957bcecfbaa96074c5922735d48908d7e6c226a4bd6dd",
       "definition": "references/apis/video/unogs.json"
+    },
+    {
+      "id": "video/video-to-markdown",
+      "name": "Video to Markdown",
+      "category": "Video",
+      "description": "Turn a YouTube URL into a markdown thumbnail image link",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "d0846571e2ff48610fe67326d2f5dc11f07c6d498757c2ccc40d6a4609dc3856",
+      "definition": "references/apis/video/video-to-markdown.json"
     },
     {
       "id": "video/vidwords",
@@ -18411,6 +20755,17 @@
       "definition": "references/apis/weather/ipma.json"
     },
     {
+      "id": "weather/knmi",
+      "name": "KNMI",
+      "category": "Weather",
+      "description": "Dutch weather, radar and climate data",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "5ae26cb83a854b1892fae4803a9597bc18a8d7e8a32d53e3a3f62e8cfe4450ca",
+      "definition": "references/apis/weather/knmi.json"
+    },
+    {
       "id": "weather/meltema",
       "name": "Meltema",
       "category": "Weather",
@@ -18420,6 +20775,17 @@
       "cors": "no",
       "fingerprint": "e215b6e647061e8689eed0821e4b3f05c5fea333fa862ffa832da8c5ac035092",
       "definition": "references/apis/weather/meltema.json"
+    },
+    {
+      "id": "weather/meteo-france",
+      "name": "Météo-France",
+      "category": "Weather",
+      "description": "French weather forecasts and alerts",
+      "auth": "apiKey",
+      "https": "yes",
+      "cors": "unknown",
+      "fingerprint": "deed21140c58d31bd0777c88002f3167c9f7735d9526b1bec6b9cc4a93e9e8cc",
+      "definition": "references/apis/weather/meteo-france.json"
     },
     {
       "id": "weather/meteorologisk-institutt",
@@ -18442,6 +20808,17 @@
       "cors": "unknown",
       "fingerprint": "8466b94f5d90a668b8f7b41a8386e351ba959671968d409f1ba611fccf30ec31",
       "definition": "references/apis/weather/micro-weather.json"
+    },
+    {
+      "id": "weather/nasa-power",
+      "name": "NASA POWER",
+      "category": "Weather",
+      "description": "Global solar and weather data for energy and agriculture",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "b58c5763170898d72d67f5fcd023f12d124bf3e815318c3690dbfb72af7b679c",
+      "definition": "references/apis/weather/nasa-power.json"
     },
     {
       "id": "weather/odweather",
@@ -18475,6 +20852,17 @@
       "cors": "yes",
       "fingerprint": "2cd62200ba8496d1d32aacdb7e86feb7727262dc186d38905bf35dd7792fd1f4",
       "definition": "references/apis/weather/open-meteo.json"
+    },
+    {
+      "id": "weather/open-meteo-ensemble",
+      "name": "Open-Meteo Ensemble",
+      "category": "Weather",
+      "description": "Weather ensemble forecasts from multiple models",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "f9eb4aeb0d9ec6f054e7397d5c6c4196e24c0549f68f5486ec32f5eb3984c95c",
+      "definition": "references/apis/weather/open-meteo-ensemble.json"
     },
     {
       "id": "weather/opensensemap",
@@ -18565,6 +20953,17 @@
       "definition": "references/apis/weather/storm-glass.json"
     },
     {
+      "id": "weather/terrace-weather",
+      "name": "Terrace Weather",
+      "category": "Weather",
+      "description": "Terrace open/closed verdict for restaurants, from the weather forecast",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "4289f8209a435c9e59bb66a777e75b720c584b18ccaca40e0ac523966048c9ae",
+      "definition": "references/apis/weather/terrace-weather.json"
+    },
+    {
       "id": "weather/tomorrow",
       "name": "Tomorrow",
       "category": "Weather",
@@ -18629,6 +21028,17 @@
       "cors": "unknown",
       "fingerprint": "f05d58add71e07c0b18786d0cdc466645bfa9f22585c9465c64a425a0377a2b6",
       "definition": "references/apis/weather/weatherbit.json"
+    },
+    {
+      "id": "weather/weathertotals",
+      "name": "WeatherTotals",
+      "category": "Weather",
+      "description": "Measured US snow, rain, hail and aurora totals by state and city",
+      "auth": "No",
+      "https": "yes",
+      "cors": "yes",
+      "fingerprint": "35f30b9a8b815e8c97e8ca8d6545c335abfc7ea04bf44dbc09f88bb7af686368",
+      "definition": "references/apis/weather/weathertotals.json"
     },
     {
       "id": "weather/world-time-weather",

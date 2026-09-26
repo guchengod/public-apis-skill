@@ -7,7 +7,6 @@
 | Code Detection | OAuth | yes | unknown | [`text-analysis/code-detection`](../apis/text-analysis/code-detection.json) |
 | apilayer languagelayer | OAuth | yes | unknown | [`text-analysis/apilayer-languagelayer`](../apis/text-analysis/apilayer-languagelayer.json) |
 | Aylien Text Analysis | apiKey | yes | unknown | [`text-analysis/aylien-text-analysis`](../apis/text-analysis/aylien-text-analysis.json) |
-| Audexum | apiKey | yes | yes | [`text-analysis/audexum`](../apis/text-analysis/audexum.json) |
 | Cloudmersive Natural Language Processing | apiKey | yes | yes | [`text-analysis/cloudmersive-natural-language-processing`](../apis/text-analysis/cloudmersive-natural-language-processing.json) |
 | Detect Language | apiKey | yes | unknown | [`text-analysis/detect-language`](../apis/text-analysis/detect-language.json) |
 | ELI | apiKey | yes | unknown | [`text-analysis/eli`](../apis/text-analysis/eli.json) |
@@ -22,4 +21,5 @@
 | Semantria | OAuth | yes | unknown | [`text-analysis/semantria`](../apis/text-analysis/semantria.json) |
 | Sentiment Analysis | apiKey | yes | yes | [`text-analysis/sentiment-analysis`](../apis/text-analysis/sentiment-analysis.json) |
 | Tisane | OAuth | yes | yes | [`text-analysis/tisane`](../apis/text-analysis/tisane.json) |
+| ToHuman | apiKey | yes | unknown | [`text-analysis/tohuman`](../apis/text-analysis/tohuman.json) |
 | Watson Natural Language Understanding | OAuth | yes | unknown | [`text-analysis/watson-natural-language-understanding`](../apis/text-analysis/watson-natural-language-understanding.json) |

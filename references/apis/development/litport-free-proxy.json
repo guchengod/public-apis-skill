@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/litport-free-proxy",
+  "name": "Litport Free Proxy",
+  "category": "Development",
+  "description": "Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation",
+  "documentation_url": "https://litport.net/docs/free-proxy-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "313cae72e09e2429fab8d52c4ef1d26eb924f6b3c71fedc2b1b94814a1297d60"
+  }
+}

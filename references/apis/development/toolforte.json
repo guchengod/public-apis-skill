@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/toolforte",
+  "name": "ToolForte",
+  "category": "Development",
+  "description": "Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays and test data",
+  "documentation_url": "https://toolforte.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__TOOLFORTE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37338431ddd4c410395c5cf4193f3859feaaf9ea7fd09e1906c445c8f234d4ff"
+  }
+}

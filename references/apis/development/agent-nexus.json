@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/agent-nexus",
+  "name": "Agent Nexus",
+  "category": "Development",
+  "description": "Continuously probed registry of APIs, MCP servers and CLIs callable by agents",
+  "documentation_url": "https://agentnexus.app/llms.txt",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37beffaca01ff46c13fe214a9fb8a4da93c54f5824ee76b2e35280a5e128b8b0"
+  }
+}

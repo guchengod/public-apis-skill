@@ -1,10 +1,11 @@
 # Entertainment
 
-17 interfaces. Paths are relative to this catalog file.
+18 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | Anycrap | apiKey | yes | yes | [`entertainment/anycrap`](../apis/entertainment/anycrap.json) |
+| Bucketlist Dream of the Day | No | yes | yes | [`entertainment/bucketlist-dream-of-the-day`](../apis/entertainment/bucketlist-dream-of-the-day.json) |
 | chucknorris.io | No | yes | unknown | [`entertainment/chucknorris-io`](../apis/entertainment/chucknorris-io.json) |
 | Corporate Buzz Words | No | yes | yes | [`entertainment/corporate-buzz-words`](../apis/entertainment/corporate-buzz-words.json) |
 | CosmyDay Astrology | No | yes | yes | [`entertainment/cosmyday-astrology`](../apis/entertainment/cosmyday-astrology.json) |

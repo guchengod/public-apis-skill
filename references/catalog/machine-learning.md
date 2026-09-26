@@ -1,11 +1,12 @@
 # Machine Learning
 
-35 interfaces. Paths are relative to this catalog file.
+38 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | AI Economics Tools | No | yes | yes | [`machine-learning/ai-economics-tools`](../apis/machine-learning/ai-economics-tools.json) |
 | AI For Thai | apiKey | yes | yes | [`machine-learning/ai-for-thai`](../apis/machine-learning/ai-for-thai.json) |
+| Audexum | apiKey | yes | yes | [`machine-learning/audexum`](../apis/machine-learning/audexum.json) |
 | BRAINIALL | apiKey | yes | yes | [`machine-learning/brainiall`](../apis/machine-learning/brainiall.json) |
 | Clarifai | OAuth | yes | unknown | [`machine-learning/clarifai`](../apis/machine-learning/clarifai.json) |
 | Cloudmersive | apiKey | yes | yes | [`machine-learning/cloudmersive`](../apis/machine-learning/cloudmersive.json) |
@@ -28,10 +29,12 @@
 | Machinetutors | apiKey | yes | yes | [`machine-learning/machinetutors`](../apis/machine-learning/machinetutors.json) |
 | MediaCraft AI | apiKey | yes | yes | [`machine-learning/mediacraft-ai`](../apis/machine-learning/mediacraft-ai.json) |
 | MessengerX.io | apiKey | yes | yes | [`machine-learning/messengerx-io`](../apis/machine-learning/messengerx-io.json) |
+| Modelfax | No | yes | yes | [`machine-learning/modelfax`](../apis/machine-learning/modelfax.json) |
 | NLP Cloud | apiKey | yes | unknown | [`machine-learning/nlp-cloud`](../apis/machine-learning/nlp-cloud.json) |
 | Not Human Search | No | yes | yes | [`machine-learning/not-human-search`](../apis/machine-learning/not-human-search.json) |
 | OpenVisionAPI | No | yes | yes | [`machine-learning/openvisionapi`](../apis/machine-learning/openvisionapi.json) |
 | Perspective | apiKey | yes | unknown | [`machine-learning/perspective`](../apis/machine-learning/perspective.json) |
+| Requesty | apiKey | yes | yes | [`machine-learning/requesty`](../apis/machine-learning/requesty.json) |
 | Roboflow Universe | apiKey | yes | yes | [`machine-learning/roboflow-universe`](../apis/machine-learning/roboflow-universe.json) |
 | SkyBiometry | apiKey | yes | unknown | [`machine-learning/skybiometry`](../apis/machine-learning/skybiometry.json) |
 | Statlyte | No | yes | yes | [`machine-learning/statlyte`](../apis/machine-learning/statlyte.json) |

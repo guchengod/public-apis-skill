@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "weather/knmi",
+  "name": "KNMI",
+  "category": "Weather",
+  "description": "Dutch weather, radar and climate data",
+  "documentation_url": "https://developer.dataplatform.knmi.nl/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__WEATHER__KNMI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5ae26cb83a854b1892fae4803a9597bc18a8d7e8a32d53e3a3f62e8cfe4450ca"
+  }
+}

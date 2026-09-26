@@ -4,7 +4,7 @@
   "name": "IUCN",
   "category": "Animals",
   "description": "IUCN Red List of Threatened Species",
-  "documentation_url": "http://apiv3.iucnredlist.org/api/v3/docs",
+  "documentation_url": "https://www.iucnredlist.org/en",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -13,7 +13,7 @@
     "credential_env": "PUBLIC_API__ANIMALS__IUCN__API_KEY"
   },
   "transport": {
-    "https": "no",
+    "https": "yes",
     "cors": "no"
   },
   "request": {
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "99496baf0ded3b6b070aedc154c82797b7d872801fa0a86d7e29488f90dfc17b"
+    "fingerprint": "c0510a4b69c4be5a756fc6de209e2a3c570978e30aa69c3d4bad8b138e407007"
   }
 }

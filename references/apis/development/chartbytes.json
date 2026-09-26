@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/chartbytes",
+  "name": "ChartBytes",
+  "category": "Development",
+  "description": "Chart image API: turn a URL into a PNG or SVG chart (bar, pie, donut, stacked)",
+  "documentation_url": "https://chartbytes.onrender.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "85652dd1a2ca6d747f6fe9e6116a6fa46eafe6315f74bcfbdff3e7def65950ca"
+  }
+}

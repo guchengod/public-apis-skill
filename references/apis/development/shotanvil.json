@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/shotanvil",
+  "name": "Shotanvil",
+  "category": "Development",
+  "description": "Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth",
+  "documentation_url": "https://shotanvil.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SHOTANVIL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "26bddee5afb96c69de58c51e6bcfb9a26f9e1d954b068419a99333c990776f0e"
+  }
+}

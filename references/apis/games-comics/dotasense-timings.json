@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/dotasense-timings",
+  "name": "DotaSense Timings",
+  "category": "Games & Comics",
+  "description": "Reviewed Dota 2 objective timings in JSON and CSV",
+  "documentation_url": "https://dotasense.com/cheat-sheet#timing-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "217bf433d0462dc26d91c46403684e8237f54d441861dc590dfe3e5d6849ec96"
+  }
+}

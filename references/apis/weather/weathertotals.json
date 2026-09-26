@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/weathertotals",
+  "name": "WeatherTotals",
+  "category": "Weather",
+  "description": "Measured US snow, rain, hail and aurora totals by state and city",
+  "documentation_url": "https://weathertotals.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35f30b9a8b815e8c97e8ca8d6545c335abfc7ea04bf44dbc09f88bb7af686368"
+  }
+}

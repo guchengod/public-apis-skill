@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/finance-clearly-tax-rates",
+  "name": "Finance Clearly Tax Rates",
+  "category": "Finance",
+  "description": "Current UK and US tax rates, allowances and thresholds",
+  "documentation_url": "https://financeclearly.com/tax-rates-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5efc3ec1d77cb1e4d5b19e503710bce858132458683baf0cc569819e1a37200f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/polykal-fees",
+  "name": "PolyKal Fees",
+  "category": "Finance",
+  "description": "Kalshi & Polymarket trading fee rates and formulas as verified JSON",
+  "documentation_url": "https://polymarket-kalshi.com/fee-schedule/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "222c087aed6f31c76fb8e1c6cb1282d975c76a87ee64ebdb49596b24866041b1"
+  }
+}

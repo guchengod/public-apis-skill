@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/transparentcars",
+  "name": "TransparentCars",
+  "category": "Vehicle",
+  "description": "Fair-price valuation and yearly road tax (IUC) for used cars in Portugal",
+  "documentation_url": "https://transparent.pt/en/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "18b4ab7578b6210e048ec1c64cbece5072eb81c82a66f3471968900a0c165fde"
+  }
+}

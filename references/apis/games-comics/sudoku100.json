@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/sudoku100",
+  "name": "Sudoku100",
+  "category": "Games & Comics",
+  "description": "Free Sudoku puzzle generation and embedding with images, solver links and interactive games",
+  "documentation_url": "https://www.sudoku100.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0dea2569a13862f7ea7da2cd8defa96ca597c90b83fa37736d7d64730fef985"
+  }
+}

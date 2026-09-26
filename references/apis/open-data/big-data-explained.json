@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/big-data-explained",
+  "name": "Big Data Explained",
+  "category": "Open Data",
+  "description": "Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history",
+  "documentation_url": "https://bigdataexplained.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8f7a7fc6bc0bd68a27637e2e497bcd1a336fb98b28c6a0dcf4876220fbeab5cd"
+  }
+}

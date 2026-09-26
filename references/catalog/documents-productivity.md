@@ -1,6 +1,6 @@
 # Documents & Productivity
 
-38 interfaces. Paths are relative to this catalog file.
+42 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -16,7 +16,9 @@
 | Code::Stats | apiKey | yes | no | [`documents-productivity/code-stats`](../apis/documents-productivity/code-stats.json) |
 | CraftMyPDF | apiKey | yes | no | [`documents-productivity/craftmypdf`](../apis/documents-productivity/craftmypdf.json) |
 | DocStruct | No | yes | yes | [`documents-productivity/docstruct`](../apis/documents-productivity/docstruct.json) |
+| FaturaPDF | apiKey | yes | unknown | [`documents-productivity/faturapdf`](../apis/documents-productivity/faturapdf.json) |
 | Flowdash | apiKey | yes | unknown | [`documents-productivity/flowdash`](../apis/documents-productivity/flowdash.json) |
+| Formfeed | apiKey | yes | no | [`documents-productivity/formfeed`](../apis/documents-productivity/formfeed.json) |
 | Html2PDF | apiKey | yes | unknown | [`documents-productivity/html2pdf`](../apis/documents-productivity/html2pdf.json) |
 | iLovePDF | apiKey | yes | yes | [`documents-productivity/ilovepdf`](../apis/documents-productivity/ilovepdf.json) |
 | JIRA | OAuth | yes | unknown | [`documents-productivity/jira`](../apis/documents-productivity/jira.json) |
@@ -27,10 +29,12 @@
 | OCR.Space | apiKey | yes | unknown | [`documents-productivity/ocr-space`](../apis/documents-productivity/ocr-space.json) |
 | PandaDoc | apiKey | yes | no | [`documents-productivity/pandadoc`](../apis/documents-productivity/pandadoc.json) |
 | PDFFleet | apiKey | yes | yes | [`documents-productivity/pdffleet`](../apis/documents-productivity/pdffleet.json) |
+| PDFMint | apiKey | yes | no | [`documents-productivity/pdfmint`](../apis/documents-productivity/pdfmint.json) |
 | Pocket | OAuth | yes | unknown | [`documents-productivity/pocket`](../apis/documents-productivity/pocket.json) |
 | Podio | OAuth | yes | unknown | [`documents-productivity/podio`](../apis/documents-productivity/podio.json) |
 | PolyDoc | apiKey | yes | unknown | [`documents-productivity/polydoc`](../apis/documents-productivity/polydoc.json) |
 | PrexView | apiKey | yes | unknown | [`documents-productivity/prexview`](../apis/documents-productivity/prexview.json) |
+| PrintSocket | apiKey | yes | no | [`documents-productivity/printsocket`](../apis/documents-productivity/printsocket.json) |
 | Renderly | apiKey | yes | yes | [`documents-productivity/renderly`](../apis/documents-productivity/renderly.json) |
 | Rendex | apiKey | yes | unknown | [`documents-productivity/rendex`](../apis/documents-productivity/rendex.json) |
 | Restpack | apiKey | yes | unknown | [`documents-productivity/restpack`](../apis/documents-productivity/restpack.json) |

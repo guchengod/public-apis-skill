@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/sololuck",
+  "name": "SoloLuck",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin solo mining pool stats, per-address miner stats and an open dataset of solo-mined blocks",
+  "documentation_url": "https://sololuck.io/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a265ad5cecb204ab74abb21d3d2364d30dc2def7eed0a520f2c69aa49bab854"
+  }
+}

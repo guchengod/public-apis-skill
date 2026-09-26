@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/sealed-rose",
+  "name": "Sealed Rose",
+  "category": "Security",
+  "description": "AI media forensics and synthetic content verification for video, audio, image, and text",
+  "documentation_url": "https://sealedrose.com/verify-video",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__SEALED_ROSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4124b93b5084603253a7abf6c3c2a5a08829c7df68f46f8ee61510e77138f2cc"
+  }
+}

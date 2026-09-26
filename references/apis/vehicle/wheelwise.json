@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/wheelwise",
+  "name": "Wheelwise",
+  "category": "Vehicle",
+  "description": "UK used-car listings with fair-price grade, 36-month resale forecast and true monthly cost per advert",
+  "documentation_url": "https://cars.limoja.ai/api/search?q=BMW&limit=1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5067cc85d830591eddd24132da13a38903718ba6a688b9b19d2ecee627383176"
+  }
+}

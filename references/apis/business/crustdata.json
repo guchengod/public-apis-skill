@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/crustdata",
+  "name": "Crustdata",
+  "category": "Business",
+  "description": "People and company data covering profiles, headcount, funding and contacts",
+  "documentation_url": "https://docs.crustdata.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__CRUSTDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b105c8e048b58280bbc8749bb88baf4c466848d5dad8e2dcb33a23f097a4ec9b"
+  }
+}

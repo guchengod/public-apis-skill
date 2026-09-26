@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/remoteok",
+  "name": "RemoteOK",
+  "category": "Jobs",
+  "description": "Remote job board for digital nomads",
+  "documentation_url": "https://remoteok.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b8036c691e189fe3b1e23a49ff29a249b8504cc9a5673e55562fc9192f48a09"
+  }
+}

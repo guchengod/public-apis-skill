@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/slashyear",
+  "name": "SlashYear",
+  "category": "Open Data",
+  "description": "86,902 historical events as JSON, each quoted from a cited Wikipedia revision",
+  "documentation_url": "https://slashyear.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8cfa0de69a27bda0c1441af88e30d628ffff2eb7f72329258a99f600834fdad2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/parlay",
+  "name": "Parlay",
+  "category": "Sports & Fitness",
+  "description": "Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports",
+  "documentation_url": "https://parlay-api.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PARLAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e7466c81e9bb5112fce99d33b183c949903cc11d95623d0d21b0294e166ca43"
+  }
+}

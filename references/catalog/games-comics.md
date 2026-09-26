@@ -1,6 +1,6 @@
 # Games & Comics
 
-101 interfaces. Paths are relative to this catalog file.
+107 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | Digimon TCG | No | yes | unknown | [`games-comics/digimon-tcg`](../apis/games-comics/digimon-tcg.json) |
 | Disney | No | yes | yes | [`games-comics/disney`](../apis/games-comics/disney.json) |
 | Dota 2 | apiKey | yes | unknown | [`games-comics/dota-2`](../apis/games-comics/dota-2.json) |
+| DotaSense Timings | No | yes | yes | [`games-comics/dotasense-timings`](../apis/games-comics/dotasense-timings.json) |
 | Dungeons and Dragons | No | no | no | [`games-comics/dungeons-and-dragons`](../apis/games-comics/dungeons-and-dragons.json) |
 | Dungeons and Dragons (Alternate) | No | yes | yes | [`games-comics/dungeons-and-dragons-alternate`](../apis/games-comics/dungeons-and-dragons-alternate.json) |
 | Eve Online | OAuth | yes | unknown | [`games-comics/eve-online`](../apis/games-comics/eve-online.json) |
@@ -47,6 +48,7 @@
 | GraphQL Pokemon | No | yes | yes | [`games-comics/graphql-pokemon`](../apis/games-comics/graphql-pokemon.json) |
 | Guild Wars 2 | apiKey | yes | unknown | [`games-comics/guild-wars-2`](../apis/games-comics/guild-wars-2.json) |
 | GW2Spidy | No | yes | unknown | [`games-comics/gw2spidy`](../apis/games-comics/gw2spidy.json) |
+| GZW Data | No | yes | yes | [`games-comics/gzw-data`](../apis/games-comics/gzw-data.json) |
 | Halo | apiKey | yes | unknown | [`games-comics/halo`](../apis/games-comics/halo.json) |
 | Hearthstone | X-Mashape-Key | yes | unknown | [`games-comics/hearthstone`](../apis/games-comics/hearthstone.json) |
 | Humble Bundle | apiKey | yes | unknown | [`games-comics/humble-bundle`](../apis/games-comics/humble-bundle.json) |
@@ -59,6 +61,7 @@
 | Jokes One | apiKey | yes | yes | [`games-comics/jokes-one`](../apis/games-comics/jokes-one.json) |
 | Jservice | No | no | unknown | [`games-comics/jservice`](../apis/games-comics/jservice.json) |
 | KrakenKeys | apiKey | yes | no | [`games-comics/krakenkeys`](../apis/games-comics/krakenkeys.json) |
+| L2 Calendar | No | yes | yes | [`games-comics/l2-calendar`](../apis/games-comics/l2-calendar.json) |
 | Lichess | OAuth | yes | unknown | [`games-comics/lichess`](../apis/games-comics/lichess.json) |
 | Magic The Gathering | No | no | unknown | [`games-comics/magic-the-gathering`](../apis/games-comics/magic-the-gathering.json) |
 | Mario Kart Tour | OAuth | yes | unknown | [`games-comics/mario-kart-tour`](../apis/games-comics/mario-kart-tour.json) |
@@ -89,7 +92,9 @@
 | RuneScape | No | yes | no | [`games-comics/runescape`](../apis/games-comics/runescape.json) |
 | Sakura CardCaptor | No | yes | unknown | [`games-comics/sakura-cardcaptor`](../apis/games-comics/sakura-cardcaptor.json) |
 | Scryfall | No | yes | yes | [`games-comics/scryfall`](../apis/games-comics/scryfall.json) |
+| SeedFinder | No | yes | yes | [`games-comics/seedfinder`](../apis/games-comics/seedfinder.json) |
 | SpaceTradersAPI | OAuth | yes | yes | [`games-comics/spacetradersapi`](../apis/games-comics/spacetradersapi.json) |
+| Sudoku100 | No | yes | unknown | [`games-comics/sudoku100`](../apis/games-comics/sudoku100.json) |
 | Steam | apiKey | yes | no | [`games-comics/steam--9eeeefa3`](../apis/games-comics/steam--9eeeefa3.json) |
 | Steam | No | yes | no | [`games-comics/steam--f0c91bee`](../apis/games-comics/steam--f0c91bee.json) |
 | SteamGPT | No | yes | yes | [`games-comics/steamgpt`](../apis/games-comics/steamgpt.json) |
@@ -103,5 +108,6 @@
 | Warface (non-official) | No | yes | no | [`games-comics/warface-non-official`](../apis/games-comics/warface-non-official.json) |
 | Wargaming.net | apiKey | yes | no | [`games-comics/wargaming-net`](../apis/games-comics/wargaming-net.json) |
 | When is next MCU film | No | yes | unknown | [`games-comics/when-is-next-mcu-film`](../apis/games-comics/when-is-next-mcu-film.json) |
+| Worth the Rip | No | yes | yes | [`games-comics/worth-the-rip`](../apis/games-comics/worth-the-rip.json) |
 | xkcd | No | yes | no | [`games-comics/xkcd`](../apis/games-comics/xkcd.json) |
 | Yu-Gi-Oh! | No | yes | unknown | [`games-comics/yu-gi-oh`](../apis/games-comics/yu-gi-oh.json) |

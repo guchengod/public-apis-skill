@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/railworks",
+  "name": "Railworks",
+  "category": "Transportation",
+  "description": "Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds",
+  "documentation_url": "https://railworks.paddez.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13c76d736b929020b666fe22e155d7c7c39b4c3e5e157850675eb1ea1098e94d"
+  }
+}

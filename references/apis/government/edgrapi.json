@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/edgrapi",
+  "name": "Edgrapi",
+  "category": "Government",
+  "description": "US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants",
+  "documentation_url": "https://edgrapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__EDGRAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e99dff53c247b8844ccd03bca23c8350236f499dd6ffecd59834d53fc664c5c"
+  }
+}

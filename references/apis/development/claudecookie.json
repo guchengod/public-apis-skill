@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/claudecookie",
+  "name": "claudecookie",
+  "category": "Development",
+  "description": "Convert cookie formats, check Claude sessions and generate Claude Code credentials",
+  "documentation_url": "https://claudecookie.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b41f8abaf4516d7fe2708c8389f8a9923bcaa243b9b33064f05b8883583fc390"
+  }
+}

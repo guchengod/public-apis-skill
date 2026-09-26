@@ -1,6 +1,6 @@
 # Social
 
-50 interfaces. Paths are relative to this catalog file.
+54 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -32,6 +32,7 @@
 | Open Collective | No | yes | unknown | [`social/open-collective`](../apis/social/open-collective.json) |
 | Pinterest | OAuth | yes | unknown | [`social/pinterest`](../apis/social/pinterest.json) |
 | PostLake | apiKey | yes | no | [`social/postlake`](../apis/social/postlake.json) |
+| Postproxy | apiKey | yes | no | [`social/postproxy`](../apis/social/postproxy.json) |
 | Product Hunt | OAuth | yes | unknown | [`social/product-hunt`](../apis/social/product-hunt.json) |
 | Publora | apiKey | yes | no | [`social/publora`](../apis/social/publora.json) |
 | Reddit | OAuth | yes | unknown | [`social/reddit`](../apis/social/reddit.json) |
@@ -39,13 +40,16 @@
 | Revolt | apiKey | yes | unknown | [`social/revolt`](../apis/social/revolt.json) |
 | Saidit | OAuth | yes | unknown | [`social/saidit`](../apis/social/saidit.json) |
 | Slack | OAuth | yes | unknown | [`social/slack`](../apis/social/slack.json) |
+| SocialCrawl | apiKey | yes | yes | [`social/socialcrawl`](../apis/social/socialcrawl.json) |
 | SocialSwarm | apiKey | yes | no | [`social/socialswarm`](../apis/social/socialswarm.json) |
+| SwarmMemo | No | yes | yes | [`social/swarmmemo`](../apis/social/swarmmemo.json) |
 | TamTam | apiKey | yes | unknown | [`social/tamtam`](../apis/social/tamtam.json) |
 | Telegram Bot | apiKey | yes | unknown | [`social/telegram-bot`](../apis/social/telegram-bot.json) |
 | Telegram MTProto | OAuth | yes | unknown | [`social/telegram-mtproto`](../apis/social/telegram-mtproto.json) |
 | Telegraph | apiKey | yes | unknown | [`social/telegraph`](../apis/social/telegraph.json) |
 | TikTok | OAuth | yes | unknown | [`social/tiktok`](../apis/social/tiktok.json) |
 | Trash Nothing | OAuth | yes | yes | [`social/trash-nothing`](../apis/social/trash-nothing.json) |
+| TrendsMCP | apiKey | yes | unknown | [`social/trendsmcp`](../apis/social/trendsmcp.json) |
 | Tumblr | OAuth | yes | unknown | [`social/tumblr`](../apis/social/tumblr.json) |
 | TweetAPI | apiKey | yes | no | [`social/tweetapi`](../apis/social/tweetapi.json) |
 | Twitch | OAuth | yes | unknown | [`social/twitch`](../apis/social/twitch.json) |

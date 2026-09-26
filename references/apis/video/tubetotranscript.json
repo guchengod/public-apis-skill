@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/tubetotranscript",
+  "name": "TubeToTranscript",
+  "category": "Video",
+  "description": "Extract clean YouTube video transcripts via REST API",
+  "documentation_url": "https://www.tubetotranscript.com/youtube-transcript-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__TUBETOTRANSCRIPT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "025cca9235f1365150a8e04a5c2ae3dae6413aaab123395a1ade5d1f2da9e2e5"
+  }
+}

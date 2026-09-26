@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/api-mint",
+  "name": "api-mint",
+  "category": "Currency Exchange",
+  "description": "Free utility APIs: timezone, forex rates, crypto prices, page metadata",
+  "documentation_url": "https://api-mint.hoiwan.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3dae9a60accc1a604c103a4c3f54680c2036cbd61ac49dfaa78c3f58f6842d75"
+  }
+}

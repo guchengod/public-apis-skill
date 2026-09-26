@@ -1,6 +1,6 @@
 # Finance
 
-60 interfaces. Paths are relative to this catalog file.
+80 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -10,6 +10,7 @@
 | Alpha Vantage | apiKey | yes | unknown | [`finance/alpha-vantage`](../apis/finance/alpha-vantage.json) |
 | Banco do Brasil | OAuth | yes | yes | [`finance/banco-do-brasil`](../apis/finance/banco-do-brasil.json) |
 | Bank Data | apiKey | yes | unknown | [`finance/bank-data`](../apis/finance/bank-data.json) |
+| Banking Access Index | No | yes | yes | [`finance/banking-access-index`](../apis/finance/banking-access-index.json) |
 | Billplz | apiKey | yes | unknown | [`finance/billplz`](../apis/finance/billplz.json) |
 | Binlist | No | yes | unknown | [`finance/binlist`](../apis/finance/binlist.json) |
 | Boleto.Cloud | apiKey | yes | unknown | [`finance/boleto-cloud`](../apis/finance/boleto-cloud.json) |
@@ -17,34 +18,47 @@
 | Citi | apiKey | yes | unknown | [`finance/citi`](../apis/finance/citi.json) |
 | CongressInvests | apiKey | yes | yes | [`finance/congressinvests`](../apis/finance/congressinvests.json) |
 | Dino.markets | apiKey | yes | no | [`finance/dino-markets`](../apis/finance/dino-markets.json) |
+| Drillr | apiKey | yes | no | [`finance/drillr`](../apis/finance/drillr.json) |
 | Econdb | No | yes | yes | [`finance/econdb`](../apis/finance/econdb.json) |
 | EconPulse | apiKey | yes | yes | [`finance/econpulse`](../apis/finance/econpulse.json) |
-| Edgrapi | apiKey | yes | unknown | [`finance/edgrapi`](../apis/finance/edgrapi.json) |
+| EOD Historical Data | apiKey | yes | yes | [`finance/eod-historical-data`](../apis/finance/eod-historical-data.json) |
+| EstimateTax | No | yes | yes | [`finance/estimatetax`](../apis/finance/estimatetax.json) |
+| FarmDash | apiKey | yes | yes | [`finance/farmdash`](../apis/finance/farmdash.json) |
 | Fed Treasury | No | yes | unknown | [`finance/fed-treasury`](../apis/finance/fed-treasury.json) |
 | Filingrail | apiKey | yes | unknown | [`finance/filingrail`](../apis/finance/filingrail.json) |
 | Finage | apiKey | yes | unknown | [`finance/finage`](../apis/finance/finage.json) |
+| Finance Clearly Tax Rates | No | yes | yes | [`finance/finance-clearly-tax-rates`](../apis/finance/finance-clearly-tax-rates.json) |
 | Financial Modeling Prep | apiKey | yes | unknown | [`finance/financial-modeling-prep`](../apis/finance/financial-modeling-prep.json) |
+| FinBridge | apiKey | yes | yes | [`finance/finbridge`](../apis/finance/finbridge.json) |
 | Finnhub | apiKey | yes | unknown | [`finance/finnhub`](../apis/finance/finnhub.json) |
 | FRED | apiKey | yes | yes | [`finance/fred`](../apis/finance/fred.json) |
 | Front Accounting APIs | OAuth | yes | yes | [`finance/front-accounting-apis`](../apis/finance/front-accounting-apis.json) |
+| Futures Clock | No | yes | yes | [`finance/futures-clock`](../apis/finance/futures-clock.json) |
+| FXNewsBias | apiKey | yes | yes | [`finance/fxnewsbias`](../apis/finance/fxnewsbias.json) |
 | Goldprice.dev | No | yes | unknown | [`finance/goldprice-dev`](../apis/finance/goldprice-dev.json) |
 | Halal Terminal | apiKey | yes | yes | [`finance/halal-terminal`](../apis/finance/halal-terminal.json) |
+| Helious | No | yes | yes | [`finance/helious`](../apis/finance/helious.json) |
 | Helium | No | yes | yes | [`finance/helium`](../apis/finance/helium.json) |
 | Hotstoks | apiKey | yes | yes | [`finance/hotstoks`](../apis/finance/hotstoks.json) |
+| IBAN Analyzer | No | yes | yes | [`finance/iban-analyzer`](../apis/finance/iban-analyzer.json) |
 | IBANforge | apiKey | yes | no | [`finance/ibanforge`](../apis/finance/ibanforge.json) |
 | IEX Cloud | apiKey | yes | yes | [`finance/iex-cloud`](../apis/finance/iex-cloud.json) |
 | IG | apiKey | yes | unknown | [`finance/ig`](../apis/finance/ig.json) |
 | Indian Mutual Fund | No | yes | unknown | [`finance/indian-mutual-fund`](../apis/finance/indian-mutual-fund.json) |
 | Intrinio | apiKey | yes | unknown | [`finance/intrinio`](../apis/finance/intrinio.json) |
 | Klarna | apiKey | yes | unknown | [`finance/klarna`](../apis/finance/klarna.json) |
+| KmalServico Gold Price Dataset | No | yes | no | [`finance/kmalservico-gold-price-dataset`](../apis/finance/kmalservico-gold-price-dataset.json) |
+| LiquiLens | No | yes | yes | [`finance/liquilens`](../apis/finance/liquilens.json) |
 | MercadoPago | apiKey | yes | unknown | [`finance/mercadopago`](../apis/finance/mercadopago.json) |
 | Mono | apiKey | yes | unknown | [`finance/mono`](../apis/finance/mono.json) |
 | Moov | apiKey | yes | unknown | [`finance/moov`](../apis/finance/moov.json) |
 | NORTH7 Agent | apiKey | yes | yes | [`finance/north7-agent`](../apis/finance/north7-agent.json) |
 | Nordigen | apiKey | yes | unknown | [`finance/nordigen`](../apis/finance/nordigen.json) |
 | OpenFIGI | apiKey | yes | yes | [`finance/openfigi`](../apis/finance/openfigi.json) |
+| PIT Financial State | apiKey | yes | unknown | [`finance/pit-financial-state`](../apis/finance/pit-financial-state.json) |
 | Plaid | apiKey | yes | unknown | [`finance/plaid`](../apis/finance/plaid.json) |
 | Polygon | apiKey | yes | unknown | [`finance/polygon`](../apis/finance/polygon.json) |
+| PolyKal Fees | No | yes | yes | [`finance/polykal-fees`](../apis/finance/polykal-fees.json) |
 | Portfolio Optimizer | No | yes | yes | [`finance/portfolio-optimizer`](../apis/finance/portfolio-optimizer.json) |
 | Razorpay IFSC | No | yes | unknown | [`finance/razorpay-ifsc`](../apis/finance/razorpay-ifsc.json) |
 | Real Time Finance | apiKey | no | unknown | [`finance/real-time-finance`](../apis/finance/real-time-finance.json) |
@@ -54,12 +68,18 @@
 | StockFit | apiKey | yes | yes | [`finance/stockfit`](../apis/finance/stockfit.json) |
 | Styvio | apiKey | yes | unknown | [`finance/styvio`](../apis/finance/styvio.json) |
 | Sugra | apiKey | yes | yes | [`finance/sugra`](../apis/finance/sugra.json) |
+| Sales Tax Calculator | apiKey | yes | yes | [`finance/sales-tax-calculator`](../apis/finance/sales-tax-calculator.json) |
 | Tax Data | apiKey | yes | unknown | [`finance/tax-data`](../apis/finance/tax-data.json) |
+| TickerLayer | apiKey | yes | unknown | [`finance/tickerlayer`](../apis/finance/tickerlayer.json) |
 | Top 5 Stocks | No | yes | unknown | [`finance/top-5-stocks`](../apis/finance/top-5-stocks.json) |
 | Tradier | OAuth | yes | yes | [`finance/tradier`](../apis/finance/tradier.json) |
 | Twelve Data | apiKey | yes | unknown | [`finance/twelve-data`](../apis/finance/twelve-data.json) |
+| US Mortgage Calculator | No | yes | yes | [`finance/us-mortgage-calculator`](../apis/finance/us-mortgage-calculator.json) |
 | VAT Validation | apiKey | yes | yes | [`finance/vat-validation`](../apis/finance/vat-validation.json) |
+| VoxOdds | No | yes | no | [`finance/voxodds`](../apis/finance/voxodds.json) |
 | WallstreetBets | No | yes | unknown | [`finance/wallstreetbets`](../apis/finance/wallstreetbets.json) |
+| XFINLAB | apiKey | yes | unknown | [`finance/xfinlab`](../apis/finance/xfinlab.json) |
+| XOOMAR | No | yes | yes | [`finance/xoomar`](../apis/finance/xoomar.json) |
 | Yahoo Finance | apiKey | yes | yes | [`finance/yahoo-finance`](../apis/finance/yahoo-finance.json) |
 | YNAB | OAuth | yes | yes | [`finance/ynab`](../apis/finance/ynab.json) |
 | Zelothorn | No | yes | yes | [`finance/zelothorn`](../apis/finance/zelothorn.json) |

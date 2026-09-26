@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/fxnewsbias",
+  "name": "FXNewsBias",
+  "category": "Finance",
+  "description": "AI-scored news sentiment for the 8 major forex currencies, refreshed every 3 hours",
+  "documentation_url": "https://fxnewsbias.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FXNEWSBIAS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a7ded5154be99a10a2699a0693b5fd6d4763ac32170ab6c7dc34d3aefad809d"
+  }
+}

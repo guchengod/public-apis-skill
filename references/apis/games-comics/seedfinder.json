@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/seedfinder",
+  "name": "SeedFinder",
+  "category": "Games & Comics",
+  "description": "Minecraft Bedrock structures prediction",
+  "documentation_url": "https://mineseedfinder.vercel.app/seedfinder",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9dc26584d4d8a57ed54afea1b8abde06c2e417d1ad35fdfc3e1d6faea711ff01"
+  }
+}

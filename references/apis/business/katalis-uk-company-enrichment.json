@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/katalis-uk-company-enrichment",
+  "name": "Katalis UK Company Enrichment",
+  "category": "Business",
+  "description": "Verified UK company profiles with an AI summary and accuracy score, from Companies House data",
+  "documentation_url": "https://meetkatalis.com/apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__KATALIS_UK_COMPANY_ENRICHMENT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "38d88d69a4ae4f24e98471f4719b9b1748144ff373b5c1c969fc2eee3b2eb6db"
+  }
+}

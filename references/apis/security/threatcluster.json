@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/threatcluster",
+  "name": "ThreatCluster",
+  "category": "Security",
+  "description": "Threat intelligence: incident clusters, validated IOCs, CVEs, ransomware leak-site victims",
+  "documentation_url": "https://threatcluster.io/api/public/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__THREATCLUSTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eca5a1960162b176112317062717cf69363c2c0c045031162da6edabcf3242cb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/qiuxiaoce-football",
+  "name": "QiuXiaoCe Football",
+  "category": "Sports & Fitness",
+  "description": "Football teams, leagues, standings, scorers and match intelligence data",
+  "documentation_url": "https://www.qiuxiaoce.com/data-docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f510feae92ed61df31b06bab7021ce815795ea9578b3f021b9bcaee400d41ad"
+  }
+}
