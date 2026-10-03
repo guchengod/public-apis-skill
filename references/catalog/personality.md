@@ -1,6 +1,6 @@
 # Personality
 
-25 interfaces. Paths are relative to this catalog file.
+26 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@
 | kimiquotes | No | yes | yes | [`personality/kimiquotes`](../apis/personality/kimiquotes.json) |
 | Medium | OAuth | yes | unknown | [`personality/medium`](../apis/personality/medium.json) |
 | Personality.fyi | No | yes | yes | [`personality/personality-fyi`](../apis/personality/personality-fyi.json) |
+| PositiveQuotation | No | yes | yes | [`personality/positivequotation`](../apis/personality/positivequotation.json) |
 | Programming Quotes | No | yes | unknown | [`personality/programming-quotes`](../apis/personality/programming-quotes.json) |
 | Quotable Quotes | No | yes | unknown | [`personality/quotable-quotes`](../apis/personality/quotable-quotes.json) |
 | Quote Garden | No | yes | unknown | [`personality/quote-garden`](../apis/personality/quote-garden.json) |

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/statorigin",
+  "name": "StatOrigin",
+  "category": "Open Data",
+  "description": "Industry statistics, each traced to its primary source with a verbatim quote, CC BY 4.0",
+  "documentation_url": "https://statorigin.org/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c48d44521e810919dba38483ce93cc7f384f765d38e55a0ca47b451ffc0900c1"
+  }
+}

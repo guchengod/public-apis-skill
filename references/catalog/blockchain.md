@@ -1,6 +1,6 @@
 # Blockchain
 
-15 interfaces. Paths are relative to this catalog file.
+16 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -15,6 +15,7 @@
 | Helium | No | yes | unknown | [`blockchain/helium`](../apis/blockchain/helium.json) |
 | Nownodes | apiKey | yes | unknown | [`blockchain/nownodes`](../apis/blockchain/nownodes.json) |
 | Steem | No | no | no | [`blockchain/steem`](../apis/blockchain/steem.json) |
+| SwiftNodes | apiKey | yes | yes | [`blockchain/swiftnodes`](../apis/blockchain/swiftnodes.json) |
 | TWZRD Agent Intel | No | yes | yes | [`blockchain/twzrd-agent-intel`](../apis/blockchain/twzrd-agent-intel.json) |
 | The Graph | apiKey | yes | unknown | [`blockchain/the-graph`](../apis/blockchain/the-graph.json) |
 | Walltime | No | yes | unknown | [`blockchain/walltime`](../apis/blockchain/walltime.json) |

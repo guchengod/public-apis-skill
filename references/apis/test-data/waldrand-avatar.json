@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/waldrand-avatar",
+  "name": "Waldrand Avatar",
+  "category": "Test Data",
+  "description": "Deterministic SVG/PNG/WebP avatars from any string, four styles",
+  "documentation_url": "https://avatar.waldrand.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "366940bd41eb8cf1f7ffed48715278b837957d3c2f3a088403b55fe6a224012a"
+  }
+}

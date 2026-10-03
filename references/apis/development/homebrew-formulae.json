@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/homebrew-formulae",
+  "name": "Homebrew Formulae",
+  "category": "Development",
+  "description": "Package and cask data for the Homebrew package manager",
+  "documentation_url": "https://formulae.brew.sh/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b422226afd931933f0f4761904e6050eeb5a5387d0044a399422fb1ecd0704e8"
+  }
+}

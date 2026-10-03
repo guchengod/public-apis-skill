@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/lightdrift",
+  "name": "Lightdrift",
+  "category": "Photography",
+  "description": "Search 1.85M openly licensed images by text or image, with license and attribution per result",
+  "documentation_url": "https://docs.lightdrift.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__LIGHTDRIFT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c9bfd3019dc4d456af37a803b028fcb2e3e3b5cea481a084f419d4a56b23f2ee"
+  }
+}

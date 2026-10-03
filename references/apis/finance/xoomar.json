@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/xoomar",
+  "name": "XOOMAR",
+  "category": "Finance",
+  "description": "US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest",
+  "documentation_url": "https://xoomar.com/markets/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b692e2770ba03cecf7eec9611e66dd36027e2bffca079607d4c21376146a1919"
+  }
+}

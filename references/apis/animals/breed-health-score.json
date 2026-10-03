@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "animals/breed-health-score",
+  "name": "Breed Health Score",
+  "category": "Animals",
+  "description": "Dog breed health scores, median lifespans and conditions",
+  "documentation_url": "https://breedhealthscore.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc123a7903875463ef7395df433fad69bf63f8a89bc6209c51867b5c12fff523"
+  }
+}

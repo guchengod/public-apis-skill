@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/rankfabrik-jobs",
+  "name": "RankFabrik Jobs",
+  "category": "Jobs",
+  "description": "Aggregated job postings search, deduplicated on identifier, with coverage per segment",
+  "documentation_url": "https://rankfabrik.com/produits/emplois",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__RANKFABRIK_JOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b309fb52b2c840912e6d2d154a31bbe51e49efd61727d5de8a63bd9e86bb1a4b"
+  }
+}

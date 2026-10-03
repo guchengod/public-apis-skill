@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/face-shape-guide-lookup",
+  "name": "Face Shape Guide Lookup",
+  "category": "Art & Design",
+  "description": "Read-only lookup for published face-shape guide records",
+  "documentation_url": "https://myfaceshapechart.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9192d09412b63a16776981418e71650d578bbc90de261729e2347940f04e5e69"
+  }
+}

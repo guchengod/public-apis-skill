@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/smklog",
+  "name": "SMKlog",
+  "category": "Transportation",
+  "description": "Live parcel shipping rates and labels from a plain-words item description",
+  "documentation_url": "https://smklog.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "110767ced8f2a591c32c294f458b77703d69fab36cd6d64f80937243eaf63c04"
+  }
+}

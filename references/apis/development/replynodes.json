@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/replynodes",
+  "name": "ReplyNodes",
+  "category": "Development",
+  "description": "Convert a public web page into clean Markdown",
+  "documentation_url": "https://replynodes.com/markdown-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "161cacf45548bdd756f52661b1f0930281bfea72b1589cab5a9d11d18625ce50"
+  }
+}

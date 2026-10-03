@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/wordsohard",
+  "name": "WordSoHard",
+  "category": "Dictionaries",
+  "description": "Word definitions with Scrabble validity and tile score in one call, built for word games",
+  "documentation_url": "https://wordsohard.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4e31df7923f8f46dcebc6ec9093d4dfa583f7ecf21879956aa1cb3afd6fefc1b"
+  }
+}

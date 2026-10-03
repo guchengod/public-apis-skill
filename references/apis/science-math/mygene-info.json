@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/mygene-info",
+  "name": "MyGene.info",
+  "category": "Science & Math",
+  "description": "Gene annotation queries and ID lookup",
+  "documentation_url": "https://docs.mygene.info/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "abdc981d79b5ade2783f6d49519aa8ebdbd63506ea4d103b254d9168a128d72c"
+  }
+}

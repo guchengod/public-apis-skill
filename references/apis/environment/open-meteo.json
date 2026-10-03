@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/open-meteo",
+  "name": "Open-Meteo",
+  "category": "Environment",
+  "description": "Free weather API for non-commercial use",
+  "documentation_url": "https://open-meteo.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a2953048ed81f37d7b5937da784b5dcba7f04f8e8f34725a243b8643b65f94f"
+  }
+}

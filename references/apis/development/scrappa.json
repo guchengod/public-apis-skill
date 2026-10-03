@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrappa",
+  "name": "Scrappa",
+  "category": "Development",
+  "description": "Google Search, Maps, Jobs, YouTube and review site results as structured JSON",
+  "documentation_url": "https://scrappa.co/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPPA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "810c10a0356dc5e02013703811d7d9615b8f57512d9e36b7e0f8fba7e856bbc7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/eurovalidate",
+  "name": "EuroValidate",
+  "category": "Business",
+  "description": "EU VAT (VIES), IBAN and EORI validation with company name & address lookup",
+  "documentation_url": "https://eurovalidate.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__EUROVALIDATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecce60e50b945490346cc603b9096d91ba0162ef3d3085a19399fda87d25e059"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/urlpipe",
+  "name": "URLpipe",
+  "category": "Development",
+  "description": "Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome",
+  "documentation_url": "https://urlpipe.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__URLPIPE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fdc551f74b5be0aef10be9cd1afd5e5712623ee503e1467ab57cfcf020dffb21"
+  }
+}

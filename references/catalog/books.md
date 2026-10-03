@@ -1,6 +1,6 @@
 # Books
 
-25 interfaces. Paths are relative to this catalog file.
+26 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -14,6 +14,7 @@
 | Crossref Metadata Search | No | yes | unknown | [`books/crossref-metadata-search`](../apis/books/crossref-metadata-search.json) |
 | Ganjoor | OAuth | yes | yes | [`books/ganjoor`](../apis/books/ganjoor.json) |
 | Google Books | OAuth | yes | unknown | [`books/google-books`](../apis/books/google-books.json) |
+| Greenlit Books | No | yes | yes | [`books/greenlit-books`](../apis/books/greenlit-books.json) |
 | GurbaniNow | No | yes | unknown | [`books/gurbaninow`](../apis/books/gurbaninow.json) |
 | Gutendex | No | yes | unknown | [`books/gutendex`](../apis/books/gutendex.json) |
 | KDP Intelligence | No | yes | yes | [`books/kdp-intelligence`](../apis/books/kdp-intelligence.json) |

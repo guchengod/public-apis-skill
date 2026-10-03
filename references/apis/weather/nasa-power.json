@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/nasa-power",
+  "name": "NASA POWER",
+  "category": "Weather",
+  "description": "Global solar and weather data for energy and agriculture",
+  "documentation_url": "https://power.larc.nasa.gov/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b58c5763170898d72d67f5fcd023f12d124bf3e815318c3690dbfb72af7b679c"
+  }
+}

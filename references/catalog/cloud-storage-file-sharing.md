@@ -1,6 +1,6 @@
 # Cloud Storage & File Sharing
 
-18 interfaces. Paths are relative to this catalog file.
+19 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -19,6 +19,7 @@
 | Pastebin | apiKey | yes | unknown | [`cloud-storage-file-sharing/pastebin`](../apis/cloud-storage-file-sharing/pastebin.json) |
 | Pinata | apiKey | yes | unknown | [`cloud-storage-file-sharing/pinata`](../apis/cloud-storage-file-sharing/pinata.json) |
 | Quip | apiKey | yes | yes | [`cloud-storage-file-sharing/quip`](../apis/cloud-storage-file-sharing/quip.json) |
+| Revdoku | apiKey | yes | unknown | [`cloud-storage-file-sharing/revdoku`](../apis/cloud-storage-file-sharing/revdoku.json) |
 | Storj | apiKey | yes | unknown | [`cloud-storage-file-sharing/storj`](../apis/cloud-storage-file-sharing/storj.json) |
 | The Null Pointer | No | yes | unknown | [`cloud-storage-file-sharing/the-null-pointer`](../apis/cloud-storage-file-sharing/the-null-pointer.json) |
 | Web3 Storage | apiKey | yes | yes | [`cloud-storage-file-sharing/web3-storage`](../apis/cloud-storage-file-sharing/web3-storage.json) |

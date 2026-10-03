@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/daleelak",
+  "name": "Daleelak",
+  "category": "Currency Exchange",
+  "description": "Egyptian bank and dealer exchange rates, gold and silver prices",
+  "documentation_url": "https://getdaleelak.com/en/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7dae6f48c6f19745c6db4d7fe560aeecc3b92eb8f1f783e6975a76004b6fd135"
+  }
+}

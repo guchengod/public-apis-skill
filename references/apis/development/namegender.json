@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/namegender",
+  "name": "NameGender",
+  "category": "Development",
+  "description": "Gender from a first name, full name, email or username, with probability",
+  "documentation_url": "https://namegender.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__NAMEGENDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "78c19f3dbee6e7ba871595c0ec7784a0c1f8ecaedf20c43e6d9ffecbb47b93c5"
+  }
+}

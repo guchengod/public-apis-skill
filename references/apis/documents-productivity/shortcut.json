@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/shortcut",
+  "name": "Shortcut",
+  "category": "Documents & Productivity",
+  "description": "Manage stories, epics, iterations and objectives in a Shortcut workspace",
+  "documentation_url": "https://developer.shortcut.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__SHORTCUT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "787f19e1e2d688655cc681fa24208e3a12868bd52840234aa4d80abf8b11bc62"
+  }
+}

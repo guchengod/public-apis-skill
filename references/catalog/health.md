@@ -1,6 +1,6 @@
 # Health
 
-37 interfaces. Paths are relative to this catalog file.
+42 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -22,8 +22,10 @@
 | COVID-ID | No | yes | yes | [`health/covid-id`](../apis/health/covid-id.json) |
 | Cure Cancer With AI | apiKey | yes | no | [`health/cure-cancer-with-ai`](../apis/health/cure-cancer-with-ai.json) |
 | Dataflow Kit COVID-19 | No | yes | unknown | [`health/dataflow-kit-covid-19`](../apis/health/dataflow-kit-covid-19.json) |
+| DeepDNA | No | yes | yes | [`health/deepdna`](../apis/health/deepdna.json) |
 | Edamam | apiKey | yes | unknown | [`health/edamam`](../apis/health/edamam.json) |
 | ERstat | apiKey | yes | yes | [`health/erstat`](../apis/health/erstat.json) |
+| FindSaunaPlunge | No | yes | yes | [`health/findsaunaplunge`](../apis/health/findsaunaplunge.json) |
 | FoodData Central | apiKey | yes | unknown | [`health/fooddata-central`](../apis/health/fooddata-central.json) |
 | Healthcare.gov | No | yes | unknown | [`health/healthcare-gov`](../apis/health/healthcare-gov.json) |
 | Humanitarian Data Exchange | No | yes | unknown | [`health/humanitarian-data-exchange`](../apis/health/humanitarian-data-exchange.json) |
@@ -41,3 +43,6 @@
 | openFDA | apiKey | yes | unknown | [`health/openfda`](../apis/health/openfda.json) |
 | Orion Health | OAuth | yes | unknown | [`health/orion-health`](../apis/health/orion-health.json) |
 | Quarantine | No | yes | yes | [`health/quarantine`](../apis/health/quarantine.json) |
+| Stanza DSCSA Verifier | apiKey | yes | no | [`health/stanza-dscsa-verifier`](../apis/health/stanza-dscsa-verifier.json) |
+| Stanza UDI Decoder | apiKey | yes | no | [`health/stanza-udi-decoder`](../apis/health/stanza-udi-decoder.json) |
+| Urgences Québec | No | yes | yes | [`health/urgences-quebec`](../apis/health/urgences-quebec.json) |

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/49-gallery-historical-data",
+  "name": "49 Gallery Historical Data",
+  "category": "Open Data",
+  "description": "Normalized historical records and 25 daily-updated reference series",
+  "documentation_url": "https://api.181649.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29d5667c1ef5cad8a7355ace582cef68d800bd79ef3bdedce55d6b991cfe7b64"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/livetrafficcam",
+  "name": "LiveTrafficCam",
+  "category": "Transportation",
+  "description": "Live US state DOT traffic cameras with verified live status and measured uptime",
+  "documentation_url": "https://bzsasson.github.io/traffic-camera-sources/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da13538dd070d2cabe5fe0f3bfd26cf9415a8b6e0e871587568769dbb466790c"
+  }
+}

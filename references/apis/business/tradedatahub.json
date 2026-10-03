@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/tradedatahub",
+  "name": "TradeDataHub",
+  "category": "Business",
+  "description": "U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews",
+  "documentation_url": "https://www.tradedatahub.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36098c758280b5da775ac43dcd81b089a8b9fdaa893d9f7edbcbdfb5242c9582"
+  }
+}

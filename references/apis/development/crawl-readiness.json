@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/crawl-readiness",
+  "name": "Crawl Readiness",
+  "category": "Development",
+  "description": "Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website",
+  "documentation_url": "https://crawlreadiness.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__CRAWL_READINESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "002cf76d56c51c7936a58e4e4edc78fbfd2cba5e71df7c78e7ab48f3b76c3de6"
+  }
+}

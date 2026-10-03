@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/bidledger",
+  "name": "Bidledger",
+  "category": "Government",
+  "description": "Every open public tender in the European Union, rebuilt daily from the official TED data",
+  "documentation_url": "https://jaydemks.github.io/bidledger/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9bbb8ee725caae16276416a3cc25c425139ace29852438466dc25d492fe988e2"
+  }
+}

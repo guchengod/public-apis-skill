@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/ayes-and-noes",
+  "name": "Ayes and Noes",
+  "category": "Government",
+  "description": "UK House of Commons MPs, parties and recorded votes",
+  "documentation_url": "https://ayesandnoes.co.uk/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c26ba0713fb651d58dfd0fd7e40b37b7394a85b398a67f52ef25a6ae429bd370"
+  }
+}

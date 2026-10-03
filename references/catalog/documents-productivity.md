@@ -1,13 +1,15 @@
 # Documents & Productivity
 
-38 interfaces. Paths are relative to this catalog file.
+47 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
+| AgentPay Doc Tools | No | yes | yes | [`documents-productivity/agentpay-doc-tools`](../apis/documents-productivity/agentpay-doc-tools.json) |
 | Airtable | apiKey | yes | unknown | [`documents-productivity/airtable`](../apis/documents-productivity/airtable.json) |
 | Api2Convert | apiKey | yes | unknown | [`documents-productivity/api2convert`](../apis/documents-productivity/api2convert.json) |
 | apilayer pdflayer | apiKey | yes | unknown | [`documents-productivity/apilayer-pdflayer`](../apis/documents-productivity/apilayer-pdflayer.json) |
 | Asana | apiKey | yes | yes | [`documents-productivity/asana`](../apis/documents-productivity/asana.json) |
+| Assinafy | apiKey | yes | unknown | [`documents-productivity/assinafy`](../apis/documents-productivity/assinafy.json) |
 | BuildPDF | apiKey | yes | yes | [`documents-productivity/buildpdf`](../apis/documents-productivity/buildpdf.json) |
 | ClickUp | OAuth | yes | unknown | [`documents-productivity/clickup`](../apis/documents-productivity/clickup.json) |
 | Clockify | apiKey | yes | unknown | [`documents-productivity/clockify`](../apis/documents-productivity/clockify.json) |
@@ -15,8 +17,11 @@
 | Cloudmersive Document and Data Conversion | apiKey | yes | yes | [`documents-productivity/cloudmersive-document-and-data-conversion`](../apis/documents-productivity/cloudmersive-document-and-data-conversion.json) |
 | Code::Stats | apiKey | yes | no | [`documents-productivity/code-stats`](../apis/documents-productivity/code-stats.json) |
 | CraftMyPDF | apiKey | yes | no | [`documents-productivity/craftmypdf`](../apis/documents-productivity/craftmypdf.json) |
+| DocCheap | apiKey | yes | yes | [`documents-productivity/doccheap`](../apis/documents-productivity/doccheap.json) |
 | DocStruct | No | yes | yes | [`documents-productivity/docstruct`](../apis/documents-productivity/docstruct.json) |
+| FaturaPDF | apiKey | yes | unknown | [`documents-productivity/faturapdf`](../apis/documents-productivity/faturapdf.json) |
 | Flowdash | apiKey | yes | unknown | [`documents-productivity/flowdash`](../apis/documents-productivity/flowdash.json) |
+| Formfeed | apiKey | yes | no | [`documents-productivity/formfeed`](../apis/documents-productivity/formfeed.json) |
 | Html2PDF | apiKey | yes | unknown | [`documents-productivity/html2pdf`](../apis/documents-productivity/html2pdf.json) |
 | iLovePDF | apiKey | yes | yes | [`documents-productivity/ilovepdf`](../apis/documents-productivity/ilovepdf.json) |
 | JIRA | OAuth | yes | unknown | [`documents-productivity/jira`](../apis/documents-productivity/jira.json) |
@@ -27,14 +32,18 @@
 | OCR.Space | apiKey | yes | unknown | [`documents-productivity/ocr-space`](../apis/documents-productivity/ocr-space.json) |
 | PandaDoc | apiKey | yes | no | [`documents-productivity/pandadoc`](../apis/documents-productivity/pandadoc.json) |
 | PDFFleet | apiKey | yes | yes | [`documents-productivity/pdffleet`](../apis/documents-productivity/pdffleet.json) |
+| PDFMint | apiKey | yes | no | [`documents-productivity/pdfmint`](../apis/documents-productivity/pdfmint.json) |
 | Pocket | OAuth | yes | unknown | [`documents-productivity/pocket`](../apis/documents-productivity/pocket.json) |
 | Podio | OAuth | yes | unknown | [`documents-productivity/podio`](../apis/documents-productivity/podio.json) |
 | PolyDoc | apiKey | yes | unknown | [`documents-productivity/polydoc`](../apis/documents-productivity/polydoc.json) |
 | PrexView | apiKey | yes | unknown | [`documents-productivity/prexview`](../apis/documents-productivity/prexview.json) |
+| PrintSocket | apiKey | yes | no | [`documents-productivity/printsocket`](../apis/documents-productivity/printsocket.json) |
 | Renderly | apiKey | yes | yes | [`documents-productivity/renderly`](../apis/documents-productivity/renderly.json) |
 | Rendex | apiKey | yes | unknown | [`documents-productivity/rendex`](../apis/documents-productivity/rendex.json) |
 | Restpack | apiKey | yes | unknown | [`documents-productivity/restpack`](../apis/documents-productivity/restpack.json) |
 | RunConvert | apiKey | yes | no | [`documents-productivity/runconvert`](../apis/documents-productivity/runconvert.json) |
+| Sahifa | apiKey | yes | no | [`documents-productivity/sahifa`](../apis/documents-productivity/sahifa.json) |
+| Shortcut | apiKey | yes | no | [`documents-productivity/shortcut`](../apis/documents-productivity/shortcut.json) |
 | Todoist | OAuth | yes | unknown | [`documents-productivity/todoist`](../apis/documents-productivity/todoist.json) |
 | Smart Image Enhancement | apiKey | yes | unknown | [`documents-productivity/smart-image-enhancement`](../apis/documents-productivity/smart-image-enhancement.json) |
 | staffSign | apiKey | yes | yes | [`documents-productivity/staffsign`](../apis/documents-productivity/staffsign.json) |
