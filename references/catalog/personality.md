@@ -1,10 +1,11 @@
 # Personality
 
-25 interfaces. Paths are relative to this catalog file.
+27 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | Advice Slip | No | yes | unknown | [`personality/advice-slip`](../apis/personality/advice-slip.json) |
+| Astro Agents | No | yes | yes | [`personality/astro-agents`](../apis/personality/astro-agents.json) |
 | AstroWay | apiKey | yes | yes | [`personality/astroway`](../apis/personality/astroway.json) |
 | Biriyani As A Service | No | yes | no | [`personality/biriyani-as-a-service`](../apis/personality/biriyani-as-a-service.json) |
 | Dev.to | apiKey | yes | unknown | [`personality/dev-to`](../apis/personality/dev-to.json) |
@@ -18,6 +19,7 @@
 | kimiquotes | No | yes | yes | [`personality/kimiquotes`](../apis/personality/kimiquotes.json) |
 | Medium | OAuth | yes | unknown | [`personality/medium`](../apis/personality/medium.json) |
 | Personality.fyi | No | yes | yes | [`personality/personality-fyi`](../apis/personality/personality-fyi.json) |
+| PositiveQuotation | No | yes | yes | [`personality/positivequotation`](../apis/personality/positivequotation.json) |
 | Programming Quotes | No | yes | unknown | [`personality/programming-quotes`](../apis/personality/programming-quotes.json) |
 | Quotable Quotes | No | yes | unknown | [`personality/quotable-quotes`](../apis/personality/quotable-quotes.json) |
 | Quote Garden | No | yes | unknown | [`personality/quote-garden`](../apis/personality/quote-garden.json) |

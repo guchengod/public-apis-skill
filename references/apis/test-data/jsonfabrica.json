@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "test-data/jsonfabrica",
+  "name": "JsonFabrica",
+  "category": "Test Data",
+  "description": "Generate realistic relational synthetic JSON test data from reusable templates",
+  "documentation_url": "https://jsonfabrica.com/docs/api-reference",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TEST_DATA__JSONFABRICA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f140ed476e703cab303885e02851763c5b2e6c06cd792bbf84a23d290b991032"
+  }
+}

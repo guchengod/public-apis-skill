@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/serply",
+  "name": "Serply",
+  "category": "Development",
+  "description": "Google, Bing, News, Scholar and Maps search results and page scraping as JSON",
+  "documentation_url": "https://serply.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SERPLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "032228743a750ad45f652e2f69664b4b967fa7a425910fcc0bd0c5b73bd77509"
+  }
+}

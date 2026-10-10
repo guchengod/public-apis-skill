@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/replicate",
+  "name": "Replicate",
+  "category": "Machine Learning",
+  "description": "Run open-source AI models in the cloud including image generation, LLMs and audio models",
+  "documentation_url": "https://replicate.com/docs/reference/http",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__REPLICATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bbeb27c367106aae1aa9efe728f315e29fd6080225516df256ed2809ec7515e3"
+  }
+}

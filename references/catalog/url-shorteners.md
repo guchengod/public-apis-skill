@@ -1,6 +1,6 @@
 # URL Shorteners
 
-20 interfaces. Paths are relative to this catalog file.
+21 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -15,6 +15,7 @@
 | Git.io | No | yes | unknown | [`url-shorteners/git-io`](../apis/url-shorteners/git-io.json) |
 | GoTiny | No | yes | yes | [`url-shorteners/gotiny`](../apis/url-shorteners/gotiny.json) |
 | Kutt | apiKey | yes | yes | [`url-shorteners/kutt`](../apis/url-shorteners/kutt.json) |
+| Lix.li | apiKey | yes | yes | [`url-shorteners/lix-li`](../apis/url-shorteners/lix-li.json) |
 | Mgnet.me | No | yes | no | [`url-shorteners/mgnet-me`](../apis/url-shorteners/mgnet-me.json) |
 | owo | No | yes | unknown | [`url-shorteners/owo`](../apis/url-shorteners/owo.json) |
 | Rebrandly | apiKey | yes | unknown | [`url-shorteners/rebrandly`](../apis/url-shorteners/rebrandly.json) |

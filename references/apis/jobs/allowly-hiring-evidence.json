@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/allowly-hiring-evidence",
+  "name": "Allowly Hiring Evidence",
+  "category": "Jobs",
+  "description": "Deterministic hiring policy decisions and signed evidence records",
+  "documentation_url": "https://allowly.ai/docs/solutions/hiring/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__ALLOWLY_HIRING_EVIDENCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1898a1d078a27dd8587954da3321b1d25356c79987360a082777fc294d636d06"
+  }
+}

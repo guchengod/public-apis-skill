@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/bucketlist-dream-of-the-day",
+  "name": "Bucketlist Dream of the Day",
+  "category": "Entertainment",
+  "description": "Daily travel and life-experience inspiration with canonical links and images",
+  "documentation_url": "https://bucketlist.nl/samenwerken?lang=en#droom-van-de-dag",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f84d70e43974b580f1fc2752cf629333419c9326dcb4815f75a21b7b54d1c7b"
+  }
+}

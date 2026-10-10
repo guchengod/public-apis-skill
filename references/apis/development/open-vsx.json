@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/open-vsx",
+  "name": "Open VSX",
+  "category": "Development",
+  "description": "Search and access VS Code extensions from the Open VSX registry",
+  "documentation_url": "https://open-vsx.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f6938e71b6153815e4ba41e973aa1dba935a10ee9ed5fc776679bb5b877369e4"
+  }
+}

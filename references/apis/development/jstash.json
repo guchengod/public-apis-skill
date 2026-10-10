@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/jstash",
+  "name": "jstash",
+  "category": "Development",
+  "description": "Save JSON with one request and get a URL; private JSON for each signed-in user of your app",
+  "documentation_url": "https://jstash.app/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__JSTASH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ff4ed666ddc326355e3778b92eaacd44456ec6e32a7dbf91d8bb2bac0b06e52"
+  }
+}

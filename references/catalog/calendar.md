@@ -1,6 +1,6 @@
 # Calendar
 
-18 interfaces. Paths are relative to this catalog file.
+19 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@
 | Google Calendar | OAuth | yes | unknown | [`calendar/google-calendar`](../apis/calendar/google-calendar.json) |
 | Hebrew Calendar | No | no | unknown | [`calendar/hebrew-calendar`](../apis/calendar/hebrew-calendar.json) |
 | Holidays | apiKey | yes | unknown | [`calendar/holidays`](../apis/calendar/holidays.json) |
+| India Public Holidays | No | yes | yes | [`calendar/india-public-holidays`](../apis/calendar/india-public-holidays.json) |
 | LectServe | No | no | unknown | [`calendar/lectserve`](../apis/calendar/lectserve.json) |
 | Nager.Date | No | yes | no | [`calendar/nager-date`](../apis/calendar/nager-date.json) |
 | Namedays Calendar | No | yes | yes | [`calendar/namedays-calendar`](../apis/calendar/namedays-calendar.json) |

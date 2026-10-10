@@ -1,13 +1,15 @@
 # Video
 
-47 interfaces. Paths are relative to this catalog file.
+56 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | An API of Ice And Fire | No | yes | unknown | [`video/an-api-of-ice-and-fire`](../apis/video/an-api-of-ice-and-fire.json) |
+| Arcmira | apiKey | yes | yes | [`video/arcmira`](../apis/video/arcmira.json) |
 | Bob's Burgers | No | yes | yes | [`video/bob-s-burgers`](../apis/video/bob-s-burgers.json) |
 | Breaking Bad | No | yes | unknown | [`video/breaking-bad`](../apis/video/breaking-bad.json) |
 | Breaking Bad Quotes | No | yes | unknown | [`video/breaking-bad-quotes`](../apis/video/breaking-bad-quotes.json) |
+| BulkTranscripts | apiKey | yes | yes | [`video/bulktranscripts`](../apis/video/bulktranscripts.json) |
 | Catalogopolis | No | yes | unknown | [`video/catalogopolis`](../apis/video/catalogopolis.json) |
 | Catch The Show | No | yes | unknown | [`video/catch-the-show`](../apis/video/catch-the-show.json) |
 | Czech Television | No | no | unknown | [`video/czech-television`](../apis/video/czech-television.json) |
@@ -20,11 +22,14 @@
 | IMDb-API | apiKey | yes | unknown | [`video/imdb-api`](../apis/video/imdb-api.json) |
 | IMDbOT | No | yes | yes | [`video/imdbot`](../apis/video/imdbot.json) |
 | JSON2Video | apiKey | yes | no | [`video/json2video`](../apis/video/json2video.json) |
+| KPainter | apiKey | yes | yes | [`video/kpainter`](../apis/video/kpainter.json) |
+| KinoPipe | apiKey | yes | no | [`video/kinopipe`](../apis/video/kinopipe.json) |
 | Lucifer Quotes | No | yes | unknown | [`video/lucifer-quotes`](../apis/video/lucifer-quotes.json) |
 | MCU Countdown | No | yes | yes | [`video/mcu-countdown`](../apis/video/mcu-countdown.json) |
 | Motivational Quotes | No | yes | unknown | [`video/motivational-quotes`](../apis/video/motivational-quotes.json) |
 | Movie Quote | No | yes | yes | [`video/movie-quote`](../apis/video/movie-quote.json) |
 | Open Movie Database | apiKey | yes | unknown | [`video/open-movie-database`](../apis/video/open-movie-database.json) |
+| OpenSubtitles | apiKey | yes | yes | [`video/opensubtitles`](../apis/video/opensubtitles.json) |
 | Owen Wilson Wow | No | yes | yes | [`video/owen-wilson-wow`](../apis/video/owen-wilson-wow.json) |
 | Rendobar | apiKey | yes | no | [`video/rendobar`](../apis/video/rendobar.json) |
 | Ron Swanson Quotes | No | yes | unknown | [`video/ron-swanson-quotes`](../apis/video/ron-swanson-quotes.json) |
@@ -43,9 +48,13 @@
 | TMDb | apiKey | yes | unknown | [`video/tmdb`](../apis/video/tmdb.json) |
 | TrailerAddict | apiKey | no | unknown | [`video/traileraddict`](../apis/video/traileraddict.json) |
 | Trakt | apiKey | yes | yes | [`video/trakt`](../apis/video/trakt.json) |
+| TranscriptYT | apiKey | yes | yes | [`video/transcriptyt`](../apis/video/transcriptyt.json) |
+| TubeToTranscript | apiKey | yes | yes | [`video/tubetotranscript`](../apis/video/tubetotranscript.json) |
 | TVDB | apiKey | yes | unknown | [`video/tvdb`](../apis/video/tvdb.json) |
 | TVMaze | No | no | unknown | [`video/tvmaze`](../apis/video/tvmaze.json) |
+| UGCdrop | No | yes | yes | [`video/ugcdrop`](../apis/video/ugcdrop.json) |
 | uNoGS | apiKey | yes | yes | [`video/unogs`](../apis/video/unogs.json) |
+| Video to Markdown | No | yes | yes | [`video/video-to-markdown`](../apis/video/video-to-markdown.json) |
 | VidWords | apiKey | yes | no | [`video/vidwords`](../apis/video/vidwords.json) |
 | Vimeo | OAuth | yes | unknown | [`video/vimeo`](../apis/video/vimeo.json) |
 | Watchmode | apiKey | yes | unknown | [`video/watchmode`](../apis/video/watchmode.json) |

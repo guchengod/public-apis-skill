@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/estimatetax",
+  "name": "EstimateTax",
+  "category": "Finance",
+  "description": "US federal, state and local income tax calculation for 2026, with the source of every figure",
+  "documentation_url": "https://estimatetax.net/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "84836ad20cdc547f9f38ed301be433efe2b42686adb35c428cf2c0a7303ea355"
+  }
+}

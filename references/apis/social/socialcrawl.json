@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/socialcrawl",
+  "name": "SocialCrawl",
+  "category": "Social",
+  "description": "Social and commerce data from 50+ platforms in one JSON schema",
+  "documentation_url": "https://www.socialcrawl.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__SOCIALCRAWL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7dc962bac79ec7b93b9e3c27102cb19e7de65661b741d28c214527964c7ebe96"
+  }
+}

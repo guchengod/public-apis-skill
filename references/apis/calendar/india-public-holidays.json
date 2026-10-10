@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/india-public-holidays",
+  "name": "India Public Holidays",
+  "category": "Calendar",
+  "description": "Official Indian public holidays for the Central government and 36 states/UTs",
+  "documentation_url": "https://calendar-api-web.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c1c17beb1b5e53d8f578422908285c79e72473762c10beec599c5e73168c88b"
+  }
+}

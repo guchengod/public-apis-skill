@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/whenstherace",
+  "name": "WhensTheRace",
+  "category": "Sports & Fitness",
+  "description": "F1 season schedule with UTC session start times as JSON, RSS and iCal",
+  "documentation_url": "https://whenstherace.com/f1-schedule-json/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9366c04889796a54f14e36a6647883e2bf9da999be4a19bb7a89cb6032fb9252"
+  }
+}

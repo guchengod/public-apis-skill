@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/airnow",
+  "name": "AirNow",
+  "category": "Environment",
+  "description": "US EPA air quality data and forecasts",
+  "documentation_url": "https://docs.airnowapi.org/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__AIRNOW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf34ef70eff3b526770ea90c543645d68b9c90a3f1076d9ed5d5c112383a6efd"
+  }
+}

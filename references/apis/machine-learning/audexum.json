@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/audexum",
+  "name": "Audexum",
+  "category": "Machine Learning",
+  "description": "Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages",
+  "documentation_url": "https://audexum.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__AUDEXUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a6bf7b6e667273993c22c103397e443893c51c8591dff2cc0472bea4e34d0989"
+  }
+}

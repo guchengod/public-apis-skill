@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/kinopipe",
+  "name": "KinoPipe",
+  "category": "Video",
+  "description": "Typed hosted video editing operations for agents and automation",
+  "documentation_url": "https://kinopipe.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__KINOPIPE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ed2aafbad6d69b23cdd9c2194fe06e3b839890e2ab2ad6d01efbf7326ece89aa"
+  }
+}

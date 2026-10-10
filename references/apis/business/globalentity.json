@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/globalentity",
+  "name": "GlobalEntity",
+  "category": "Business",
+  "description": "Official company data from 56 European business registers as normalized JSON",
+  "documentation_url": "https://www.globalentityapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__GLOBALENTITY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b59403867ec4cd60f22dfebc14365b08cf5f7214228ca47e23e94a1e12b51be9"
+  }
+}

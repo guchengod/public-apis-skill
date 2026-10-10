@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/agentpay-domain-lookup",
+  "name": "AgentPay Domain Lookup",
+  "category": "Development",
+  "description": "DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via x402",
+  "documentation_url": "https://agentpay-lookup.agentpay-apis.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "58b992060422cbefff61e2d274f41abe141cdb69e79232f5e8d879dfa447ad54"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/gzw-data",
+  "name": "GZW Data",
+  "category": "Games & Comics",
+  "description": "Gray Zone Warfare weapons, missions, loot, armor and game data",
+  "documentation_url": "https://gzw-data.vercel.app/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "adbfba8fbab75de9a2cf8943f0d6ef7103568fa2e15a41fa6908d6623b3e01a2"
+  }
+}

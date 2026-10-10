@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/rubygems",
+  "name": "RubyGems",
+  "category": "Development",
+  "description": "Ruby gem metadata, versions, dependencies and search",
+  "documentation_url": "https://guides.rubygems.org/rubygems-org-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d7f1d3bd758aa6e818c98f36b05ecbc73d483914e7358318a5b8da4d82bd6ea"
+  }
+}

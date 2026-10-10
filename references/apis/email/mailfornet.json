@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailfornet",
+  "name": "Mailfornet",
+  "category": "Email",
+  "description": "Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks",
+  "documentation_url": "https://mailfornet.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILFORNET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df481ac401f21911fc58506778e03b156b3a719dcdd805caeb2e00e8dd727753"
+  }
+}

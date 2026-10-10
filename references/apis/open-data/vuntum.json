@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/vuntum",
+  "name": "Vuntum",
+  "category": "Open Data",
+  "description": "Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0",
+  "documentation_url": "https://vuntum.com/en/api-mcp",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bf5e031e82440c4e11b73616e2c9dc63bf2efa5f68f523dd125948bd7fe27399"
+  }
+}

@@ -1,6 +1,6 @@
 # Dictionaries
 
-13 interfaces. Paths are relative to this catalog file.
+16 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -13,7 +13,10 @@
 | Merriam-Webster | apiKey | yes | unknown | [`dictionaries/merriam-webster`](../apis/dictionaries/merriam-webster.json) |
 | OwlBot | apiKey | yes | yes | [`dictionaries/owlbot`](../apis/dictionaries/owlbot.json) |
 | Oxford | apiKey | yes | no | [`dictionaries/oxford`](../apis/dictionaries/oxford.json) |
+| Random Lexicon | No | yes | yes | [`dictionaries/random-lexicon`](../apis/dictionaries/random-lexicon.json) |
+| SayItVid | apiKey | yes | yes | [`dictionaries/sayitvid`](../apis/dictionaries/sayitvid.json) |
 | Synonyms | apiKey | yes | unknown | [`dictionaries/synonyms`](../apis/dictionaries/synonyms.json) |
 | Wiktionary | No | yes | yes | [`dictionaries/wiktionary`](../apis/dictionaries/wiktionary.json) |
 | Wordnik | apiKey | yes | unknown | [`dictionaries/wordnik`](../apis/dictionaries/wordnik.json) |
 | Words | apiKey | yes | unknown | [`dictionaries/words`](../apis/dictionaries/words.json) |
+| WordSoHard | No | yes | yes | [`dictionaries/wordsohard`](../apis/dictionaries/wordsohard.json) |

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/nerkhsanj",
+  "name": "Nerkhsanj",
+  "category": "Currency Exchange",
+  "description": "Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010",
+  "documentation_url": "https://nerkh.jahankhahan.shop/developers/en",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aa3f8017c6a19a14ebb1177affb6b289b952ca06eb78e1814c0a5648b06ae137"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/solar-system-opendata",
+  "name": "Solar System OpenData",
+  "category": "Science & Math",
+  "description": "Data and facts on solar system bodies and planets",
+  "documentation_url": "https://api.le-systeme-solaire.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59c5d689ac598611a49e4fca087298546b156907e2aebd7bf8e5c3aa45137a45"
+  }
+}

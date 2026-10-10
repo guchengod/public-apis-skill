@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/packagist",
+  "name": "Packagist",
+  "category": "Development",
+  "description": "PHP Composer package versions and dist metadata",
+  "documentation_url": "https://packagist.org/apidoc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d162fe8b813d7a5680cd113ad47dc12e13a3d194a6362a36610fbf807ef4d988"
+  }
+}

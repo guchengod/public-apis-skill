@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/fxpeek",
+  "name": "FXpeek",
+  "category": "Currency Exchange",
+  "description": "Source-linked historical reference exchange rates with CSV, JSON and an MCP server",
+  "documentation_url": "https://fxpeek.com/en/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "916497d619a93e66a639d6d925e57b10d3cdf36d39ba801ecbe0a4dccb79fd3e"
+  }
+}

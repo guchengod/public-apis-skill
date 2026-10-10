@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/oliver-s-mtor-atlas",
+  "name": "Oliver's mTOR Atlas",
+  "category": "Science & Math",
+  "description": "Curated mTOR research: studies by evidence type, pathway claims, open questions",
+  "documentation_url": "https://mtor-atlas.org/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fe60087f522a9bc17c10f65d4918e5f6680f3d428c8e52257529c2c0800ad67"
+  }
+}

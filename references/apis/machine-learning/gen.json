@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/gen",
+  "name": "GEN",
+  "category": "Machine Learning",
+  "description": "Create and edit video projects, with credit-based AI media generation",
+  "documentation_url": "https://gen.pro/docs#ai-agents",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__GEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fda899e9b49c6c56794de28a8ae505dc8a2533d3250452bb01e8523f64030e83"
+  }
+}

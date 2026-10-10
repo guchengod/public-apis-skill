@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/transcriptyt",
+  "name": "TranscriptYT",
+  "category": "Video",
+  "description": "YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback",
+  "documentation_url": "https://transcript-yt.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__TRANSCRIPTYT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7f47fe74e1b7ec7cd4b14d41194a9376cc3e7927948b3ae50e008b2a7d8b3a5c"
+  }
+}

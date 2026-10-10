@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/rcsb-pdb",
+  "name": "RCSB PDB",
+  "category": "Science & Math",
+  "description": "3D structures of proteins and nucleic acids",
+  "documentation_url": "https://data.rcsb.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c6725f49e4800a08f5656e51230fb22a9c940e2d7640db2d18c8d949396c32d9"
+  }
+}

@@ -1,23 +1,33 @@
 # Open Data
 
-52 interfaces. Paths are relative to this catalog file.
+71 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
-| 18F | No | no | unknown | [`open-data/18f`](../apis/open-data/18f.json) |
+| 49 Gallery Historical Data | No | yes | yes | [`open-data/49-gallery-historical-data`](../apis/open-data/49-gallery-historical-data.json) |
 | AcreLens | apiKey | yes | unknown | [`open-data/acrelens`](../apis/open-data/acrelens.json) |
 | API Setu | No | yes | yes | [`open-data/api-setu`](../apis/open-data/api-setu.json) |
+| APIllow | apiKey | yes | yes | [`open-data/apillow`](../apis/open-data/apillow.json) |
 | Archive.org | No | yes | no | [`open-data/archive-org`](../apis/open-data/archive-org.json) |
+| Band Atlas | No | yes | yes | [`open-data/band-atlas`](../apis/open-data/band-atlas.json) |
+| Big Data Explained | No | yes | yes | [`open-data/big-data-explained`](../apis/open-data/big-data-explained.json) |
 | Black History Facts | apiKey | yes | yes | [`open-data/black-history-facts`](../apis/open-data/black-history-facts.json) |
 | BotsArchive | No | yes | unknown | [`open-data/botsarchive`](../apis/open-data/botsarchive.json) |
+| BTU Graph | No | yes | yes | [`open-data/btu-graph`](../apis/open-data/btu-graph.json) |
 | Callook.info | No | yes | unknown | [`open-data/callook-info`](../apis/open-data/callook-info.json) |
 | CARTO | apiKey | yes | unknown | [`open-data/carto`](../apis/open-data/carto.json) |
+| CityAlert | No | yes | no | [`open-data/cityalert`](../apis/open-data/cityalert.json) |
+| CollegeCalcAI | No | yes | yes | [`open-data/collegecalcai`](../apis/open-data/collegecalcai.json) |
 | CollegeScoreCard.ed.gov | No | yes | unknown | [`open-data/collegescorecard-ed-gov`](../apis/open-data/collegescorecard-ed-gov.json) |
+| CoworkingView | No | yes | no | [`open-data/coworkingview`](../apis/open-data/coworkingview.json) |
 | CuttingToolsAI | No | yes | yes | [`open-data/cuttingtoolsai`](../apis/open-data/cuttingtoolsai.json) |
+| DevLifeCheck | No | yes | no | [`open-data/devlifecheck`](../apis/open-data/devlifecheck.json) |
+| Edgepedia | No | yes | yes | [`open-data/edgepedia`](../apis/open-data/edgepedia.json) |
 | Enigma Public | apiKey | yes | yes | [`open-data/enigma-public`](../apis/open-data/enigma-public.json) |
 | EOSL | No | yes | yes | [`open-data/eosl`](../apis/open-data/eosl.json) |
 | French Address Search | No | yes | unknown | [`open-data/french-address-search`](../apis/open-data/french-address-search.json) |
 | GENESIS | OAuth | yes | unknown | [`open-data/genesis`](../apis/open-data/genesis.json) |
+| HousingFeed | No | yes | yes | [`open-data/housingfeed`](../apis/open-data/housingfeed.json) |
 | InfraNode | apiKey | yes | unknown | [`open-data/infranode`](../apis/open-data/infranode.json) |
 | i6eal Open AI Data | No | yes | yes | [`open-data/i6eal-open-ai-data`](../apis/open-data/i6eal-open-ai-data.json) |
 | Joshua Project | apiKey | yes | unknown | [`open-data/joshua-project`](../apis/open-data/joshua-project.json) |
@@ -26,6 +36,7 @@
 | LinkPreview | apiKey | yes | yes | [`open-data/linkpreview`](../apis/open-data/linkpreview.json) |
 | LottoLens PH | No | yes | yes | [`open-data/lottolens-ph`](../apis/open-data/lottolens-ph.json) |
 | Lowy Asia Power Index | No | yes | unknown | [`open-data/lowy-asia-power-index`](../apis/open-data/lowy-asia-power-index.json) |
+| Microburbs | apiKey | yes | no | [`open-data/microburbs`](../apis/open-data/microburbs.json) |
 | Microlink.io | No | yes | yes | [`open-data/microlink-io`](../apis/open-data/microlink-io.json) |
 | MostExpensiveWatches | No | yes | yes | [`open-data/mostexpensivewatches`](../apis/open-data/mostexpensivewatches.json) |
 | ModelPartFinder Error Codes | No | yes | yes | [`open-data/modelpartfinder-error-codes`](../apis/open-data/modelpartfinder-error-codes.json) |
@@ -38,13 +49,20 @@
 | OpenCorporates | apiKey | yes | unknown | [`open-data/opencorporates`](../apis/open-data/opencorporates.json) |
 | OpenSanctions | No | yes | yes | [`open-data/opensanctions`](../apis/open-data/opensanctions.json) |
 | Pan Africa Data | apiKey | yes | unknown | [`open-data/pan-africa-data`](../apis/open-data/pan-africa-data.json) |
+| PayCrunch | No | yes | yes | [`open-data/paycrunch`](../apis/open-data/paycrunch.json) |
 | PeakMetrics | apiKey | yes | unknown | [`open-data/peakmetrics`](../apis/open-data/peakmetrics.json) |
+| PublicDataHub | No | yes | yes | [`open-data/publicdatahub`](../apis/open-data/publicdatahub.json) |
 | Recreation Information Database | apiKey | yes | unknown | [`open-data/recreation-information-database`](../apis/open-data/recreation-information-database.json) |
 | Registrum | apiKey | yes | no | [`open-data/registrum`](../apis/open-data/registrum.json) |
 | Scoop.it | apiKey | no | unknown | [`open-data/scoop-it`](../apis/open-data/scoop-it.json) |
+| SlashYear | No | yes | yes | [`open-data/slashyear`](../apis/open-data/slashyear.json) |
 | Socrata | OAuth | yes | yes | [`open-data/socrata`](../apis/open-data/socrata.json) |
 | Statistics of the World | No | yes | yes | [`open-data/statistics-of-the-world`](../apis/open-data/statistics-of-the-world.json) |
+| StatOrigin | No | yes | yes | [`open-data/statorigin`](../apis/open-data/statorigin.json) |
 | Teleport | No | yes | unknown | [`open-data/teleport`](../apis/open-data/teleport.json) |
+| TerraScoutX | apiKey | yes | yes | [`open-data/terrascoutx`](../apis/open-data/terrascoutx.json) |
+| The Deploy Log | No | yes | yes | [`open-data/the-deploy-log`](../apis/open-data/the-deploy-log.json) |
+| Tickerz | No | yes | yes | [`open-data/tickerz`](../apis/open-data/tickerz.json) |
 | Tilth | No | yes | yes | [`open-data/tilth`](../apis/open-data/tilth.json) |
 | Umeå Open Data | No | yes | yes | [`open-data/umea-open-data`](../apis/open-data/umea-open-data.json) |
 | Universities List | No | yes | unknown | [`open-data/universities-list`](../apis/open-data/universities-list.json) |
@@ -52,6 +70,7 @@
 | UPC database | apiKey | yes | unknown | [`open-data/upc-database`](../apis/open-data/upc-database.json) |
 | Urban Observatory | No | no | no | [`open-data/urban-observatory`](../apis/open-data/urban-observatory.json) |
 | Voidly | No | yes | no | [`open-data/voidly`](../apis/open-data/voidly.json) |
+| Vuntum | No | yes | yes | [`open-data/vuntum`](../apis/open-data/vuntum.json) |
 | Warnely | No | yes | yes | [`open-data/warnely`](../apis/open-data/warnely.json) |
 | Wikidata | OAuth | yes | unknown | [`open-data/wikidata`](../apis/open-data/wikidata.json) |
 | Wikipedia | No | yes | unknown | [`open-data/wikipedia`](../apis/open-data/wikipedia.json) |

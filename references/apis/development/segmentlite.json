@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/segmentlite",
+  "name": "SegmentLite",
+  "category": "Development",
+  "description": "Lightweight event routing and webhook fan-out API alternative to Segment",
+  "documentation_url": "https://segmentlite-api-dfru.fly.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SEGMENTLITE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "947eb812ec187bc3e159e46a19f883df8d98a420dd2fd254be81109a9c275ddc"
+  }
+}

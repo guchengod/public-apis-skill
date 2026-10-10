@@ -1,6 +1,6 @@
 # Books
 
-25 interfaces. Paths are relative to this catalog file.
+27 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -10,10 +10,12 @@
 | Bhagavad Gita | OAuth | yes | yes | [`books/bhagavad-gita--b60b866b`](../apis/books/bhagavad-gita--b60b866b.json) |
 | Bhagavad Gita telugu | No | yes | yes | [`books/bhagavad-gita-telugu`](../apis/books/bhagavad-gita-telugu.json) |
 | Bible-api | No | yes | yes | [`books/bible-api`](../apis/books/bible-api.json) |
+| BookRank | No | yes | yes | [`books/bookrank`](../apis/books/bookrank.json) |
 | British National Bibliography | No | no | unknown | [`books/british-national-bibliography`](../apis/books/british-national-bibliography.json) |
 | Crossref Metadata Search | No | yes | unknown | [`books/crossref-metadata-search`](../apis/books/crossref-metadata-search.json) |
 | Ganjoor | OAuth | yes | yes | [`books/ganjoor`](../apis/books/ganjoor.json) |
 | Google Books | OAuth | yes | unknown | [`books/google-books`](../apis/books/google-books.json) |
+| Greenlit Books | No | yes | yes | [`books/greenlit-books`](../apis/books/greenlit-books.json) |
 | GurbaniNow | No | yes | unknown | [`books/gurbaninow`](../apis/books/gurbaninow.json) |
 | Gutendex | No | yes | unknown | [`books/gutendex`](../apis/books/gutendex.json) |
 | KDP Intelligence | No | yes | yes | [`books/kdp-intelligence`](../apis/books/kdp-intelligence.json) |

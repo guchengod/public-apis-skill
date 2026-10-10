@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/agent-verifier",
+  "name": "Agent Verifier",
+  "category": "Security",
+  "description": "Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks",
+  "documentation_url": "https://packet.guru/agents/reference",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0aa5db84bc9cd515b466713e44f20b3180f8896b43e0ab8c037802bd13aaabf6"
+  }
+}

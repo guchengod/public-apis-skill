@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/gankdat",
+  "name": "gankdat",
+  "category": "Government",
+  "description": "UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON",
+  "documentation_url": "https://gankdat.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__GANKDAT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cc1aabdb02a9c68217d820f84e5056547b1f1d614c520c4f411ce2316f61b65e"
+  }
+}

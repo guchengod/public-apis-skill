@@ -1,22 +1,28 @@
 # Food & Drink
 
-26 interfaces. Paths are relative to this catalog file.
+33 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | BaconMockup | No | yes | yes | [`food-drink/baconmockup`](../apis/food-drink/baconmockup.json) |
+| CalorieNinjas | apiKey | yes | yes | [`food-drink/calorieninjas`](../apis/food-drink/calorieninjas.json) |
 | Chomp | apiKey | yes | unknown | [`food-drink/chomp`](../apis/food-drink/chomp.json) |
 | Coffee | No | yes | unknown | [`food-drink/coffee`](../apis/food-drink/coffee.json) |
+| CookbookSocial Nutrition | apiKey | yes | no | [`food-drink/cookbooksocial-nutrition`](../apis/food-drink/cookbooksocial-nutrition.json) |
+| Daily Food Recalls | No | yes | yes | [`food-drink/daily-food-recalls`](../apis/food-drink/daily-food-recalls.json) |
 | Edamam nutrition | apiKey | yes | unknown | [`food-drink/edamam-nutrition`](../apis/food-drink/edamam-nutrition.json) |
 | Edamam recipes | apiKey | yes | unknown | [`food-drink/edamam-recipes`](../apis/food-drink/edamam-recipes.json) |
+| ExactCup | No | yes | yes | [`food-drink/exactcup`](../apis/food-drink/exactcup.json) |
 | Food Info | apiKey | yes | no | [`food-drink/food-info`](../apis/food-drink/food-info.json) |
 | Foodish | No | yes | yes | [`food-drink/foodish`](../apis/food-drink/foodish.json) |
 | Fruityvice | No | yes | unknown | [`food-drink/fruityvice`](../apis/food-drink/fruityvice.json) |
 | Kroger | apiKey | yes | unknown | [`food-drink/kroger`](../apis/food-drink/kroger.json) |
 | LCBO | apiKey | yes | unknown | [`food-drink/lcbo`](../apis/food-drink/lcbo.json) |
+| Noms | apiKey | yes | yes | [`food-drink/noms`](../apis/food-drink/noms.json) |
 | Open Brewery DB | No | yes | yes | [`food-drink/open-brewery-db`](../apis/food-drink/open-brewery-db.json) |
 | Open Food Facts | No | yes | unknown | [`food-drink/open-food-facts`](../apis/food-drink/open-food-facts.json) |
 | PunkAPI | No | yes | unknown | [`food-drink/punkapi`](../apis/food-drink/punkapi.json) |
+| Racion | No | yes | yes | [`food-drink/racion`](../apis/food-drink/racion.json) |
 | RecipeAPI | apiKey | yes | yes | [`food-drink/recipeapi`](../apis/food-drink/recipeapi.json) |
 | Rustybeer | No | yes | no | [`food-drink/rustybeer`](../apis/food-drink/rustybeer.json) |
 | Spoonacular | apiKey | yes | unknown | [`food-drink/spoonacular`](../apis/food-drink/spoonacular.json) |
@@ -26,6 +32,7 @@
 | The Report of the Week | No | yes | unknown | [`food-drink/the-report-of-the-week`](../apis/food-drink/the-report-of-the-week.json) |
 | TheCocktailDB | apiKey | yes | yes | [`food-drink/thecocktaildb`](../apis/food-drink/thecocktaildb.json) |
 | TheMealDB | apiKey | yes | yes | [`food-drink/themealdb`](../apis/food-drink/themealdb.json) |
+| Tiny Plates | apiKey | yes | yes | [`food-drink/tiny-plates`](../apis/food-drink/tiny-plates.json) |
 | Untappd | OAuth | yes | unknown | [`food-drink/untappd`](../apis/food-drink/untappd.json) |
 | What's on the menu? | apiKey | no | unknown | [`food-drink/what-s-on-the-menu`](../apis/food-drink/what-s-on-the-menu.json) |
 | WhiskyHunter | No | yes | unknown | [`food-drink/whiskyhunter`](../apis/food-drink/whiskyhunter.json) |
