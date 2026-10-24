@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/apipj",
+  "name": "apipj",
+  "category": "Government",
+  "description": "Brazilian company data by CNPJ from Receita Federal open data, incl. alphanumeric CNPJ; free tier",
+  "documentation_url": "https://apipj.com.br/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__APIPJ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e73b6eb034901f3d027f790050a923e668407e5ace335fb6b82ea6ea29d694b6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/nuget",
+  "name": "NuGet",
+  "category": "Development",
+  "description": ".NET package versions, metadata and search",
+  "documentation_url": "https://learn.microsoft.com/en-us/nuget/api/overview",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d17ce2e79e1a413df4056709823b1696ce50acc0a72315cf9300dd8ffba4d5b3"
+  }
+}

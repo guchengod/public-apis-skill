@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ironfang-render",
+  "name": "Ironfang Render",
+  "category": "Development",
+  "description": "Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML",
+  "documentation_url": "https://ironfang.com/render/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IRONFANG_RENDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fe6bcd832395dc2d311cfe8abb09eb561d3b54c9d86455ddd80b1ac02f3697c0"
+  }
+}

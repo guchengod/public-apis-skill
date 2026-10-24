@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/stackrates",
+  "name": "StackRates",
+  "category": "Open Data",
+  "description": "VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs",
+  "documentation_url": "https://stackrates.ai/ask/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "829cf5f39fa05c35c6202d947549867fe8af7fae386a8bed4c7a33f492da492a"
+  }
+}

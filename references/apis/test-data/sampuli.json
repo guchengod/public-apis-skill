@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/sampuli",
+  "name": "Sampuli",
+  "category": "Test Data",
+  "description": "Format-true synthetic test data for 90 countries: IDs, IBANs, cards, addresses",
+  "documentation_url": "https://sampuli.site/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6eff0e5f6be4da1d43554221cbd1a48bcfdb647baa7c1b7bf3ae9ff3cfd73460"
+  }
+}

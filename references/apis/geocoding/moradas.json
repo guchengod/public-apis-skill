@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/moradas",
+  "name": "Moradas",
+  "category": "Geocoding",
+  "description": "Portuguese address autocomplete and 7-digit postal codes (CP7)",
+  "documentation_url": "https://moradas.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3161835b1fcfccb4f4ac61b062bbb28d7f502aef9d6a87bd38a97efc396a1883"
+  }
+}

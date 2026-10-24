@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "calendar/africa-compliance-data",
+  "name": "Africa Compliance Data",
+  "category": "Calendar",
+  "description": "Public holidays and business days for all 54 African countries, from official sources",
+  "documentation_url": "https://africacompliancedata.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CALENDAR__AFRICA_COMPLIANCE_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "635b104c84cccaa1a2f90f5b18853ba90cf2f609b1266a51e9b14b26d3f9d704"
+  }
+}

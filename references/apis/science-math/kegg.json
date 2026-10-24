@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/kegg",
+  "name": "KEGG",
+  "category": "Science & Math",
+  "description": "Genes, pathways, compounds and reactions",
+  "documentation_url": "https://www.kegg.jp/kegg/rest/keggapi.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "62514cb71d788612eafa85f32da8bc9da7e556b390a8a0234229117b82c61d7d"
+  }
+}

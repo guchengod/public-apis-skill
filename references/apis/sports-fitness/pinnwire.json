@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/pinnwire",
+  "name": "PinnWire",
+  "category": "Sports & Fitness",
+  "description": "Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts",
+  "documentation_url": "https://pinnwire.com/docs.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PINNWIRE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7246882e023def9cd7bef0eae71958a126602fc1f8632eb291f06a71db0258d7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tickermint",
+  "name": "TickerMint",
+  "category": "Games & Comics",
+  "description": "Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards",
+  "documentation_url": "https://tickermint.cards/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e21369143afd1c4a33ef5fd273bacfc945342d399c7677bf452409019776db5"
+  }
+}

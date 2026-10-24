@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/best-temp-mail",
+  "name": "Best Temp Mail",
+  "category": "Email",
+  "description": "Disposable inboxes for automated email testing, with OTP extraction",
+  "documentation_url": "https://best-tempmail.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aba775c5038fa8d3ab1cf03786fd5ca4b396b83b7a9f1ddee063d93130a140bf"
+  }
+}

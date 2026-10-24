@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/realtime-sports",
+  "name": "Realtime Sports",
+  "category": "Sports & Fitness",
+  "description": "Live scores, play-by-play, schedules and odds for NFL, NBA, MLB, NHL, NCAA and soccer",
+  "documentation_url": "https://www.realtimesportsapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__REALTIME_SPORTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9bd997be9f2d7700551116d9d2ccc8c1abb918ae7b7268611813879a48c3724a"
+  }
+}

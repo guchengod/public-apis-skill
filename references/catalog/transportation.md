@@ -1,15 +1,20 @@
 # Transportation
 
-77 interfaces. Paths are relative to this catalog file.
+95 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | ADS-B Exchange | No | yes | unknown | [`transportation/ads-b-exchange`](../apis/transportation/ads-b-exchange.json) |
+| Aether-X Port Congestion | apiKey | yes | yes | [`transportation/aether-x-port-congestion`](../apis/transportation/aether-x-port-congestion.json) |
+| AirportMiles | No | yes | yes | [`transportation/airportmiles`](../apis/transportation/airportmiles.json) |
 | airportsapi | No | yes | unknown | [`transportation/airportsapi`](../apis/transportation/airportsapi.json) |
+| Aether-X Port Congestion Oracle | apiKey | yes | yes | [`transportation/aether-x-port-congestion-oracle`](../apis/transportation/aether-x-port-congestion-oracle.json) |
 | AIS Hub | apiKey | no | unknown | [`transportation/ais-hub`](../apis/transportation/ais-hub.json) |
 | Amadeus for Developers | OAuth | yes | unknown | [`transportation/amadeus-for-developers`](../apis/transportation/amadeus-for-developers.json) |
 | apilayer aviationstack | OAuth | yes | unknown | [`transportation/apilayer-aviationstack`](../apis/transportation/apilayer-aviationstack.json) |
 | Apimetro | No | yes | yes | [`transportation/apimetro`](../apis/transportation/apimetro.json) |
+| ArcNautical | No | yes | yes | [`transportation/arcnautical`](../apis/transportation/arcnautical.json) |
+| Aviation Safety Data | No | yes | yes | [`transportation/aviation-safety-data`](../apis/transportation/aviation-safety-data.json) |
 | AviationAPI | No | yes | no | [`transportation/aviationapi`](../apis/transportation/aviationapi.json) |
 | AZ511 | apiKey | yes | unknown | [`transportation/az511`](../apis/transportation/az511.json) |
 | Bay Area Rapid Transit | apiKey | no | unknown | [`transportation/bay-area-rapid-transit`](../apis/transportation/bay-area-rapid-transit.json) |
@@ -18,30 +23,40 @@
 | BlaBlaCar | apiKey | yes | unknown | [`transportation/blablacar`](../apis/transportation/blablacar.json) |
 | Boston MBTA Transit | apiKey | yes | unknown | [`transportation/boston-mbta-transit`](../apis/transportation/boston-mbta-transit.json) |
 | Can I enter | No | yes | yes | [`transportation/can-i-enter`](../apis/transportation/can-i-enter.json) |
+| ChargeAlong | No | yes | yes | [`transportation/chargealong`](../apis/transportation/chargealong.json) |
 | Community Transit | No | yes | unknown | [`transportation/community-transit`](../apis/transportation/community-transit.json) |
+| ConnectMeGuru | No | yes | yes | [`transportation/connectmeguru`](../apis/transportation/connectmeguru.json) |
 | Compare Flight Prices | apiKey | yes | unknown | [`transportation/compare-flight-prices`](../apis/transportation/compare-flight-prices.json) |
+| Cruise Itinerary | apiKey | yes | yes | [`transportation/cruise-itinerary`](../apis/transportation/cruise-itinerary.json) |
 | CruiseFeed | apiKey | yes | unknown | [`transportation/cruisefeed`](../apis/transportation/cruisefeed.json) |
 | CTS | apiKey | yes | yes | [`transportation/cts`](../apis/transportation/cts.json) |
-| FAA N-Number Registry | No | yes | yes | [`transportation/faa-n-number-registry`](../apis/transportation/faa-n-number-registry.json) |
 | Grab | OAuth | yes | unknown | [`transportation/grab`](../apis/transportation/grab.json) |
 | GraphHopper | apiKey | yes | unknown | [`transportation/graphhopper`](../apis/transportation/graphhopper.json) |
+| GTFS Scorecard | No | yes | yes | [`transportation/gtfs-scorecard`](../apis/transportation/gtfs-scorecard.json) |
 | Icelandic APIs | No | yes | unknown | [`transportation/icelandic-apis`](../apis/transportation/icelandic-apis.json) |
 | Impala Hotel Bookings | apiKey | yes | no | [`transportation/impala-hotel-bookings`](../apis/transportation/impala-hotel-bookings.json) |
 | Izi | apiKey | yes | unknown | [`transportation/izi`](../apis/transportation/izi.json) |
 | Land Transport Authority DataMall, Singapore | apiKey | no | unknown | [`transportation/land-transport-authority-datamall-singapore`](../apis/transportation/land-transport-authority-datamall-singapore.json) |
+| LiveTrafficCam | No | yes | no | [`transportation/livetrafficcam`](../apis/transportation/livetrafficcam.json) |
 | Metro Lisboa | No | no | no | [`transportation/metro-lisboa`](../apis/transportation/metro-lisboa.json) |
 | Navitia | apiKey | yes | unknown | [`transportation/navitia`](../apis/transportation/navitia.json) |
+| On va où ? | apiKey | yes | no | [`transportation/on-va-ou`](../apis/transportation/on-va-ou.json) |
 | Open Charge Map | apiKey | yes | yes | [`transportation/open-charge-map`](../apis/transportation/open-charge-map.json) |
 | Orizn Visa | apiKey | yes | yes | [`transportation/orizn-visa`](../apis/transportation/orizn-visa.json) |
 | OpenSky Network | No | yes | unknown | [`transportation/opensky-network`](../apis/transportation/opensky-network.json) |
 | OpenVan | No | yes | yes | [`transportation/openvan`](../apis/transportation/openvan.json) |
+| Pumperly | No | yes | no | [`transportation/pumperly`](../apis/transportation/pumperly.json) |
 | Railway Transport for France | apiKey | yes | unknown | [`transportation/railway-transport-for-france`](../apis/transportation/railway-transport-for-france.json) |
+| Railworks | No | yes | yes | [`transportation/railworks`](../apis/transportation/railworks.json) |
 | REFUGE Restrooms | No | yes | unknown | [`transportation/refuge-restrooms`](../apis/transportation/refuge-restrooms.json) |
 | Road511 | apiKey | yes | no | [`transportation/road511`](../apis/transportation/road511.json) |
 | Sabre for Developers | apiKey | yes | unknown | [`transportation/sabre-for-developers`](../apis/transportation/sabre-for-developers.json) |
 | Schiphol Airport | apiKey | yes | unknown | [`transportation/schiphol-airport`](../apis/transportation/schiphol-airport.json) |
+| SMKlog | No | yes | no | [`transportation/smklog`](../apis/transportation/smklog.json) |
+| Stadiq | apiKey | yes | no | [`transportation/stadiq`](../apis/transportation/stadiq.json) |
 | Strait of Hormuz Ship Monitor | No | yes | no | [`transportation/strait-of-hormuz-ship-monitor`](../apis/transportation/strait-of-hormuz-ship-monitor.json) |
 | Tankerkoenig | apiKey | yes | yes | [`transportation/tankerkoenig`](../apis/transportation/tankerkoenig.json) |
+| TransCAPI | apiKey | yes | yes | [`transportation/transcapi`](../apis/transportation/transcapi.json) |
 | TransitLand | No | yes | unknown | [`transportation/transitland`](../apis/transportation/transitland.json) |
 | Transport for Atlanta, US | No | no | unknown | [`transportation/transport-for-atlanta-us`](../apis/transportation/transport-for-atlanta-us.json) |
 | Transport for Auckland, New Zealand | No | yes | unknown | [`transportation/transport-for-auckland-new-zealand`](../apis/transportation/transport-for-auckland-new-zealand.json) |
@@ -78,6 +93,9 @@
 | Transport for Vancouver, Canada | OAuth | yes | unknown | [`transportation/transport-for-vancouver-canada`](../apis/transportation/transport-for-vancouver-canada.json) |
 | Transport for Washington, US | OAuth | yes | unknown | [`transportation/transport-for-washington-us`](../apis/transportation/transport-for-washington-us.json) |
 | transport.rest | No | yes | yes | [`transportation/transport-rest`](../apis/transportation/transport-rest.json) |
+| Travel Risk Aviation | apiKey | yes | yes | [`transportation/travel-risk-aviation`](../apis/transportation/travel-risk-aviation.json) |
 | Tripadvisor | apiKey | yes | unknown | [`transportation/tripadvisor`](../apis/transportation/tripadvisor.json) |
 | Uber | OAuth | yes | yes | [`transportation/uber`](../apis/transportation/uber.json) |
 | Velib metropolis, Paris, France | No | yes | no | [`transportation/velib-metropolis-paris-france`](../apis/transportation/velib-metropolis-paris-france.json) |
+| Vessel Class Finder | apiKey | yes | yes | [`transportation/vessel-class-finder`](../apis/transportation/vessel-class-finder.json) |
+| Windsock | apiKey | yes | unknown | [`transportation/windsock`](../apis/transportation/windsock.json) |

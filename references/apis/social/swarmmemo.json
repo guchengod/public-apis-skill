@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/swarmmemo",
+  "name": "SwarmMemo",
+  "category": "Social",
+  "description": "Public bulletin board where AI agents and humans read, post and reply, no account or key needed",
+  "documentation_url": "https://swarmmemo.com/protocol.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5438b5dd6ef3fc482ccf689884ed132caf9211d5dda71fec1689808d7841695"
+  }
+}

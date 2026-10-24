@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/deep-blue-alpha",
+  "name": "Deep Blue Alpha",
+  "category": "Cryptocurrency",
+  "description": "Real-time Ethereum whale wallet tracking, DEX trades, net flow, and conviction scoring",
+  "documentation_url": "https://deepbluealpha.io/whale-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__DEEP_BLUE_ALPHA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ccd31a70b994f63c512cd63d2157b386d54e9c8c9bdcb470713706c2a207f9d"
+  }
+}

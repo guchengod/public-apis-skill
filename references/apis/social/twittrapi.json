@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/twittrapi",
+  "name": "TwittrAPI",
+  "category": "Social",
+  "description": "Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends",
+  "documentation_url": "https://www.twittrapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__TWITTRAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f6661dcfef3c09963bd046547a5af1a1ae363a6085331cb1e481d58112225c3f"
+  }
+}

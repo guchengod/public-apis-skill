@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/whichtrim",
+  "name": "WhichTrim",
+  "category": "Vehicle",
+  "description": "US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding",
+  "documentation_url": "https://whichtrim.com/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__WHICHTRIM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6e0417278b5e9a4d5d8efa0ce99621fff2a7a231b532be8fbe6182d99ca08101"
+  }
+}

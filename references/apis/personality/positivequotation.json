@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/positivequotation",
+  "name": "PositiveQuotation",
+  "category": "Personality",
+  "description": "Source-verified public-domain English proverbs with provenance",
+  "documentation_url": "https://positivequotation.com/developers/public-domain-quotes-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c07500bbaf57bdb7a2facad26271dba38d128996910aa4451f768d271c2c131d"
+  }
+}

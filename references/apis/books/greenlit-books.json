@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/greenlit-books",
+  "name": "Greenlit Books",
+  "category": "Books",
+  "description": "Catalog of practical AI books with search, series, glossary and a claim ledger",
+  "documentation_url": "https://greenlitbooks.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b2ca60c0abe4d62d85599b51901f8e247b8679e5a458ce5311c677bfb78564ec"
+  }
+}

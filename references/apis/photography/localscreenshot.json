@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/localscreenshot",
+  "name": "localscreenshot",
+  "category": "Photography",
+  "description": "Screenshot or PDF rendering of any public page, from 227 countries",
+  "documentation_url": "https://localscreenshot.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__LOCALSCREENSHOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "25e42029231a2e2385e218cc2dfc2b6fa96b3c835b1df9fdec62dfec2cd8d756"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/together-ai",
+  "name": "Together AI",
+  "category": "Machine Learning",
+  "description": "Fast inference API for open-source LLMs including Llama, Qwen, DeepSeek with a free tier",
+  "documentation_url": "https://docs.together.ai/docs/quickstart",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__TOGETHER_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13e66ca383469a76221e6c98e9441610167053579b6cb1b6b1d70727358351d3"
+  }
+}

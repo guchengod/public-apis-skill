@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/the-color-api",
+  "name": "The Color API",
+  "category": "Art & Design",
+  "description": "Convert and generate color schemes",
+  "documentation_url": "https://www.thecolorapi.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7a799c1f5f957585e0e64d989dfd1a6ebab4b6a92c8f5106c7fcce05409adb36"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/curlshot",
+  "name": "CurlShot",
+  "category": "Development",
+  "description": "Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier",
+  "documentation_url": "https://curlshot.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__CURLSHOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7bf8e4fae0a2f0b4adb0c2c5658b0099d6658c2b813f3d0076ac5a6f50281976"
+  }
+}

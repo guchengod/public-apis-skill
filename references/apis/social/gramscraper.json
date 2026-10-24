@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/gramscraper",
+  "name": "GramScraper",
+  "category": "Social",
+  "description": "Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments",
+  "documentation_url": "https://gramscraper.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__GRAMSCRAPER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "011be6164ee78ccb0cd74b56e1249d41ab9ba757c76c08007cbf14ba1332a2b3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/sayitvid",
+  "name": "SayItVid",
+  "category": "Dictionaries",
+  "description": "English video pronunciation search with timestamps, IPA phonetics and subtitle context",
+  "documentation_url": "https://sayitvid.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__SAYITVID__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "74151605fe337534041d3b303a9df3e790a5c03a085daa30fb052c3304247a69"
+  }
+}

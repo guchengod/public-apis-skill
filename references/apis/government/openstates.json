@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/openstates",
+  "name": "OpenStates",
+  "category": "Government",
+  "description": "US state legislature bills and lawmakers",
+  "documentation_url": "https://openstates.org/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__OPENSTATES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fe456e0ce3c6291e248c52ec6bd01469a3b733a5f1d3517d7db26ce3791783e"
+  }
+}

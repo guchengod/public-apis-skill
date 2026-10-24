@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/invoicein",
+  "name": "InvoiceIn",
+  "category": "Business",
+  "description": "Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF",
+  "documentation_url": "https://invoicein.peculiar.systems/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__INVOICEIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "af29c2ebeb3e84ef54215e700ee14a1e923b9f588901438f59a6343737541a18"
+  }
+}

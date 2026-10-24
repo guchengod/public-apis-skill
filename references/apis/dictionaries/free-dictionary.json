@@ -3,7 +3,7 @@
   "id": "dictionaries/free-dictionary",
   "name": "Free Dictionary",
   "category": "Dictionaries",
-  "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+  "description": "Definitions, phonetics, pronunciations, parts of speech, examples, synonyms",
   "documentation_url": "https://dictionaryapi.dev/",
   "auth": {
     "type": "none",
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "cbb4eac1aa6f24296ef5760d731f3986fbdbfb5564124e5255e07c0f90001721"
+    "fingerprint": "74a9e10b15391dfb49068d752630816957f78d907aabd48deee03eeaff7e1e24"
   }
 }

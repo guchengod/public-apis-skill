@@ -1,6 +1,6 @@
 # Anime
 
-19 interfaces. Paths are relative to this catalog file.
+20 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -16,6 +16,7 @@
 | Kitsu | OAuth | yes | yes | [`anime/kitsu`](../apis/anime/kitsu.json) |
 | MangaDex | apiKey | yes | unknown | [`anime/mangadex`](../apis/anime/mangadex.json) |
 | Mangapi | apiKey | yes | unknown | [`anime/mangapi`](../apis/anime/mangapi.json) |
+| MangaUpdates | No | yes | unknown | [`anime/mangaupdates`](../apis/anime/mangaupdates.json) |
 | MyAnimeList | OAuth | yes | unknown | [`anime/myanimelist`](../apis/anime/myanimelist.json) |
 | NekosBest | No | yes | yes | [`anime/nekosbest`](../apis/anime/nekosbest.json) |
 | Shikimori | OAuth | yes | unknown | [`anime/shikimori`](../apis/anime/shikimori.json) |

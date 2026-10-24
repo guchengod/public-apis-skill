@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/timezone-worldtime",
+  "name": "Timezone WorldTime",
+  "category": "Development",
+  "description": "Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement",
+  "documentation_url": "https://www.timezone.io/docs/worldtimeapi",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd1c9659c4e08a9e04c809dfda843396cd2a492041c0669f43bcc805724adb75"
+  }
+}

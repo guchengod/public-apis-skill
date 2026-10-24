@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/fulusly",
+  "name": "Fulusly",
+  "category": "Currency Exchange",
+  "description": "Exchange rates for 144 currencies with daily history back to the 1990s, English and Arabic",
+  "documentation_url": "https://fulusly.soft9.us/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ee127e1149cfce7aedd589578b929cbc5935607581a33fdf352105c1ad5d56a"
+  }
+}

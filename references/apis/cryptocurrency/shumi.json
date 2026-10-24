@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/shumi",
+  "name": "Shumi",
+  "category": "Cryptocurrency",
+  "description": "Crypto market data: prices, trends, funding rates, sentiment, narratives and market regime",
+  "documentation_url": "https://docs.shumi.ai/api-reference/introduction",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__SHUMI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f09bd91b9729ea1b243e19a3fcacf386fdd8ca3d34948424b31b68aed0b14114"
+  }
+}

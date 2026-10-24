@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/ugc-vz",
+  "name": "UGC VZ",
+  "category": "Business",
+  "description": "Directory of DACH user-generated-content creators with topics, cities, rates and contact requests",
+  "documentation_url": "https://ugc-vz.de/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "358e8df19ee243996f373bd235cf34b460b172baa58e66f49b4f5e80c33097d1"
+  }
+}

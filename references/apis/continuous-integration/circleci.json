@@ -4,7 +4,7 @@
   "name": "CircleCI",
   "category": "Continuous Integration",
   "description": "Automate the software development process using continuous integration and continuous delivery",
-  "documentation_url": "https://circleci.com/docs/api/v1-reference/",
+  "documentation_url": "https://circleci.com/docs/api/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "49197d4278f36cb68b20defd851488370b984f9a12372d1acf7849974e35913d"
+    "fingerprint": "7172220a1706a93ceff52e9083c21327d6db0272ee2a236fe161a1e693915e21"
   }
 }

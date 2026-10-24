@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-codes",
+  "name": "QR Codes",
+  "category": "Development",
+  "description": "Generate QR codes via a single GET request, with logo embedding and custom colors",
+  "documentation_url": "https://qr-api.62-238-102-93.sslip.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__QR_CODES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f367538debc061d5f8230e4816bf546fa4c752499b979fd2a6025e7cb19fb428"
+  }
+}

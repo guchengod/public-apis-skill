@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/is-this-site-down",
+  "name": "Is This Site Down?",
+  "category": "Development",
+  "description": "Check if any website is down, from two continents; live status, uptime history and TLS expiry",
+  "documentation_url": "https://downforjustmeoreveryone.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4d45add9374cb90552cb9da26564d0b444ee55aa5e8dd50dc0d3ae5050b2c4b5"
+  }
+}

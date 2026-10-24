@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/europe-pmc",
+  "name": "Europe PMC",
+  "category": "Science & Math",
+  "description": "Life-science literature search with abstracts, citations and full-text links",
+  "documentation_url": "https://europepmc.org/RestfulWebService",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e4b0abae0c2afb3f43a96b351a92516dec37e72a1ae473f767cc91cd7490a310"
+  }
+}

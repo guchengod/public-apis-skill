@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/social-casino-index",
+  "name": "Social Casino Index",
+  "category": "Games & Comics",
+  "description": "Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources",
+  "documentation_url": "https://socialcasinoindex.com/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "38feb51eff5b02126f34633bb2ad8e1372144abd5471658afb4478d8fced2896"
+  }
+}

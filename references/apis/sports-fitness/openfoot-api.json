@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/openfoot-api",
+  "name": "OpenFoot API",
+  "category": "Sports & Fitness",
+  "description": "Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions",
+  "documentation_url": "https://openfootapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__OPENFOOT_API__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a40d9d75c6365eb7820305b1464f38bcaea336c400dfac07b0eafc677528ab5b"
+  }
+}

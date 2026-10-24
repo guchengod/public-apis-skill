@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/postalcodecheck",
+  "name": "PostalCodeCheck",
+  "category": "Geocoding",
+  "description": "City, region and coordinates for 887,000+ postal codes across 95 countries",
+  "documentation_url": "https://postalcodecheck.com/postal-code-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a297ad4b6a0535e395d356c15641cba00267a0c586e7e0c437857df27c392299"
+  }
+}

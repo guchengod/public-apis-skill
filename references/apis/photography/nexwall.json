@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/nexwall",
+  "name": "NexWall",
+  "category": "Photography",
+  "description": "Curated 4K portrait phone wallpapers across 50+ categories",
+  "documentation_url": "https://nexwall.kodnextech.com/wallpaper-api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__NEXWALL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4ba2dea3b6c996b049407e148cec0002e6899a0f8e589773080a3834889744c0"
+  }
+}

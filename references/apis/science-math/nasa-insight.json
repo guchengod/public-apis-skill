@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "science-math/nasa-insight",
+  "name": "NASA InSight",
+  "category": "Science & Math",
+  "description": "Mars weather data from InSight lander",
+  "documentation_url": "https://api.nasa.gov/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SCIENCE_MATH__NASA_INSIGHT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c95f2cd98723ccc97aabe086c8552fbdafdc89f67497ed91c426f515043065d"
+  }
+}

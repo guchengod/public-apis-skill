@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/xfinlab",
+  "name": "XFINLAB",
+  "category": "Finance",
+  "description": "Market events, sentiment, technical analysis and macro data for stocks",
+  "documentation_url": "https://www.xfinlab.com/intelligence-api.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__XFINLAB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37431414fafea2c08010a2c906f1adf63753f54f1a45b0896fc87f553320fc7f"
+  }
+}

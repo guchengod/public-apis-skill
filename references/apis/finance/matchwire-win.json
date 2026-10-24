@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/matchwire-win",
+  "name": "matchwire.win",
+  "category": "Finance",
+  "description": "Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun",
+  "documentation_url": "https://matchwire.win/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__MATCHWIRE_WIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "be512e093b00eb698fc68004d99f95e01d4feb12fcb9fcb8309f6c44e17d42cc"
+  }
+}

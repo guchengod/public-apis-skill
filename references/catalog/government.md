@@ -1,16 +1,21 @@
 # Government
 
-103 interfaces. Paths are relative to this catalog file.
+126 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | AI Law Tracker | apiKey | yes | unknown | [`government/ai-law-tracker`](../apis/government/ai-law-tracker.json) |
+| apipj | apiKey | yes | yes | [`government/apipj`](../apis/government/apipj.json) |
+| Ayes and Noes | No | yes | yes | [`government/ayes-and-noes`](../apis/government/ayes-and-noes.json) |
 | Bank Negara Malaysia Open Data | No | yes | unknown | [`government/bank-negara-malaysia-open-data`](../apis/government/bank-negara-malaysia-open-data.json) |
 | BCLaws | No | no | unknown | [`government/bclaws`](../apis/government/bclaws.json) |
+| Bidledger | No | yes | yes | [`government/bidledger`](../apis/government/bidledger.json) |
+| Boletín Oficial del Estado (BOE) | No | yes | unknown | [`government/boletin-oficial-del-estado-boe`](../apis/government/boletin-oficial-del-estado-boe.json) |
 | Brazil | No | yes | yes | [`government/brazil`](../apis/government/brazil.json) |
 | Brazil Central Bank Open Data | No | yes | unknown | [`government/brazil-central-bank-open-data`](../apis/government/brazil-central-bank-open-data.json) |
 | Brazil Receita WS | No | yes | unknown | [`government/brazil-receita-ws`](../apis/government/brazil-receita-ws.json) |
 | Brazilian Chamber of Deputies Open Data | No | yes | no | [`government/brazilian-chamber-of-deputies-open-data`](../apis/government/brazilian-chamber-of-deputies-open-data.json) |
+| Bureau of Labor Statistics | No | yes | unknown | [`government/bureau-of-labor-statistics`](../apis/government/bureau-of-labor-statistics.json) |
 | CPFHub | apiKey | yes | yes | [`government/cpfhub`](../apis/government/cpfhub.json) |
 | Census.gov | No | yes | unknown | [`government/census-gov`](../apis/government/census-gov.json) |
 | City, Berlin | No | yes | unknown | [`government/city-berlin`](../apis/government/city-berlin.json) |
@@ -24,6 +29,7 @@
 | City, Toronto Open Data | No | yes | yes | [`government/city-toronto-open-data`](../apis/government/city-toronto-open-data.json) |
 | Code.gov | apiKey | yes | unknown | [`government/code-gov`](../apis/government/code-gov.json) |
 | Colorado Information Marketplace | No | yes | unknown | [`government/colorado-information-marketplace`](../apis/government/colorado-information-marketplace.json) |
+| ContaCLT | No | yes | yes | [`government/contaclt`](../apis/government/contaclt.json) |
 | Conversor IAE CNAE | apiKey | yes | no | [`government/conversor-iae-cnae`](../apis/government/conversor-iae-cnae.json) |
 | Data USA | No | yes | unknown | [`government/data-usa`](../apis/government/data-usa.json) |
 | Data.gov | apiKey | yes | unknown | [`government/data-gov`](../apis/government/data-gov.json) |
@@ -33,20 +39,29 @@
 | District of Columbia Open Data | No | yes | unknown | [`government/district-of-columbia-open-data`](../apis/government/district-of-columbia-open-data.json) |
 | DistrictAPI | apiKey | yes | yes | [`government/districtapi`](../apis/government/districtapi.json) |
 | eCourtsIndia | apiKey | yes | yes | [`government/ecourtsindia`](../apis/government/ecourtsindia.json) |
+| Edgrapi | apiKey | yes | yes | [`government/edgrapi`](../apis/government/edgrapi.json) |
+| EditalMD | No | yes | yes | [`government/editalmd`](../apis/government/editalmd.json) |
+| Election | No | yes | yes | [`government/election`](../apis/government/election.json) |
 | EPA | No | yes | unknown | [`government/epa`](../apis/government/epa.json) |
+| EU VAT Rates by Commodity Code | No | yes | yes | [`government/eu-vat-rates-by-commodity-code`](../apis/government/eu-vat-rates-by-commodity-code.json) |
 | FastDOL | apiKey | yes | yes | [`government/fastdol`](../apis/government/fastdol.json) |
 | FBI Wanted | No | yes | unknown | [`government/fbi-wanted`](../apis/government/fbi-wanted.json) |
+| FDA Import Alert Screening | apiKey | yes | unknown | [`government/fda-import-alert-screening`](../apis/government/fda-import-alert-screening.json) |
 | FEC | apiKey | yes | unknown | [`government/fec`](../apis/government/fec.json) |
 | Federal Register | No | yes | unknown | [`government/federal-register`](../apis/government/federal-register.json) |
-| Food Standards Agency | No | no | unknown | [`government/food-standards-agency`](../apis/government/food-standards-agency.json) |
+| gankdat | apiKey | yes | yes | [`government/gankdat`](../apis/government/gankdat.json) |
 | Gazette Data, UK | OAuth | yes | unknown | [`government/gazette-data-uk`](../apis/government/gazette-data-uk.json) |
+| GovContractScout | apiKey | yes | yes | [`government/govcontractscout`](../apis/government/govcontractscout.json) |
 | Gun Policy | apiKey | yes | unknown | [`government/gun-policy`](../apis/government/gun-policy.json) |
+| India LGD Index | No | yes | yes | [`government/india-lgd-index`](../apis/government/india-lgd-index.json) |
 | Indian Mandi Prices | No | yes | yes | [`government/indian-mandi-prices`](../apis/government/indian-mandi-prices.json) |
+| Indian MSP Benchmarks | No | yes | yes | [`government/indian-msp-benchmarks`](../apis/government/indian-msp-benchmarks.json) |
 | Indian Pincode | No | yes | yes | [`government/indian-pincode`](../apis/government/indian-pincode.json) |
 | INEI | No | no | unknown | [`government/inei`](../apis/government/inei.json) |
 | Interpol Red Notices | No | yes | unknown | [`government/interpol-red-notices`](../apis/government/interpol-red-notices.json) |
 | Istanbul (İBB) Open Data | No | yes | unknown | [`government/istanbul-ibb-open-data`](../apis/government/istanbul-ibb-open-data.json) |
 | LocalGov.jp | No | yes | yes | [`government/localgov-jp`](../apis/government/localgov-jp.json) |
+| MORVS | No | yes | yes | [`government/morvs`](../apis/government/morvs.json) |
 | National Park Service, US | apiKey | yes | yes | [`government/national-park-service-us`](../apis/government/national-park-service-us.json) |
 | Neotimo DGFiP Mirror | No | yes | unknown | [`government/neotimo-dgfip-mirror`](../apis/government/neotimo-dgfip-mirror.json) |
 | Open Government, ACT | No | yes | unknown | [`government/open-government-act`](../apis/government/open-government-act.json) |
@@ -98,12 +113,20 @@
 | Open Government, West Australia | No | yes | unknown | [`government/open-government-west-australia`](../apis/government/open-government-west-australia.json) |
 | OpenMercantil | No | yes | yes | [`government/openmercantil`](../apis/government/openmercantil.json) |
 | OpenRegistry | OAuth | yes | unknown | [`government/openregistry`](../apis/government/openregistry.json) |
+| OpenStates | apiKey | yes | unknown | [`government/openstates`](../apis/government/openstates.json) |
 | PRC Exam Schedule | No | yes | yes | [`government/prc-exam-schedule`](../apis/government/prc-exam-schedule.json) |
+| Radar CNPJ | No | yes | no | [`government/radar-cnpj`](../apis/government/radar-cnpj.json) |
+| Regulations.gov | apiKey | yes | unknown | [`government/regulations-gov`](../apis/government/regulations-gov.json) |
 | Represent by Open North | No | yes | unknown | [`government/represent-by-open-north`](../apis/government/represent-by-open-north.json) |
+| Right to Disconnect | No | yes | yes | [`government/right-to-disconnect`](../apis/government/right-to-disconnect.json) |
+| Spatial India | No | yes | yes | [`government/spatial-india`](../apis/government/spatial-india.json) |
+| SukuuData | apiKey | yes | yes | [`government/sukuudata`](../apis/government/sukuudata.json) |
 | Tollmint | No | yes | yes | [`government/tollmint`](../apis/government/tollmint.json) |
+| Travel Risk | apiKey | yes | yes | [`government/travel-risk`](../apis/government/travel-risk.json) |
 | UK Companies House | OAuth | yes | unknown | [`government/uk-companies-house`](../apis/government/uk-companies-house.json) |
-| US Presidential Election Data by TogaTech | No | yes | no | [`government/us-presidential-election-data-by-togatech`](../apis/government/us-presidential-election-data-by-togatech.json) |
-| USA.gov | apiKey | yes | unknown | [`government/usa-gov`](../apis/government/usa-gov.json) |
-| US Federal Contracts & Grants | No | yes | yes | [`government/us-federal-contracts-grants`](../apis/government/us-federal-contracts-grants.json) |
+| UK Legislation Changes | No | yes | yes | [`government/uk-legislation-changes`](../apis/government/uk-legislation-changes.json) |
+| UK Public Tenders by Trade | No | yes | yes | [`government/uk-public-tenders-by-trade`](../apis/government/uk-public-tenders-by-trade.json) |
 | USAspending.gov | No | yes | unknown | [`government/usaspending-gov`](../apis/government/usaspending-gov.json) |
+| Veridion | No | yes | yes | [`government/veridion`](../apis/government/veridion.json) |
 | Vett | No | yes | yes | [`government/vett`](../apis/government/vett.json) |
+| VotePredictor | No | yes | yes | [`government/votepredictor`](../apis/government/votepredictor.json) |

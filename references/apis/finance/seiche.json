@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/seiche",
+  "name": "Seiche",
+  "category": "Finance",
+  "description": "Free public funding, FX and capital-market evidence with source clocks",
+  "documentation_url": "https://seiche.info/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "395af91426779a754b15de523d21964fbb0c03e0404e7fa049bb96c6d81f46fe"
+  }
+}

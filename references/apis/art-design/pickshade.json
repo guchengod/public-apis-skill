@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/pickshade",
+  "name": "PickShade",
+  "category": "Art & Design",
+  "description": "Convert colors, check WCAG and APCA contrast, build palettes, gradients and tokens",
+  "documentation_url": "https://pickshade.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6e06c6246f65e956f286577064752f9b87858da326fbb3cb8b1eff094b95a609"
+  }
+}

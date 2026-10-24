@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/marginpad",
+  "name": "MarginPad",
+  "category": "Cryptocurrency",
+  "description": "Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges",
+  "documentation_url": "https://marginpad.io/free-crypto-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "505697696e5b8a69c097d30167c589d4e23d3d9b69e3abf851a454df2660d5dc"
+  }
+}

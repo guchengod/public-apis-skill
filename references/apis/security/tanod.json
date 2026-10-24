@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/tanod",
+  "name": "Tanod",
+  "category": "Security",
+  "description": "Pay-per-call scans of smart contracts, addresses and MCP/skill packages; small free daily tier",
+  "documentation_url": "https://tanod.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1a9d8d8e2765e9aea747bd095f30b6203077ce3dc3ad0731f8cee35d49b27e7"
+  }
+}

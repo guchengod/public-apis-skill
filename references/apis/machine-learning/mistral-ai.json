@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/mistral-ai",
+  "name": "Mistral AI",
+  "category": "Machine Learning",
+  "description": "High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier",
+  "documentation_url": "https://docs.mistral.ai/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__MISTRAL_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "77cefaa685b1ebd7f245fb6a738917d951fb60425861bdbfd8d732979fc0a839"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/theqrcode",
+  "name": "TheQRCode",
+  "category": "Development",
+  "description": "Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling",
+  "documentation_url": "https://theqrcode.io/qr-code-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5543de4662d60e1b594cf55daba5381f68f4fe90901c8511b4b9933f4389bdce"
+  }
+}

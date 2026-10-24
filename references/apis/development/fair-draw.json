@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/fair-draw",
+  "name": "Fair Draw",
+  "category": "Development",
+  "description": "Verifiable random draws bound to the drand public randomness beacon",
+  "documentation_url": "https://bettip.co.za/fair-draw/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b2a4eaf80968f5b729a9615bc94ab40620815e398e335d1931396d3fb5b826aa"
+  }
+}

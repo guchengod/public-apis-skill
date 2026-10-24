@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/sthan-io-india-pin-code-autocomplete",
+  "name": "sthan.io India PIN Code Autocomplete",
+  "category": "Geocoding",
+  "description": "Autocomplete Indian PIN codes as users type",
+  "documentation_url": "https://sthan.io/products/pincode-autocomplete-ind",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__STHAN_IO_INDIA_PIN_CODE_AUTOCOMPLETE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7142fe435b41dfeca52ecd27cc8f777ae114209d64c90afa12894cb8c171c77f"
+  }
+}

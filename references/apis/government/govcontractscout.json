@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/govcontractscout",
+  "name": "GovContractScout",
+  "category": "Government",
+  "description": "US state & local government contracts: search, details, NAICS lookup and AI match scoring",
+  "documentation_url": "https://scout.govbidportals.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__GOVCONTRACTSCOUT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e38ec91964093c62910fa8e468f899b1f6abbd14cd481068f0d74cfee2811061"
+  }
+}

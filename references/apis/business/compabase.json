@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/compabase",
+  "name": "Compabase",
+  "category": "Business",
+  "description": "Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings",
+  "documentation_url": "https://compabase.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__COMPABASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2fb601120982129e1bba4cfb32e66c403cf1a7d72cc2fd738b7b745dd847bc2e"
+  }
+}
