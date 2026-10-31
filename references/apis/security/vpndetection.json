@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/vpndetection",
+  "name": "VPNDetection",
+  "category": "Security",
+  "description": "Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed",
+  "documentation_url": "https://docs.vpndetection.io/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9527792212ebf383467582cb8d657006475785eba48fc5eec87d2912ddd01f96"
+  }
+}

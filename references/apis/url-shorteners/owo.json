@@ -4,7 +4,7 @@
   "name": "owo",
   "category": "URL Shorteners",
   "description": "A simple link obfuscator/shortener",
-  "documentation_url": "https://owo.vc/api",
+  "documentation_url": "https://owo.vc/",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "219bb7a55ab4d08f52a58e1b60bc362ceebd5389f51ab208872b926e79c8430e"
+    "fingerprint": "afdc17886fff4e45620e0463a4a5bf69ef0d1939ade7e06210a01147b7423708"
   }
 }

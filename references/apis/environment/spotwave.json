@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/spotwave",
+  "name": "SpotWave",
+  "category": "Environment",
+  "description": "Day-ahead electricity prices for 40+ European market zones, incl. taxes and VAT",
+  "documentation_url": "https://spotwave.eu/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "67a2c6c6312a17e9e44747f2359c117c26ebf0402957402ca4f72fed6506ada5"
+  }
+}

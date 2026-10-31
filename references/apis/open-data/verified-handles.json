@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/verified-handles",
+  "name": "Verified Handles",
+  "category": "Open Data",
+  "description": "Official social media handles and identifiers of 155,000+ notable people and organisations",
+  "documentation_url": "https://verifiedhandles.org/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4d49f5b130b31dc3a946efe4d5d9c0043d0d60d39cae99dfbfcd18ea19167300"
+  }
+}

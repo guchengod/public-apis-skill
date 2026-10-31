@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/online-sudoku-sudokumax",
+  "name": "Online Sudoku - Sudokumax",
+  "category": "Games & Comics",
+  "description": "Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com",
+  "documentation_url": "https://sudokumax.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__ONLINE_SUDOKU_SUDOKUMAX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c01d1cd4d7f7659f8808ea5721ca16592515cc2000bddbc9679920fcf7eb37a8"
+  }
+}

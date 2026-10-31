@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/w-system-eu-business-data",
+  "name": "W System EU Business Data",
+  "category": "Business",
+  "description": "EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening",
+  "documentation_url": "https://api.wsystem.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "06b4a5e37d6e8ce20be36e7d6649eca073d247d12548575463e8e780de8dcc58"
+  }
+}

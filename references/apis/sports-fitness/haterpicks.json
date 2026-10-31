@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/haterpicks",
+  "name": "HaterPicks",
+  "category": "Sports & Fitness",
+  "description": "Australian sports odds and player props from every major Australian bookmaker, free tier",
+  "documentation_url": "https://www.haterpicks.app/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__HATERPICKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "adc1513fe8a1c47e710744dfa7f419a94c9a32b404a2681ad537efaf9b1710e3"
+  }
+}

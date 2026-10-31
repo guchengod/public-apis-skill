@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/satnogs",
+  "name": "SatNOGS",
+  "category": "Science & Math",
+  "description": "Satellite observations from open ground stations",
+  "documentation_url": "https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "aab9e60e27903e3f318390ead5f0f40fdf515525d348e4711ffef6bd56ab6769"
+  }
+}

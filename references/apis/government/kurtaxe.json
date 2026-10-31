@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/kurtaxe",
+  "name": "Kurtaxe",
+  "category": "Government",
+  "description": "German tourist tax (Kurtaxe) rates by municipality, each quoted from the municipal statute",
+  "documentation_url": "https://keyset.cloud/kurtaxe/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "21057f70ee7be2c4f2738c43111be983f3501f95f9e514cd2f1fc3a505b39da3"
+  }
+}

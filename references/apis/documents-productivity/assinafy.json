@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/assinafy",
+  "name": "Assinafy",
+  "category": "Documents & Productivity",
+  "description": "Brazilian e-signature API with a free plan",
+  "documentation_url": "https://api.assinafy.com.br/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__ASSINAFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "20c2f033b63492e3aef159f7c81769b59925f3741f17fc7f8a2122c2ecf67e14"
+  }
+}

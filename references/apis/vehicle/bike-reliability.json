@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/bike-reliability",
+  "name": "Bike Reliability",
+  "category": "Vehicle",
+  "description": "UK motorcycle reliability ranked by first-time MOT pass rates",
+  "documentation_url": "https://bikereliability.co.uk/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0f47a53ac36156769b74db08f93f6310705e4290faf7d141289f822346a6e835"
+  }
+}

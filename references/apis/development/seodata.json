@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/seodata",
+  "name": "seodata",
+  "category": "Development",
+  "description": "Keyword search volume, CPC and competition by country, no key needed",
+  "documentation_url": "https://www.seodata.dev/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "74064cbe328582b5fa0080876731283ab73ccf61d5fcae88626b5fbea858312a"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/kpainter",
+  "name": "KPainter",
+  "category": "Video",
+  "description": "Create video, image, and interactive app outputs from prompts or source files",
+  "documentation_url": "https://api.kpainter.ai/openapi/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__KPAINTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eb7b40d309ca0c91da75dd9df89e87c28b96ae3bec6bc1e06f6b7f1b0e524193"
+  }
+}

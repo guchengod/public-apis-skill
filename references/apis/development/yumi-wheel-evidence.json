@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/yumi-wheel-evidence",
+  "name": "Yumi Wheel Evidence",
+  "category": "Development",
+  "description": "Intersect wheel tags for explicit PyPI releases with caller-supplied tags",
+  "documentation_url": "https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01c4ad9624b28ce7f0b47019f62b9866f738c36144238e414856a6d553b8b43d"
+  }
+}

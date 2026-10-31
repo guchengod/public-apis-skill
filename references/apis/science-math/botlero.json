@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/botlero",
+  "name": "Botlero",
+  "category": "Science & Math",
+  "description": "Sourced, quoted specs for humanoid robots",
+  "documentation_url": "https://botlero.com/api/robots",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d97881835ada583378329bdaf1df4938fdebe79484d70d3d451277b8dfaa248"
+  }
+}

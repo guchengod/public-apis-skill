@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/compresso",
+  "name": "Compresso",
+  "category": "Photography",
+  "description": "Visually lossless image compression for PNG, JPEG and WebP",
+  "documentation_url": "https://compresso.space/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__COMPRESSO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e2569a45837c7a64e24e8390f6a7e8ed1b29e04b84b29994350597549ed1812"
+  }
+}

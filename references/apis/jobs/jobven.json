@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/jobven",
+  "name": "Jobven",
+  "category": "Jobs",
+  "description": "Job postings tracked as roles open and close, with webhooks on changes, from employer career pages",
+  "documentation_url": "https://jobven.com/docs/getting-started",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JOBVEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5564d51fba7982c8df63a0b1be7cfa9949304eb98dde45d61190389225975b1c"
+  }
+}

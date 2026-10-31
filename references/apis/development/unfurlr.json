@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/unfurlr",
+  "name": "unfurlr",
+  "category": "Development",
+  "description": "Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed",
+  "documentation_url": "https://unfurlr.onrender.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__UNFURLR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "db048dd6561fdfc92da934a82ae6d13a10d78d1b7feefce5ae38ff380070a50d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/fastballapi",
+  "name": "FastballAPI",
+  "category": "Sports & Fitness",
+  "description": "MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds",
+  "documentation_url": "https://fastballapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FASTBALLAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "61201b8f5c8eaa7b409fbf15a7f2621db6479145321a50a2907b89db5ca96c6d"
+  }
+}

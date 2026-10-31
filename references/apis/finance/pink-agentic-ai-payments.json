@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/pink-agentic-ai-payments",
+  "name": "Pink Agentic AI Payments",
+  "category": "Finance",
+  "description": "Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox",
+  "documentation_url": "https://pinkwallet.com/agentic/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__PINK_AGENTIC_AI_PAYMENTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "97a54f230d1737e6f1d35b4602d1c55eeced8e0c581c2fa3924bd138a7bd68e1"
+  }
+}

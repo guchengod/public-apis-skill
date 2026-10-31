@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/ustariffrates",
+  "name": "USTariffRates",
+  "category": "Finance",
+  "description": "US HTS lookup and origin-specific tariff breakdowns with source context",
+  "documentation_url": "https://api.ustariffrates.com/openapi.json",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__USTARIFFRATES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a3b458267dbc411e226f088581cb6e8e18ccf06cdeb7bbf5093f1e8c8500f09"
+  }
+}

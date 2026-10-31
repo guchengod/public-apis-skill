@@ -3,7 +3,7 @@
   "id": "sports-fitness/odds-api",
   "name": "Odds-API",
   "category": "Sports & Fitness",
-  "description": "Real-time sports betting odds from 265+ bookmakers across 34 sports via REST and WebSocket",
+  "description": "Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket",
   "documentation_url": "https://docs.odds-api.io",
   "auth": {
     "type": "apiKey",
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b0d4a5dccd08f03d206f383006f48dd38c19f0ec2faae374945eed106192923f"
+    "fingerprint": "1c6bc5bfc21a397dfe6f5b47b4139e966c79f3620a73578ed70b0e54dcf8a5b1"
   }
 }

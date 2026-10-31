@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "events/things-to-do",
+  "name": "Things To Do",
+  "category": "Events",
+  "description": "Local events in plain words: concerts, pop-ups, markets, classes, gallery nights",
+  "documentation_url": "https://thingstodoapi.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5bc23bf6eedcfdb28ae020649f154211a9c98bb20915453af43d74f273ae8be5"
+  }
+}

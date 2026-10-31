@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/lottizen",
+  "name": "Lottizen",
+  "category": "Open Data",
+  "description": "Lottery draw history and stats (Canada, US, Europe) and Canadian scratch-ticket remaining prizes",
+  "documentation_url": "https://lottizen.com/api",
+  "auth": {
+    "type": "X-Mashape-Key",
+    "required": true,
+    "strategy": "header",
+    "header": "X-Mashape-Key",
+    "credential_env": "PUBLIC_API__OPEN_DATA__LOTTIZEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "295fd40c02602bda9eb1ce6fb56ac8007c1a7f84422d5087f0b7024c7a662db1"
+  }
+}

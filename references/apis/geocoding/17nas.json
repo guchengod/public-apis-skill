@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/17nas",
+  "name": "17NAS",
+  "category": "Geocoding",
+  "description": "Free IP geolocation API with IPv4/IPv6 detection, ASN and country info, no auth required",
+  "documentation_url": "https://17nas.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b6c52fa4b3fea14e362f353e9fd153c29d06d69df66068b8cd004499f53247b6"
+  }
+}

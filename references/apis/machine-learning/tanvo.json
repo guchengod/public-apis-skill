@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/tanvo",
+  "name": "Tanvo",
+  "category": "Machine Learning",
+  "description": "Image, video and song generation on 30 AI models (Nano Banana, Kling, Veo, Suno), with a free tier",
+  "documentation_url": "https://tanvo.ai/developers/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__TANVO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3dcf4944a600bf60ff8fed755d68ba6c8471eb03e13083e182de164a9a5875d2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/melek",
+  "name": "MELEK",
+  "category": "Blockchain",
+  "description": "Graphene social blockchain (Steem family) with a keyless condenser_api JSON-RPC",
+  "documentation_url": "https://witness.melek.salon/dev/melek",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "22b493aeae1a06705719aaa4b87e938d078cc29a731be94af5e21ce599d28be3"
+  }
+}

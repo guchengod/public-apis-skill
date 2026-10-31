@@ -1,9 +1,10 @@
 # Art & Design
 
-24 interfaces. Paths are relative to this catalog file.
+31 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
+| 3DTexel | No | yes | yes | [`art-design/3dtexel`](../apis/art-design/3dtexel.json) |
 | Améthyste | apiKey | yes | unknown | [`art-design/amethyste`](../apis/art-design/amethyste.json) |
 | Art Institute of Chicago | No | yes | yes | [`art-design/art-institute-of-chicago`](../apis/art-design/art-institute-of-chicago.json) |
 | Colormind | No | no | unknown | [`art-design/colormind`](../apis/art-design/colormind.json) |
@@ -13,6 +14,8 @@
 | DummyImage | No | yes | unknown | [`art-design/dummyimage`](../apis/art-design/dummyimage.json) |
 | EmojiHub | No | yes | yes | [`art-design/emojihub`](../apis/art-design/emojihub.json) |
 | Europeana | apiKey | yes | unknown | [`art-design/europeana`](../apis/art-design/europeana.json) |
+| Face Shape Guide Lookup | No | yes | yes | [`art-design/face-shape-guide-lookup`](../apis/art-design/face-shape-guide-lookup.json) |
+| Favicondl | No | yes | yes | [`art-design/favicondl`](../apis/art-design/favicondl.json) |
 | Harvard Art Museums | apiKey | no | unknown | [`art-design/harvard-art-museums`](../apis/art-design/harvard-art-museums.json) |
 | Icon Horse | No | yes | yes | [`art-design/icon-horse`](../apis/art-design/icon-horse.json) |
 | Iconfinder | apiKey | yes | unknown | [`art-design/iconfinder`](../apis/art-design/iconfinder.json) |
@@ -22,8 +25,12 @@
 | Metropolitan Museum of Art | No | yes | no | [`art-design/metropolitan-museum-of-art`](../apis/art-design/metropolitan-museum-of-art.json) |
 | Noun Project | OAuth | no | unknown | [`art-design/noun-project`](../apis/art-design/noun-project.json) |
 | PHP-Noise | No | yes | yes | [`art-design/php-noise`](../apis/art-design/php-noise.json) |
+| PickShade | No | yes | yes | [`art-design/pickshade`](../apis/art-design/pickshade.json) |
 | Pixel Encounter | No | yes | no | [`art-design/pixel-encounter`](../apis/art-design/pixel-encounter.json) |
+| raFont | No | yes | yes | [`art-design/rafont`](../apis/art-design/rafont.json) |
 | Rijksmuseum | apiKey | yes | unknown | [`art-design/rijksmuseum`](../apis/art-design/rijksmuseum.json) |
+| Smithsonian Open Access | apiKey | yes | unknown | [`art-design/smithsonian-open-access`](../apis/art-design/smithsonian-open-access.json) |
+| The Color API | No | yes | yes | [`art-design/the-color-api`](../apis/art-design/the-color-api.json) |
 | Thisispaper | apiKey | yes | yes | [`art-design/thisispaper`](../apis/art-design/thisispaper.json) |
 | UpRes | apiKey | yes | yes | [`art-design/upres`](../apis/art-design/upres.json) |
 | Text-till-Kladdesign | apiKey | yes | yes | [`art-design/text-till-kladdesign`](../apis/art-design/text-till-kladdesign.json) |

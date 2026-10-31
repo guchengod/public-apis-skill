@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/shotkiln",
+  "name": "Shotkiln",
+  "category": "Development",
+  "description": "Screenshots, PDFs and Open Graph images from a URL or HTML, with a free tier",
+  "documentation_url": "https://shotkiln.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SHOTKILN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c9f823646ee53bc057b9765a429a27d64d9baf8ddf4dd90b27cc766252cc525"
+  }
+}

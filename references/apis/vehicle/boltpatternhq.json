@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/boltpatternhq",
+  "name": "BoltPatternHQ",
+  "category": "Vehicle",
+  "description": "Vehicle wheel fitment, bolt pattern (PCD), offset, and center bore specifications",
+  "documentation_url": "https://boltpatternhq.com/mcp/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5484f93fc1375b18f5756dc9512dde827439b9184f3f84c6eb2d9f38165dc97"
+  }
+}

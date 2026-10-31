@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/framejet",
+  "name": "Framejet",
+  "category": "Development",
+  "description": "Website screenshot API with cookie banners and chat widgets removed; free tier",
+  "documentation_url": "https://framejet.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__FRAMEJET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0fe6fe69fa789b077e4531ca75ced4eb751529cf44c4b1e7a35c2398fd04cf46"
+  }
+}

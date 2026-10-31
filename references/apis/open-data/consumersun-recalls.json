@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/consumersun-recalls",
+  "name": "ConsumerSun Recalls",
+  "category": "Open Data",
+  "description": "US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA",
+  "documentation_url": "https://consumersun.com/data/recalls.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a6f8d54d488346de92c67acbfb30b0315a3d49c9ad8a66f42634a0c712848eb0"
+  }
+}

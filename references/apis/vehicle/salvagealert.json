@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/salvagealert",
+  "name": "SalvageAlert",
+  "category": "Vehicle",
+  "description": "IAA, Copart and GovDeals salvage auction lots, VIN history and buyer-fee estimates",
+  "documentation_url": "https://salvagealert.com/developers/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__SALVAGEALERT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "478a6267967a1e07b9ca73573007e3f18864e23a13267bd21ed5765a770daa61"
+  }
+}

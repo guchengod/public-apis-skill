@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/finbridge",
+  "name": "FinBridge",
+  "category": "Finance",
+  "description": "Official-source financials, segments, valuation, peers and prices for KR, US, JP, TW companies",
+  "documentation_url": "https://www.gronox.kr/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__FINBRIDGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8471f0d09ab5c72762d1912e102324feb801b06a2b96182d52f68874706a4992"
+  }
+}

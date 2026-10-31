@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/rafont",
+  "name": "raFont",
+  "category": "Art & Design",
+  "description": "1,500+ free downloadable fonts with categories, tags and preview images",
+  "documentation_url": "https://rafont.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b28fd96683ae7faf7f94ff3df7943305cc9a6ee6204bce6b6e9c3d46c0c40a5"
+  }
+}

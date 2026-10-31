@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/maskbreak",
+  "name": "Maskbreak",
+  "category": "Security",
+  "description": "Detect VPNs, proxies, Tor, bots and antidetect browsers at signup, login and checkout",
+  "documentation_url": "https://maskbreak.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__MASKBREAK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3adad825ecf2286347c179ccc79e8c7d903f683f32ea2e8772b1ef4962534e36"
+  }
+}

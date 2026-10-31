@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/fastsocial-instagram-data",
+  "name": "FastSocial Instagram Data",
+  "category": "Social",
+  "description": "Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking",
+  "documentation_url": "https://fastsocial.co/instagram-api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__FASTSOCIAL_INSTAGRAM_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa8ba755a1a0c22c6540a6b30845121acdfc34591b5fd6efad0a727a421169fa"
+  }
+}

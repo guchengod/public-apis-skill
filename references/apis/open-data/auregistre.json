@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/auregistre",
+  "name": "Auregistre",
+  "category": "Open Data",
+  "description": "French company history from the official gazette (BODACC) since 2008, with insolvency counts",
+  "documentation_url": "https://auregistre.fr/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "10f5551b16fd0a21f7e2697ce34a06d5cc9999ac630b8e6b570a804d1d84c487"
+  }
+}

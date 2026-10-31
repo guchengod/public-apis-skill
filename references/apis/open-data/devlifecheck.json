@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/devlifecheck",
+  "name": "DevLifeCheck",
+  "category": "Open Data",
+  "description": "Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers",
+  "documentation_url": "https://devlifecheck.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "36a5c7b3a5b0a61043276df34a79cfcce933222fe43215d5674f72b35b344d5a"
+  }
+}

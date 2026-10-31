@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/leadgen-romania",
+  "name": "Leadgen Romania",
+  "category": "Business",
+  "description": "Romanian company registry, ANAF tax status and financial statements",
+  "documentation_url": "https://leadgen.adrianhomelab.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__LEADGEN_ROMANIA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "906b737d4bc1f06917f168c31502524f2bfafc55c6808d8376744f149ce613e5"
+  }
+}

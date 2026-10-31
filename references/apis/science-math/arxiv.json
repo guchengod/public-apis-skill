@@ -4,7 +4,7 @@
   "name": "arXiv",
   "category": "Science & Math",
   "description": "Curated research-sharing platform: physics, mathematics, quantitative finance, and economics",
-  "documentation_url": "https://arxiv.org/help/api/user-manual",
+  "documentation_url": "https://info.arxiv.org/help/api/user-manual.html",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "a1cf04379c9258851bfccc9b55808546cf83bce2ea8920c9a35798e205b670f6"
+    "fingerprint": "bd1fc3da24348d22aaf0507b8d7273ce7c42cbe59619e4cdeb92aa5dfd46f255"
   }
 }

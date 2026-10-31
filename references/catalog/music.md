@@ -1,6 +1,6 @@
 # Music
 
-35 interfaces. Paths are relative to this catalog file.
+36 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -34,6 +34,7 @@
 | Songsterr | No | yes | unknown | [`music/songsterr`](../apis/music/songsterr.json) |
 | SoundCloud | OAuth | yes | unknown | [`music/soundcloud`](../apis/music/soundcloud.json) |
 | Spotify | OAuth | yes | unknown | [`music/spotify`](../apis/music/spotify.json) |
+| StemConsole | apiKey | yes | yes | [`music/stemconsole`](../apis/music/stemconsole.json) |
 | Sunor | apiKey | yes | unknown | [`music/sunor`](../apis/music/sunor.json) |
 | TasteDive | apiKey | yes | unknown | [`music/tastedive`](../apis/music/tastedive.json) |
 | TheAudioDB | apiKey | yes | unknown | [`music/theaudiodb`](../apis/music/theaudiodb.json) |

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/superduperbundle",
+  "name": "SuperDuperBundle",
+  "category": "Games & Comics",
+  "description": "Lowest listed PC game key prices across official and key stores, by name or Steam app ID",
+  "documentation_url": "https://superduperbundle.com/tools/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a7ba3f7d94691f1b5c8f5ae4c41907aa44622904d57411846956c21af4c95521"
+  }
+}

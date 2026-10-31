@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/scoopkit",
+  "name": "Scoopkit",
+  "category": "News",
+  "description": "AI-industry news deduplicated into structured events with a versioned category taxonomy",
+  "documentation_url": "https://scoopkit.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__SCOOPKIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7a6fd2e7230dfee3f6613c009c82cb69012374135702e66a5be160a58fdb2625"
+  }
+}

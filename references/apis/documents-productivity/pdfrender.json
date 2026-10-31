@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/pdfrender",
+  "name": "pdfrender",
+  "category": "Documents & Productivity",
+  "description": "HTML and CSS to PDF with page headers, footers and page numbers, no headless browser",
+  "documentation_url": "https://pdfrender.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PDFRENDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1c4c4c27d66186113b14329fe5ee62b85ef0ddebfec0b9f618a705669c88e29"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/softoteca",
+  "name": "Softoteca",
+  "category": "Business",
+  "description": "Catalog of Brazilian software with the source of each data point and prices in BRL",
+  "documentation_url": "https://softoteca.com.br/v1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1f0e95b0c14a423e6d80d01bbb846181d5a8d96d0ac296bc6bbea5779c3b76a"
+  }
+}

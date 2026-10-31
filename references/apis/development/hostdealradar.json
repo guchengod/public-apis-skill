@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/hostdealradar",
+  "name": "HostDealRadar",
+  "category": "Development",
+  "description": "Source-backed hosting price and provider record lookup",
+  "documentation_url": "https://hostdealradar.com/ai/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9bdfcec348b36df439acb76c10b7f58da2fdf0bde5fe3bfdc49dd1b6f71febdc"
+  }
+}

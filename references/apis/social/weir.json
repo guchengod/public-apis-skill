@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/weir",
+  "name": "Weir",
+  "category": "Social",
+  "description": "Public Reddit and X (Twitter) data: search, posts, comment threads, profiles and followers",
+  "documentation_url": "https://docs.weirapp.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__WEIR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0602bbfc670ef5651f019a153209152ca14ff51ed5ef80756af16c771f23f6cc"
+  }
+}

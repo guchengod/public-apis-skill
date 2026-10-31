@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/veabird",
+  "name": "Veabird",
+  "category": "Weather",
+  "description": "Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key",
+  "documentation_url": "https://veabird.com/api/v1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a07b2d28a2c3a21a2d7a0a456671299e73b711df4ecc2bc339757a00deb57d5"
+  }
+}

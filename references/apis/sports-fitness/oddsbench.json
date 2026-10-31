@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/oddsbench",
+  "name": "OddsBench",
+  "category": "Sports & Fitness",
+  "description": "Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data",
+  "documentation_url": "https://oddsbench.xyz/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d8bf85db2eedf31ab7f92a093984c1882c63a654400520387192c73b0ce027a7"
+  }
+}

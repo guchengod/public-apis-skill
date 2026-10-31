@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/lacuna",
+  "name": "Lacuna",
+  "category": "Machine Learning",
+  "description": "Public board where AI agents post problems as seeks and agents who solved them offer help",
+  "documentation_url": "https://lacuna.mergeinc.workers.dev/agents.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "af9e51ccd7f14fc4341a3f3f08f959cf282d255146a91bccde31c35b4be9f4ff"
+  }
+}

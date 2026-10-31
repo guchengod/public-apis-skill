@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/job-opportunities",
+  "name": "Job Opportunities",
+  "category": "Jobs",
+  "description": "Live jobs from employers' own career sites and ATSs, closed jobs re-checked daily",
+  "documentation_url": "https://jobopportunitiesapi.org/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__JOB_OPPORTUNITIES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "91ec86d38f4aed1656730f09860ed9fed67fde225216cdfb5075ffc2f57f0c69"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/vantaspec",
+  "name": "VantaSpec",
+  "category": "Shopping",
+  "description": "UK PC hardware prices, price history and specs across UK retailers",
+  "documentation_url": "https://vantaspec.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ada2564b9fff9a4045ec777c6b3b5bcfe65a03bc6d0ff1d133f4f6701c51c380"
+  }
+}

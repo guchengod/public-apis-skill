@@ -4,7 +4,7 @@
   "name": "Alpaca",
   "category": "Finance",
   "description": "Realtime and historical market data on all US equities and ETFs",
-  "documentation_url": "https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/",
+  "documentation_url": "https://docs.alpaca.markets/us/docs/about-market-data-api",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "333a8b444a184f05c7a6bfb21f108d977c6b6a3dbe8ba716b70fda2aa441c16e"
+    "fingerprint": "3d4de594c38ff4a4cfeb967725e94daa4c4172608779ce26feda4a26745fe942"
   }
 }

@@ -4,7 +4,7 @@
   "name": "Revolt",
   "category": "Social",
   "description": "Revolt open source Discord alternative",
-  "documentation_url": "https://developers.revolt.chat/api/",
+  "documentation_url": "https://developers.revolt.chat/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "68f9ba56a223582b36066e526f5f2535d7ed0a3be7bd6dbc6a38d4c868811c7f"
+    "fingerprint": "5458e7a60fa9598e736c714286b7933afce16dcde43b15d683ce848b69873391"
   }
 }

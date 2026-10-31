@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/noaa-co-ops",
+  "name": "NOAA CO-OPS",
+  "category": "Weather",
+  "description": "US coastal tides, water levels, currents and meteorological observations",
+  "documentation_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eed81c8966fedc825273dda24846d0f7730986be8d2ac8aabb3863681d71cac5"
+  }
+}

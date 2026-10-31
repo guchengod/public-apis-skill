@@ -4,7 +4,7 @@
   "name": "Bybit",
   "category": "Cryptocurrency",
   "description": "Cryptocurrency data feed and algorithmic trading",
-  "documentation_url": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+  "documentation_url": "https://www.bybit.com/docs/v5/introduction",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "ee8b213bd93c1b8c8804abaa60bee70cf2887a63fc83ec1461a4ff77dc06b32d"
+    "fingerprint": "c10de3546fcc8c296522dabbc1efdcc836ba86247b0de82e4548a47cee57b999"
   }
 }

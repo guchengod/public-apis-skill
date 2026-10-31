@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ip99",
+  "name": "IP99",
+  "category": "Geocoding",
+  "description": "IP geolocation with proxy, VPN and datacenter risk and the age of the evidence",
+  "documentation_url": "https://ip99.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f6c3d1b339e57836b0eb136bc68f1be98b096dc812257b18a16bdd80bbf6695d"
+  }
+}

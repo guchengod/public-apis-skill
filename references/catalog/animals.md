@@ -1,14 +1,13 @@
 # Animals
 
-26 interfaces. Paths are relative to this catalog file.
+24 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
-| AdoptAPet | apiKey | yes | yes | [`animals/adoptapet`](../apis/animals/adoptapet.json) |
 | Axolotl | No | yes | no | [`animals/axolotl`](../apis/animals/axolotl.json) |
+| Breed Health Score | No | yes | no | [`animals/breed-health-score`](../apis/animals/breed-health-score.json) |
 | Cat Facts | No | yes | no | [`animals/cat-facts--3e1ccbfe`](../apis/animals/cat-facts--3e1ccbfe.json) |
 | Cat Facts | No | yes | yes | [`animals/cat-facts--e364408f`](../apis/animals/cat-facts--e364408f.json) |
-| Cataas | No | yes | no | [`animals/cataas`](../apis/animals/cataas.json) |
 | Cats | apiKey | yes | no | [`animals/cats`](../apis/animals/cats.json) |
 | Dog Facts | No | yes | yes | [`animals/dog-facts--1ae4cf44`](../apis/animals/dog-facts--1ae4cf44.json) |
 | Dog Facts | No | yes | yes | [`animals/dog-facts--ed42fb8b`](../apis/animals/dog-facts--ed42fb8b.json) |
@@ -17,10 +16,9 @@
 | FishWatch | No | yes | yes | [`animals/fishwatch`](../apis/animals/fishwatch.json) |
 | HTTP Cat | No | yes | yes | [`animals/http-cat`](../apis/animals/http-cat.json) |
 | HTTP Dog | No | yes | yes | [`animals/http-dog`](../apis/animals/http-dog.json) |
-| IUCN | apiKey | no | no | [`animals/iucn`](../apis/animals/iucn.json) |
+| IUCN | apiKey | yes | no | [`animals/iucn`](../apis/animals/iucn.json) |
 | MeowFacts | No | yes | no | [`animals/meowfacts`](../apis/animals/meowfacts.json) |
 | Movebank | No | yes | yes | [`animals/movebank`](../apis/animals/movebank.json) |
-| Petfinder | apiKey | yes | yes | [`animals/petfinder`](../apis/animals/petfinder.json) |
 | PlaceBear | No | yes | yes | [`animals/placebear`](../apis/animals/placebear.json) |
 | PlaceDog | No | yes | yes | [`animals/placedog`](../apis/animals/placedog.json) |
 | RandomDog | No | yes | yes | [`animals/randomdog`](../apis/animals/randomdog.json) |

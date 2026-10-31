@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transcapi",
+  "name": "TransCAPI",
+  "category": "Transportation",
+  "description": "Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain",
+  "documentation_url": "https://www.transcapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRANSCAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a6cb074c1b3a59e485c2d0a4f4532d07929982b1430ba15fbc4ba1e6e032c8c0"
+  }
+}

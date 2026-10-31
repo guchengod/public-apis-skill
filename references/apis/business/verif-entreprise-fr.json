@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/verif-entreprise-fr",
+  "name": "Verif Entreprise FR",
+  "category": "Business",
+  "description": "French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview",
+  "documentation_url": "https://api-production-24833.up.railway.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae1c6fea88d11c0daded428ec2f0ff05fb9da7b5fc03cdca5ad05244f0f9cda7"
+  }
+}

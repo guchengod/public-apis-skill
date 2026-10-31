@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/nhs-health-a-z",
+  "name": "NHS Health A-Z",
+  "category": "Health",
+  "description": "NHS conditions, medicines and guidance",
+  "documentation_url": "https://digital.nhs.uk/developer/api-catalogue/health-a-to-z",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__NHS_HEALTH_A_Z__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "569c2552155dab2463f54e2dc30834e82fd3ec8745633adc6fc12911fa751561"
+  }
+}

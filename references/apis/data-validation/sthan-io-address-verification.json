@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/sthan-io-address-verification",
+  "name": "sthan.io Address Verification",
+  "category": "Data Validation",
+  "description": "Validate and standardize US addresses, with ZIP+4 and deliverability status",
+  "documentation_url": "https://sthan.io/products/address-verification-usa",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__STHAN_IO_ADDRESS_VERIFICATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "32595172c39989427387d4d96878cc4abfd2c99a1bbf361cbab86e236e5d0e66"
+  }
+}

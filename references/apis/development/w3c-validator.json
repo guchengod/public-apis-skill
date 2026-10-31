@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/w3c-validator",
+  "name": "W3C Validator",
+  "category": "Development",
+  "description": "Validate HTML and check markup errors",
+  "documentation_url": "https://validator.w3.org/docs/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fc4d435e8eddaac199ec885385b54ad22a59722ebf618f4a659b8a8864cddeb0"
+  }
+}

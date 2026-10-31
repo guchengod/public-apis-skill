@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/stanza-vat-validator",
+  "name": "Stanza VAT Validator",
+  "category": "Finance",
+  "description": "Validate EU and UK VAT numbers with country formats, checksums, and VIES status",
+  "documentation_url": "https://stanzaapi.com/tools/vat-validator",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__STANZA_VAT_VALIDATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c530fc3d6fbedb4a4b1a301e9a8f3db5eb6d700e39c7ebaa88e494120c2bfc39"
+  }
+}

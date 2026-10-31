@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/rankfabrik-captions",
+  "name": "RankFabrik Captions",
+  "category": "Video",
+  "description": "Extract transcripts and captions from YouTube videos",
+  "documentation_url": "https://rankfabrik.com/produits/transcription",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__RANKFABRIK_CAPTIONS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae980df7cef3b824e7c9a86cde71cab1366a0e0843d6ebd07e0b72af92280953"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/locio",
+  "name": "Locio",
+  "category": "Geocoding",
+  "description": "Australian address autocomplete, validation and geocoding from the G-NAF national register",
+  "documentation_url": "https://locio.com.au/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__LOCIO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c54279b0a7c561be4f43bfc7ae516a54188fbb8366c9fd68c2fd80f951822da8"
+  }
+}

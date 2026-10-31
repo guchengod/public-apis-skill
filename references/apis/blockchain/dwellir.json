@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/dwellir",
+  "name": "Dwellir",
+  "category": "Blockchain",
+  "description": "RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid",
+  "documentation_url": "https://www.dwellir.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BLOCKCHAIN__DWELLIR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4736a85ea6cb1ed164a41abfab3af2b70e79541459dfdb4cf383a2e0c8919467"
+  }
+}

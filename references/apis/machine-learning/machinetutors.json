@@ -4,7 +4,7 @@
   "name": "Machinetutors",
   "category": "Machine Learning",
   "description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
-  "documentation_url": "https://www.machinetutors.com/portfolio/MT_api.html",
+  "documentation_url": "https://machinetutors.com/api",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "4aa1198e183f23d6f954976f020e307ecf84954cccf52bc4b00629f05580ca38"
+    "fingerprint": "512f6421233cf3da79182b01beb0efc8befc6db2deee88bf4e217fdfa64faade"
   }
 }

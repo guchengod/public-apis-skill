@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/indian-msp-benchmarks",
+  "name": "Indian MSP Benchmarks",
+  "category": "Government",
+  "description": "Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops",
+  "documentation_url": "https://msp-benchmarks-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ffd8459935af2858902e294e55395f0c15c001140a67b27a179187b39bb64a71"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "personality/astro-agents",
+  "name": "Astro Agents",
+  "category": "Personality",
+  "description": "Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang",
+  "documentation_url": "https://astro-agent.dev/llms.txt",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "276c808c995ecfdd97759d6307eb6a76b6462de6bd2957bada588a6c16b407da"
+  }
+}

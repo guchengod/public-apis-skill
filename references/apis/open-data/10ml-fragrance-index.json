@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/10ml-fragrance-index",
+  "name": "10ML Fragrance Index",
+  "category": "Open Data",
+  "description": "Perfume knowledge: notes, accords, families, similar scents, houses, guides. By 10ML",
+  "documentation_url": "https://mcp.10ml.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ddfa3ffdf69267ec0a503478ede6cc532018d1ea24a2dd08f3838f515f1314d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/tickerlayer",
+  "name": "TickerLayer",
+  "category": "Finance",
+  "description": "Real-time and historical market data for stocks, forex, crypto and more",
+  "documentation_url": "https://tickerlayer.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__TICKERLAYER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7eef5da9be05003f5beb4b5c362980a6ccb13b8980291a41259997bcbdc37c5c"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/disban",
+  "name": "Disban",
+  "category": "Email",
+  "description": "Classify email domains as disposable, free, alias, testing or parked to block fake signups",
+  "documentation_url": "https://disban.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__DISBAN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "77d88ac4c911b257eefa6cdec4675c9cda8d9ec3b40a1b84cf4baea60b04e303"
+  }
+}

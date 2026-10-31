@@ -1,10 +1,9 @@
 # Health
 
-37 interfaces. Paths are relative to this catalog file.
+49 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
-| Clinical Trials Directory | No | yes | yes | [`health/clinical-trials-directory`](../apis/health/clinical-trials-directory.json) |
 | CMS.gov | apiKey | yes | unknown | [`health/cms-gov`](../apis/health/cms-gov.json) |
 | Coronavirus | No | yes | unknown | [`health/coronavirus`](../apis/health/coronavirus.json) |
 | Coronavirus in the UK | No | yes | unknown | [`health/coronavirus-in-the-uk`](../apis/health/coronavirus-in-the-uk.json) |
@@ -21,9 +20,14 @@
 | COVID-19 Tracker Sri Lanka | No | yes | unknown | [`health/covid-19-tracker-sri-lanka`](../apis/health/covid-19-tracker-sri-lanka.json) |
 | COVID-ID | No | yes | yes | [`health/covid-id`](../apis/health/covid-id.json) |
 | Cure Cancer With AI | apiKey | yes | no | [`health/cure-cancer-with-ai`](../apis/health/cure-cancer-with-ai.json) |
+| DailyMed | No | yes | unknown | [`health/dailymed`](../apis/health/dailymed.json) |
 | Dataflow Kit COVID-19 | No | yes | unknown | [`health/dataflow-kit-covid-19`](../apis/health/dataflow-kit-covid-19.json) |
+| DeepDNA | No | yes | yes | [`health/deepdna`](../apis/health/deepdna.json) |
 | Edamam | apiKey | yes | unknown | [`health/edamam`](../apis/health/edamam.json) |
 | ERstat | apiKey | yes | yes | [`health/erstat`](../apis/health/erstat.json) |
+| FDA Recalls | apiKey | yes | unknown | [`health/fda-recalls`](../apis/health/fda-recalls.json) |
+| FertilityClinics | No | yes | yes | [`health/fertilityclinics`](../apis/health/fertilityclinics.json) |
+| FindSaunaPlunge | No | yes | yes | [`health/findsaunaplunge`](../apis/health/findsaunaplunge.json) |
 | FoodData Central | apiKey | yes | unknown | [`health/fooddata-central`](../apis/health/fooddata-central.json) |
 | Healthcare.gov | No | yes | unknown | [`health/healthcare-gov`](../apis/health/healthcare-gov.json) |
 | Humanitarian Data Exchange | No | yes | unknown | [`health/humanitarian-data-exchange`](../apis/health/humanitarian-data-exchange.json) |
@@ -34,10 +38,18 @@
 | Makeup | No | no | unknown | [`health/makeup`](../apis/health/makeup.json) |
 | MedlinePlus Genetics | No | yes | unknown | [`health/medlineplus-genetics`](../apis/health/medlineplus-genetics.json) |
 | MyVaccination | No | yes | unknown | [`health/myvaccination`](../apis/health/myvaccination.json) |
+| NHS Health A-Z | apiKey | yes | unknown | [`health/nhs-health-a-z`](../apis/health/nhs-health-a-z.json) |
 | NPPES | No | yes | unknown | [`health/nppes`](../apis/health/nppes.json) |
 | Nutritionix | apiKey | yes | unknown | [`health/nutritionix`](../apis/health/nutritionix.json) |
 | Open Data NHS Scotland | No | yes | unknown | [`health/open-data-nhs-scotland`](../apis/health/open-data-nhs-scotland.json) |
 | Open Disease | No | yes | yes | [`health/open-disease`](../apis/health/open-disease.json) |
+| Open Targets | No | yes | yes | [`health/open-targets`](../apis/health/open-targets.json) |
 | openFDA | apiKey | yes | unknown | [`health/openfda`](../apis/health/openfda.json) |
 | Orion Health | OAuth | yes | unknown | [`health/orion-health`](../apis/health/orion-health.json) |
+| Peptide Library | No | yes | yes | [`health/peptide-library`](../apis/health/peptide-library.json) |
 | Quarantine | No | yes | yes | [`health/quarantine`](../apis/health/quarantine.json) |
+| RxNorm | No | yes | yes | [`health/rxnorm`](../apis/health/rxnorm.json) |
+| Stanza DSCSA Verifier | apiKey | yes | no | [`health/stanza-dscsa-verifier`](../apis/health/stanza-dscsa-verifier.json) |
+| Stanza UDI Decoder | apiKey | yes | no | [`health/stanza-udi-decoder`](../apis/health/stanza-udi-decoder.json) |
+| THC Open Mindfulness Resources | No | yes | yes | [`health/thc-open-mindfulness-resources`](../apis/health/thc-open-mindfulness-resources.json) |
+| Urgences Québec | No | yes | yes | [`health/urgences-quebec`](../apis/health/urgences-quebec.json) |

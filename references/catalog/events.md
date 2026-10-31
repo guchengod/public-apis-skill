@@ -1,9 +1,11 @@
 # Events
 
-3 interfaces. Paths are relative to this catalog file.
+5 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | Eventbrite | OAuth | yes | unknown | [`events/eventbrite`](../apis/events/eventbrite.json) |
+| FindLocal | apiKey | yes | yes | [`events/findlocal`](../apis/events/findlocal.json) |
 | SeatGeek | apiKey | yes | unknown | [`events/seatgeek`](../apis/events/seatgeek.json) |
+| Things To Do | No | yes | yes | [`events/things-to-do`](../apis/events/things-to-do.json) |
 | Ticketmaster | apiKey | yes | unknown | [`events/ticketmaster`](../apis/events/ticketmaster.json) |

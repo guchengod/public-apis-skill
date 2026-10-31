@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/ena",
+  "name": "ENA",
+  "category": "Science & Math",
+  "description": "Nucleotide sequences, genomes and raw reads archive",
+  "documentation_url": "https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "861e32f3a0902ff83fae8ddf99b3a209f4ef17c1a73fb0bcac89009b335125d2"
+  }
+}

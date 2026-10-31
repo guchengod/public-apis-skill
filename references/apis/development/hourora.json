@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/hourora",
+  "name": "Hourora",
+  "category": "Development",
+  "description": "Current time, DST-aware conversion, all IANA zones with clock changes, city and coordinate lookup",
+  "documentation_url": "https://hourora.app/en/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5b8d9d6460ca845976b844008c6a253d6e38405924a3bf153fd2e05ecee95319"
+  }
+}

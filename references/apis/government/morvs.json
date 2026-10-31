@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/morvs",
+  "name": "MORVS",
+  "category": "Government",
+  "description": "Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls",
+  "documentation_url": "https://morvs.ai/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2dfac490269e5a3d8b92e8cd7ccd9f3546cbcf1904566e5e4038462e876dd259"
+  }
+}

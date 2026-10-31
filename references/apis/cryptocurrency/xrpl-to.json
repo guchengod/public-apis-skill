@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/xrpl-to",
+  "name": "XRPL.to",
+  "category": "Cryptocurrency",
+  "description": "XRP Ledger token prices, holders, trades and NFT data",
+  "documentation_url": "https://xrpl.to/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c50b423c54824af4b88472f2a410933ce7f4679a182c61b57109c2e30bd0c75"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/pit-financial-state",
+  "name": "PIT Financial State",
+  "category": "Finance",
+  "description": "Point-in-time quarterly revenue for 20 U.S. issuers",
+  "documentation_url": "https://agent-economy-pit-evaluation.onrender.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__PIT_FINANCIAL_STATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9affbfdc45bea0b033e68f64504a3213fe5e60388da56344c40b7546244a56da"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/soilpoint",
+  "name": "SoilPoint",
+  "category": "Environment",
+  "description": "US soil properties at a lat/lon from USDA SSURGO: texture, drainage, pH, organic matter",
+  "documentation_url": "https://soilpoint.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e143c35f7b98a439c4cd473d52d205d60e6436873320872fec802e200d22de94"
+  }
+}

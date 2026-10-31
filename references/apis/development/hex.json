@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/hex",
+  "name": "Hex",
+  "category": "Development",
+  "description": "Elixir and Erlang package versions and docs",
+  "documentation_url": "https://github.com/hexpm/specifications",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ea3b2eb85380c8048ccacf2c02a2510628d86e8d022941661ed91a970b76912"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/mycryptosignal",
+  "name": "MyCryptoSignal",
+  "category": "Cryptocurrency",
+  "description": "Crypto market data: daily direction signals, prices, on-chain and news snapshots",
+  "documentation_url": "https://mycryptosignal.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__MYCRYPTOSIGNAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b87f037a829474f68a905816b76d434f4a510e6632835fa9149659d9811702b4"
+  }
+}

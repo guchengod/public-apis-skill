@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/ipguardian",
+  "name": "IPGuardian",
+  "category": "Security",
+  "description": "Check IP addresses against 140+ public threat intelligence blocklists",
+  "documentation_url": "https://ipguardian.net/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f610d90b06f69a6f10ae0017592334a9544fc1958a1fcc191218335f762104cd"
+  }
+}

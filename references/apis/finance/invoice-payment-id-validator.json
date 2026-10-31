@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/invoice-payment-id-validator",
+  "name": "Invoice & Payment ID Validator",
+  "category": "Finance",
+  "description": "Validate IBAN, BIC, EU VAT (live VIES), UK VAT and EIN, with a pay/review/hold payee check",
+  "documentation_url": "https://rapidapi.com/MohamedBahaa/api/invoice-payment-id-validator",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__INVOICE_PAYMENT_ID_VALIDATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "564cb1d9c479cf660318b76738dcd22c8bfc57fd1efb681a7864c6737411aa9d"
+  }
+}

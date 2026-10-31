@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/carspecs",
+  "name": "CarSpecs",
+  "category": "Vehicle",
+  "description": "Car specs for 70,000+ trims since 1945 (make, model, generation, trim) and a VIN decoder",
+  "documentation_url": "https://carspecsapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__CARSPECS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4c8956a68a71b59384271ee63f9c3545702f891c14d96af0f37d8d6d91541cfc"
+  }
+}

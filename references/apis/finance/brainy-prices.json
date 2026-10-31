@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/brainy-prices",
+  "name": "Brainy Prices",
+  "category": "Finance",
+  "description": "UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources",
+  "documentation_url": "https://prices.brainy.ae/developers.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5e4ef6f6b814c8688edfd9bf3ac72d63a97d0633f94f5afd400e47b30930f5f1"
+  }
+}

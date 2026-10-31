@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/opentiendas",
+  "name": "OpenTiendas",
+  "category": "Shopping",
+  "description": "Official e-commerce API and webhooks",
+  "documentation_url": "https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__OPENTIENDAS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d699625edc2ba856a21c8addbe528fa4bab1e5a903611e9f2f45a6127ff9cc63"
+  }
+}

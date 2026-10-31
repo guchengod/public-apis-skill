@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/5dollarfootball",
+  "name": "5DollarFootball",
+  "category": "Sports & Fitness",
+  "description": "Football fixtures, results, standings and historical odds with corner and card lines",
+  "documentation_url": "https://5dollarfootballapi.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__5DOLLARFOOTBALL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d89945fa3b806a5ec06074f9421934ff3595c2bc51acee72fc81e1841418ed88"
+  }
+}

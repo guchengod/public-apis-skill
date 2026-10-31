@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/travel-risk-aviation",
+  "name": "Travel Risk Aviation",
+  "category": "Transportation",
+  "description": "Flight status, airports, airlines, airline safety and in-flight Wi-Fi data",
+  "documentation_url": "https://api.travelriskapi.com/ext/reference/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__TRAVEL_RISK_AVIATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "243ea1c6037403874a7b7dfb4e88199423fd755c39c6b95a1af114ba57b863bc"
+  }
+}

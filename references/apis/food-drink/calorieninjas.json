@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/calorieninjas",
+  "name": "CalorieNinjas",
+  "category": "Food & Drink",
+  "description": "Nutrition and calorie data for foods and recipes",
+  "documentation_url": "https://calorieninjas.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__CALORIENINJAS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "62d1e8ead6e4a3d246cfd0acf027b0f9b502327b53e7d854c9e954bafc94129e"
+  }
+}

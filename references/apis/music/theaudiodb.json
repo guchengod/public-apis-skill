@@ -4,7 +4,7 @@
   "name": "TheAudioDB",
   "category": "Music",
   "description": "Music",
-  "documentation_url": "https://www.theaudiodb.com/api_guide.php",
+  "documentation_url": "https://www.theaudiodb.com/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "4413f6353aa0df6fb415ef8fa12c72de5125be91bc1dfde1bff2f16c29506d31"
+    "fingerprint": "862af1219c00fdc6fa35a338d6a8777cbd3ffd49575e9c34ecd79a98bcbd5063"
   }
 }

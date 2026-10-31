@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/ai-stupid-level",
+  "name": "AI Stupid Level",
+  "category": "Machine Learning",
+  "description": "Benchmark scores, rankings and drift data for major LLM APIs, re-measured on a fixed schedule",
+  "documentation_url": "https://aistupidlevel.info/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__AI_STUPID_LEVEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4db729f298598e20c08de5fc14abf26a91181f1e4c3e5f73bbf81ab663bb6018"
+  }
+}

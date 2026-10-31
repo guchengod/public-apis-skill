@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/crypto-vision",
+  "name": "Crypto Vision",
+  "category": "Cryptocurrency",
+  "description": "Free crypto news aggregator with market context, JSON REST and RSS",
+  "documentation_url": "https://cryptocurrency.cv/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8fbcf4e5ada0305ac75a9043eecc9039009575ce0a24cc988856498cbf694837"
+  }
+}

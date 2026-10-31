@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/level",
+  "name": "Level",
+  "category": "Jobs",
+  "description": "Job listings rated by AI level, from Little AI to Builds AI; REST, RSS and MCP",
+  "documentation_url": "https://jobsbylevel.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5689abbdb5b70f98271026806b3c694f5c03b2df4c7d1fa65265c0a6cb9d249b"
+  }
+}

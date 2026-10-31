@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/modelfax",
+  "name": "Modelfax",
+  "category": "Machine Learning",
+  "description": "LLM pricing, context windows and deprecation dates, schema-validated and updated daily",
+  "documentation_url": "https://bytebrujo.github.io/modelfax/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b3e450eb4ab628882ee2217fb5164569512c44724193465ee9a9d7fe5d7d766"
+  }
+}

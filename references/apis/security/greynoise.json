@@ -4,7 +4,7 @@
   "name": "GreyNoise",
   "category": "Security",
   "description": "Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data",
-  "documentation_url": "https://docs.greynoise.io/reference/get_v3-community-ip",
+  "documentation_url": "https://docs.greynoise.io/reference/getcommunityip",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "01d95d256e7dc3aed41b39cbe91924b41e299493c5c7adf0df1365a8e7fb19fc"
+    "fingerprint": "d64ebd2df6bb8ec88b3f66ed26cfcc914d19746e88a1abc741b470e0597757e2"
   }
 }

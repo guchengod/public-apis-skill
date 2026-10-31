@@ -1,41 +1,60 @@
 # Sports & Fitness
 
-46 interfaces. Paths are relative to this catalog file.
+68 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
+| 5DollarFootball | apiKey | yes | yes | [`sports-fitness/5dollarfootball`](../apis/sports-fitness/5dollarfootball.json) |
+| AcesAPI | apiKey | yes | yes | [`sports-fitness/acesapi`](../apis/sports-fitness/acesapi.json) |
 | API-FOOTBALL | apiKey | yes | yes | [`sports-fitness/api-football`](../apis/sports-fitness/api-football.json) |
 | ApiMedic | apiKey | yes | unknown | [`sports-fitness/apimedic`](../apis/sports-fitness/apimedic.json) |
+| Ball Ranks | No | yes | yes | [`sports-fitness/ball-ranks`](../apis/sports-fitness/ball-ranks.json) |
 | balldontlie | No | yes | yes | [`sports-fitness/balldontlie`](../apis/sports-fitness/balldontlie.json) |
 | Bet Better | No | yes | yes | [`sports-fitness/bet-better`](../apis/sports-fitness/bet-better.json) |
+| BirdieAPI | apiKey | yes | yes | [`sports-fitness/birdieapi`](../apis/sports-fitness/birdieapi.json) |
 | Canadian Football League (CFL) | apiKey | yes | no | [`sports-fitness/canadian-football-league-cfl`](../apis/sports-fitness/canadian-football-league-cfl.json) |
+| Cito UFC API | apiKey | yes | no | [`sports-fitness/cito-ufc-api`](../apis/sports-fitness/cito-ufc-api.json) |
 | City Bikes | No | yes | unknown | [`sports-fitness/city-bikes`](../apis/sports-fitness/city-bikes.json) |
 | Cloudbet | apiKey | yes | yes | [`sports-fitness/cloudbet`](../apis/sports-fitness/cloudbet.json) |
 | CollegeFootballData.com | apiKey | yes | unknown | [`sports-fitness/collegefootballdata-com`](../apis/sports-fitness/collegefootballdata-com.json) |
 | DiscGolf | No | yes | yes | [`sports-fitness/discgolf`](../apis/sports-fitness/discgolf.json) |
+| DunkAPI | apiKey | yes | yes | [`sports-fitness/dunkapi`](../apis/sports-fitness/dunkapi.json) |
 | Ergast F1 | No | yes | unknown | [`sports-fitness/ergast-f1`](../apis/sports-fitness/ergast-f1.json) |
+| FanLine Wire | No | yes | yes | [`sports-fitness/fanline-wire`](../apis/sports-fitness/fanline-wire.json) |
+| FastballAPI | apiKey | yes | yes | [`sports-fitness/fastballapi`](../apis/sports-fitness/fastballapi.json) |
 | Fitbit | OAuth | yes | unknown | [`sports-fitness/fitbit`](../apis/sports-fitness/fitbit.json) |
 | Football | X-Mashape-Key | yes | unknown | [`sports-fitness/football`](../apis/sports-fitness/football.json) |
 | Football (Soccer) Videos | No | yes | yes | [`sports-fitness/football-soccer-videos`](../apis/sports-fitness/football-soccer-videos.json) |
 | Football Charts | apiKey | yes | yes | [`sports-fitness/football-charts`](../apis/sports-fitness/football-charts.json) |
+| Football Leagues | apiKey | yes | yes | [`sports-fitness/football-leagues`](../apis/sports-fitness/football-leagues.json) |
 | Football Standings | No | yes | yes | [`sports-fitness/football-standings`](../apis/sports-fitness/football-standings.json) |
 | Football-Data | X-Mashape-Key | yes | unknown | [`sports-fitness/football-data`](../apis/sports-fitness/football-data.json) |
+| HaterPicks | apiKey | yes | no | [`sports-fitness/haterpicks`](../apis/sports-fitness/haterpicks.json) |
 | JCDecaux Bike | apiKey | yes | unknown | [`sports-fitness/jcdecaux-bike`](../apis/sports-fitness/jcdecaux-bike.json) |
 | Lumify | apiKey | yes | no | [`sports-fitness/lumify`](../apis/sports-fitness/lumify.json) |
 | MLB Records and Stats | No | no | unknown | [`sports-fitness/mlb-records-and-stats`](../apis/sports-fitness/mlb-records-and-stats.json) |
+| MoviOdds | No | yes | yes | [`sports-fitness/moviodds`](../apis/sports-fitness/moviodds.json) |
 | NBA Data | apiKey | yes | unknown | [`sports-fitness/nba-data`](../apis/sports-fitness/nba-data.json) |
 | NBA Stats | No | yes | unknown | [`sports-fitness/nba-stats`](../apis/sports-fitness/nba-stats.json) |
 | NHL Records and Stats | No | yes | unknown | [`sports-fitness/nhl-records-and-stats`](../apis/sports-fitness/nhl-records-and-stats.json) |
+| NoPunt | No | yes | yes | [`sports-fitness/nopunt`](../apis/sports-fitness/nopunt.json) |
 | Odds-API | apiKey | yes | yes | [`sports-fitness/odds-api`](../apis/sports-fitness/odds-api.json) |
+| OddsBench | No | yes | yes | [`sports-fitness/oddsbench`](../apis/sports-fitness/oddsbench.json) |
 | Oddsmagnet | No | yes | yes | [`sports-fitness/oddsmagnet`](../apis/sports-fitness/oddsmagnet.json) |
+| OddsRadarWire | apiKey | yes | no | [`sports-fitness/oddsradarwire`](../apis/sports-fitness/oddsradarwire.json) |
 | OpenF1 | No | yes | yes | [`sports-fitness/openf1`](../apis/sports-fitness/openf1.json) |
+| OpenFoot API | apiKey | yes | yes | [`sports-fitness/openfoot-api`](../apis/sports-fitness/openfoot-api.json) |
 | OpenLigaDB | No | yes | yes | [`sports-fitness/openligadb`](../apis/sports-fitness/openligadb.json) |
 | Padel Snipe | No | yes | yes | [`sports-fitness/padel-snipe`](../apis/sports-fitness/padel-snipe.json) |
+| Parlay | apiKey | yes | yes | [`sports-fitness/parlay`](../apis/sports-fitness/parlay.json) |
+| PinnWire | apiKey | yes | no | [`sports-fitness/pinnwire`](../apis/sports-fitness/pinnwire.json) |
 | PlayerElo | apiKey | yes | unknown | [`sports-fitness/playerelo`](../apis/sports-fitness/playerelo.json) |
 | Premier League Standings | apiKey | yes | unknown | [`sports-fitness/premier-league-standings`](../apis/sports-fitness/premier-league-standings.json) |
 | PropLine | apiKey | yes | unknown | [`sports-fitness/propline`](../apis/sports-fitness/propline.json) |
+| QiuXiaoCe Football | No | yes | unknown | [`sports-fitness/qiuxiaoce-football`](../apis/sports-fitness/qiuxiaoce-football.json) |
+| RaceHooks | apiKey | yes | no | [`sports-fitness/racehooks`](../apis/sports-fitness/racehooks.json) |
 | RacingHub | No | yes | unknown | [`sports-fitness/racinghub`](../apis/sports-fitness/racinghub.json) |
-| Sport Data | apiKey | yes | unknown | [`sports-fitness/sport-data`](../apis/sports-fitness/sport-data.json) |
+| Realtime Sports | apiKey | yes | yes | [`sports-fitness/realtime-sports`](../apis/sports-fitness/realtime-sports.json) |
 | Sport List & Data | No | yes | yes | [`sports-fitness/sport-list-data`](../apis/sports-fitness/sport-list-data.json) |
 | Sport Places | No | yes | no | [`sports-fitness/sport-places`](../apis/sports-fitness/sport-places.json) |
 | Sport Vision | apiKey | yes | yes | [`sports-fitness/sport-vision`](../apis/sports-fitness/sport-vision.json) |
@@ -44,9 +63,12 @@
 | Sportmonks Football | apiKey | yes | unknown | [`sports-fitness/sportmonks-football`](../apis/sports-fitness/sportmonks-football.json) |
 | Squiggle | No | yes | yes | [`sports-fitness/squiggle`](../apis/sports-fitness/squiggle.json) |
 | Strava | OAuth | yes | unknown | [`sports-fitness/strava`](../apis/sports-fitness/strava.json) |
+| StrikerAPI | apiKey | yes | yes | [`sports-fitness/strikerapi`](../apis/sports-fitness/strikerapi.json) |
 | SuredBits | No | no | no | [`sports-fitness/suredbits`](../apis/sports-fitness/suredbits.json) |
 | TheRundown | apiKey | yes | yes | [`sports-fitness/therundown`](../apis/sports-fitness/therundown.json) |
 | TheSportsDB | apiKey | yes | yes | [`sports-fitness/thesportsdb`](../apis/sports-fitness/thesportsdb.json) |
+| Touchline Wire | No | yes | yes | [`sports-fitness/touchline-wire`](../apis/sports-fitness/touchline-wire.json) |
 | TourneyRadar | No | yes | unknown | [`sports-fitness/tourneyradar`](../apis/sports-fitness/tourneyradar.json) |
 | Tredict | OAuth | yes | unknown | [`sports-fitness/tredict`](../apis/sports-fitness/tredict.json) |
+| WhensTheRace | No | yes | yes | [`sports-fitness/whenstherace`](../apis/sports-fitness/whenstherace.json) |
 | Wger | apiKey | yes | unknown | [`sports-fitness/wger`](../apis/sports-fitness/wger.json) |

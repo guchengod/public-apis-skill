@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/cartscout",
+  "name": "CartScout",
+  "category": "Shopping",
+  "description": "Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages",
+  "documentation_url": "https://rapidapi.com/veselinveselinov06/api/cartscout-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__CARTSCOUT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "275063b3df3e009110031301f0fbc70d6efd3a76767c22ede179e5469499f0d3"
+  }
+}
