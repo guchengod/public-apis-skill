@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/undertow",
+  "name": "Undertow",
+  "category": "Finance",
+  "description": "Public market-depth and sized exit estimates, not executable quotes",
+  "documentation_url": "https://liquilens-undertow.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c37bec9d70a2f7ad643cfb5a1ef17b34a195603beb8cfe0b4a341207d709d28e"
+  }
+}

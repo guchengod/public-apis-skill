@@ -4,7 +4,7 @@
   "name": "Nasdaq Data Link",
   "category": "Open Data",
   "description": "Stock market data",
-  "documentation_url": "https://docs.data.nasdaq.com/",
+  "documentation_url": "https://data.nasdaq.com/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b3fa08512b3464c689ddc1b61be764d000feef0c6d15bc586236e90afa0144eb"
+    "fingerprint": "e9580d4291a1904a615063540389f31bff055453355372ddf077a321d0bf71fa"
   }
 }

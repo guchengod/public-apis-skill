@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/exactcup",
+  "name": "ExactCup",
+  "category": "Food & Drink",
+  "description": "Cooking ingredient densities: grams per US cup, tablespoon, teaspoon and mL",
+  "documentation_url": "https://exactcup.github.io/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "af4aebd11d910b9ea9fdc8bc0734967596ec20f27b5862b60dc1124d1b1410b8"
+  }
+}

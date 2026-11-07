@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/xlsx-inspector",
+  "name": "XLSX Inspector",
+  "category": "Development",
+  "description": "Inspect XLSX/XLSM structure: sheets, formulas, macros and external links",
+  "documentation_url": "https://api.lifestep.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35dff6a025034549ed039a5b9951fe10dee82c1ca608abaa70f4cb44b47ef9d6"
+  }
+}

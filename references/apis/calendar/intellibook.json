@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/intellibook",
+  "name": "Intellibook",
+  "category": "Calendar",
+  "description": "Appointment booking and availability API for salons and clinics",
+  "documentation_url": "https://www.intellibookai.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c070f40afdb3f919029d71754d33a98cf930aabb31a1d0ec8bca87adefc54043"
+  }
+}

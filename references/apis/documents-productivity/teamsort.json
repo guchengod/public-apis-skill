@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/teamsort",
+  "name": "TeamSort",
+  "category": "Documents & Productivity",
+  "description": "Create a ranked-choice poll from a text prompt and get a shareable link",
+  "documentation_url": "https://teamsort.world/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "778501c4cc2049bb880683cb6c6aa7d2bb342363993affe7c24e6aa1049c2220"
+  }
+}

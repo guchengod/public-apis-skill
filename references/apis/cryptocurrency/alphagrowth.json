@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/alphagrowth",
+  "name": "AlphaGrowth",
+  "category": "Cryptocurrency",
+  "description": "Crypto project metrics, community growth, funding rounds, investors, chains, fees and DAO treasuries",
+  "documentation_url": "https://alphagrowth.io/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7111605ebc5d48cca9bc4f033084348bb1944c2d7566b494c90eecc626742404"
+  }
+}

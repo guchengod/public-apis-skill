@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/pvgis",
+  "name": "PVGIS",
+  "category": "Environment",
+  "description": "EU solar radiation and photovoltaic performance estimates",
+  "documentation_url": "https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/getting-started-pvgis/api-non-interactive-service",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ed3f17c4e69230bbcd7e63bf566e24c23af221ead71bc2b9924ae72eef8ca91"
+  }
+}

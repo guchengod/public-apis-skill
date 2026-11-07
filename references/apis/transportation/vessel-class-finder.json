@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/vessel-class-finder",
+  "name": "Vessel Class Finder",
+  "category": "Transportation",
+  "description": "IACS class society, class status and survey dates for ships by IMO number",
+  "documentation_url": "https://vesselclassfinder.com/blog/vessel-classification-api.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__VESSEL_CLASS_FINDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e44a0f99b505296f7105b55f1541bc3b3f91b22669f1ecd3d54db2a4f1a5fc89"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/mypincode",
+  "name": "MyPincode",
+  "category": "Geocoding",
+  "description": "Indian PIN code and postal office lookup",
+  "documentation_url": "https://mypincode.live",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cd67d36ba6e7c7936ec27a2b57ca199ff56de74a17232125736bee2f2fde660e"
+  }
+}

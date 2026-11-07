@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/mycelium",
+  "name": "Mycelium",
+  "category": "Environment",
+  "description": "Corporate carbon emissions disclosures (scope 1, 2 and 3), company-reported and estimated",
+  "documentation_url": "https://api.mycelium.global/docs/v1",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__MYCELIUM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e3f06e628c7d6f0ebba8b5e1b141794dfef4786e13d0a990ea9b079f2bb4b59c"
+  }
+}

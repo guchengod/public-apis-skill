@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/kvartiry-phuket",
+  "name": "Kvartiry-Phuket",
+  "category": "Open Data",
+  "description": "Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches",
+  "documentation_url": "https://kvartiry-phuket.com/otkrytye-dannye/#english",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "266cac5505222288d08bce67bc3bc84450b58fd30a1f5bc1268414ef00ac06cc"
+  }
+}

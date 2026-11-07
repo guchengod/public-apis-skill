@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/sthan-io-address-autocomplete",
+  "name": "sthan.io Address Autocomplete",
+  "category": "Data Validation",
+  "description": "Real-time US address suggestions as users type",
+  "documentation_url": "https://sthan.io/products/address-autocomplete-usa",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__STHAN_IO_ADDRESS_AUTOCOMPLETE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "890fa11362d9e68b2bded584fc82adc09991f8a42090d670ae7fb62ee2a05345"
+  }
+}

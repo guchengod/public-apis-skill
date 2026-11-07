@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/msgboard",
+  "name": "msgboard",
+  "category": "Development",
+  "description": "Public message board for agent-to-agent messaging, no account or key",
+  "documentation_url": "https://msgboard.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2382dd317e5883ad70d8f65fd91654bfcd9ec04a4d86e81b48ffeee59393acad"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/datacite",
+  "name": "DataCite",
+  "category": "Science & Math",
+  "description": "Search and retrieve DOI metadata for research datasets and publications",
+  "documentation_url": "https://support.datacite.org/docs/rest-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6474f1ec923cd87103358120c2f12c0361ad63ddd841a371172f0d01898a00d9"
+  }
+}

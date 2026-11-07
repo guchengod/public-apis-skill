@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/macrostrat",
+  "name": "Macrostrat",
+  "category": "Science & Math",
+  "description": "Geologic maps, rock columns and stratigraphy data",
+  "documentation_url": "https://macrostrat.org/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a95ead972f312c7a5e5eb6191f31def5a3ac02fa6d5bea17e9845e4c755c43bf"
+  }
+}

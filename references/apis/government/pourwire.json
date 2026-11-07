@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/pourwire",
+  "name": "PourWire",
+  "category": "Government",
+  "description": "New restaurant and bar liquor license applications in 7 US metros (TX, NY, Los Angeles)",
+  "documentation_url": "https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications#free-json-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35b0b460e5a168a6b0be26b2959683dd65ac23037323b4c53aab15dcdac85796"
+  }
+}

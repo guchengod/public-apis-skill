@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/openshopgraph",
+  "name": "OpenShopGraph",
+  "category": "Shopping",
+  "description": "Source-dated return, shipping and payment facts for online shops",
+  "documentation_url": "https://openshopgraph.com/en/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "80bc97acdeb87b87f74b53a3702d50bac81f882fa25c58b0d266fc2140f221eb"
+  }
+}

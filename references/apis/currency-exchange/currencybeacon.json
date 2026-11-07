@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/currencybeacon",
+  "name": "CurrencyBeacon",
+  "category": "Currency Exchange",
+  "description": "Real-time and historical currency exchange rates with free tier",
+  "documentation_url": "https://currencybeacon.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__CURRENCYBEACON__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "898ba512ff59f47ce19e0209e6ed6fd4de113c25912cbdb8ad4c2481751769dd"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/voxodds",
+  "name": "VoxOdds",
+  "category": "Finance",
+  "description": "Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores",
+  "documentation_url": "https://voxodds.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d12c37a5af646de3e22cc0ac4f842485f6518fddc1b3b537d2e076cc67fe0a06"
+  }
+}

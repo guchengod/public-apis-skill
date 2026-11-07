@@ -4,7 +4,7 @@
   "name": "0x",
   "category": "Cryptocurrency",
   "description": "API for querying token and pool stats across various liquidity pools",
-  "documentation_url": "https://0x.org/api",
+  "documentation_url": "https://docs.0x.org/",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "f403b44324a44c0221834b0add769f89e885eb12294b50c59ce30826840002f8"
+    "fingerprint": "245450fdff01f5dfdcbc4c3bc1addbd73a4cee8720a4287d5b7097894a13c34b"
   }
 }

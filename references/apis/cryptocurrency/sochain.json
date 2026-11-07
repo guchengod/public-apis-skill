@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/sochain",
+  "name": "SoChain",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin, Litecoin, Dogecoin and Zcash addresses, transactions, blocks and fees",
+  "documentation_url": "https://sochain.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5d607eed0c5e3068d7c1684ac1c72297e7a7eec0fdca5777ff8b1b530e1859e9"
+  }
+}

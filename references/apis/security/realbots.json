@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/realbots",
+  "name": "RealBots",
+  "category": "Security",
+  "description": "Verify whether requests claiming to be GPTBot, ClaudeBot & other AI crawlers are real",
+  "documentation_url": "https://aibots.kaderagha.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__REALBOTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c98ca1a6917a5f685dbbb65fc1dd825dfd1f64f67de8ff97dbe7552bb45c7038"
+  }
+}

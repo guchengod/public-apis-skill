@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/lianex",
+  "name": "Lianex",
+  "category": "Shopping",
+  "description": "Australian product prices compared across eBay, Amazon, JB Hi-Fi and more, as read-only JSON",
+  "documentation_url": "https://lianex.ai/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6658313e85c490cc5e6e00cd9ae440358caaf3fb5991677e87d01390f229e12f"
+  }
+}

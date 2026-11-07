@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/airportmiles",
+  "name": "AirportMiles",
+  "category": "Transportation",
+  "description": "Airport codes, distances, routes and passenger numbers as static JSON files",
+  "documentation_url": "https://airportmiles.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "53d1520d09aac3c030b5fa11381fcf0289feb01da6b6c2c63b558b12f64dc491"
+  }
+}

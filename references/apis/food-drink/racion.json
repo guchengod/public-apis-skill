@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/racion",
+  "name": "Racion",
+  "category": "Food & Drink",
+  "description": "Weekly meal plans with grocery prices and shopping lists, 22 countries",
+  "documentation_url": "https://racion.app/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e70fc61550f2b5378aab2fc8ab555f0f6e395ae9560bccc3394c6164c27cf6f8"
+  }
+}

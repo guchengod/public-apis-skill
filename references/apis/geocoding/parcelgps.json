@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/parcelgps",
+  "name": "ParcelGPS",
+  "category": "Geocoding",
+  "description": "European cadastral parcels by reference or point: coordinates, area, land use and geometry",
+  "documentation_url": "https://www.parcelgps.com/en/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__PARCELGPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "49bcc99f40d9b27a6b5a82dce1979cbecf7c6330de92a9cf37cd0adacb7fd279"
+  }
+}

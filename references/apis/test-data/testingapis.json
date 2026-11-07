@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/testingapis",
+  "name": "TestingAPIs",
+  "category": "Test Data",
+  "description": "Free fake REST API with products, posts, todos, any HTTP status code and request echo",
+  "documentation_url": "https://testingapis.com/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d9f4ae141bf3fbd5ca6f47bdc3c9c1179ac8c0ecc3624abc67b5e1aa36861d5"
+  }
+}

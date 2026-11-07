@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/vornamencheck",
+  "name": "Vornamencheck",
+  "category": "Development",
+  "description": "Gender probability for a first name, optionally per country; documentation in German",
+  "documentation_url": "https://vornamencheck.de/#api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "74393d22d9d262e61ff272bf7fded8d7dfa1a82e851afeb8762553a083127141"
+  }
+}

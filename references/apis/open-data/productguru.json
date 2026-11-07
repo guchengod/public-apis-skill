@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/productguru",
+  "name": "ProductGuru",
+  "category": "Open Data",
+  "description": "Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN)",
+  "documentation_url": "https://myproduct.guru/lookup/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9434cddf185198eef57ef33c7ec48972cae62516df486f61cbe98c4e771e953"
+  }
+}

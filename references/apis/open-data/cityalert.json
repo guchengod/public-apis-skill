@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/cityalert",
+  "name": "CityAlert",
+  "category": "Open Data",
+  "description": "Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds",
+  "documentation_url": "https://cityalert.live/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5138cc0a7d6857614c87f16883518a10ded4cf54c93906a4365d4d5aa4054901"
+  }
+}

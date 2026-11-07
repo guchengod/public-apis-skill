@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/newsmesh",
+  "name": "NewsMesh",
+  "category": "News",
+  "description": "Premium news data from thousands of sources",
+  "documentation_url": "https://newsmesh.co/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__NEWSMESH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "988b47e8833f0030b3f3023784209889f23a3437c0b57b84e5dc988fd3ff9c84"
+  }
+}

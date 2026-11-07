@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/strikerapi",
+  "name": "StrikerAPI",
+  "category": "Sports & Fitness",
+  "description": "Football from 16 leagues incl. Premier League and MLS: lineups, shot maps, xG and odds",
+  "documentation_url": "https://strikerapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__STRIKERAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4f3d74826452c1c2958a0fbe8e55c7928adb8a7de5bee8ac528cb30ed3e6a63e"
+  }
+}

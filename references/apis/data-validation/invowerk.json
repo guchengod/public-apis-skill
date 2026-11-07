@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/invowerk",
+  "name": "invowerk",
+  "category": "Data Validation",
+  "description": "Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report",
+  "documentation_url": "https://invowerk.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__INVOWERK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd54638ed1ed9676417910e3c9d202b5528ebfe7f601f82d0c1e7a235374fbf1"
+  }
+}

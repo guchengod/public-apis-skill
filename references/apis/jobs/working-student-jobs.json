@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/working-student-jobs",
+  "name": "Working Student Jobs",
+  "category": "Jobs",
+  "description": "Working student and internship jobs in Germany, filterable by city, field and language",
+  "documentation_url": "https://www.workingstudentjobs.de/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73d36e66229ef0e29160c0a400a156a28d959152dd8b4345fdeef320114ae151"
+  }
+}

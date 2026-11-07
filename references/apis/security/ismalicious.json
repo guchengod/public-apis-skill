@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/ismalicious",
+  "name": "isMalicious",
+  "category": "Security",
+  "description": "Reputation of IPs, domains, URLs and file hashes from aggregated threat feeds, plus CVE lookups",
+  "documentation_url": "https://ismalicious.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__ISMALICIOUS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5234b5f8694307848f9774b67179eaadb1228cb3735a245a2fc7e429118aeaa8"
+  }
+}

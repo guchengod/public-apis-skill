@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/thc-open-mindfulness-resources",
+  "name": "THC Open Mindfulness Resources",
+  "category": "Health",
+  "description": "Free mindfulness resources and research metadata",
+  "documentation_url": "https://api.theholisticcare.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2089e1905cbc25cf47d921e4d819b9e69a055774ca37bf0704be21f310c42eaa"
+  }
+}

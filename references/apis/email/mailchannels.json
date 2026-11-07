@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailchannels",
+  "name": "MailChannels",
+  "category": "Email",
+  "description": "Send transactional email over HTTPS with official JavaScript, Python and PHP SDKs",
+  "documentation_url": "https://www.mailchannels.com/email-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILCHANNELS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7dc49586cc274e6f8376f03b256ed68f424967b1fb445777faca6142956dc0f8"
+  }
+}

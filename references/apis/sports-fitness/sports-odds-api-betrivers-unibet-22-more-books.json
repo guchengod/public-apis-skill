@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sports-odds-api-betrivers-unibet-22-more-books",
+  "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
+  "category": "Sports & Fitness",
+  "description": "Live odds from 24 Kambi-powered sportsbooks incl. BetRivers & Unibet, best price per outcome",
+  "documentation_url": "https://apify.com/publicrecords/sports-odds-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__SPORTS_ODDS_API_BETRIVERS_UNIBET_22_MORE_BOOKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e31d277e7e19830edea2d9c9d627306c30caf222a5c4074d202008e20c7e6e4c"
+  }
+}

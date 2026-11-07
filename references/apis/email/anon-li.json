@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/anon-li",
+  "name": "anon.li",
+  "category": "Email",
+  "description": "Create and manage anonymous email aliases, forwarding recipients and custom domains",
+  "documentation_url": "https://anon.li/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__ANON_LI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c53aeae0673c6e2162aadd5d9568fed803668d5cbcc73578af109121f3db6aa4"
+  }
+}

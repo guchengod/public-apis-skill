@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/katalis",
+  "name": "Katalis",
+  "category": "Business",
+  "description": "UK company checks: payment practices, contracts won, registers, filed accounts, change feed",
+  "documentation_url": "https://meetkatalis.com/apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__KATALIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f2961ceea84fa2d3c3745fb3bc0cd6bac4303ccb4530b0373e47b9ddfef9fbdc"
+  }
+}

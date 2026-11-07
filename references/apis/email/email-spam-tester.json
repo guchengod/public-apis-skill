@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/email-spam-tester",
+  "name": "Email Spam Tester",
+  "category": "Email",
+  "description": "Send a test message and get a spam score, 41 checks with RFC citations and a fix plan",
+  "documentation_url": "https://email-spam-tester.com/api-docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fabb11e44239509fe97275c2d4b5e6bdd1d6cdca4e1e37d918899aad54610b23"
+  }
+}

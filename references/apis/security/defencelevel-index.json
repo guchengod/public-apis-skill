@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/defencelevel-index",
+  "name": "DefenceLevel Index",
+  "category": "Security",
+  "description": "Daily cyber threat level (DEFCON 5 to 1) with open method, history in JSON/CSV and a badge",
+  "documentation_url": "https://defencelevel.com/index/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1422451caaf830701f557d277b0e6cb89cf7fd220d47a17ca21bc0ee254aea3"
+  }
+}

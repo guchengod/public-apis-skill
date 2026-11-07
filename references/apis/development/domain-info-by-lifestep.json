@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/domain-info-by-lifestep",
+  "name": "Domain Info by LifeStep",
+  "category": "Development",
+  "description": "DNS records, SPF/DMARC detection and TLS certificate expiry",
+  "documentation_url": "https://dns.lifestep.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a5e78d1a1e65242f3ba00f7246e4b942bd4ba6cd989127492cf194b453eac408"
+  }
+}

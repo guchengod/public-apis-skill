@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/terrace-weather",
+  "name": "Terrace Weather",
+  "category": "Weather",
+  "description": "Terrace open/closed verdict for restaurants, from the weather forecast",
+  "documentation_url": "https://terrace.javiermateo.dev/swagger-ui.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4289f8209a435c9e59bb66a777e75b720c584b18ccaca40e0ac523966048c9ae"
+  }
+}

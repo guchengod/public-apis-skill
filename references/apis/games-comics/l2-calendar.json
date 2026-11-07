@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/l2-calendar",
+  "name": "L2 Calendar",
+  "category": "Games & Comics",
+  "description": "Lineage 2 private servers list with names, websites, chronicles, rates and opening dates",
+  "documentation_url": "https://l2calendar.com/api/servers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "023feef4fd6f4273b35374e572065497f11081dbf14da333decdc86428f7f70e"
+  }
+}

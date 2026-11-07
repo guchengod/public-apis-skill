@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/findip",
+  "name": "FindIP",
+  "category": "Geocoding",
+  "description": "IP geolocation with VPN, proxy, Tor, datacenter and malicious IP detection, free",
+  "documentation_url": "https://www.findip.net/Docs/api-response",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__FINDIP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1a1ad30a37e3bf87973542e947c8ff122387e31c4b809bf31d38dc6e93803506"
+  }
+}

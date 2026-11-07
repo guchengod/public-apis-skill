@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/edgepedia",
+  "name": "Edgepedia",
+  "category": "Open Data",
+  "description": "Search and read Edgepedia, a free and growing encyclopedia with citations",
+  "documentation_url": "https://www.edgechat.ai/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5d38fde4cc5f937a5b2bca8ad8e51d8acbc11fbcf5ae3b304acf473bd28ad21"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/weinc",
+  "name": "WeInc",
+  "category": "Development",
+  "description": "AI website builder: manage clients, website projects, templates and webhooks",
+  "documentation_url": "https://my.we.inc/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__WEINC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "39cd3a21cea44a64fe97fd5c38514410fa14877d9f4e998cba4ed259c25f7ba2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/floorguard",
+  "name": "FloorGuard",
+  "category": "Finance",
+  "description": "Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check",
+  "documentation_url": "https://floorguard-kappa.vercel.app/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fb862390e8407fb6ac172a4baba55202ea3044247dbeb0950df9dc85bc1d0abc"
+  }
+}

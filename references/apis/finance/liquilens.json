@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/liquilens",
+  "name": "LiquiLens",
+  "category": "Finance",
+  "description": "Public-record bank and lender failure-risk evidence",
+  "documentation_url": "https://liquilens.in/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "42e10bc3bf7d0d93be3859e018c13d45a1c78c87246b00280d102aa5ecfd771a"
+  }
+}

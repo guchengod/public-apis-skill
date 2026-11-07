@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/bookrank",
+  "name": "BookRank",
+  "category": "Books",
+  "description": "Book rankings from open reader ratings: books, series, reading orders and authors",
+  "documentation_url": "https://openbookrank.com/en/open-data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "baa67cff14181da96a04b5ccb1e69c9abec933f33549ec3a87d65728bf7c45e9"
+  }
+}

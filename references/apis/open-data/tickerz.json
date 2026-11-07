@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/tickerz",
+  "name": "Tickerz",
+  "category": "Open Data",
+  "description": "Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin",
+  "documentation_url": "https://tickerz.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "657f6c2c24483b8cdb148db96c4e854791a53fda0f4183e54be2e2eb1db05d24"
+  }
+}

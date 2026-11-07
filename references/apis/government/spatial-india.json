@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/spatial-india",
+  "name": "Spatial India",
+  "category": "Government",
+  "description": "District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map",
+  "documentation_url": "https://api.spatialindia.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a36fbb42da736de16349f2beb8268a646df064aeff93f5ee7993ff42efd6d151"
+  }
+}

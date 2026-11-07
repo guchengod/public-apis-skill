@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/citedby",
+  "name": "CitedBy",
+  "category": "Development",
+  "description": "Which AI crawlers can read a site: robots.txt and server answer for each",
+  "documentation_url": "https://citedby.eu/ai-access-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "23e21e9ae3e5b059e0c31500ae95696bca3ae7911d3ff0ef54e0b31f0f3df87f"
+  }
+}

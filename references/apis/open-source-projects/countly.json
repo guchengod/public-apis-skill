@@ -4,7 +4,7 @@
   "name": "Countly",
   "category": "Open Source Projects",
   "description": "Countly web analytics",
-  "documentation_url": "https://api.count.ly/reference",
+  "documentation_url": "https://api.count.ly/",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "e7050d9aedd75ddbb6296f0cdbd14fb0511940538820f1fc74c5770db55d8a7b"
+    "fingerprint": "fd2d4819d7a7deb3d02e35493b83e9c06c49d04ba831ed916f2631aa7d2b1bf7"
   }
 }

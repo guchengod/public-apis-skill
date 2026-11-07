@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/revaddress",
+  "name": "RevAddress",
+  "category": "Data Validation",
+  "description": "US address standardization, congressional and state legislative districts, Census data; free tier",
+  "documentation_url": "https://revaddress.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__REVADDRESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2dd09be5d99928f110aa429bbd59a75f39dfd4141d0b0ccd96facc38630b5531"
+  }
+}

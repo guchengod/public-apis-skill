@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/sanctions-screening",
+  "name": "Sanctions Screening",
+  "category": "Finance",
+  "description": "Fuzzy name screening against OFAC, UN, EU and UK sanctions lists plus PEPs, with list versions",
+  "documentation_url": "https://dataandapis.com/apis/sanctions",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__SANCTIONS_SCREENING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6c598d60da54b9c4f756b88832debd18a11237bebe44b0c98c3304594f38486c"
+  }
+}

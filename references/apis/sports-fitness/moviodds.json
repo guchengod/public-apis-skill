@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/moviodds",
+  "name": "MoviOdds",
+  "category": "Sports & Fitness",
+  "description": "Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket",
+  "documentation_url": "https://moviodds.com/doc",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f975e671c4ca5d5425b3a74371e8311d4b3e36e039059fc07d24baaffc891f08"
+  }
+}

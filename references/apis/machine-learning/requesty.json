@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/requesty",
+  "name": "Requesty",
+  "category": "Machine Learning",
+  "description": "OpenAI compatible LLM router for 600+ models, with a free tier for free models",
+  "documentation_url": "https://docs.requesty.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__REQUESTY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c5ead8a15b3bfebeff33a9c44e7b90ddadbb72a8bfb05fee10e8cdfa8e2a217b"
+  }
+}

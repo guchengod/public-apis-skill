@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/live-sec-form-4-insider-trades",
+  "name": "Live SEC Form 4 Insider Trades",
+  "category": "Finance",
+  "description": "Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide",
+  "documentation_url": "https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__LIVE_SEC_FORM_4_INSIDER_TRADES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "524c8c8b2a0cb0c9620897b2b7f5d39e5e0af48dae032f0f8766cb7b8cc17868"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/boxerbook",
+  "name": "Boxerbook",
+  "category": "Sports & Fitness",
+  "description": "Professional boxing: boxers, bouts, schedule, results, world titles and rankings, ODbL",
+  "documentation_url": "https://boxerbook.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1129a34326bd5db751f6f828ce3904469a368b6f29051dc87cc943cbf297547a"
+  }
+}

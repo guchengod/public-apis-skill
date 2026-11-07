@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/bountycheck",
+  "name": "BountyCheck",
+  "category": "Development",
+  "description": "Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402",
+  "documentation_url": "https://bountycheck.vercel.app",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e93e9436b59cfc472b3513a186e1098ba85d52d0be0b1e5d012549baf4c8b5d4"
+  }
+}

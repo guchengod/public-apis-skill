@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/kickoffapi",
+  "name": "KickoffAPI",
+  "category": "Sports & Fitness",
+  "description": "Football data API for live scores, fixtures, odds, and predictive xG models",
+  "documentation_url": "https://kickoffapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__KICKOFFAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9482104d5b269b8cd555f8ceb633090b0784648362e388ebcca3b887c8b0dc64"
+  }
+}

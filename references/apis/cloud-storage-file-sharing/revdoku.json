@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/revdoku",
+  "name": "Revdoku",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Cloud file storage, version history, sharing and incoming email attachments",
+  "documentation_url": "https://revdoku.com/api.md",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CLOUD_STORAGE_FILE_SHARING__REVDOKU__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6c479433a61e186b7074f44c099aa96f07143bfebbaa09e1a1bde92241f54f84"
+  }
+}

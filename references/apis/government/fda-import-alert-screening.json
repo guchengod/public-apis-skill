@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/fda-import-alert-screening",
+  "name": "FDA Import Alert Screening",
+  "category": "Government",
+  "description": "Screen firm names against FDA Import Alert Red, Yellow and Green Lists",
+  "documentation_url": "https://aerviklabs.com/apis/fda-import-alerts/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__FDA_IMPORT_ALERT_SCREENING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3e697b5b52e6829bc06671012226e46d2f42883054c941005f43700cb8705225"
+  }
+}

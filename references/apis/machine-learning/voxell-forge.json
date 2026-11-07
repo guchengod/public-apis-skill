@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/voxell-forge",
+  "name": "Voxell Forge",
+  "category": "Machine Learning",
+  "description": "OpenAI-compatible text embeddings API, free-forever model with no credit card required",
+  "documentation_url": "https://voxell.ai/docs/#forge",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__VOXELL_FORGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "28f63c9d6e560d0dba549356658cc212b7b17f9a11b6d1bd772ff2b1be465dc9"
+  }
+}

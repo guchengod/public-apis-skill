@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/logoapi",
+  "name": "Logoapi",
+  "category": "Business",
+  "description": "Free SVG company logos by domain, plus search by name. No signup",
+  "documentation_url": "https://logoapi.sh/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd7275db4fe73141679d389bc59132a4ded6cc0625a513d10f558cf9eed4e56a"
+  }
+}

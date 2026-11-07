@@ -3,7 +3,7 @@
   "id": "government/openregistry",
   "name": "OpenRegistry",
   "category": "Government",
-  "description": "Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more)",
+  "description": "Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more)",
   "documentation_url": "https://openregistry.sophymarine.com",
   "auth": {
     "type": "OAuth",
@@ -21,6 +21,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "3186480aef21df2fc541ca787181210aca9caf19667088756c60a59d2414696d"
+    "fingerprint": "61a6ea99c05a85746c05af30cfc8df4540162727724f5b3a98dc34cff6755f11"
   }
 }

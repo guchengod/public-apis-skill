@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/contaclt",
+  "name": "ContaCLT",
+  "category": "Government",
+  "description": "Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance",
+  "documentation_url": "https://contaclt.com/dados/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1ea1fda6deb86fbc0f08fa3ff8740d7e1f3fe216e5a8d428b96ff32b51e17844"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/findsaunaplunge",
+  "name": "FindSaunaPlunge",
+  "category": "Health",
+  "description": "US cold plunge and sauna venues with dated, source-quoted temperatures and prices",
+  "documentation_url": "https://findsaunaplunge.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f3a81f888cb5bfa8422d8fea4d9bcc3fbad1eba01505159c39a4328cbcbce49d"
+  }
+}

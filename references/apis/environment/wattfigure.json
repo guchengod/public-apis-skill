@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/wattfigure",
+  "name": "WattFigure",
+  "category": "Environment",
+  "description": "US electricity rates by state, with appliance and EV charging running costs",
+  "documentation_url": "https://api.wattfigure.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2f04486350824c3835206a664798f8a1e43d64a6dd0b8032ecdf721e2a24e14a"
+  }
+}

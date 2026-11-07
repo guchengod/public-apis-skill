@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/helious",
+  "name": "Helious",
+  "category": "Finance",
+  "description": "US Treasury auction results with the tail and bidder split, plus scored economic releases",
+  "documentation_url": "https://helious.io/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "690c377450fc65d8d1cb5d262581de725fb0106a5a6fd1f24228e904d9f79f15"
+  }
+}

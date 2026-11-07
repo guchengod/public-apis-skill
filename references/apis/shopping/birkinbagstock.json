@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/birkinbagstock",
+  "name": "BirkinBagStock",
+  "category": "Shopping",
+  "description": "Independent Hermès resale index: inventory, market prices, auction calendar and results",
+  "documentation_url": "https://birkinbagstock.com/.well-known/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f3056704b81edc5cfa6d4c49242a598b2d0e4773a43323ae985165b789f79025"
+  }
+}

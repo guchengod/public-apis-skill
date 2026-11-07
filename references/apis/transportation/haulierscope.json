@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/haulierscope",
+  "name": "HaulierScope",
+  "category": "Transportation",
+  "description": "Great Britain goods vehicle and PSV operator licences, change history and public inquiries",
+  "documentation_url": "https://haulierscope.co.uk/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2da6cb45016d3803c110250ac5ac71254d87639965a56fc8f2848926a24c9d70"
+  }
+}

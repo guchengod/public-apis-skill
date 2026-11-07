@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/ais-trail",
+  "name": "AIS Trail",
+  "category": "Transportation",
+  "description": "Live and historical AIS ship positions, vessel search, port calls and events worldwide",
+  "documentation_url": "https://aistrail.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AIS_TRAIL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b855bd83147b6f9283ed1c76b600cb39705546c450cbf00f04270886c762302"
+  }
+}
