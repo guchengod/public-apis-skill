@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/neetix-liveliness",
+  "name": "Neetix Liveliness",
+  "category": "Security",
+  "description": "Face liveness, presentation-attack detection and 1:1 face match for identity verification",
+  "documentation_url": "https://liveliness.neetix.in/api-reference",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__NEETIX_LIVELINESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b0f1b25c8c3c2f320d7e51aa2a75bed3105bf8c4f631ebecafd7271f7f378348"
+  }
+}

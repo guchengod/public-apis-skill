@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/rundossier",
+  "name": "RunDossier",
+  "category": "Business",
+  "description": "Pre-meeting briefing on a person from public professional and web sources, as JSON",
+  "documentation_url": "https://rundossier.com/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__RUNDOSSIER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df616ced7320288a34c58b0e204c921188560fccccecbe9a41b086bbc7e1234f"
+  }
+}

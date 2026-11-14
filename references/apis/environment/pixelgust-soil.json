@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/pixelgust-soil",
+  "name": "PixelGust Soil",
+  "category": "Environment",
+  "description": "Soil properties at 6 depths for any point (SoilGrids 2.0, 250 m), ISRIC-compatible",
+  "documentation_url": "https://pixelgust.com/docs#soil",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4976949160602a4d300630f96d38b6d164beb1d68ebe07cdef0a677751c5c712"
+  }
+}

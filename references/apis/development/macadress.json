@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/macadress",
+  "name": "macadress",
+  "category": "Development",
+  "description": "MAC address and OUI vendor lookup synced from IEEE, with randomized-MAC detection",
+  "documentation_url": "https://macadress.com/mac-address-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2c26d6db37dff51c3c0cdb69308b621f5af880112cb7cd9e2eb5636e92312b91"
+  }
+}

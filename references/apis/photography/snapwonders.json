@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/snapwonders",
+  "name": "snapWONDERS",
+  "category": "Photography",
+  "description": "Photo and video forensic analysis, steganography and media format conversion",
+  "documentation_url": "https://snapwonders.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__SNAPWONDERS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4b4b4be16dce2470135ca0040c05e0863f844c161931c28a9e654714648eb32"
+  }
+}

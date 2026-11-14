@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/present-of-ai",
+  "name": "Present of AI",
+  "category": "Jobs",
+  "description": "AI company profiles, open AI jobs and dated AI news, REST and MCP",
+  "documentation_url": "https://presentofai.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "155f109c6e5f3f5ba9ebb3bb0203a9b9ceedc06a2587ea0098fba6c8064573b5"
+  }
+}

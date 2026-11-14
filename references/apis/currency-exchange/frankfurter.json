@@ -4,7 +4,7 @@
   "name": "Frankfurter",
   "category": "Currency Exchange",
   "description": "Exchange rates, currency conversion and time series",
-  "documentation_url": "https://www.frankfurter.app/docs",
+  "documentation_url": "https://frankfurter.dev",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b99a31d75a951452ed626006eb39db728ea0d720b09d08e74fce58428b1174b1"
+    "fingerprint": "9978874e63f9ce04a608c3063b39df7c92235c5971436b3a4a48d362aaeb69a2"
   }
 }

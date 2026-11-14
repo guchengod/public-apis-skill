@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/ip-intelligence",
+  "name": "IP Intelligence",
+  "category": "Security",
+  "description": "Country, ASN, datacenter, cloud and Tor detection with an explainable risk score for any IP",
+  "documentation_url": "https://dataandapis.com/apis/ip-intelligence",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__IP_INTELLIGENCE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "55f4e700ca34561fe90df6aa0af591f9a239b7dbfc5481f779d726db2f702145"
+  }
+}

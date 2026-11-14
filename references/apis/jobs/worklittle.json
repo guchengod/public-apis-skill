@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/worklittle",
+  "name": "Worklittle",
+  "category": "Jobs",
+  "description": "Job search, over 4 million jobs",
+  "documentation_url": "https://docs.worklittle.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__WORKLITTLE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ae4d9f52521447299f74ccb6963897b1207b66e7f07bd3e28ae46436de59fab"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/timefoo",
+  "name": "TimeFoo",
+  "category": "Development",
+  "description": "Current time, timestamp format conversion and IANA time zone conversion, no key needed",
+  "documentation_url": "https://time.foo/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7df24b25b013c331d98d363a3395e79bda29f1d47ab40fe2a85953df5b6a4635"
+  }
+}

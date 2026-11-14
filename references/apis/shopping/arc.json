@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/arc",
+  "name": "ARC",
+  "category": "Shopping",
+  "description": "Open data on whether AI shopping agents can reach checkout at specific online stores",
+  "documentation_url": "https://www.arcreport.ai/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fd540484643b8c15894fd53ca5f95c0c05badd254b1251d9e98ff92efac5e69d"
+  }
+}

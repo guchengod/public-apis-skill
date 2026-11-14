@@ -4,7 +4,7 @@
   "name": "Kraken",
   "category": "Cryptocurrency",
   "description": "Cryptocurrencies Exchange",
-  "documentation_url": "https://docs.kraken.com/rest/",
+  "documentation_url": "https://docs.kraken.com/exchange/guides/rest/introduction",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "7bf7d3317cb07e314296b8b8203ee474e1cc3584e6bc5e2031267f2149b67442"
+    "fingerprint": "4ee27b4036c385ddbff05e42faac824f5052e97f8b562b372adafc6b2e7cfd78"
   }
 }

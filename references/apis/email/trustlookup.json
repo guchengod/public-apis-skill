@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/trustlookup",
+  "name": "TrustLookup",
+  "category": "Email",
+  "description": "Verify email syntax, MX and live mailbox; detect disposable, role and catch-all addresses",
+  "documentation_url": "https://trustlookup.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__TRUSTLOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c68f85fe34dcaf7ce7e0e6dac2d5bbecf2ddfeaeb80b3a31df9559cb16b848f0"
+  }
+}

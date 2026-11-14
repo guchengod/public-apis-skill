@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/cropden",
+  "name": "CropDen",
+  "category": "Photography",
+  "description": "Image sizes, safe zones and upload limits for 14 social platforms and passport photos",
+  "documentation_url": "https://github.com/geektao1024/social-media-image-sizes#json-over-http",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "50c0b3cd98ef43f855dac4dfde8dabbe475eb4cbb1f55e389b58faf1c427819d"
+  }
+}

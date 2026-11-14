@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/unitpost",
+  "name": "Unitpost",
+  "category": "Email",
+  "description": "Send transactional email, campaigns and SMS; free for 5,000 emails a month",
+  "documentation_url": "https://www.unitpost.com/docs/email",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__UNITPOST__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "29ac59920234e99e18e319f8d1c296659da491d74dce91fe3921a05216cfcdc3"
+  }
+}

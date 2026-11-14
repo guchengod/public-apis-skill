@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/tickerinside",
+  "name": "TickerInside",
+  "category": "Finance",
+  "description": "Holdings of every US ETF, which ETFs hold a stock, and overlap between funds, each dated",
+  "documentation_url": "https://tickerinside.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a82efe1526965db09290eaed33bf284070a84657c6aa1272aaa91bedd34a0d70"
+  }
+}

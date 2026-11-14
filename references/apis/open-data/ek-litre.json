@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/ek-litre",
+  "name": "ek litre",
+  "category": "Open Data",
+  "description": "Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price build-up",
+  "documentation_url": "https://eklitre.pk/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "20dd7b955fd6aa1d36f4392ab40a9edd5e41b17a7ff1e27bb3732ce37b87bc5c"
+  }
+}

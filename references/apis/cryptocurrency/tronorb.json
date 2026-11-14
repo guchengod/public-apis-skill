@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/tronorb",
+  "name": "TronOrb",
+  "category": "Cryptocurrency",
+  "description": "TRON data: USDT TRC-20 fees, address checks, Tether freezes, dApp and exchange rankings",
+  "documentation_url": "https://tronorb.com/developers/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "099eaae0824d093819cd948f918d69e56db73d0ebe880dcd8d7cdae7fbd357ba"
+  }
+}

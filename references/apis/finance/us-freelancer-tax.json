@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/us-freelancer-tax",
+  "name": "US Freelancer Tax",
+  "category": "Finance",
+  "description": "2026 US self-employment tax, quarterly estimates, QBI, mileage and home office deductions",
+  "documentation_url": "https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5a98e7891ca672c22f4728cedb9f007057f06721702984951ab4aad7cb490a1"
+  }
+}

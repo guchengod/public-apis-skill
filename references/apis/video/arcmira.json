@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/arcmira",
+  "name": "Arcmira",
+  "category": "Video",
+  "description": "Search indexed YouTube transcripts for timestamped passages and mentions",
+  "documentation_url": "https://arcmira.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__ARCMIRA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4eca73b66e71cc3285d118081ecc511473165b606e8913a5f4e791ae906f568"
+  }
+}

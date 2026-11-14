@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/yiminshuju-visa-bulletin",
+  "name": "YiminShuju Visa Bulletin",
+  "category": "Government",
+  "description": "US Department of State Visa Bulletin cutoff dates (EB/F charts) as open JSON (/paiqi.json)",
+  "documentation_url": "https://yiminshuju.com/cite/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d94286efc2b41e19e20fd431c5665c112bdf6db2362d917ebcf0a2b6372a7ec"
+  }
+}

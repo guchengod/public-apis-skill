@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/macvendorcheck",
+  "name": "MacVendorCheck",
+  "category": "Development",
+  "description": "MAC address and OUI vendor lookup from the IEEE MA-L, MA-M and MA-S registries",
+  "documentation_url": "https://macvendorcheck.com/mac-address-lookup-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bcf5689189077aa7659ee05d85bf3b841b11c70ced61de12957376d45430174a"
+  }
+}

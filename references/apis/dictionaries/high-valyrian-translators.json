@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/high-valyrian-translators",
+  "name": "High Valyrian Translators",
+  "category": "Dictionaries",
+  "description": "High Valyrian dictionary (400 words with IPA) and Dothraki phrases as free open JSON datasets",
+  "documentation_url": "https://github.com/HVTranslators/high-valyrian-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fca27ebd12264ce1acd1f0a9b4e38252d300b625c936551a7e3de5533c946567"
+  }
+}

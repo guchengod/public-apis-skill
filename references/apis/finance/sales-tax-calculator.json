@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/sales-tax-calculator",
+  "name": "Sales Tax Calculator",
+  "category": "Finance",
+  "description": "Computes exact sales tax amounts and breakdowns for checkout and billing",
+  "documentation_url": "https://salestaxcalculatorapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__SALES_TAX_CALCULATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "27cedc8a45a96efcb083d082bd254f1b52b159b2e9ee02965be8a21e5fce23d3"
+  }
+}

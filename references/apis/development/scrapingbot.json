@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrapingbot",
+  "name": "ScrapingBot",
+  "category": "Development",
+  "description": "Web scraping, AI extraction, and public TikTok, Instagram, Google and Amazon data as JSON",
+  "documentation_url": "https://scrapingbot.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAPINGBOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "975c3eb1ba54fd40ede75abb94d7a6caec20bb78dcd6b89821b8d6aa2bd5e5a1"
+  }
+}

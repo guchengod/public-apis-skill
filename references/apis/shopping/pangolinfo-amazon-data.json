@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/pangolinfo-amazon-data",
+  "name": "Pangolinfo Amazon Data",
+  "category": "Shopping",
+  "description": "Amazon product, review, search and Best Sellers data across 20+ marketplaces",
+  "documentation_url": "https://docs.pangolinfo.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__PANGOLINFO_AMAZON_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "996869cf836cb25a09ccd02de697536ae0a94a34c0126d5080515d74648a3ccd"
+  }
+}

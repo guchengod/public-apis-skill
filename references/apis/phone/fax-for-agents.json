@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "phone/fax-for-agents",
+  "name": "Fax for Agents",
+  "category": "Phone",
+  "description": "Fax API, hosted MCP server and SDKs so AI agents send and receive faxes, free sandbox",
+  "documentation_url": "https://faxforagents.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHONE__FAX_FOR_AGENTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ee95a283c992a7c4feb4855f92ed868e52e3517c8946b05728449d2ea6235d2"
+  }
+}

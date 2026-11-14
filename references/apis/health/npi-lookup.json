@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/npi-lookup",
+  "name": "NPI Lookup",
+  "category": "Health",
+  "description": "Search 9.4M US healthcare providers by NPI, name, taxonomy or location from NPPES data",
+  "documentation_url": "https://dataandapis.com/apis/healthcare-providers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__NPI_LOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "98ca20ce0be2b0fbd8d04a8538106a18997e1885c3a84823bd9f13f7ee603a7f"
+  }
+}

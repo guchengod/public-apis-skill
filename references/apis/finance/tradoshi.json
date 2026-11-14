@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/tradoshi",
+  "name": "Tradoshi",
+  "category": "Finance",
+  "description": "Rankings of trading schools and prop firms, every criterion with its source",
+  "documentation_url": "https://tradoshi.com/en/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6fb2a32880a4d1183b824791da761c81397b89c6ac85a66d1234a5037428b121"
+  }
+}

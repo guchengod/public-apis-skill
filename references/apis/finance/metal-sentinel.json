@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/metal-sentinel",
+  "name": "Metal Sentinel",
+  "category": "Finance",
+  "description": "Live and historical precious and base metal prices in 180+ currencies",
+  "documentation_url": "https://metal-sentinel.com/endpoints",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__METAL_SENTINEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37b9858610544bbd415fe65f5e9ac76b431ca81822da2e2687098fdad2671df6"
+  }
+}

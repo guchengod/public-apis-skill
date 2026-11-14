@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/grizzly-bulls",
+  "name": "Grizzly Bulls",
+  "category": "Finance",
+  "description": "U.S. GDP, CPI, unemployment, and payroll history",
+  "documentation_url": "https://grizzlybulls.com/economic-data-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5242b5789d23e660bdef706542f1c164cf37d1fe41eb64f7ca4cdac24fe5b8a1"
+  }
+}

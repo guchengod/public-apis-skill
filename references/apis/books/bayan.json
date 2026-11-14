@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/bayan",
+  "name": "Bayan",
+  "category": "Books",
+  "description": "Arabic Islamic encyclopedia: hadith with grades and takhrij, Quran with tafsir, narrators",
+  "documentation_url": "https://bayan.alwa7i.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fbc2f460c31d869473b6d470c1ab1838e7462dc2f692943211542c65129d4971"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/rxnorm",
+  "name": "RxNorm",
+  "category": "Health",
+  "description": "Normalized drug names, RxCUIs and NDC codes",
+  "documentation_url": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ed753847730af128e2103c748bdc3b4dac6bf009cf0de7f9f1c5c1e7f1e8264"
+  }
+}

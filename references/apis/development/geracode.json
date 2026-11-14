@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/geracode",
+  "name": "GeraCode",
+  "category": "Development",
+  "description": "Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese",
+  "documentation_url": "https://www.geracodigo.com.br/api-codigo-de-barras",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c2474c31121f1b7b02ebe96a1b0ed718af3abb6b64936e62f8fcaa2fd668b9e"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/indiarestros",
+  "name": "IndiaRestros",
+  "category": "Food & Drink",
+  "description": "Indian restaurants, menus with rupee prices, dish search and timings across 9,000+ cities",
+  "documentation_url": "https://indiarestros.com/api/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5e932f0033249d355f6ff39c86f9bc60604714f47b75e6a0b95fe4fdfed19378"
+  }
+}

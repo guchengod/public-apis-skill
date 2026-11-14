@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/mapa-oswiatowa",
+  "name": "Mapa Oswiatowa",
+  "category": "Open Data",
+  "description": "Polish schools, preschools, nurseries and universities from public registers, with exam results",
+  "documentation_url": "https://mapaoswiatowa.pl/dla-deweloperow",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1f8b4655e1ee3289c114e140ec2fbcd023aba14e95f2030934a7b1adfd252217"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/dudelytics",
+  "name": "Dudelytics",
+  "category": "Cryptocurrency",
+  "description": "Productive crypto indices, daily benchmarks, sector indices and market-stress data",
+  "documentation_url": "https://dudelytics.com/en/dpmi/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "077ff57dac963b8eab31d5892617df8719d295be9cbb2a97bdaa761cba2bbaf4"
+  }
+}

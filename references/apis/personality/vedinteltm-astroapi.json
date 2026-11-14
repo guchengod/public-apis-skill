@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "personality/vedinteltm-astroapi",
+  "name": "VedIntel™ AstroAPI",
+  "category": "Personality",
+  "description": "Vedic astrology computation — birth charts, dashas, panchang, AI narratives",
+  "documentation_url": "https://vedintelastroapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PERSONALITY__VEDINTELTM_ASTROAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd636f4db80b5ecab5d5a65fc22cb5ce887f8a7dd9d24ef0dbffb71c49e683ad"
+  }
+}

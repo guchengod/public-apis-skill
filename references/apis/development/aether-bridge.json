@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/aether-bridge",
+  "name": "Aether Bridge",
+  "category": "Development",
+  "description": "Autonomous agent team management and API workflow orchestration",
+  "documentation_url": "https://a-to-mind.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__AETHER_BRIDGE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6db0238076f02a3134501fb4cb27434d62455ee48886f603ee58bfe67adf4815"
+  }
+}

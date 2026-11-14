@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/bulktranscripts",
+  "name": "BulkTranscripts",
+  "category": "Video",
+  "description": "YouTube transcripts for a video, a whole channel or a playlist, plus YouTube search",
+  "documentation_url": "https://bulktranscripts.co/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__BULKTRANSCRIPTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc5b4561b54ebf8160c1fea32bf70325b9f5463f25f14967443a0ab3f211d334"
+  }
+}

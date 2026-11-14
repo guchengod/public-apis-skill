@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/printsocket",
+  "name": "PrintSocket",
+  "category": "Documents & Productivity",
+  "description": "Send PDFs, ZPL labels and ESC/POS receipts to your own printers from any language; free tier",
+  "documentation_url": "https://www.printsocket.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PRINTSOCKET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c94874a9ea73ce233ade491d4bbdc8ac612f96b1b9ee69b894782c277fa55af"
+  }
+}

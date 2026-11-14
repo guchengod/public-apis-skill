@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/dolarkac",
+  "name": "DolarKaç",
+  "category": "Currency Exchange",
+  "description": "Turkish lira exchange rates, gold and crypto prices from the Istanbul free market",
+  "documentation_url": "https://dolarkac.com/gelistirici-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13f316d7509bddfb0053cb35c73d7d5659c08d3039192758142663db4f71da6b"
+  }
+}

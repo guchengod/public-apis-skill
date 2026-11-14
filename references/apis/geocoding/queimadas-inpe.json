@@ -4,7 +4,7 @@
   "name": "Queimadas INPE",
   "category": "Geocoding",
   "description": "Access to heat focus data (probable wildfire)",
-  "documentation_url": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+  "documentation_url": "https://terrabrasilis.dpi.inpe.br/queimadas/portal/",
   "auth": {
     "type": "none",
     "required": false,
@@ -20,6 +20,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "1c73ea8e67ca3040ede06b146837e329c574c9578bb4fb403901fe23793d88f0"
+    "fingerprint": "30348db218673ae7b49e6cb4bfbcb67e4e7fa4262b31ab95ae9f09167bcc697f"
   }
 }

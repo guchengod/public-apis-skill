@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/yubhub",
+  "name": "YubHub",
+  "category": "Jobs",
+  "description": "Job listings read from employers' careers pages, with salary, skills and hiring statistics",
+  "documentation_url": "https://yubhub.co/developers/api-reference/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "21d5e9a8adbc2ec6c248c212cd5351d6577541ae1411567c44c4324845adfd45"
+  }
+}

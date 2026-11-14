@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/flatmark",
+  "name": "flatmark",
+  "category": "Documents & Productivity",
+  "description": "Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents",
+  "documentation_url": "https://flatmark.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__FLATMARK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9b2595a6c5a4c8e95a2f747d2d49afae78b4d92d9bd690453873de100b8f3e04"
+  }
+}

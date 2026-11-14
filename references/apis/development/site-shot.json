@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/site-shot",
+  "name": "Site-Shot",
+  "category": "Development",
+  "description": "Website screenshots in real Chromium: full-page, country proxies, ad and cookie removal; free plan",
+  "documentation_url": "https://www.site-shot.com/start/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SITE_SHOT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d42ae2bd9b7704ed31693ed38072fbe2cbd9c0276bb2bdc2ae7ab19c9c0e5712"
+  }
+}

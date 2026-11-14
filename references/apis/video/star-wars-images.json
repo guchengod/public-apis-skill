@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/star-wars-images",
+  "name": "Star Wars Images",
+  "category": "Video",
+  "description": "Images for SWAPI people, planets, species, starships and vehicles by ID",
+  "documentation_url": "https://starwarsgallery.netlify.app/swapi-image-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "287af07118f853f34fea3ee058d0e7b11ec650cd4dd76f2562b2e35c525594a9"
+  }
+}

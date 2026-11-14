@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/peptide-library",
+  "name": "Peptide Library",
+  "category": "Health",
+  "description": "Peptide research profiles, cited studies and regulatory status; vendor prices with a free key",
+  "documentation_url": "https://peptidelibrary.app/developers/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "251f8069dfaa77a35f7dbce8f868b05a72190c774757bddd6cb2cbb37b38bea3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/vettedhome",
+  "name": "VettedHome",
+  "category": "Open Data",
+  "description": "UK guides to property problems and home energy decisions, each with its primary sources",
+  "documentation_url": "https://vettedhome.co.uk/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd5770fca01eb8c05baba928a3c27bff15daf6eb71734ab08906d9b66395eab1"
+  }
+}

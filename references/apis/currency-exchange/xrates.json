@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/xrates",
+  "name": "XRates",
+  "category": "Currency Exchange",
+  "description": "Latest and historical exchange rates aggregated from ECB, CBR and open data feeds, 300+ currencies",
+  "documentation_url": "https://xratesapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__XRATES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8aeeafd29567f62fbe112bba3bd62f873d1f73d2430d2b21efc9c6e62058add9"
+  }
+}

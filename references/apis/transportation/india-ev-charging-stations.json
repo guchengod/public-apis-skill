@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/india-ev-charging-stations",
+  "name": "India EV Charging Stations",
+  "category": "Transportation",
+  "description": "Directory of public EV charging stations across India with connector and power specs",
+  "documentation_url": "https://ev-charging-stations-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce047380ccc270023f82769e6a85e690d631c6e7a041bcb4c877666ab4422173"
+  }
+}

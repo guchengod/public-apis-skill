@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/pandlens",
+  "name": "Pandlens",
+  "category": "Geocoding",
+  "description": "Dutch property, building, energy label, 3D roof/solar, parcel and neighbourhood data by postal code",
+  "documentation_url": "https://pandlens.nl/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__PANDLENS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9c2e429a4227f64cec965f90d761c07e3510b7d36d8c51304300937ee97a7348"
+  }
+}

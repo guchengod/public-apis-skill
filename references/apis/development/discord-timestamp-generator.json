@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/discord-timestamp-generator",
+  "name": "Discord Timestamp Generator",
+  "category": "Development",
+  "description": "Discord timestamp codes in every style from an ISO 8601 datetime or a Unix time",
+  "documentation_url": "https://discordtimestampgen.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f861be825181a64eb74884347196fa2e0b67ed94be5077f5c76056da300a9c98"
+  }
+}

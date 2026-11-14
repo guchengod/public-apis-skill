@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/nhtsa-edge-vin-decoder",
+  "name": "NHTSA Edge VIN Decoder",
+  "category": "Vehicle",
+  "description": "Decode US VINs offline from the NHTSA vPIC dataset, served from edge locations",
+  "documentation_url": "https://data.ai-kit.net",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95553cc8b6ca5aa024d83da8385afd68706500c76a5f90f374248cf5be0c006d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/cohere",
+  "name": "Cohere",
+  "category": "Machine Learning",
+  "description": "NLP API for text generation, embeddings, classification and summarization with a free trial tier",
+  "documentation_url": "https://docs.cohere.com/reference/about",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__COHERE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2de4c808634371ed93d3ad6af72c90c0f7a580c673b83e90f8a2d51f4f7aa049"
+  }
+}

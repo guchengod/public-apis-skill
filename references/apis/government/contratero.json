@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/contratero",
+  "name": "Contratero",
+  "category": "Government",
+  "description": "Spanish public tenders and awards from the official PLACSP platform, updated hourly",
+  "documentation_url": "https://contratero.es/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__CONTRATERO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1e44bf6372cc5128eb328c8adff8a5e2f8acc47306f970b69813b2053cbf9bd"
+  }
+}

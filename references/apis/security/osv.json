@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/osv",
+  "name": "OSV",
+  "category": "Security",
+  "description": "Open source vulnerability database and distributed triage infrastructure",
+  "documentation_url": "https://google.github.io/osv.dev/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "112e7c14bbdd058582b3d3ac7cdf6792b5fbf616d663e8e2a2a2ea1c0b07e2bb"
+  }
+}

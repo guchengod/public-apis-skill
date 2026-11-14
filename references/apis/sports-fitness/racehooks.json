@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/racehooks",
+  "name": "RaceHooks",
+  "category": "Sports & Fitness",
+  "description": "Motorsport analytics platform and ML analytics API: live F1 timing data and race intelligence",
+  "documentation_url": "https://racehooks.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__RACEHOOKS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4280c18590023e8ec289c388f932a8b903cc8c332d69fb53a1773db7eaa36ea1"
+  }
+}

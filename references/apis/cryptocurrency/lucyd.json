@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/lucyd",
+  "name": "Lucyd",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin Up/Down prediction markets on testnet: markets, trades, positions, order books",
+  "documentation_url": "https://lucyd.trade/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9c231ce0bbe1dfa6438d6d2c11f25242b5909e34972b2070f9478d4b444945a"
+  }
+}

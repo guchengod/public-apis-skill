@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/us-per-diem",
+  "name": "US Per Diem",
+  "category": "Government",
+  "description": "GSA lodging and M&IE per diem rates for US cities by ZIP, state and fiscal year",
+  "documentation_url": "https://us-per-diem-api.narwhalapis.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f8a5b14af3c3fa23afeb1a8b17b701a9bcfc371b69ce75843b816104e47071d5"
+  }
+}

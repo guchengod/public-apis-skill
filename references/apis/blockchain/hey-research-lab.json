@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/hey-research-lab",
+  "name": "HEY Research Lab",
+  "category": "Blockchain",
+  "description": "Builder activity for Robinhood Chain tokens and projects: who is shipping, each ship with its source",
+  "documentation_url": "https://heyresearch.xyz/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59b69bb77c5346761ba11cc789777e4492e71d8a770d545377b4477e72c481a7"
+  }
+}

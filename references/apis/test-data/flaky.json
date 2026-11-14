@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/flaky",
+  "name": "flaky",
+  "category": "Test Data",
+  "description": "Fake REST API with chaos controls: force any status code, add latency, or a failure rate",
+  "documentation_url": "https://flakyapi.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f1cfc6a39a0f4381d284ee2d0baf66e8293f56ece1555e1cd04c771e57072b21"
+  }
+}

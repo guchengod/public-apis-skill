@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/doughmatrix",
+  "name": "DoughMatrix",
+  "category": "Food & Drink",
+  "description": "Sourdough and pizza dough formula calculators: true hydration, DDT, fermentation windows",
+  "documentation_url": "https://doughmatrix.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d50b7f6054b21c05f191ba72fe920f382a61899a0862e54903a72732a89db3c8"
+  }
+}

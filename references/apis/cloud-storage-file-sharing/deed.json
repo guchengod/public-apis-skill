@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cloud-storage-file-sharing/deed",
+  "name": "Deed",
+  "category": "Cloud Storage & File Sharing",
+  "description": "Publish an HTML file or folder to a permanent public URL with one PUT, no account",
+  "documentation_url": "https://deed.page/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "69e836d1b939a8cc5c0fb52c89412e0b4f42197c5903586ccf4812596c90a98a"
+  }
+}

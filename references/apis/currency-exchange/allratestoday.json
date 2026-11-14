@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/allratestoday",
+  "name": "AllRatesToday",
+  "category": "Currency Exchange",
+  "description": "Official exchange rates published by 121 central banks and tax authorities, keyless latest table",
+  "documentation_url": "https://allratestoday.com/central-bank-rates-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c469cac6f54b3ada50a99948477c03c5759c76811ed18811bed2af8cd6640fa5"
+  }
+}

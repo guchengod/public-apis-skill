@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/hostdefi",
+  "name": "HostDeFi",
+  "category": "Cryptocurrency",
+  "description": "Free A+–F token-safety grades across Solana and EVM chains",
+  "documentation_url": "https://hostdefi.com/docs/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0903424a08c143557a0c8ab7e1777fb6b89dfab212e63f25813d3a072b0dbe8c"
+  }
+}

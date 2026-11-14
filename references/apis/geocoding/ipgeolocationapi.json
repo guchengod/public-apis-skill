@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipgeolocationapi",
+  "name": "ipgeolocationapi",
+  "category": "Geocoding",
+  "description": "IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day",
+  "documentation_url": "https://ipgeolocationapi.io/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cd816278ebfa2860daa40d33bbbb9c9894264df6d7f46101d039a3785c6a9324"
+  }
+}

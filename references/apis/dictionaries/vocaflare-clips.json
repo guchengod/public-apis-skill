@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "dictionaries/vocaflare-clips",
+  "name": "VocaFlare Clips",
+  "category": "Dictionaries",
+  "description": "YouTube clips where a word is spoken, with the exact second and transcript line",
+  "documentation_url": "https://clips.vocaflare.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DICTIONARIES__VOCAFLARE_CLIPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a73c7a093e7b0b9d5dd9822c85a553cfd4a63d24b6c12d4e31b95478012d7cd7"
+  }
+}

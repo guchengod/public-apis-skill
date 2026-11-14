@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/fixragent",
+  "name": "fixRAgent",
+  "category": "Machine Learning",
+  "description": "Triage a building maintenance photo: asset, urgency, trade to call and a line for the resident",
+  "documentation_url": "https://fixragent.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__FIXRAGENT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b47363f85873b03cfc4264534aea0ff55d91a8759562a7dde232cba63d294b70"
+  }
+}

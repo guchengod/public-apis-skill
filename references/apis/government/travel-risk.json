@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/travel-risk",
+  "name": "Travel Risk",
+  "category": "Government",
+  "description": "Government travel advisories, disaster and conflict alerts and country risk scores",
+  "documentation_url": "https://travelriskapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__TRAVEL_RISK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e694f97b928ff29596e98e2a9519085e7fe2ffe41afe41151928199d06489b6a"
+  }
+}

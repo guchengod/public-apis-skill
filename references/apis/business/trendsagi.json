@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/trendsagi",
+  "name": "TrendsAGI",
+  "category": "Business",
+  "description": "Trending topic volume, velocity and growth with AI insights; free plan of 100 calls/day",
+  "documentation_url": "https://trendsagi.com/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__TRENDSAGI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "abb07c28779552a22d35418b5f5cc12cb690875ffc1f3d182baca0a0c62180c9"
+  }
+}

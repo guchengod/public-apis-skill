@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/dunkapi",
+  "name": "DunkAPI",
+  "category": "Sports & Fitness",
+  "description": "NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds",
+  "documentation_url": "https://dunkapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__DUNKAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "323159d6796b9ab60915bd6aec6ceb87659d5451b3c9d867785ad00bd3219d47"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/neosatoshi-card-recognition",
+  "name": "NeoSatoshi Card Recognition",
+  "category": "Games & Comics",
+  "description": "Recognize Pokémon, One Piece, Lorcana, Yu-Gi-Oh! and Magic cards from photos",
+  "documentation_url": "https://neosatoshi.com/developers/detection-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__NEOSATOSHI_CARD_RECOGNITION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f2d150336bec5b9df5c3cf0cd4ad8cdfe224c6d7fb4a511b83ae5e9ab6dacd5"
+  }
+}

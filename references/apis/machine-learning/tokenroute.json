@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/tokenroute",
+  "name": "TokenRoute",
+  "category": "Machine Learning",
+  "description": "One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing",
+  "documentation_url": "https://tokenroute.app/docs/quickstart",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__TOKENROUTE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e19d132db05f157a11691f8c612a8f6f35870e8d8b0be1d9c573046d76d091b4"
+  }
+}

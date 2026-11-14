@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/molicheck",
+  "name": "Molicheck",
+  "category": "Science & Math",
+  "description": "Anonymous JSON lab/GMP calculators (molarity, dilution, ICH limits); no API key",
+  "documentation_url": "https://molicheck.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6b36cc0ec7769b7560edb3c6dda3418cedbae6f2de93cc3588c80f1a0616a4e6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/seller-fee",
+  "name": "Seller Fee",
+  "category": "Business",
+  "description": "Marketplace and payment fees for Gumroad, Etsy, Stripe and PayPal with net payout breakdowns",
+  "documentation_url": "https://seller-fee-api.narwhalapis.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "715c026d87d4dfd3566d47bba55ff479f76afe6e06a305f27775db27ee8c1885"
+  }
+}

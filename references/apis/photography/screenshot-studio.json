@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/screenshot-studio",
+  "name": "Screenshot Studio",
+  "category": "Photography",
+  "description": "Capture web pages as images through a public HTTP API",
+  "documentation_url": "https://www.screenshot-studio.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b0248936a62c5bbe61186ddf34334c8d0764f2847c49a8ae4a0b40a7c6af94f"
+  }
+}

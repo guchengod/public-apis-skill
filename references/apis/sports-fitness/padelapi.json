@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/padelapi",
+  "name": "PadelAPI",
+  "category": "Sports & Fitness",
+  "description": "Query professional padel tournament data, player stats, and live match results",
+  "documentation_url": "https://padelapi.org/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PADELAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "72f5b4e00dfa6cbf1ca176b313d100d35ffaef09dc4c84a3f7a6401e0c1504ef"
+  }
+}

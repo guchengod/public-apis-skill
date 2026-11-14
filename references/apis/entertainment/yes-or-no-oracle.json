@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/yes-or-no-oracle",
+  "name": "Yes or No Oracle",
+  "category": "Entertainment",
+  "description": "Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more)",
+  "documentation_url": "https://yesnooracle.app/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6358b6e001c9c62574971a2dc5f4eee4daaab0d081516afec923e22faa23fb21"
+  }
+}

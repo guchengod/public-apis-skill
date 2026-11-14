@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/veriport",
+  "name": "Veriport",
+  "category": "Data Validation",
+  "description": "EU VAT validation (VIES), VAT rates, IBAN validation, French company data",
+  "documentation_url": "https://veriport.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__VERIPORT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4325f741436195f2542cb2352dadb40388b37a9ac89e1e51fbbf93259229fe47"
+  }
+}

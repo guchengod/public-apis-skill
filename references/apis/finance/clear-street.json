@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/clear-street",
+  "name": "Clear Street",
+  "category": "Finance",
+  "description": "Trade US stocks and options, with market data, fundamentals and account data",
+  "documentation_url": "https://docs.clearstreet.com/?utm_source=github&utm_medium=developer&utm_campaign=api_listings&utm_content=public_apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__CLEAR_STREET__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c168c305d004a8ca195d69612c68188c1d6f14ce9c2d301f8f4436d18c76893f"
+  }
+}

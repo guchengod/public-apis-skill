@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/duceus",
+  "name": "Duceus",
+  "category": "Finance",
+  "description": "Insider (PDMR) trades and major shareholdings from EU, EEA and UK registers, in one schema",
+  "documentation_url": "https://duceusapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__DUCEUS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "18b8838e0872ce36ec9ecf76d77eef2eafe7f43264c18b1edf1380083d2a525c"
+  }
+}

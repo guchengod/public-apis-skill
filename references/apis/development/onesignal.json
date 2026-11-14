@@ -4,7 +4,7 @@
   "name": "OneSignal",
   "category": "Development",
   "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
-  "documentation_url": "https://documentation.onesignal.com/docs/onesignal-api",
+  "documentation_url": "https://developers.onesignal.com/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "4a2c8f6c1db85841aadcd28e1f85461a02aac74e3eff2f0bdaaac642ea2fbc33"
+    "fingerprint": "44e31a8d484fc88124230f9c9c25ef811738b4d09fdce2b7cf0e0ee4f502e64c"
   }
 }

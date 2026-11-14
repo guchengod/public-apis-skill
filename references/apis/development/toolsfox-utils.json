@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/toolsfox-utils",
+  "name": "ToolsFox Utils",
+  "category": "Development",
+  "description": "Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random strings",
+  "documentation_url": "https://cf-workers-demo.pianfox345.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "37ea55b391ef0ee4d310aa8d87008d84177493192d7da28df418c21bd9d8b45c"
+  }
+}

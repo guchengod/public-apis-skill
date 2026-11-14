@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/terrascoutx",
+  "name": "TerraScoutX",
+  "category": "Open Data",
+  "description": "US property records by address: parcel, owner, appraised value, tax, flood zone and nearby schools",
+  "documentation_url": "https://terrascoutx.com/developers/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__TERRASCOUTX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "51cc1a9fc34f41c885850cbf28eb44e6245d4838956ad0d7b2391d1b12a8895c"
+  }
+}

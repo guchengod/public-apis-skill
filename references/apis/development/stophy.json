@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/stophy",
+  "name": "Stophy",
+  "category": "Development",
+  "description": "One API to search the web, read what people say, and look up products, places, jobs and homes",
+  "documentation_url": "https://docs.stophy.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__STOPHY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "459b4368eaa19f90f3c8cca9a41928fdf702b50bef4602eb855493d91d2b74ce"
+  }
+}

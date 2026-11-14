@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/paycrunch",
+  "name": "PayCrunch",
+  "category": "Open Data",
+  "description": "US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0",
+  "documentation_url": "https://paycrunch.co/api.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0734e474dde29a0d266f34afca2b76f6d8c0b1a169833c27072df5e12142f9d3"
+  }
+}

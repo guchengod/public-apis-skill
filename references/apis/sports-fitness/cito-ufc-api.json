@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/cito-ufc-api",
+  "name": "Cito UFC API",
+  "category": "Sports & Fitness",
+  "description": "UFC and MMA fight data: fighters, cards, round stats, rankings and live state",
+  "documentation_url": "https://citoapi.com/ufc-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__CITO_UFC_API__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a5966a9a93697bcc2cb7aa3a8d9037a7156960b38364fea214ad123496352e9b"
+  }
+}

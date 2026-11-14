@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/unblock-master-ip",
+  "name": "Unblock Master IP",
+  "category": "Geocoding",
+  "description": "IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address",
+  "documentation_url": "https://www.unblockmaster.com/free-ip-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c4e434b96807a9b352b039b9daeb75fe3c594d0a1d6456b532ff5a78a3f66e4"
+  }
+}

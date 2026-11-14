@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "phone/textkit",
+  "name": "TextKit",
+  "category": "Phone",
+  "description": "Send and receive SMS, verify phones and buy US and Canada numbers; free sandbox",
+  "documentation_url": "https://jointextkit.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHONE__TEXTKIT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "811e0646eb57609321e665bf721705473304d1baed7d82ab7b71705367acf2e7"
+  }
+}

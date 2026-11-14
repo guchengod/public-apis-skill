@@ -3,7 +3,7 @@
   "id": "food-drink/systembolaget",
   "name": "Systembolaget",
   "category": "Food & Drink",
-  "description": "Govornment owned liqour store in Sweden",
+  "description": "Government owned liquor store in Sweden",
   "documentation_url": "https://api-portal.systembolaget.se",
   "auth": {
     "type": "apiKey",
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "88f63fd5b44fbc116f6157ed469394de30a0f01882798e6d78b750164d3939fc"
+    "fingerprint": "415840bbda0acfb5801df82c7f50cdd7b12622eca1a8cb378f670d31b7e9d5c3"
   }
 }

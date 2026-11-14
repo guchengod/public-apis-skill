@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/ipv4-network-tools",
+  "name": "ipv4 Network Tools",
+  "category": "Development",
+  "description": "DNS, WHOIS, SSL, email validation, IP geolocation and blacklist lookups",
+  "documentation_url": "https://ipv4.fr/docs.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__IPV4_NETWORK_TOOLS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b366c75a21bddd70b1abe73270fbc7091bfa38efc8d15d45648ed435a2bf8e38"
+  }
+}

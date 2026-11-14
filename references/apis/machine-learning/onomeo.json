@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/onomeo",
+  "name": "onomeo",
+  "category": "Machine Learning",
+  "description": "OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta",
+  "documentation_url": "https://onomeo.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__ONOMEO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ca04e22a868843c048a1a448faba4a0b5758f699ca6ac2fdf1c4e87990623b09"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/fueleconomy",
+  "name": "FuelEconomy",
+  "category": "Vehicle",
+  "description": "US EPA fuel economy data by year, make and model",
+  "documentation_url": "https://www.fueleconomy.gov/feg/ws/index.shtml",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f4bffaed6ac0233094ea182e9483d565a64684c2198b28766ab14ed3e09f91b7"
+  }
+}

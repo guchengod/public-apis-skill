@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/opper",
+  "name": "Opper",
+  "category": "Machine Learning",
+  "description": "EU-hosted OpenAI-compatible gateway to 700+ models from 50+ providers, with free models",
+  "documentation_url": "https://docs.opper.ai/build/gateway/drop-in-sdks",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__OPPER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "71c71b3c2ed58d68bcae58c2e7664e0628f79567ec9abeea1ea9d63dc9020b53"
+  }
+}

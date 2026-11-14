@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/ball-ranks",
+  "name": "Ball Ranks",
+  "category": "Sports & Fitness",
+  "description": "NFL and NBA fantasy rankings and player projections",
+  "documentation_url": "https://ballranks.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1791cdd6bf0d4a1750147fa80415ecafe5a95d14c278ffb957ffb8d9d381fbec"
+  }
+}

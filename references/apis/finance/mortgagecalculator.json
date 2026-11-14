@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/mortgagecalculator",
+  "name": "MortgageCalculator",
+  "category": "Finance",
+  "description": "16 mortgage calculators: payment, refinance, APR, rent vs. buy, points and amortization schedules",
+  "documentation_url": "https://mortgagecalculator.me/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9f2661b3726a328691355b4534ea56ec13da0439995404ef5b01266c33e4c77a"
+  }
+}

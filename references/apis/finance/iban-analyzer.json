@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/iban-analyzer",
+  "name": "IBAN Analyzer",
+  "category": "Finance",
+  "description": "Resolve an IBAN to its bank name, BIC, city and address for 60+ countries",
+  "documentation_url": "https://iban-analyzer.com/free-iban-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0c553fa408c1778f2832fba3abee60fd0bbde9b7498628898154709c9f399aaa"
+  }
+}

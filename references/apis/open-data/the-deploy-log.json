@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/the-deploy-log",
+  "name": "The Deploy Log",
+  "category": "Open Data",
+  "description": "1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0",
+  "documentation_url": "https://github.com/dotcomjack/the-deploy-log",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "90a61651f1fea81cfcb91faafa817b693921e7091d5e105e54b8ac517c635899"
+  }
+}

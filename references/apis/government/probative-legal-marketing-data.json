@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/probative-legal-marketing-data",
+  "name": "Probative Legal Marketing Data",
+  "category": "Government",
+  "description": "US lawyer advertising rules, court filings, fees and legal-market statistics, sourced, with DOIs",
+  "documentation_url": "https://probativegrowth.com/resources/rules-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3ae19d3e91052f46f8cb151f1c49a091454862667bd0d1d12a35bb49c55f4aa1"
+  }
+}

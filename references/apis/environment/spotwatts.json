@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/spotwatts",
+  "name": "Spotwatts",
+  "category": "Environment",
+  "description": "Nordic and Baltic day-ahead electricity prices, 15-minute and hourly, with VAT, for 15 price areas",
+  "documentation_url": "https://spotwatts.com/en/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa22b8196fd98821f6a896a53e932276940bb400c238b9c3d4578d2fc0a83980"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/paribu",
+  "name": "Paribu",
+  "category": "Cryptocurrency",
+  "description": "Turkish cryptocurrency exchange with real-time market data, trading and WebSocket streams",
+  "documentation_url": "https://docs.paribu.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__PARIBU__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8e6ac4f78faa9135fdcecb5e843fb0877cb533debe69c569827560a58c186331"
+  }
+}

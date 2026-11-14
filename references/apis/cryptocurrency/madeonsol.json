@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/madeonsol",
+  "name": "MadeOnSol",
+  "category": "Cryptocurrency",
+  "description": "Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity",
+  "documentation_url": "https://madeonsol.com/developer",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__MADEONSOL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "acfb38992cb4d5441ccd2fd1cb5885888a2d2d9fb14ca64776507d492b86f22d"
+  }
+}

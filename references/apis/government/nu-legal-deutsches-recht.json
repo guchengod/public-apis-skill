@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/nu-legal-deutsches-recht",
+  "name": "nu:legal Deutsches Recht",
+  "category": "Government",
+  "description": "German federal and state statutes and 640,000 court decisions as JSON, with citation links",
+  "documentation_url": "https://recht.nulegal.eu/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dadc4cf8b78c2530228794648f8b70e0945422cc6971604e5d8a8ca71753e92d"
+  }
+}

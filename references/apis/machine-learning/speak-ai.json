@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/speak-ai",
+  "name": "Speak AI",
+  "category": "Machine Learning",
+  "description": "Transcribe and analyze audio and video in 100+ languages",
+  "documentation_url": "https://docs.speakai.co",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__SPEAK_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73bb189ab6710e576950a0755bc06f121c8f88e0f6c80cd8c5d3be08fa4044be"
+  }
+}

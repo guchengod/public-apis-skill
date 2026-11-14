@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/nonobench",
+  "name": "Nonobench",
+  "category": "Machine Learning",
+  "description": "Open-source benchmark of how well LLMs solve nonogram puzzles",
+  "documentation_url": "https://www.nonobench.com/how-it-works",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4493e0d57659db2d45f92879ed564ac82293d965aca2a95650c87fc414bb73df"
+  }
+}

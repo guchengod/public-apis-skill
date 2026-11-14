@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/opensubtitles",
+  "name": "OpenSubtitles",
+  "category": "Video",
+  "description": "Search and download subtitles for movies and TV shows",
+  "documentation_url": "https://www.opensubtitles.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__OPENSUBTITLES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b768f077d1e182b08f77e048dfa796f0feeee4878c86295601b579336f8add3b"
+  }
+}

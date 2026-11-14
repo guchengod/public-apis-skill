@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/central-bank-of-uzbekistan",
+  "name": "Central Bank of Uzbekistan",
+  "category": "Currency Exchange",
+  "description": "Official exchange rates and currency conversion",
+  "documentation_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2a8c14d7a5ba1efb14faab5ab5cdc386d1906aeb1c81dde0e79599065fc8f558"
+  }
+}

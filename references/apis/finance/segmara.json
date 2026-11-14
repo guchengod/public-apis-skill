@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/segmara",
+  "name": "Segmara",
+  "category": "Finance",
+  "description": "IPO calendars, filing stages and estimated lockup dates",
+  "documentation_url": "https://segmara.com/syndicate",
+  "auth": {
+    "type": "User-Agent",
+    "required": true,
+    "strategy": "header",
+    "header": "User-Agent",
+    "credential_env": "PUBLIC_API__FINANCE__SEGMARA__USER_AGENT"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c7409b89fa947644468cf5a95bc58a0e70f3a284c7f2d0f710b1f1aeed820f2a"
+  }
+}

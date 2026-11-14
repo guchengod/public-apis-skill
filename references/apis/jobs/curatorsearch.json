@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/curatorsearch",
+  "name": "CuratorSearch",
+  "category": "Jobs",
+  "description": "Museum and gallery jobs from 400+ institutions' own careers pages, with advertised salaries",
+  "documentation_url": "https://curatorsearch.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cae5e7bb6f6c9befa3e6eef1783283ff2be67da07ce6e4f24d84430e39fb340d"
+  }
+}

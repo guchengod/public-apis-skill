@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/stopmailing",
+  "name": "StopMailing",
+  "category": "Email",
+  "description": "Disposable email addresses with a free, no-signup REST API",
+  "documentation_url": "https://stopmailing.net/developer-guide",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5a2f0ba2daad1a1adaac83d9ddd84cb32f14b8285524326f056b66001356e208"
+  }
+}

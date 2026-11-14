@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/docspring",
+  "name": "DocSpring",
+  "category": "Documents & Productivity",
+  "description": "Fill PDF forms, generate PDFs and Word documents, and collect e-signatures. Free plan",
+  "documentation_url": "https://docspring.com/docs/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__DOCSPRING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0151b2a03e4a96c93c8e8f4c5fc6552e8ef8188e2d25b903528db3e4bac468e2"
+  }
+}

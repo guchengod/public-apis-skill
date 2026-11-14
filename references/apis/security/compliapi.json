@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/compliapi",
+  "name": "CompliAPI",
+  "category": "Security",
+  "description": "Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists",
+  "documentation_url": "https://docs.compliapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__COMPLIAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "00f796f817f8f8852f8097e7779abc8af4052b0b700400afba40584bf41950cf"
+  }
+}
