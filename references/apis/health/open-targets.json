@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/open-targets",
+  "name": "Open Targets",
+  "category": "Health",
+  "description": "Gene-disease-drug target associations",
+  "documentation_url": "https://platform-docs.opentargets.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "766582c811211cb59a8868dc45a4a7e49fe99ff3e31458307eddb9f5d45d7b43"
+  }
+}

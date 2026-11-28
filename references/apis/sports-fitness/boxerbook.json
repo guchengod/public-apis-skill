@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/boxerbook",
+  "name": "Boxerbook",
+  "category": "Sports & Fitness",
+  "description": "Professional boxing: boxers, bouts, schedule, results, world titles and rankings",
+  "documentation_url": "https://boxerbook.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__BOXERBOOK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3056c1d5c26ecbe40941a1f034724b9e6b3d9338505f59127806d7d6fa5b6c45"
+  }
+}

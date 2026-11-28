@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/pagedpdf",
+  "name": "PagedPDF",
+  "category": "Documents & Productivity",
+  "description": "Convert HTML to PDF in current Chrome, with repeating table headers and page numbers",
+  "documentation_url": "https://pagedpdf.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PAGEDPDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "92e724ee97e02f914e127a4082ab287fb62317c99136379f96fa1ad3e718e4aa"
+  }
+}

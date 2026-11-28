@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "art-design/smithsonian-open-access",
+  "name": "Smithsonian Open Access",
+  "category": "Art & Design",
+  "description": "Smithsonian collection metadata and open-access digital media",
+  "documentation_url": "https://github.com/Smithsonian/smithsonian-openaccess",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ART_DESIGN__SMITHSONIAN_OPEN_ACCESS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bdbfd235ce46320f7dd1188bbace13f57138063891c84df6bd31a9294612f2c2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "anime/fillerlists",
+  "name": "FillerLists",
+  "category": "Anime",
+  "description": "Filler, mixed and canon labels for every episode of 13 long anime (JSON and CSV)",
+  "documentation_url": "https://fillerlists.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1de5c1cebaf4101fb9fca8ea63907fdc93f394062f4ab3382e270de2b0ee3024"
+  }
+}

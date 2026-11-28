@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/right-to-disconnect",
+  "name": "Right to Disconnect",
+  "category": "Government",
+  "description": "Right-to-disconnect employment law by EU country: binding status, statute, and sanctions",
+  "documentation_url": "https://righttodisconnect.jdries.nl/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ae7a4d970bf1456928a6dd883d2edcce7fe5734be65c24c981ea40c1bc34c78d"
+  }
+}

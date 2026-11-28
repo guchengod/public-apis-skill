@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/greek-mythology",
+  "name": "Greek Mythology",
+  "category": "Books",
+  "description": "Greek gods, monsters, heroes, places and Spartan customs, with ancient source citations",
+  "documentation_url": "https://acenes-of-sparta.pages.dev/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3474841546f1cb75a4569dbd8a3a3d4e3a173464d77e45d7b055a00096dca4ff"
+  }
+}

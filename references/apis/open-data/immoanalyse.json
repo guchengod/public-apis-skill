@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/immoanalyse",
+  "name": "ImmoAnalyse",
+  "category": "Open Data",
+  "description": "German property valuations (ImmoWertV), address geocoding and asking rents for all municipalities",
+  "documentation_url": "https://immoanalyse.pro/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__IMMOANALYSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ef18fdad1e1cf73f46f6c51eed8d47576eed6174a2674d4622bb6fd8e7491bef"
+  }
+}

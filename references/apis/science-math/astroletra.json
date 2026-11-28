@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/astroletra",
+  "name": "Astroletra",
+  "category": "Science & Math",
+  "description": "Moon phase and sign, aspects, retrogrades and next lunation by time zone",
+  "documentation_url": "https://astroletra.com/datos/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "21f503caf28d7151a65d7fa608cfce1c04d3309c43af447477bb7beda8939a60"
+  }
+}

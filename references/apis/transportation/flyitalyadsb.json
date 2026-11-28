@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/flyitalyadsb",
+  "name": "FlyItalyADSB",
+  "category": "Transportation",
+  "description": "Live and historical ADS-B and MLAT aircraft positions worldwide, from a community receiver network",
+  "documentation_url": "https://flyitalyadsb.com/en/data/api/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__FLYITALYADSB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d79bd61e2fb49fb709529b78e62cc2932236470bcfacd841a915dfbd9b977bab"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/calcbloc",
+  "name": "CalcBloc",
+  "category": "Finance",
+  "description": "Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN",
+  "documentation_url": "https://calcbloc.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__CALCBLOC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0cefbae104be627cdc2573ba63516fde48ceb40b5b250a10a58ec186ffb5f308"
+  }
+}

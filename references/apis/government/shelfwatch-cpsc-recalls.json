@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/shelfwatch-cpsc-recalls",
+  "name": "ShelfWatch CPSC Recalls",
+  "category": "Government",
+  "description": "US CPSC product recall notices, filterable by product category; no key required",
+  "documentation_url": "https://stxai.app/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f9903970edf04b52ecf3bc26d235db28b3d09f4de851ef5904fd502c639e628"
+  }
+}

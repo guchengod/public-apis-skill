@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/mother-s-day-calendar",
+  "name": "Mother's Day Calendar",
+  "category": "Calendar",
+  "description": "Mother's Day dates, country rules, sources and confidence as static JSON and CSV",
+  "documentation_url": "https://mothersdaycalendar.com/en/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fc75def12c3b5a8820180ed9cc06d209c71bba1f05242e93a2343f75744fc2a"
+  }
+}

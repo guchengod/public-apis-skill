@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/gaduin",
+  "name": "GADUIN",
+  "category": "Transportation",
+  "description": "Flight status, airport and rail station boards, ship traffic at 28 chokepoints, 667 port boards",
+  "documentation_url": "https://gaduin.com/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__GADUIN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a60aa3299e54e9de2386704f1698acc2ca08a7b1c9d4954bdd777463fc4005f0"
+  }
+}

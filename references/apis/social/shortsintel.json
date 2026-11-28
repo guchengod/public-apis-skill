@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/shortsintel",
+  "name": "ShortsIntel",
+  "category": "Social",
+  "description": "TikTok, Instagram Reels, YouTube Shorts and Meta ad data, plus AI video analysis",
+  "documentation_url": "https://www.shortsintel.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__SHORTSINTEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "93a8c9940caf3e7bec1b0ac6c22493a674585696792f5cc397fcccb07b0d86d6"
+  }
+}

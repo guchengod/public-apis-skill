@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/transitradar",
+  "name": "TransitRadar",
+  "category": "Transportation",
+  "description": "Live GB train and bus departures, train positions, journey planning and a daily punctuality archive",
+  "documentation_url": "https://transitradar.co.uk/scalar/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f17f722bf0b7ec61bf41fcb559e08bf675e4e94ed36ba7f10af34c96e82f63fb"
+  }
+}

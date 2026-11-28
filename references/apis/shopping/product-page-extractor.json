@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/product-page-extractor",
+  "name": "Product Page Extractor",
+  "category": "Shopping",
+  "description": "Product name, price, currency, stock and offers from store pages via JSON-LD and OpenGraph",
+  "documentation_url": "https://rapidapi.com/MohamedBahaa/api/product-page-extractor",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__PRODUCT_PAGE_EXTRACTOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6569a9688092b167da19ccdb1c8909bba026583858cc792fe6f457e4608816c7"
+  }
+}

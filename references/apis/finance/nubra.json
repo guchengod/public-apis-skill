@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/nubra",
+  "name": "Nubra",
+  "category": "Finance",
+  "description": "Indian broker API: orders, quotes, historical data, option chains with Greeks and live feeds",
+  "documentation_url": "https://nubra.io/products/api/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__NUBRA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "121820fc93dd9dc3be4b28d02987950daf83910d72eda7062da9af7bb576c5ad"
+  }
+}

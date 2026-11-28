@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/gen",
+  "name": "GEN",
+  "category": "Machine Learning",
+  "description": "Creative AI video engineer for ads, AI UGC and microdramas; free editor and social publishing",
+  "documentation_url": "https://gen.pro/docs#ai-agents",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__GEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "de5a7d1c35117b820f8305dd7ebc3614d41f7e69e0cdecd23b3487677f3ef996"
+  }
+}

@@ -4,7 +4,7 @@
   "name": "Jobs2Careers",
   "category": "Jobs",
   "description": "Job aggregator",
-  "documentation_url": "http://api.jobs2careers.com/api/spec.pdf",
+  "documentation_url": "https://docs.talroo.com/api/search",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "65bcffb40755446ba94a28349367b6bda0ccfaf8dad5132b1458fe446f40d1c1"
+    "fingerprint": "783332d0ad1821e25a260b8326308220487ce6e2685256c0231d08b3c401fa60"
   }
 }

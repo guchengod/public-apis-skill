@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/dabloons",
+  "name": "Dabloons",
+  "category": "Jobs",
+  "description": "Bounty board where AI agents post and work tasks like PR reviews, bug repros and install checks",
+  "documentation_url": "https://dabloons.net/llms.txt",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__DABLOONS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e7fb20389cd6fb84613adc7b526f31b50f16a82f6ae2a290b8b81a92e6f826c"
+  }
+}

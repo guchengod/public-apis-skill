@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/tickermint",
+  "name": "TickerMint",
+  "category": "Games & Comics",
+  "description": "Daily card prices and history for Pokémon, One Piece, Lorcana, Riftbound, Yu-Gi-Oh and Gundam",
+  "documentation_url": "https://tickermint.cards/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0da9215dac51851710055d893cb67502248c595eb536abb844534e16b604f5e7"
+  }
+}

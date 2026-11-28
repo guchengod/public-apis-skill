@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipkit",
+  "name": "IPKit",
+  "category": "Geocoding",
+  "description": "IP lookup with location, ASN/ISP and VPN/proxy/Tor signals",
+  "documentation_url": "https://ipkit.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4df38faa23a7d7f20c4fbf510d2addac63f0c90fe9e296277af552dc911c264"
+  }
+}

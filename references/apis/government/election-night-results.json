@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/election-night-results",
+  "name": "Election Night Results",
+  "category": "Government",
+  "description": "Live US election results from official state feeds, statewide and by county; free tier",
+  "documentation_url": "https://pushbuild.com/apis/election-night-results.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__ELECTION_NIGHT_RESULTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d1f047667ca9c797f8d5f91c7a36b557328c2ed489d58ab3f12ea95777f1258a"
+  }
+}

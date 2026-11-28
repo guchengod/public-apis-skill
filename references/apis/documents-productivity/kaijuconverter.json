@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/kaijuconverter",
+  "name": "KaijuConverter",
+  "category": "Documents & Productivity",
+  "description": "Convert 201+ file formats, OCR, PDF/A & exact KB compression",
+  "documentation_url": "https://kaijuconverter.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c2b855aeaa4fc1e217af73a4d8f71bbe3aa442b8e5137bda90a76aeb09674dca"
+  }
+}

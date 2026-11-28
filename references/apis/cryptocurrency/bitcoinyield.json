@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitcoinyield",
+  "name": "BitcoinYield",
+  "category": "Cryptocurrency",
+  "description": "Live yields on BTC, ETH and stablecoins across DeFi and CeFi, with an A-D risk grade per offer",
+  "documentation_url": "https://bitcoinyield.co/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2110443aa60d172990d8e563b895e364197820a84676d75bbf8346caf9a2f068"
+  }
+}

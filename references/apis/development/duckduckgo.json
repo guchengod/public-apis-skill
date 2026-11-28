@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/duckduckgo",
+  "name": "DuckDuckGo",
+  "category": "Development",
+  "description": "Instant answers, abstracts and definitions",
+  "documentation_url": "https://api.duckduckgo.com/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "865db3da8df001f368409298a1fec2be54c5d5e7b47263d4669db2bf3e9f84a1"
+  }
+}

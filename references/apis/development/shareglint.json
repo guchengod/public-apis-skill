@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/shareglint",
+  "name": "Shareglint",
+  "category": "Development",
+  "description": "Open Graph and social images from HTML/CSS templates, page screenshots, GIF and MP4; free tier",
+  "documentation_url": "https://shareglint.com/en/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SHAREGLINT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dd10e403203d0655a3ef464e8f32d577e11e4cebd8849d3f4510aa7e3c4383fa"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/prezzi-in-vista",
+  "name": "Prezzi in Vista",
+  "category": "Shopping",
+  "description": "Offers in the weekly flyers of Italian supermarket and electronics chains, with the nearest store",
+  "documentation_url": "https://www.prezzinvista.it/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e141d9c54ff04b53f5544646ec1dfb1e229df707ffb19a32720e0c9ad2aa5554"
+  }
+}

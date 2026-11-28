@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/the-subtitle-database",
+  "name": "The Subtitle Database",
+  "category": "Video",
+  "description": "Subtitles for movies and TV episodes by IMDb or TMDB id",
+  "documentation_url": "https://thesubtitledb.org/developer/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "afca19c393a7f2c760010b85b86912d81baa255389b28542fd6ac0a8125df163"
+  }
+}

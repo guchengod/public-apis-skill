@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/cookbooksocial-nutrition",
+  "name": "CookbookSocial Nutrition",
+  "category": "Food & Drink",
+  "description": "Nutrition data for 4,631 ingredients with food names in 19 languages",
+  "documentation_url": "https://cookbooksocial.app/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FOOD_DRINK__COOKBOOKSOCIAL_NUTRITION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "75e8fa864b1c11c42ce66ba1488f1b31e18aeae6d34f1d0d8286e7170e84a072"
+  }
+}

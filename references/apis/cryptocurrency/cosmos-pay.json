@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cosmos-pay",
+  "name": "Cosmos Pay",
+  "category": "Cryptocurrency",
+  "description": "Stablecoin payment links, checkout and swaps on Stellar, Solana and Monad",
+  "documentation_url": "https://dev.cosmospay.lat/docs/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COSMOS_PAY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a767b37f07f878e6c7d0cbb411ecadbe88910257209a80028632952b7d77a408"
+  }
+}

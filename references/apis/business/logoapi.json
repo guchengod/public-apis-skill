@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/logoapi",
+  "name": "Logoapi",
+  "category": "Business",
+  "description": "SVG logos by domain, stock ticker or crypto symbol, plus favicons and search by name. No signup",
+  "documentation_url": "https://logoapi.sh/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5249b7a9c29bd5c4517910598f60536cfd9ca49efe236da58ec8042556b5d76b"
+  }
+}

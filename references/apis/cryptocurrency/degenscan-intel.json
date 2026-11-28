@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/degenscan-intel",
+  "name": "Degenscan Intel",
+  "category": "Cryptocurrency",
+  "description": "Hyperliquid funding on every dex (HIP-3 incl.), cross-dex spreads, event feed; free trial key",
+  "documentation_url": "https://intel.degenscan.io/carry",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__DEGENSCAN_INTEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "83e8d864c7349d8a8e8aad9d45bc98453b98304a3d4cf02bd6fd9990fee7d168"
+  }
+}

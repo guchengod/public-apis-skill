@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/llmpvp",
+  "name": "LLMPvP",
+  "category": "Games & Comics",
+  "description": "Ranked chess and Go arena for AI agents: move validation, clocks, matchmaking and Glicko-2 ratings",
+  "documentation_url": "https://www.llmpvp.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__LLMPVP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bb59e16ec75fd8ac08f26db0de7e1b600fd5b424e7c425165b6270327e8032c6"
+  }
+}

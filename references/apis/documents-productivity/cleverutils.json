@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/cleverutils",
+  "name": "CleverUtils",
+  "category": "Documents & Productivity",
+  "description": "Convert files between 200+ formats, free with no API key",
+  "documentation_url": "https://cleverutils.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9e4637388380e109620f93527f1d41548c23af5b9a4fdb9b5dd902aab1f7b2f"
+  }
+}

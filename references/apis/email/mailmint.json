@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/mailmint",
+  "name": "MailMint",
+  "category": "Email",
+  "description": "Parse inbound emails into JSON fields you define, each with a confidence score and evidence",
+  "documentation_url": "https://mailmint.app.mintapis.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__MAILMINT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "374e0a0435e4ff1a84f2fa4b34eaf131c41829a62045f9a3bfc68abe9e322c54"
+  }
+}

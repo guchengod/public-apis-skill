@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/openshield",
+  "name": "openshield",
+  "category": "Security",
+  "description": "Image and text moderation, plus fraud scoring for sign-ups, logins and payments",
+  "documentation_url": "https://www.openshield.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__OPENSHIELD__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "204943d78ec86280a60269068a227b97572a70f9c3debea9783cab68d26363f3"
+  }
+}

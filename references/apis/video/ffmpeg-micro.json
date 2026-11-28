@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/ffmpeg-micro",
+  "name": "FFmpeg Micro",
+  "category": "Video",
+  "description": "Hosted FFmpeg over REST: transcode, compress, trim and caption video, audio and images",
+  "documentation_url": "https://www.ffmpeg-micro.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__FFMPEG_MICRO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "266469ffc0ef761a53d4ad917ad8e0a1776039f0d5c88066933b7b303cef09e4"
+  }
+}

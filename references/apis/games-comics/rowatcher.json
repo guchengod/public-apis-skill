@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/rowatcher",
+  "name": "RoWatcher",
+  "category": "Games & Comics",
+  "description": "Roblox game player counts every 5 minutes, plus daily history",
+  "documentation_url": "https://rowatcher.com/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e537c1fd12e24d20e0cdc85c09ba7202ababcbdb18596ca897ba6e686fc91d2"
+  }
+}

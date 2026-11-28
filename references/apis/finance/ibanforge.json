@@ -3,8 +3,8 @@
   "id": "finance/ibanforge",
   "name": "IBANforge",
   "category": "Finance",
-  "description": "IBAN validation and BIC/SWIFT lookup for 89 countries with 121k+ BIC entries",
-  "documentation_url": "https://api.ibanforge.com",
+  "description": "IBAN checks and sourced bank/BIC references; free format checks and a keyless validation trial",
+  "documentation_url": "https://ibanforge.com/docs",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "0454fe22f71320d6e231007a260b4ccdb9b4d05c56d21a77ec38e93c3f4d2857"
+    "fingerprint": "3758626e937ed3aefe0b4869e64985f5419520d1b565d1a1ace97d07052cd83b"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/openaxia",
+  "name": "OpenAxia",
+  "category": "Shopping",
+  "description": "Source-linked specifications and certifications for blind, shutter, awning and door motors",
+  "documentation_url": "https://openaxia.com/agent",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1fe9196e5d9feac9a00c967ae750d363ba986b721f384ec375930f10899f7ab5"
+  }
+}

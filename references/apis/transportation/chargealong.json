@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/chargealong",
+  "name": "ChargeAlong",
+  "category": "Transportation",
+  "description": "EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning",
+  "documentation_url": "https://chargealong.io/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "447ab0c42386cbd4bd62d48a24f45261e9eafe46f647cdbacb6993a018a38142"
+  }
+}

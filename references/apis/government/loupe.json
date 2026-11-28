@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/loupe",
+  "name": "Loupe",
+  "category": "Government",
+  "description": "US case citations: does one exist, which case does it name, is the pin cite inside the opinion",
+  "documentation_url": "https://loupe.legal/data#agents",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "592c6ceb16dab700ac95901fecb5e2dc6e58cb981aa90eb45385af2a9f5e2498"
+  }
+}

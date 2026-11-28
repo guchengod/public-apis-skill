@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/golfcourse",
+  "name": "GolfCourse",
+  "category": "Sports & Fitness",
+  "description": "Data for 30,000+ golf courses: location, tee boxes, par, yardages, course rating and slope rating",
+  "documentation_url": "https://api.golfcourseapi.com/docs/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__GOLFCOURSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0303c0c9a92cef74c2f1eba9e793a1b96f92f22f27b3cf6f413ef4c57fe25500"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/shotlane",
+  "name": "Shotlane",
+  "category": "Development",
+  "description": "Screenshots, PDFs and Markdown of any web page in Chrome, with a free tier",
+  "documentation_url": "https://shotlane.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SHOTLANE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "26e908c9999e29068b3718606c2af77618966c0b44ac6768f264a99e8b32b643"
+  }
+}

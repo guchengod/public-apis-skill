@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/india-lgd-index",
+  "name": "India LGD Index",
+  "category": "Government",
+  "description": "Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes",
+  "documentation_url": "https://india-lgd-index-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3c94fa9e38371f9f6e0c07f91afd5dd01d0a6d9c75c813281d02a9dd96b14132"
+  }
+}

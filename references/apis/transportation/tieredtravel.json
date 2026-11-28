@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/tieredtravel",
+  "name": "TieredTravel",
+  "category": "Transportation",
+  "description": "Daily travel costs at budget, mid-range and luxury for 100 cities, plus walking routes",
+  "documentation_url": "https://tieredtravel.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2dc79faf4df363a804d3f48c0ab11d62febb4c76db0e21114deaa1db1e63f123"
+  }
+}

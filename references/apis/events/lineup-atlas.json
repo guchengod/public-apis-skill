@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "events/lineup-atlas",
+  "name": "Lineup Atlas",
+  "category": "Events",
+  "description": "Club nights, festivals and artist tour dates worldwide",
+  "documentation_url": "https://lineupatlas.com/en/data-partners",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4520f3a7bd2b9f9273535ea4957ae2e0d09950dbd8fad02ec1be2bf71f83fa21"
+  }
+}

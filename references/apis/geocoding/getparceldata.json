@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/getparceldata",
+  "name": "GetParcelData",
+  "category": "Geocoding",
+  "description": "US parcel boundaries, owners and assessor values by APN, point or polygon",
+  "documentation_url": "https://getparceldata.com/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__GETPARCELDATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c8c31f3888d7f7ba37a349d26cb88d1a469c0aea4098b15017e0734fbc2076e8"
+  }
+}

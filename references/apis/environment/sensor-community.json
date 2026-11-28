@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/sensor-community",
+  "name": "sensor.community",
+  "category": "Environment",
+  "description": "Community air quality sensor network data worldwide",
+  "documentation_url": "https://github.com/opendata-stuttgart/meta/wiki/EN-APIs",
+  "auth": {
+    "type": "User-Agent",
+    "required": true,
+    "strategy": "header",
+    "header": "User-Agent",
+    "credential_env": "PUBLIC_API__ENVIRONMENT__SENSOR_COMMUNITY__USER_AGENT"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b6dec85f0476caeb3457977afaab1f86eeef73b4ac29b6070537e538f7093e5c"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/inaturalist",
+  "name": "iNaturalist",
+  "category": "Science & Math",
+  "description": "Citizen-science wildlife observations with species identification and mapping",
+  "documentation_url": "https://api.inaturalist.org/v1/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cf6c3fba7bd44783f42e53d016a61a8ee9ee62f8ea0104578877f3715259295e"
+  }
+}

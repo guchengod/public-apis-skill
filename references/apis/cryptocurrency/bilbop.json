@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bilbop",
+  "name": "bilbop",
+  "category": "Cryptocurrency",
+  "description": "Solana USDC x402 pay-per-call tools for agents: SPL mint info, token brief, text summarize, Piper TTS, brand feedback",
+  "documentation_url": "https://api.bilbop.org",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e3391ddb0d76329e15d9babc963d03e8b8e6496c6f0e75f636c7a853747c1b1e"
+  }
+}

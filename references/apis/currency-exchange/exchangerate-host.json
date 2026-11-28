@@ -3,12 +3,14 @@
   "id": "currency-exchange/exchangerate-host",
   "name": "Exchangerate.host",
   "category": "Currency Exchange",
-  "description": "Free foreign exchange & crypto rates API",
+  "description": "Foreign exchange & crypto rates API (keyless access ended 2023)",
   "documentation_url": "https://exchangerate.host?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
   "auth": {
-    "type": "none",
-    "required": false,
-    "strategy": "none"
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__EXCHANGERATE_HOST__API_KEY"
   },
   "transport": {
     "https": "yes",
@@ -20,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "f22da6287b66827625af6904f368abcc1c7aefc09ae0592e92c33431773a566e"
+    "fingerprint": "0595ddf9e5d618ea69079cbd53c582702ef4ce6f74c1176815484825e83e428c"
   }
 }

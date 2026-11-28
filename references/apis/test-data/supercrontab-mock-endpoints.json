@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/supercrontab-mock-endpoints",
+  "name": "Supercrontab Mock Endpoints",
+  "category": "Test Data",
+  "description": "Mock endpoints in 8 formats, each returning any of 14 HTTP status codes",
+  "documentation_url": "https://supercrontab.com/mock",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd22c3957be5b283807153aee7863763af7535c3c7efe2899a313fe6ddf20051"
+  }
+}

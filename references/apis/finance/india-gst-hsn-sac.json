@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/india-gst-hsn-sac",
+  "name": "India GST HSN & SAC",
+  "category": "Finance",
+  "description": "Indian GST HSN and SAC classification code lookup and search",
+  "documentation_url": "https://gst-hsn-sac-api.vercel.app/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "394563213f5a93b5c56597d56331bd08b9cfebf05e4efb43ad8e60b282c67ce4"
+  }
+}

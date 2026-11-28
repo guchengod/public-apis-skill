@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/redlisten",
+  "name": "Redlisten",
+  "category": "Social",
+  "description": "Public Reddit posts and comments: search, live feeds, keyword alerts and trends",
+  "documentation_url": "https://redlisten.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__REDLISTEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e8146d99909a65834801164a5b42e0d7e4a48f7b391c1be07af1f46b024b17ce"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/w14n",
+  "name": "w14n",
+  "category": "Open Data",
+  "description": "Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates",
+  "documentation_url": "https://api.w14n.dev/v1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "65fc03988d163e9f81b887b14930274cf400fa485b7fd1d2d1a34f057129d2d4"
+  }
+}

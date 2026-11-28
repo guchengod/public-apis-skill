@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/solidping",
+  "name": "SolidPing",
+  "category": "Development",
+  "description": "Create and run uptime checks, read results and incidents, manage status pages, with a free tier",
+  "documentation_url": "https://docs.solidping.io/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SOLIDPING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "59ec712b9d03dc6c3fd3ae5cb0ca374444be2580fb95c5cc0d303b5559d3e41d"
+  }
+}

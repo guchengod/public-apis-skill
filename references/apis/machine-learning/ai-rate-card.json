@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/ai-rate-card",
+  "name": "AI Rate Card",
+  "category": "Machine Learning",
+  "description": "Daily-checked AI model API prices from 120+ providers, price history and cost estimates",
+  "documentation_url": "https://airatecard.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7382ebcaf1250b6c6ffa1ce7fee4d5b44eeb76a29b43b21eff857466c1912e18"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/pic2svg",
+  "name": "pic2svg",
+  "category": "Art & Design",
+  "description": "Trace raster images to SVG with a free daily allowance",
+  "documentation_url": "https://pic2svg.com/mcp/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "43bb1863eb6ab78a141d720406bae9a1723585739e43bd5bdaecf683db00fa84"
+  }
+}

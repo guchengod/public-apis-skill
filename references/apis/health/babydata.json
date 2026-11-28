@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/babydata",
+  "name": "BabyData",
+  "category": "Health",
+  "description": "UK pregnancy due date, ovulation and Statutory Maternity Pay calculators",
+  "documentation_url": "https://babydata.co.uk/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "879f9fe03978d90ef17a5e531f05ac444a3863eb988e4185261539a03e838c6e"
+  }
+}

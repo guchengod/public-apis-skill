@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/housingfeed",
+  "name": "HousingFeed",
+  "category": "Open Data",
+  "description": "US rental listings from property managers' own websites, verified weekly",
+  "documentation_url": "https://housingfeed.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ba697aa0deb7790f07ebb941abae4fe901a63c05a34a7bb080e90983f5ffa4de"
+  }
+}

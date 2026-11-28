@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/agent-data-hub",
+  "name": "Agent Data Hub",
+  "category": "Open Data",
+  "description": "Official statistics, central bank rates and FX, with source and licence in every answer",
+  "documentation_url": "https://api.agentdatahub.de/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "450eed5bcb6c885bd0e7bb89a5db82a73ec37fb8fc8dbafc3636de6238f708e6"
+  }
+}

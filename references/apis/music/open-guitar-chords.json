@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/open-guitar-chords",
+  "name": "Open Guitar Chords",
+  "category": "Music",
+  "description": "Free JSON data for guitar chords, scales and fretboard positions",
+  "documentation_url": "https://openguitarchords.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6fd468ece772cbbd8acd56be9a62b216a39f94e6dc9514c37e1dad7d9cbf48f7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/valo-data",
+  "name": "Valo.Data",
+  "category": "Games & Comics",
+  "description": "Pokémon TCG cards in EN/FR/JA/ZH, Cardmarket, US market and eBay prices, PSA populations, 14 TCGs",
+  "documentation_url": "https://valotcg.com/developers/api/pokemon",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__VALO_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5692fcf92445a69180050478e60e880967626e838bf29dd09a35ae99aa6c882a"
+  }
+}

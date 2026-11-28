@@ -1,36 +1,47 @@
 # Video
 
-47 interfaces. Paths are relative to this catalog file.
+65 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | An API of Ice And Fire | No | yes | unknown | [`video/an-api-of-ice-and-fire`](../apis/video/an-api-of-ice-and-fire.json) |
+| Arcmira | apiKey | yes | yes | [`video/arcmira`](../apis/video/arcmira.json) |
 | Bob's Burgers | No | yes | yes | [`video/bob-s-burgers`](../apis/video/bob-s-burgers.json) |
 | Breaking Bad | No | yes | unknown | [`video/breaking-bad`](../apis/video/breaking-bad.json) |
 | Breaking Bad Quotes | No | yes | unknown | [`video/breaking-bad-quotes`](../apis/video/breaking-bad-quotes.json) |
+| BulkTranscripts | apiKey | yes | yes | [`video/bulktranscripts`](../apis/video/bulktranscripts.json) |
 | Catalogopolis | No | yes | unknown | [`video/catalogopolis`](../apis/video/catalogopolis.json) |
 | Catch The Show | No | yes | unknown | [`video/catch-the-show`](../apis/video/catch-the-show.json) |
 | Czech Television | No | no | unknown | [`video/czech-television`](../apis/video/czech-television.json) |
 | Dailymotion | OAuth | yes | unknown | [`video/dailymotion`](../apis/video/dailymotion.json) |
 | Dune | No | yes | yes | [`video/dune`](../apis/video/dune.json) |
+| FFmpeg Micro | apiKey | yes | no | [`video/ffmpeg-micro`](../apis/video/ffmpeg-micro.json) |
 | Final Space | No | yes | yes | [`video/final-space`](../apis/video/final-space.json) |
+| Galaxy Movies | No | yes | yes | [`video/galaxy-movies`](../apis/video/galaxy-movies.json) |
 | Game of Thrones Quotes | No | yes | unknown | [`video/game-of-thrones-quotes`](../apis/video/game-of-thrones-quotes.json) |
+| GenMagic | apiKey | yes | yes | [`video/genmagic`](../apis/video/genmagic.json) |
 | Harry Potter Charactes | No | yes | unknown | [`video/harry-potter-charactes`](../apis/video/harry-potter-charactes.json) |
 | Hyperserve | apiKey | yes | yes | [`video/hyperserve`](../apis/video/hyperserve.json) |
 | IMDb-API | apiKey | yes | unknown | [`video/imdb-api`](../apis/video/imdb-api.json) |
 | IMDbOT | No | yes | yes | [`video/imdbot`](../apis/video/imdbot.json) |
 | JSON2Video | apiKey | yes | no | [`video/json2video`](../apis/video/json2video.json) |
+| KPainter | apiKey | yes | yes | [`video/kpainter`](../apis/video/kpainter.json) |
+| KinoPipe | apiKey | yes | no | [`video/kinopipe`](../apis/video/kinopipe.json) |
 | Lucifer Quotes | No | yes | unknown | [`video/lucifer-quotes`](../apis/video/lucifer-quotes.json) |
 | MCU Countdown | No | yes | yes | [`video/mcu-countdown`](../apis/video/mcu-countdown.json) |
 | Motivational Quotes | No | yes | unknown | [`video/motivational-quotes`](../apis/video/motivational-quotes.json) |
 | Movie Quote | No | yes | yes | [`video/movie-quote`](../apis/video/movie-quote.json) |
 | Open Movie Database | apiKey | yes | unknown | [`video/open-movie-database`](../apis/video/open-movie-database.json) |
+| OpenSubtitles | apiKey | yes | yes | [`video/opensubtitles`](../apis/video/opensubtitles.json) |
 | Owen Wilson Wow | No | yes | yes | [`video/owen-wilson-wow`](../apis/video/owen-wilson-wow.json) |
+| RankFabrik Captions | apiKey | yes | unknown | [`video/rankfabrik-captions`](../apis/video/rankfabrik-captions.json) |
 | Rendobar | apiKey | yes | no | [`video/rendobar`](../apis/video/rendobar.json) |
 | Ron Swanson Quotes | No | yes | unknown | [`video/ron-swanson-quotes`](../apis/video/ron-swanson-quotes.json) |
+| ScaleReach | apiKey | yes | no | [`video/scalereach`](../apis/video/scalereach.json) |
 | Shotstack | apiKey | yes | unknown | [`video/shotstack`](../apis/video/shotstack.json) |
 | Simkl | apiKey | yes | unknown | [`video/simkl`](../apis/video/simkl.json) |
 | STAPI | No | no | no | [`video/stapi`](../apis/video/stapi.json) |
+| Star Wars Images | No | yes | yes | [`video/star-wars-images`](../apis/video/star-wars-images.json) |
 | Stranger Things Quotes | No | yes | unknown | [`video/stranger-things-quotes`](../apis/video/stranger-things-quotes.json) |
 | Stream | No | yes | no | [`video/stream`](../apis/video/stream.json) |
 | Stromberg Quotes | No | yes | unknown | [`video/stromberg-quotes`](../apis/video/stromberg-quotes.json) |
@@ -38,14 +49,21 @@
 | SWAPI | No | yes | yes | [`video/swapi--4a8812c3`](../apis/video/swapi--4a8812c3.json) |
 | SWAPI GraphQL | No | yes | unknown | [`video/swapi-graphql`](../apis/video/swapi-graphql.json) |
 | The Lord of the Rings | apiKey | yes | unknown | [`video/the-lord-of-the-rings`](../apis/video/the-lord-of-the-rings.json) |
+| The Subtitle Database | No | yes | yes | [`video/the-subtitle-database`](../apis/video/the-subtitle-database.json) |
 | The Vampire Diaries | apiKey | yes | yes | [`video/the-vampire-diaries`](../apis/video/the-vampire-diaries.json) |
 | ThronesApi | No | yes | unknown | [`video/thronesapi`](../apis/video/thronesapi.json) |
 | TMDb | apiKey | yes | unknown | [`video/tmdb`](../apis/video/tmdb.json) |
 | TrailerAddict | apiKey | no | unknown | [`video/traileraddict`](../apis/video/traileraddict.json) |
 | Trakt | apiKey | yes | yes | [`video/trakt`](../apis/video/trakt.json) |
+| Transcript Dock | apiKey | yes | no | [`video/transcript-dock`](../apis/video/transcript-dock.json) |
+| TranscriptYT | apiKey | yes | yes | [`video/transcriptyt`](../apis/video/transcriptyt.json) |
+| TubeToTranscript | apiKey | yes | yes | [`video/tubetotranscript`](../apis/video/tubetotranscript.json) |
 | TVDB | apiKey | yes | unknown | [`video/tvdb`](../apis/video/tvdb.json) |
 | TVMaze | No | no | unknown | [`video/tvmaze`](../apis/video/tvmaze.json) |
+| UGCdrop | No | yes | yes | [`video/ugcdrop`](../apis/video/ugcdrop.json) |
 | uNoGS | apiKey | yes | yes | [`video/unogs`](../apis/video/unogs.json) |
+| Video to Markdown | No | yes | yes | [`video/video-to-markdown`](../apis/video/video-to-markdown.json) |
+| VidSmaller | apiKey | yes | yes | [`video/vidsmaller`](../apis/video/vidsmaller.json) |
 | VidWords | apiKey | yes | no | [`video/vidwords`](../apis/video/vidwords.json) |
 | Vimeo | OAuth | yes | unknown | [`video/vimeo`](../apis/video/vimeo.json) |
 | Watchmode | apiKey | yes | unknown | [`video/watchmode`](../apis/video/watchmode.json) |

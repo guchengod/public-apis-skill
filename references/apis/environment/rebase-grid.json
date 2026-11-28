@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/rebase-grid",
+  "name": "Rebase Grid",
+  "category": "Environment",
+  "description": "European electricity prices, load, generation, forecasts and cross-border flows",
+  "documentation_url": "https://grid.rebase.energy/docs/v1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4bc5849fa5f631a3a8b66495a41a27980e9cf978afc4a6f577cbf904a92e8b2"
+  }
+}

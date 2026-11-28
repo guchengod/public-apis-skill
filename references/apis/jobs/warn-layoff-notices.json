@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/warn-layoff-notices",
+  "name": "WARN Layoff Notices",
+  "category": "Jobs",
+  "description": "US state WARN Act layoff and plant-closure notices: employer, location, date, workers affected",
+  "documentation_url": "https://pushbuild.com/apis/warn-layoff-notices.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__WARN_LAYOFF_NOTICES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d5d8d0d5dbbe660b3858d2ddb66b84ccc7a00aa40ac788dfbbd30d4cea810ca8"
+  }
+}

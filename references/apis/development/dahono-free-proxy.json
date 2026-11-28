@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/dahono-free-proxy",
+  "name": "Dahono Free Proxy",
+  "category": "Development",
+  "description": "Live-tested HTTP/HTTPS/SOCKS4/SOCKS5 proxies with country, protocol, latency and uptime filters",
+  "documentation_url": "https://router.dahono.com/proxy/free",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b6febf13a71fe99d5c971ab90fe336a03d366b856cdf75a1f3ba6ffdb9b7673a"
+  }
+}

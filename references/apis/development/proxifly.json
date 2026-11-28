@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/proxifly",
+  "name": "Proxifly",
+  "category": "Development",
+  "description": "Rotating proxy API that returns tested HTTP, SOCKS4 and SOCKS5 proxies, filterable by country",
+  "documentation_url": "https://proxifly.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cdd7782140e761b42f49247f3d7a418d3195cbe9b53b8207eb59daf2606eb7ec"
+  }
+}

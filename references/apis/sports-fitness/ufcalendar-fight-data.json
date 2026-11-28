@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/ufcalendar-fight-data",
+  "name": "UFCalendar Fight Data",
+  "category": "Sports & Fitness",
+  "description": "UFC, PFL, OKTAGON, BKFC and RIZIN events, results, round stats, rankings history",
+  "documentation_url": "https://api.ufcalendar.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__UFCALENDAR_FIGHT_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "942e66f859dddb733a25687c0fbdc3a3be47cf869320d5d9f95b9a29389ec78d"
+  }
+}

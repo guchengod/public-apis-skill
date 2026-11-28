@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/snaprender",
+  "name": "SnapRender",
+  "category": "Development",
+  "description": "Website screenshots as PNG, JPEG, WebP or PDF, and page content as markdown, with a free tier",
+  "documentation_url": "https://snap-render.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SNAPRENDER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc387c75a147898385d1ef051e78b3e9f37efba59d1d53d91562f53557b5c1dd"
+  }
+}

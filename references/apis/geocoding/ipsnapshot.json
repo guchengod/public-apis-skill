@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/ipsnapshot",
+  "name": "IPSnapshot",
+  "category": "Geocoding",
+  "description": "IP geolocation, ASN and ISP, plus VPN, datacenter and Tor detection for IPv4 and IPv6",
+  "documentation_url": "https://ipsnapshot.com/ip-lookup-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1e72ab59792d52b6bb88d4fc78b06c637466943682dcac946683ef472717c93"
+  }
+}

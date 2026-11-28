@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/peak",
+  "name": "Peak",
+  "category": "Development",
+  "description": "Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves",
+  "documentation_url": "https://peak.fo/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__PEAK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0e335bc267fbb0805c6a6e2bff8f6bc5225503e8d62c922d2f656b06c61f844"
+  }
+}

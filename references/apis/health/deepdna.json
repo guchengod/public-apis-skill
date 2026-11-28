@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/deepdna",
+  "name": "DeepDNA",
+  "category": "Health",
+  "description": "Cited gene, variant and CPIC drug-gene lookups for developers and AI agents",
+  "documentation_url": "https://deepdna.ai/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7bc6b3bd573c8b423b9c0b9de28f1511b14c62bc4f81aa60d531ce3fc748479c"
+  }
+}

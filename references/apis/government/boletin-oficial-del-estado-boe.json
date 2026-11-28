@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/boletin-oficial-del-estado-boe",
+  "name": "Boletín Oficial del Estado (BOE)",
+  "category": "Government",
+  "description": "Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs",
+  "documentation_url": "https://www.boe.es/datosabiertos/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9030377f48a37249b008d4c4237b77a18a3e036c5b63fb26f8295f34a5f9c918"
+  }
+}

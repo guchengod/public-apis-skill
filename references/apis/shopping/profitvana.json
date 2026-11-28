@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/profitvana",
+  "name": "Profitvana",
+  "category": "Shopping",
+  "description": "Seller fees for 31 marketplaces and payment processors, verified monthly",
+  "documentation_url": "https://www.profitvana.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cd28b2f38b4ed45a1a2fcd031869c4448e73a8eff83ca84e49257f88007abb86"
+  }
+}

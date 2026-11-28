@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/calendrier-tempo",
+  "name": "Calendrier Tempo",
+  "category": "Environment",
+  "description": "French EDF Tempo tariff: today's and tomorrow's colour, kWh prices and 15-day colour forecasts",
+  "documentation_url": "https://www.calendrier-tempo.fr/api-tempo",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "58dbb5e742d3844e79592be6b8695bdcf17eece73a158812e48b67c9e29793bf"
+  }
+}

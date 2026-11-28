@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/insightsocial",
+  "name": "InsightSocial",
+  "category": "Social",
+  "description": "Public profiles, posts, comments and followers from 25 social platforms, free tier",
+  "documentation_url": "https://www.insightsocial.app/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__INSIGHTSOCIAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6fe29820060739cd317928b6c8e056e4970965df0e2d6dbd841f018a1d18a9ed"
+  }
+}

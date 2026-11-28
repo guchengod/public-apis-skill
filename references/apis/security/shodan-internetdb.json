@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/shodan-internetdb",
+  "name": "Shodan InternetDB",
+  "category": "Security",
+  "description": "Open ports, hostnames, CPEs, tags and known vulnerabilities for an IP address",
+  "documentation_url": "https://internetdb.shodan.io/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35a18eef945b6d45ec692f12c747968dcf9c1090893e3980388cf13bf7f104bd"
+  }
+}

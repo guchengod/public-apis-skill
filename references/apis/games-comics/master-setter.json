@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/master-setter",
+  "name": "Master Setter",
+  "category": "Games & Comics",
+  "description": "Pokémon TCG cards and sets in 14 languages, with every printing and variant",
+  "documentation_url": "https://api.master-setter.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GAMES_COMICS__MASTER_SETTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e73bed9053ceb0b2277e782b7a62c9fbcdd85115484ddb6db0b6d9efc0c1bfd"
+  }
+}

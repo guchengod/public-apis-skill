@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/zornade",
+  "name": "Zornade",
+  "category": "Geocoding",
+  "description": "Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (88M parcels)",
+  "documentation_url": "https://app.zornade.com/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__ZORNADE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "04db5e2f137faa252bae01f36cb2bcc9c5b36fedbc4b2d4cdb66a50e0a1c8edb"
+  }
+}

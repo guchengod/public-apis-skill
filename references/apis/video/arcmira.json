@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/arcmira",
+  "name": "Arcmira",
+  "category": "Video",
+  "description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers",
+  "documentation_url": "https://arcmira.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__ARCMIRA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "375584be38a4daa566dd5f536a2097de88f78047c927f739e2c1c58526962d45"
+  }
+}

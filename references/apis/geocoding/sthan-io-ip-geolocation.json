@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/sthan-io-ip-geolocation",
+  "name": "sthan.io IP Geolocation",
+  "category": "Geocoding",
+  "description": "Look up the geographic location of any IPv4 or IPv6 address",
+  "documentation_url": "https://sthan.io/products/ip-geolocation",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__STHAN_IO_IP_GEOLOCATION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "52d425ccff94461ca271105aaff53582074dbca676d69ab8e3680a8504cece68"
+  }
+}

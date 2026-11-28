@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/propraven",
+  "name": "PropRaven",
+  "category": "Open Data",
+  "description": "US parcel, owner and permit records for all 50 states, with an OpenAPI 3.1 spec",
+  "documentation_url": "https://propraven.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__PROPRAVEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fdc5a08aaa61a8c50cb4364086ddb3e7f2ab182eaa2ce8e96ae8abe266805f73"
+  }
+}

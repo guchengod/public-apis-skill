@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/uk-public-tenders-by-trade",
+  "name": "UK Public Tenders by Trade",
+  "category": "Government",
+  "description": "Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0)",
+  "documentation_url": "https://tools.gptshopltd.com/api/uk-tenders/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d4b02e6b012087a5e41362d0a239ec76075ae80143c0964fdf65eb8ef25f9f2"
+  }
+}

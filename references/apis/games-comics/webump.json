@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/webump",
+  "name": "weBump",
+  "category": "Games & Comics",
+  "description": "Connect games to nearby players' profiles, small saves and recent visitors with consent",
+  "documentation_url": "https://developer.webump.app/",
+  "auth": {
+    "type": "OAuth",
+    "required": true,
+    "strategy": "bearer",
+    "credential_env": "PUBLIC_API__GAMES_COMICS__WEBUMP__TOKEN"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6335b65032607e53f3dfae3ac37574e4736a54503231b3ca7433647a9e4c05c4"
+  }
+}

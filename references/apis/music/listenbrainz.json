@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/listenbrainz",
+  "name": "ListenBrainz",
+  "category": "Music",
+  "description": "Open music listening data: scrobble history, statistics and recommendations",
+  "documentation_url": "https://listenbrainz.readthedocs.io/en/latest/users/api/index.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a5f37bec6ea9620470aa7bcde3b5da1f7437e10f01681a331ed08eec70ff46fc"
+  }
+}

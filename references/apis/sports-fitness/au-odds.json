@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/au-odds",
+  "name": "AU Odds",
+  "category": "Sports & Fitness",
+  "description": "Timestamped odds from 11 Australian bookmakers, with line history and devigged consensus",
+  "documentation_url": "https://lucasfox.dev/odds/docs/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c2a71e6b10af64a18cf4ef10aed28a76f823fdae0c02e8f0d05ebbcf5a3c6d15"
+  }
+}

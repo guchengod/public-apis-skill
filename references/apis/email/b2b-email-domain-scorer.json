@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/b2b-email-domain-scorer",
+  "name": "B2B Email & Domain Scorer",
+  "category": "Email",
+  "description": "Email verification: MX, disposable/free/role detection, typo fix and a keep/fix/drop action",
+  "documentation_url": "https://rapidapi.com/MohamedBahaa/api/b2b-email-domain-scorer",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__B2B_EMAIL_DOMAIN_SCORER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "62aad601f4b7301e4d4d82d3fd1d3a5db99b016d50ee217db21709815dc04dd1"
+  }
+}

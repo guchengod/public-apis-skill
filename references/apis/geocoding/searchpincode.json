@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/searchpincode",
+  "name": "SearchPinCode",
+  "category": "Geocoding",
+  "description": "Indian postal PIN code lookup, post office locator and district data",
+  "documentation_url": "https://searchpincode.in/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c301f8a33364577a6d0ffb9175da31cff5a0a25136466cb0e43dbede57572a2e"
+  }
+}

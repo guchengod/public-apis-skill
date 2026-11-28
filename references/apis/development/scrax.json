@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/scrax",
+  "name": "Scrax",
+  "category": "Development",
+  "description": "Web scraping API that only bills for successful scrapes",
+  "documentation_url": "https://rapidapi.com/mtaahoperators/api/scrax",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SCRAX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03a3bcea65a3ed3b6b75c4b56495074a938d795956d4d4569d997db5831d5efd"
+  }
+}

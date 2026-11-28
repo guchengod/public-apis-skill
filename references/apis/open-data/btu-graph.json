@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/btu-graph",
+  "name": "BTU Graph",
+  "category": "Open Data",
+  "description": "Source-reviewed energy company knowledge graph and directory exports",
+  "documentation_url": "https://btugraph.com/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7ae9fea8e29452ce511bba9440c4f7aac6ce73847a343c6f03ac2605697b2206"
+  }
+}

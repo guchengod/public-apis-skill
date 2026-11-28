@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/safereel",
+  "name": "SafeReel",
+  "category": "Machine Learning",
+  "description": "NSFW detection for images and full-length videos by URL, free tier",
+  "documentation_url": "https://safereel.ai/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__SAFEREEL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "630fb0377c8d701c251e2a87481e7e18d83020ae53c3fee95cc62f311b4da5a3"
+  }
+}

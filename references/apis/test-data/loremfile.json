@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/loremfile",
+  "name": "loremfile",
+  "category": "Test Data",
+  "description": "Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest",
+  "documentation_url": "https://loremfile.dev/docs/manifest",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "32afd38ef161132ec8eaaa2150eedb2c198c7e185ec272f43ef2fac6be81aed4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/quotelinks-sec-fundamentals",
+  "name": "Quotelinks SEC Fundamentals",
+  "category": "Finance",
+  "description": "Standardized financial statements, profiles and filings for 21,000+ companies from SEC EDGAR",
+  "documentation_url": "https://www.quotelinks.com/api/sec-fundamentals/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e420c7b7cfdda08fa66fbb68ab98d0e0a43b426cbd4c8f52496356ff07e60548"
+  }
+}

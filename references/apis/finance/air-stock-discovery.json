@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/air-stock-discovery",
+  "name": "AIR Stock Discovery",
+  "category": "Finance",
+  "description": "AI-scored SEC filing events for small and mid-cap US companies",
+  "documentation_url": "https://www.aistockradars.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__AIR_STOCK_DISCOVERY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a84935289daaefc374fe6452cd4d27f5d8796b84a654d1fdb5fdc8fa0935caa7"
+  }
+}

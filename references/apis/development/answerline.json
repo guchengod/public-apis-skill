@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/answerline",
+  "name": "AnswerLine",
+  "category": "Development",
+  "description": "Answers, citations and sources from AI assistants and Google surfaces through one API",
+  "documentation_url": "https://answerline.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__ANSWERLINE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fc22cc5b74f689c112f289564124d1523335641f559e7c772bcd0734c3fc16e"
+  }
+}

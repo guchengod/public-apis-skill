@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "url-shorteners/lix-li",
+  "name": "Lix.li",
+  "category": "URL Shorteners",
+  "description": "URL shortener with analytics, QR codes, UTM tags and custom domains",
+  "documentation_url": "https://lix.li/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__URL_SHORTENERS__LIX_LI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "502684e7b5929ad3812d134208b70ee2272b3ab7c58969b5aefdbf5e41f5cfec"
+  }
+}

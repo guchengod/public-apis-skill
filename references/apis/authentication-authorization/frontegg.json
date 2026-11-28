@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/frontegg",
+  "name": "Frontegg",
+  "category": "Authentication & Authorization",
+  "description": "Customer identity for B2B SaaS: authentication, SSO, SCIM, MFA, RBAC and multi-tenancy",
+  "documentation_url": "https://developers.frontegg.com/ciam/api/overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__FRONTEGG__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ec4ecf95085afd173b31a0c5c1cc0c2192a9211c0c3a4aec5e9d006a15af3701"
+  }
+}

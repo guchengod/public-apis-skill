@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/worms",
+  "name": "WoRMS",
+  "category": "Science & Math",
+  "description": "Marine species taxonomy, synonyms and distributions",
+  "documentation_url": "https://www.marinespecies.org/rest/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "70e72b2b655e78d704b42ffb2df9cec60233eabd2f263e4507c888671439d4aa"
+  }
+}

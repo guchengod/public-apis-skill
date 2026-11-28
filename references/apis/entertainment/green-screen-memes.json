@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/green-screen-memes",
+  "name": "Green Screen Memes",
+  "category": "Entertainment",
+  "description": "Search 2,000+ green screen meme video clips, most with sound, new clips daily",
+  "documentation_url": "https://api.greenscreenmemes.app/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENTERTAINMENT__GREEN_SCREEN_MEMES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "457c80efc575c35efd2f1b7ce8ea9317e6a77679815ad3786345dbb167ed144f"
+  }
+}

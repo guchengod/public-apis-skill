@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/lurkapi",
+  "name": "LurkAPI",
+  "category": "Social",
+  "description": "Public posts, profiles, ads and transcripts from 16 social platforms as JSON",
+  "documentation_url": "https://lurkapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__LURKAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9e340bdcbf57624b5c2282e32bc1cc578d8d4377015f3be425c2cdb99a27b801"
+  }
+}

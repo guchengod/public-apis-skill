@@ -1,6 +1,6 @@
 # Anime
 
-19 interfaces. Paths are relative to this catalog file.
+21 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -12,10 +12,12 @@
 | AnimeNewsNetwork | No | yes | yes | [`anime/animenewsnetwork`](../apis/anime/animenewsnetwork.json) |
 | Catboy | No | yes | yes | [`anime/catboy`](../apis/anime/catboy.json) |
 | Danbooru Anime | apiKey | yes | yes | [`anime/danbooru-anime`](../apis/anime/danbooru-anime.json) |
+| FillerLists | No | yes | yes | [`anime/fillerlists`](../apis/anime/fillerlists.json) |
 | Jikan | No | yes | yes | [`anime/jikan`](../apis/anime/jikan.json) |
 | Kitsu | OAuth | yes | yes | [`anime/kitsu`](../apis/anime/kitsu.json) |
 | MangaDex | apiKey | yes | unknown | [`anime/mangadex`](../apis/anime/mangadex.json) |
 | Mangapi | apiKey | yes | unknown | [`anime/mangapi`](../apis/anime/mangapi.json) |
+| MangaUpdates | No | yes | unknown | [`anime/mangaupdates`](../apis/anime/mangaupdates.json) |
 | MyAnimeList | OAuth | yes | unknown | [`anime/myanimelist`](../apis/anime/myanimelist.json) |
 | NekosBest | No | yes | yes | [`anime/nekosbest`](../apis/anime/nekosbest.json) |
 | Shikimori | OAuth | yes | unknown | [`anime/shikimori`](../apis/anime/shikimori.json) |

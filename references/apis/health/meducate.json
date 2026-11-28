@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/meducate",
+  "name": "Meducate",
+  "category": "Health",
+  "description": "Structured MedlinePlus health topics with ICD-11 codes",
+  "documentation_url": "https://meducateapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__MEDUCATE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a06875febd350c868fec5c5ec8666cb62250a85d75daff5a5b546f3d40ce5dd4"
+  }
+}

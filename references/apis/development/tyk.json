@@ -4,7 +4,7 @@
   "name": "Tyk",
   "category": "Development",
   "description": "Api and service management platform",
-  "documentation_url": "https://tyk.io/open-source/",
+  "documentation_url": "https://tyk.io/open-source-api-gateway/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "c03c6949d3de1c0bfa1f0524687aa0793e509f6c1ec8fa4e221a77140aa027f1"
+    "fingerprint": "6b8871b31100f8bbc8a6bed6f9c7cbabc4e84d5affd4c9bce02ce504abaf990d"
   }
 }

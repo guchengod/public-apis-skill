@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/techmap",
+  "name": "Techmap",
+  "category": "Jobs",
+  "description": "Job postings from 185 sources in 250 countries and territories, with an archive since 2020",
+  "documentation_url": "https://api.techmap.io/jobs-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__TECHMAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2cbcdfe2986fd7af7fc305d87aac4df18d414796f117d1e57edae218e4c87b50"
+  }
+}

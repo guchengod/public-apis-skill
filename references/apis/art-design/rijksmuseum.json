@@ -4,7 +4,7 @@
   "name": "Rijksmuseum",
   "category": "Art & Design",
   "description": "RijksMuseum Data",
-  "documentation_url": "https://data.rijksmuseum.nl/object-metadata/api/",
+  "documentation_url": "https://data.rijksmuseum.nl/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b6185b9efff0a7603c18c5635363209c6ed196db72369a6a381ff620a6ec1603"
+    "fingerprint": "b4e9ab4ca03db2acbce7cb23a231e8d273bd7688c8170cfebac1ec2fb8ad99e9"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/band-atlas",
+  "name": "Band Atlas",
+  "category": "Open Data",
+  "description": "Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries",
+  "documentation_url": "https://www.aiotrf.com/en/ai/band-atlas/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3fc02325b4b1ddf73ddc3d12433e9f966193b251cfffe61bcf802da2b14395b7"
+  }
+}

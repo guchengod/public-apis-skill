@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/compressgif",
+  "name": "CompressGIF",
+  "category": "Photography",
+  "description": "Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls",
+  "documentation_url": "https://compressgif.net/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__COMPRESSGIF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fa77d3fa9c014493153048007df4412a29270e5ce748c18e6c4dbf8fd884806a"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/contextfetch",
+  "name": "ContextFetch",
+  "category": "Machine Learning",
+  "description": "Web search for AI agents, each result as Markdown pruned to the passages relevant to the query",
+  "documentation_url": "https://contextfetch.dev/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "808d07b29efd1cc2fd141202e24700efb4a3e1583755ecfd520dc7e618bf2a41"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "patent/patentref",
+  "name": "PatentRef",
+  "category": "Patent",
+  "description": "PatentsView-compatible API for US patent grants since 1976: claims, citations, CPC, fee status",
+  "documentation_url": "https://patentref.io/docs/?utm_source=publicapis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PATENT__PATENTREF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b081e8ad462f66fcf348becb8119da39fd50915fdcc4ce39a0424458b685a5b2"
+  }
+}

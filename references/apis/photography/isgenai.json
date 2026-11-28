@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/isgenai",
+  "name": "isGenAI",
+  "category": "Photography",
+  "description": "Check images, URLs and text for C2PA Content Credentials, AI labels and saved prompts",
+  "documentation_url": "https://isgenai.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0462223ca6b68aed7f94a9c79bdbf5755756d6edbe6a5f3cd24a94003f5119ca"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/bureau-of-labor-statistics",
+  "name": "Bureau of Labor Statistics",
+  "category": "Government",
+  "description": "US labor statistics: inflation, unemployment, wages and productivity",
+  "documentation_url": "https://www.bls.gov/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b099ba2d68ceb4a6789932db7b71c5deaf7447b43b72e19048d7859756422dba"
+  }
+}

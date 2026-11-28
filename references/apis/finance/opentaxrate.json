@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/opentaxrate",
+  "name": "OpenTaxRate",
+  "category": "Finance",
+  "description": "US sales tax rates by street address, from the states' own published data",
+  "documentation_url": "https://opentaxrate.com",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6d3efcda764be0f8f5e4e0e1012433dea6f7faea95fcc99b0967b652b02bbf34"
+  }
+}

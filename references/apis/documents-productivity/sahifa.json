@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/sahifa",
+  "name": "Sahifa",
+  "category": "Documents & Productivity",
+  "description": "HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier",
+  "documentation_url": "https://sahifa.dev/en/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__SAHIFA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8c76d85a848e721a820fefdd52aa252ce9a31ec40e8cf364545263300ad3c5e7"
+  }
+}

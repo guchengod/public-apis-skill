@@ -4,7 +4,7 @@
   "name": "Covalent",
   "category": "Blockchain",
   "description": "Multi-blockchain data aggregator platform",
-  "documentation_url": "https://www.covalenthq.com/docs/api/",
+  "documentation_url": "https://www.covalenthq.com/docs/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b72843f1fda64b13e46ecbd19ac9d8ad54be1334adbb7e3272476d47c1cb4e38"
+    "fingerprint": "b69364e773c99d419cbb27e75841aa6a9dfa64b9b1e0c78c4623e03422b476b1"
   }
 }

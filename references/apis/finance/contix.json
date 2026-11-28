@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/contix",
+  "name": "contix",
+  "category": "Finance",
+  "description": "Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums",
+  "documentation_url": "https://contix.es/api/#herramientas",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3900c28abb3961e4a91b2f3893fc69f75512e4e9e916af3174164fd5a76e7fff"
+  }
+}

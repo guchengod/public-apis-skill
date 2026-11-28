@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-code-by-lifestep",
+  "name": "QR Code by LifeStep",
+  "category": "Development",
+  "description": "Generate QR codes as PNG or SVG with size, border and color options",
+  "documentation_url": "https://qr.lifestep.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73580b4723262a262bf86e3473480a02bb6fa6bf2f1353b071f9ce9a28e233e8"
+  }
+}

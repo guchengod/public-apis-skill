@@ -4,7 +4,7 @@
   "name": "BigDataCloud",
   "category": "Geocoding",
   "description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area",
-  "documentation_url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+  "documentation_url": "https://www.bigdatacloud.com/docs",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "b76c9eb4d176240b97956bb5976ea450e45c764e660866a0a846dbfecd20cff1"
+    "fingerprint": "144bbe10ff482fbe5e0f42f4c0a6739f34f9ad61a0efd688c30c8d35dbd12d11"
   }
 }

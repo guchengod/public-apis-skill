@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "phone/areacodecheck",
+  "name": "AreaCodeCheck",
+  "category": "Phone",
+  "description": "Country and dialling code for any phone number, plus area code and timezone for +1 numbers",
+  "documentation_url": "https://areacodecheck.com/phone-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a47731fd8ca798b4670e8d61ff2c5d99dc8195112c4c6a63a795c0ee159e016d"
+  }
+}

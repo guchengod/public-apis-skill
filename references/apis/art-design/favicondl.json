@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/favicondl",
+  "name": "Favicondl",
+  "category": "Art & Design",
+  "description": "Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks",
+  "documentation_url": "https://favicondl.com/documentation.html",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d6c9155af63394b044d5d5975d7e0cd7a735f86a8998d82b99ecc6c41b267627"
+  }
+}

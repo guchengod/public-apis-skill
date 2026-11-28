@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/football-leagues",
+  "name": "Football Leagues",
+  "category": "Sports & Fitness",
+  "description": "Standings, fixtures, live scores, lineups and player stats for 11 European football competitions",
+  "documentation_url": "https://football-api.yuvron.online/reference",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__FOOTBALL_LEAGUES__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e97c663bde58506bbacdbcd06e3f03bf8736ac0e2c3038ab8476f3e0046f26e9"
+  }
+}

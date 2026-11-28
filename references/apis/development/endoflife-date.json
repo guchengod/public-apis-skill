@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/endoflife-date",
+  "name": "EndOfLife.date",
+  "category": "Development",
+  "description": "Software end-of-life dates and support lifecycles",
+  "documentation_url": "https://endoflife.date/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "699ed5e0caad7a89f3c3da5ff4228df355ab3e88538db2b5611ce19f2e128907"
+  }
+}

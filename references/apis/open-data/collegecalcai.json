@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/collegecalcai",
+  "name": "CollegeCalcAI",
+  "category": "Open Data",
+  "description": "US college admission chance estimates and admissions data for 1,100+ colleges",
+  "documentation_url": "https://collegecalcai.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "de75bc52ad9c389035ab63ec0bbab641a86220ca15ee1657d93d1ce14dcfd879"
+  }
+}

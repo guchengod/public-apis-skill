@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/galaxy-movies",
+  "name": "Galaxy Movies",
+  "category": "Video",
+  "description": "Daily arrivals and departures per US streaming service",
+  "documentation_url": "https://galaxymovies.app/api/streaming-changes?provider=netflix",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "426f2388de31ac66e5e48c67e09b9de45c2ef0d67c0f6d19eb23397e6962ceb8"
+  }
+}

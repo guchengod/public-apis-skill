@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/tradingaihub",
+  "name": "TradingAIHub",
+  "category": "Development",
+  "description": "Directory of finance and trading AI tools (MCP servers, agent skills, APIs), re-checked weekly",
+  "documentation_url": "https://tradingaihub.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0a48b0e47ca1773b56f36c655eaeb57715767b1b8c2c4b94abf02ea4debfa8a4"
+  }
+}

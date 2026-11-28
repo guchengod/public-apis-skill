@@ -4,7 +4,7 @@
   "name": "Coinlib",
   "category": "Cryptocurrency",
   "description": "Crypto Currency Prices",
-  "documentation_url": "https://coinlib.io/apidocs",
+  "documentation_url": "https://coinlib.io/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "40671f4f5bf2ac99685ff28279f23af6cab47927834478dc4a92143a187be9a3"
+    "fingerprint": "ada4109cb42e33e865f23e9a55aa8ef57043fb52b3b983e95791fa8e3ab3fd79"
   }
 }

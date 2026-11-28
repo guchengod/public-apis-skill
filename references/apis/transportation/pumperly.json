@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/pumperly",
+  "name": "Pumperly",
+  "category": "Transportation",
+  "description": "Fuel prices and EV chargers near a point, in a map area or along a route, as GeoJSON",
+  "documentation_url": "https://geiserx.github.io/Pumperly/reference/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c77113b234feac9a56d0f006ddbb75eb7ad3f76679a7e614007e595aef44d4ee"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/miconvert",
+  "name": "MiConvert",
+  "category": "Documents & Productivity",
+  "description": "File conversion for 140+ formats incl. 3D/CAD (STEP, IGES, STL), OFD to PDF and WEM; free tier",
+  "documentation_url": "https://miconvert.com/en/api-docs#marketplace",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__MICONVERT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f10ccc57cf217c10d602b59dcff037dfbdd16b9aae76dd174f17703d9048f872"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/the-coin-analysis",
+  "name": "The Coin Analysis",
+  "category": "Cryptocurrency",
+  "description": "Live and historical cryptocurrency prices, market caps, volatility and drawdown",
+  "documentation_url": "https://www.thecoinanalysis.com/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__THE_COIN_ANALYSIS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ad009e7f7f19d6c5e36ec0b9b51c2bfc4dee860f428b99b510c07fb2952e150d"
+  }
+}

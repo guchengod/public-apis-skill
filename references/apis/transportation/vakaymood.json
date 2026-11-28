@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/vakaymood",
+  "name": "VakayMood",
+  "category": "Transportation",
+  "description": "Live timeshare resort rental inventory: stay dates, nightly rates, resort fees and booking URLs",
+  "documentation_url": "https://vakaymood.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2214cac8c206e936139f60e7d5c90b95e2326e6983423e231eb0939fe9fee557"
+  }
+}

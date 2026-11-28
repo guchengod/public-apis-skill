@@ -4,7 +4,7 @@
   "name": "Klarna",
   "category": "Finance",
   "description": "Klarna payment and shopping service",
-  "documentation_url": "https://docs.klarna.com/klarna-payments/api/payments-api/",
+  "documentation_url": "https://docs.klarna.com/klarna-payments/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "d1f43d1cec0391c3784c7b26891c91047732e3af26ee3a98ae3bab82ce6bcb84"
+    "fingerprint": "af215d309ae5ac36c6019ca608a5deb38753ccf8f4407987fc1db27b24271fab"
   }
 }

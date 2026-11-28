@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/paint-color-hq",
+  "name": "Paint Color HQ",
+  "category": "Art & Design",
+  "description": "Closest real paint colors across 13 brands for any hex value, scored with CIEDE2000",
+  "documentation_url": "https://www.paintcolorhq.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "16173f3f581f8387da6c8fbac3d9699bbdd42d4784b1b62063cf1ecdb3bd16a1"
+  }
+}

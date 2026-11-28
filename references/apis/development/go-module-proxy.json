@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/go-module-proxy",
+  "name": "Go Module Proxy",
+  "category": "Development",
+  "description": "Go module versions and source metadata",
+  "documentation_url": "https://go.dev/ref/mod#goproxy-protocol",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "32d32fdbdee4c1b3a8bd714ee3606a7b2fc6c523201d4d1dae9c1c81558c9abf"
+  }
+}

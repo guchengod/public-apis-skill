@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/crates-io",
+  "name": "crates.io",
+  "category": "Development",
+  "description": "Rust crate versions, downloads and dependency metadata",
+  "documentation_url": "https://crates.io/data-access",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "61765d8c49113a2c258beb2155217388c7d54857413515e7e5bfaa5f686a4ee5"
+  }
+}

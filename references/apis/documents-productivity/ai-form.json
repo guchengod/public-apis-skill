@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/ai-form",
+  "name": "AI Form",
+  "category": "Documents & Productivity",
+  "description": "Create forms, share a link and read responses as JSON or CSV",
+  "documentation_url": "https://aiformapi.com/docs/quickstart",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__AI_FORM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1c8c4406e62216b7918a4969fd3033280249326980dfe6d40a854d6bc4f2016e"
+  }
+}

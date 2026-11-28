@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "video/scalereach",
+  "name": "ScaleReach",
+  "category": "Video",
+  "description": "Turn long videos into short vertical clips with AI captions and face-tracking crop",
+  "documentation_url": "https://docs.scalereach.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VIDEO__SCALEREACH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f026b2e8e226cf50d2c28c4be0806ef64992450b62ba5a500fd1725759219899"
+  }
+}

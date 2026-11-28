@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/freeqrly",
+  "name": "FreeQrly",
+  "category": "Development",
+  "description": "Generate static QR codes (URL, WiFi, vCard, text, geo) as SVG or PNG. Free, no API key",
+  "documentation_url": "https://freeqrly.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "addb623ba19c2cfa43ed83281a4274e5d05a817358e8d5a4852e7cd1206ec3b8"
+  }
+}

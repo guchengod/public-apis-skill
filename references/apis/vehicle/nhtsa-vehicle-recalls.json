@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/nhtsa-vehicle-recalls",
+  "name": "NHTSA Vehicle Recalls",
+  "category": "Vehicle",
+  "description": "NHTSA safety recalls by model year, make and model with component, consequence and remedy",
+  "documentation_url": "https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__VEHICLE__NHTSA_VEHICLE_RECALLS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "77fe97dbe3be82d0c3c989e3f50e07af396fc382fd9cc481735087bde3de0278"
+  }
+}

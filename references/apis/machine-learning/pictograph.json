@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/pictograph",
+  "name": "Pictograph",
+  "category": "Machine Learning",
+  "description": "Train custom vision models and run them as real-time detection endpoints, with a free tier",
+  "documentation_url": "https://pictograph.io/docs/api-reference",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__PICTOGRAPH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a6e9e3cdb8aae4f51e0e79b90ab7c55a70e3e77cec44bc11227f719aef15a0f1"
+  }
+}

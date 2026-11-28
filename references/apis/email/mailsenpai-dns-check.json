@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/mailsenpai-dns-check",
+  "name": "MailSenpai DNS Check",
+  "category": "Email",
+  "description": "Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish",
+  "documentation_url": "https://en.mailsenpai.com/dns-check-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6864a23f4fe1e5e74860a1e48b62f32b677f2c8815cca2a5cd3aff5a6926bfc7"
+  }
+}

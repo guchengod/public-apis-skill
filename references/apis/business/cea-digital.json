@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/cea-digital",
+  "name": "CEA Digital",
+  "category": "Business",
+  "description": "Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits",
+  "documentation_url": "https://ceadigital.io/tools",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__CEA_DIGITAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "eaeb95ffab53df2b0df27cbd5a08c205770bad5e3ad7ab8d8967b15e7d861dcf"
+  }
+}

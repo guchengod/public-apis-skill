@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/sports-jedi",
+  "name": "Sports Jedi",
+  "category": "Sports & Fitness",
+  "description": "Model picks, confidence scores, win probabilities and parlay scoring for NFL, NCAAF, NBA and MLB",
+  "documentation_url": "https://api.sportsjedi.com/v1/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__SPORTS_JEDI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7f692ccb5e309909f4a099acd7c5eafd347f70e1f3c1f4f1f242abc8d5280976"
+  }
+}

@@ -4,7 +4,7 @@
   "name": "Sendinblue",
   "category": "Email",
   "description": "A service that provides solutions relating to marketing and/or transactional email and/or SMS",
-  "documentation_url": "https://developers.sendinblue.com/docs",
+  "documentation_url": "https://developers.brevo.com/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "d51be44aaaf464a6a81796af576495690310508b9d641fd6633fc932de46711a"
+    "fingerprint": "832fc899b1c9ed11ad1fac209690b5b117c6540c3258e7f266523b064d6fe459"
   }
 }

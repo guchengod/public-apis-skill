@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/agentisend",
+  "name": "AgentiSend",
+  "category": "Email",
+  "description": "Transactional email API for apps, with per-key send budgets and a kill switch for AI agents",
+  "documentation_url": "https://agentisend.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__AGENTISEND__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f7d2f4dcb1c7c0a254f2348acb39a9495264db011dc21b584d0f7635c7babe6d"
+  }
+}

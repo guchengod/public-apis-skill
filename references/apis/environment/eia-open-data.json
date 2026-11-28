@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "environment/eia-open-data",
+  "name": "EIA Open Data",
+  "category": "Environment",
+  "description": "US energy statistics: electricity, petroleum, gas",
+  "documentation_url": "https://www.eia.gov/opendata/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__ENVIRONMENT__EIA_OPEN_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e958dd32d252d3a7b04b774bc3ffc9182c690b665c658997760641a521be591c"
+  }
+}

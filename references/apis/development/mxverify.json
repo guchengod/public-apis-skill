@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/mxverify",
+  "name": "mxverify",
+  "category": "Development",
+  "description": "Dollar value of one followed backlink from any website, with the published model behind it",
+  "documentation_url": "https://bklink.uk/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__MXVERIFY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "583b998c40823ab82198411b265c5828496bb0a84b829bd946b424bfcea2c0af"
+  }
+}

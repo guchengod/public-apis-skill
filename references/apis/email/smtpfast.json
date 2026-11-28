@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/smtpfast",
+  "name": "SMTPfast",
+  "category": "Email",
+  "description": "Send transactional email, manage contacts and broadcasts, free 3,000 emails/month",
+  "documentation_url": "https://smtpfa.st/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__SMTPFAST__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c003f3290bdb7db82896fb2958635abb993b54918b520d99fb3e9025b1fd67f0"
+  }
+}

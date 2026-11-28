@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/vaultx",
+  "name": "VaultX",
+  "category": "Cryptocurrency",
+  "description": "Token scam/rug risk checks, whale trades, exchange rates for 3,000+ coins, AI outlook",
+  "documentation_url": "https://vaultx.llc/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "caa6622864fd3154101c77977a57aa0a3665e58c163952852c2c4ed69c695849"
+  }
+}

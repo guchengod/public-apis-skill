@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/rent-limits",
+  "name": "Rent Limits",
+  "category": "Government",
+  "description": "HUD Fair Market Rents by US ZIP; paid tiers add tax-credit and Section 8 limits",
+  "documentation_url": "https://glazeddata.com/rent-limits/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__RENT_LIMITS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "297d04d84bcb3a9f302f1f21fb99a1fe7c5b01aac15af26f87d4f90789a8a2ae"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/pinnfeed",
+  "name": "PinnFeed",
+  "category": "Sports & Fitness",
+  "description": "Real-time Pinnacle odds over REST and WebSocket, with no-vig prices, drops and closing lines",
+  "documentation_url": "https://pinnfeed.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__PINNFEED__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9dfc5c43aac4efabcc6e803133c1ba4abe6d3bfbaf138a07322bcf2a1e0935a7"
+  }
+}

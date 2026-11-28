@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/google-pagespeed-insights",
+  "name": "Google PageSpeed Insights",
+  "category": "Development",
+  "description": "Website performance and Lighthouse audit scores",
+  "documentation_url": "https://developers.google.com/speed/docs/insights/v5/get-started",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__GOOGLE_PAGESPEED_INSIGHTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1706d56c971ef04952bffd02db3393837141ad651f7ac87f61bd4b7a148740f6"
+  }
+}

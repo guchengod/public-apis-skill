@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/sthan-io-reverse-geocoding",
+  "name": "sthan.io Reverse Geocoding",
+  "category": "Geocoding",
+  "description": "Convert latitude and longitude to the nearest US street address",
+  "documentation_url": "https://sthan.io/products/reverse-geocoding-usa",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__STHAN_IO_REVERSE_GEOCODING__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2d0f103df68ba0d777e5307f892d9379b88dd1d63d6d441fd2f41f64fb637adc"
+  }
+}

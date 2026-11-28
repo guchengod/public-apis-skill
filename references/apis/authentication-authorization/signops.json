@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "authentication-authorization/signops",
+  "name": "SignOps",
+  "category": "Authentication & Authorization",
+  "description": "Push notifications, login approval, passkeys, authenticator codes and email OTP on one API key",
+  "documentation_url": "https://signops.dev/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__AUTHENTICATION_AUTHORIZATION__SIGNOPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e024389a010f528da91ef42dcd9db0d613fd98755c0b943152a157c44c88f61d"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/eu-vat-rates-by-commodity-code",
+  "name": "EU VAT Rates by Commodity Code",
+  "category": "Government",
+  "description": "EU VAT rates mapped to CN and CPA commodity codes, all 27 member states",
+  "documentation_url": "https://github.com/humora2504/eu-vat-by-commodity-code",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0b68c8c7206147c6231b931860628be1ffe61729ca2e92e0429e3d7761bf55f6"
+  }
+}

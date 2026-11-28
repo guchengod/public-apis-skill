@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/ai-sense",
+  "name": "AI SENSE",
+  "category": "Development",
+  "description": "Utility endpoints: time, hashing, encoding, QR, JSON, images, webhooks, temporary storage",
+  "documentation_url": "https://aisense.no/free-public-apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b7d9e3a6a7e6675967e73be99a366df2bda7eb537a2be05850fb66b3c76ebfec"
+  }
+}

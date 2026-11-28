@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/vetto",
+  "name": "Vetto",
+  "category": "Email",
+  "description": "Check email domains in bulk for disposable providers and dead domains, no key needed",
+  "documentation_url": "https://usevetto.com/docs#domain-lookup",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e042e3edea5f11f0b33f266365337afa221db58e25c544e54d7b6627845408e2"
+  }
+}

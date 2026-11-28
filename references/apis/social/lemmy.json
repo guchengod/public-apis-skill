@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/lemmy",
+  "name": "Lemmy",
+  "category": "Social",
+  "description": "Federated link aggregator and forum; read posts, comments and communities on any instance",
+  "documentation_url": "https://join-lemmy.org/api/main",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ce9ce0d5a396039c6abe37e23f559409adb391094b7a546a19062c587a66a67e"
+  }
+}

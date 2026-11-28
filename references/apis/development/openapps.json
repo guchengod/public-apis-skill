@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/openapps",
+  "name": "OpenApps",
+  "category": "Development",
+  "description": "Rankings, launches and featuring across the ChatGPT, Claude, Cursor and Grok Bot app stores",
+  "documentation_url": "https://theopenapps.com/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "880381bd5a8493ab54ab3040a36098b81b6880cb7920aeffcf24d8b002cb7b52"
+  }
+}

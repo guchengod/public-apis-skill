@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/the-drive-ai",
+  "name": "The Drive AI",
+  "category": "Documents & Productivity",
+  "description": "Extract and analyze data from 107+ file types and URLs into structured JSON, with a free tier",
+  "documentation_url": "https://dev.thedrive.ai/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__THE_DRIVE_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f441b21d5f9c38daf5ca3900950eed475d729ce112b36f836c2703f9e15a8c6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/fynepdf",
+  "name": "FynePDF",
+  "category": "Documents & Productivity",
+  "description": "Compress, convert, OCR, redact, merge, split and generate PDFs, and read them with AI",
+  "documentation_url": "https://fynepdf.com/developers/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__FYNEPDF__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "252f5d8d2da74693ed0d42efa14041f5fa3de0c63e0cfef724805a0f4b2173c9"
+  }
+}

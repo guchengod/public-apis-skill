@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/aurastream",
+  "name": "AuraStream",
+  "category": "Finance",
+  "description": "Crypto, FX, macro, COT, SEC filings and alt data from 47 sources through one endpoint and one schema",
+  "documentation_url": "https://aurastream.unbiased-alpha.com/docs/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__AURASTREAM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2392eb3e3f813714afc81dc97dcfdaecc1620ccc2d95efb7bfeab77ff5923c92"
+  }
+}

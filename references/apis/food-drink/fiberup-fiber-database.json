@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "food-drink/fiberup-fiber-database",
+  "name": "FiberUp Fiber Database",
+  "category": "Food & Drink",
+  "description": "Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common foods",
+  "documentation_url": "https://fiberup.app/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c96d212cae31d1f0bbabd8701457fb2c90559c61bfd7a3ebee2a6266514ec5fa"
+  }
+}

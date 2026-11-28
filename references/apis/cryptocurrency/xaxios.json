@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/xaxios",
+  "name": "xAxios",
+  "category": "Cryptocurrency",
+  "description": "Live Solana and Robinhood Chain token prices, trades and launches over a public WebSocket",
+  "documentation_url": "https://xaxios.com/docs/stream",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6f4921b76daa87273ae81976022ecec6afb8cbce8d50dda89a79713d6d1c82bc"
+  }
+}

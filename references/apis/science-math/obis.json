@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/obis",
+  "name": "OBIS",
+  "category": "Science & Math",
+  "description": "Global marine species occurrence and distribution data",
+  "documentation_url": "https://manual.obis.org/access",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2e93bba302c06a68829203cb1fc21e7a1afeb5e23eb2089296a68d526b84444c"
+  }
+}

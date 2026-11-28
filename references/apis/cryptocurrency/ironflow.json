@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/ironflow",
+  "name": "Ironflow",
+  "category": "Cryptocurrency",
+  "description": "Hyperliquid trades, liquidations, candles, funding and wallet data, plus SQL; no key to start",
+  "documentation_url": "https://docs.ironflow.sh",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "41004c1517aa98c89ed24ba513fde6b9a25acd6a67f731410b14219f122e9973"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/3dtexel",
+  "name": "3DTexel",
+  "category": "Art & Design",
+  "description": "Search free CC0 PBR materials, HDRIs, decals and 3D models for games",
+  "documentation_url": "https://3dtexel.com/developers/#public-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c2ae24850e8c9f9d8de0772113e840dd78cdd3fbe170f575f324abb58f25b418"
+  }
+}

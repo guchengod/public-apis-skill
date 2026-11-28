@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/banipool",
+  "name": "BaniPool",
+  "category": "Cryptocurrency",
+  "description": "Multichain DEX liquidity pools (Uniswap, Aerodrome, Orca, Raydium) with TVL, volume and fee APR",
+  "documentation_url": "https://banipool.com/docs/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "635bf5f2f88749f26e4c13e9e66b960d29a8c9f0b7aec154023c4270908d3f8f"
+  }
+}

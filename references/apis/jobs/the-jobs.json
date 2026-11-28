@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/the-jobs",
+  "name": "The Jobs",
+  "category": "Jobs",
+  "description": "US and Canada employer jobs, search and change feeds; 250 free records per month",
+  "documentation_url": "https://rapidapi.com/thejobsapi/api/the-jobs-api-us-canada-job-search",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__THE_JOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "333e95e1dea008a7246af18988e4261e1aaf7468c6eaf1264d78eea33d8994dc"
+  }
+}

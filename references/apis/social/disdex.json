@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "social/disdex",
+  "name": "disdex",
+  "category": "Social",
+  "description": "Search public Discord servers by name, language, guild tag and size, with member history",
+  "documentation_url": "https://disdex.io/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "108e745ccc017e5ad3ce1de9d92b34d1ddbfb6b57f6f6d91fa571d1a646f9280"
+  }
+}

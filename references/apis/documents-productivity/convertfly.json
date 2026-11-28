@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/convertfly",
+  "name": "ConvertFly",
+  "category": "Documents & Productivity",
+  "description": "Convert documents, images, audio, video, ebooks and archives between formats",
+  "documentation_url": "https://convertfly.io/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CONVERTFLY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e7fbc7e486728e7c1e66c1bb647c470201c4f945a452677aec9ab425722d25b0"
+  }
+}

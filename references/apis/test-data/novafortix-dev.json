@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "test-data/novafortix-dev",
+  "name": "NovaFortix Dev",
+  "category": "Test Data",
+  "description": "Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes",
+  "documentation_url": "https://public-dev-apis.surge.sh",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7e6956c06896b7936861bb6216a8cdc7e52826fd46c2663e5bc15adbe31a384b"
+  }
+}

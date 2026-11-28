@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/close-knit",
+  "name": "Close Knit",
+  "category": "Open Data",
+  "description": "Neighbourhoods and homes in London and England: sale prices, rents, crime, schools, flood risk",
+  "documentation_url": "https://getcloseknit.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8cc5a0900ee1b2944d1e3a104ad568f98e3e854acd1ad097d36b8562d3723c60"
+  }
+}

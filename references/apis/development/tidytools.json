@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/tidytools",
+  "name": "TidyTools",
+  "category": "Development",
+  "description": "Web page to clean Markdown and AI crawler robots.txt checks, free without a key (rate limited)",
+  "documentation_url": "https://tools.yukai.uk/llms.txt",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d4d57418b85a7147dbd087f4bc02d90c8630324d1520578d2c2c38d7c0963056"
+  }
+}

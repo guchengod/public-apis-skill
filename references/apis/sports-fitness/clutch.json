@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/clutch",
+  "name": "Clutch",
+  "category": "Sports & Fitness",
+  "description": "Pregame NBA win probabilities for every game, graded after the final, as JSON and CSV",
+  "documentation_url": "https://clutchledger.com/data/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "525ff8f02a760055ac529d79ae27ecb077b6679547536ad2d1ca7d2a28c59750"
+  }
+}

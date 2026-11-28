@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "photography/kavel",
+  "name": "Kavel",
+  "category": "Photography",
+  "description": "Generate and edit images with AI, no key or account required",
+  "documentation_url": "https://kavel.readthedocs.io/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "60752614e0d784a4128a8f871c6c5fbf34d3d34efae904e275cf7598dec9062d"
+  }
+}

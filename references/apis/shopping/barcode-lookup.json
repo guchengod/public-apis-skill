@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/barcode-lookup",
+  "name": "Barcode Lookup",
+  "category": "Shopping",
+  "description": "Product name, brand, ingredients, Nutri-Score and nutrition for 4.3M EAN, UPC and GTIN barcodes",
+  "documentation_url": "https://dataandapis.com/apis/barcode-lookup",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__BARCODE_LOOKUP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "85578d50b108fa92c56f4201fd44870e535fd38e2b9378a053b286abef5e5b28"
+  }
+}

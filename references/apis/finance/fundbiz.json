@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/fundbiz",
+  "name": "FundBiz",
+  "category": "Finance",
+  "description": "UK specialty business finance lender terms, typical rates and decision times",
+  "documentation_url": "https://fundbiz.co.uk/data/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bc43458ac491880c408664cda70343aecfddee1fc7e9d13adc3b88fa399a6094"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/soldsignal",
+  "name": "SoldSignal",
+  "category": "Shopping",
+  "description": "Weekly resale prices for sneakers, consoles and watches with sample size and fees",
+  "documentation_url": "https://www.aiplannermail.com/free-resale-price-api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "fe267367d8d6368344bc3621a4288435d786336f2c6eac1dfd55b767bb3c25b0"
+  }
+}

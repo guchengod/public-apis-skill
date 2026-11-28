@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/crawlbrulee",
+  "name": "crawlbrulee",
+  "category": "Development",
+  "description": "EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots and more",
+  "documentation_url": "https://crawlbrulee.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__CRAWLBRULEE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1d7f6aab50694190f8cd8564f328ae9641f5eb8c6b0ec3cc10e97adcade6e52c"
+  }
+}

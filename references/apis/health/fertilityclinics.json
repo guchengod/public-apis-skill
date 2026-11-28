@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "health/fertilityclinics",
+  "name": "FertilityClinics",
+  "category": "Health",
+  "description": "US fertility and IVF clinics built from CDC public data",
+  "documentation_url": "https://fertilityclinics.fyi/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d2a3e90d73467518065eb4f64792c0876122eb4c008c62004bda82c41e2dc743"
+  }
+}

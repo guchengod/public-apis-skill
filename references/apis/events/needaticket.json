@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "events/needaticket",
+  "name": "NeedATicket",
+  "category": "Events",
+  "description": "UK and US resale ticket prices from StubHub",
+  "documentation_url": "https://needaticket.co.uk/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "95056d67adf7522774beb0dfca26dbba1dff33f0d90bd3626af9087f2ee2b501"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinmico",
+  "name": "Coinmico",
+  "category": "Cryptocurrency",
+  "description": "Crypto prices, volume and liquidity measured from real trades on 50+ exchanges and DEXs",
+  "documentation_url": "https://docs.coinmico.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__COINMICO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13d85a7bc87a509b1f9fd8a42adfe935d2a92a8ba095b03d7d9bab21e3ca698b"
+  }
+}

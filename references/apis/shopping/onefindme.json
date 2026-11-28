@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/onefindme",
+  "name": "OneFindMe",
+  "category": "Shopping",
+  "description": "Search AliExpress in any language: price, rating and orders for the delivery country",
+  "documentation_url": "https://onefindme.com/mcp",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8143d73bdcca5f3c3f2751baabd4ec1a959989a17fa11a9dcf78514b46e84b83"
+  }
+}

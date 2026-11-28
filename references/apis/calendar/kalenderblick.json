@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/kalenderblick",
+  "name": "Kalenderblick",
+  "category": "Calendar",
+  "description": "Public holidays and school holidays for Germany, Austria and Switzerland as static JSON",
+  "documentation_url": "https://kalenderblick.de/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "34b5a1b7d3ee422a3faa4a01128742209e719c067ace2647908610eaec634c67"
+  }
+}

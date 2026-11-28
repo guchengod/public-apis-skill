@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/suprsend",
+  "name": "SuprSend",
+  "category": "Development",
+  "description": "Multi-channel notifications: workflows, templates and preferences for email, SMS, push and in-app",
+  "documentation_url": "https://docs.suprsend.com/reference/overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SUPRSEND__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e2f5f73e9c34b42348cfa296dce6f5c7e4f6e236946410af97595b3d3d835ae9"
+  }
+}

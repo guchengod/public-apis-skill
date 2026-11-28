@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/allscreenshots",
+  "name": "Allscreenshots",
+  "category": "Development",
+  "description": "Website screenshots and PDFs with full-page capture, dark mode and ad blocking",
+  "documentation_url": "https://allscreenshots.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__ALLSCREENSHOTS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e9d2754fd4ad754decced7349944c6e82e8d0cad71f14b391b262d6ab31f965e"
+  }
+}

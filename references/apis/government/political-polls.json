@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/political-polls",
+  "name": "Political Polls",
+  "category": "Government",
+  "description": "Election vote-intention polls and averages by country, each poll with its release link",
+  "documentation_url": "https://pushbuild.com/apis/political-polls.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__POLITICAL_POLLS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0acc4c0b97f4872fee1c5889e3b298d35517b999042c93cedf671f2573620253"
+  }
+}

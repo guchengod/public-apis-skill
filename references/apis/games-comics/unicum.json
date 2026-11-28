@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/unicum",
+  "name": "Unicum",
+  "category": "Games & Comics",
+  "description": "World of Tanks player, clan and tank stats, ratings and leaderboards for EU, NA and Asia",
+  "documentation_url": "https://unicum.gg/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8b2e106b94354912e2eda33358bf8711bdd00c8946766e32597abd537f5a4f83"
+  }
+}

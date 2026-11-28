@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/ats-jobs",
+  "name": "ATS Jobs",
+  "category": "Jobs",
+  "description": "Open jobs from a company's Greenhouse, Lever, Ashby or SmartRecruiters board in one schema",
+  "documentation_url": "https://rapidapi.com/fikrimarhan/api/ats-jobs-api4",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__ATS_JOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7481f2c90c8aeada46276e16cae7f9f9226ff05390b8abba2bb5927be973a3d6"
+  }
+}

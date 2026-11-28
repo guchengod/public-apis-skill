@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/the-networkery",
+  "name": "The Networkery",
+  "category": "Development",
+  "description": "DNS, email authentication, TLS, BGP/RPKI, WHOIS and subnet checks with plain-English findings",
+  "documentation_url": "https://thenetworkery.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f8eb7e2ba8b590d52bdea372907f403650d180f823cd5f4025acc390f86bf50"
+  }
+}

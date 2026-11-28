@@ -4,7 +4,7 @@
   "name": "MangaDex",
   "category": "Anime",
   "description": "Manga Database and Community",
-  "documentation_url": "https://api.mangadex.org/docs.html",
+  "documentation_url": "https://api.mangadex.org/docs/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "02cde13e51aeab6dd1029f8c36c199ac2d246bc9caa0d5ac61f187e5944e4668"
+    "fingerprint": "e828ab621b948c60a35dba93aa53e1b1460656b2787582ad44465a9ec5f4376b"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/turkpidya",
+  "name": "Turkpidya",
+  "category": "Open Data",
+  "description": "Türkiye data: gold prices, lira rates, earthquakes, prayer times, fuel, duty pharmacies",
+  "documentation_url": "https://turkpidya.com/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "20a7ca4bddc71c7ede4531512c48fe4ff17c8ab2851be4fcc67ba8c88ed8958f"
+  }
+}

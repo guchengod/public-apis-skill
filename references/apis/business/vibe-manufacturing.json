@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/vibe-manufacturing",
+  "name": "Vibe Manufacturing",
+  "category": "Business",
+  "description": "Manufacturer directory with supplier matching, cost estimates and prototype sourcing plans",
+  "documentation_url": "https://vibe-manufacturing.com/agents",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a809a3af978d0b503111595e4856c0409cf832dc60d88d137277e90d0ce89148"
+  }
+}

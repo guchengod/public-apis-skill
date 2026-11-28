@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "entertainment/memeidea",
+  "name": "memeidea",
+  "category": "Entertainment",
+  "description": "Meme trend scoreboards: lifecycle stage, momentum, trending and new templates",
+  "documentation_url": "https://memeidea.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7d6ce90a7e892d171430318062d14b6d48293cd45dfff55e994bcfe4d7c89145"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/quelllm",
+  "name": "QuelLLM",
+  "category": "Machine Learning",
+  "description": "Open-weight language model catalogue with memory requirements and installation metadata",
+  "documentation_url": "https://quelllm.fr/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d485b3fe858f9e1283c055e76f06702ee1df1254794a5d9efa3b90704ae7cef0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/votepredictor",
+  "name": "VotePredictor",
+  "category": "Government",
+  "description": "US election forecasts, congressional voting records and forecaster accuracy ratings",
+  "documentation_url": "https://votepredictor.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b92d7bfb48b7057a561a2e7326abe4cc9fee2819ee0b881fe66df2efb423969f"
+  }
+}

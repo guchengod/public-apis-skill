@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "weather/fmi-open-data",
+  "name": "FMI Open Data",
+  "category": "Weather",
+  "description": "Finnish weather, sea, climate and radar observations via open WFS",
+  "documentation_url": "https://en.ilmatieteenlaitos.fi/open-data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c1f79d5fb29155abf6a094ce15b890c8725d0f0d166fb747d789e515b154b0a"
+  }
+}

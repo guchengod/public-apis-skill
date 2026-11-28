@@ -1,11 +1,12 @@
 # Tracking
 
-11 interfaces. Paths are relative to this catalog file.
+12 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | Aftership | apiKey | yes | yes | [`tracking/aftership`](../apis/tracking/aftership.json) |
 | Correios | apiKey | yes | unknown | [`tracking/correios`](../apis/tracking/correios.json) |
+| lastscanned | apiKey | yes | no | [`tracking/lastscanned`](../apis/tracking/lastscanned.json) |
 | Mapbox | apiKey | yes | unknown | [`tracking/mapbox`](../apis/tracking/mapbox.json) |
 | Pixela | X-Mashape-Key | yes | yes | [`tracking/pixela`](../apis/tracking/pixela.json) |
 | PostalPinCode | No | yes | unknown | [`tracking/postalpincode`](../apis/tracking/postalpincode.json) |

@@ -1,6 +1,6 @@
 # Programming
 
-5 interfaces. Paths are relative to this catalog file.
+7 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -8,4 +8,6 @@
 | Hackerearth | apiKey | yes | unknown | [`programming/hackerearth`](../apis/programming/hackerearth.json) |
 | Judge0 CE | apiKey | yes | unknown | [`programming/judge0-ce`](../apis/programming/judge0-ce.json) |
 | KONTESTS | No | yes | unknown | [`programming/kontests`](../apis/programming/kontests.json) |
+| LeekCF Hinter | No | yes | yes | [`programming/leekcf-hinter`](../apis/programming/leekcf-hinter.json) |
 | Mintlify | apiKey | yes | yes | [`programming/mintlify`](../apis/programming/mintlify.json) |
+| OnlineCompiler | apiKey | yes | no | [`programming/onlinecompiler`](../apis/programming/onlinecompiler.json) |

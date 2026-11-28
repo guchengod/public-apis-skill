@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/nansen",
+  "name": "Nansen",
+  "category": "Cryptocurrency",
+  "description": "Labeled wallets, Smart Money flows, token holders and flows, wallet PnL, perps and Polymarket data",
+  "documentation_url": "https://docs.nansen.ai/api/overview",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__NANSEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5c3db4c9dfebd3346c3d3920d9a3f716db2cf56e196cdb77b5e5c2150b63794e"
+  }
+}

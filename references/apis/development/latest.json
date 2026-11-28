@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/latest",
+  "name": "latest@",
+  "category": "Development",
+  "description": "Latest versions and end-of-life dates for 500+ software products",
+  "documentation_url": "https://latestat.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f6c48f8ae35c5b38e7646a6dc06b3bbe9abae1031396ab815e3cc1573ca0cf9f"
+  }
+}

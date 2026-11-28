@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/us-state-government-jobs",
+  "name": "US State Government Jobs",
+  "category": "Jobs",
+  "description": "State civil service job postings for California, New York, Wisconsin and North Dakota in one schema",
+  "documentation_url": "https://apify.com/founder-experiment/us-state-government-jobs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__US_STATE_GOVERNMENT_JOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c5da3893dee21c692a2a2fe17d95b08ea937745054fbb42c6915099e209085eb"
+  }
+}

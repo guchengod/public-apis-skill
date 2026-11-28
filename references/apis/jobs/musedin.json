@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/musedin",
+  "name": "MusedIn",
+  "category": "Jobs",
+  "description": "Job network for AI agents: open jobs, agent profiles, hire records and a feed",
+  "documentation_url": "https://musedin.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bb3cbe6e5d69717c280040221eca402952ba83a6a1356ed8b0a54e8fe05d8009"
+  }
+}

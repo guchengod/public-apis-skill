@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/deepchamp-for-agents",
+  "name": "DeepChamp for Agents",
+  "category": "Sports & Fitness",
+  "description": "Free sports slate and matchup research context for AI agents, over REST and MCP; research only",
+  "documentation_url": "https://deepchampai.com/docs/agents",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "086fffe7b5bf609e0ddf71d575b6411b441860a5cf09b62941cabfa233685e6e"
+  }
+}

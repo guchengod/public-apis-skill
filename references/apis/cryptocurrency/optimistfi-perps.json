@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/optimistfi-perps",
+  "name": "OptimistFi Perps",
+  "category": "Cryptocurrency",
+  "description": "Funding, open interest, prices and leverage caps for perps on 40+ venues, in one schema",
+  "documentation_url": "https://optimistfi.com/perps/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3f8042f57df19368e849570cf3203592d1d987a5faf2296cb695b606132cd74f"
+  }
+}

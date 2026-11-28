@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/emboss",
+  "name": "Emboss",
+  "category": "Documents & Productivity",
+  "description": "Make PDF forms fillable, fill them from JSON or documents, and read filled forms back",
+  "documentation_url": "https://getemboss.ai/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__EMBOSS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a6c22b0065e801c5bfb51154d0da5527d36e2a0448147523ec22cbc926e7a5e0"
+  }
+}

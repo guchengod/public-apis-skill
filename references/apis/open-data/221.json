@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/221",
+  "name": "221",
+  "category": "Open Data",
+  "description": "Senegal reference data: public holidays, mobile operators, banks, communes, legal forms",
+  "documentation_url": "https://221.orvlabs.com/documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4d94ffacc1017a8755128cf9f35927c047edcadab466eab484d959ad6807fd60"
+  }
+}

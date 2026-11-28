@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/toolalize",
+  "name": "Toolalize",
+  "category": "Science & Math",
+  "description": "Unit and live currency conversion with NIST SI factors, no key needed",
+  "documentation_url": "https://toolalize.com/openapi.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "465bc97d2abd49515c9113a008ffdf1914c2ca751a305e68225ef6fc1a04595d"
+  }
+}

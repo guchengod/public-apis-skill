@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/editpdf-tools",
+  "name": "EditPDF Tools",
+  "category": "Documents & Productivity",
+  "description": "Compress PDF files over HTTPS with 3 quality levels. Free tier: 30 files/month, up to 10 MB",
+  "documentation_url": "https://editpdf.tools/compress-pdf-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__EDITPDF_TOOLS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d39893d36096724c64575db9688fea47d78d3d2b37b1416e14a917546dab5733"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/chartbytes",
+  "name": "ChartBytes",
+  "category": "Development",
+  "description": "Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked)",
+  "documentation_url": "https://chartbytes.meridian-digital.pro",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "60c62e4fb77853ef18d858ed775fd9e913c70a148f3737c712ed85909b9aa4e3"
+  }
+}

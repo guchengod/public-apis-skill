@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/stadiq",
+  "name": "Stadiq",
+  "category": "Transportation",
+  "description": "Road works, transit disruptions and air quality for Antwerp and Flanders",
+  "documentation_url": "https://stadiq.app/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__STADIQ__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f787e9991d2c842e593148a98d8080e05c4fd6ffa5d7f34b4d0232bd6e5c0fad"
+  }
+}

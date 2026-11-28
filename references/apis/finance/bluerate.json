@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/bluerate",
+  "name": "bluerate",
+  "category": "Finance",
+  "description": "Licensed US mortgage loan officers by state, city, ZIP, loan type or language, with NMLS IDs",
+  "documentation_url": "https://www.bluerate.ai/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f112db037c8dccd7f1e5c06f067d1a8aceedb6c37f71126293e18832fd465178"
+  }
+}

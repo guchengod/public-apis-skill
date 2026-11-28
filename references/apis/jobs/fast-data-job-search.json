@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/fast-data-job-search",
+  "name": "Fast Data Job Search",
+  "category": "Jobs",
+  "description": "Jobs from Arbeitsagentur, Arbeitnow, Remote OK and company ATS boards as one deduplicated JSON list",
+  "documentation_url": "https://apify.com/fast_data_asap/job-search-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__FAST_DATA_JOB_SEARCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3dd1831d1b14dc6fd4a4395fcf638754f885ce5a6fbac3bae50f3cfd7aceeebc"
+  }
+}

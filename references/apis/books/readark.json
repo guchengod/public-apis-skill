@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/readark",
+  "name": "Readark",
+  "category": "Books",
+  "description": "Dark romance books with spice and darkness ratings, subgenres, tropes and authors",
+  "documentation_url": "https://readark.app/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d2df5f09bf56e3721f9fca54e408c7a9abf770b655ff7e41120567e52618586d"
+  }
+}

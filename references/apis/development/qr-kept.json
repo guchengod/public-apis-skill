@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qr-kept",
+  "name": "QR Kept",
+  "category": "Development",
+  "description": "Free QR code API: one GET request returns an SVG, no key or account",
+  "documentation_url": "https://qrkept.com/free-qr-code-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "407fb71c7d7bb2e3991ed90c70bb30d4f7d26c5d89ab205a16fe8c846db16764"
+  }
+}

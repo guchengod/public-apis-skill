@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/global-law",
+  "name": "Global law",
+  "category": "Government",
+  "description": "Legislation of 200+ countries as a dated history: find by citation, read as of a date, search",
+  "documentation_url": "https://lexifina.com/api/global-law",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__GLOBAL_LAW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "bd4ccfea50f61118145de219977018bae2fccb88fbaa7617c7610ad0aafafd69"
+  }
+}

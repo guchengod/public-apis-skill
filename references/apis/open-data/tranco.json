@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/tranco",
+  "name": "Tranco",
+  "category": "Open Data",
+  "description": "Research-oriented top sites ranking hardened against manipulation, with daily domain ranks",
+  "documentation_url": "https://tranco-list.eu/api_documentation",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "813569478df1537af1c5acbf93b695c2e292235156862c7d3ef12cf626dc4077"
+  }
+}

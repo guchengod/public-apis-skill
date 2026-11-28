@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/cruise-itinerary",
+  "name": "Cruise Itinerary",
+  "category": "Transportation",
+  "description": "Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index",
+  "documentation_url": "https://cruise-itinerary.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__CRUISE_ITINERARY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4af88f03d942304c8f6dfdb42eeedb403b19d7985def9738320434ce58a67684"
+  }
+}

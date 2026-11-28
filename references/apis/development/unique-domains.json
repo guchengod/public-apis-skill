@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/unique-domains",
+  "name": "Unique.domains",
+  "category": "Development",
+  "description": "Analyse any domain name in depth and search 34 million one-word names for the right one to buy",
+  "documentation_url": "https://unique.domains/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "17c1eafd05fe562609c424305daf25f4a925e9b254d4a6772522d96f94809775"
+  }
+}

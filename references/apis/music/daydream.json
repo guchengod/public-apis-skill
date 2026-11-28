@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "music/daydream",
+  "name": "Daydream",
+  "category": "Music",
+  "description": "Make instrumental songs with five stems from a description",
+  "documentation_url": "https://gen.daydream.live/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MUSIC__DAYDREAM__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c1f986e6e88c901d2456db48d07d102acd2e9685bf5d55f8c30f6c6afcf80ae5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "government/canada-service-map",
+  "name": "Canada Service Map",
+  "category": "Government",
+  "description": "Canadian public services, who handles them, official links and offices",
+  "documentation_url": "https://canadaservicemap.ca/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5a8154d666e024367be587ddec65334dd456e54ae5d5f156af169e36c44fb168"
+  }
+}

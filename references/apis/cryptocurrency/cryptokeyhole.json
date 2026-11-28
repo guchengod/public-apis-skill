@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptokeyhole",
+  "name": "CryptoKeyhole",
+  "category": "Cryptocurrency",
+  "description": "On-chain and market metrics for Bitcoin, Ethereum and more, computed from self-hosted nodes",
+  "documentation_url": "https://cryptokeyhole.com/data-access/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "df551fd5d5e3bb0e51aff9e45cc6f70eb2c2a3f7fd70a6850940acc893bbbde3"
+  }
+}

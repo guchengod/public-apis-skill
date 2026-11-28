@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/api-tool-calls",
+  "name": "API Tool Calls",
+  "category": "Development",
+  "description": "API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls",
+  "documentation_url": "https://apitoolcalls.com/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "89a99f5dcd7cd6e497d41b7081729d4f2a12a1907a1ff35bcf2d537f9cf22740"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/the-river",
+  "name": "The River",
+  "category": "Cryptocurrency",
+  "description": "Tokenized US stock prices across issuers on Base and Robinhood Chain, plus unsigned trade builds",
+  "documentation_url": "https://app.theriver.markets/docs?s=public-apis",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3d18a65761f08cc6fd97d4a7944c11c8e4e26241bcfc41dbf6c2bd7a91bdc025"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "email/sendraven",
+  "name": "SendRaven",
+  "category": "Email",
+  "description": "Email for AI agents: send email, receive replies as threads, with per-key send limits and approvals",
+  "documentation_url": "https://sendraven.ai/docs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EMAIL__SENDRAVEN__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ebf0e7360e5e6f2be7f008c9d18adba14001f5e65fca7ab366a4c8ad4d55be9f"
+  }
+}

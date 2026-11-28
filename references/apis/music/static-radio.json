@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "music/static-radio",
+  "name": "Static Radio",
+  "category": "Music",
+  "description": "Live schedule and listener counts for nine radio stations of independent podcasts",
+  "documentation_url": "https://staticradio.app/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "83eb738cd51330c001b9578d388f0b3c7876d46ce53357521d190f5806c013aa"
+  }
+}

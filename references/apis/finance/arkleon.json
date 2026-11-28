@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/arkleon",
+  "name": "Arkleon",
+  "category": "Finance",
+  "description": "Point-in-time SEC EDGAR fundamentals over /v1",
+  "documentation_url": "https://arkleon.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__ARKLEON__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "01988e40e3507129d2ba303917e3a5bdeb08e6305ba3a57ade0a6eb38d6305d8"
+  }
+}

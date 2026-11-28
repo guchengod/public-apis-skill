@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/regbase-japan-company-verification",
+  "name": "RegBase Japan Company Verification",
+  "category": "Business",
+  "description": "Signed evidence records for Japanese companies by corporate number, with Ed25519 verification",
+  "documentation_url": "https://regbase.local-connect-design.trade",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "418f6ebf1dcc260eadd3994afc2f649bada539250fc3c1ce49ad07454cf726bd"
+  }
+}

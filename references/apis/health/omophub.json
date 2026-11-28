@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/omophub",
+  "name": "OMOPHub",
+  "category": "Health",
+  "description": "Search and map OHDSI OMOP medical vocabularies (SNOMED CT, ICD-10, LOINC, RxNorm)",
+  "documentation_url": "https://docs.omophub.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__OMOPHUB__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1442ee3d6ae0d12f7c3559cb1dd2974e306ece6640a788e5c1670995d033d840"
+  }
+}

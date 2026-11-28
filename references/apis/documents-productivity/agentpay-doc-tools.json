@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/agentpay-doc-tools",
+  "name": "AgentPay Doc Tools",
+  "category": "Documents & Productivity",
+  "description": "PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402",
+  "documentation_url": "https://agentpay-tools.agentpay-apis.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "167f4e661b19439335add9ecec0a241b8a09cc419a3bfd13032e1ecd7a4aeedd"
+  }
+}

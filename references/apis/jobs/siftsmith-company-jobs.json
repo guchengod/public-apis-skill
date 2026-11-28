@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "jobs/siftsmith-company-jobs",
+  "name": "Siftsmith Company Jobs",
+  "category": "Jobs",
+  "description": "Open jobs from company career pages on Greenhouse, Lever, Ashby, Workday and more, as JSON or XML",
+  "documentation_url": "https://apify.com/siftsmith/company-jobs/api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__JOBS__SIFTSMITH_COMPANY_JOBS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "5e605104f5692bc9aa1d66dad1e4d62a2f49cdbe8d89d5571753a541ca756de0"
+  }
+}

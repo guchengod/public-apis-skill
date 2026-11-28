@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/website-security-scanner",
+  "name": "Website Security Scanner",
+  "category": "Security",
+  "description": "Passive website security audit: TLS, security headers, exposed files and a 0-100 score",
+  "documentation_url": "https://rapidapi.com/Hitler-HlDevZDwP/api/website-security-scanner-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__WEBSITE_SECURITY_SCANNER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "28ba0569890b41d197c047c9479c059759a021f57935e172418209c26739bfa6"
+  }
+}

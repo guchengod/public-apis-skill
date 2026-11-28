@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/aether-x-port-congestion-oracle",
+  "name": "Aether-X Port Congestion Oracle",
+  "category": "Transportation",
+  "description": "Predictive port congestion, ETA delay and freight volatility signals for 16 global ports",
+  "documentation_url": "https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AETHER_X_PORT_CONGESTION_ORACLE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "504d9324f3dedcdbfc8e6b9c76426db7e232ea6e9fcbcb2e7a783e4a7e4c8ce5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/qrdx",
+  "name": "QRdx",
+  "category": "Development",
+  "description": "Styled QR codes as SVG, PNG or EPS from a URL, with gradients, frames and logos",
+  "documentation_url": "https://qrdx.dev/docs/developers/image-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "08d9fb71d116ae5f92a608d021b3a3296b72a9debf7c475363b5d674321d7c14"
+  }
+}

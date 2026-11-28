@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/japan-places",
+  "name": "Japan Places",
+  "category": "Geocoding",
+  "description": "Japan POI datasets and derived signals: municipality census, station catchments, chains, grants",
+  "documentation_url": "https://japan-places.local-connect-design.trade/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9ae06f744f5748f8dc0472eb915ea5e00ab0c06d60cd3c62999ff38cc5c9022"
+  }
+}

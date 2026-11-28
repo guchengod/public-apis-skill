@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/gridvigil",
+  "name": "GridVigil",
+  "category": "Environment",
+  "description": "Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids",
+  "documentation_url": "https://gridvigil.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2753fdd25835f64ddc229f35b2e1a0ce8d8be1073b9ec7ac3d9fce3883972ced"
+  }
+}

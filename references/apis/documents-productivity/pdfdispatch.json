@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/pdfdispatch",
+  "name": "PDFDispatch",
+  "category": "Documents & Productivity",
+  "description": "HTML, URLs, Markdown and Office files to PDF, plus merge, split and PDF/A. EU-hosted, free tier",
+  "documentation_url": "https://docs.pdfdispatch.com/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__PDFDISPATCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "78e4b42b5e7874699123fdd94f6d3797fefc9ba539d691165bfe714410c643d6"
+  }
+}

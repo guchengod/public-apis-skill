@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/nigeria-paye",
+  "name": "Nigeria PAYE",
+  "category": "Finance",
+  "description": "Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025",
+  "documentation_url": "https://www.orionsoftlimited.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1cd0a54e8aa9036f5026e4f6c1d408bb123424852cdd572a4df2db007901d30f"
+  }
+}

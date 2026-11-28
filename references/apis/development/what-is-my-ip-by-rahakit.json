@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/what-is-my-ip-by-rahakit",
+  "name": "What Is My IP by RahaKit",
+  "category": "Development",
+  "description": "Free IP lookup API returning IPv4/IPv6, geolocation, ASN and network details as JSON",
+  "documentation_url": "https://rahakit.com/what-is-my-ip/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6a1e3b7cace44b32f58be50b3bd3a0181e06288378c5effa93dc078678010445"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "transportation/connectmeguru",
+  "name": "ConnectMeGuru",
+  "category": "Transportation",
+  "description": "Search and purchase prepaid travel eSIM data plans across 190+ countries",
+  "documentation_url": "https://www.connectmeguru.com/api/mcp",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f0b8a75cedc296b7199e9e3ae942b6d430d9a5ed41298b154ed5d7cb056b8da3"
+  }
+}

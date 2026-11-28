@@ -4,7 +4,7 @@
   "name": "Shrtlnk",
   "category": "URL Shorteners",
   "description": "Simple and efficient short link creation",
-  "documentation_url": "https://shrtlnk.dev/developer",
+  "documentation_url": "https://shrtlnk.dev/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "600919d0fd354faf1694efb10ed45704d812a54b327106bc611628545ab65f86"
+    "fingerprint": "bfff8c9ba15bc198f371025d553a3ab548fda7878a1cf87434ae04685998aca5"
   }
 }

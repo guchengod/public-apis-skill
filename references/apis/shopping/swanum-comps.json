@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/swanum-comps",
+  "name": "Swanum Comps",
+  "category": "Shopping",
+  "description": "Sold resale prices from Vinted (7 European countries) and eBay US, with median and price range",
+  "documentation_url": "https://swanum.com/comps/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__SWANUM_COMPS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2a0dd539672bdd0b27c8540b4cf360e41ba94c425bb8a683c102315170efeb40"
+  }
+}

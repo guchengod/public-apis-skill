@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "art-design/dummyimg",
+  "name": "DummyImg",
+  "category": "Art & Design",
+  "description": "Generate placeholder images of any size with custom text, colors, fonts and formats",
+  "documentation_url": "https://www.dummyimg.in/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a4b79b79de6d04de84d2d89e5dfbf0f4b1565942bfb71722e7e31a0c87877ac"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "games-comics/cardz-marketcap",
+  "name": "CardZ Marketcap",
+  "category": "Games & Comics",
+  "description": "Daily PSA 10 market cap, prices and population for Pokémon and One Piece cards",
+  "documentation_url": "https://cardzmarketcap.com/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c551cddb8fadb6880eb0786fc58c66bca280873d2ec36b72acac84a0051d9423"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/hundredth-run-gpu-prices",
+  "name": "Hundredth Run GPU Prices",
+  "category": "Development",
+  "description": "GPU rental prices from 25 cloud providers with source URLs, as static JSON and CSV, CC BY 4.0",
+  "documentation_url": "https://hundredthrun-compute-desk.pages.dev/open-data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b40a35c7dbc9e8f1f15711adcfeef8ccc14835377f0b98404d69c94c1c993dc3"
+  }
+}

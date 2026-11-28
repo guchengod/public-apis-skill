@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/octocrawl",
+  "name": "Octocrawl",
+  "category": "Development",
+  "description": "Web pages as Markdown or JSON with an Evidence Record: final URL, HTTP status, robots.txt, hashes",
+  "documentation_url": "https://octocrawl.dev/docs/reference/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "99e07f2b120178cee9c8c015d951903183674c2bd875757bbf03d53ed4e8fefd"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/video-to-markdown",
+  "name": "Video to Markdown",
+  "category": "Video",
+  "description": "Turn a YouTube URL into a markdown thumbnail image link",
+  "documentation_url": "https://video-to-markdown.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d0846571e2ff48610fe67326d2f5dc11f07c6d498757c2ccc40d6a4609dc3856"
+  }
+}

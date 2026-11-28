@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/coinxview",
+  "name": "CoinXview",
+  "category": "Cryptocurrency",
+  "description": "Real-time crypto prices aggregated from 22 exchanges, OHLC, market stats, Fear & Greed",
+  "documentation_url": "https://coinxview.com/en/api-mien-phi",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9d27b8f9fd1332e763bfbaec18b455fa6f0e65a08895e461107a8af142855b70"
+  }
+}

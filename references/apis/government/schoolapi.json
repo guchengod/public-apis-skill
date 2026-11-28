@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/schoolapi",
+  "name": "SchoolAPI",
+  "category": "Government",
+  "description": "Every US public, charter and private school and district, with search and enrollment history",
+  "documentation_url": "https://schoolapi.org/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__SCHOOLAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "89215187310ff3ac6c8fdad631f3c80f67cc2c966d4fd421eff2b612fd034a7b"
+  }
+}

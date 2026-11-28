@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "security/ssl-labs",
+  "name": "SSL Labs",
+  "category": "Security",
+  "description": "Deep SSL/TLS server analysis with A+ to F grading",
+  "documentation_url": "https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "226d2e9368749200b9c20ef1bb9d909f4b8da3fd5bd06ec9db97d549295369fd"
+  }
+}

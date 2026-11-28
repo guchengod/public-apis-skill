@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/swiftedge",
+  "name": "Swiftedge",
+  "category": "Cryptocurrency",
+  "description": "Live order book walls, resting liquidity, funding, open interest and large trades for 9 markets",
+  "documentation_url": "https://swiftedge.uk/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ecb65453006cd66906e974e775799a57de89ab6d3ee7fff401789fd537db57c3"
+  }
+}

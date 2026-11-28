@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/verifnow",
+  "name": "VerifNow",
+  "category": "Data Validation",
+  "description": "Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs",
+  "documentation_url": "https://docs.verifnow.io",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__VERIFNOW__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "dc12a2fd5260dc973daa2591c6e84ffd721736a0e276354109ee0ab0e33dd003"
+  }
+}

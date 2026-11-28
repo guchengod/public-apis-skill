@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/quivad",
+  "name": "QuiVad",
+  "category": "Finance",
+  "description": "Net short positions disclosed to 23 market regulators, fund by fund, since 2010",
+  "documentation_url": "https://www.quivad.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a12d0bb88c4401225ae22e211dd8de0ebd2da4b7567df24dc6436275a8612140"
+  }
+}

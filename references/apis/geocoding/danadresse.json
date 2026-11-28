@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/danadresse",
+  "name": "Danadresse",
+  "category": "Geocoding",
+  "description": "Danish addresses: autocomplete, lookup, reverse geocoding, cleansing (DAWA-compatible)",
+  "documentation_url": "https://api.danadresse.dk/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__DANADRESSE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "68dd0de236e21a5596a20aa0ca1ec688ba093b76a27d4bf89476c6327a3eaaf3"
+  }
+}

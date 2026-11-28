@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "social/api-direct",
+  "name": "API Direct",
+  "category": "Social",
+  "description": "Real-time social media data from X, LinkedIn, Reddit, YouTube, Instagram, TikTok, Facebook and news",
+  "documentation_url": "https://apidirect.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SOCIAL__API_DIRECT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1fbe8210ec40eb0fa16e978e163a4f627bcc069b701a291e03baf9354c608fa7"
+  }
+}

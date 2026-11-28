@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "email/email-validator-by-lifestep",
+  "name": "Email Validator by LifeStep",
+  "category": "Email",
+  "description": "Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes",
+  "documentation_url": "https://email.lifestep.io",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a43e1fadfd65612867c1b78a0a00c4148a20bc2d68dfd66261b642966af886f8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/index-agentica",
+  "name": "Index Agentica",
+  "category": "Development",
+  "description": "Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt",
+  "documentation_url": "https://indexagentica.com/agents/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "73c122b9198dc4c012515184506b55e17246bdd1efc47e3e7707a02bbce1e48f"
+  }
+}

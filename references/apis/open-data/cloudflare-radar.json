@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "open-data/cloudflare-radar",
+  "name": "Cloudflare Radar",
+  "category": "Open Data",
+  "description": "Internet traffic, attack, outage and domain ranking trends from Cloudflare's network",
+  "documentation_url": "https://developers.cloudflare.com/radar/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__OPEN_DATA__CLOUDFLARE_RADAR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b5fa38106b39206060319af8d297407f55582b88cd1f2590fa56f046431f2dd3"
+  }
+}

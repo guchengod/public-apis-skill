@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/btcglobe",
+  "name": "BTCGlobe",
+  "category": "Cryptocurrency",
+  "description": "Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes",
+  "documentation_url": "https://btcglobe.live/join#makers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b5ff160691740de6b707b97c988c76d61a4efd2f0631c4a3a15419b86e78579d"
+  }
+}

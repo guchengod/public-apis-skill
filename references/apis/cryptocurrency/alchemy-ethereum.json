@@ -4,7 +4,7 @@
   "name": "Alchemy Ethereum",
   "category": "Cryptocurrency",
   "description": "Ethereum Node-as-a-Service Provider",
-  "documentation_url": "https://docs.alchemy.com/alchemy/",
+  "documentation_url": "https://www.alchemy.com/docs/",
   "auth": {
     "type": "apiKey",
     "required": true,
@@ -22,6 +22,6 @@
   },
   "source": {
     "repository": "https://github.com/public-apis/public-apis",
-    "fingerprint": "d73654a7fd13e12af4cc1be001b676c3829276fa8f27a796774854e21809ce22"
+    "fingerprint": "ed9770f97fb0148667a5b3c125bb474ea84a7c83b0f910de04438a5f55ddeea4"
   }
 }

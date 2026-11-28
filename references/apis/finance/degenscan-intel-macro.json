@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "finance/degenscan-intel-macro",
+  "name": "Degenscan Intel Macro",
+  "category": "Finance",
+  "description": "U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key",
+  "documentation_url": "https://intel.degenscan.io/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__FINANCE__DEGENSCAN_INTEL_MACRO__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d658495fc4c266377b098b4d468613fa5fcd31d020693d97b877271fc4966ddb"
+  }
+}

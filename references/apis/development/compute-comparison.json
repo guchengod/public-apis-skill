@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/compute-comparison",
+  "name": "Compute Comparison",
+  "category": "Development",
+  "description": "GPU rental prices, providers, models and price history across cloud providers",
+  "documentation_url": "https://computecomparison.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6875850d794ef15c057bd4248e659258fd2f4fe0d670aa58e585fff0a07f70fc"
+  }
+}

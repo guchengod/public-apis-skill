@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/deepscout",
+  "name": "DeepScout",
+  "category": "Shopping",
+  "description": "Scrape product data from any e-shop and match the same products across shops, without EAN",
+  "documentation_url": "https://docs.deepscout.ai",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__DEEPSCOUT__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4bc545de70542656547810f37a12d45a518d653b1ecbf865e93b634ac7b022de"
+  }
+}

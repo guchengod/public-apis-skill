@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/sodax",
+  "name": "SODAX",
+  "category": "Cryptocurrency",
+  "description": "Cross-network swap quotes and intents across 20+ networks, plus token, price and intent data",
+  "documentation_url": "https://docs.sodax.com/developers/http-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__SODAX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "13c00788cdf97268ce6e1e262704a3f506c880ee8b4081e236c53b46db166c5b"
+  }
+}

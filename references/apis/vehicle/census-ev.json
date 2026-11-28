@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "vehicle/census-ev",
+  "name": "Census EV",
+  "category": "Vehicle",
+  "description": "Electric and plug-in hybrid cars for sale in the US, with price, mileage, range and price history",
+  "documentation_url": "https://censusev.com/api/v1",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ee38508ba6578bf4293f24b69ad4ecbc67012a4881a97ca6bfbf23fb86c8f39"
+  }
+}

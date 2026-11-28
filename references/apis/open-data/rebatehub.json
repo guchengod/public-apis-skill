@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/rebatehub",
+  "name": "RebateHub",
+  "category": "Open Data",
+  "description": "Canadian home energy rebate, grant and loan programs with status, deadlines and official sources",
+  "documentation_url": "https://rebatehub.ca/data",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b870775ae8b718e1e6b1d84f576fd63c8e00edc88d35bc1d01234bf2cef218db"
+  }
+}

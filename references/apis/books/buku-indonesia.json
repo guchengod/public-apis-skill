@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/buku-indonesia",
+  "name": "Buku Indonesia",
+  "category": "Books",
+  "description": "Open data for Indonesian books by ISBN, author, and category",
+  "documentation_url": "https://github.com/khrlanamm/buku-indonesia#api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "85b78a8f386f4140f69f78fd7a327d44b597ce0f60dfa895ac31429b309b7da9"
+  }
+}

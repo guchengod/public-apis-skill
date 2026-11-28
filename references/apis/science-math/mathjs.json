@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/mathjs",
+  "name": "MathJS",
+  "category": "Science & Math",
+  "description": "Evaluate math expressions via GET or POST as JSON",
+  "documentation_url": "https://api.mathjs.org/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "35ab7ffa0b2bfdf07fba126013fc187731614b6b9b5dfce4a512a7bf3c5c60a5"
+  }
+}

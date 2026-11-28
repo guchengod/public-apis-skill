@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/liftradar",
+  "name": "LiftRadar",
+  "category": "Sports & Fitness",
+  "description": "Ski resorts across Europe: open lifts and slopes, snow depth and avalanche level",
+  "documentation_url": "https://liftradar.eu/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "51e854b951d174276d1b1812b78524361f1e5802e1f3083dca7eb384a729a033"
+  }
+}

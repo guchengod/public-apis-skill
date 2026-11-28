@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/serpkite",
+  "name": "SerpKite",
+  "category": "Development",
+  "description": "Google Search, News, Maps, Images, Scholar and Patents results as JSON or Markdown for AI agents",
+  "documentation_url": "https://serpkite.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__SERPKITE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "25edb5edf53a5873dbc40388358736a8c51ac91904debea7ce505e06b18ab8e8"
+  }
+}

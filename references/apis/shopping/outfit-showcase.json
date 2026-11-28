@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/outfit-showcase",
+  "name": "Outfit Showcase",
+  "category": "Shopping",
+  "description": "Issue a 30-day, 100-use virtual clothing try-on showcase link per request",
+  "documentation_url": "https://github.com/hanchenxing1/outfit-showcase-card-api",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__OUTFIT_SHOWCASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "unknown"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "3a9d0e6face9174a332e3aaf07e3878c540cbb9c04635c324d160864ef2749b4"
+  }
+}

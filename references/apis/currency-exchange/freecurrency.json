@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/freecurrency",
+  "name": "FreeCurrency",
+  "category": "Currency Exchange",
+  "description": "Real-time and historical foreign exchange rates",
+  "documentation_url": "https://freecurrencyapi.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CURRENCY_EXCHANGE__FREECURRENCY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "536a050f3fc07b85d1ebe3458858ca056f9dcd7fc7cc70f354a840d2790084f0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "health/stanza-dscsa-verifier",
+  "name": "Stanza DSCSA Verifier",
+  "category": "Health",
+  "description": "Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes",
+  "documentation_url": "https://stanzaapi.com/tools/pharma-dscsa",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__HEALTH__STANZA_DSCSA_VERIFIER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c8f2948bddbc922f9925faaa678a3fdac55e4428f9f68c425fb6ece0fd1beb27"
+  }
+}

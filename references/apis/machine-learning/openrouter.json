@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/openrouter",
+  "name": "OpenRouter",
+  "category": "Machine Learning",
+  "description": "Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier",
+  "documentation_url": "https://openrouter.ai/docs/quick-start",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__OPENROUTER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b4e873019ac28b85f658ab92f3974db25645530cfe61390ba8439e5a4051d5e7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/us-mortgage-calculator",
+  "name": "US Mortgage Calculator",
+  "category": "Finance",
+  "description": "Mortgage payment, amortization, affordability and 50-state property tax data",
+  "documentation_url": "https://www.usmortgagecalc.com/developers/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c7ad20128844bc152e6a080c7a3e290877cb40c6e03cf2b0c43e1b7429cefa4e"
+  }
+}

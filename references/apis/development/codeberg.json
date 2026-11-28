@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/codeberg",
+  "name": "Codeberg",
+  "category": "Development",
+  "description": "Git hosting, repos and issues via Gitea API",
+  "documentation_url": "https://codeberg.org/api/swagger",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c5de48a0ae0b13179a736e9d2621cfaa1153f486590bfc96b1f4b7838eab3502"
+  }
+}

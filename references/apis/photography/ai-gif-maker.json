@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "photography/ai-gif-maker",
+  "name": "AI GIF Maker",
+  "category": "Photography",
+  "description": "Turn text into animated GIFs with AI GIF Maker",
+  "documentation_url": "https://aigifmaker.readthedocs.io/en/latest/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PHOTOGRAPHY__AI_GIF_MAKER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ff82cba4113e9337844220ba6ab69826b1c6575c903621b84e67e375caf3ce22"
+  }
+}

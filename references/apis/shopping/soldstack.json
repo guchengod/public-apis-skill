@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "shopping/soldstack",
+  "name": "SoldStack",
+  "category": "Shopping",
+  "description": "Sold resale listings from Poshmark with median price, days to sell and net payout after fees",
+  "documentation_url": "https://soldstack.fly.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SHOPPING__SOLDSTACK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "ff2b85cebf7fb1c33126b3a434191558e0ea5fcae1e2b5830c9eb1c0e57543c6"
+  }
+}

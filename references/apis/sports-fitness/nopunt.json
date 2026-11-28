@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/nopunt",
+  "name": "NoPunt",
+  "category": "Sports & Fitness",
+  "description": "Weekly NFL game picks with model win probability, confidence tier and spread",
+  "documentation_url": "https://www.nopunt.com/api/picks.json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6ba54c7746354e1f07e777feeb0965db504f0d3001739d076c176018756500fd"
+  }
+}

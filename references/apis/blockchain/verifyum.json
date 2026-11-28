@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "blockchain/verifyum",
+  "name": "Verifyum",
+  "category": "Blockchain",
+  "description": "File timestamp proofs anchored on Solana from a locally computed commitment, no file upload",
+  "documentation_url": "https://verifyum.com/agents",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2118bc888c2434fc6e9553ad823eb1066dd07273b8eb01c485177adc0412b78c"
+  }
+}

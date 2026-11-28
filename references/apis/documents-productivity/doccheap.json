@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/doccheap",
+  "name": "DocCheap",
+  "category": "Documents & Productivity",
+  "description": "Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document",
+  "documentation_url": "https://doc.cheap/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__DOCCHEAP__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cac5256cbc87f0d670013a01bb29294cd66f7984d6dfe91aed965b6085e12e30"
+  }
+}

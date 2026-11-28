@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "programming/leekcf-hinter",
+  "name": "LeekCF Hinter",
+  "category": "Programming",
+  "description": "Graded hints for Codeforces problems, from a small nudge to the full solution",
+  "documentation_url": "https://leekcf-hinter-api.leekcf.workers.dev",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e5e0aa5ba97c1aee323fb073c7e86d3afcee58924c763e0ce0796f0971e0ab31"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "environment/sahkon-hinta-nyt",
+  "name": "Sähkön hinta nyt",
+  "category": "Environment",
+  "description": "Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours",
+  "documentation_url": "https://xn--shknhintanyt-gcb8w.org/integraatiot/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4705154a22095c3e085dcf18a05ca03334ddcda76e4cb4afac28b516e047101f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "shopping/uglyhd",
+  "name": "uglyHD",
+  "category": "Shopping",
+  "description": "Cost per TB of new, used and refurbished drives and per GB of server RAM, from eBay and retailers",
+  "documentation_url": "https://uglyhd.com/api-docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "09241f7f327eb65aa3aba05558c3e930951c913d3e7c33d47f6fe228e475a862"
+  }
+}

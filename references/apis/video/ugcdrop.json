@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "video/ugcdrop",
+  "name": "UGCdrop",
+  "category": "Video",
+  "description": "Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting",
+  "documentation_url": "https://ugcdrop.com/api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8a4d686c1f322201606e77482fea666d43f28407ebc5455f95248256834ee5fb"
+  }
+}

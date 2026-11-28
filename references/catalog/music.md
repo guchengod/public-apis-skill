@@ -1,6 +1,6 @@
 # Music
 
-35 interfaces. Paths are relative to this catalog file.
+40 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
@@ -9,6 +9,7 @@
 | Audiomack | OAuth | yes | unknown | [`music/audiomack`](../apis/music/audiomack.json) |
 | Bandcamp | OAuth | yes | unknown | [`music/bandcamp`](../apis/music/bandcamp.json) |
 | Bandsintown | No | yes | unknown | [`music/bandsintown`](../apis/music/bandsintown.json) |
+| Daydream | apiKey | yes | no | [`music/daydream`](../apis/music/daydream.json) |
 | Deezer | OAuth | yes | unknown | [`music/deezer`](../apis/music/deezer.json) |
 | Discogs | OAuth | yes | unknown | [`music/discogs`](../apis/music/discogs.json) |
 | Freesound | apiKey | yes | unknown | [`music/freesound`](../apis/music/freesound.json) |
@@ -21,11 +22,13 @@
 | KKBOX | OAuth | yes | unknown | [`music/kkbox`](../apis/music/kkbox.json) |
 | KSoft.Si Lyrics | apiKey | yes | unknown | [`music/ksoft-si-lyrics`](../apis/music/ksoft-si-lyrics.json) |
 | LastFm | apiKey | yes | unknown | [`music/lastfm`](../apis/music/lastfm.json) |
+| ListenBrainz | No | yes | yes | [`music/listenbrainz`](../apis/music/listenbrainz.json) |
 | Lyrics.ovh | No | yes | unknown | [`music/lyrics-ovh`](../apis/music/lyrics-ovh.json) |
 | Mixcloud | OAuth | yes | yes | [`music/mixcloud`](../apis/music/mixcloud.json) |
 | MusicBrainz | No | yes | unknown | [`music/musicbrainz`](../apis/music/musicbrainz.json) |
 | Musixmatch | apiKey | yes | unknown | [`music/musixmatch`](../apis/music/musixmatch.json) |
 | Napster | apiKey | yes | yes | [`music/napster`](../apis/music/napster.json) |
+| Open Guitar Chords | No | yes | yes | [`music/open-guitar-chords`](../apis/music/open-guitar-chords.json) |
 | Openwhyd | No | yes | no | [`music/openwhyd`](../apis/music/openwhyd.json) |
 | Phishin | apiKey | yes | no | [`music/phishin`](../apis/music/phishin.json) |
 | Radio Browser | No | yes | yes | [`music/radio-browser`](../apis/music/radio-browser.json) |
@@ -34,6 +37,8 @@
 | Songsterr | No | yes | unknown | [`music/songsterr`](../apis/music/songsterr.json) |
 | SoundCloud | OAuth | yes | unknown | [`music/soundcloud`](../apis/music/soundcloud.json) |
 | Spotify | OAuth | yes | unknown | [`music/spotify`](../apis/music/spotify.json) |
+| Static Radio | No | yes | yes | [`music/static-radio`](../apis/music/static-radio.json) |
+| StemConsole | apiKey | yes | yes | [`music/stemconsole`](../apis/music/stemconsole.json) |
 | Sunor | apiKey | yes | unknown | [`music/sunor`](../apis/music/sunor.json) |
 | TasteDive | apiKey | yes | unknown | [`music/tastedive`](../apis/music/tastedive.json) |
 | TheAudioDB | apiKey | yes | unknown | [`music/theaudiodb`](../apis/music/theaudiodb.json) |

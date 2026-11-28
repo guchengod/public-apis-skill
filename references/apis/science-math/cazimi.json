@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "science-math/cazimi",
+  "name": "Cazimi",
+  "category": "Science & Math",
+  "description": "Planetary retrograde stations, shadows and cazimi to the minute (JPL DE421)",
+  "documentation_url": "https://cazimi.live/methodology#api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "22066f86f05712a11c3aadda8fef0e3ccdbc679eafd232a5d6dd8475e728bcfe"
+  }
+}

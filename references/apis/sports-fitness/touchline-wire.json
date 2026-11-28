@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/touchline-wire",
+  "name": "Touchline Wire",
+  "category": "Sports & Fitness",
+  "description": "Premier League predicted starting lineups, tactics, injuries, and standings",
+  "documentation_url": "https://touchlinewire.com/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "650de03280e82bc5bc8cc3051a432c31efd539046724c78f95b017c465eca191"
+  }
+}

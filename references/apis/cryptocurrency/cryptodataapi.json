@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/cryptodataapi",
+  "name": "CryptoDataAPI",
+  "category": "Cryptocurrency",
+  "description": "Prices, derivatives, funding, liquidations, Hyperliquid, ETF flows, volatility index and regimes",
+  "documentation_url": "https://cryptodataapi.com/api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__CRYPTODATAAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7c0c9b8570002cda87cb1df3f3e1808bce17dedbb58768a37ad2ceef88fba976"
+  }
+}

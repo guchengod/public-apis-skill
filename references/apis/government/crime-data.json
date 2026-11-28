@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "government/crime-data",
+  "name": "Crime Data",
+  "category": "Government",
+  "description": "US police-reported incidents for 12 cities: radius search, stats, GeoJSON, MCP",
+  "documentation_url": "https://crimedata.dev/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GOVERNMENT__CRIME_DATA__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7b925e976605c7751f4dcd2541bfac9dd2ac01d7c33e99262c99b030c16dbd68"
+  }
+}

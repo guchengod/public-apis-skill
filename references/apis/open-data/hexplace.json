@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/hexplace",
+  "name": "hexplace",
+  "category": "Open Data",
+  "description": "Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal",
+  "documentation_url": "https://hexplace.org/developers/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "6160e43c642a755e37f91f64684ac7c2ba19ef4beca3ba45bbd002d54deaeb51"
+  }
+}

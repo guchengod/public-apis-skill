@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "geocoding/atlasfetch",
+  "name": "AtlasFetch",
+  "category": "Geocoding",
+  "description": "Reverse geocode coordinates to country, region and municipality with ISO 3166 codes",
+  "documentation_url": "https://atlasfetch.xyz/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__GEOCODING__ATLASFETCH__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "0e615547d767b06a6e3a7af5e3f19645c13224e5dbe064ebba7fb3094b892bbb"
+  }
+}

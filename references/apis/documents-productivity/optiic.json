@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/optiic",
+  "name": "Optiic",
+  "category": "Documents & Productivity",
+  "description": "OCR that extracts text from images and PDFs, with optional translation of the result",
+  "documentation_url": "https://optiic.dev",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__OPTIIC__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "4251ed27448234a67463f916685ab493d041ce980f4beffb24961121850e4c4f"
+  }
+}

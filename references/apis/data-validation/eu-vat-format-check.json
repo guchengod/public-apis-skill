@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "data-validation/eu-vat-format-check",
+  "name": "EU VAT Format Check",
+  "category": "Data Validation",
+  "description": "EU VAT format and check-digit checker for 11 countries (format only, not a registration check)",
+  "documentation_url": "https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DATA_VALIDATION__EU_VAT_FORMAT_CHECK__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "928fbbd432be5041a5000796bbca04ad6fd260d682cc4050d4a62dd3dd8a4f90"
+  }
+}

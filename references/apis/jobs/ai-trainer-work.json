@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "jobs/ai-trainer-work",
+  "name": "AI Trainer Work",
+  "category": "Jobs",
+  "description": "Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with pay",
+  "documentation_url": "https://aitrainer.work/open-data#api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "9ee25de2fc735c6f19f0b1f3bcc7dcb21f2ac459235b62d6ba152105c6d7df27"
+  }
+}

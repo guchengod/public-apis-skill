@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/aether-x-port-congestion",
+  "name": "Aether-X Port Congestion",
+  "category": "Transportation",
+  "description": "Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports",
+  "documentation_url": "https://aether-x-oracle-production.up.railway.app/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__AETHER_X_PORT_CONGESTION__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4331f071404f7057ee1c833132fb2655c2d7f486ba9020d8faf7c24e71322ff"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "documents-productivity/convert-online",
+  "name": "Convert Online",
+  "category": "Documents & Productivity",
+  "description": "Online file converter for image, video, audio, document, ebook, font, archive and CAD formats",
+  "documentation_url": "https://convert.online/api-docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DOCUMENTS_PRODUCTIVITY__CONVERT_ONLINE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "2500d7174fbd722e1d0be6c3a0c445bd450dac1879b37e3593e7959a606d639b"
+  }
+}

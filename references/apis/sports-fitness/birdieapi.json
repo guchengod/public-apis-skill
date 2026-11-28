@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "sports-fitness/birdieapi",
+  "name": "BirdieAPI",
+  "category": "Sports & Fitness",
+  "description": "PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major winner odds",
+  "documentation_url": "https://birdieapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SPORTS_FITNESS__BIRDIEAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d9790e89e223669aa3ee4fc6f943bbdc5a3e57b5376e7b56ecdbb415b5566bac"
+  }
+}

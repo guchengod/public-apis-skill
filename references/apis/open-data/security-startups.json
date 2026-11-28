@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/security-startups",
+  "name": "Security Startups",
+  "category": "Open Data",
+  "description": "Curated directory of young security companies with proof-of-life signals",
+  "documentation_url": "https://securitystartups.com/for-agents",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "da5a3457eb34bc3714b3f885cba0aa0b58c4e3803e0b8bbce687331f5c4db992"
+  }
+}

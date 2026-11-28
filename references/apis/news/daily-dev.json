@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "news/daily-dev",
+  "name": "daily.dev",
+  "category": "News",
+  "description": "Developer news feeds, posts, bookmarks, tags and search from daily.dev",
+  "documentation_url": "https://docs.daily.dev/public-api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__NEWS__DAILY_DEV__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a4b7e3074ad8f4b1d883f9143cf3edbc1b99e1c5bdd4ad16a5854a03d6855da0"
+  }
+}

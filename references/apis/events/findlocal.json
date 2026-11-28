@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "events/findlocal",
+  "name": "FindLocal",
+  "category": "Events",
+  "description": "Hyper-local US events: concerts, trivia, open mics, readings, storytimes",
+  "documentation_url": "https://findlocal.community/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__EVENTS__FINDLOCAL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8675bbf26c899d04a86c77f607c9799a9292b3ded49b7fd463b0c4eed31b3f7a"
+  }
+}

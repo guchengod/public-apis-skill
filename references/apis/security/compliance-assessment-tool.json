@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "security/compliance-assessment-tool",
+  "name": "Compliance Assessment Tool",
+  "category": "Security",
+  "description": "PCI DSS self-assessment for merchants: picks the SAQ type, returns filled SAQ + AoC PDFs",
+  "documentation_url": "https://banks.complianceassessmenttool.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__SECURITY__COMPLIANCE_ASSESSMENT_TOOL__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c0226f32e20979652401402b2735037bc1aa483e89061ccd6fa68a9b9bdf0081"
+  }
+}

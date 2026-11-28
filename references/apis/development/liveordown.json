@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/liveordown",
+  "name": "LiveOrDown",
+  "category": "Development",
+  "description": "Live up/down status of 240+ online services, checked every minute from 3 regions",
+  "documentation_url": "https://liveordown.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "c00552f1f87c49639c1bc1574f1e2b1032a94f8eca7ffb8848e7b5349e78a24f"
+  }
+}

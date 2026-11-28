@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/firmbase",
+  "name": "Firmbase",
+  "category": "Business",
+  "description": "Belgian company register (KBO/CBE), Official Gazette notices and VAT validation",
+  "documentation_url": "https://firmbase.be/en/api/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__FIRMBASE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8d4550f0a62eb46ddbfc7eae8c245706814429b7d930228bd8a4a7aad9166499"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/qrx",
+  "name": "QRX",
+  "category": "Development",
+  "description": "Artistic, branded QR codes from a text prompt and a link, checked to scan",
+  "documentation_url": "https://qrx.codes/developers",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__QRX__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "129832c5d9f1ea46c257d78190cc03770ec3bbe178b8b8f0eb75e6d857f890e4"
+  }
+}

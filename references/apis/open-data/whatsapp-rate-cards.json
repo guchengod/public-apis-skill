@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/whatsapp-rate-cards",
+  "name": "WhatsApp Rate Cards",
+  "category": "Open Data",
+  "description": "Meta's WhatsApp Business API per-message rates per country in 16 currencies, checked weekly",
+  "documentation_url": "https://github.com/tobachat/whatsapp-api-rates#json",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "8ca0df0216a7aa8e2737e69a2b4cc17cba8c162f2b275635e7181ee71d0421b9"
+  }
+}

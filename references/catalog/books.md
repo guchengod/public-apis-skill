@@ -1,19 +1,23 @@
 # Books
 
-25 interfaces. Paths are relative to this catalog file.
+31 interfaces. Paths are relative to this catalog file.
 
 | API | Auth | HTTPS | CORS | Interface |
 |---|---|---|---|---|
 | A Bíblia Digital | apiKey | yes | no | [`books/a-biblia-digital`](../apis/books/a-biblia-digital.json) |
 | Amanah Sunnah | apiKey | yes | yes | [`books/amanah-sunnah`](../apis/books/amanah-sunnah.json) |
-| Bhagavad Gita | apiKey | yes | yes | [`books/bhagavad-gita--1a37c017`](../apis/books/bhagavad-gita--1a37c017.json) |
-| Bhagavad Gita | OAuth | yes | yes | [`books/bhagavad-gita--b60b866b`](../apis/books/bhagavad-gita--b60b866b.json) |
+| Bayan | No | yes | yes | [`books/bayan`](../apis/books/bayan.json) |
+| Bhagavad Gita | apiKey | yes | yes | [`books/bhagavad-gita`](../apis/books/bhagavad-gita.json) |
 | Bhagavad Gita telugu | No | yes | yes | [`books/bhagavad-gita-telugu`](../apis/books/bhagavad-gita-telugu.json) |
 | Bible-api | No | yes | yes | [`books/bible-api`](../apis/books/bible-api.json) |
+| BookRank | No | yes | yes | [`books/bookrank`](../apis/books/bookrank.json) |
 | British National Bibliography | No | no | unknown | [`books/british-national-bibliography`](../apis/books/british-national-bibliography.json) |
+| Buku Indonesia | No | yes | yes | [`books/buku-indonesia`](../apis/books/buku-indonesia.json) |
 | Crossref Metadata Search | No | yes | unknown | [`books/crossref-metadata-search`](../apis/books/crossref-metadata-search.json) |
 | Ganjoor | OAuth | yes | yes | [`books/ganjoor`](../apis/books/ganjoor.json) |
 | Google Books | OAuth | yes | unknown | [`books/google-books`](../apis/books/google-books.json) |
+| Greek Mythology | No | yes | yes | [`books/greek-mythology`](../apis/books/greek-mythology.json) |
+| Greenlit Books | No | yes | yes | [`books/greenlit-books`](../apis/books/greenlit-books.json) |
 | GurbaniNow | No | yes | unknown | [`books/gurbaninow`](../apis/books/gurbaninow.json) |
 | Gutendex | No | yes | unknown | [`books/gutendex`](../apis/books/gutendex.json) |
 | KDP Intelligence | No | yes | yes | [`books/kdp-intelligence`](../apis/books/kdp-intelligence.json) |
@@ -23,7 +27,9 @@
 | Quran | No | yes | yes | [`books/quran`](../apis/books/quran.json) |
 | Quran Cloud | No | yes | yes | [`books/quran-cloud`](../apis/books/quran-cloud.json) |
 | Quran-api | No | yes | yes | [`books/quran-api`](../apis/books/quran-api.json) |
+| Readark | No | yes | yes | [`books/readark`](../apis/books/readark.json) |
 | Runyankole Bible | No | yes | yes | [`books/runyankole-bible`](../apis/books/runyankole-bible.json) |
+| Sovereign Logos | No | yes | yes | [`books/sovereign-logos`](../apis/books/sovereign-logos.json) |
 | The Bible | apiKey | yes | unknown | [`books/the-bible`](../apis/books/the-bible.json) |
 | Thirukkural | No | yes | yes | [`books/thirukkural`](../apis/books/thirukkural.json) |
 | Urantia Papers | No | yes | yes | [`books/urantia-papers`](../apis/books/urantia-papers.json) |

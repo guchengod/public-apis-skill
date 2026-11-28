@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "transportation/vesselapi",
+  "name": "VesselAPI",
+  "category": "Transportation",
+  "description": "Vessel positions, vessel search, port events, port lookup and EU MRV emissions by IMO or MMSI",
+  "documentation_url": "https://vesselapi.com/docs",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRANSPORTATION__VESSELAPI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "f8cce1813fe1a31066f738de232cdc37289afb112c15d4dd6acf467baf537fb2"
+  }
+}

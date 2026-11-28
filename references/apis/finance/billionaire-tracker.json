@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "finance/billionaire-tracker",
+  "name": "Billionaire Tracker",
+  "category": "Finance",
+  "description": "Live net worth, rank and daily change for 3,400+ billionaires, free tier for the top 25",
+  "documentation_url": "https://billionairetracker.us/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "7470e04b639a7efb87af9ffd03f83e34ac39fd3ffb865f8fc5653adb370f97e1"
+  }
+}

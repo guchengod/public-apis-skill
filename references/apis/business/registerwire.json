@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/registerwire",
+  "name": "RegisterWire",
+  "category": "Business",
+  "description": "Real-time alerts on UK company register changes",
+  "documentation_url": "https://www.registerwire.uk/docs/index.html",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__REGISTERWIRE__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "559f56581c845e5876c53dba5c2b0029a136ca2aaf6f7f5b75deb6195f7e575e"
+  }
+}

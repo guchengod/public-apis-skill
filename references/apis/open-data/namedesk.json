@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "open-data/namedesk",
+  "name": "Namedesk",
+  "category": "Open Data",
+  "description": "Domain name registration statistics by TLD, registry and registrar",
+  "documentation_url": "https://namedesk.app/docs/api/stats",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a8aacab52a6712a5b339c88371caf86ccf357727c5a80e4d70264092d91d97b6"
+  }
+}

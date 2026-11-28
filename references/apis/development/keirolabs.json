@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "development/keirolabs",
+  "name": "Keirolabs",
+  "category": "Development",
+  "description": "Web search, Google results, page extraction to Markdown and cited answers for AI agents",
+  "documentation_url": "https://docs.keirolabs.cloud",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__DEVELOPMENT__KEIROLABS__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "22d5ab87acd4dba93e13389ffea906a38dd297439a84cdf371f34d28f7828d75"
+  }
+}

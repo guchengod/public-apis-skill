@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "development/githubtrends",
+  "name": "GithubTrends",
+  "category": "Development",
+  "description": "GitHub Trending repositories with star history and open-source alternatives to paid tools",
+  "documentation_url": "https://githubtrends.app/api/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "e2cba36aeb760db92d5bc50e72a1582da5ab037c6a2ef52fbfec1bb88195cd3e"
+  }
+}

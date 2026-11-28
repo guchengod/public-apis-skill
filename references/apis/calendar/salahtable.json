@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "calendar/salahtable",
+  "name": "SalahTable",
+  "category": "Calendar",
+  "description": "Islamic prayer times for 400+ cities, by day or month, with six calculation methods",
+  "documentation_url": "https://salahtable.com/prayer-times-api",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "d62a062f1a573f333b9c881b4aac326e679e1b76c1258dc778c9f7d808146bc3"
+  }
+}

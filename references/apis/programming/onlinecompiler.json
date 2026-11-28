@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "programming/onlinecompiler",
+  "name": "OnlineCompiler",
+  "category": "Programming",
+  "description": "Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint",
+  "documentation_url": "https://onlinecompiler.io/docs?utm_source=public-apis",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__PROGRAMMING__ONLINECOMPILER__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "1205f1b1a86dcc73ca3798ca4c79141022dc4d4d29da86417bcef3232b1ce5b6"
+  }
+}

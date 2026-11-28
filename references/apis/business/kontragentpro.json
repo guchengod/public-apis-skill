@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "business/kontragentpro",
+  "name": "KontragentPro",
+  "category": "Business",
+  "description": "Russian company data from state registers by INN or OGRN: profile, finances, timeline",
+  "documentation_url": "https://kontragentpro.ru/api/v2/docs",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "b8ddc2c871cfc4e0ac031fa6abdaf293a39bf93d1c1189c1dfe4aae384b97dff"
+  }
+}

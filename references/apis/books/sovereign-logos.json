@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "books/sovereign-logos",
+  "name": "Sovereign Logos",
+  "category": "Books",
+  "description": "Septuagint, KJV with Apocrypha, Geneva and WEB Bible text with citation links",
+  "documentation_url": "https://sovereignlogos.com/developers",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "03a13a0fc5ed26c345a1053f90a5819bc6b4cb0616c642f9d62ef3e9e3a027bd"
+  }
+}

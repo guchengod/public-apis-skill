@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "id": "currency-exchange/quotelinks-exchange-rates",
+  "name": "Quotelinks Exchange Rates",
+  "category": "Currency Exchange",
+  "description": "ECB daily euro reference rates for 30 currencies since 1999, with conversion; Frankfurter v1 format",
+  "documentation_url": "https://www.quotelinks.com/api/exchange-rates/",
+  "auth": {
+    "type": "none",
+    "required": false,
+    "strategy": "none"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "cb14e0bd47882346066a502e3305bb9374ab7b6d85adb49a9ad615b0f2918d9e"
+  }
+}

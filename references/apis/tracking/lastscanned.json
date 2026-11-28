@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "tracking/lastscanned",
+  "name": "lastscanned",
+  "category": "Tracking",
+  "description": "Parcel and ocean-container tracking across 549 carriers with webhooks and a free tier",
+  "documentation_url": "https://docs.lastscanned.com",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__TRACKING__LASTSCANNED__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "no"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "efc600e9b860355dc41a36f9ae43ff04de4182f3d483da36895347bf9b98d2f2"
+  }
+}

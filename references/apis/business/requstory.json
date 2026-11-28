@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "business/requstory",
+  "name": "Requstory",
+  "category": "Business",
+  "description": "How companies work: teams, processes, ease scores and AI-readiness from public websites",
+  "documentation_url": "https://requstory.com/developers/api/",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__BUSINESS__REQUSTORY__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "31ae14a517fdcc7467fd688697aa6283266fb5df44ef7122de6f1b08746f8106"
+  }
+}

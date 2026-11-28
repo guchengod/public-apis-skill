@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "machine-learning/eden-ai",
+  "name": "Eden AI",
+  "category": "Machine Learning",
+  "description": "Unified API for 500+ LLMs and expert models for OCR, speech and translation",
+  "documentation_url": "https://www.edenai.co/docs/v3/quickstart/first-llm-call",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__MACHINE_LEARNING__EDEN_AI__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "a49cf9b19881061f86dc97ed0ebfc5159ffc0c6a71f14959dfb4d6ae8d93ea10"
+  }
+}

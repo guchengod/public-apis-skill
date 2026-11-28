@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "id": "cryptocurrency/bitculator",
+  "name": "Bitculator",
+  "category": "Cryptocurrency",
+  "description": "Crypto prices, OHLCV history, sentiment, technical indicators, exchanges and liquidations",
+  "documentation_url": "https://bitculator.com/en/documentation/api/v1",
+  "auth": {
+    "type": "apiKey",
+    "required": true,
+    "strategy": "configurable",
+    "header": null,
+    "credential_env": "PUBLIC_API__CRYPTOCURRENCY__BITCULATOR__API_KEY"
+  },
+  "transport": {
+    "https": "yes",
+    "cors": "yes"
+  },
+  "request": {
+    "base_url": null,
+    "default_method": "GET"
+  },
+  "source": {
+    "repository": "https://github.com/public-apis/public-apis",
+    "fingerprint": "efca70e86556c93d998f24a72d8c26f19f65038a5db99dccb460e4b438dbbcb7"
+  }
+}
